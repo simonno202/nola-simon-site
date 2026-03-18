@@ -106,7 +106,6 @@ export function AdventureNav() {
           };
 
           return (
-            // @ts-expect-error — dynamic tag
             <Tag key={choice.label} {...commonProps}>
               {/* Arrow */}
               <span className="mt-[3px] flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-[1.5px] border-border-strong text-text-muted transition-all group-hover:border-pink group-hover:bg-pink group-hover:text-white">
