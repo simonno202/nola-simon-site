@@ -12,15 +12,15 @@ export const MEDIA_FEATURES: MediaItem[] = [
     title: "Why I Made a Midlife Career Switch",
     description:
       "A personal and professional story about reinvention, remote work, and building a business around the future of work.",
-    url: "https://macleans.ca/society/life/why-i-made-a-midlife-career-switch/",
+    url: "https://macleans.ca/society/why-i-made-a-midlife-career-switch/",
     type: "article",
   },
   {
-    outlet: "CBC Spark",
+    outlet: "CBC Radio",
     title: "The Future of Remote Work",
     description:
       "A national CBC conversation on what it takes to make hybrid work actually work.",
-    url: "https://www.cbc.ca/radio/spark",
+    url: "https://share.descript.com/view/GYjJZSY35zt",
     type: "audio",
   },
   {
