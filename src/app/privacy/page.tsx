@@ -43,10 +43,9 @@ export default function PrivacyPage() {
                 What I Collect
               </h2>
               <p>
-                If you subscribe to the newsletter, I collect your email
-                address. That&rsquo;s it. I don&rsquo;t collect names, phone
-                numbers, payment information, or anything else through this
-                website.
+                If you subscribe to the newsletter, I collect your name and
+                email address. I don&rsquo;t collect phone numbers, payment
+                information, or anything else through this website.
               </p>
             </section>
 
@@ -110,9 +109,9 @@ export default function PrivacyPage() {
                 Data Retention
               </h2>
               <p>
-                Your email address is retained on my mailing list until you
-                unsubscribe. Upon unsubscription or a deletion request, your
-                data is removed within 30 days. Server logs are retained by
+                Your name and email address are retained on my mailing list
+                until you unsubscribe. Upon unsubscription or a deletion
+                request, your data is removed within 30 days. Server logs are retained by
                 Vercel according to their standard retention policies.
               </p>
             </section>
