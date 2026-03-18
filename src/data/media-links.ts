@@ -75,7 +75,7 @@ export const SPEAKING_HIGHLIGHTS: MediaItem[] = [
     title: "Make Work Love You Back",
     description:
       "A talk on self-trust, intentional change, and building a working life that actually works — delivered at Canada's leading innovation festival.",
-    url: "https://elevate.ca/speakers/nola-simon/",
+    url: "https://share.descript.com/view/bmxPyvXskTE",
     type: "video",
   },
   {

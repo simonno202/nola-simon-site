@@ -51,7 +51,7 @@ export default function MediaPage() {
               >
                 Elevate Festival
               </Button>
-              <Button href="https://tidycal.com/nola/community-building-call-with-nola-simon-free" external variant="primary">
+              <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
                 Book an Intro Consultation
               </Button>
             </div>
@@ -191,7 +191,7 @@ export default function MediaPage() {
             and I don&rsquo;t waste your audience&rsquo;s time.
           </p>
 
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col items-center gap-3">
             <a
               href="mailto:nola@nolasimon.com?subject=Media%20Inquiry"
               className="inline-flex items-center gap-2 rounded-full border-[1.5px] border-white bg-white px-6 py-3 text-sm font-semibold text-pink transition-all hover:bg-white/90"
@@ -202,6 +202,7 @@ export default function MediaPage() {
               </svg>
               Contact for Media
             </a>
+            <p className="text-sm text-white/70">or email directly: <span className="text-white font-medium">nola@nolasimon.com</span></p>
           </div>
         </div>
       </SectionWrapper>
@@ -330,7 +331,7 @@ export default function MediaPage() {
           </p>
 
           <div className="mt-8">
-            <Button href="https://tidycal.com/nola/community-building-call-with-nola-simon-free" external variant="primary">
+            <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
               Book an Intro Consultation
             </Button>
           </div>
