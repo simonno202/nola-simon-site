@@ -123,7 +123,7 @@ export default function Navbar() {
                 onClick={() => setMenuOpen(false)}
                 className="w-full text-center text-[13px]"
               >
-                Book an Intro Consultation
+                Book a Consultation
               </Button>
             </li>
           </ul>
