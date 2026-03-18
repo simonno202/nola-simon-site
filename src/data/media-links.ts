@@ -38,7 +38,7 @@ export const MEDIA_FEATURES: MediaItem[] = [
       "Finally heading back to the office? It's getting more expensive to do that",
     description:
       "Perspective on the real cost of return-to-office policies for workers and employers.",
-    url: "https://www.cbc.ca/news",
+    url: "https://www.cbc.ca/news/business/canada-workers-commuting-costs-inflation-1.6427865",
     type: "article",
   },
   {
