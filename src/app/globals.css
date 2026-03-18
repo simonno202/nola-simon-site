@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f0e8;
+  --foreground: #1a1a2e;
+}
+
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-cream: #f5f0e8;
+  --color-navy: #1a1a2e;
+  --color-text-secondary: #6a6a5e;
+  --color-text-muted: #6e6e60;
+  --color-text-light: #7a7a6c;
+  --color-text-lighter: #8a8a7c;
+  --color-pink: #c9357f;
+  --color-pink-hover: #a82d6a;
+  --color-gold: #7a5a2e;
+  --color-gold-dark: #654a22;
+  --color-surface: #ffffff;
+  --color-surface-hover: #faf8f3;
+  --color-tag-bg: #f0ece2;
+  --color-border-light: #e8e4da;
+  --color-border-medium: #e0dcd2;
+  --color-border-input: #d8d4c8;
+  --color-border-strong: #d0cfc8;
+
+  /* Fonts */
+  --font-sans: var(--font-jakarta);
+  --font-mono: var(--font-jetbrains);
+
+  /* Custom spacing/sizing */
+  --max-width-content: 880px;
+  --max-width-reading: 680px;
+
+  /* Border radius */
+  --radius-card: 13px;
+  --radius-button: 9px;
+  --radius-input: 11px;
+  --radius-pill: 100px;
+
+  /* Animations */
+  --animate-fade-in-up: fade-in-up 0.3s ease forwards;
+  --animate-hero-in: hero-in 0.45s ease forwards;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base styles */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d0cfc8;
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: #ec419733;
+  color: #1a1a2e;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #c9357f;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
