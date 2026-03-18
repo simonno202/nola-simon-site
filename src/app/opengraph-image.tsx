@@ -124,18 +124,40 @@ export default async function Image() {
             The future isn&apos;t predicted. It&apos;s practiced.
           </div>
 
-          {/* URL */}
+          {/* CTA */}
           <div
             style={{
-              fontFamily: "monospace",
-              fontSize: 14,
-              color: "#7a7a6a",
-              marginTop: 40,
-              letterSpacing: "0.05em",
               display: "flex",
+              alignItems: "center",
+              marginTop: 36,
+              gap: 12,
             }}
           >
-            nolasimon.com
+            <div
+              style={{
+                fontFamily: "sans-serif",
+                fontSize: 14,
+                fontWeight: 600,
+                color: "#f5f0e8",
+                background: "#c9357f",
+                borderRadius: 24,
+                padding: "8px 20px",
+                display: "flex",
+              }}
+            >
+              Book a Consultation
+            </div>
+            <div
+              style={{
+                fontFamily: "monospace",
+                fontSize: 13,
+                color: "#7a7a6a",
+                letterSpacing: "0.05em",
+                display: "flex",
+              }}
+            >
+              nolasimon.com
+            </div>
           </div>
         </div>
 
@@ -177,6 +199,6 @@ export default async function Image() {
         </div>
       </div>
     ),
-    { width: 1200, height: 630 },
+    { width: 1200, height: 630, quality: 75 },
   );
 }

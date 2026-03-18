@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "Nola Simon",
     title: "Nola Simon — The Future Isn't Predicted. It's Practiced.",
     description:
-      "Strategic futurist Nola Simon helps leaders and organizations trust themselves to navigate what's next.",
+      "Strategic futurist, researcher & podcast host helping leaders read the signals, trust themselves, and build what's next. Based in Ontario, Canada.",
     images: [
       {
         url: "/og-image.jpg",
