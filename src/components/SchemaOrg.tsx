@@ -10,7 +10,7 @@ export function PersonSchema() {
       "Futurist, researcher, and podcast host helping leaders and organizations trust themselves to navigate what's next.",
     sameAs: [
       "https://www.linkedin.com/in/nolasimon/",
-      "https://nolasimon.substack.com",
+      "https://nolasimonhrcoe.substack.com",
       "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
       "https://podcasts.apple.com/us/podcast/id1602822494",
     ],
@@ -58,7 +58,7 @@ export function OrganizationSchema() {
     },
     sameAs: [
       "https://www.linkedin.com/in/nolasimon/",
-      "https://nolasimon.substack.com",
+      "https://nolasimonhrcoe.substack.com",
     ],
   };
 

@@ -16,7 +16,7 @@ export const WORK_ITEMS: WorkItem[] = [
     format: "Writing",
     description:
       "Weekly essays on trust, leadership, and the future of work. The free newsletter that started it all.",
-    url: "https://nolasimon.substack.com/",
+    url: "https://nolasimonhrcoe.substack.com/",
     source: "Substack",
   },
   {
@@ -94,7 +94,7 @@ export const WORK_ITEMS: WorkItem[] = [
     format: "Books",
     description:
       "The Everyday Futurism book is in progress. Sign up for the newsletter to be the first to know.",
-    url: "https://nolasimon.substack.com/",
+    url: "https://nolasimonhrcoe.substack.com/",
     source: "In Progress",
   },
 ];

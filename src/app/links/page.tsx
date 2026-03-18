@@ -44,7 +44,7 @@ const socialLinks = [
   },
   {
     label: "Substack",
-    href: "https://nolasimon.substack.com/",
+    href: "https://nolasimonhrcoe.substack.com/",
     icon: "substack",
   },
   {
