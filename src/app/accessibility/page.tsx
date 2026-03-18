@@ -108,7 +108,7 @@ export default function AccessibilityPage() {
               <p className="mt-3">
                 Email{" "}
                 <a
-                  href="mailto:nola@nolasimon.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com"
                   className="font-medium text-pink hover:underline"
                 >
                   nola@nolasimon.com

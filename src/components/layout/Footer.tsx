@@ -105,7 +105,7 @@ export default function Footer() {
             <p className="mt-2 font-sans text-[10px] leading-relaxed text-text-lighter/60">
               By subscribing, you consent to newsletters from Nola Simon
               Advisory. Unsubscribe via any email or contact{" "}
-              <a href="mailto:nola@nolasimon.com" className="underline hover:text-cream transition-colors">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com" className="underline hover:text-cream transition-colors">
                 nola@nolasimon.com
               </a>.{" "}
               <Link href="/privacy" className="underline hover:text-cream transition-colors">
@@ -169,7 +169,7 @@ export default function Footer() {
               For speaking engagements, advisory work, or media inquiries.
             </p>
             <a
-              href="mailto:nola@nolasimon.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com"
               className="mt-2 inline-block font-sans text-[14px] text-cream transition-colors hover:text-pink"
             >
               nola@nolasimon.com

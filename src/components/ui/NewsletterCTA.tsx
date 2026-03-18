@@ -110,7 +110,7 @@ export function NewsletterCTA({
       <p className="mx-auto mt-3 max-w-[420px] font-sans text-[11px] leading-relaxed text-text-lighter/80">
         By subscribing, you consent to receiving newsletters from Nola Simon
         Advisory. Unsubscribe anytime via the link in any email or email{" "}
-        <a href="mailto:nola@nolasimon.com" className="underline hover:text-cream transition-colors">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com" className="underline hover:text-cream transition-colors">
           nola@nolasimon.com
         </a>
         .{" "}

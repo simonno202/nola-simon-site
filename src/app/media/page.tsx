@@ -193,7 +193,7 @@ export default function MediaPage() {
 
           <div className="mt-8 flex flex-col items-center gap-3">
             <a
-              href="mailto:nola@nolasimon.com?subject=Media%20Inquiry"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com&su=Media%20Inquiry"
               className="inline-flex items-center gap-2 rounded-full border-[1.5px] border-white bg-white px-6 py-3 text-sm font-semibold text-pink transition-all hover:bg-white/90"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -237,7 +237,7 @@ export default function MediaPage() {
               </div>
               <p className="mt-3 text-[11px] text-text-muted">
                 Right-click to save, or{" "}
-                <a href="mailto:nola@nolasimon.com?subject=High-Res%20Headshots" className="text-pink hover:underline">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com&su=High-Res%20Headshots" className="text-pink hover:underline">
                   email for high-res files
                 </a>
               </p>

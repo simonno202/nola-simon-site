@@ -228,7 +228,7 @@ export default function LinksPage() {
         {/* ── Footer ── */}
         <div className="mt-12 flex flex-col items-center gap-3">
           <a
-            href="mailto:nola@nolasimon.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com"
             className="text-[13px] font-mono text-text-lighter/60 hover:text-pink transition-colors"
           >
             nola@nolasimon.com
