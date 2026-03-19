@@ -191,7 +191,16 @@ export default function AdvisorySpeakingPage() {
                 efficiency without accounting for trust.
               </p>
               <p className="mt-3 text-[13px] text-text-muted">
-                Hosted by Mel Elsbeth on the{" "}
+                Hosted by{" "}
+                <a
+                  href="https://www.linkedin.com/in/melieb/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-pink hover:underline"
+                >
+                  Melanie Elsbeth
+                </a>{" "}
+                on the{" "}
                 <a
                   href="https://mamawhatsnext.com/podcast/"
                   target="_blank"
