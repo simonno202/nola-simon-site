@@ -184,6 +184,18 @@ export default function AboutPage() {
                 workforce shift that&rsquo;s already underway and why trust is
                 the variable most companies aren&rsquo;t measuring.
               </p>
+              <p className="mt-3 text-[13px] text-text-muted">
+                Hosted by Mel on the{" "}
+                <a
+                  href="https://mamawhatsnext.com/podcast/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-pink hover:underline"
+                >
+                  Mama, What&rsquo;s Next
+                </a>{" "}
+                podcast.
+              </p>
             </div>
           </div>
         </div>

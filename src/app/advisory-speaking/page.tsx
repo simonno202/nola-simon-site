@@ -190,6 +190,18 @@ export default function AdvisorySpeakingPage() {
                 podcast on what organizations miss when they optimize for
                 efficiency without accounting for trust.
               </p>
+              <p className="mt-3 text-[13px] text-text-muted">
+                Hosted by Mel on the{" "}
+                <a
+                  href="https://mamawhatsnext.com/podcast/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-pink hover:underline"
+                >
+                  Mama, What&rsquo;s Next
+                </a>{" "}
+                podcast.
+              </p>
             </div>
             <VideoEmbed
               youtubeId="MQnWaZ3R9OY"
