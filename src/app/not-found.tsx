@@ -1,4 +1,5 @@
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
+import { SmartSuggestion } from "@/components/ui/SmartSuggestion";
 
 const CARDS = [
   {
@@ -57,7 +58,9 @@ export default function NotFound() {
 
           {/* ── High-confidence link ── */}
           <a
-            href="/podcast/practical-futurism-for-daily-life"
+            href="https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work/practical-futurism-for-daily-life/"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               display: "flex",
               alignItems: "center",
@@ -82,6 +85,9 @@ export default function NotFound() {
               </span>
             </span>
           </a>
+
+          {/* ── Smart suggestion ── */}
+          <SmartSuggestion />
 
           {/* ── Section label ── */}
           <p
@@ -149,7 +155,9 @@ export default function NotFound() {
               Looking for something specific that should exist?
             </p>
             <a
-              href="mailto:nola@nolasimon.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com&su=Broken%20Link%20Report"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ fontFamily: "var(--font-mono, monospace)", fontSize: "0.8rem", color: "#1a2b4a", textDecoration: "underline", textUnderlineOffset: "3px" }}
             >
               Let me know what you were looking for →
