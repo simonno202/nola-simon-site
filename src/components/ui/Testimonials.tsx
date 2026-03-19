@@ -109,7 +109,7 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
               href={testimonial.episodeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 inline-flex items-center gap-1 text-[11px] font-mono text-pink hover:underline"
+              className="mt-1 inline-flex items-center gap-1 text-[12px] font-mono text-pink hover:underline"
             >
               Listen to episode
               <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">

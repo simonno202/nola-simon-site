@@ -293,14 +293,14 @@ export default function NotFound() {
               <text x="621" y="463" fontFamily="sans-serif" fontSize="13" fontWeight="800" fill="white" textAnchor="middle">404</text>
               <text x="622" y="476" fontFamily="monospace" fontSize="9.5" fill="#6B6558" textAnchor="start" opacity="0.4">↓ Toronto</text>
 
-              {/* Road sparkles */}
-              <circle cx="618" cy="468" r="2" fill="#E8849E" opacity="0.45">
+              {/* Road sparkles — hidden when user prefers reduced motion */}
+              <circle className="sparkle" cx="618" cy="468" r="2" fill="#E8849E" opacity="0.45">
                 <animate attributeName="opacity" values="0.45;0.15;0.45" dur="3s" repeatCount="indefinite"/>
               </circle>
-              <circle cx="588" cy="452" r="1.8" fill="#E8849E" opacity="0.4">
+              <circle className="sparkle" cx="588" cy="452" r="1.8" fill="#E8849E" opacity="0.4">
                 <animate attributeName="opacity" values="0.4;0.12;0.4" dur="2.6s" repeatCount="indefinite"/>
               </circle>
-              <circle cx="562" cy="438" r="2" fill="#E8849E" opacity="0.38">
+              <circle className="sparkle" cx="562" cy="438" r="2" fill="#E8849E" opacity="0.38">
                 <animate attributeName="opacity" values="0.38;0.1;0.38" dur="3.2s" repeatCount="indefinite"/>
               </circle>
 

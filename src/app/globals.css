@@ -15,8 +15,8 @@
   --color-text-muted: #6e6e60;
   --color-text-light: #7a7a6c;
   --color-text-lighter: #8a8a7c;
-  --color-pink: #c9357f;
-  --color-pink-hover: #a82d6a;
+  --color-pink: #b52e71;
+  --color-pink-hover: #962763;
   --color-gold: #7a5a2e;
   --color-gold-dark: #654a22;
   --color-surface: #ffffff;
@@ -113,7 +113,14 @@ html {
 
 /* Focus styles for accessibility */
 :focus-visible {
-  outline: 2px solid #c9357f;
+  outline: 2px solid #b52e71;
   outline-offset: 2px;
   border-radius: 4px;
+}
+
+/* Suppress decorative SVG sparkle animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .sparkle {
+    display: none;
+  }
 }
