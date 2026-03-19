@@ -124,3 +124,126 @@ html {
     display: none;
   }
 }
+
+/* ── Blog / MDX prose styles ── */
+.prose-content {
+  color: var(--color-navy);
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.prose-content p {
+  margin-top: 0;
+  margin-bottom: 1.4em;
+}
+
+.prose-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+  line-height: 1.35;
+}
+
+.prose-content h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  line-height: 1.35;
+}
+
+.prose-content h4,
+.prose-content h5,
+.prose-content h6 {
+  font-weight: 600;
+  color: var(--color-navy);
+  margin-top: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+.prose-content a {
+  color: var(--color-pink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+
+.prose-content a:hover {
+  color: var(--color-pink-hover);
+}
+
+.prose-content ul,
+.prose-content ol {
+  padding-left: 1.4em;
+  margin-bottom: 1.4em;
+}
+
+.prose-content ul {
+  list-style-type: disc;
+}
+
+.prose-content ol {
+  list-style-type: decimal;
+}
+
+.prose-content li {
+  margin-bottom: 0.4em;
+}
+
+.prose-content blockquote {
+  border-left: 3px solid var(--color-pink);
+  margin: 1.75em 0;
+  padding: 0.5em 0 0.5em 1.25em;
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
+
+.prose-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.prose-content code {
+  font-family: var(--font-mono), monospace;
+  font-size: 0.875em;
+  background: var(--color-tag-bg);
+  color: var(--color-navy);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+.prose-content pre {
+  background: var(--color-navy);
+  color: var(--color-cream);
+  padding: 1.25em 1.5em;
+  border-radius: var(--radius-card);
+  overflow-x: auto;
+  margin-bottom: 1.4em;
+  font-size: 0.875em;
+  line-height: 1.65;
+}
+
+.prose-content pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+}
+
+.prose-content hr {
+  border: none;
+  border-top: 1px solid var(--color-border-medium);
+  margin: 2em 0;
+}
+
+.prose-content strong {
+  font-weight: 600;
+  color: var(--color-navy);
+}
+
+.prose-content em {
+  font-style: italic;
+}
+

@@ -4,7 +4,7 @@ export const NAV_ITEMS = [
   { label: "Advisory & Speaking", href: "/advisory-speaking" },
   { label: "Media", href: "/media" },
   { label: "Podcast", href: "/podcast" },
-  { label: "Work", href: "/work" },
+  { label: "Writing", href: "/blog" },
 ] as const;
 
 export const SOCIAL_LINKS = {
