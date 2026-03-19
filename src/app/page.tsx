@@ -52,8 +52,31 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="aspect-video w-full max-w-xl mx-auto lg:mx-0 rounded-[var(--radius-card)] overflow-hidden">
-            <FractalHero />
+          <div>
+            <div className="aspect-video w-full max-w-xl mx-auto lg:mx-0 rounded-[var(--radius-card)] overflow-hidden">
+              <FractalHero />
+            </div>
+            <p className="mt-2 text-center text-[11px] text-text-muted">
+              Hosted by{" "}
+              <a
+                href="https://www.linkedin.com/in/melieb/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-pink hover:underline"
+              >
+                Melanie Elsbeth
+              </a>{" "}
+              on the{" "}
+              <a
+                href="https://mamawhatsnext.com/podcast/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-pink hover:underline"
+              >
+                Mama, What&rsquo;s Next
+              </a>{" "}
+              podcast.
+            </p>
           </div>
         </div>
       </SectionWrapper>
