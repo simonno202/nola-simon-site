@@ -3,8 +3,8 @@ export function PersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Nola Simon",
-    url: "https://nolasimon.com",
-    image: "https://nolasimon.com/images/nola-hero.jpg",
+    url: "https://www.everydayfuturism.com",
+    image: "https://www.everydayfuturism.com/images/nola-hero.jpg",
     jobTitle: "Futurist & Researcher",
     description:
       "Futurist, researcher, and podcast host helping leaders and organizations trust themselves to navigate what's next.",
@@ -43,8 +43,8 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Nola Simon Advisory",
-    url: "https://nolasimon.com",
-    logo: "https://nolasimon.com/images/nola-hero.jpg",
+    url: "https://www.everydayfuturism.com",
+    logo: "https://www.everydayfuturism.com/images/nola-hero.jpg",
     founder: {
       "@type": "Person",
       name: "Nola Simon",
@@ -77,7 +77,7 @@ export function PodcastSchema() {
     name: "Hope + Possibilities: A Love Letter to the Future of Work",
     description:
       "Conversations about the future of work with leaders, thinkers, and practitioners building what's next with honesty, self-trust, and a willingness to challenge the status quo.",
-    url: "https://nolasimon.com/podcast",
+    url: "https://www.everydayfuturism.com/podcast",
     author: {
       "@type": "Person",
       name: "Nola Simon",
@@ -104,7 +104,7 @@ export function WebSiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Nola Simon | Everyday Futurism",
-    url: "https://nolasimon.com",
+    url: "https://www.everydayfuturism.com",
     description:
       "Strategic futurist Nola Simon helps leaders and organizations trust themselves to read the signals, question the status quo, and build what's next.",
     publisher: {

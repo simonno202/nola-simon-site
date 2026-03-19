@@ -70,10 +70,10 @@ const socialLinks = [
 ];
 
 const siteLinks = [
-  { label: "Website", href: "https://nolasimon.com" },
-  { label: "Advisory & Speaking", href: "https://nolasimon.com/advisory-speaking" },
-  { label: "Podcast Episodes", href: "https://nolasimon.com/podcast" },
-  { label: "Work — Writing, Audio, Video", href: "https://nolasimon.com/work" },
+  { label: "Website", href: "https://www.everydayfuturism.com" },
+  { label: "Advisory & Speaking", href: "https://www.everydayfuturism.com/advisory-speaking" },
+  { label: "Podcast Episodes", href: "https://www.everydayfuturism.com/podcast" },
+  { label: "Work — Writing, Audio, Video", href: "https://www.everydayfuturism.com/work" },
 ];
 
 /* ── Icons ── */
