@@ -43,7 +43,7 @@ export default function HomePage() {
                 Work With Me
               </Button>
               <Button
-                href="https://tidycal.com/nola/community-building-call-with-nola-simon-free"
+                href="https://tidycal.com/nola/intro-consultation-nola-simon"
                 external
                 variant="secondary"
               >

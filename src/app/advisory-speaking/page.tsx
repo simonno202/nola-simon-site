@@ -39,7 +39,7 @@ export default function AdvisorySpeakingPage() {
             </p>
 
             <div className="mt-8">
-              <Button href="https://tidycal.com/nola/community-building-call-with-nola-simon-free" external variant="primary">
+              <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
                 Book an Intro Consultation
               </Button>
             </div>
@@ -109,7 +109,7 @@ export default function AdvisorySpeakingPage() {
             </div>
 
             <p className="mt-6">
-              <Button href="https://tidycal.com/nola/community-building-call-with-nola-simon-free" external variant="secondary">
+              <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="secondary">
                 Start a Conversation
               </Button>
             </p>
@@ -228,7 +228,7 @@ export default function AdvisorySpeakingPage() {
             </p>
 
             <p className="mt-2">
-              <Button href="https://tidycal.com/nola/community-building-call-with-nola-simon-free" external variant="secondary">
+              <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="secondary">
                 Start a Conversation
               </Button>
             </p>
@@ -255,7 +255,7 @@ export default function AdvisorySpeakingPage() {
           </p>
 
           <div className="mt-8">
-            <Button href="https://tidycal.com/nola/community-building-call-with-nola-simon-free" external variant="primary">
+            <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
               Book an Intro Consultation
             </Button>
           </div>
