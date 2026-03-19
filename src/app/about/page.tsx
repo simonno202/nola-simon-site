@@ -18,7 +18,7 @@ export default function AboutPage() {
   return (
     <main>
       {/* ── Hero ── */}
-      <SectionWrapper className="bg-cream py-24 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-10">
           {/* Text */}
           <div>
@@ -52,7 +52,7 @@ export default function AboutPage() {
       </SectionWrapper>
 
       {/* ── The Story ── */}
-      <SectionWrapper className="bg-cream py-24">
+      <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-[var(--max-width-reading)]">
           <div className="space-y-6 text-[15px] leading-relaxed text-text-secondary">
             <p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
       </SectionWrapper>
 
       {/* ── What I Believe ── */}
-      <SectionWrapper className="bg-cream py-24">
+      <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-4xl">
           <Eyebrow>WHAT I BELIEVE</Eyebrow>
 
@@ -155,7 +155,7 @@ export default function AboutPage() {
       </SectionWrapper>
 
       {/* ── Featured Clip ── */}
-      <SectionWrapper className="bg-surface py-20">
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
         <div className="max-w-4xl">
           <div className="grid gap-10 lg:grid-cols-[320px_1fr] lg:items-center">
             <VideoEmbed
@@ -190,7 +190,7 @@ export default function AboutPage() {
       </SectionWrapper>
 
       {/* ── Credentials ── */}
-      <SectionWrapper className="bg-cream py-20">
+      <SectionWrapper className="bg-cream py-10 lg:py-20">
         <div className="max-w-3xl">
           <Eyebrow>THE WORK</Eyebrow>
 

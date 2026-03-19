@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <main>
       {/* ── Hero ── */}
-      <SectionWrapper className="bg-cream py-20 lg:py-28 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-20 xl:py-28 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_420px] lg:items-center lg:gap-10">
           <div>
             <Eyebrow>FUTURIST &amp; RESEARCHER</Eyebrow>
@@ -59,10 +59,12 @@ export default function HomePage() {
       </SectionWrapper>
 
       {/* ── Social Proof ── */}
-      <ProofBar className="py-8" />
+      <SectionWrapper className="bg-cream py-6 md:py-8">
+        <ProofBar />
+      </SectionWrapper>
 
       {/* ── Everyday Futurism ── */}
-      <SectionWrapper className="bg-cream py-20">
+      <SectionWrapper className="bg-cream py-10 lg:py-20">
         <div className="max-w-3xl">
           <Eyebrow>EVERYDAY FUTURISM</Eyebrow>
 
@@ -114,17 +116,17 @@ export default function HomePage() {
       </SectionWrapper>
 
       {/* ── Social Proof ── */}
-      <SectionWrapper className="bg-surface py-20">
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
         <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
       {/* ── Newsletter CTA ── */}
-      <div id="newsletter">
+      <SectionWrapper id="newsletter" className="bg-cream py-10 lg:py-16">
         <NewsletterCTA />
-      </div>
+      </SectionWrapper>
 
       {/* ── How I Work ── */}
-      <SectionWrapper className="bg-cream py-20">
+      <SectionWrapper className="bg-cream py-10 lg:py-20">
         <div className="max-w-4xl">
           <Eyebrow>HOW I WORK</Eyebrow>
 

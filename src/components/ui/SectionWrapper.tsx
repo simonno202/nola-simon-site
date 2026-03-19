@@ -12,11 +12,12 @@ export function SectionWrapper({
   id,
 }: SectionWrapperProps) {
   return (
-    <section
-      id={id}
-      className={`mx-auto px-[28px] ${wide ? "w-full" : "max-w-[--max-width-content]"} ${className}`.trim()}
-    >
-      {children}
+    <section id={id} className={className}>
+      <div
+        className={`mx-auto px-5 sm:px-7 ${wide ? "w-full" : "max-w-[1100px]"}`}
+      >
+        {children}
+      </div>
     </section>
   );
 }

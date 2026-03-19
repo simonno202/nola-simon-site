@@ -13,7 +13,7 @@ export default function WorkPage() {
   return (
     <main>
       {/* ── Hero ── */}
-      <SectionWrapper className="bg-cream py-24 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="max-w-3xl">
           <Eyebrow>WORK</Eyebrow>
 
@@ -33,7 +33,7 @@ export default function WorkPage() {
       </SectionWrapper>
 
       {/* ── Filterable Work Grid ── */}
-      <SectionWrapper className="bg-cream py-8 pb-24">
+      <SectionWrapper className="bg-cream py-6 pb-12 lg:pb-24">
         <WorkGrid />
       </SectionWrapper>
     </main>

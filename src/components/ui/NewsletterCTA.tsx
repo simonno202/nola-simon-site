@@ -82,7 +82,7 @@ export function NewsletterCTA({
       {status !== "success" && (
         <form
           onSubmit={handleSubmit}
-          className="mx-auto mt-6 flex max-w-[420px] gap-3"
+          className="mx-auto mt-6 flex flex-col sm:flex-row max-w-[420px] gap-3"
         >
           <label htmlFor="newsletter-email" className="sr-only">
             Email address
@@ -100,7 +100,7 @@ export function NewsletterCTA({
           <button
             type="submit"
             disabled={status === "loading"}
-            className="rounded-[--radius-button] bg-pink px-6 py-3 font-sans text-[14px] font-medium text-white transition-colors hover:bg-pink-hover disabled:opacity-60"
+            className="w-full sm:w-auto rounded-[--radius-button] bg-pink px-6 py-3 font-sans text-[14px] font-medium text-white transition-colors hover:bg-pink-hover disabled:opacity-60"
           >
             {status === "loading" ? "..." : "Subscribe"}
           </button>

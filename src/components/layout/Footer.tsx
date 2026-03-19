@@ -48,7 +48,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-navy text-cream">
-      <div className="mx-auto max-w-[--max-width-content] px-[28px] py-16">
+      <div className="mx-auto max-w-[1100px] px-5 sm:px-7 py-10 md:py-16">
         {/* 4-column grid */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Col 1: Newsletter */}

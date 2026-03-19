@@ -17,7 +17,7 @@ export default function PodcastPage() {
     <main>
       <PodcastSchema />
       {/* ── Show Header ── */}
-      <SectionWrapper className="bg-cream py-24 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="max-w-3xl">
           <Eyebrow>PODCAST</Eyebrow>
 
@@ -72,12 +72,12 @@ export default function PodcastPage() {
       </SectionWrapper>
 
       {/* ── Episode Archive ── */}
-      <SectionWrapper className="bg-cream py-24">
+      <SectionWrapper className="bg-cream py-12 lg:py-24">
         <PodcastSearch />
       </SectionWrapper>
 
       {/* ── Reviews & Shares CTA ── */}
-      <SectionWrapper className="bg-surface py-20">
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
         <div className="max-w-3xl">
           <h2 className="text-2xl font-semibold text-navy">
             If this show has made you think differently, help it find more

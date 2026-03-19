@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function AccessibilityPage() {
   return (
     <main>
-      <SectionWrapper className="bg-cream py-24 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="max-w-[var(--max-width-reading)]">
           <Eyebrow>ACCESSIBILITY</Eyebrow>
 

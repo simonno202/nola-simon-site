@@ -16,7 +16,7 @@ export default function AdvisorySpeakingPage() {
   return (
     <main>
       {/* ── Hero ── */}
-      <SectionWrapper className="bg-cream py-24 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-10">
           {/* Text */}
           <div>
@@ -60,7 +60,7 @@ export default function AdvisorySpeakingPage() {
       </SectionWrapper>
 
       {/* ── Advisory ── */}
-      <SectionWrapper className="bg-cream py-24">
+      <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-3xl">
           <Eyebrow>ADVISORY</Eyebrow>
 
@@ -118,7 +118,7 @@ export default function AdvisorySpeakingPage() {
       </SectionWrapper>
 
       {/* ── Keynotes ── */}
-      <SectionWrapper className="bg-cream py-24">
+      <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-3xl">
           <Eyebrow>KEYNOTES</Eyebrow>
 
@@ -167,7 +167,7 @@ export default function AdvisorySpeakingPage() {
       </SectionWrapper>
 
       {/* ── Featured Clip ── */}
-      <SectionWrapper className="bg-surface py-20">
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
         <div className="max-w-4xl">
           <div className="grid gap-10 lg:grid-cols-[1fr_320px] lg:items-center">
             <div>
@@ -202,7 +202,7 @@ export default function AdvisorySpeakingPage() {
       </SectionWrapper>
 
       {/* ── 1:1 Consulting ── */}
-      <SectionWrapper className="bg-cream py-24">
+      <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-3xl">
           <Eyebrow>CONSULTING</Eyebrow>
 
@@ -237,12 +237,12 @@ export default function AdvisorySpeakingPage() {
       </SectionWrapper>
 
       {/* ── Social Proof ── */}
-      <SectionWrapper className="bg-surface py-20">
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
         <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
       {/* ── Final CTA ── */}
-      <SectionWrapper className="bg-navy py-24 text-cream">
+      <SectionWrapper className="bg-navy py-12 lg:py-24 text-cream">
         <div className="max-w-3xl text-center mx-auto">
           <h2 className="text-2xl font-semibold">
             Every engagement starts the same way. A conversation.

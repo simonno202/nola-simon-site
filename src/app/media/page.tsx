@@ -16,7 +16,7 @@ export default function MediaPage() {
   return (
     <main>
       {/* ── Hero ── */}
-      <SectionWrapper className="bg-cream py-24 animate-hero-in">
+      <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-10">
           {/* Text */}
           <div>
@@ -72,7 +72,7 @@ export default function MediaPage() {
       </SectionWrapper>
 
       {/* ── Featured In ── */}
-      <SectionWrapper id="media" className="bg-cream py-24">
+      <SectionWrapper id="media" className="bg-cream py-12 lg:py-24">
         <div className="max-w-4xl">
           <Eyebrow>FEATURED IN</Eyebrow>
 
@@ -110,7 +110,7 @@ export default function MediaPage() {
       </SectionWrapper>
 
       {/* ── Speaking Highlights ── */}
-      <SectionWrapper id="speaking" className="bg-cream py-24">
+      <SectionWrapper id="speaking" className="bg-cream py-12 lg:py-24">
         <div className="max-w-4xl">
           <Eyebrow>SPEAKING HIGHLIGHTS</Eyebrow>
 
@@ -148,7 +148,7 @@ export default function MediaPage() {
       </SectionWrapper>
 
       {/* ── Guest Podcast Appearances ── */}
-      <SectionWrapper className="bg-surface py-24">
+      <SectionWrapper className="bg-surface py-12 lg:py-24">
         <div className="max-w-4xl">
           <Eyebrow>GUEST APPEARANCES</Eyebrow>
 
@@ -178,7 +178,7 @@ export default function MediaPage() {
       </SectionWrapper>
 
       {/* ── Media Callout ── */}
-      <SectionWrapper className="bg-pink py-20">
+      <SectionWrapper className="bg-pink py-10 lg:py-20">
         <div className="max-w-3xl text-center mx-auto">
           <h2 className="text-2xl font-semibold text-white">
             Need a sharp, credible voice on the future of work?
@@ -208,7 +208,7 @@ export default function MediaPage() {
       </SectionWrapper>
 
       {/* ── Press Kit ── */}
-      <SectionWrapper className="bg-surface py-20">
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
         <div className="max-w-4xl mx-auto">
           <div className="text-center">
             <Eyebrow>PRESS KIT</Eyebrow>
@@ -316,7 +316,7 @@ export default function MediaPage() {
       </SectionWrapper>
 
       {/* ── Bio & CTA ── */}
-      <SectionWrapper className="bg-navy py-24 text-cream">
+      <SectionWrapper className="bg-navy py-12 lg:py-24 text-cream">
         <div className="max-w-3xl text-center mx-auto">
           <p className="text-[15px] leading-relaxed text-cream/80">
             Futurist, researcher, and host of the Hope + Possibilities
