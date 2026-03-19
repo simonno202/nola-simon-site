@@ -185,7 +185,7 @@ export default function AboutPage() {
                 the variable most companies aren&rsquo;t measuring.
               </p>
               <p className="mt-3 text-[13px] text-text-muted">
-                Hosted by Mel on the{" "}
+                Hosted by Mel Elsbeth on the{" "}
                 <a
                   href="https://mamawhatsnext.com/podcast/"
                   target="_blank"
