@@ -101,14 +101,14 @@ export function SmartSuggestion() {
       <p
         style={{
           fontFamily: "var(--font-mono, monospace)",
-          fontSize: "0.7rem",
+          fontSize: "0.75rem",
           color: "#6B6558",
-          textTransform: "uppercase",
-          letterSpacing: "0.1em",
-          marginBottom: "0.4rem",
+          marginBottom: "0.5rem",
+          lineHeight: 1.5,
         }}
       >
-        Did you mean?
+        Futurism isn&rsquo;t prediction, and I can&rsquo;t read your mind —
+        but just maybe you&rsquo;re looking for:
       </p>
       <a
         href={best.path}
