@@ -162,7 +162,10 @@ export default function NotFound() {
               <defs>
                 <filter id="nf-glow" x="-20%" y="-20%" width="140%" height="140%">
                   <feGaussianBlur stdDeviation="4" result="blur"/>
-                  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+                  <feMerge>
+                    <feMergeNode in="blur"/>
+                    <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
                 </filter>
               </defs>
 
@@ -170,104 +173,147 @@ export default function NotFound() {
               <rect width="800" height="480" fill="#E5E0D1"/>
 
               {/* Terrain texture */}
-              <ellipse cx="130" cy="400" rx="130" ry="45" fill="#DDD8C8" opacity="0.4"/>
-              <ellipse cx="660" cy="385" rx="140" ry="48" fill="#DDD8C8" opacity="0.32"/>
-              <ellipse cx="710" cy="175" rx="75" ry="55" fill="#DDD8C8" opacity="0.22"/>
+              <ellipse cx="120" cy="402" rx="118" ry="40" fill="#DDD8C8" opacity="0.35"/>
+              <ellipse cx="665" cy="385" rx="132" ry="44" fill="#DDD8C8" opacity="0.28"/>
+              <ellipse cx="718" cy="170" rx="68" ry="50" fill="#DDD8C8" opacity="0.20"/>
 
-              {/* ── LAKE SIMCOE ── */}
-
-              {/* Main basin — flatter north shore, angular NE, straighter west side */}
+              {/*
+                LAKE SIMCOE — main body + Cook's Bay only.
+                Single closed path tracing the full perimeter clockwise from NW.
+                Main basin: wide landscape shape, spans x=220–690, y=68–308.
+                Cook's Bay: narrow arm going south, x=480–515, y=308–425.
+                No Kempenfelt Bay.
+              */}
               <path
-                d="M282,58 L365,44 L450,40 L540,42 L590,50 Q632,60 652,90 Q668,122 660,162 Q650,200 632,232 Q610,262 580,282 Q548,298 515,308 Q485,315 458,315 Q430,315 406,306 Q375,292 345,274 Q314,254 298,235 Q284,200 282,155 Q280,108 282,58 Z"
+                d="
+                  M 220,68
+                  Q 370,48 510,48
+                  Q 590,50 655,72
+                  Q 692,98 690,148
+                  Q 688,195 665,232
+                  Q 640,265 602,282
+                  Q 562,298 515,308
+                  Q 516,335 514,368
+                  Q 510,400 494,420
+                  Q 480,430 462,423
+                  Q 445,412 446,382
+                  Q 448,350 458,322
+                  Q 468,306 480,304
+                  Q 448,296 412,284
+                  Q 368,268 330,250
+                  Q 295,230 265,212
+                  Q 238,192 225,158
+                  Q 218,122 220,82
+                  Q 220,70 220,68 Z
+                "
                 fill="#9CBFD2"
-                opacity="0.82"
-              />
-              {/* Main basin highlight */}
-              <path
-                d="M298,72 L368,60 L450,57 L532,58 L580,66 Q615,78 630,108 Q642,140 635,174 Q622,212 602,240 Q576,268 545,284 Q512,298 480,304 Q452,308 430,302 Q400,290 372,274 Q345,256 332,236 Q320,210 320,175 Q318,132 326,96 Q338,74 298,72 Z"
-                fill="#B4D4E2"
-                opacity="0.22"
+                opacity="0.85"
               />
 
-              {/* Kempenfelt Bay — long arm going west */}
+              {/* Inner highlight */}
               <path
-                d="M298,228 Q268,232 232,236 Q195,240 162,238 Q132,234 108,228 Q90,222 94,214 Q100,206 128,206 Q162,207 200,214 Q235,220 268,222 Q290,222 300,220 Z"
-                fill="#9CBFD2"
-                opacity="0.82"
-              />
-              {/* Kempenfelt highlight */}
-              <path
-                d="M292,224 Q260,228 220,232 Q185,234 158,230 Q136,226 128,220 Q134,214 160,215 Q196,216 232,220 Q262,222 288,220 Z"
-                fill="#B4D4E2"
-                opacity="0.2"
+                d="
+                  M 248,90
+                  Q 380,68 510,70
+                  Q 590,72 645,92
+                  Q 678,114 675,158
+                  Q 672,200 648,234
+                  Q 620,262 582,278
+                  Q 545,294 505,300
+                  Q 468,304 445,298
+                  Q 405,286 370,268
+                  Q 330,248 300,228
+                  Q 268,205 252,170
+                  Q 240,138 248,104
+                  Q 248,94 248,90 Z
+                "
+                fill="#B8D8E8"
+                opacity="0.20"
               />
 
-              {/* Cook&apos;s Bay — narrower, going south */}
-              <path
-                d="M445,312 Q465,315 472,338 Q478,365 472,392 Q465,415 450,424 Q436,430 422,422 Q410,412 408,388 Q406,362 414,338 Q422,315 442,310 Z"
-                fill="#9CBFD2"
-                opacity="0.82"
-              />
-
-              {/* Georgina Island */}
-              <ellipse cx="462" cy="292" rx="20" ry="7" fill="#DDD8C8" opacity="0.72" transform="rotate(-8,462,292)"/>
+              {/* Georgina Island — south end of main basin */}
+              <ellipse cx="508" cy="280" rx="20" ry="7" fill="#DDD8C8" opacity="0.72" transform="rotate(-8,508,280)"/>
 
               {/* ── Greenery ── */}
-              <circle cx="88" cy="205" r="17" fill="#6FA878" opacity="0.42"/>
-              <circle cx="72" cy="220" r="13" fill="#5D9468" opacity="0.36"/>
-              <circle cx="105" cy="225" r="14" fill="#7DB888" opacity="0.32"/>
-              <circle cx="65" cy="196" r="10" fill="#88C292" opacity="0.28"/>
-              <circle cx="98" cy="245" r="11" fill="#6FA878" opacity="0.28"/>
-              <circle cx="195" cy="58" r="14" fill="#6FA878" opacity="0.32"/>
-              <circle cx="180" cy="74" r="11" fill="#5D9468" opacity="0.28"/>
-              <circle cx="330" cy="22" r="10" fill="#6FA878" opacity="0.26"/>
-              <circle cx="475" cy="18" r="9" fill="#5D9468" opacity="0.22"/>
-              <circle cx="595" cy="30" r="11" fill="#7DB888" opacity="0.24"/>
-              <circle cx="704" cy="118" r="20" fill="#6FA878" opacity="0.36"/>
-              <circle cx="725" cy="138" r="15" fill="#5D9468" opacity="0.30"/>
-              <circle cx="682" cy="136" r="13" fill="#7DB888" opacity="0.28"/>
-              <circle cx="718" cy="295" r="13" fill="#6FA878" opacity="0.26"/>
-              <circle cx="335" cy="368" r="14" fill="#6FA878" opacity="0.38"/>
-              <circle cx="320" cy="385" r="11" fill="#5D9468" opacity="0.32"/>
-              <circle cx="348" cy="388" r="9" fill="#7DB888" opacity="0.28"/>
-              <circle cx="545" cy="398" r="13" fill="#6FA878" opacity="0.26"/>
-              <circle cx="175" cy="398" r="11" fill="#7DB888" opacity="0.24"/>
-              <circle cx="58" cy="338" r="9" fill="#6FA878" opacity="0.20"/>
-              <circle cx="755" cy="418" r="11" fill="#88C292" opacity="0.18"/>
+              <circle cx="155" cy="55" r="13" fill="#6FA878" opacity="0.30"/>
+              <circle cx="140" cy="72" r="10" fill="#5D9468" opacity="0.26"/>
+              <circle cx="178" cy="65" r="9" fill="#7DB888" opacity="0.24"/>
+              <circle cx="88" cy="115" r="15" fill="#6FA878" opacity="0.34"/>
+              <circle cx="72" cy="132" r="11" fill="#5D9468" opacity="0.28"/>
+              <circle cx="105" cy="128" r="12" fill="#7DB888" opacity="0.26"/>
+              <circle cx="55" cy="210" r="13" fill="#6FA878" opacity="0.28"/>
+              <circle cx="40" cy="228" r="10" fill="#5D9468" opacity="0.24"/>
+              <circle cx="72" cy="225" r="9" fill="#88C292" opacity="0.22"/>
+              <circle cx="100" cy="300" r="12" fill="#6FA878" opacity="0.26"/>
+              <circle cx="82" cy="318" r="9" fill="#5D9468" opacity="0.22"/>
+              <circle cx="290" cy="22" r="10" fill="#6FA878" opacity="0.24"/>
+              <circle cx="465" cy="15" r="9" fill="#5D9468" opacity="0.20"/>
+              <circle cx="595" cy="28" r="11" fill="#7DB888" opacity="0.22"/>
+              <circle cx="715" cy="115" r="19" fill="#6FA878" opacity="0.34"/>
+              <circle cx="738" cy="135" r="13" fill="#5D9468" opacity="0.28"/>
+              <circle cx="695" cy="132" r="12" fill="#7DB888" opacity="0.26"/>
+              <circle cx="728" cy="295" r="12" fill="#6FA878" opacity="0.24"/>
+              <circle cx="745" cy="312" r="9" fill="#5D9468" opacity="0.20"/>
+              <circle cx="330" cy="368" r="13" fill="#6FA878" opacity="0.36"/>
+              <circle cx="315" cy="386" r="10" fill="#5D9468" opacity="0.30"/>
+              <circle cx="348" cy="385" r="8" fill="#7DB888" opacity="0.26"/>
+              <circle cx="395" cy="395" r="11" fill="#6FA878" opacity="0.28"/>
+              <circle cx="548" cy="398" r="12" fill="#6FA878" opacity="0.26"/>
+              <circle cx="565" cy="415" r="9" fill="#5D9468" opacity="0.22"/>
+              <circle cx="188" cy="395" r="10" fill="#7DB888" opacity="0.22"/>
+              <circle cx="58" cy="342" r="9" fill="#6FA878" opacity="0.20"/>
+              <circle cx="760" cy="418" r="10" fill="#88C292" opacity="0.18"/>
 
-              {/* ── Highway 404 — pink brick road ── */}
+              {/* ── Highway 404 — Toronto to Keswick ── */}
               <path
-                d="M468,480 Q466,460 463,440 Q460,420 456,405 Q452,395 446,385"
+                d="M 464,480 Q 463,462 462,445 Q 462,432 462,424"
                 stroke="#E8849E" strokeWidth="12" fill="none" strokeLinecap="round" opacity="0.2"
                 filter="url(#nf-glow)"
               />
               <path
-                d="M468,480 Q466,460 463,440 Q460,420 456,405 Q452,395 446,385"
+                d="M 464,480 Q 463,462 462,445 Q 462,432 462,424"
                 stroke="#D4567A" strokeWidth="5.5" fill="none" strokeLinecap="round"
               />
               <path
-                d="M468,480 Q466,460 463,440 Q460,420 456,405 Q452,395 446,385"
+                d="M 464,480 Q 463,462 462,445 Q 462,432 462,424"
                 stroke="#E8849E" strokeWidth="1.5" fill="none" strokeDasharray="3,9" strokeLinecap="round" opacity="0.65"
               />
 
               {/* Highway shield */}
-              <rect x="480" y="428" width="42" height="28" rx="5" fill="#D4567A"/>
-              <rect x="482" y="430" width="38" height="24" rx="4" fill="none" stroke="white" strokeWidth="0.8" opacity="0.35"/>
-              <text x="501" y="447" fontFamily="sans-serif" fontSize="13" fontWeight="800" fill="white" textAnchor="middle">404</text>
-              <text x="524" y="472" fontFamily="monospace" fontSize="9.5" fill="#6B6558" textAnchor="start" opacity="0.4">↓ Toronto</text>
+              <rect x="478" y="440" width="42" height="28" rx="5" fill="#D4567A"/>
+              <rect x="480" y="442" width="38" height="24" rx="4" fill="none" stroke="white" strokeWidth="0.8" opacity="0.35"/>
+              <text x="499" y="459" fontFamily="sans-serif" fontSize="13" fontWeight="800" fill="white" textAnchor="middle">404</text>
+              <text x="522" y="473" fontFamily="monospace" fontSize="9.5" fill="#6B6558" textAnchor="start" opacity="0.4">↓ Toronto</text>
 
-              {/* ── Keswick pin — moved right, off the water ── */}
-              <ellipse cx="462" cy="388" rx="11" ry="3.5" fill="#B8405F" opacity="0.12"/>
-              <path d="M462,382 C462,363 442,353 442,338 C442,327 451,318 462,318 C473,318 482,327 482,338 C482,353 462,363 462,382 Z" fill="#D4567A"/>
-              <path d="M452,331 C452,326 456,322 461,322 C464,322 467,324 468,327" stroke="white" strokeWidth="1.5" fill="none" opacity="0.3" strokeLinecap="round"/>
-              <circle cx="462" cy="338" r="8" fill="white" opacity="0.92"/>
-              <circle cx="462" cy="338" r="3.5" fill="#D4567A"/>
-              <rect x="488" y="326" width="108" height="26" rx="7" fill="#D4567A"/>
-              <rect x="490" y="328" width="104" height="22" rx="6" fill="none" stroke="white" strokeWidth="0.6" opacity="0.25"/>
-              <text x="542" y="343" fontFamily="sans-serif" fontSize="12" fontWeight="700" fill="white" textAnchor="middle" letterSpacing="0.02em">Nola Simon</text>
-              <line x1="482" y1="342" x2="488" y2="342" stroke="#D4567A" strokeWidth="2" strokeLinecap="round"/>
+              {/* Road sparkles */}
+              <circle cx="463" cy="465" r="2" fill="#E8849E" opacity="0.45">
+                <animate attributeName="opacity" values="0.45;0.15;0.45" dur="3s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="462" cy="445" r="1.8" fill="#E8849E" opacity="0.4">
+                <animate attributeName="opacity" values="0.4;0.12;0.4" dur="2.6s" repeatCount="indefinite"/>
+              </circle>
+              <circle cx="462" cy="432" r="2" fill="#E8849E" opacity="0.38">
+                <animate attributeName="opacity" values="0.38;0.1;0.38" dur="3.2s" repeatCount="indefinite"/>
+              </circle>
 
-              {/* ── Keswick label — bottom left, large ── */}
+              {/*
+                KESWICK PIN — on land, east of Cook's Bay.
+                Cook's Bay east bank at y=336 ≈ x=514.
+                Pin at cx=535 is ~21px east of the bank, clearly on land.
+              */}
+              <ellipse cx="535" cy="378" rx="11" ry="3.5" fill="#B8405F" opacity="0.12"/>
+              <path d="M535,372 C535,353 515,343 515,328 C515,317 524,308 535,308 C546,308 555,317 555,328 C555,343 535,353 535,372 Z" fill="#D4567A"/>
+              <path d="M525,321 C525,316 529,312 534,312 C537,312 540,314 541,317" stroke="white" strokeWidth="1.5" fill="none" opacity="0.3" strokeLinecap="round"/>
+              <circle cx="535" cy="328" r="8" fill="white" opacity="0.92"/>
+              <circle cx="535" cy="328" r="3.5" fill="#D4567A"/>
+
+              {/* Nola Simon label */}
+              <rect x="562" y="316" width="108" height="26" rx="7" fill="#D4567A"/>
+              <rect x="564" y="318" width="104" height="22" rx="6" fill="none" stroke="white" strokeWidth="0.6" opacity="0.25"/>
+              <text x="616" y="333" fontFamily="sans-serif" fontSize="12" fontWeight="700" fill="white" textAnchor="middle" letterSpacing="0.02em">Nola Simon</text>
+              <line x1="555" y1="332" x2="562" y2="332" stroke="#D4567A" strokeWidth="2" strokeLinecap="round"/>
+
+              {/* ── Keswick Ontario Canada — bottom left, large ── */}
               <text
                 x="38" y="462"
                 fontFamily="monospace"
@@ -281,22 +327,9 @@ export default function NotFound() {
               </text>
 
               {/* ── Map labels ── */}
-              <text x="455" y="182" fontFamily="serif" fontSize="16" fill="#7A9DAE" textAnchor="middle" fontStyle="italic" opacity="0.55" letterSpacing="0.08em">Lake Simcoe</text>
-              <text x="192" y="208" fontFamily="serif" fontSize="9" fill="#7A9DAE" textAnchor="middle" fontStyle="italic" opacity="0.45">Kempenfelt Bay</text>
-              <text x="388" y="352" fontFamily="serif" fontSize="9" fill="#7A9DAE" textAnchor="middle" fontStyle="italic" opacity="0.45">Cook&apos;s Bay</text>
-              <text x="88" y="260" fontFamily="monospace" fontSize="8" fill="#6B6558" textAnchor="middle" opacity="0.35" letterSpacing="0.08em">BARRIE</text>
-              <text x="406" y="18" fontFamily="monospace" fontSize="8" fill="#6B6558" textAnchor="middle" opacity="0.35" letterSpacing="0.08em">ORILLIA</text>
-
-              {/* Sparkles on road */}
-              <circle cx="465" cy="463" r="2" fill="#E8849E" opacity="0.45">
-                <animate attributeName="opacity" values="0.45;0.15;0.45" dur="3s" repeatCount="indefinite"/>
-              </circle>
-              <circle cx="461" cy="435" r="1.8" fill="#E8849E" opacity="0.4">
-                <animate attributeName="opacity" values="0.4;0.12;0.4" dur="2.6s" repeatCount="indefinite"/>
-              </circle>
-              <circle cx="457" cy="410" r="2.2" fill="#E8849E" opacity="0.42">
-                <animate attributeName="opacity" values="0.42;0.15;0.42" dur="3.3s" repeatCount="indefinite"/>
-              </circle>
+              <text x="440" y="178" fontFamily="serif" fontSize="16" fill="#7A9DAE" textAnchor="middle" fontStyle="italic" opacity="0.55" letterSpacing="0.08em">Lake Simcoe</text>
+              <text x="388" y="355" fontFamily="serif" fontSize="9" fill="#7A9DAE" textAnchor="middle" fontStyle="italic" opacity="0.45">Cook&apos;s Bay</text>
+              <text x="510" y="38" fontFamily="monospace" fontSize="8" fill="#6B6558" textAnchor="middle" opacity="0.35" letterSpacing="0.08em">ORILLIA</text>
             </svg>
           </div>
 
