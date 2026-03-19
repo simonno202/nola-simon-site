@@ -107,8 +107,7 @@ export function SmartSuggestion() {
           lineHeight: 1.5,
         }}
       >
-        Futurism isn&rsquo;t prediction, and I can&rsquo;t read your mind —
-        but just maybe you&rsquo;re looking for:
+        🔮 I can&rsquo;t predict the future. Apparently I can&rsquo;t predict URLs either. Best guess:
       </p>
       <a
         href={best.path}
