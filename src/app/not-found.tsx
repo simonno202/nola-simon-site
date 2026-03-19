@@ -272,35 +272,35 @@ export default function NotFound() {
               <circle cx="58" cy="342" r="9" fill="#6FA878" opacity="0.20"/>
               <circle cx="760" cy="418" r="10" fill="#88C292" opacity="0.18"/>
 
-              {/* ── Highway 404 — Toronto to Keswick ── */}
+              {/* ── Highway 404 — angles in from the SE to Keswick pin ── */}
               <path
-                d="M 464,480 Q 463,462 462,445 Q 462,432 462,424"
+                d="M 625,480 Q 595,462 572,445 Q 555,432 535,378"
                 stroke="#E8849E" strokeWidth="12" fill="none" strokeLinecap="round" opacity="0.2"
                 filter="url(#nf-glow)"
               />
               <path
-                d="M 464,480 Q 463,462 462,445 Q 462,432 462,424"
+                d="M 625,480 Q 595,462 572,445 Q 555,432 535,378"
                 stroke="#D4567A" strokeWidth="5.5" fill="none" strokeLinecap="round"
               />
               <path
-                d="M 464,480 Q 463,462 462,445 Q 462,432 462,424"
+                d="M 625,480 Q 595,462 572,445 Q 555,432 535,378"
                 stroke="#E8849E" strokeWidth="1.5" fill="none" strokeDasharray="3,9" strokeLinecap="round" opacity="0.65"
               />
 
               {/* Highway shield */}
-              <rect x="478" y="440" width="42" height="28" rx="5" fill="#D4567A"/>
-              <rect x="480" y="442" width="38" height="24" rx="4" fill="none" stroke="white" strokeWidth="0.8" opacity="0.35"/>
-              <text x="499" y="459" fontFamily="sans-serif" fontSize="13" fontWeight="800" fill="white" textAnchor="middle">404</text>
-              <text x="522" y="473" fontFamily="monospace" fontSize="9.5" fill="#6B6558" textAnchor="start" opacity="0.4">↓ Toronto</text>
+              <rect x="600" y="444" width="42" height="28" rx="5" fill="#D4567A"/>
+              <rect x="602" y="446" width="38" height="24" rx="4" fill="none" stroke="white" strokeWidth="0.8" opacity="0.35"/>
+              <text x="621" y="463" fontFamily="sans-serif" fontSize="13" fontWeight="800" fill="white" textAnchor="middle">404</text>
+              <text x="622" y="476" fontFamily="monospace" fontSize="9.5" fill="#6B6558" textAnchor="start" opacity="0.4">↓ Toronto</text>
 
               {/* Road sparkles */}
-              <circle cx="463" cy="465" r="2" fill="#E8849E" opacity="0.45">
+              <circle cx="618" cy="468" r="2" fill="#E8849E" opacity="0.45">
                 <animate attributeName="opacity" values="0.45;0.15;0.45" dur="3s" repeatCount="indefinite"/>
               </circle>
-              <circle cx="462" cy="445" r="1.8" fill="#E8849E" opacity="0.4">
+              <circle cx="588" cy="452" r="1.8" fill="#E8849E" opacity="0.4">
                 <animate attributeName="opacity" values="0.4;0.12;0.4" dur="2.6s" repeatCount="indefinite"/>
               </circle>
-              <circle cx="462" cy="432" r="2" fill="#E8849E" opacity="0.38">
+              <circle cx="562" cy="438" r="2" fill="#E8849E" opacity="0.38">
                 <animate attributeName="opacity" values="0.38;0.1;0.38" dur="3.2s" repeatCount="indefinite"/>
               </circle>
 
