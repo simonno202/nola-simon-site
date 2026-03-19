@@ -199,6 +199,6 @@ export default async function Image() {
         </div>
       </div>
     ),
-    { width: 1200, height: 630, quality: 75 },
+    { width: 1200, height: 630 },
   );
 }
