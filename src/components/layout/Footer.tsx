@@ -222,6 +222,12 @@ export default function Footer() {
               >
                 Links
               </Link>
+              <Link
+                href="/blah"
+                className="font-sans text-[12px] text-cream transition-colors hover:text-pink"
+              >
+                Lost?
+              </Link>
             </div>
           </div>
         </div>

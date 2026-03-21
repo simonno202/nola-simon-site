@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Everyday Futurism — everydayfuturism.com
 
-## Getting Started
+Personal site for Nola Simon. Built with Next.js 16 (App Router), Tailwind CSS 4, TypeScript.
 
-First, run the development server:
+## Requirements
+
+- **Node.js 24.x** (see `.nvmrc` — run `nvm use` if you have nvm)
+- npm (comes with Node)
+
+## Running locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+The `prebuild` script runs automatically and syncs podcast episodes from the RSS feed before each build.
 
-To learn more about Next.js, take a look at the following resources:
+## Deploying
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Pushes to `main` auto-deploy to Vercel. No manual step needed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Content
 
-## Deploy on Vercel
+### Blog posts
+Write `.mdx` files in `src/content/blog/`. The filename becomes the URL slug.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Every file needs this frontmatter:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```mdx
+---
+title: "Your Post Title"
+date: "2026-03-20"
+description: "One sentence shown on the card and in search results."
+tags: ["leadership", "future of work"]
+---
+
+Your post content here in plain markdown.
+```
+
+### Podcast episodes
+Episodes are synced automatically from the RSS feed at build time via `scripts/sync-episodes.mjs`. The result is written to `src/data/episodes.ts`. Do not edit that file manually.
+
+### Rabbit hole levels
+Edit the `LEVELS` array in `src/components/ui/RabbitHole.tsx`.
+
+### Navigation
+Edit `src/data/navigation.ts` to update nav items, social links, or the booking CTA URL.
+
+## Key files
+
+| File | What it does |
+|---|---|
+| `src/app/layout.tsx` | Root layout, fonts, analytics |
+| `src/app/page.tsx` | Homepage |
+| `src/app/not-found.tsx` | Custom 404 page |
+| `src/components/layout/Footer.tsx` | Global footer |
+| `src/components/layout/Navbar.tsx` | Navigation |
+| `src/data/navigation.ts` | Nav items + social links |
+| `src/data/episodes.ts` | Auto-generated podcast data |
+| `src/content/blog/` | MDX blog posts |
+
+## Maintenance
+
+- GitHub Dependabot is configured to open weekly PRs for dependency updates (see `.github/dependabot.yml`)
+- Run `npm audit` periodically to check for security issues
+- Node version is pinned in `.nvmrc` — update it here and in `package.json` `engines` field together
+- Domain renewals: managed separately from the code — check Vercel and your registrar annually
