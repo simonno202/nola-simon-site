@@ -130,6 +130,16 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  href="/book-list.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
+                >
+                  Guest Reading List
+                </a>
+              </li>
             </ul>
           </div>
 
