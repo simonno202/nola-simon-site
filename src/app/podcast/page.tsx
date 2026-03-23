@@ -76,6 +76,42 @@ export default function PodcastPage() {
         <PodcastSearch />
       </SectionWrapper>
 
+      {/* ── Reading List Lead Magnet ── */}
+      <SectionWrapper className="bg-[#b52e71] py-12 lg:py-20">
+        <div className="max-w-3xl">
+          <p className="text-[11px] font-sans font-bold tracking-[0.2em] uppercase text-white/60 mb-3">
+            Free Resource
+          </p>
+          <h2
+            className="font-sans font-semibold text-white"
+            style={{ fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.15 }}
+          >
+            29 books. 25 guests.<br />One reading list.
+          </h2>
+          <p className="mt-4 text-white/85 text-[15px] leading-relaxed max-w-xl">
+            Every guest brings a point of view shaped by their work. These are
+            the books they wrote — real ideas, real frameworks, real tools.
+            Universal purchase links work for Amazon, Bookshop.org, and
+            independent bookstores worldwide.
+          </p>
+          <p className="mt-3 text-white/55 text-[13px] font-mono leading-relaxed">
+            Nikolas Badminton · Lisa Bragg · Amanda Cupido · Karen Eber ·
+            John Espirian · Karen Ferris · Jeppe Hansgaard · Ludmila Praslova ·
+            Hilke Schellmann · Tamsen Webster · and 15 more
+          </p>
+          <div className="mt-8">
+            <a
+              href="/book-list.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-white text-[#b52e71] font-sans font-semibold text-[14px] px-6 py-3 rounded-[--radius-button] hover:bg-cream transition-colors"
+            >
+              Get the Reading List →
+            </a>
+          </div>
+        </div>
+      </SectionWrapper>
+
       {/* ── Reviews & Shares CTA ── */}
       <SectionWrapper className="bg-surface py-10 lg:py-20">
         <div className="max-w-3xl">

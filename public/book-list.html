@@ -1,0 +1,565 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Books Worth Your Time — hope+possibilities Podcast Guest Reading List</title>
+<style>
+  /* ── RESET ─────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* ── SCREEN VIEW ────────────────────────────────────── */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #E8E5DE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 4rem;
+    gap: 1rem;
+  }
+
+  .save-hint {
+    background: #1A1A1A;
+    color: #fff;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  .save-hint kbd {
+    background: #444;
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.75rem;
+  }
+
+  /* ── PAGE SHELL ─────────────────────────────────────── */
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    background: #fff;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* ── COVER HEADER BAND ──────────────────────────────── */
+  .cover-band {
+    background: #EC4197;
+    padding: 2.8rem 0.9in 2.4rem;
+    flex-shrink: 0;
+  }
+  .cover-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0.7rem;
+  }
+  .cover-headline {
+    font-size: 3.6rem;
+    font-weight: 800;
+    line-height: 1.0;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-bottom: 1rem;
+  }
+  .cover-sub {
+    font-size: 0.92rem;
+    color: #fff;
+    line-height: 1.5;
+    max-width: 4.5in;
+  }
+  .cover-sub a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  /* ── INTRO SECTION ──────────────────────────────────── */
+  .intro {
+    padding: 1.4rem 0.9in 0;
+  }
+  .intro p {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: #444;
+    max-width: 6in;
+  }
+  .intro .note {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+  .divider {
+    margin: 1.1rem 0.9in 0;
+    height: 2px;
+    background: #1A1A1A;
+    border: none;
+  }
+
+  /* ── BOOK LIST ──────────────────────────────────────── */
+  .book-list {
+    padding: 0.6rem 0.9in 1in;
+    flex: 1;
+    list-style: none;
+  }
+  .book-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    padding: 0.62rem 0;
+    border-bottom: 1px solid #EEEBE4;
+  }
+  .book-entry:last-child { border-bottom: none; }
+
+  .book-num {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #1A1A1A;
+    letter-spacing: 0.05em;
+    min-width: 1.1rem;
+    padding-top: 2px;
+    flex-shrink: 0;
+  }
+  .book-info {
+    flex: 1;
+    min-width: 0;
+  }
+  .book-author {
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #1A1A1A;
+    line-height: 1.3;
+  }
+  .book-title {
+    font-size: 0.82rem;
+    font-style: italic;
+    color: #333;
+    line-height: 1.3;
+  }
+  .book-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.3rem;
+    flex-shrink: 0;
+  }
+  .book-year {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #555;
+    background: #F0EDE6;
+    border-radius: 20px;
+    padding: 2px 8px;
+    white-space: nowrap;
+  }
+  .book-link {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #2563EB;
+    text-decoration: underline;
+    white-space: nowrap;
+    letter-spacing: 0.01em;
+  }
+  .book-link:hover { text-decoration: none; }
+
+  /* ── FOOTER ─────────────────────────────────────────── */
+  .page-footer {
+    padding: 0.5rem 0.9in;
+    border-top: 1px solid #EEEBE4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .footer-text {
+    font-size: 0.72rem;
+    color: #888;
+    letter-spacing: 0.04em;
+  }
+  .footer-text a {
+    color: #1A1A1A;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /* ── PRINT STYLES ────────────────────────────────────── */
+  @media print {
+    body { background: none; padding: 0; }
+    .save-hint { display: none; }
+    .page {
+      width: 100%;
+      min-height: auto;
+      box-shadow: none;
+      page-break-after: avoid;
+    }
+    .book-entry { page-break-inside: avoid; }
+    a { color: #2563EB !important; }
+
+    /* Expand meaningful URLs after links */
+    .cover-sub a::after,
+    .page-footer a::after {
+      content: " (nolasimon.com/podcast)";
+      font-weight: normal;
+      font-size: 0.75em;
+    }
+
+    @page {
+      size: letter;
+      margin: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<p class="save-hint">
+  To save as PDF — Windows: <kbd>Ctrl</kbd>+<kbd>P</kbd> &nbsp;·&nbsp; Mac: <kbd>Cmd</kbd>+<kbd>P</kbd> &nbsp;→&nbsp; Destination: <strong>Save as PDF</strong> → Save
+</p>
+
+<div class="page" role="document">
+
+  <!-- COVER BAND -->
+  <header class="cover-band">
+    <p class="cover-label">The Reading List</p>
+    <h1 class="cover-headline">Books Worth<br>Your Time</h1>
+    <p class="cover-sub">29 books written by guests of <a href="https://www.nolasimon.com/podcast">hope+possibilities: a love letter to the future of work</a> — most published since 2021</p>
+  </header>
+
+  <!-- INTRO -->
+  <main>
+    <section class="intro" aria-label="Introduction">
+      <p>Every guest who sits down with me brings a point of view shaped by their work. These are the books they wrote — real ideas, real frameworks, real tools. Grab any of them using the universal links below.</p>
+      <p class="note">Links work for Amazon, Bookshop.org, and independent bookstores worldwide. &nbsp;·&nbsp; <em>Affiliate disclosure: these are affiliate links. If you buy through them, I may receive a small commission at no extra cost to you.</em></p>
+    </section>
+
+    <hr class="divider" aria-hidden="true"/>
+
+    <!-- BOOK LIST -->
+    <ol class="book-list" aria-label="Guest book list">
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">01</span>
+        <div class="book-info">
+          <div class="book-author">Nikolas Badminton</div>
+          <div class="book-title">Facing Our Futures</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023</span>
+          <a class="book-link" href="https://mybook.to/nikolasbadminton" aria-label="Get Facing Our Futures by Nikolas Badminton">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">02</span>
+        <div class="book-info">
+          <div class="book-author">Lisa Bragg</div>
+          <div class="book-title">Bragging Rights</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023</span>
+          <a class="book-link" href="https://mybook.to/lisabragg" aria-label="Get Bragging Rights by Lisa Bragg">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">03</span>
+        <div class="book-info">
+          <div class="book-author">Shelley Brown</div>
+          <div class="book-title">Weird Girl Adventures from A to Z</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021</span>
+          <a class="book-link" href="https://mybook.to/shelleybrown" aria-label="Get Weird Girl Adventures from A to Z by Shelley Brown">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">04</span>
+        <div class="book-info">
+          <div class="book-author">Dr. David Burkus</div>
+          <div class="book-title">Best Team Ever</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023</span>
+          <a class="book-link" href="https://mybook.to/davidburkus" aria-label="Get Best Team Ever by Dr. David Burkus">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">05</span>
+        <div class="book-info">
+          <div class="book-author">Amanda Cupido</div>
+          <div class="book-title">Let's Talk Podcasting &nbsp;<span style="font-style:normal;color:#aaa;" aria-hidden="true">·</span>&nbsp; Let's Talk Podcasting for Kids</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2024 &amp; 2025</span>
+          <a class="book-link" href="https://mybook.to/amandacupido" aria-label="Get Let's Talk Podcasting by Amanda Cupido">Let's Talk Podcasting <span aria-hidden="true">→</span></a>
+          <a class="book-link" href="https://mybook.to/amandacupidokids" aria-label="Get Let's Talk Podcasting for Kids by Amanda Cupido">Let's Talk Podcasting for Kids <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">06</span>
+        <div class="book-info">
+          <div class="book-author">Karen Eber</div>
+          <div class="book-title">The Perfect Story</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023</span>
+          <a class="book-link" href="https://mybook.to/kareneber" aria-label="Get The Perfect Story by Karen Eber">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">07</span>
+        <div class="book-info">
+          <div class="book-author">Leslie Ehm</div>
+          <div class="book-title">Swagger</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021</span>
+          <a class="book-link" href="https://mybook.to/leslieehm" aria-label="Get Swagger by Leslie Ehm">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">08</span>
+        <div class="book-info">
+          <div class="book-author">John Espirian</div>
+          <div class="book-title">Content DNA</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2020</span>
+          <a class="book-link" href="https://mybook.to/johnespirian" aria-label="Get Content DNA by John Espirian">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">09</span>
+        <div class="book-info">
+          <div class="book-author">Rose Fass</div>
+          <div class="book-title">The Leadership Conversation</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2022</span>
+          <a class="book-link" href="https://mybook.to/rosefass" aria-label="Get The Leadership Conversation by Rose Fass">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">10</span>
+        <div class="book-info">
+          <div class="book-author">Karen Ferris</div>
+          <div class="book-title">Be REMARKABLE! Learn to Unlearn</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2024</span>
+          <a class="book-link" href="https://mybook.to/karenferris" aria-label="Get Be REMARKABLE! Learn to Unlearn by Karen Ferris">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">11</span>
+        <div class="book-info">
+          <div class="book-author">Jeppe Hansgaard</div>
+          <div class="book-title">Another Change Fiasco! Now What? &nbsp;<span style="font-style:normal;color:#aaa;" aria-hidden="true">·</span>&nbsp; Connectivity is Broken! Now What?</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023 &amp; 2024</span>
+          <a class="book-link" href="https://mybook.to/jhansgaard" aria-label="Get Another Change Fiasco! Now What? by Jeppe Hansgaard">Another Change Fiasco <span aria-hidden="true">→</span></a>
+          <a class="book-link" href="https://mybook.to/jeppehansgaard" aria-label="Get Connectivity is Broken! Now What? by Jeppe Hansgaard">Connectivity is Broken <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">12</span>
+        <div class="book-info">
+          <div class="book-author">Fotini Iconopoulos</div>
+          <div class="book-title">Say Less Get More</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021</span>
+          <a class="book-link" href="https://mybook.to/fotiniiconomopoulos" aria-label="Get Say Less Get More by Fotini Iconopoulos">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">13</span>
+        <div class="book-info">
+          <div class="book-author">Amanda Lewis</div>
+          <div class="book-title">Tracking Giants</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023</span>
+          <a class="book-link" href="https://mybook.to/amandalewis" aria-label="Get Tracking Giants by Amanda Lewis">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">14</span>
+        <div class="book-info">
+          <div class="book-author">Gavin McMahon</div>
+          <div class="book-title">Story Business</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2025</span>
+          <a class="book-link" href="https://mybook.to/gavinmcmahon" aria-label="Get Story Business by Gavin McMahon">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">15</span>
+        <div class="book-info">
+          <div class="book-author">Dan Pontefract</div>
+          <div class="book-title">Work-Life Bloom</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2023</span>
+          <a class="book-link" href="https://mybook.to/danpontefract" aria-label="Get Work-Life Bloom by Dan Pontefract">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">16</span>
+        <div class="book-info">
+          <div class="book-author">Ludmila Praslova</div>
+          <div class="book-title">The Canary Code</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2024</span>
+          <a class="book-link" href="https://mybook.to/ludmilapraslova" aria-label="Get The Canary Code by Ludmila Praslova">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">17</span>
+        <div class="book-info">
+          <div class="book-author">Michelle J. Raymond</div>
+          <div class="book-title">Business Gold &nbsp;<span style="font-style:normal;color:#aaa;" aria-hidden="true">·</span>&nbsp; The LinkedIn Branding Book</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021 &amp; 2022</span>
+          <a class="book-link" href="https://mybook.to/michellejraymond" aria-label="Get Business Gold by Michelle J. Raymond">Business Gold <span aria-hidden="true">→</span></a>
+          <a class="book-link" href="https://mybook.to/mjraymond" aria-label="Get The LinkedIn Branding Book by Michelle J. Raymond">The LinkedIn Branding Book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">18</span>
+        <div class="book-info">
+          <div class="book-author">Hilke Schellmann</div>
+          <div class="book-title">The Algorithm</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2024</span>
+          <a class="book-link" href="https://mybook.to/hilkeschellmann" aria-label="Get The Algorithm by Hilke Schellmann">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">19</span>
+        <div class="book-info">
+          <div class="book-author">Kristin A. Sherry</div>
+          <div class="book-title">You've Got Quirks</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2022</span>
+          <a class="book-link" href="https://mybook.to/kristinsherry" aria-label="Get You've Got Quirks by Kristin A. Sherry">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">20</span>
+        <div class="book-info">
+          <div class="book-author">Kerri Twigg</div>
+          <div class="book-title">The Career Stories Method</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021</span>
+          <a class="book-link" href="https://mybook.to/A50wxU" aria-label="Get The Career Stories Method by Kerri Twigg">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">21</span>
+        <div class="book-info">
+          <div class="book-author">Tamsen Webster</div>
+          <div class="book-title">Find Your Red Thread &nbsp;<span style="font-style:normal;color:#aaa;" aria-hidden="true">·</span>&nbsp; Say What They Can't Unhear</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021 &amp; 2024</span>
+          <a class="book-link" href="https://mybook.to/tamsenwebster" aria-label="Get Find Your Red Thread by Tamsen Webster">Find Your Red Thread <span aria-hidden="true">→</span></a>
+          <a class="book-link" href="https://mybook.to/tamsenwebster2" aria-label="Get Say What They Can't Unhear by Tamsen Webster">Say What They Can't Unhear <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">22</span>
+        <div class="book-info">
+          <div class="book-author">Mitch Weisburgh</div>
+          <div class="book-title">MindShifting</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2024</span>
+          <a class="book-link" href="https://mybook.to/mitchweisburgh" aria-label="Get MindShifting by Mitch Weisburgh">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">23</span>
+        <div class="book-info">
+          <div class="book-author">Gillian Whitney</div>
+          <div class="book-title">From Expert to Author</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2024</span>
+          <a class="book-link" href="https://mybook.to/gillianwhitney" aria-label="Get From Expert to Author by Gillian Whitney">Get the book <span aria-hidden="true">&#x2192;</span></a>
+        </div>
+      </li>
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">24</span>
+        <div class="book-info">
+          <div class="book-author">Sarah Noll Wilson</div>
+          <div class="book-title">Don't Feed the Elephants!</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2022</span>
+          <a class="book-link" href="https://mybook.to/sarahnollwilson" aria-label="Get Don't Feed the Elephants! by Sarah Noll Wilson">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+      <li class="book-entry">
+        <span class="book-num" aria-hidden="true">25</span>
+        <div class="book-info">
+          <div class="book-author">Kathryn Zukof</div>
+          <div class="book-title">The Hard and Soft Sides of Change Management</div>
+        </div>
+        <div class="book-right">
+          <span class="book-year">2021</span>
+          <a class="book-link" href="https://mybook.to/kathrynzukof" aria-label="Get The Hard and Soft Sides of Change Management by Kathryn Zukof">Get the book <span aria-hidden="true">→</span></a>
+        </div>
+      </li>
+
+    </ol>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="page-footer">
+    <span class="footer-text"><a href="https://www.nolasimon.com/podcast">hope+possibilities &nbsp;·&nbsp; nolasimon.com/podcast</a></span>
+    <span class="footer-text">Page 1</span>
+  </footer>
+
+</div><!-- /page -->
+
+</body>
+</html>
