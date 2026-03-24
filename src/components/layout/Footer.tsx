@@ -51,8 +51,80 @@ export default function Footer() {
       <div className="mx-auto max-w-[1100px] px-5 sm:px-7 py-10 md:py-16">
         {/* 4-column grid */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          {/* Col 1: Newsletter */}
-          <div className="sm:col-span-2 lg:col-span-1">
+          {/* Col 1: Quick Links */}
+          <div>
+            <h4 className="font-mono text-[11px] uppercase tracking-[0.14em] text-text-lighter">
+              Quick Links
+            </h4>
+            <ul className="mt-3 flex flex-col gap-2">
+              {NAV_ITEMS.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <a
+                  href="https://mybook.to/nolasimonrecs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
+                >
+                  Hope + Possibilities: The Books That Inspired The Interviews
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Col 2: Connect */}
+          <div>
+            <h4 className="font-mono text-[11px] uppercase tracking-[0.14em] text-text-lighter">
+              Connect
+            </h4>
+            <ul className="mt-3 flex flex-col gap-2">
+              {[
+                { label: "LinkedIn", href: SOCIAL_LINKS.linkedin },
+                { label: "Substack", href: SOCIAL_LINKS.substack },
+                { label: "Apple Podcasts", href: SOCIAL_LINKS.apple },
+                { label: "Spotify", href: SOCIAL_LINKS.spotify },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <GoodpodsBadge variant="inline" className="mt-4" />
+          </div>
+
+          {/* Col 3: Contact */}
+          <div>
+            <h4 className="font-mono text-[11px] uppercase tracking-[0.14em] text-text-lighter">
+              Contact
+            </h4>
+            <p className="mt-3 font-sans text-[14px] leading-relaxed text-text-lighter">
+              For speaking engagements, advisory work, or media inquiries.
+            </p>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com"
+              className="mt-2 inline-block font-sans text-[14px] text-cream transition-colors hover:text-pink"
+            >
+              nola@nolasimon.com
+            </a>
+          </div>
+
+          {/* Col 4: Newsletter */}
+          <div>
             <h4 className="font-sans text-[16px] font-semibold text-cream">
               Stay in the conversation
             </h4>
@@ -88,7 +160,7 @@ export default function Footer() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Your email"
-                  className="flex-1 rounded-[--radius-input] border border-border-medium bg-surface px-3 py-2 font-sans text-[13px] text-navy placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-pink"
+                  className="flex-1 min-w-0 rounded-[--radius-input] border border-border-medium bg-surface px-3 py-2 font-sans text-[13px] text-navy placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-pink"
                   required
                   disabled={status === "loading"}
                 />
@@ -112,78 +184,6 @@ export default function Footer() {
                 Privacy
               </Link>
             </p>
-          </div>
-
-          {/* Col 2: Quick Links */}
-          <div>
-            <h4 className="font-mono text-[11px] uppercase tracking-[0.14em] text-text-lighter">
-              Quick Links
-            </h4>
-            <ul className="mt-3 flex flex-col gap-2">
-              {NAV_ITEMS.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <a
-                  href="https://mybook.to/nolasimonrecs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
-                >
-                  Hope + Possibilities: The Books That Inspired The Interviews
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Col 3: Connect */}
-          <div>
-            <h4 className="font-mono text-[11px] uppercase tracking-[0.14em] text-text-lighter">
-              Connect
-            </h4>
-            <ul className="mt-3 flex flex-col gap-2">
-              {[
-                { label: "LinkedIn", href: SOCIAL_LINKS.linkedin },
-                { label: "Substack", href: SOCIAL_LINKS.substack },
-                { label: "Apple Podcasts", href: SOCIAL_LINKS.apple },
-                { label: "Spotify", href: SOCIAL_LINKS.spotify },
-              ].map((item) => (
-                <li key={item.label}>
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-            <GoodpodsBadge variant="inline" className="mt-4" />
-          </div>
-
-          {/* Col 4: Contact */}
-          <div>
-            <h4 className="font-mono text-[11px] uppercase tracking-[0.14em] text-text-lighter">
-              Contact
-            </h4>
-            <p className="mt-3 font-sans text-[14px] leading-relaxed text-text-lighter">
-              For speaking engagements, advisory work, or media inquiries.
-            </p>
-            <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=nola@nolasimon.com"
-              className="mt-2 inline-block font-sans text-[14px] text-cream transition-colors hover:text-pink"
-            >
-              nola@nolasimon.com
-            </a>
           </div>
         </div>
 
