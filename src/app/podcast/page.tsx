@@ -69,12 +69,12 @@ export default function PodcastPage() {
 
           <GoodpodsBadge variant="compact" className="mt-6" />
           <a
-            href="/book-list.html"
+            href="https://mybook.to/nolasimonrecs"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block font-sans text-[14px] text-text-secondary underline underline-offset-4 hover:text-navy transition-colors"
           >
-            📚 Guest Reading List — 29 books from 25 guests
+            📚 Hope + Possibilities: The Books That Inspired The Interviews
           </a>
         </div>
       </SectionWrapper>

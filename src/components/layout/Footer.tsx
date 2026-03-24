@@ -132,12 +132,12 @@ export default function Footer() {
               ))}
               <li>
                 <a
-                  href="/book-list.html"
+                  href="https://mybook.to/nolasimonrecs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
                 >
-                  Guest Reading List
+                  Hope + Possibilities: The Books That Inspired The Interviews
                 </a>
               </li>
             </ul>
