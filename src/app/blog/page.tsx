@@ -47,7 +47,7 @@ const ELSEWHERE = [
 
 const WORK_LINKS = [
   { label: "Advisory work", href: "/advisory-speaking" },
-  { label: "Keynotes", href: "/advisory-speaking" },
+  { label: "Keynotes", href: "/media" },
   { label: "Hope + Possibilities podcast", href: "/podcast" },
 ];
 
