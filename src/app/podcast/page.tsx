@@ -94,7 +94,7 @@ export default function PodcastPage() {
             className="font-sans font-semibold text-white"
             style={{ fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.15 }}
           >
-            29 books. 25 guests.<br />One reading list.
+            31 books. 27 guests.<br />One reading list.
           </h2>
           <p className="mt-4 text-white/85 text-[15px] leading-relaxed max-w-xl">
             Every guest brings a point of view shaped by their work. These are
@@ -105,7 +105,7 @@ export default function PodcastPage() {
           <p className="mt-3 text-white/55 text-[13px] font-mono leading-relaxed">
             Nikolas Badminton · Lisa Bragg · Amanda Cupido · Karen Eber ·
             John Espirian · Karen Ferris · Jeppe Hansgaard · Ludmila Praslova ·
-            Hilke Schellmann · Tamsen Webster · and 15 more
+            Hilke Schellmann · Tamsen Webster · and 17 more
           </p>
           <div className="mt-8">
             <a
