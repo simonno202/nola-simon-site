@@ -5,6 +5,11 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllPosts, getPost, getPostSlugs } from "@/lib/blog";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework";
+
+const mdxComponents = {
+  ConvergencesFramework,
+};
 
 export async function generateStaticParams() {
   return getPostSlugs().map((slug) => ({ slug }));
@@ -91,7 +96,7 @@ export default async function BlogPostPage({
 
           {/* MDX content */}
           <div className="prose-content">
-            <MDXRemote source={post.content} />
+            <MDXRemote source={post.content} components={mdxComponents} />
           </div>
 
           {/* Footer back link */}

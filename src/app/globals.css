@@ -138,12 +138,15 @@ html {
 }
 
 .prose-content h2 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--color-navy);
-  margin-top: 2em;
-  margin-bottom: 0.6em;
-  line-height: 1.35;
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-pink);
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+  line-height: 1.4;
 }
 
 .prose-content h3 {
@@ -245,5 +248,37 @@ html {
 
 .prose-content em {
   font-style: italic;
+}
+
+/* ── Essay framework visual ── */
+@keyframes draw-stream {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+.stream-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw-stream 2s ease forwards;
+}
+
+.pulse-circle {
+  animation: pulse-dot 2.5s ease-in-out infinite;
+}
+
+/* Stream grid odd-column border — removed on single-column mobile */
+.stream-grid-entry:nth-child(odd) {
+  border-right: 1px solid #e8e4da;
+}
+
+@media (max-width: 639px) {
+  .stream-grid-entry:nth-child(odd) {
+    border-right: none;
+  }
 }
 
