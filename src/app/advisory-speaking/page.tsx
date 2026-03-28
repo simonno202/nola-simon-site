@@ -162,6 +162,15 @@ export default function AdvisorySpeakingPage() {
               </ul>
             </div>
 
+            <div className="mt-6 pt-5 border-t border-[#E0DDD8]">
+              <p className="text-[13px] text-text-muted mb-3">
+                Planning an event? Download the full press kit for bios, headshots, media history, and booking details.
+              </p>
+              <Button href="/nola-simon-press-kit.pdf" external variant="secondary">
+                Download Press Kit (PDF)
+              </Button>
+            </div>
+
           </div>
         </div>
       </SectionWrapper>

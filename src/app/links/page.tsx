@@ -64,7 +64,7 @@ const socialLinks = [
   },
   {
     label: "X (Twitter)",
-    href: "https://x.com/nolasimonsayings",
+    href: "https://x.com/nolasimontjo",
     icon: "x",
   },
 ];
