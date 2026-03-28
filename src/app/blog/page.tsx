@@ -13,6 +13,16 @@ export const metadata: Metadata = {
 
 const FEATURED_ESSAYS = [
   {
+    slug: "who-gets-to-be-trusted-now",
+    title: "Who Gets to Be Trusted Now?",
+    meta: "Trust · Thought Leadership · Credibility · March 28, 2026",
+    description:
+      "Trust is not fixed. It has moved from local and embodied, to institutional, to distributed — and distributed trust turned out to be partly manufactured. Peer ratings, affiliate loops, purchased followers, mutual endorsements: the system that was supposed to democratize credibility developed its own closed loops.",
+    description2:
+      "This essay traces the shift, names what's failing across the infrastructure at once, and offers a hypothesis about what comes next: witnessed trust — built not on ratings or credentials, but on the irreducibly particular. Specific. Accountable. Impossible to manufacture.",
+    related: { label: "Subscribe on Substack", href: "https://nolasimonhrcoe.substack.com/" },
+  },
+  {
     slug: "not-just-another-futurist",
     title: "Not Just Another Futurist",
     meta: "Methodology · Convergences · March 27, 2026",
