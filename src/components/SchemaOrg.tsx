@@ -99,6 +99,49 @@ export function PodcastSchema() {
   );
 }
 
+export function ArticleSchema({
+  title,
+  description,
+  datePublished,
+  slug,
+}: {
+  title: string;
+  description: string;
+  datePublished: string;
+  slug: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: title,
+    description,
+    datePublished,
+    dateModified: datePublished,
+    url: `https://www.everydayfuturism.com/blog/${slug}`,
+    author: {
+      "@type": "Person",
+      name: "Nola Simon",
+      url: "https://www.everydayfuturism.com",
+    },
+    publisher: {
+      "@type": "Person",
+      name: "Nola Simon",
+      url: "https://www.everydayfuturism.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://www.everydayfuturism.com/blog/${slug}`,
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function WebSiteSchema() {
   const schema = {
     "@context": "https://schema.org",

@@ -6,6 +6,7 @@ import { getAllPosts, getPost, getPostSlugs } from "@/lib/blog";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework";
+import { ArticleSchema } from "@/components/SchemaOrg";
 
 const mdxComponents = {
   ConvergencesFramework,
@@ -26,7 +27,7 @@ export async function generateMetadata({
 
   const post = getPost(slug);
   return {
-    title: `${post.title} — Nola Simon | Everyday Futurism`,
+    title: post.title,
     description: post.description,
   };
 }
@@ -54,6 +55,12 @@ export default async function BlogPostPage({
 
   return (
     <main>
+      <ArticleSchema
+        title={post.title}
+        description={post.description}
+        datePublished={post.date}
+        slug={slug}
+      />
       <SectionWrapper className="bg-cream py-12 lg:py-20 animate-hero-in">
         <div style={{ maxWidth: "var(--max-width-reading)" }}>
           {/* Back link */}
