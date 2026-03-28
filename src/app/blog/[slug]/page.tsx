@@ -66,7 +66,7 @@ export default async function BlogPostPage({
           {/* Back link */}
           <Link
             href="/blog"
-            className="inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted hover:text-pink transition-colors mb-8"
+            className="flex w-fit items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted hover:text-pink transition-colors mb-8"
           >
             <span aria-hidden="true">←</span> Back to writing
           </Link>
