@@ -311,6 +311,13 @@ export default function MediaPage() {
                 </svg>
                 View Speaker Kit
               </a>
+              <a
+                href="/nola-simon-press-kit.pdf"
+                download
+                className="mt-2 inline-flex items-center gap-2 text-sm font-medium text-pink hover:underline"
+              >
+                Download PDF
+              </a>
             </div>
           </div>
         </div>
