@@ -166,8 +166,8 @@ export default function AdvisorySpeakingPage() {
               <p className="text-[13px] text-text-muted mb-3">
                 Planning an event? Download the full press kit for bios, headshots, media history, and booking details.
               </p>
-              <Button href="/nola-simon-press-kit.pdf" external variant="secondary">
-                Download Press Kit (PDF)
+              <Button href="/speaker-kit.html" external variant="secondary">
+                View Speaker Kit
               </Button>
             </div>
 
