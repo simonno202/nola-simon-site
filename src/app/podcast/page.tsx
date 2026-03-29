@@ -94,7 +94,7 @@ export default function PodcastPage() {
             className="font-sans font-semibold text-white"
             style={{ fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.15 }}
           >
-            31 books. 27 guests.<br />One reading list.
+            32 books. 27 guests.<br />One reading list.
           </h2>
           <p className="mt-4 text-white/85 text-[15px] leading-relaxed max-w-xl">
             Every guest brings a point of view shaped by their work. These are
