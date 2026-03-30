@@ -135,6 +135,16 @@ export default function HomePage() {
               </p>
             </Card>
           </div>
+
+          <div className="mt-10 pt-8 border-t border-navy/10 flex flex-wrap items-center justify-between gap-6">
+            <p className="text-[14px] text-text-secondary max-w-sm">
+              Most trust signals are cooperatively produced. Almost nobody
+              notices. 18 questions to find out where your filters actually sit.
+            </p>
+            <Button href="/trust-signal-quiz.html" external variant="secondary">
+              Can you read a trust signal? →
+            </Button>
+          </div>
         </div>
       </SectionWrapper>
 

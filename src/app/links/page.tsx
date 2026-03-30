@@ -74,6 +74,7 @@ const siteLinks = [
   { label: "Advisory & Speaking", href: "https://www.everydayfuturism.com/advisory-speaking" },
   { label: "Podcast Episodes", href: "https://www.everydayfuturism.com/podcast" },
   { label: "Work — Writing, Audio, Video", href: "https://www.everydayfuturism.com/work" },
+  { label: "Can You Read a Trust Signal? — Quiz", href: "https://www.everydayfuturism.com/trust-signal-quiz.html" },
   { label: "Speaker Kit", href: "https://www.nolasimon.com/speaker-kit.html" },
 ];
 
