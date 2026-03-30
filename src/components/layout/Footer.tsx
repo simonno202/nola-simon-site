@@ -14,6 +14,25 @@ export default function Footer() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [rabbitHoleOpen, setRabbitHoleOpen] = useState(false);
 
+  // Easter week: Good Friday through Easter Monday (2026: Apr 3–6)
+  const isEaster = (() => {
+    const now = new Date();
+    const y = now.getFullYear();
+    const m = now.getMonth() + 1;
+    const d = now.getDate();
+    const easterDates: Record<number, [number, number, number, number]> = {
+      2026: [4, 3, 4, 6],
+      2027: [3, 26, 3, 29],
+      2028: [4, 14, 4, 17],
+    };
+    const range = easterDates[y];
+    if (!range) return false;
+    const [sm, sd, em, ed] = range;
+    const after = m > sm || (m === sm && d >= sd);
+    const before = m < em || (m === em && d <= ed);
+    return after && before;
+  })();
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!email) return;
@@ -242,7 +261,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <RabbitHole isOpen={rabbitHoleOpen} onClose={() => setRabbitHoleOpen(false)} />
+      <RabbitHole isOpen={rabbitHoleOpen} onClose={() => setRabbitHoleOpen(false)} easter={isEaster} />
     </footer>
   );
 }
