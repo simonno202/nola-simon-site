@@ -41,6 +41,17 @@ const BOTTOM = {
   sub: "Most people stop here. A few don't.",
 };
 
+// Eggs scattered at each depth — more appear as you go deeper
+const EASTER_DECORATIONS: Record<number, string> = {
+  0: "🥚",                          // entry
+  1: "🐰",
+  2: "🥚 🥚",
+  3: "🐰 🥚",
+  4: "🥚 🐰 🥚",
+  5: "🐰 🥚 🥚 🐰",
+  6: "🥚 🐰 🥚 🐰 🥚",             // bottom
+};
+
 const EASTER_LEVELS = [
   {
     depth: 1,
@@ -132,7 +143,7 @@ export function RabbitHole({ isOpen, onClose, easter = false }: RabbitHoleProps)
           /* Entry screen */
           <div style={{ animation: "fade-in-up 0.4s ease both" }}>
             <div className="text-5xl mb-6" aria-hidden="true">
-              {easter ? "🥚" : "🐇🕳️"}
+              {easter ? EASTER_DECORATIONS[0] : "🐇🕳️"}
             </div>
             <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-pink mb-4">
               {easter ? "Easter Egg" : "The Rabbit Hole"}
@@ -159,6 +170,11 @@ export function RabbitHole({ isOpen, onClose, easter = false }: RabbitHoleProps)
         {depth > 0 && !atBottom && current && (
           /* Level screen */
           <div key={depth} style={{ animation: "fade-in-up 0.35s ease both" }}>
+            {easter && (
+              <div className="text-2xl mb-6 tracking-widest" aria-hidden="true">
+                {EASTER_DECORATIONS[depth]}
+              </div>
+            )}
             <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-text-lighter/50 mb-8">
               {"·".repeat(depth)} depth {depth} of {levels.length} {"·".repeat(depth)}
             </p>
@@ -179,6 +195,11 @@ export function RabbitHole({ isOpen, onClose, easter = false }: RabbitHoleProps)
         {atBottom && (
           /* Bottom screen */
           <div style={{ animation: "fade-in-up 0.35s ease both" }}>
+            {easter && (
+              <div className="text-2xl mb-6 tracking-widest" aria-hidden="true">
+                {EASTER_DECORATIONS[6]}
+              </div>
+            )}
             <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-text-lighter/50 mb-8">
               {"·".repeat(levels.length)} bottom {"·".repeat(levels.length)}
             </p>
