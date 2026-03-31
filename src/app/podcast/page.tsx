@@ -9,7 +9,7 @@ import PodcastSearch from "@/components/podcast/PodcastSearch";
 export const metadata: Metadata = {
   title: "Podcast — Nola Simon | Everyday Futurism",
   description:
-    "Hope + Possibilities: A Love Letter to the Future of Work. Conversations with leaders, thinkers, and practitioners who are building what's next.",
+    "Hope + Possibilities is a solo podcast on the future of work, leadership, and organizational trust. Hosted by futurist Nola Simon. Top 100 on Goodpods.",
 };
 
 export default function PodcastPage() {
@@ -34,19 +34,18 @@ export default function PodcastPage() {
 
           <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
             <p>
-              Hope + Possibilities is a podcast about the future of
-              work&nbsp;&mdash; but not the kind built on trend reports and
-              hot takes. Each episode is a conversation with leaders, thinkers,
-              and practitioners who are building what&rsquo;s next with honesty,
-              self-trust, and a willingness to challenge the status quo.
+              A solo podcast on leadership, trust, and the future of
+              work&nbsp;&mdash; not as a forecast, but as a practice.
             </p>
-
             <p>
-              Hosted by Nola Simon, the show explores how we lead, how we work,
-              and how we build cultures where people actually belong. It&rsquo;s
-              honest. It&rsquo;s practical. And it always comes back to the same
-              question: What does the future of work look like when we start
-              from trust?
+              Each episode examines one idea: what organizations are assuming
+              before they&rsquo;ve named it, where workplace trust is breaking
+              down and why, and what it takes to lead through change before the
+              path is obvious.
+            </p>
+            <p>
+              Hosted by Nola Simon, futurist and strategic advisor. Rated top
+              100 on Goodpods.
             </p>
           </div>
 
@@ -94,18 +93,18 @@ export default function PodcastPage() {
             className="font-sans font-semibold text-white"
             style={{ fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.15 }}
           >
-            32 books. 27 guests.<br />One reading list.
+            32 books.<br />One reading list.
           </h2>
           <p className="mt-4 text-white/85 text-[15px] leading-relaxed max-w-xl">
-            Every guest brings a point of view shaped by their work. These are
-            the books they wrote — real ideas, real frameworks, real tools.
-            Universal purchase links work for Amazon, Bookshop.org, and
-            independent bookstores worldwide.
+            The books behind the archive — curated from the conversations that
+            shaped the show. Real ideas, real frameworks, real tools. Universal
+            purchase links work for Amazon, Bookshop.org, and independent
+            bookstores worldwide.
           </p>
           <p className="mt-3 text-white/55 text-[13px] font-mono leading-relaxed">
             Nikolas Badminton · Lisa Bragg · Amanda Cupido · Karen Eber ·
             John Espirian · Karen Ferris · Jeppe Hansgaard · Ludmila Praslova ·
-            Hilke Schellmann · Tamsen Webster · and 17 more
+            Hilke Schellmann · Tamsen Webster · and more
           </p>
           <div className="mt-8">
             <a
