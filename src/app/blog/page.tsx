@@ -13,6 +13,16 @@ export const metadata: Metadata = {
 
 const FEATURED_ESSAYS = [
   {
+    slug: "witnessed-trust-case-study",
+    title: "Witnessed Trust — A Case Study: A PR Crisis, a Pop Star and a Camera Walk into a Stadium",
+    meta: "Trust · Discernment · Everyday Futurism · April 1, 2026",
+    description:
+      "In January 2025, a Coldplay kiss cam caught two Astronomer executives in four seconds of body language that eighty thousand people read simultaneously — without context, without commentary, without a single word of explanation. The celebrity crisis response that followed generated memes, shifted the conversation, and repaired nothing.",
+    description2:
+      "This essay traces what the kiss cam actually caught, why the Astronomer response failed as trust repair (distraction ≠ PR success, attention ≠ trust), and what the unequal distribution of accountability reveals about how witnessed trust forms — and fails — at scale.",
+    related: { label: "Read: Who Gets to Be Trusted Now?", href: "/blog/who-gets-to-be-trusted-now" },
+  },
+  {
     slug: "who-gets-to-be-trusted-now",
     title: "Who Gets to Be Trusted Now?",
     meta: "Trust · Thought Leadership · Credibility · March 28, 2026",
