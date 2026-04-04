@@ -19,8 +19,8 @@ const FEATURED_ESSAYS = [
     description:
       "I hid an egg on my website. Six depths of ideas about trust, signals, and what it means to notice something real when everything around you has been optimized to look real but isn't. The Strategic Linguist found it and named what it was doing without being briefed. Dr. Sam Illingworth discovered his own work inside it and thanked me publicly. Most people, even with the map, didn't go.",
     description2:
-      "Two companion essays: the first traces what happened and the assumption it surfaced — that explaining your thinking is how people come to understand it. The second is the method: how to build a trust architecture that self-selects, teaches without lecturing, and compounds a network without a single cold ask.",
-    related: { label: "Download PDF", href: "/downloads/the-rabbit-hole.pdf" },
+      "The essay traces what happened, the assumption it surfaced — that explaining your thinking is how people come to understand it — and why the people who go all the way down are exactly the ones you want in the room. Download the process guide to build your own.",
+    related: { label: "Download: The Rabbit Hole Method — Process Guide", href: "/downloads/the-rabbit-hole.pdf" },
   },
   {
     slug: "witnessed-trust-case-study",
