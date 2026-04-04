@@ -5,6 +5,7 @@ export const NAV_ITEMS = [
   { label: "Media", href: "/media" },
   { label: "Podcast", href: "/podcast" },
   { label: "Writing", href: "/blog" },
+  { label: "Newsletter", href: "/newsletter" },
 ] as const;
 
 export const SOCIAL_LINKS = {
