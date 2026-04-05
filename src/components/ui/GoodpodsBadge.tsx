@@ -9,61 +9,113 @@ interface GoodpodsBadgeProps {
   className?: string;
 }
 
-const LEADERBOARD_URL =
-  "https://goodpods.com/leaderboard/top-100-shows-by-category/business/leadership?indie=true&period=alltime#89311393";
 const PODCAST_URL =
   "https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061";
-const BADGE_SRC =
-  "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_leadership_top10.png";
-const BADGE_ALT = "Goodpods Top 100 Leadership Indie Podcasts";
+
+const BADGES = [
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/business/leadership?indie=true&period=alltime#90606482",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_leadership_top10.png",
+    alt: "Goodpods Top 10 Leadership Indie Podcasts",
+    label: "Top 10 Leadership (Indie)",
+  },
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/business/leadership?indie=false&period=alltime#90606391",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_leadership_top50.png",
+    alt: "Goodpods Top 100 Leadership Podcasts",
+    label: "Top 100 Leadership",
+  },
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/business/careers?indie=false&period=alltime#90578432",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_careers_top50.png",
+    alt: "Goodpods Top 100 Careers Podcasts",
+    label: "Top 100 Careers",
+  },
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/business/careers?indie=true&period=alltime#90578507",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_careers_top50.png",
+    alt: "Goodpods Top 100 Careers Indie Podcasts",
+    label: "Top 100 Careers (Indie)",
+  },
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/business/all-business?indie=true&period=alltime#90579982",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_all-business_top100.png",
+    alt: "Goodpods Top 100 Business Indie Podcasts",
+    label: "Top 100 Business (Indie)",
+  },
+];
+
+// Primary badge used for compact inline contexts
+const PRIMARY = BADGES[0];
 
 export function GoodpodsBadge({
   variant = "compact",
   className = "",
 }: GoodpodsBadgeProps) {
-  const [imgError, setImgError] = useState(false);
+  const [failedSrcs, setFailedSrcs] = useState<Set<string>>(new Set());
 
-  if (imgError) return null;
+  const handleError = (src: string) =>
+    setFailedSrcs((prev) => new Set(prev).add(src));
 
+  // Inline: single primary badge, small — used in footer / ProofBar
   if (variant === "inline") {
+    if (failedSrcs.has(PRIMARY.imgSrc)) return null;
     return (
       <a
-        href={LEADERBOARD_URL}
+        href={PRIMARY.leaderboardUrl}
         target="_blank"
         rel="noopener noreferrer"
         className={`inline-block ${className}`}
-        aria-label={BADGE_ALT}
+        aria-label={PRIMARY.alt}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={BADGE_SRC}
-          alt={BADGE_ALT}
+          src={PRIMARY.imgSrc}
+          alt={PRIMARY.alt}
           width={150}
           height={46}
-          onError={() => setImgError(true)}
+          onError={() => handleError(PRIMARY.imgSrc)}
         />
       </a>
     );
   }
 
+  // Compact: all badges in a wrap row + listen link — used on About page
   if (variant === "compact") {
+    const visible = BADGES.filter((b) => !failedSrcs.has(b.imgSrc));
+    if (visible.length === 0) return null;
     return (
-      <div className={`flex flex-col items-start gap-2 ${className}`}>
-        <a
-          href={LEADERBOARD_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={BADGE_ALT}
-        >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={BADGE_SRC}
-            alt={BADGE_ALT}
-            width={200}
-            height={62}
-            onError={() => setImgError(true)}
-          />
-        </a>
+      <div className={`flex flex-col items-start gap-3 ${className}`}>
+        <div className="flex flex-wrap gap-3">
+          {visible.map((badge) => (
+            <a
+              key={badge.leaderboardUrl}
+              href={badge.leaderboardUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={badge.alt}
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={badge.imgSrc}
+                alt={badge.alt}
+                width={150}
+                height={46}
+                onError={() => handleError(badge.imgSrc)}
+              />
+            </a>
+          ))}
+        </div>
         <a
           href={PODCAST_URL}
           target="_blank"
@@ -76,44 +128,41 @@ export function GoodpodsBadge({
     );
   }
 
-  // variant === "full"
+  // Full: all badges in a card grid — used on podcast/landing pages
+  const visible = BADGES.filter((b) => !failedSrcs.has(b.imgSrc));
+  if (visible.length === 0) return null;
   return (
     <div
-      className={`flex flex-col items-start gap-3 rounded-xl border border-border bg-surface px-5 py-4 ${className}`}
+      className={`flex flex-col items-start gap-4 rounded-xl border border-border bg-surface px-5 py-4 ${className}`}
     >
+      <div className="flex flex-wrap gap-3">
+        {visible.map((badge) => (
+          <a
+            key={badge.leaderboardUrl}
+            href={badge.leaderboardUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={badge.alt}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={badge.imgSrc}
+              alt={badge.alt}
+              width={200}
+              height={62}
+              onError={() => handleError(badge.imgSrc)}
+            />
+          </a>
+        ))}
+      </div>
       <a
-        href={LEADERBOARD_URL}
+        href={PODCAST_URL}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={BADGE_ALT}
+        className="text-xs font-mono text-text-muted hover:text-pink transition-colors"
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={BADGE_SRC}
-          alt={BADGE_ALT}
-          width={250}
-          height={77}
-          onError={() => setImgError(true)}
-        />
+        Listen on Goodpods →
       </a>
-      <div className="flex flex-col gap-1">
-        <a
-          href={LEADERBOARD_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-sm font-semibold text-navy hover:text-pink transition-colors"
-        >
-          Goodpods Top 100 Leadership Indie Podcasts
-        </a>
-        <a
-          href={PODCAST_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xs font-mono text-text-muted hover:text-pink transition-colors"
-        >
-          Listen on Goodpods →
-        </a>
-      </div>
     </div>
   );
 }

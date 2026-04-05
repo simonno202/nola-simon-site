@@ -9,7 +9,7 @@ import PodcastSearch from "@/components/podcast/PodcastSearch";
 export const metadata: Metadata = {
   title: "Podcast — Nola Simon | Everyday Futurism",
   description:
-    "Hope + Possibilities is a solo podcast on the future of work, leadership, and organizational trust. Hosted by futurist Nola Simon. Top 100 on Goodpods.",
+    "Hope + Possibilities is a podcast about everyday noticing — trust, leadership, and the future of work. Hosted by strategic futurist Nola Simon. Top 10 Leadership Indie on Goodpods.",
 };
 
 export default function PodcastPage() {
@@ -33,19 +33,54 @@ export default function PodcastPage() {
           </p>
 
           <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+            <p>Made in Canada.</p>
             <p>
-              A solo podcast on leadership, trust, and the future of
-              work&nbsp;&mdash; not as a forecast, but as a practice.
+              Pass your phone&nbsp;&mdash; unlocked&nbsp;&mdash; to the person
+              sitting next to you. Not to a close friend. To a colleague. A
+              neighbour. Someone you&rsquo;d describe as trustworthy but have
+              never actually tested.
+            </p>
+            <p>Watch what happens in your body before you hand it over.</p>
+            <p>
+              That hesitation? That&rsquo;s not paranoia. That&rsquo;s you
+              running a real-time audit of every assumption you hold about trust,
+              privacy, identity, and risk&nbsp;&mdash; in under a second,
+              without a framework, without a consultant, without a strategic
+              plan.
             </p>
             <p>
-              Each episode examines one idea: what organizations are assuming
-              before they&rsquo;ve named it, where workplace trust is breaking
-              down and why, and what it takes to lead through change before the
-              path is obvious.
+              You already know how to read signals. You do it constantly. You
+              just haven&rsquo;t been taught to trust what you notice.
+            </p>
+            <p>That&rsquo;s what this podcast is about.</p>
+            <p>
+              I&rsquo;m Nola Simon&nbsp;&mdash; strategic futurist, keynote
+              speaker, and LinkedIn Top Voice (2024 &amp; 2025). I&rsquo;m not
+              here to make sweeping predictions about the future. I&rsquo;m here
+              to help you see what&rsquo;s already forming&nbsp;&mdash; in the
+              moments that feel ordinary, the assumptions that feel obvious, the
+              decisions that feel routine right up until they don&rsquo;t.
             </p>
             <p>
-              Hosted by Nola Simon, futurist and strategic advisor. Rated top
-              100 on Goodpods.
+              Blockbuster had the data. Kodak invented the digital camera and
+              couldn&rsquo;t walk away from the legacy of print. They
+              didn&rsquo;t lack information. They lacked the discipline to
+              question what they already believed&nbsp;&mdash; before it became
+              load-bearing.
+            </p>
+            <p>
+              That discipline isn&rsquo;t reserved for crisis. It lives in
+              everyday noticing.
+            </p>
+            <p>
+              The unlocked phone. The meeting nobody challenged. The strategy
+              that felt obvious. The trust that formed&nbsp;&mdash; or
+              fractured&nbsp;&mdash; in a moment nobody marked as significant.
+            </p>
+            <p>This show is that noticing, practiced out loud.</p>
+            <p className="text-[13px] text-text-muted">
+              Featured in Maclean&rsquo;s, CBC, and CTV News. Top 10 Leadership
+              Indie on Goodpods.
             </p>
           </div>
 
@@ -64,16 +99,36 @@ export default function PodcastPage() {
             >
               Spotify
             </Button>
+            <Button
+              href="https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061"
+              variant="secondary"
+              external
+            >
+              Goodpods
+            </Button>
           </div>
 
-          <GoodpodsBadge variant="compact" className="mt-6" />
+          <p className="mt-6 text-[11px] font-sans font-bold tracking-[0.2em] uppercase text-text-muted">
+            Made in Canada&nbsp;&middot;&nbsp;113 Episodes&nbsp;&middot;&nbsp;57
+            Guest&nbsp;&middot;&nbsp;56 Solo
+          </p>
+
+          <GoodpodsBadge variant="compact" className="mt-5" />
+
           <a
-            href="https://mybook.to/nolasimonrecs"
+            href="https://www.listennotes.com/podcasts/hope-possibilties-a-love-letter-to-the-nHWeA2OGmD-/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-block font-sans text-[14px] text-text-secondary underline underline-offset-4 hover:text-navy transition-colors"
+            className="mt-4 inline-block"
+            title="Hope + Possibilities: A Love Letter to the Future of Work | Listen Notes"
           >
-            📚 Hope + Possibilities: The Books That Inspired The Interviews
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              loading="lazy"
+              src="https://cdn-images-2.listennotes.com/images/podcasts/nHWeA2OGmD-/badge/"
+              alt="Hope + Possibilities: A Love Letter to the Future of Work | Listen Notes"
+              style={{ height: "120px", maxWidth: "100%" }}
+            />
           </a>
         </div>
       </SectionWrapper>
@@ -81,6 +136,25 @@ export default function PodcastPage() {
       {/* ── Episode Archive ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <PodcastSearch />
+      </SectionWrapper>
+
+      {/* ── Bridge Section ── */}
+      <SectionWrapper className="bg-surface py-10 lg:py-16">
+        <div className="max-w-3xl">
+          <p className="text-[15px] leading-relaxed text-text-secondary">
+            The thinking from this show lives beyond the episodes&nbsp;&mdash;
+            in essays that go deeper, a trust signal quiz that challenges what
+            you think you already know, and the Everyday Futurism newsletter.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-4">
+            <Button href="/blog" variant="secondary">
+              Read the Essays →
+            </Button>
+            <Button href="#" variant="secondary">
+              Take the Trust Signal Quiz →
+            </Button>
+          </div>
+        </div>
       </SectionWrapper>
 
       {/* ── Reading List Lead Magnet ── */}
@@ -93,18 +167,20 @@ export default function PodcastPage() {
             className="font-sans font-semibold text-white"
             style={{ fontSize: "clamp(22px, 4vw, 34px)", lineHeight: 1.15 }}
           >
-            32 books.<br />One reading list.
+            32 books.<br />28 conversations.
           </h2>
           <p className="mt-4 text-white/85 text-[15px] leading-relaxed max-w-xl">
-            The books behind the archive — curated from the conversations that
-            shaped the show. Real ideas, real frameworks, real tools. Universal
-            purchase links work for Amazon, Bookshop.org, and independent
-            bookstores worldwide.
+            Every book on this list has a full episode behind it&nbsp;&mdash;
+            the conversation that shaped the recommendation, the ideas that
+            didn&rsquo;t fit in a summary, the frameworks you can actually use.
+            Real ideas, real tools, real talk.
           </p>
           <p className="mt-3 text-white/55 text-[13px] font-mono leading-relaxed">
-            Nikolas Badminton · Lisa Bragg · Amanda Cupido · Karen Eber ·
-            John Espirian · Karen Ferris · Jeppe Hansgaard · Ludmila Praslova ·
-            Hilke Schellmann · Tamsen Webster · and more
+            Nikolas Badminton&nbsp;&middot; Lisa Bragg&nbsp;&middot; Amanda
+            Cupido&nbsp;&middot; Karen Eber&nbsp;&middot; John
+            Espirian&nbsp;&middot; Karen Ferris&nbsp;&middot; Jeppe
+            Hansgaard&nbsp;&middot; Ludmila Praslova&nbsp;&middot; Hilke
+            Schellmann&nbsp;&middot; Tamsen Webster&nbsp;&middot; and more
           </p>
           <div className="mt-8">
             <a
@@ -151,7 +227,6 @@ export default function PodcastPage() {
           </div>
         </div>
       </SectionWrapper>
-
     </main>
   );
 }
