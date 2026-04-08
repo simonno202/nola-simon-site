@@ -6,10 +6,12 @@ import { getAllPosts, getPost, getPostSlugs } from "@/lib/blog";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework";
+import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle";
 import { ArticleSchema } from "@/components/SchemaOrg";
 
 const mdxComponents = {
   ConvergencesFramework,
+  AssumptionGroundCycle,
 };
 
 export async function generateStaticParams() {

@@ -13,6 +13,16 @@ export const metadata: Metadata = {
 
 const FEATURED_ESSAYS = [
   {
+    slug: "assumption-ground-audit",
+    title: "Change Management Was Built for Projects. Your Organization Is Not a Project.",
+    meta: "Witnessed Trust · Change · Everyday Futurism · April 8, 2026",
+    description:
+      "For ten years, I cancelled duplicate forms. The frontline concern was right the whole time. The response was a metric that converted \"why does this work exist\" into \"why haven't you cleared your queue.\" That is what the gap between due diligence and interrogation looks like from inside it.",
+    description2:
+      "This essay traces why change management keeps failing — not because it's executed badly, but because helping a decision land and asking whether it should be reconsidered are structurally incompatible goals. And what the Assumption-Ground Audit does instead.",
+    related: { label: "Advisory and speaking", href: "/advisory-speaking" },
+  },
+  {
     slug: "the-rabbit-hole",
     title: "The Rabbit Hole",
     meta: "Trust Architecture · Witnessed Trust · April 3, 2026",
