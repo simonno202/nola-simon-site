@@ -284,19 +284,28 @@ export default function MediaPage() {
           {/* Speaking Topics + Download */}
           <div className="mt-8 grid gap-8 sm:grid-cols-2">
             <div className="rounded-xl border border-border-light bg-cream p-6">
-              <h3 className="text-sm font-semibold text-navy">Speaking Topics</h3>
-              <ul className="mt-3 space-y-2 text-[13px] text-text-secondary">
-                <li>Everyday Futurism: How to practice the future before it arrives</li>
-                <li>The Self-Trust Deficit: Why smart leaders stay stuck</li>
-                <li>Signal Reading for Leaders: What you&rsquo;re already noticing (and ignoring)</li>
-                <li>The Future of Work Is Already Here: Culture, trust, and what comes next</li>
+              <h3 className="text-sm font-semibold text-navy">Sample Talks</h3>
+              <ul className="mt-3 space-y-3 text-[13px] text-text-secondary">
+                <li>
+                  <span className="font-semibold text-navy">What You&rsquo;re Not Asking Before You Commit</span>
+                  <span className="text-text-muted"> &mdash; Decision-making</span>
+                </li>
+                <li>
+                  <span className="font-semibold text-navy">Witnessed Trust</span>
+                  <span className="text-text-muted"> &mdash; Trust &amp; reputation</span>
+                </li>
+                <li>
+                  <span className="font-semibold text-navy">Before You Commit</span>
+                  <span className="text-text-muted"> &mdash; AI adoption</span>
+                </li>
               </ul>
+              <p className="mt-3 text-[11px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized</p>
             </div>
 
             <div className="rounded-xl border border-border-light bg-cream p-6 flex flex-col items-center justify-center text-center">
-              <h3 className="text-sm font-semibold text-navy">Full Press Kit</h3>
+              <h3 className="text-sm font-semibold text-navy">Speaker Kit</h3>
               <p className="mt-2 text-[13px] text-text-muted">
-                Bio, topics, credentials, and contact — one document.
+                Bio, talks, credentials, and contact — ready to share.
               </p>
               <a
                 href="/speaker-kit.html"
@@ -309,14 +318,30 @@ export default function MediaPage() {
                   <polyline points="7 10 12 15 17 10" />
                   <line x1="12" y1="15" x2="12" y2="3" />
                 </svg>
-                View Speaker Kit
+                View One-Pager
               </a>
+              <div className="mt-2 flex flex-wrap justify-center gap-x-4 gap-y-1">
+                <a
+                  href="/nola-simon-speaker-one-pager.pdf"
+                  download
+                  className="inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
+                >
+                  Download One-Pager
+                </a>
+                <a
+                  href="/nola-simon-press-kit.pdf"
+                  download
+                  className="inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
+                >
+                  Download PDF
+                </a>
+              </div>
               <a
-                href="/nola-simon-press-kit.pdf"
+                href="/nola-simon-speaker-kit.pdf"
                 download
-                className="mt-2 inline-flex items-center gap-2 text-sm font-medium text-pink hover:underline"
+                className="mt-1 inline-flex items-center gap-1 text-[12px] text-text-muted hover:text-pink hover:underline transition-colors"
               >
-                Download PDF
+                Full Speaker Kit (PDF)
               </a>
             </div>
           </div>

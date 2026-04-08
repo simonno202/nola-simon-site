@@ -5,16 +5,18 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Testimonials } from "@/components/ui/Testimonials";
 import { VideoEmbed } from "@/components/ui/VideoEmbed";
+import { SpeakerSchema } from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Advisory & Speaking — Nola Simon | Everyday Futurism",
+  title: "Keynote Speaker Ontario — Nola Simon | Future of Work & Organizational Trust",
   description:
-    "Keynotes, advisory, and consulting for leaders and organizations practicing Everyday Futurism. Every engagement starts with a conversation.",
+    "Nola Simon is a keynote speaker based in Ontario, Canada. Talks on the future of work, organizational trust (Witnessed Trust), and AI adoption. 45–60 min, fully customized, no slides by default.",
 };
 
 export default function AdvisorySpeakingPage() {
   return (
     <main>
+      <SpeakerSchema />
       {/* ── Hero ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-10">
@@ -43,6 +45,25 @@ export default function AdvisorySpeakingPage() {
                 Book an Intro Consultation
               </Button>
             </div>
+
+            <div className="mt-10 grid gap-3 sm:grid-cols-3 max-w-2xl">
+              <div className="border border-border-light rounded-lg px-4 py-3">
+                <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">Decision-making</p>
+                <p className="mt-1 text-[13px] font-semibold text-navy leading-snug">What You&rsquo;re Not Asking Before You Commit</p>
+                <p className="mt-1 text-[12px] text-text-muted leading-relaxed">The most important decision your organization makes is already half-made.</p>
+              </div>
+              <div className="border border-border-light rounded-lg px-4 py-3">
+                <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">Trust &amp; reputation</p>
+                <p className="mt-1 text-[13px] font-semibold text-navy leading-snug">Witnessed Trust</p>
+                <p className="mt-1 text-[12px] text-text-muted leading-relaxed">Trust isn&rsquo;t built. It&rsquo;s caught. Most organizations don&rsquo;t know what their people actually trust.</p>
+              </div>
+              <div className="border border-border-light rounded-lg px-4 py-3">
+                <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">AI adoption</p>
+                <p className="mt-1 text-[13px] font-semibold text-navy leading-snug">Before You Commit</p>
+                <p className="mt-1 text-[12px] text-text-muted leading-relaxed">The most important AI decision your organization will make is happening right now&nbsp;&mdash; informally.</p>
+              </div>
+            </div>
+            <p className="mt-3 text-[11px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized</p>
           </div>
 
           {/* Photo */}
@@ -152,23 +173,42 @@ export default function AdvisorySpeakingPage() {
 
             <div>
               <h3 className="font-semibold text-navy mt-6 mb-3">
-                Signature Topics
+                Sample Talks
               </h3>
-              <ul className="space-y-2 list-disc pl-5">
-                <li>Everyday Futurism: How to practice the future before it arrives</li>
-                <li>The Self-Trust Deficit: Why smart leaders stay stuck</li>
-                <li>Signal Reading for Leaders: What you&rsquo;re already noticing (and ignoring)</li>
-                <li>The Future of Work Is Already Here: Culture, trust, and what comes next</li>
+              <ul className="space-y-3 list-none pl-0">
+                <li>
+                  <span className="font-semibold text-navy">What You&rsquo;re Not Asking Before You Commit</span>
+                  <span className="text-text-muted"> &mdash; Decision-making</span>
+                  <p className="text-[13px] text-text-muted mt-0.5">The most important decision your organization makes is already half-made.</p>
+                </li>
+                <li>
+                  <span className="font-semibold text-navy">Witnessed Trust</span>
+                  <span className="text-text-muted"> &mdash; Trust &amp; reputation</span>
+                  <p className="text-[13px] text-text-muted mt-0.5">Trust isn&rsquo;t built. It&rsquo;s caught. Most organizations have no idea what their people actually trust.</p>
+                </li>
+                <li>
+                  <span className="font-semibold text-navy">Before You Commit</span>
+                  <span className="text-text-muted"> &mdash; AI adoption</span>
+                  <p className="text-[13px] text-text-muted mt-0.5">The most important AI decision your organization will make is happening right now&nbsp;&mdash; informally.</p>
+                </li>
               </ul>
+              <p className="mt-4 text-[13px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized &middot; Pre-event planning call included</p>
             </div>
 
-            <div className="mt-6 pt-5 border-t border-[#E0DDD8]">
-              <p className="text-[13px] text-text-muted mb-3">
-                Planning an event? Download the full press kit for bios, headshots, media history, and booking details.
+            <div className="mt-6 pt-5 border-t border-[#E0DDD8] flex flex-wrap gap-3 items-center">
+              <p className="text-[13px] text-text-muted w-full mb-1">
+                Planning an event? Download the speaker kit for bios, headshots, talks, and booking details.
               </p>
               <Button href="/speaker-kit.html" external variant="secondary">
-                View Speaker Kit
+                View One-Pager
               </Button>
+              <a
+                href="/nola-simon-speaker-kit.pdf"
+                download
+                className="inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
+              >
+                Download Full Kit (PDF)
+              </a>
             </div>
 
           </div>

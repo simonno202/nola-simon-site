@@ -5,9 +5,18 @@ export function PersonSchema() {
     name: "Nola Simon",
     url: "https://www.everydayfuturism.com",
     image: "https://www.everydayfuturism.com/images/nola-hero.jpg",
-    jobTitle: "Futurist & Researcher",
+    jobTitle: "Keynote Speaker & Strategic Advisor",
     description:
-      "Futurist, researcher, and podcast host helping leaders and organizations trust themselves to navigate what's next.",
+      "Keynote speaker and strategic futurist based in Ontario, Canada. Nola Simon helps executive teams surface assumptions before decisions calcify — on the future of work, organizational trust, and AI adoption.",
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "Ontario",
+      addressCountry: "CA",
+    },
+    areaServed: [
+      { "@type": "State", name: "Ontario" },
+      { "@type": "Country", name: "Canada" },
+    ],
     sameAs: [
       "https://www.linkedin.com/in/nolasimon/",
       "https://nolasimonhrcoe.substack.com",
@@ -15,18 +24,21 @@ export function PersonSchema() {
       "https://podcasts.apple.com/us/podcast/id1602822494",
     ],
     knowsAbout: [
-      "Strategic Foresight",
       "Future of Work",
-      "Leadership",
-      "Trust",
+      "Keynote Speaking",
+      "Strategic Foresight",
       "Everyday Futurism",
-      "Employee Engagement",
+      "Organizational Trust",
+      "AI Adoption",
+      "Decision-Making",
+      "Leadership",
+      "Change Management",
+      "Assumption-Ground Audit",
     ],
-    alumniOf: [],
     award: [
       "LinkedIn Top Voice 2024",
       "LinkedIn Top Voice 2025",
-      "Goodpods Top 100 Leadership Indie Podcast",
+      "Goodpods Top 10 Leadership Indie Podcast",
     ],
   };
 
@@ -132,6 +144,102 @@ export function ArticleSchema({
       "@type": "WebPage",
       "@id": `https://www.everydayfuturism.com/blog/${slug}`,
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function SpeakerSchema() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Nola Simon",
+    url: "https://www.nolasimon.com/advisory-speaking",
+    image: "https://www.everydayfuturism.com/images/nola-speaking.jpg",
+    jobTitle: "Keynote Speaker & Strategic Advisor",
+    description:
+      "Keynote speaker on the future of work, organizational trust, and AI adoption. Based in Ontario, Canada. Nola Simon works with executive teams in the window before decisions calcify — surfacing assumptions before they become policy.",
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "Ontario",
+      addressCountry: "CA",
+    },
+    areaServed: [
+      { "@type": "State", name: "Ontario" },
+      { "@type": "Country", name: "Canada" },
+    ],
+    knowsAbout: [
+      "Future of Work",
+      "Keynote Speaking",
+      "Organizational Trust",
+      "AI Adoption",
+      "Decision-Making Under Uncertainty",
+      "Strategic Foresight",
+      "Everyday Futurism",
+      "Assumption-Ground Audit",
+      "Leadership",
+      "Change Management",
+    ],
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Keynote Speaking Topics",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "What You're Not Asking Before You Commit",
+            description:
+              "The most important decision your organization makes is already half-made. A keynote on decision-making, pre-decision windows, and the Assumption-Ground Audit.",
+            serviceType: "Keynote Speaking",
+            provider: { "@type": "Person", name: "Nola Simon" },
+            areaServed: [
+              { "@type": "State", name: "Ontario" },
+              { "@type": "Country", name: "Canada" },
+            ],
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Witnessed Trust",
+            description:
+              "Trust isn't built. It's caught. A keynote on organizational trust, what people actually trust versus what organizations think they trust, and why transparency theater makes it worse.",
+            serviceType: "Keynote Speaking",
+            provider: { "@type": "Person", name: "Nola Simon" },
+            areaServed: [
+              { "@type": "State", name: "Ontario" },
+              { "@type": "Country", name: "Canada" },
+            ],
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Before You Commit",
+            description:
+              "The most important AI decision your organization will make is happening right now — informally. A keynote on AI adoption, pre-adoption assumptions, and the window before strategy calcifies.",
+            serviceType: "Keynote Speaking",
+            provider: { "@type": "Person", name: "Nola Simon" },
+            areaServed: [
+              { "@type": "State", name: "Ontario" },
+              { "@type": "Country", name: "Canada" },
+            ],
+          },
+        },
+      ],
+    },
+    sameAs: [
+      "https://www.linkedin.com/in/nolasimon/",
+      "https://elevate.ca/speakers/nola-simon/",
+    ],
   };
 
   return (

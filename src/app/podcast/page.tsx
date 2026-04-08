@@ -150,7 +150,7 @@ export default function PodcastPage() {
             <Button href="/blog" variant="secondary">
               Read the Essays →
             </Button>
-            <Button href="#" variant="secondary">
+            <Button href="/trust-signal-quiz.html" variant="secondary">
               Take the Trust Signal Quiz →
             </Button>
           </div>

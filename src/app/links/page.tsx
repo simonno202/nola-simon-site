@@ -81,7 +81,8 @@ const siteLinks = [
   { label: "Newsletter Archive", href: "https://www.nolasimon.com/newsletter" },
   { label: "Work — Writing, Audio, Video", href: "https://www.everydayfuturism.com/work" },
   { label: "Can You Read a Trust Signal? — Quiz", href: "https://www.everydayfuturism.com/trust-signal-quiz.html" },
-  { label: "Speaker Kit", href: "https://www.nolasimon.com/speaker-kit.html" },
+  { label: "Speaker Kit — One-Pager", href: "https://www.nolasimon.com/speaker-kit.html" },
+  { label: "Full Speaker Kit (PDF)", href: "https://www.nolasimon.com/nola-simon-speaker-kit.pdf" },
 ];
 
 /* ── Icons ── */
