@@ -8,9 +8,9 @@ import { VideoEmbed } from "@/components/ui/VideoEmbed";
 import { SpeakerSchema } from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Keynote Speaker Ontario — Nola Simon | Future of Work & Organizational Trust",
+  title: "Keynote Speaker Ontario & Canada — Nola Simon | Future of Work & Organizational Trust",
   description:
-    "Nola Simon is a keynote speaker based in Ontario, Canada. Talks on the future of work, organizational trust (Witnessed Trust), and AI adoption. 45–60 min, fully customized, no slides by default.",
+    "Nola Simon is a keynote speaker based in Ontario, Canada. Talks on the future of work, organizational trust (Witnessed Trust), and AI adoption. Available across Canada. 45–60 min, fully customized, no slides by default.",
 };
 
 export default function AdvisorySpeakingPage() {
