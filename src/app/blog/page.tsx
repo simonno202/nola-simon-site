@@ -67,7 +67,7 @@ const FEATURED_ESSAYS = [
     title: "Everyday Futurism: A Practice, Not a Prediction",
     meta: "Futurism · Leadership · Organizational Trust · March 19, 2026",
     description:
-      "In 2008, a woman quit her job to take a year off with her eighteen-year-old son. Not for a baby \u2014 for the decisions that actually change a life. That question rearranged something. It took years to name what.",
+      "In 2008, I had just returned from maternity leave. One-year-old, two-and-a-half-year-old, three-hour commute, still breastfeeding, seeing my kids an hour a day. In those first months back, a woman told me she\u2019d quit her job to take a year off with her eighteen-year-old son. Not for a baby \u2014 for the decisions that actually change a life.",
     description2:
       "This essay traces the principle from a maternity leave conversation to a work-from-home pilot in 2012 to the moment a map expires in your body before you have the language to say so \u2014 and what all of it has to do with why organizational trust breaks the way it does now.",
     related: { label: "Book Nola for a keynote", href: "/advisory-speaking" },
