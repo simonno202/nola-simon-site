@@ -65,11 +65,11 @@ const FEATURED_ESSAYS = [
   {
     slug: "everyday-futurism-a-practice-not-a-prediction",
     title: "Everyday Futurism: A Practice, Not a Prediction",
-    meta: "Futurism · Self-trust · Leadership · March 19, 2026",
+    meta: "Futurism · Leadership · Organizational Trust · March 19, 2026",
     description:
-      "People hear \u201cfuturist\u201d and assume forecast. This essay is about why prediction is a crutch \u2014 brittle, contingent on being right \u2014 and what practice builds instead: the capacity to move when things shift, before the path is obvious, before permission is granted.",
+      "In 2008, a woman quit her job to take a year off with her eighteen-year-old son. Not for a baby \u2014 for the decisions that actually change a life. That question rearranged something. It took years to name what.",
     description2:
-      "The tagline \u201cthe future isn\u2019t predicted, it\u2019s practiced\u201d isn\u2019t a slogan. It\u2019s a structural description of how real change happens.",
+      "This essay traces the principle from a maternity leave conversation to a work-from-home pilot in 2012 to the moment a map expires in your body before you have the language to say so \u2014 and what all of it has to do with why organizational trust breaks the way it does now.",
     related: { label: "Book Nola for a keynote", href: "/advisory-speaking" },
   },
 ];
