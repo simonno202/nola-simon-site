@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const FEATURED_ESSAYS = [
   {
     slug: "assumption-ground-audit",
-    title: "Change Management Was Built for Projects. Your Organization Is Not a Project.",
+    title: "Under the Rocks Are the Words",
     meta: "Witnessed Trust · Change · Everyday Futurism · April 8, 2026",
     description:
       "For ten years, I cancelled duplicate forms. The frontline concern was right the whole time. The response was a metric that converted \"why does this work exist\" into \"why haven't you cleared your queue.\" That is what the gap between due diligence and interrogation looks like from inside it.",
