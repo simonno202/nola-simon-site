@@ -343,6 +343,14 @@ export default function MediaPage() {
               >
                 Full Speaker Kit (PDF)
               </a>
+              <a
+                href="/speaker-logistics.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-flex items-center gap-1 text-[12px] text-text-muted hover:text-pink hover:underline transition-colors"
+              >
+                Speaker Logistics (Fees &amp; Travel)
+              </a>
             </div>
           </div>
         </div>
