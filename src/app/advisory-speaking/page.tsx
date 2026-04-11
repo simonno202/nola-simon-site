@@ -195,6 +195,19 @@ export default function AdvisorySpeakingPage() {
               <p className="mt-4 text-[13px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized &middot; Pre-event planning call included</p>
             </div>
 
+            <div className="mt-8">
+              <p className="text-[11px] font-mono uppercase tracking-[0.12em] text-text-muted mb-3">Elevate Festival — Make Work Love You Back</p>
+              <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
+                <iframe
+                  src="https://share.descript.com/embed/bmxPyvXskTE"
+                  title="Nola Simon at Elevate Festival — Make Work Love You Back"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="absolute inset-0 w-full h-full rounded-[var(--radius-card)]"
+                />
+              </div>
+            </div>
+
             <div className="mt-6 pt-5 border-t border-[#E0DDD8] flex flex-wrap gap-3 items-center">
               <p className="text-[13px] text-text-muted w-full mb-1">
                 Planning an event? Download the speaker kit for bios, headshots, talks, and booking details.
