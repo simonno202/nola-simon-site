@@ -22,7 +22,7 @@ const nextConfig: NextConfig = {
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: https:",
               "media-src 'self' https:",
-              "frame-src 'self' https://share.descript.com https://open.spotify.com https://podcasts.apple.com",
+              "frame-src 'self' https://share.descript.com https://open.spotify.com https://podcasts.apple.com https://assets.pinterest.com",
               "connect-src 'self'",
             ].join("; "),
           },
