@@ -6,6 +6,7 @@ import { getAllIssues, getIssue, getIssueSlugs } from "@/lib/newsletter";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { NewsletterCTA } from "@/components/ui/NewsletterCTA";
+import { PinterestPin } from "@/components/ui/PinterestPin";
 
 export async function generateStaticParams() {
   return getIssueSlugs().map((slug) => ({ slug }));
@@ -84,7 +85,7 @@ export default async function NewsletterIssuePage({
 
           {/* MDX content */}
           <div className="prose-content">
-            <MDXRemote source={issue.content} />
+            <MDXRemote source={issue.content} components={{ PinterestPin }} />
           </div>
 
           {/* Issue navigation */}
