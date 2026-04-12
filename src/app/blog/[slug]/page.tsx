@@ -8,12 +8,14 @@ import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework";
 import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle";
 import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeriesNav";
+import { PinterestPin } from "@/components/ui/PinterestPin";
 import { ArticleSchema } from "@/components/SchemaOrg";
 
 const mdxComponents = {
   ConvergencesFramework,
   AssumptionGroundCycle,
   WitnessedTrustSeriesNav,
+  PinterestPin,
 };
 
 export async function generateStaticParams() {
