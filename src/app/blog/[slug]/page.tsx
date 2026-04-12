@@ -7,11 +7,13 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework";
 import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle";
+import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeriesNav";
 import { ArticleSchema } from "@/components/SchemaOrg";
 
 const mdxComponents = {
   ConvergencesFramework,
   AssumptionGroundCycle,
+  WitnessedTrustSeriesNav,
 };
 
 export async function generateStaticParams() {
