@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
+import { getAllIssues } from "@/lib/newsletter";
 
 const BASE_URL = "https://www.everydayfuturism.com";
 
@@ -44,6 +45,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
+      url: `${BASE_URL}/newsletter`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
       url: `${BASE_URL}/contact`,
       lastModified: now,
       changeFrequency: "yearly",
@@ -77,5 +84,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...postEntries];
+  const issues = getAllIssues();
+  const newsletterEntries: MetadataRoute.Sitemap = issues.map((issue) => ({
+    url: `${BASE_URL}/newsletter/${issue.slug}`,
+    lastModified: new Date(issue.date).toISOString(),
+    changeFrequency: "never",
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...postEntries, ...newsletterEntries];
 }
