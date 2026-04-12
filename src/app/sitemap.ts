@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
 import { getAllIssues } from "@/lib/newsletter";
 
-const BASE_URL = "https://www.everydayfuturism.com";
+const BASE_URL = "https://nolasimon.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date().toISOString();
