@@ -216,6 +216,14 @@ export default function AdvisorySpeakingPage() {
                 View One-Pager
               </Button>
               <a
+                href="/speaker-logistics.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
+              >
+                Speaker Logistics (Fees &amp; Travel)
+              </a>
+              <a
                 href="/nola-simon-speaker-kit.pdf"
                 download
                 className="inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
