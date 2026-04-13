@@ -116,12 +116,20 @@ export function ArticleSchema({
   description,
   datePublished,
   slug,
+  image,
 }: {
   title: string;
   description: string;
   datePublished: string;
   slug: string;
+  image?: string;
 }) {
+  const imageUrl = image
+    ? image.startsWith("http")
+      ? image
+      : `https://nolasimon.com${image}`
+    : "https://nolasimon.com/og-image.jpg";
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -129,23 +137,103 @@ export function ArticleSchema({
     description,
     datePublished,
     dateModified: datePublished,
-    url: `https://www.everydayfuturism.com/blog/${slug}`,
+    image: imageUrl,
+    url: `https://nolasimon.com/blog/${slug}`,
     author: {
       "@type": "Person",
       name: "Nola Simon",
-      url: "https://www.everydayfuturism.com",
+      url: "https://nolasimon.com",
     },
     publisher: {
       "@type": "Person",
       name: "Nola Simon",
-      url: "https://www.everydayfuturism.com",
+      url: "https://nolasimon.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.everydayfuturism.com/blog/${slug}`,
+      "@id": `https://nolasimon.com/blog/${slug}`,
     },
   };
 
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function PediculosisFAQ() {
+  const faqs = [
+    {
+      question: "What is an Assumption-Ground Audit?",
+      answer: "An Assumption-Ground Audit is a structured process for tracing a belief, policy, or strategy back to its source before it hardens into irreversible action. It identifies what an organization is taking for granted, who decided it was true, and whether it has ever been verified. Developed by Nola Simon through Everyday Futurism.",
+    },
+    {
+      question: "What does an Assumption-Ground Audit cost to ignore?",
+      answer: "Unexamined assumptions can compound into policy, then into culture. In the case study on this page, a single unverified assumption in a school board lice policy generated roughly $30 million in preventable economic harm before it was audited and corrected.",
+    },
+    {
+      question: "When should an organization do an Assumption-Ground Audit?",
+      answer: "Before a major policy is written, before a strategy is committed, before a vendor contract is signed — any time a decision is about to calcify into something hard to reverse. The audit is upstream work, most valuable before the seventh time someone gets sent home.",
+    },
+  ];
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+export function DefinedTermSchema({
+  name,
+  description,
+  url,
+}: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "DefinedTerm",
+    name,
+    description,
+    url,
+    inDefinedTermSet: {
+      "@type": "DefinedTermSet",
+      name: "Everyday Futurism Glossary",
+      url: "https://nolasimon.com",
+    },
+  };
   return (
     <script
       type="application/ld+json"

@@ -9,13 +9,16 @@ import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework"
 import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle";
 import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeriesNav";
 import { PinterestPin } from "@/components/ui/PinterestPin";
-import { ArticleSchema } from "@/components/SchemaOrg";
+import { ArticleSchema, FAQSchema, DefinedTermSchema, PediculosisFAQ } from "@/components/SchemaOrg";
 
 const mdxComponents = {
   ConvergencesFramework,
   AssumptionGroundCycle,
   WitnessedTrustSeriesNav,
   PinterestPin,
+  FAQSchema,
+  DefinedTermSchema,
+  PediculosisFAQ,
 };
 
 export async function generateStaticParams() {
@@ -32,9 +35,27 @@ export async function generateMetadata({
   if (!slugs.includes(slug)) return {};
 
   const post = getPost(slug);
+  const canonicalUrl = `https://nolasimon.com/blog/${slug}`;
+  const ogImage = post.ogImage ?? "/og-image.jpg";
   return {
     title: post.title,
     description: post.description,
+    keywords: post.keywords.length > 0 ? post.keywords : post.tags,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      type: "article",
+      url: canonicalUrl,
+      title: post.displayTitle ?? post.title,
+      description: post.description,
+      publishedTime: post.date,
+      images: [{ url: ogImage, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.displayTitle ?? post.title,
+      description: post.description,
+      images: [ogImage],
+    },
   };
 }
 
@@ -66,6 +87,7 @@ export default async function BlogPostPage({
         description={post.description}
         datePublished={post.date}
         slug={slug}
+        image={post.ogImage}
       />
       <SectionWrapper className="bg-cream py-12 lg:py-20 animate-hero-in">
         <div style={{ maxWidth: "var(--max-width-reading)" }}>
@@ -87,7 +109,7 @@ export default async function BlogPostPage({
             className="font-sans font-normal text-navy mt-4"
             style={{ fontSize: "clamp(24px, 4.5vw, 36px)" }}
           >
-            {post.title}
+            {post.displayTitle ?? post.title}
           </h1>
 
           {/* Tags */}

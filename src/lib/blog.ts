@@ -6,17 +6,23 @@ const CONTENT_DIR = path.join(process.cwd(), "src", "content", "blog");
 
 export interface PostMeta {
   title: string;
+  displayTitle?: string;
   date: string;
   description: string;
   tags?: string[];
+  keywords?: string[];
+  ogImage?: string;
 }
 
 export interface Post {
   slug: string;
   title: string;
+  displayTitle?: string;
   date: string;
   description: string;
   tags: string[];
+  keywords: string[];
+  ogImage?: string;
   content: string;
 }
 
@@ -37,9 +43,12 @@ export function getPost(slug: string): Post {
   return {
     slug,
     title: frontmatter.title,
+    displayTitle: frontmatter.displayTitle,
     date: frontmatter.date,
     description: frontmatter.description,
     tags: frontmatter.tags ?? [],
+    keywords: frontmatter.keywords ?? [],
+    ogImage: frontmatter.ogImage,
     content,
   };
 }
