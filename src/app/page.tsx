@@ -32,7 +32,13 @@ export default function HomePage() {
               It&rsquo;s practiced.
             </h1>
 
-            <p className="mt-5 text-[15px] leading-relaxed text-text-secondary max-w-xl">
+            <p className="mt-4 text-[16px] leading-relaxed text-text-secondary max-w-xl">
+              Historians study what already happened. Futurists project
+              what&rsquo;s next. I&rsquo;m in the middle&nbsp;&mdash; watching
+              what&rsquo;s shifting right now, before it has a name.
+            </p>
+
+            <p className="mt-4 text-[15px] leading-relaxed text-text-secondary max-w-xl">
               I help leaders and organizations trust themselves to read the
               signals already around them&nbsp;&mdash; and make intentional moves
               before the status quo collapses underneath them.

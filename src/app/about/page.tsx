@@ -11,7 +11,7 @@ import { VideoEmbed } from "@/components/ui/VideoEmbed";
 export const metadata: Metadata = {
   title: "About — Nola Simon | Everyday Futurism",
   description:
-    "20+ years inside the system. Then I left and built a different one. Strategic futurist, speaker, podcast host.",
+    "I live my life like a Choose Your Own Adventure novel. Strategic futurist, speaker, podcast host.",
 };
 
 export default function AboutPage() {
@@ -28,12 +28,13 @@ export default function AboutPage() {
               className="font-sans font-normal text-navy mt-4"
               style={{ fontSize: "clamp(26px, 5vw, 40px)" }}
             >
-              I spent 20&nbsp;years inside the system. Then I left and built a
-              different one.
+              I live my life like a Choose Your Own Adventure novel.
             </h1>
 
             <p className="mt-6 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
-              Futurist, researcher, and podcast host. I am the case study.
+              There&rsquo;s a version you&rsquo;re living&nbsp;&mdash; but at
+              any point, there are alternate paths. The practice is learning to
+              see them before you need them.
             </p>
           </div>
 
@@ -56,54 +57,74 @@ export default function AboutPage() {
         <div className="max-w-[var(--max-width-reading)]">
           <div className="space-y-6 text-[15px] leading-relaxed text-text-secondary">
             <p>
-              Here&rsquo;s the short version: I spent over 20&nbsp;years across
-              five large, complex organizations in account management, sales,
-              and training. Alongside the day job, I was leading employee
-              resource groups, coordinating employee engagement with HR and
-              senior leaders, and winning awards for teamwork and strategic
-              thinking. I was good at it. I was also slowly suffocating.
+              Here&rsquo;s the short version: I spent 20+ years across five
+              complex organizations. It ended&nbsp;&mdash; not on my timeline.
+              An opportunity in the disguise of an ultimatum. 17 months I
+              didn&rsquo;t choose but decided to use. My daughters were 16 and
+              13. I built a business around the future of work.
+            </p>
+
+            <p className="text-navy font-medium">I am the case study.</p>
+
+            <p>
+              Historians study what already happened. Futurists project
+              what&rsquo;s next. I&rsquo;m in the middle&nbsp;&mdash; watching
+              what&rsquo;s shifting right now, before it has a name.
+            </p>
+
+            <p className="font-medium text-navy">Here&rsquo;s the longer version.</p>
+
+            <p>
+              For more than 20 years, I watched organizations talk about change
+              while doing everything possible to avoid it. I sat in rooms where
+              the answer to shifting conditions was to double down on what
+              already wasn&rsquo;t working. I watched leaders confuse the
+              comfort of precedent for the safety of good strategy.
             </p>
 
             <p>
-              Not because the work was bad. Because the thinking was stuck. Every
-              room I sat in was optimising for a world that was already
-              disappearing. And the more I tried to raise that point, the more I
-              was told to stay in my lane.
+              And I stayed. Not because I didn&rsquo;t see it. Because seeing
+              it and leaving are different skills, and I hadn&rsquo;t built the
+              second one yet.
             </p>
 
             <p>
-              So I left. Not with a business plan. Not with a safety net. With a
-              question: What if the future isn&rsquo;t something you wait for
-              experts to explain&nbsp;&mdash; but something you practice, every
-              day, by trusting what you already see?
+              The end came anyway. And in the space that opened, I had a
+              question I&rsquo;d been carrying for years and finally had time
+              to answer: what does it look like to actually practice futurism,
+              every day, in real decisions&nbsp;&mdash; not just talk about it
+              on stage?
             </p>
 
             <p>
-              That question became the foundation of Everyday Futurism. It&rsquo;s
-              not a methodology or a framework you license. It&rsquo;s a shift in
-              how you relate to uncertainty. You stop waiting for permission. You
-              start noticing what&rsquo;s already changing. And you learn to make
-              moves before the map is complete.
+              That question became{" "}
+              <a
+                href="https://nolasimon.com/blog/everyday-futurism-a-practice-not-a-prediction"
+                className="font-medium text-pink hover:underline"
+              >
+                Everyday Futurism
+              </a>
+              . Not prediction. Not trend reports. Not someone else&rsquo;s map
+              to follow.
             </p>
 
             <p>
-              Today I work with leaders and organizations who sense that the old
-              playbook isn&rsquo;t working but haven&rsquo;t been given a
-              credible alternative. I help them read signals, name the stories
-              keeping them stuck, and take the small, intentional steps that
-              compound into real change.
+              It starts with self-trust. The ability to watch your own thinking,
+              name the stories keeping you stuck, read signals across industries
+              you don&rsquo;t work in, and make small, intentional moves. Not
+              dramatic. Not disruptive. Just honest.
             </p>
 
             <p>
-              My own life, career pivots, sabbatical, 20-year corporate exit,
-              choosing flexibility when my daughter was two&nbsp;&mdash; these
-              aren&rsquo;t anecdotes. They&rsquo;re data. I don&rsquo;t cite
-              myself as an exception. I offer myself as evidence for a
-              structural pattern.
+              I&rsquo;ve explored this question across 100+ podcast episodes,
+              national media features in CBC, Maclean&rsquo;s, The Globe and
+              Mail, and The Canadian Press, a panel at Elevate TechFest, and
+              advisory work with organizations that are ready to stop clinging
+              and start adapting.
             </p>
 
             <p>
-              The work is grounded in trust&nbsp;&mdash; the kind you have to
+              The common thread through all of it? Trust. The kind you have to
               build with yourself before you can build it with anyone else.
             </p>
           </div>
@@ -220,11 +241,8 @@ export default function AboutPage() {
             <li>Led employee resource groups, coordinated employee engagement alongside HR, senior leaders, and communications teams</li>
             <li>Award-winning work in teamwork and strategic thinking</li>
             <li>LinkedIn Top Voice 2024 &amp; 2025</li>
-            <li>
-              Keynote speaker at Elevate, Future of Work, and enterprise events
-              across North America
-            </li>
-            <li>Host of the Hope + Possibilities podcast (109+ episodes) — Goodpods Top 100 Leadership Indie Podcast</li>
+            <li>Panelist at Elevate TechFest and enterprise events across North America</li>
+            <li>Host of the Hope + Possibilities podcast (100+ episodes) — Goodpods Top 100 Leadership Indie Podcast</li>
             <li>Writer on Substack covering self-trust, leadership, and the future of work</li>
             <li>Trusted advisor to leaders and transformation teams</li>
             <li>
