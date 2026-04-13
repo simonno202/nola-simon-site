@@ -11,7 +11,7 @@ export interface Episode {
 }
 
 export const PODCAST_BASE_URL =
-  "https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work";
+  "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work";
 
 export const APPLE_PODCASTS_URL =
   "https://podcasts.apple.com/us/podcast/id1602822494?mt=2&ls=1";
@@ -19,6 +19,7 @@ export const SPOTIFY_URL =
   "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7";
 
 export const EPISODES: Episode[] = [
+  {"id":118,"title":"Witnessed Trust: A PR Crisis, a Pop Star, and a Camera Walk Into a Stadium","date":"2026-04-01","guest":null,"type":"solo","season":14,"topics":["Future of Work"],"slug":"witnessed-trust-pr-crisis-pop-star-stadium","desc":"In this episode, I dive into trust through a pop culture moment that became a global case study: the Coldplay kiss cam incident. What looked like celebrity gossip actually opens up bigger conversations about leadership, workplace ethics, public perception, and how we decide who and what to trust."},
   {"id":1,"title":"Canadian Perspective on US Politics and Values","date":"2026-01-28","guest":null,"type":"solo","season":13,"topics":["Politics","Values","Canada","Culture"],"slug":"canadian-perspective-on-us-politics-and-values","desc":""},
   {"id":2,"title":"Self-Trust and Inner Practices","date":"2026-01-20","guest":null,"type":"solo","season":13,"topics":["Self-Trust","Inner Work","Mindset","Trust"],"slug":"self-trust-and-inner-practices","desc":"Exploring how declining trust in institutions connects to cultivating self-trust and inner practices as a foundation for navigating uncertainty."},
   {"id":3,"title":"Beyond Hybrid/Remote: Leadership Decisions That Will Define the Next Decade","date":"2026-01-14","guest":null,"type":"solo","season":13,"topics":["Hybrid Work","Remote Work","Leadership","Future of Work"],"slug":"beyond-hybridremote-leadership-decisions-that-will-define-the-next-decade","desc":"Looking at 2026 and why the focus is shifting from hybrid/remote adoption to broader leadership decisions that will shape the future of work."},

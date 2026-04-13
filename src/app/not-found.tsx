@@ -58,7 +58,7 @@ export default function NotFound() {
 
           {/* ── High-confidence link ── */}
           <a
-            href="https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work/practical-futurism-for-daily-life/"
+            href="https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/practical-futurism-for-daily-life/"
             target="_blank"
             rel="noopener noreferrer"
             style={{

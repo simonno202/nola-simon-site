@@ -16,7 +16,7 @@ const testimonials: Testimonial[] = [
     name: "Kerri Twigg",
     title: "Leadership Development Specialist & LinkedIn Top Voice",
     organization: "Manitoba Hydro · Podcast Guest",
-    episodeUrl: "https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work/embracing-your-story-to-pivot-your-career",
+    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/embracing-your-story-to-pivot-your-career",
   },
   {
     quote:
@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
     name: "Pamela Kellert",
     title: "Infrastructure & Mobility Executive",
     organization: "Podcast Guest",
-    episodeUrl: "https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work/leadership-in-a-hybrid-world-pamela-kellert",
+    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/leadership-in-a-hybrid-world-pamela-kellert",
   },
   // Row 3 — corporate credibility
   {
@@ -76,7 +76,7 @@ const testimonials: Testimonial[] = [
     name: "Kendra Foerster",
     title: "Award-Winning Personal Branding Photographer",
     organization: "Portraits by Kendra · Podcast Guest",
-    episodeUrl: "https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work/the-story-of-corporate",
+    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/the-story-of-corporate",
   },
 ];
 

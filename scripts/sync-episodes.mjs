@@ -208,7 +208,7 @@ function writeEpisodes(episodes) {
 }
 
 export const PODCAST_BASE_URL =
-  "https://www.podpage.com/hope-possibilties-a-love-letter-to-the-future-of-work";
+  "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work";
 
 export const APPLE_PODCASTS_URL =
   "https://podcasts.apple.com/us/podcast/id1602822494?mt=2&ls=1";
