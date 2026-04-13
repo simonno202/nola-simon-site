@@ -142,9 +142,11 @@ export default function AboutPage() {
                 Trust is the starting point
               </h3>
               <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
-                Not the reward. Without self-trust, no framework, course, or
-                expert advice goes anywhere. There are no right answers, only
-                the answers and the path you create for yourself.
+                Not the reward. You can&rsquo;t convey alignment to someone
+                else if you don&rsquo;t have it with yourself first. The
+                performance of alignment is detectable. The real thing
+                isn&rsquo;t strategic&nbsp;&mdash; it&rsquo;s what happens
+                when your interests are actually clear to you.
               </p>
             </Card>
 
