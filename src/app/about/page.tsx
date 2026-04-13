@@ -36,10 +36,22 @@ export default function AboutPage() {
               any point, there are alternate paths. The practice is learning to
               see them before you need them.
             </p>
+
+            <p className="mt-6 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+              Here&rsquo;s the short version: I spent 20+ years across five
+              complex organizations. It ended&nbsp;&mdash; not on my timeline.
+              An opportunity in the disguise of an ultimatum. 17 months I
+              didn&rsquo;t choose but decided to use. My daughters were 16 and
+              13. I built a business around the future of work.
+            </p>
+
+            <p className="mt-4 text-[15px] font-medium text-navy max-w-2xl">
+              I am the case study.
+            </p>
           </div>
 
           {/* Photo */}
-          <div className="relative aspect-[4/5] w-72 sm:w-80 mx-auto lg:mx-0 rounded-[var(--radius-card)] overflow-hidden">
+          <div className="relative aspect-[3/4] w-64 sm:w-72 mx-auto lg:mx-0 rounded-[var(--radius-card)] overflow-hidden">
             <Image
               src="/images/nola-about.jpg"
               alt="Nola Simon smiling among purple wildflowers in a denim jacket"
@@ -56,16 +68,6 @@ export default function AboutPage() {
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-[var(--max-width-reading)]">
           <div className="space-y-6 text-[15px] leading-relaxed text-text-secondary">
-            <p>
-              Here&rsquo;s the short version: I spent 20+ years across five
-              complex organizations. It ended&nbsp;&mdash; not on my timeline.
-              An opportunity in the disguise of an ultimatum. 17 months I
-              didn&rsquo;t choose but decided to use. My daughters were 16 and
-              13. I built a business around the future of work.
-            </p>
-
-            <p className="text-navy font-medium">I am the case study.</p>
-
             <p>
               Historians study what already happened. Futurists project
               what&rsquo;s next. I&rsquo;m in the middle&nbsp;&mdash; watching
