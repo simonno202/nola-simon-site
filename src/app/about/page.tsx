@@ -55,9 +55,6 @@ export default function AboutPage() {
               what&rsquo;s shifting right now, before it has a name.
             </p>
 
-            <p className="mt-4 text-[15px] font-medium text-navy max-w-2xl">
-              Here&rsquo;s the longer version.
-            </p>
           </div>
 
           {/* Photo */}
@@ -82,6 +79,7 @@ export default function AboutPage() {
       {/* ── The Story ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-[var(--max-width-reading)]">
+          <p className="mb-8 text-[15px] font-medium text-navy">Here&rsquo;s the longer version.</p>
           <div className="space-y-6 text-[15px] leading-relaxed text-text-secondary">
             <p>
               For more than 20 years, I watched organizations talk about change
