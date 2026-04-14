@@ -61,7 +61,7 @@ export default function AboutPage() {
           </div>
 
           {/* Photo */}
-          <div className="relative aspect-[3/4] w-64 sm:w-72 mx-auto lg:mx-0 rounded-[var(--radius-card)] overflow-hidden">
+          <div className="relative w-64 sm:w-72 mx-auto lg:mx-0 rounded-[var(--radius-card)] overflow-hidden" style={{ aspectRatio: "3/4", maxHeight: "420px" }}>
             <Image
               src="/images/nola-about.jpg"
               alt="Nola Simon smiling among purple wildflowers in a denim jacket"
@@ -72,6 +72,11 @@ export default function AboutPage() {
             />
           </div>
         </div>
+      </SectionWrapper>
+
+      {/* ── Divider ── */}
+      <SectionWrapper className="bg-cream py-0">
+        <hr className="border-border-medium" />
       </SectionWrapper>
 
       {/* ── The Story ── */}
