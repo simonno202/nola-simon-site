@@ -20,7 +20,7 @@ const FEATURED_ESSAYS = [
       "Every spring, schools send kids home based on a policy nobody thought to question. This is the story of what an unexamined assumption costs — in time, in stress, in a child's mental health, in a parent's employment — and what happens when someone finally checks the ground it's standing on.",
     description2:
       "One policy change. One corrected assumption. Roughly $30 million in prevented economic harm — and counting. A case study in upstream thinking, change management, and what it actually means to audit what you're taking for granted.",
-    related: { label: "Book an intro consultation", href: "https://tidycal.com/nolasimon" },
+    related: { label: "Read: Under the Rocks Are the Words", href: "/blog/assumption-ground-audit" },
   },
   {
     slug: "assumption-ground-audit",
