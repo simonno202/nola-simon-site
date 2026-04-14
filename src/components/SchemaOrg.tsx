@@ -195,7 +195,8 @@ export function PediculosisFAQ() {
   );
 }
 
-export function FAQSchema({ faqs }: { faqs: { question: string; answer: string }[] }) {
+export function FAQSchema({ faqs }: { faqs?: { question: string; answer: string }[] }) {
+  if (!faqs?.length) return null;
   const schema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",

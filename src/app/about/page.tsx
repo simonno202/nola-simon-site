@@ -48,6 +48,16 @@ export default function AboutPage() {
             <p className="mt-4 text-[15px] font-medium text-navy max-w-2xl">
               I am the case study.
             </p>
+
+            <p className="mt-6 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+              Historians study what already happened. Futurists project
+              what&rsquo;s next. I&rsquo;m in the middle&nbsp;&mdash; watching
+              what&rsquo;s shifting right now, before it has a name.
+            </p>
+
+            <p className="mt-4 text-[15px] font-medium text-navy max-w-2xl">
+              Here&rsquo;s the longer version.
+            </p>
           </div>
 
           {/* Photo */}
@@ -68,14 +78,6 @@ export default function AboutPage() {
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-[var(--max-width-reading)]">
           <div className="space-y-6 text-[15px] leading-relaxed text-text-secondary">
-            <p>
-              Historians study what already happened. Futurists project
-              what&rsquo;s next. I&rsquo;m in the middle&nbsp;&mdash; watching
-              what&rsquo;s shifting right now, before it has a name.
-            </p>
-
-            <p className="font-medium text-navy">Here&rsquo;s the longer version.</p>
-
             <p>
               For more than 20 years, I watched organizations talk about change
               while doing everything possible to avoid it. I sat in rooms where
