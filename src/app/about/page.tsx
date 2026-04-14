@@ -19,7 +19,7 @@ export default function AboutPage() {
     <main>
       {/* ── Hero ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-16 animate-hero-in">
-        <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-start lg:gap-10">
+        <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-10">
           {/* Text */}
           <div>
             <Eyebrow>ABOUT</Eyebrow>
