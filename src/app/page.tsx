@@ -159,6 +159,30 @@ export default function HomePage() {
         <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
+      {/* ── Mel Pull Quote ── */}
+      <SectionWrapper className="bg-cream py-10 lg:py-16">
+        <div className="max-w-2xl">
+          <blockquote className="border-l-[3px] border-pink pl-6">
+            <p className="font-sans text-[20px] font-semibold leading-[1.5] text-navy tracking-[-0.01em]">
+              &ldquo;I recently recorded an episode with Nola Simon, a remote
+              work futurist who&rsquo;s been watching this pattern for over a
+              decade. It&rsquo;s one of our most listened to episodes by far
+              now.&rdquo;
+            </p>
+            <footer className="mt-4">
+              <a
+                href="https://mamawhatsnext.com/podcast/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-mono text-[10px] uppercase tracking-[0.18em] text-text-muted hover:text-navy transition-colors"
+              >
+                Melanie Elsbeth &mdash; Mama, What&rsquo;s Next
+              </a>
+            </footer>
+          </blockquote>
+        </div>
+      </SectionWrapper>
+
       {/* ── AGA Block ── */}
       <SectionWrapper className="bg-[#0a0a0a] py-12 lg:py-20">
         <div className="max-w-3xl">
