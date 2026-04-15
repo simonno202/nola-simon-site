@@ -3,7 +3,6 @@ import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
-import { Testimonials } from "@/components/ui/Testimonials";
 import { VideoEmbed } from "@/components/ui/VideoEmbed";
 import { SpeakerSchema } from "@/components/SchemaOrg";
 
@@ -325,11 +324,6 @@ export default function AdvisorySpeakingPage() {
             </p>
           </div>
         </div>
-      </SectionWrapper>
-
-      {/* ── Social Proof ── */}
-      <SectionWrapper className="bg-surface py-10 lg:py-20">
-        <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
       {/* ── Final CTA ── */}
