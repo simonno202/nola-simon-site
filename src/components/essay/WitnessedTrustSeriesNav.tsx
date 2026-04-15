@@ -21,6 +21,11 @@ const SERIES = [
     label: "Under the Rocks Are the Words",
     num: 4,
   },
+  {
+    slug: "/blog/youre-gonna-miss-me-when-im-gone",
+    label: "You're Gonna Miss Me When I'm Gone",
+    num: 5,
+  },
 ];
 
 interface WitnessedTrustSeriesNavProps {
