@@ -3,8 +3,12 @@
 import { useState } from "react";
 import { RabbitHole } from "@/components/ui/RabbitHole";
 
+const EXPIRES = new Date("2026-05-15T00:00:00");
+
 export function PodcastRabbitHole() {
   const [open, setOpen] = useState(false);
+
+  if (new Date() > EXPIRES) return null;
 
   return (
     <>
