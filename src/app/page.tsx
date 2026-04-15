@@ -159,6 +159,42 @@ export default function HomePage() {
         <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
+      {/* ── AGA Block ── */}
+      <SectionWrapper className="bg-[#0a0a0a] py-12 lg:py-20">
+        <div className="max-w-3xl">
+          <p
+            className="font-mono text-[9px] uppercase tracking-[0.22em] mb-4"
+            style={{ color: "#ec4197" }}
+          >
+            Methodology
+          </p>
+          <h2
+            className="font-sans font-bold text-[#f0f0f0] mb-5"
+            style={{ fontSize: "clamp(22px, 3vw, 30px)", letterSpacing: "-0.02em" }}
+          >
+            What is your organization taking for granted?
+          </h2>
+          <p className="text-[16px] leading-relaxed mb-3" style={{ color: "#aaa" }}>
+            The Assumption-Ground Audit is forensic work done before the
+            direction hardens — before the scenarios are built, before the
+            vendor contract is signed, before the convergences arrive at the
+            crossing point and make the assumptions expensive.
+          </p>
+          <p className="text-[16px] leading-relaxed mb-8" style={{ color: "#aaa" }}>
+            Most organizations are optimizing for a world that is already
+            disappearing. The AGA asks: is the ground we&rsquo;re standing on
+            real?
+          </p>
+          <a
+            href="/aga"
+            className="inline-flex items-center gap-2 font-sans font-bold text-[13px] tracking-[0.04em] px-6 py-3 rounded-sm transition-opacity hover:opacity-90"
+            style={{ background: "#ec4197", color: "#fff" }}
+          >
+            Read the methodology →
+          </a>
+        </div>
+      </SectionWrapper>
+
       {/* ── Newsletter CTA ── */}
       <SectionWrapper id="newsletter" className="bg-cream py-10 lg:py-16">
         <NewsletterCTA />
