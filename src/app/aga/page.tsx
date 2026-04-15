@@ -226,6 +226,14 @@ export default function AGAPage() {
             font-style: normal;
             color: var(--pink);
           }
+          .aga-hero-kicker {
+            font-size: 15px;
+            font-weight: 500;
+            color: rgba(240,240,240,0.55);
+            margin: 0 0 20px;
+            line-height: 1.5;
+            letter-spacing: 0.01em;
+          }
           .aga-hero-sub {
             font-size: 18px;
             font-weight: 400;
@@ -719,7 +727,6 @@ export default function AGAPage() {
             padding: 16px 32px;
             border-radius: 2px;
             text-decoration: none;
-            margin-top: 32px;
             transition: opacity 0.15s;
           }
           .aga-cta-btn:hover { opacity: 0.9; }
@@ -737,6 +744,7 @@ export default function AGAPage() {
         <section className="aga-hero">
           <div className="aga-hero-inner">
             <span className="aga-eyebrow">Methodology · Everyday Futurism</span>
+            <p className="aga-hero-kicker">The audit that happens before the direction hardens.</p>
             <h1>
               The Assumption-<em>Ground</em> Audit
             </h1>
@@ -864,20 +872,20 @@ export default function AGAPage() {
             </p>
           </div>
           <div className="aga-who-grid">
-            {[
-              "CHROs",
-              "VPs of Strategy",
-              "C-suite leaders",
-              "AI integration",
-              "Workforce restructuring",
-              "Organizational reinvention",
-            ].map((tag) => (
+            {["CHROs", "VPs of Strategy", "C-suite leaders"].map((tag) => (
               <div className="aga-who-tag" key={tag}>
                 {tag}
               </div>
             ))}
           </div>
-          <div className="aga-prose">
+          <div className="aga-prose" style={{ marginTop: "24px" }}>
+            <p>
+              Common triggers: an AI or technology decision on the horizon, a
+              workforce restructuring under review, a return-to-office or
+              flexibility policy that keeps getting deferred, or a leadership
+              team that senses the current direction isn&rsquo;t quite right but
+              can&rsquo;t name why.
+            </p>
             <p>
               You don&rsquo;t need to know what the assumption is yet. That&rsquo;s what
               the audit finds.
@@ -1020,9 +1028,19 @@ export default function AGAPage() {
             </div>
             <div className="aga-prose">
               <p>
-                I don&rsquo;t implement. I don&rsquo;t sell the next phase. I have no stake
-                in the direction your organization chooses. That&rsquo;s not a
-                limitation of the engagement. That&rsquo;s the point of it.
+                I don&rsquo;t make the decisions. I don&rsquo;t build the roadmap. I have
+                no stake in the direction your organization chooses.
+              </p>
+              <p>
+                What I do is work on what&rsquo;s in the way — the organizational
+                design issues, the leadership dynamics, the mindset patterns
+                that assumptions leave behind even after they&rsquo;ve been named.
+                They implement. I role-model, surface the red flags, and ensure
+                the path is clear.
+              </p>
+              <p>
+                That&rsquo;s not a limitation of the engagement. That&rsquo;s the point
+                of it.
               </p>
             </div>
           </div>
@@ -1031,7 +1049,7 @@ export default function AGAPage() {
         {/* ── GLOBAL ── */}
         <section className="aga-global-band">
           <div className="aga-global-inner">
-            <span className="aga-section-label">International reach</span>
+            <span className="aga-section-label">The methodology travels</span>
             <h2>The questions don&rsquo;t stop at borders.</h2>
             <div className="aga-stats-row">
               <div className="aga-stat-card">
@@ -1121,24 +1139,24 @@ export default function AGAPage() {
               If you recognized your organization in this page, that
               recognition is data.
             </h2>
-            <p className="aga-cta-note">
-              <strong>The AGA is a senior-level engagement priced
-              accordingly.</strong> It is not a workshop or a half-day
-              facilitation. Pricing is shared during the intro consultation.
-              Engagements are priced by scope, not by hour.
-            </p>
-            <p className="aga-cta-note">
-              The intro consultation is a paid conversation.{" "}
-              <strong>You will leave with clarity whether or not we work
-              together.</strong> If you proceed to an AGA, the fee is
-              credited in full.
-            </p>
             <a
               href="https://tidycal.com/nola/intro-consultation-nola-simon"
               className="aga-cta-btn"
             >
               Book an Intro Consultation →
             </a>
+            <p className="aga-cta-note" style={{ marginTop: "32px" }}>
+              The intro consultation is a paid conversation.{" "}
+              <strong>You will leave with clarity whether or not we work
+              together.</strong> If you proceed to an AGA, the fee is
+              credited in full.
+            </p>
+            <p className="aga-cta-note">
+              <strong>The AGA is a senior-level engagement priced
+              accordingly.</strong> It is not a workshop or a half-day
+              facilitation. Pricing is shared during the intro consultation.
+              Engagements are priced by scope, not by hour.
+            </p>
             <p className="aga-cta-sub">
               Enterprise &amp; mid-market · Scope-based pricing · International engagements welcome
             </p>

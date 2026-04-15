@@ -17,7 +17,10 @@ export const metadata: Metadata = {
   },
   description:
     "Strategic futurist Nola Simon helps leaders and organizations trust themselves to read the signals, question the status quo, and build what's next.",
-  metadataBase: new URL("https://www.everydayfuturism.com"),
+  metadataBase: new URL("https://nolasimon.com"),
+  alternates: {
+    canonical: "https://nolasimon.com",
+  },
   openGraph: {
     type: "website",
     locale: "en_CA",

@@ -51,6 +51,41 @@ const nextConfig: NextConfig = {
         destination: "https://www.everydayfuturism.com/:path*",
         permanent: true,
       },
+      {
+        source: '/workwithnolasimon',
+        destination: '/advisory-speaking',
+        permanent: true,
+      },
+      {
+        source: '/hirenolasimon',
+        destination: '/advisory-speaking',
+        permanent: true,
+      },
+      {
+        source: '/workwithnola',
+        destination: '/advisory-speaking',
+        permanent: true,
+      },
+      {
+        source: '/blog-nolasimon',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog-nolasimon/:slug*',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/thejanusoasiscommunity',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/hybridremotecoe',
+        destination: '/',
+        permanent: true,
+      },
     ];
   },
 };
