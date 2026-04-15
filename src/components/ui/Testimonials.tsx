@@ -9,39 +9,7 @@ export interface Testimonial {
 }
 
 const testimonials: Testimonial[] = [
-  // Row 1 — futurism & AI credibility
-  {
-    quote:
-      "What I appreciate about you, Nola, is you sense things before they happen. A true Futurist Thinker.",
-    name: "Kerri Twigg",
-    title: "Leadership Development Specialist & LinkedIn Top Voice",
-    organization: "Manitoba Hydro · Podcast Guest",
-    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/embracing-your-story-to-pivot-your-career",
-  },
-  {
-    quote:
-      "Nola, you are really one of the smartest I know. Like well-rounded intellect with deep emotional intelligence. You are not the average user. You think beyond the surface.",
-    name: "Dr. Kem-Laurin Lubin",
-    title: "Sr. UX Strategist & AI Researcher, Ph.D.-C",
-    organization: "University of Waterloo",
-  },
-  // Row 2 — AI & executive expertise
-  {
-    quote: "You're one of the smartest people I know.",
-    name: "Rose Genele",
-    title: "CEO & AI Transformationalist",
-    organization: "The Opening Door · Host, WAWGTDWATF (What Are We Going To Do With All This Future?)",
-    episodeUrl: "https://podcasts.apple.com/us/podcast/wawgtdwatf-the-future-of-work-organizational-design/id1769136694?i=1000671547629",
-  },
-  {
-    quote:
-      "I was very impressed by her knowledge of hybrid/remote work. She knows remote work from a time way before the pandemic, when the lack of suitable tools made it even more challenging. Nola also highlights how new technology such as AI can be leveraged to improve team performance. I would highly recommend her expertise.",
-    name: "Pamela Kellert",
-    title: "Infrastructure & Mobility Executive",
-    organization: "Podcast Guest",
-    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/leadership-in-a-hybrid-world-pamela-kellert",
-  },
-  // Row 3 — corporate credibility
+  // Row 1 — buyer-adjacent, outcome language, organizational credibility
   {
     quote:
       "I can't help but get excited when I see the work Nola is doing today. I see the value, and the need in the workplace today, for more champions like Nola. Whenever we needed someone who would go the extra mile, take time to develop long-lasting relationships and deliver outstanding service, we chose Nola.",
@@ -56,7 +24,24 @@ const testimonials: Testimonial[] = [
     title: "Manager, Strategy",
     organization: "Manulife Bank",
   },
-  // Row 4 — achievement & storytelling
+  // Row 2 — methodology validation, specific knowledge
+  {
+    quote:
+      "What I appreciate about you, Nola, is you sense things before they happen. A true Futurist Thinker.",
+    name: "Kerri Twigg",
+    title: "Leadership Development Specialist & LinkedIn Top Voice",
+    organization: "Manitoba Hydro · Podcast Guest",
+    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/embracing-your-story-to-pivot-your-career",
+  },
+  {
+    quote:
+      "I was very impressed by her knowledge of hybrid/remote work. She knows remote work from a time way before the pandemic, when the lack of suitable tools made it even more challenging. Nola also highlights how new technology such as AI can be leveraged to improve team performance. I would highly recommend her expertise.",
+    name: "Pamela Kellert",
+    title: "Infrastructure & Mobility Executive",
+    organization: "Podcast Guest",
+    episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/leadership-in-a-hybrid-world-pamela-kellert",
+  },
+  // Row 3 — operational outcome, forward-thinking POV
   {
     quote:
       "Nola's support and innovation was crucial to the success of the conference. She excelled in her time management and planning skills, but also brought innovative solutions. Nola not only partnered with me to build a successful online conference, but she left behind a communications standard and best practices to elevate our chapter going forward.",
@@ -69,7 +54,14 @@ const testimonials: Testimonial[] = [
     name: "Daphne Gordon",
     title: "Writer and Writing Coach",
   },
-  // Closer
+  // Row 4 — personal validation tier
+  {
+    quote:
+      "Nola, you are really one of the smartest I know. Like well-rounded intellect with deep emotional intelligence. You are not the average user. You think beyond the surface.",
+    name: "Dr. Kem-Laurin Lubin",
+    title: "Sr. UX Strategist & AI Researcher, Ph.D.-C",
+    organization: "University of Waterloo",
+  },
   {
     quote:
       "She is strategic, collaborative, creative and an amazing storyteller. She always shares her insights on ways to improve projects. Her passion has now become her purpose and it's a thrill to see Nola start her own business. Anyone would be lucky to work with Nola.",
@@ -77,6 +69,14 @@ const testimonials: Testimonial[] = [
     title: "Award-Winning Personal Branding Photographer",
     organization: "Portraits by Kendra · Podcast Guest",
     episodeUrl: "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/the-story-of-corporate",
+  },
+  // Closer — personal praise
+  {
+    quote: "You're one of the smartest people I know.",
+    name: "Rose Genele",
+    title: "CEO & AI Transformationalist",
+    organization: "The Opening Door · Host, WAWGTDWATF (What Are We Going To Do With All This Future?)",
+    episodeUrl: "https://podcasts.apple.com/us/podcast/wawgtdwatf-the-future-of-work-organizational-design/id1769136694?i=1000671547629",
   },
 ];
 
