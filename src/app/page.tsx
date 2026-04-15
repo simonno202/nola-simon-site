@@ -170,7 +170,7 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 className="font-mono text-[10px] uppercase tracking-[0.18em] text-text-muted hover:text-navy transition-colors"
               >
-                Melanie Elsbeth &mdash; Mama, What&rsquo;s Next
+                Mel E. Bogisch &mdash; Mama, What&rsquo;s Next &mdash; Germany
               </a>
             </footer>
           </blockquote>
