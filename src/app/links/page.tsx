@@ -77,6 +77,7 @@ const socialLinks = [
 const siteLinks = [
   { label: "Website", href: "https://www.everydayfuturism.com" },
   { label: "Advisory & Speaking", href: "https://www.everydayfuturism.com/advisory-speaking" },
+  { label: "The Assumption-Ground Audit", href: "https://www.everydayfuturism.com/aga" },
   { label: "Podcast Episodes", href: "https://www.everydayfuturism.com/podcast" },
   { label: "Newsletter Archive", href: "https://www.nolasimon.com/newsletter" },
   { label: "Work — Writing, Audio, Video", href: "https://www.everydayfuturism.com/work" },
