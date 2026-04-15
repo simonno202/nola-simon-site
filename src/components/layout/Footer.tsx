@@ -33,6 +33,9 @@ export default function Footer() {
     return after && before;
   })();
 
+  // Living Lab: active until May 15 2026, easter takes priority
+  const isLivingLab = !isEaster && new Date() < new Date("2026-05-15T00:00:00");
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!email) return;
@@ -261,7 +264,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <RabbitHole isOpen={rabbitHoleOpen} onClose={() => setRabbitHoleOpen(false)} easter={isEaster} />
+      <RabbitHole isOpen={rabbitHoleOpen} onClose={() => setRabbitHoleOpen(false)} easter={isEaster} livingLab={isLivingLab} />
     </footer>
   );
 }
