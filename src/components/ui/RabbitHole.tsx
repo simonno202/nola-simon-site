@@ -90,14 +90,61 @@ const EASTER_BOTTOM = {
   sub: "The essay builds the argument. The quiz makes you do it.",
 };
 
+const LIVING_LAB_LEVELS = [
+  {
+    depth: 1,
+    text: "The best guests don't answer your questions. They change what you're asking.",
+    aside: "Keep going.",
+  },
+  {
+    depth: 2,
+    text: "At some point I stopped being the host and started being the student.",
+    aside: "Deeper.",
+  },
+  {
+    depth: 3,
+    text: "A tool. A framework. A question I hadn't formed yet. The podcast kept handing me things I didn't know I needed.",
+    aside: "Still falling.",
+  },
+  {
+    depth: 4,
+    text: "The methodology wasn't built in a room. It was built in conversations with people working the same problem from different disciplines.",
+    aside: "Almost there.",
+  },
+  {
+    depth: 5,
+    text: "Some guests became more than guests. The learning ran both ways. That's not a podcast. That's a laboratory.",
+    aside: "One more.",
+  },
+  {
+    depth: 6,
+    text: "You've reached the bottom.",
+    aside: null,
+  },
+];
+
+const LIVING_LAB_BOTTOM = {
+  text: "You've reached the bottom.",
+  sub: "Most people stop here. A few don't.",
+  ctas: [
+    { label: "Explore the Living Lab →", href: "/podcast", variant: "primary" },
+    {
+      label: "Book an Intro Consultation",
+      href: "https://tidycal.com/nola/intro-consultation-nola-simon",
+      variant: "outline",
+    },
+  ],
+};
+
 interface RabbitHoleProps {
   isOpen: boolean;
   onClose: () => void;
   easter?: boolean;
+  livingLab?: boolean;
 }
 
-export function RabbitHole({ isOpen, onClose, easter = false }: RabbitHoleProps) {
-  const levels = easter ? EASTER_LEVELS : LEVELS;
+export function RabbitHole({ isOpen, onClose, easter = false, livingLab = false }: RabbitHoleProps) {
+  const levels = easter ? EASTER_LEVELS : livingLab ? LIVING_LAB_LEVELS : LEVELS;
   const bottom = easter ? EASTER_BOTTOM : BOTTOM;
   const [depth, setDepth] = useState(0);
   const atBottom = depth >= levels.length;
@@ -224,6 +271,30 @@ export function RabbitHole({ isOpen, onClose, easter = false }: RabbitHoleProps)
                   >
                     Take the quiz
                   </a>
+                </>
+              ) : livingLab ? (
+                <>
+                  {LIVING_LAB_BOTTOM.ctas.map((cta) =>
+                    cta.variant === "primary" ? (
+                      <a
+                        key={cta.href}
+                        href={cta.href}
+                        className="inline-flex items-center gap-2 rounded-full bg-pink px-7 py-3 font-sans text-[14px] font-semibold text-white hover:bg-pink-hover transition-colors"
+                      >
+                        {cta.label}
+                      </a>
+                    ) : (
+                      <a
+                        key={cta.href}
+                        href={cta.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 rounded-full border-[1.5px] border-cream/30 px-7 py-3 font-sans text-[14px] font-semibold text-cream hover:border-pink hover:text-pink transition-all"
+                      >
+                        {cta.label}
+                      </a>
+                    )
+                  )}
                 </>
               ) : (
                 <a

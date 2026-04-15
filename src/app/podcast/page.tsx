@@ -5,6 +5,7 @@ import { GoodpodsBadge } from "@/components/ui/GoodpodsBadge";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { PodcastSchema } from "@/components/SchemaOrg";
 import PodcastSearch from "@/components/podcast/PodcastSearch";
+import { PodcastRabbitHole } from "@/components/podcast/PodcastRabbitHole";
 
 export const metadata: Metadata = {
   title: "Podcast — Nola Simon | Everyday Futurism",
@@ -114,6 +115,7 @@ export default function PodcastPage() {
           </p>
 
           <GoodpodsBadge variant="compact" className="mt-5" />
+          <PodcastRabbitHole />
 
           <a
             href="https://www.listennotes.com/podcasts/hope-possibilties-a-love-letter-to-the-nHWeA2OGmD-/"
