@@ -6,6 +6,7 @@ import { GoodpodsBadge } from "@/components/ui/GoodpodsBadge";
 import { LinkedInTopVoice } from "@/components/ui/LinkedInTopVoice";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { DiscoveryCTA } from "@/components/ui/DiscoveryCTA";
+import { Testimonials } from "@/components/ui/Testimonials";
 import { VideoEmbed } from "@/components/ui/VideoEmbed";
 
 export const metadata: Metadata = {
@@ -265,6 +266,11 @@ export default function AboutPage() {
             <GoodpodsBadge variant="compact" />
           </div>
         </div>
+      </SectionWrapper>
+
+      {/* ── Testimonials ── */}
+      <SectionWrapper className="bg-surface py-10 lg:py-20">
+        <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
       {/* ── Discovery CTA ── */}

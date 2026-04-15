@@ -6,7 +6,6 @@ import { Card } from "@/components/ui/Card";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { ProofBar } from "@/components/ui/ProofBar";
 import { NewsletterCTA } from "@/components/ui/NewsletterCTA";
-import { Testimonials } from "@/components/ui/Testimonials";
 
 export const metadata: Metadata = {
   title: "Nola Simon | Everyday Futurism",
@@ -152,11 +151,6 @@ export default function HomePage() {
             </Button>
           </div>
         </div>
-      </SectionWrapper>
-
-      {/* ── Social Proof ── */}
-      <SectionWrapper className="bg-surface py-10 lg:py-20">
-        <Testimonials className="max-w-3xl" />
       </SectionWrapper>
 
       {/* ── Mel Pull Quote ── */}
