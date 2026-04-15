@@ -13,6 +13,16 @@ export const metadata: Metadata = {
 
 const FEATURED_ESSAYS = [
   {
+    slug: "youre-gonna-miss-me-when-im-gone",
+    title: "You're Gonna Miss Me When I'm Gone",
+    meta: "Witnessed Trust · Independent Consulting · April 15, 2026",
+    description:
+      "Six years. A basement office with a flooding floor and fluorescent lights that triggered migraines. An advisor who knew the normal rules didn't apply to him. A client who had the technical authority to replace him — but not yet the relational power to make it stick.",
+    description2:
+      "This essay is about what it actually looks like to witness someone's vision until they're ready to claim it as their own. The work nobody sees. The impact that never shows up on a KPI. And why the moment wasn't the victory. The six years were.",
+    related: { label: "Part 4: Under the Rocks Are the Words", href: "/blog/assumption-ground-audit" },
+  },
+  {
     slug: "pediculosis-and-change",
     title: "The $30 Million Assumption Nobody Checked",
     meta: "Assumption Audit · Policy Change · April 13, 2026",
