@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "Essays and articles by Nola Simon on leadership, trust, workplace change, organizational transformation, and Everyday Futurism.",
 };
 
-const FEATURED_ESSAYS = [
+const WITNESSED_TRUST = [
   {
     slug: "the-most-dangerous-assumption-in-the-room",
     title: "The Most Dangerous Assumption in the Room",
@@ -41,16 +41,6 @@ const FEATURED_ESSAYS = [
     description2:
       "This essay is about what it actually looks like to witness someone's vision until they're ready to claim it as their own. The work nobody sees. The impact that never shows up on a KPI. And why the moment wasn't the victory. The six years were.",
     related: { label: "Part 4: Under the Rocks Are the Words", href: "/blog/assumption-ground-audit" },
-  },
-  {
-    slug: "pediculosis-and-change",
-    title: "The $30 Million Assumption Nobody Checked",
-    meta: "Assumption Audit · Policy Change · April 13, 2026",
-    description:
-      "Every spring, schools send kids home based on a policy nobody thought to question. This is the story of what an unexamined assumption costs — in time, in stress, in a child's mental health, in a parent's employment — and what happens when someone finally checks the ground it's standing on.",
-    description2:
-      "One policy change. One corrected assumption. Roughly $30 million in prevented economic harm — and counting. A case study in upstream thinking, change management, and what it actually means to audit what you're taking for granted.",
-    related: { label: "Under the Rocks Are the Words", href: "/blog/assumption-ground-audit" },
   },
   {
     slug: "assumption-ground-audit",
@@ -91,6 +81,19 @@ const FEATURED_ESSAYS = [
     description2:
       "This essay traces the shift, names what's failing across the infrastructure at once, and offers a hypothesis about what comes next: witnessed trust — built not on ratings or credentials, but on the irreducibly particular. Specific. Accountable. Impossible to manufacture.",
     related: { label: "Subscribe on Substack", href: "https://nolasimonhrcoe.substack.com/" },
+  },
+];
+
+const METHODOLOGY = [
+  {
+    slug: "pediculosis-and-change",
+    title: "The $30 Million Assumption Nobody Checked",
+    meta: "Assumption Audit · Policy Change · April 13, 2026",
+    description:
+      "Every spring, schools send kids home based on a policy nobody thought to question. This is the story of what an unexamined assumption costs — in time, in stress, in a child's mental health, in a parent's employment — and what happens when someone finally checks the ground it's standing on.",
+    description2:
+      "One policy change. One corrected assumption. Roughly $30 million in prevented economic harm — and counting. A case study in upstream thinking, change management, and what it actually means to audit what you're taking for granted.",
+    related: { label: "The Assumption-Ground Audit", href: "/aga" },
   },
   {
     slug: "not-just-another-futurist",
@@ -168,12 +171,59 @@ export default function WritingPage() {
         </div>
       </SectionWrapper>
 
-      {/* ── Featured Essays ── */}
-      <SectionWrapper className="bg-cream py-6 pb-16 lg:pb-24">
-        <Eyebrow>FEATURED ESSAYS</Eyebrow>
+      {/* ── Witnessed Trust Series ── */}
+      <SectionWrapper className="bg-cream py-6 pb-12 lg:pb-16">
+        <Eyebrow>WITNESSED TRUST — SERIES</Eyebrow>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+          Seven essays on trust, discernment, and what it means to notice something real — in organizations, in rooms, and in yourself.
+        </p>
 
         <div className="mt-6 max-w-3xl space-y-5">
-          {FEATURED_ESSAYS.map((essay) => (
+          {WITNESSED_TRUST.map((essay) => (
+            <Card key={essay.slug}>
+              <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+                {essay.meta}
+              </p>
+
+              <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+                {essay.title}
+              </h2>
+
+              <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+                {essay.description}
+              </p>
+              <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+                {essay.description2}
+              </p>
+
+              <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
+                <Link
+                  href={`/blog/${essay.slug}`}
+                  className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+                >
+                  Read: {essay.title} &rarr;
+                </Link>
+                <Link
+                  href={essay.related.href}
+                  className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
+                >
+                  Related: {essay.related.label}
+                </Link>
+              </div>
+            </Card>
+          ))}
+        </div>
+      </SectionWrapper>
+
+      {/* ── Methodology & Case Studies ── */}
+      <SectionWrapper className="bg-cream py-6 pb-16 lg:pb-24">
+        <Eyebrow>EVERYDAY FUTURISM — METHODOLOGY</Eyebrow>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+          The intellectual formation underneath the work — and what it looks like when an unexamined assumption becomes expensive.
+        </p>
+
+        <div className="mt-6 max-w-3xl space-y-5">
+          {METHODOLOGY.map((essay) => (
             <Card key={essay.slug}>
               <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
                 {essay.meta}
