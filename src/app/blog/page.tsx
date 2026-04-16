@@ -31,7 +31,7 @@ const WITNESSED_TRUST = [
   {
     slug: "foregone-conclusions-gone-wrong",
     title: "Foregone Conclusions Gone Wrong",
-    line: "When the process is designed to look like discovery but the ground is already poured.",
+    line: "When the process is designed to look like discovery but the concrete is already poured.",
     date: "April 16, 2026",
   },
   {
