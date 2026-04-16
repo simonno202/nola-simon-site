@@ -11,109 +11,73 @@ export const metadata: Metadata = {
     "Essays and articles by Nola Simon on leadership, trust, workplace change, organizational transformation, and Everyday Futurism.",
 };
 
+const CORNERSTONE = {
+  slug: "pediculosis-and-change",
+  title: "The $30 Million Assumption Nobody Checked",
+  meta: "Assumption-Ground Audit · Witnessed Trust · April 13, 2026",
+  description:
+    "One school board policy. One unexamined assumption nobody thought to question. Eighteen months of upstream work. $30 million in recovered value — and counting.",
+  description2:
+    "This is the essay that shows the Assumption-Ground Audit and Witnessed Trust in the same story: what it costs when ground is assumed rather than examined, and what changes when someone finally checks it.",
+};
+
 const WITNESSED_TRUST = [
   {
     slug: "the-most-dangerous-assumption-in-the-room",
     title: "The Most Dangerous Assumption in the Room",
-    meta: "Witnessed Trust · Everyday Futurism · April 16, 2026",
-    description:
-      "I had pneumonia. I passed out at the wheel. I drove into a fully loaded double cement hauler. When I showed up to court with my medical records and no lawyer, I was certain this was administrative — a formality. I hadn't audited the assumption underneath that certainty: that I understood what kind of room I was walking into.",
-    description2:
-      "The most dangerous assumption in the room is almost never the one you can see. It's the one you don't think to look for because you already know what's going on. This is what Everyday Futurism looks like when you turn the audit on yourself.",
-    related: { label: "Part 6: Foregone Conclusions Gone Wrong", href: "/blog/foregone-conclusions-gone-wrong" },
+    line: "The audit that's hardest to run is the one you do on yourself.",
+    date: "April 16, 2026",
   },
   {
     slug: "foregone-conclusions-gone-wrong",
     title: "Foregone Conclusions Gone Wrong",
-    meta: "Witnessed Trust · Assumption-Ground Audit · April 16, 2026",
-    description:
-      "The assessor didn't look at me once. Not when I walked in, not while he asked his questions, not when he watched me walk across the room. He didn't use my name. The insurance company had already sent their determination to my physiotherapy clinic before I sat down in that chair.",
-    description2:
-      "This is the version of the Assumption-Ground Audit that organizations find uncomfortable — not a mistake made in haste, but a process designed to look like discovery while the ground beneath it has already been poured. The question it leaves: does the process you're running right now have the genuine capacity to return a result that would change the direction?",
-    related: { label: "Part 5: You're Gonna Miss Me When I'm Gone", href: "/blog/youre-gonna-miss-me-when-im-gone" },
+    line: "When the process is designed to look like discovery but the ground is already poured.",
+    date: "April 16, 2026",
   },
   {
     slug: "youre-gonna-miss-me-when-im-gone",
     title: "You're Gonna Miss Me When I'm Gone",
-    meta: "Witnessed Trust · Independent Consulting · April 15, 2026",
-    description:
-      "Six years. A basement office with a flooding floor and fluorescent lights that triggered migraines. An advisor who knew the normal rules didn't apply to him. A client who had the technical authority to replace him — but not yet the relational power to make it stick.",
-    description2:
-      "This essay is about what it actually looks like to witness someone's vision until they're ready to claim it as their own. The work nobody sees. The impact that never shows up on a KPI. And why the moment wasn't the victory. The six years were.",
-    related: { label: "Part 4: Under the Rocks Are the Words", href: "/blog/assumption-ground-audit" },
+    line: "Six years. The work nobody saw. Why the moment wasn't the victory.",
+    date: "April 15, 2026",
   },
   {
     slug: "assumption-ground-audit",
     title: "Under the Rocks Are the Words",
-    meta: "Witnessed Trust · Change · Everyday Futurism · April 8, 2026",
-    description:
-      "For ten years, I cancelled duplicate forms. The frontline concern was right the whole time. The response was a metric that converted \"why does this work exist\" into \"why haven't you cleared your queue.\" That is what the gap between due diligence and interrogation looks like from inside it.",
-    description2:
-      "This essay traces why change management keeps failing — not because it's executed badly, but because helping a decision land and asking whether it should be reconsidered are structurally incompatible goals. And what the Assumption-Ground Audit does instead.",
-    related: { label: "Advisory and speaking", href: "/advisory-speaking" },
+    line: "Why change management keeps failing — and what the AGA does instead.",
+    date: "April 8, 2026",
   },
   {
     slug: "the-rabbit-hole",
     title: "The Rabbit Hole",
-    meta: "Trust Architecture · Witnessed Trust · April 3, 2026",
-    description:
-      "I hid an egg on my website. Six depths of ideas about trust, signals, and what it means to notice something real when everything around you has been optimized to look real but isn't. The Strategic Linguist found it and named what it was doing without being briefed. Dr. Sam Illingworth discovered his own work inside it and thanked me publicly. Most people, even with the map, didn't go.",
-    description2:
-      "The essay traces what happened, the assumption it surfaced — that explaining your thinking is how people come to understand it — and why the people who go all the way down are exactly the ones you want in the room. Download the process guide to build your own.",
-    related: { label: "Download: The Rabbit Hole Method — Process Guide", href: "/downloads/the-rabbit-hole.pdf" },
+    line: "I hid six depths of ideas on my site. Who went all the way down is the signal.",
+    date: "April 3, 2026",
   },
   {
     slug: "witnessed-trust-case-study",
-    title: "Witnessed Trust — A Case Study: A PR Crisis, a Pop Star and a Camera Walk into a Stadium",
-    meta: "Trust · Discernment · Everyday Futurism · April 1, 2026",
-    description:
-      "In January 2025, a Coldplay kiss cam caught two Astronomer executives in four seconds of body language that eighty thousand people read simultaneously — without context, without commentary, without a single word of explanation. The celebrity crisis response that followed generated memes, shifted the conversation, and repaired nothing.",
-    description2:
-      "This essay traces what the kiss cam actually caught, why the Astronomer response failed as trust repair (distraction ≠ PR success, attention ≠ trust), and what the unequal distribution of accountability reveals about how witnessed trust forms — and fails — at scale.",
-    related: { label: "Read: Who Gets to Be Trusted Now?", href: "/blog/who-gets-to-be-trusted-now" },
+    title: "Witnessed Trust — A Case Study",
+    line: "Four seconds of body language. Eighty thousand simultaneous readings.",
+    date: "April 1, 2026",
   },
   {
     slug: "who-gets-to-be-trusted-now",
     title: "Who Gets to Be Trusted Now?",
-    meta: "Trust · Thought Leadership · Credibility · March 28, 2026",
-    description:
-      "Trust is not fixed. It has moved from local and embodied, to institutional, to distributed — and distributed trust turned out to be partly manufactured. Peer ratings, affiliate loops, purchased followers, mutual endorsements: the system that was supposed to democratize credibility developed its own closed loops.",
-    description2:
-      "This essay traces the shift, names what's failing across the infrastructure at once, and offers a hypothesis about what comes next: witnessed trust — built not on ratings or credentials, but on the irreducibly particular. Specific. Accountable. Impossible to manufacture.",
-    related: { label: "Subscribe on Substack", href: "https://nolasimonhrcoe.substack.com/" },
+    line: "Trust moved from local to institutional to distributed — and distributed trust turned out to be partly manufactured.",
+    date: "March 28, 2026",
   },
 ];
 
 const METHODOLOGY = [
   {
-    slug: "pediculosis-and-change",
-    title: "The $30 Million Assumption Nobody Checked",
-    meta: "Assumption Audit · Policy Change · April 13, 2026",
-    description:
-      "Every spring, schools send kids home based on a policy nobody thought to question. This is the story of what an unexamined assumption costs — in time, in stress, in a child's mental health, in a parent's employment — and what happens when someone finally checks the ground it's standing on.",
-    description2:
-      "One policy change. One corrected assumption. Roughly $30 million in prevented economic harm — and counting. A case study in upstream thinking, change management, and what it actually means to audit what you're taking for granted.",
-    related: { label: "The Assumption-Ground Audit", href: "/aga" },
-  },
-  {
     slug: "not-just-another-futurist",
     title: "Not Just Another Futurist",
-    meta: "Methodology · Convergences · March 27, 2026",
-    description:
-      "The futures industry organized itself around the performance of certainty. What got lost is the harder work: not what's coming, but what your organization is already assuming about it — before the direction gets chosen, before the assumptions become policy, before the convergences arrive at the crossing point.",
-    description2:
-      "This essay traces the methodology — from a historiography classroom at Glendon College, York University, through Robin Winks and forensic reasoning, to the Assumption-Ground Audit and why convergences are the discipline that compounds.",
-    related: { label: "Explore advisory work", href: "/advisory-speaking" },
+    line: "The methodology — from a historiography classroom to the Assumption-Ground Audit.",
+    date: "March 27, 2026",
   },
   {
     slug: "everyday-futurism-a-practice-not-a-prediction",
     title: "Everyday Futurism: A Practice, Not a Prediction",
-    meta: "Futurism · Leadership · Organizational Trust · March 19, 2026",
-    description:
-      "In 2008, I had just returned from maternity leave. One-year-old, two-and-a-half-year-old, three-hour commute, still breastfeeding, seeing my kids an hour a day. In those first months back, a woman told me she\u2019d quit her job to take a year off with her eighteen-year-old son. Not for a baby \u2014 for the decisions that actually change a life.",
-    description2:
-      "This essay traces the principle from a maternity leave conversation to a work-from-home pilot in 2012 to the moment a map expires in your body before you have the language to say so \u2014 and what all of it has to do with why organizational trust breaks the way it does now.",
-    related: { label: "Book Nola for a keynote", href: "/advisory-speaking" },
+    line: "Why prediction is a crutch and what practice builds instead.",
+    date: "March 19, 2026",
   },
 ];
 
@@ -171,90 +135,97 @@ export default function WritingPage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Cornerstone Essay ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>START HERE</Eyebrow>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              {CORNERSTONE.meta}
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              {CORNERSTONE.title}
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              {CORNERSTONE.description}
+            </p>
+            <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+              {CORNERSTONE.description2}
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
+              <Link
+                href={`/blog/${CORNERSTONE.slug}`}
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the essay &rarr;
+              </Link>
+              <Link
+                href="/aga"
+                className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
+              >
+                Explore the AGA &rarr;
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </SectionWrapper>
+
       {/* ── Witnessed Trust Series ── */}
-      <SectionWrapper className="bg-cream py-6 pb-12 lg:pb-16">
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
         <Eyebrow>WITNESSED TRUST — SERIES</Eyebrow>
         <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
           Seven essays on trust, discernment, and what it means to notice something real — in organizations, in rooms, and in yourself.
         </p>
-
-        <div className="mt-6 max-w-3xl space-y-5">
+        <div className="mt-6 max-w-3xl divide-y divide-border-light">
           {WITNESSED_TRUST.map((essay) => (
-            <Card key={essay.slug}>
-              <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
-                {essay.meta}
-              </p>
-
-              <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
-                {essay.title}
-              </h2>
-
-              <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
-                {essay.description}
-              </p>
-              <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
-                {essay.description2}
-              </p>
-
-              <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
-                <Link
-                  href={`/blog/${essay.slug}`}
-                  className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
-                >
-                  Read: {essay.title} &rarr;
-                </Link>
-                <Link
-                  href={essay.related.href}
-                  className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
-                >
-                  Related: {essay.related.label}
-                </Link>
-              </div>
-            </Card>
+            <div key={essay.slug} className="py-4 first:pt-0 last:pb-0">
+              <Link
+                href={`/blog/${essay.slug}`}
+                className="group flex items-start justify-between gap-4"
+              >
+                <div>
+                  <p className="text-[15px] font-semibold text-navy group-hover:text-pink transition-colors leading-snug">
+                    {essay.title}
+                  </p>
+                  <p className="mt-1 text-[13px] leading-relaxed text-text-muted">
+                    {essay.line}
+                  </p>
+                </div>
+                <span className="font-mono text-[10px] text-text-muted shrink-0 pt-1">
+                  {essay.date}
+                </span>
+              </Link>
+            </div>
           ))}
         </div>
       </SectionWrapper>
 
-      {/* ── Methodology & Case Studies ── */}
+      {/* ── Methodology ── */}
       <SectionWrapper className="bg-cream py-6 pb-16 lg:pb-24">
         <Eyebrow>EVERYDAY FUTURISM — METHODOLOGY</Eyebrow>
         <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
-          The intellectual formation underneath the work — and what it looks like when an unexamined assumption becomes expensive.
+          The intellectual formation underneath the work.
         </p>
-
-        <div className="mt-6 max-w-3xl space-y-5">
+        <div className="mt-6 max-w-3xl divide-y divide-border-light">
           {METHODOLOGY.map((essay) => (
-            <Card key={essay.slug}>
-              <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
-                {essay.meta}
-              </p>
-
-              <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
-                {essay.title}
-              </h2>
-
-              <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
-                {essay.description}
-              </p>
-              <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
-                {essay.description2}
-              </p>
-
-              <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
-                <Link
-                  href={`/blog/${essay.slug}`}
-                  className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
-                >
-                  Read: {essay.title} &rarr;
-                </Link>
-                <Link
-                  href={essay.related.href}
-                  className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
-                >
-                  Related: {essay.related.label}
-                </Link>
-              </div>
-            </Card>
+            <div key={essay.slug} className="py-4 first:pt-0 last:pb-0">
+              <Link
+                href={`/blog/${essay.slug}`}
+                className="group flex items-start justify-between gap-4"
+              >
+                <div>
+                  <p className="text-[15px] font-semibold text-navy group-hover:text-pink transition-colors leading-snug">
+                    {essay.title}
+                  </p>
+                  <p className="mt-1 text-[13px] leading-relaxed text-text-muted">
+                    {essay.line}
+                  </p>
+                </div>
+                <span className="font-mono text-[10px] text-text-muted shrink-0 pt-1">
+                  {essay.date}
+                </span>
+              </Link>
+            </div>
           ))}
         </div>
       </SectionWrapper>
