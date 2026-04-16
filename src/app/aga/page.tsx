@@ -38,43 +38,33 @@ export const metadata: Metadata = {
   },
 };
 
-const essays = [
-  {
-    title: "Not Just Another Futurist",
-    description:
-      "The origin of the methodology. From a historiography classroom at Glendon College through Robin Winks and forensic reasoning to the Assumption-Ground Audit — and why convergences are the discipline that compounds.",
-    href: "/blog/not-just-another-futurist",
-  },
+const agaEssays = [
   {
     title: "The $30 Million Assumption Nobody Checked",
     description:
-      "The clearest worked example of an AGA in practice. One school board policy. One unexamined assumption. Eighteen months of upstream work. $30 million in recovered value — and counting.",
+      "One school board policy. One unexamined assumption. Eighteen months of upstream work. $30 million in recovered value — and counting. The clearest worked example of an AGA in practice.",
     href: "/blog/pediculosis-and-change",
   },
   {
-    title: "Who Gets to Be Trusted Now?",
+    title: "Foregone Conclusions Gone Wrong",
     description:
-      "The trust infrastructure is exactly where assumptions harden fastest — about who gets credibility, whose thinking counts, what signals are real. This essay traces what's failing and what may be forming next.",
-    href: "/blog/who-gets-to-be-trusted-now",
+      "The assessor didn't look at me once. The insurance company had already sent their determination before I sat down in that chair. What the AGA asks when the process itself is the problem.",
+    href: "/blog/foregone-conclusions-gone-wrong",
   },
   {
-    title: "Witnessed Trust — A Case Study",
+    title: "The Most Dangerous Assumption in the Room",
     description:
-      "Four seconds of body language. Eighty thousand simultaneous readings. What the Coldplay kiss cam reveals about how trust forms — and fails — at scale.",
-    href: "/blog/witnessed-trust-case-study",
+      "I drove into a cement hauler, showed up to court without a lawyer, and was certain I understood the situation. The audit that's hardest to run is the one you do on yourself.",
+    href: "/blog/the-most-dangerous-assumption-in-the-room",
   },
-  {
-    title: "Everyday Futurism: A Practice, Not a Prediction",
-    description:
-      "Why prediction is a crutch and what practice builds instead. The structural description underneath the tagline.",
-    href: "/blog/everyday-futurism-a-practice-not-a-prediction",
-  },
-  {
-    title: "The Rabbit Hole",
-    description:
-      "What happened when I hid six depths of ideas about trust and signals on my website — and who went all the way down. The people who do are exactly the ones you want in the room.",
-    href: "/blog/the-rabbit-hole",
-  },
+];
+
+const furtherReading = [
+  { title: "Not Just Another Futurist", href: "/blog/not-just-another-futurist" },
+  { title: "Everyday Futurism: A Practice, Not a Prediction", href: "/blog/everyday-futurism-a-practice-not-a-prediction" },
+  { title: "Who Gets to Be Trusted Now?", href: "/blog/who-gets-to-be-trusted-now" },
+  { title: "Witnessed Trust — A Case Study", href: "/blog/witnessed-trust-case-study" },
+  { title: "The Rabbit Hole", href: "/blog/the-rabbit-hole" },
 ];
 
 const faqs = [
@@ -301,6 +291,13 @@ export default function AGAPage() {
             transition: border-color 0.15s;
           }
           .aga-prose a:hover { border-color: var(--pink); }
+          .aga-inline-link {
+            color: var(--muted);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(102,102,102,0.3);
+            transition: color 0.15s, border-color 0.15s;
+          }
+          .aga-inline-link:hover { color: var(--pink); border-color: var(--pink); }
 
           /* Pull quote */
           .aga-pullquote {
@@ -1087,21 +1084,18 @@ export default function AGAPage() {
 
         {/* ── ESSAYS ── */}
         <section className="aga-section">
-          <span className="aga-section-label">The thinking behind the work</span>
-          <h2>The methodology in practice.</h2>
+          <span className="aga-section-label">The AGA in practice</span>
+          <h2>Three positions. One discipline.</h2>
           <div className="aga-prose" style={{ marginBottom: "36px" }}>
             <p>
-              The AGA doesn&rsquo;t emerge from a framework someone licensed. It
-              comes from a specific intellectual formation — mathematics,
-              historiography, forensic reasoning — turned forward toward what&rsquo;s
-              forming rather than what already happened. These essays show the
-              thinking in practice. Each one is a different angle on the same
-              core discipline: finding the ground beneath the argument before
-              the argument hardens into the only argument anyone can make.
+              An organizational assumption that cost $30 million before anyone
+              checked it. A process designed to look like discovery while the
+              answer was already decided. And the audit that&rsquo;s hardest to
+              run — the one you do on yourself.
             </p>
           </div>
           <div className="aga-essays">
-            {essays.map((essay) => (
+            {agaEssays.map((essay) => (
               <Link
                 key={essay.href}
                 href={essay.href}
@@ -1114,6 +1108,19 @@ export default function AGAPage() {
                 <span className="aga-essay-arrow">→</span>
               </Link>
             ))}
+          </div>
+          <div className="aga-prose" style={{ marginTop: "40px" }}>
+            <p style={{ fontSize: "13px", color: "var(--muted)" }}>
+              Further reading:{" "}
+              {furtherReading.map((item, i) => (
+                <span key={item.href}>
+                  <Link href={item.href} className="aga-inline-link">
+                    {item.title}
+                  </Link>
+                  {i < furtherReading.length - 1 ? " · " : ""}
+                </span>
+              ))}
+            </p>
           </div>
         </section>
 
