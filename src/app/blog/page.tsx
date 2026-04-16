@@ -6,9 +6,9 @@ import { Card } from "@/components/ui/Card";
 import { NewsletterCTA } from "@/components/ui/NewsletterCTA";
 
 export const metadata: Metadata = {
-  title: "Writing by Nola Simon | Future of Work, Leadership & Change",
+  title: "Writing by Nola Simon | Future of Work, Leadership, AI & Change",
   description:
-    "Essays and articles by Nola Simon on leadership, trust, workplace change, organizational transformation, and Everyday Futurism.",
+    "Essays and articles by Nola Simon on leadership, trust, workplace change, AI strategy assumptions, organizational transformation, and Everyday Futurism.",
 };
 
 const CORNERSTONE = {
