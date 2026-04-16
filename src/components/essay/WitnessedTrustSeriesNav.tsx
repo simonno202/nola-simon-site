@@ -26,6 +26,11 @@ const SERIES = [
     label: "You're Gonna Miss Me When I'm Gone",
     num: 5,
   },
+  {
+    slug: "/blog/foregone-conclusions-gone-wrong",
+    label: "Foregone Conclusions Gone Wrong",
+    num: 6,
+  },
 ];
 
 interface WitnessedTrustSeriesNavProps {

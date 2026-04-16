@@ -13,6 +13,16 @@ export const metadata: Metadata = {
 
 const FEATURED_ESSAYS = [
   {
+    slug: "foregone-conclusions-gone-wrong",
+    title: "Foregone Conclusions Gone Wrong",
+    meta: "Witnessed Trust · Assumption-Ground Audit · April 16, 2026",
+    description:
+      "The assessor didn't look at me once. Not when I walked in, not while he asked his questions, not when he watched me walk across the room. He didn't use my name. The insurance company had already sent their determination to my physiotherapy clinic before I sat down in that chair.",
+    description2:
+      "This is the version of the Assumption-Ground Audit that organizations find uncomfortable — not a mistake made in haste, but a process designed to look like discovery while the ground beneath it has already been poured. The question it leaves: does the process you're running right now have the genuine capacity to return a result that would change the direction?",
+    related: { label: "Part 5: You're Gonna Miss Me When I'm Gone", href: "/blog/youre-gonna-miss-me-when-im-gone" },
+  },
+  {
     slug: "youre-gonna-miss-me-when-im-gone",
     title: "You're Gonna Miss Me When I'm Gone",
     meta: "Witnessed Trust · Independent Consulting · April 15, 2026",
