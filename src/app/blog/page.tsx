@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const CORNERSTONE = {
   slug: "pediculosis-and-change",
   title: "The $30 Million Assumption Nobody Checked",
-  meta: "Assumption-Ground Audit · Witnessed Trust · April 13, 2026",
+  meta: "Case Study · Assumption-Ground Audit · Witnessed Trust · April 13, 2026",
   description:
     "One school board policy. One unexamined assumption nobody thought to question. Eighteen months of upstream work. $30 million in recovered value — and counting.",
   description2:
