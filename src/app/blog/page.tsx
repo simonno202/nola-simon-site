@@ -13,6 +13,16 @@ export const metadata: Metadata = {
 
 const FEATURED_ESSAYS = [
   {
+    slug: "the-most-dangerous-assumption-in-the-room",
+    title: "The Most Dangerous Assumption in the Room",
+    meta: "Witnessed Trust · Everyday Futurism · April 16, 2026",
+    description:
+      "I had pneumonia. I passed out at the wheel. I drove into a fully loaded double cement hauler. When I showed up to court with my medical records and no lawyer, I was certain this was administrative — a formality. I hadn't audited the assumption underneath that certainty: that I understood what kind of room I was walking into.",
+    description2:
+      "The most dangerous assumption in the room is almost never the one you can see. It's the one you don't think to look for because you already know what's going on. This is what Everyday Futurism looks like when you turn the audit on yourself.",
+    related: { label: "Part 6: Foregone Conclusions Gone Wrong", href: "/blog/foregone-conclusions-gone-wrong" },
+  },
+  {
     slug: "foregone-conclusions-gone-wrong",
     title: "Foregone Conclusions Gone Wrong",
     meta: "Witnessed Trust · Assumption-Ground Audit · April 16, 2026",

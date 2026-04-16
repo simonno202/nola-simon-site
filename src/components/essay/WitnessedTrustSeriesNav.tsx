@@ -31,6 +31,11 @@ const SERIES = [
     label: "Foregone Conclusions Gone Wrong",
     num: 6,
   },
+  {
+    slug: "/blog/the-most-dangerous-assumption-in-the-room",
+    label: "The Most Dangerous Assumption in the Room",
+    num: 7,
+  },
 ];
 
 interface WitnessedTrustSeriesNavProps {
