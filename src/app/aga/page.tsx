@@ -1154,10 +1154,15 @@ export default function AGAPage() {
               Book an Intro Consultation →
             </a>
             <p className="aga-cta-note" style={{ marginTop: "32px" }}>
-              The intro consultation is a paid conversation.{" "}
+              The intro consultation is a paid conversation ($500&nbsp;CAD).{" "}
               <strong>You will leave with clarity whether or not we work
               together.</strong> If you proceed to an AGA, the fee is
               credited in full.
+            </p>
+            <p className="aga-cta-note" style={{ marginTop: "12px" }}>
+              <a href="/why" className="aga-inline-link">
+                Why you. Why now. Why at all. →
+              </a>
             </p>
             <p className="aga-cta-note">
               <strong>The AGA is a senior-level engagement priced

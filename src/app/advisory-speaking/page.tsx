@@ -339,10 +339,16 @@ export default function AdvisorySpeakingPage() {
             we&rsquo;ll talk about what working together looks like.
           </p>
 
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
             <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
               Book an Intro Consultation
             </Button>
+            <a
+              href="/why"
+              className="font-mono text-[12px] tracking-[0.05em] text-cream/60 hover:text-cream transition-colors"
+            >
+              Why you. Why now. Why at all. &rarr;
+            </a>
           </div>
         </div>
       </SectionWrapper>

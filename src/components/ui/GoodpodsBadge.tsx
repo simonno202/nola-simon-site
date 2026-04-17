@@ -69,7 +69,6 @@ export function GoodpodsBadge({
 
   // Inline: single primary badge, small — used in footer / ProofBar
   if (variant === "inline") {
-    if (failedSrcs.has(PRIMARY.imgSrc)) return null;
     return (
       <a
         href={PRIMARY.leaderboardUrl}
@@ -78,14 +77,20 @@ export function GoodpodsBadge({
         className={`inline-block ${className}`}
         aria-label={PRIMARY.alt}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={PRIMARY.imgSrc}
-          alt={PRIMARY.alt}
-          width={150}
-          height={46}
-          onError={() => handleError(PRIMARY.imgSrc)}
-        />
+        {failedSrcs.has(PRIMARY.imgSrc) ? (
+          <span className="text-[10px] font-mono uppercase tracking-[0.08em] text-text-muted">
+            Top 10 Leadership Podcast — Goodpods
+          </span>
+        ) : (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img
+            src={PRIMARY.imgSrc}
+            alt={PRIMARY.alt}
+            width={150}
+            height={46}
+            onError={() => handleError(PRIMARY.imgSrc)}
+          />
+        )}
       </a>
     );
   }
@@ -93,7 +98,19 @@ export function GoodpodsBadge({
   // Compact: all badges in a wrap row + listen link — used on About page
   if (variant === "compact") {
     const visible = BADGES.filter((b) => !failedSrcs.has(b.imgSrc));
-    if (visible.length === 0) return null;
+    if (visible.length === 0)
+      return (
+        <div className={className}>
+          <a
+            href={PODCAST_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs font-mono text-text-muted hover:text-pink transition-colors"
+          >
+            Top 10 Leadership Indie Podcast — Goodpods →
+          </a>
+        </div>
+      );
     return (
       <div className={`flex flex-col items-start gap-3 ${className}`}>
         <div className="flex flex-wrap gap-3">
@@ -130,7 +147,19 @@ export function GoodpodsBadge({
 
   // Full: all badges in a card grid — used on podcast/landing pages
   const visible = BADGES.filter((b) => !failedSrcs.has(b.imgSrc));
-  if (visible.length === 0) return null;
+  if (visible.length === 0)
+    return (
+      <div className={`rounded-xl border border-border bg-surface px-5 py-4 ${className}`}>
+        <a
+          href={PODCAST_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs font-mono text-text-muted hover:text-pink transition-colors"
+        >
+          Top 10 Leadership Indie Podcast — Goodpods →
+        </a>
+      </div>
+    );
   return (
     <div
       className={`flex flex-col items-start gap-4 rounded-xl border border-border bg-surface px-5 py-4 ${className}`}

@@ -14,7 +14,7 @@ const WORK_SECTIONS = [
     eyebrow: "PODCAST",
     title: "Hope + Possibilities",
     description:
-      "109+ episodes on trust, leadership, and the future of work. Goodpods Top 100 Leadership Indie Podcast. A solo format that goes where the thinking takes it.",
+      "100+ episodes on trust, leadership, and the future of work. Goodpods Top 10 Leadership Indie Podcast. A solo format that goes where the thinking takes it.",
     href: "/podcast",
     cta: "Listen to the podcast",
   },

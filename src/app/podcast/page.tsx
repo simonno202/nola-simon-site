@@ -110,8 +110,7 @@ export default function PodcastPage() {
           </div>
 
           <p className="mt-6 text-[11px] font-sans font-bold tracking-[0.2em] uppercase text-text-muted">
-            Made in Canada&nbsp;&middot;&nbsp;113 Episodes&nbsp;&middot;&nbsp;57
-            Guest&nbsp;&middot;&nbsp;56 Solo
+            Made in Canada&nbsp;&middot;&nbsp;100+ Episodes
           </p>
 
           <GoodpodsBadge variant="compact" className="mt-5" />

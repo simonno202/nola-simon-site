@@ -41,7 +41,7 @@ export const WORK_ITEMS: WorkItem[] = [
     title: "Hope + Possibilities on Apple Podcasts",
     format: "Audio",
     description:
-      "All 109+ episodes available on Apple Podcasts. Subscribe, listen, and leave a review.",
+      "All 100+ episodes available on Apple Podcasts. Subscribe, listen, and leave a review.",
     url: "https://podcasts.apple.com/us/podcast/id1602822494?mt=2&ls=1",
     source: "Apple Podcasts",
   },
