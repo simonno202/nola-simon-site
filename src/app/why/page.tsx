@@ -109,6 +109,13 @@ export default function WhyPage() {
             </p>
 
             <p>
+              The question my leader kept asking was:{" "}
+              <em>
+                How do you know that? Why do people tell you so much?
+              </em>
+            </p>
+
+            <p>
               Six weeks after moving into a new division, I was a national
               finalist in their innovation challenge. I knew the parent
               organization. I didn&rsquo;t know this corner of it yet. That gap
