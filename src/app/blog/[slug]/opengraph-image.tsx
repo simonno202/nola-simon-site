@@ -72,13 +72,14 @@ export default async function OgImage({
           </span>
         </div>
 
-        {/* Middle: title */}
+        {/* Middle: title — pushed toward top third */}
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             gap: "20px",
             maxWidth: "920px",
+            marginTop: "-80px",
           }}
         >
           <h1
@@ -104,7 +105,7 @@ export default async function OgImage({
                     fontSize: "12px",
                     letterSpacing: "0.08em",
                     color: "#f5f0e8",
-                    opacity: 0.45,
+                    opacity: 0.7,
                     textTransform: "uppercase",
                   }}
                 >
@@ -138,7 +139,7 @@ export default async function OgImage({
                 fontFamily: "JetBrains",
                 fontSize: "13px",
                 color: "#f5f0e8",
-                opacity: 0.4,
+                opacity: 0.65,
               }}
             >
               nolasimon.com
