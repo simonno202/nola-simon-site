@@ -36,7 +36,7 @@ export async function generateMetadata({
 
   const post = getPost(slug);
   const canonicalUrl = `https://nolasimon.com/blog/${slug}`;
-  const ogImage = post.ogImage ?? "/og-image.jpg";
+  const displayTitle = post.displayTitle ?? post.title;
   return {
     title: post.title,
     description: post.description,
@@ -45,16 +45,14 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       url: canonicalUrl,
-      title: post.displayTitle ?? post.title,
+      title: displayTitle,
       description: post.description,
       publishedTime: post.date,
-      images: [{ url: ogImage, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: post.displayTitle ?? post.title,
+      title: displayTitle,
       description: post.description,
-      images: [ogImage],
     },
   };
 }
