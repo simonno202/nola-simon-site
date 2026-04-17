@@ -90,6 +90,14 @@ export default function Footer() {
                 </li>
               ))}
               <li>
+                <Link
+                  href="/why"
+                  className="font-sans text-[14px] text-cream transition-colors hover:text-pink"
+                >
+                  Why You. Why Now. Why At All.
+                </Link>
+              </li>
+              <li>
                 <a
                   href="https://mybook.to/nolasimonrecs"
                   target="_blank"

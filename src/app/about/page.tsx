@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Card } from "@/components/ui/Card";
 import { GoodpodsBadge } from "@/components/ui/GoodpodsBadge";
@@ -54,6 +55,15 @@ export default function AboutPage() {
               Historians study what already happened. Futurists project
               what&rsquo;s next. I&rsquo;m in the middle&nbsp;&mdash; watching
               what&rsquo;s shifting right now, before it has a name.
+            </p>
+
+            <p className="mt-6">
+              <Link
+                href="/why"
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Why you. Why now. Why at all. &rarr;
+              </Link>
             </p>
 
           </div>

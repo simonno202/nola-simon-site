@@ -756,6 +756,11 @@ export default function AGAPage() {
             >
               Book an Intro Consultation →
             </a>
+            <p style={{ marginTop: "16px" }}>
+              <a href="/why" className="aga-inline-link">
+                Why you. Why now. Why at all. →
+              </a>
+            </p>
           </div>
         </section>
 
