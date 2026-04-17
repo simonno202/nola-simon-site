@@ -58,9 +58,7 @@ export default function NotFound() {
 
           {/* ── High-confidence link ── */}
           <a
-            href="https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work/practical-futurism-for-daily-life/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/blog"
             style={{
               display: "flex",
               alignItems: "center",
@@ -81,7 +79,7 @@ export default function NotFound() {
             <span>
               Most people end up here:{" "}
               <span style={{ color: "#1a2b4a", textDecoration: "underline", textUnderlineOffset: "3px" }}>
-                Start with Everyday Futurism
+                Start with the writing
               </span>
             </span>
           </a>
