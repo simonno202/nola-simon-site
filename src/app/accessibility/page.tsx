@@ -5,7 +5,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 export const metadata: Metadata = {
   title: "Accessibility — Nola Simon | Everyday Futurism",
   description:
-    "Accessibility commitment and statement for everydayfuturism.com.",
+    "Accessibility commitment and statement for nolasimon.com.",
 };
 
 export default function AccessibilityPage() {
@@ -32,7 +32,7 @@ export default function AccessibilityPage() {
                 My Commitment
               </h2>
               <p>
-                I&rsquo;m committed to making everydayfuturism.com accessible to
+                I&rsquo;m committed to making nolasimon.com accessible to
                 everyone, including people with disabilities. This site is
                 designed to conform to the Web Content Accessibility Guidelines
                 (WCAG) 2.1 Level AA and to meet the requirements of the

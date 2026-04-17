@@ -4,7 +4,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 
 export const metadata: Metadata = {
   title: "Terms of Use — Nola Simon | Everyday Futurism",
-  description: "Terms of use for everydayfuturism.com.",
+  description: "Terms of use for nolasimon.com.",
 };
 
 export default function TermsPage() {
@@ -31,7 +31,7 @@ export default function TermsPage() {
                 Welcome
               </h2>
               <p>
-                By using this website (everydayfuturism.com), you agree to these terms.
+                By using this website (nolasimon.com), you agree to these terms.
                 If you don&rsquo;t agree, that&rsquo;s fine&nbsp;&mdash; but
                 please don&rsquo;t use the site. By using this site, you
                 represent that you are at least 18 years of age or have the

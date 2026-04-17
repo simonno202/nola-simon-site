@@ -3,8 +3,8 @@ export function PersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Nola Simon",
-    url: "https://www.everydayfuturism.com",
-    image: "https://www.everydayfuturism.com/images/nola-hero.jpg",
+    url: "https://nolasimon.com",
+    image: "https://nolasimon.com/images/nola-hero.jpg",
     jobTitle: "Keynote Speaker & Strategic Advisor",
     description:
       "Keynote speaker and strategic futurist based in Ontario, Canada. Nola Simon helps executive teams surface assumptions before decisions calcify — on the future of work, organizational trust, and AI adoption.",
@@ -55,8 +55,8 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Nola Simon Advisory",
-    url: "https://www.everydayfuturism.com",
-    logo: "https://www.everydayfuturism.com/images/nola-hero.jpg",
+    url: "https://nolasimon.com",
+    logo: "https://nolasimon.com/images/nola-hero.jpg",
     founder: {
       "@type": "Person",
       name: "Nola Simon",
@@ -89,7 +89,7 @@ export function PodcastSchema() {
     name: "Hope + Possibilities: A Love Letter to the Future of Work",
     description:
       "Conversations about the future of work with leaders, thinkers, and practitioners building what's next with honesty, self-trust, and a willingness to challenge the status quo.",
-    url: "https://www.everydayfuturism.com/podcast",
+    url: "https://nolasimon.com/podcast",
     author: {
       "@type": "Person",
       name: "Nola Simon",
@@ -248,8 +248,8 @@ export function SpeakerSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Nola Simon",
-    url: "https://www.nolasimon.com/advisory-speaking",
-    image: "https://www.everydayfuturism.com/images/nola-speaking.jpg",
+    url: "https://nolasimon.com/advisory-speaking",
+    image: "https://nolasimon.com/images/nola-speaking.jpg",
     jobTitle: "Keynote Speaker & Strategic Advisor",
     description:
       "Keynote speaker on the future of work, organizational trust, and AI adoption. Based in Ontario, Canada. Nola Simon works with executive teams in the window before decisions calcify — surfacing assumptions before they become policy.",
@@ -344,7 +344,7 @@ export function WebSiteSchema() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Nola Simon | Everyday Futurism",
-    url: "https://www.everydayfuturism.com",
+    url: "https://nolasimon.com",
     description:
       "Strategic futurist Nola Simon helps leaders and organizations trust themselves to read the signals, question the status quo, and build what's next.",
     publisher: {

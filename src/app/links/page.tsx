@@ -75,15 +75,15 @@ const socialLinks = [
 ];
 
 const siteLinks = [
-  { label: "Website", href: "https://www.everydayfuturism.com" },
-  { label: "Advisory & Speaking", href: "https://www.everydayfuturism.com/advisory-speaking" },
-  { label: "The Assumption-Ground Audit", href: "https://www.everydayfuturism.com/aga" },
-  { label: "Podcast Episodes", href: "https://www.everydayfuturism.com/podcast" },
-  { label: "Newsletter Archive", href: "https://www.nolasimon.com/newsletter" },
-  { label: "Work — Writing, Audio, Video", href: "https://www.everydayfuturism.com/work" },
-  { label: "Can You Read a Trust Signal? — Quiz", href: "https://www.everydayfuturism.com/trust-signal-quiz.html" },
-  { label: "Speaker Kit — One-Pager", href: "https://www.nolasimon.com/speaker-kit.html" },
-  { label: "Full Speaker Kit (PDF)", href: "https://www.nolasimon.com/nola-simon-speaker-kit.pdf" },
+  { label: "Website", href: "https://nolasimon.com" },
+  { label: "Advisory & Speaking", href: "https://nolasimon.com/advisory-speaking" },
+  { label: "The Assumption-Ground Audit", href: "https://nolasimon.com/aga" },
+  { label: "Podcast Episodes", href: "https://nolasimon.com/podcast" },
+  { label: "Newsletter Archive", href: "https://nolasimon.com/newsletter" },
+  { label: "Work — Writing, Audio, Video", href: "https://nolasimon.com/work" },
+  { label: "Can You Read a Trust Signal? — Quiz", href: "https://nolasimon.com/trust-signal-quiz.html" },
+  { label: "Speaker Kit — One-Pager", href: "https://nolasimon.com/speaker-kit.html" },
+  { label: "Full Speaker Kit (PDF)", href: "https://nolasimon.com/nola-simon-speaker-kit.pdf" },
 ];
 
 /* ── Icons ── */
