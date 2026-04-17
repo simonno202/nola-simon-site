@@ -101,8 +101,11 @@ export default function WhyPage() {
             </p>
 
             <p>
-              They were the experts. That was never my role. My role was to see
-              what expertise makes invisible.
+              They were the experts. I was in account management &mdash; the
+              role that sits across every department, every client, every
+              problem, without owning any of them. Nobody asked me to notice
+              what expertise was missing. The role just made it impossible not
+              to.
             </p>
 
             <p>
