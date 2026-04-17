@@ -42,7 +42,7 @@ function EpisodeCard({
         <div className="min-w-0 flex-1">
           {/* Meta row */}
           <div className="mb-[7px] flex flex-wrap items-center gap-2">
-            <span className="font-mono text-[11px] uppercase tracking-[0.07em] text-text-light">
+            <span className="font-mono text-[11px] uppercase tracking-[0.07em] text-text-muted">
               {formatDate(ep.date)}
             </span>
             <span className="inline-block h-[3px] w-[3px] rounded-full bg-border-strong" />
@@ -50,13 +50,13 @@ function EpisodeCard({
               className={`font-mono text-[11px] uppercase tracking-[0.07em] ${
                 ep.type === "guest"
                   ? "font-semibold text-gold-dark"
-                  : "text-text-light"
+                  : "text-text-muted"
               }`}
             >
               {ep.type === "guest" ? ep.guest : "Solo"}
             </span>
             <span className="inline-block h-[3px] w-[3px] rounded-full bg-border-strong" />
-            <span className="font-mono text-[11px] tracking-[0.07em] text-text-lighter">
+            <span className="font-mono text-[11px] tracking-[0.07em] text-text-muted">
               S{ep.season}
             </span>
           </div>
@@ -379,7 +379,7 @@ export default function PodcastSearch() {
       )}
 
       {/* Result count */}
-      <div className="px-0 pb-[3px] pt-[6px] font-mono text-[11.5px] tracking-[0.04em] text-text-lighter">
+      <div className="px-0 pb-[3px] pt-[6px] font-mono text-[11.5px] tracking-[0.04em] text-text-muted">
         {filtered.length === EPISODES.length
           ? `Showing all ${EPISODES.length} episodes`
           : `${filtered.length} episode${filtered.length !== 1 ? "s" : ""} found`}
@@ -392,7 +392,7 @@ export default function PodcastSearch() {
             <p className="mb-[6px] font-sans text-[17px] text-text-muted">
               No episodes match your search
             </p>
-            <p className="text-[12.5px] text-text-lighter">
+            <p className="text-[12.5px] text-text-muted">
               Try different terms or adjust filters
             </p>
           </div>

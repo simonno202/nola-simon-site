@@ -22,7 +22,7 @@ export function ProofBar({ className = "" }: { className?: string }) {
               {name}
             </span>
             {i < outlets.length - 1 && (
-              <span className="text-text-lighter" aria-hidden="true">
+              <span className="text-text-muted" aria-hidden="true">
                 &middot;
               </span>
             )}

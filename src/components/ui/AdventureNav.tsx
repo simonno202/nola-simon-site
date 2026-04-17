@@ -74,7 +74,7 @@ export function AdventureNav() {
   return (
     <div className="mt-12 max-w-lg mx-auto text-left">
       {/* Step label */}
-      <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-text-lighter mb-3">
+      <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-text-muted mb-3">
         {current === "start" ? "Turn to which page?" : "One more question"}
       </p>
 
