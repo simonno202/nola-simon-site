@@ -39,7 +39,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mt-6 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
-              Here&rsquo;s the short version: I spent 20+ years across five
+              Here&rsquo;s the short version: I spent 25 years across five
               complex organizations. It ended&nbsp;&mdash; not on my timeline.
               An opportunity in the disguise of an ultimatum. 17 months I
               didn&rsquo;t choose but decided to use. My daughters were 16 and
@@ -83,7 +83,7 @@ export default function AboutPage() {
           <p className="mb-8 text-[15px] font-medium text-navy">Here&rsquo;s the longer version.</p>
           <div className="space-y-6 text-[15px] leading-relaxed text-text-secondary">
             <p>
-              For more than 20 years, I watched organizations talk about change
+              For more than 25 years, I watched organizations talk about change
               while doing everything possible to avoid it. I sat in rooms where
               the answer to shifting conditions was to double down on what
               already wasn&rsquo;t working. I watched leaders confuse the
@@ -247,7 +247,7 @@ export default function AboutPage() {
           <Eyebrow>THE WORK</Eyebrow>
 
           <ul className="mt-6 space-y-2 text-[15px] leading-relaxed text-text-secondary list-disc pl-5">
-            <li>20+ years across five large, complex organizations in account management, sales, and training</li>
+            <li>25 years across five large, complex organizations in account management, sales, and training</li>
             <li>Led employee resource groups, coordinated employee engagement alongside HR, senior leaders, and communications teams</li>
             <li>Award-winning work in teamwork and strategic thinking</li>
             <li>LinkedIn Top Voice 2024 &amp; 2025</li>
