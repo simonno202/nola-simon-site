@@ -6,6 +6,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { PodcastSchema } from "@/components/SchemaOrg";
 import PodcastSearch from "@/components/podcast/PodcastSearch";
 import { PodcastRabbitHole } from "@/components/podcast/PodcastRabbitHole";
+import { EPISODES } from "@/data/episodes";
 
 export const metadata: Metadata = {
   title: "Podcast — Nola Simon | Everyday Futurism",
@@ -14,6 +15,9 @@ export const metadata: Metadata = {
 };
 
 export default function PodcastPage() {
+  const guestCount = EPISODES.filter((e) => e.type === "guest").length;
+  const soloCount = EPISODES.filter((e) => e.type === "solo").length;
+
   return (
     <main>
       <PodcastSchema />
@@ -110,7 +114,7 @@ export default function PodcastPage() {
           </div>
 
           <p className="mt-6 text-[11px] font-sans font-bold tracking-[0.2em] uppercase text-text-muted">
-            Made in Canada&nbsp;&middot;&nbsp;100+ Episodes
+            Made in Canada&nbsp;&middot;&nbsp;{EPISODES.length} Episodes&nbsp;&middot;&nbsp;{guestCount} Guest&nbsp;&middot;&nbsp;{soloCount} Solo
           </p>
 
           <GoodpodsBadge variant="compact" className="mt-5" />
