@@ -138,6 +138,58 @@ export default function PodcastPage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Living Lab ── */}
+      <SectionWrapper className="bg-surface py-10 lg:py-16">
+        <div className="max-w-3xl">
+          <Eyebrow>LIVING LAB</Eyebrow>
+
+          <h2
+            className="mt-4 font-sans font-semibold text-navy"
+            style={{ fontSize: "clamp(20px, 4vw, 28px)" }}
+          >
+            Current investigation: AI
+          </h2>
+
+          <div className="mt-4 space-y-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+            <p>
+              An AI hiring tool undersold my capability. The CEO
+              wouldn&rsquo;t talk to me. So I started pulling the
+              thread&nbsp;&mdash; how these systems actually work, who they
+              work against, and what we&rsquo;re assuming about them before
+              we&rsquo;ve checked.
+            </p>
+            <p>
+              That question led through hiring bias with Todd Raphael at
+              Eightfold AI, accent recognition and neurodivergence with
+              Sweta Regmi, algorithmic accountability with Hilke Schellmann,
+              and the moment I searched a guest on ChatGPT live on air and
+              realized what AI does to personal branding.
+            </p>
+            <p>
+              Five years of episodes. One thread. This is the
+              Assumption-Ground Audit applied to the technology
+              everyone&rsquo;s adopting&nbsp;&mdash; asking whether it&rsquo;s
+              the future we want before it becomes the only future we can
+              build.
+            </p>
+          </div>
+
+          <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
+            <a
+              href="https://open.spotify.com/playlist/4mqS3zlIFsygE9eKEaRLAq"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block font-mono text-[13px] tracking-[0.05em] text-white bg-navy px-5 py-2.5 rounded-[--radius-button] hover:bg-navy/90 transition-colors"
+            >
+              Listen to the AI playlist on Spotify &rarr;
+            </a>
+            <span className="font-mono text-[12px] tracking-[0.05em] text-text-muted">
+              Find the rabbit hole above for the five-year arc
+            </span>
+          </div>
+        </div>
+      </SectionWrapper>
+
       {/* ── Episode Archive ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <PodcastSearch />
