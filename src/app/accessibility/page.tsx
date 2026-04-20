@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Accessibility — Nola Simon | Everyday Futurism",
   description:
     "Accessibility commitment and statement for nolasimon.com.",
+  alternates: {
+    canonical: "https://nolasimon.com/accessibility",
+  },
 };
 
 export default function AccessibilityPage() {

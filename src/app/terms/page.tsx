@@ -5,6 +5,9 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 export const metadata: Metadata = {
   title: "Terms of Use — Nola Simon | Everyday Futurism",
   description: "Terms of use for nolasimon.com.",
+  alternates: {
+    canonical: "https://nolasimon.com/terms",
+  },
 };
 
 export default function TermsPage() {

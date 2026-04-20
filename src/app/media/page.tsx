@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Media & Speaking — Nola Simon | Everyday Futurism",
   description:
     "Nola Simon brings sharp, practical insight to the biggest questions shaping work today. Media features, speaking highlights, and booking information.",
+  alternates: {
+    canonical: "https://nolasimon.com/media",
+  },
 };
 
 export default function MediaPage() {

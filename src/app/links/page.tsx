@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Links",
   description:
     "All the ways to find and follow Nola Simon — social media, podcast, newsletter, and booking.",
+  alternates: {
+    canonical: "https://nolasimon.com/links",
+  },
 };
 
 const ctaLinks = [

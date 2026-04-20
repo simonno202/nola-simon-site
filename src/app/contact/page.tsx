@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "Contact — Nola Simon | Everyday Futurism",
   description:
     "Get in touch with Nola Simon for speaking engagements, advisory work, media inquiries, or podcast guest suggestions.",
+  alternates: {
+    canonical: "https://nolasimon.com/contact",
+  },
 };
 
 export default function ContactPage() {

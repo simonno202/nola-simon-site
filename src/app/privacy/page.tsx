@@ -5,6 +5,9 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 export const metadata: Metadata = {
   title: "Privacy Policy — Nola Simon | Everyday Futurism",
   description: "Privacy policy for nolasimon.com.",
+  alternates: {
+    canonical: "https://nolasimon.com/privacy",
+  },
 };
 
 export default function PrivacyPage() {

@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Podcast — Nola Simon | Everyday Futurism",
   description:
     "Hope + Possibilities is a podcast about everyday noticing — trust, leadership, and the future of work. Hosted by strategic futurist Nola Simon. Top 10 Leadership Indie on Goodpods.",
+  alternates: {
+    canonical: "https://nolasimon.com/podcast",
+  },
 };
 
 export default function PodcastPage() {

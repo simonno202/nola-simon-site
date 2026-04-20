@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Advisory & Speaking — Nola Simon | Future of Work, Trust, and AI Adoption",
   description:
     "Keynote speaking and strategic advisory from Nola Simon — Ontario, Canada. Talks and engagements on the future of work, organizational trust (Witnessed Trust), and AI adoption. Two advisory tracks: team engagements and executive 1:1.",
+  alternates: {
+    canonical: "https://nolasimon.com/advisory-speaking",
+  },
 };
 
 export default function AdvisorySpeakingPage() {

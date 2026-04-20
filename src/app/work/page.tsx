@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "The Work — Nola Simon | Everyday Futurism",
   description:
     "Explore Nola Simon's work across formats: the Hope + Possibilities podcast, media appearances and speaking, essays on Everyday Futurism, and advisory services.",
+  alternates: {
+    canonical: "https://nolasimon.com/work",
+  },
 };
 
 const WORK_SECTIONS = [

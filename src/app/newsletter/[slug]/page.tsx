@@ -25,6 +25,9 @@ export async function generateMetadata({
   return {
     title: `${issue.title} | Newsletter | Nola Simon`,
     description: issue.description,
+    alternates: {
+      canonical: `https://nolasimon.com/newsletter/${slug}`,
+    },
   };
 }
 

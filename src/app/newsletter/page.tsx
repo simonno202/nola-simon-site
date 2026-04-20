@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Newsletter | Nola Simon",
   description:
     "The Nola Simon newsletter — on leadership, trust, and the future of work. Occasional, honest, and written when there's something worth saying.",
+  alternates: {
+    canonical: "https://nolasimon.com/newsletter",
+  },
 };
 
 function formatDate(dateStr: string): string {

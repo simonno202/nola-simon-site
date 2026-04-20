@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: "About — Nola Simon | Everyday Futurism",
   description:
     "I live my life like a Choose Your Own Adventure novel. Strategic futurist, speaker, podcast host.",
+  alternates: {
+    canonical: "https://nolasimon.com/about",
+  },
 };
 
 export default function AboutPage() {
