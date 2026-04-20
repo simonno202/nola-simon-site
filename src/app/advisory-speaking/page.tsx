@@ -7,9 +7,9 @@ import { VideoEmbed } from "@/components/ui/VideoEmbed";
 import { SpeakerSchema } from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Keynote Speaker Ontario & Canada — Nola Simon | Future of Work & Organizational Trust",
+  title: "Advisory & Speaking — Nola Simon | Future of Work, Trust, and AI Adoption",
   description:
-    "Nola Simon is a keynote speaker based in Ontario, Canada. Talks on the future of work, organizational trust (Witnessed Trust), and AI adoption. Available across Canada. 45–60 min, fully customized, no slides by default.",
+    "Keynote speaking and strategic advisory from Nola Simon — Ontario, Canada. Talks and engagements on the future of work, organizational trust (Witnessed Trust), and AI adoption. Two advisory tracks: team engagements and executive 1:1.",
 };
 
 export default function AdvisorySpeakingPage() {
@@ -35,13 +35,13 @@ export default function AdvisorySpeakingPage() {
               Whether it&rsquo;s a keynote that reframes how your audience thinks
               about the future, or a strategic engagement that helps your
               leadership team navigate what&rsquo;s next&nbsp;&mdash; every
-              engagement starts the same way. A conversation about what
-              you&rsquo;re seeing and where you want to go.
+              engagement starts with a conversation about what you&rsquo;re
+              seeing and where you want to go.
             </p>
 
             <div className="mt-8">
               <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
-                Book an Intro Consultation
+                Not sure which? Start a conversation
               </Button>
             </div>
 
@@ -79,66 +79,82 @@ export default function AdvisorySpeakingPage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Anchor nav ── */}
+      <SectionWrapper className="bg-cream border-t border-b border-border-light py-4">
+        <nav aria-label="Jump to section" className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px]">
+          <span className="font-mono uppercase tracking-[0.12em] text-text-muted text-[11px]">Jump to</span>
+          <a href="#advisory" className="font-semibold text-navy hover:text-pink transition-colors">Advisory</a>
+          <a href="#keynotes" className="font-semibold text-navy hover:text-pink transition-colors">Keynotes</a>
+        </nav>
+      </SectionWrapper>
+
       {/* ── Advisory ── */}
-      <SectionWrapper className="bg-cream py-12 lg:py-24">
+      <SectionWrapper id="advisory" className="bg-cream py-12 lg:py-24 scroll-mt-20">
         <div className="max-w-3xl">
           <Eyebrow>ADVISORY</Eyebrow>
 
           <h2 className="text-2xl font-semibold text-navy mt-4">
-            Strategic advisory for leadership teams navigating transformation
+            Strategic advisory for leaders navigating transformation
           </h2>
 
           <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-text-secondary">
             <p>
-              Advisory engagements are high-touch, strategic partnerships
-              designed for leadership teams who know the old playbook
-              isn&rsquo;t working&nbsp;&mdash; but need a credible thinking
-              partner to help them figure out what comes next.
+              Advisory is where the ideas get applied. I don&rsquo;t come in
+              with a pre-built framework. I come in with questions, signal
+              scans, and the ability to hold space for the kind of honest
+              conversation most consultants skip. The goal isn&rsquo;t a deck.
+              It&rsquo;s clarity, alignment, and the confidence to move.
             </p>
 
-            <p>
-              I don&rsquo;t come in with a pre-built framework. I come in with
-              questions, signal scans, and the ability to hold space for the kind
-              of honest conversation most consultants skip. The goal
-              isn&rsquo;t a deck. It&rsquo;s clarity, alignment, and the
-              confidence to move.
-            </p>
+            <p>Two tracks, depending on who&rsquo;s in the room:</p>
 
-            <div>
-              <h3 className="font-semibold text-navy mt-6 mb-3">
-                What&rsquo;s Included
-              </h3>
-              <ul className="space-y-2 list-disc pl-5">
-                <li>Signal scanning and landscape analysis tailored to your industry</li>
-                <li>Leadership advisory on Everyday Futurism and strategic self-trust</li>
-                <li>Facilitated strategy conversations with senior teams</li>
-                <li>Ongoing advisory partnership (monthly or quarterly cadence)</li>
-                <li>Custom deliverables based on your team&rsquo;s needs</li>
-              </ul>
+            <div className="grid gap-5 sm:grid-cols-2 mt-2">
+              <div className="border border-border-light rounded-lg p-5">
+                <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">For leadership teams</p>
+                <h3 className="mt-2 font-semibold text-navy">Team Advisory</h3>
+                <p className="mt-2 text-[14px] leading-relaxed">
+                  High-touch partnership for C-suite leaders, transformation
+                  teams, and organizations in transition&nbsp;&mdash; especially
+                  those navigating shifts in culture, technology, workforce
+                  strategy, or business model.
+                </p>
+                <ul className="mt-3 space-y-1 text-[13px] list-disc pl-5">
+                  <li>Signal scanning tailored to your industry</li>
+                  <li>Facilitated strategy conversations</li>
+                  <li>Monthly or quarterly cadence</li>
+                  <li>Custom deliverables</li>
+                </ul>
+              </div>
+
+              <div className="border border-border-light rounded-lg p-5">
+                <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">For individual executives</p>
+                <h3 className="mt-2 font-semibold text-navy">Executive 1:1</h3>
+                <p className="mt-2 text-[14px] leading-relaxed">
+                  For individual senior leaders navigating a personal inflection
+                  point&nbsp;&mdash; a career transition, a leadership
+                  challenge, or a moment where the old thinking isn&rsquo;t
+                  working anymore.
+                </p>
+                <p className="mt-3 text-[13px] text-text-muted">
+                  Very limited availability. By invitation, not by volume.
+                </p>
+              </div>
             </div>
 
-            <div>
-              <h3 className="font-semibold text-navy mt-6 mb-3">
-                Who It&rsquo;s For
-              </h3>
-              <p>
-                C-suite leaders, transformation teams, and organizations in
-                transition&nbsp;&mdash; especially those navigating shifts in
-                culture, technology, workforce strategy, or business model.
-              </p>
-            </div>
-
-            <p className="mt-6">
+            <p className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
               <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="secondary">
                 Start a Conversation
               </Button>
+              <a href="#keynotes" className="text-[13px] font-semibold text-pink hover:underline">
+                Or see speaking topics &rarr;
+              </a>
             </p>
           </div>
         </div>
       </SectionWrapper>
 
       {/* ── Keynotes ── */}
-      <SectionWrapper className="bg-cream py-12 lg:py-24">
+      <SectionWrapper id="keynotes" className="bg-cream py-12 lg:py-24 scroll-mt-20">
         <div className="max-w-3xl">
           <Eyebrow>KEYNOTES</Eyebrow>
 
@@ -209,8 +225,11 @@ export default function AdvisorySpeakingPage() {
 
             <div className="mt-6 pt-5 border-t border-[#E0DDD8] flex flex-wrap gap-3 items-center">
               <p className="text-[13px] text-text-muted w-full mb-1">
-                Planning an event? Download the speaker kit for bios, headshots, talks, and booking details.
+                Planning an event? Check availability or download the speaker kit for bios, headshots, talks, and logistics.
               </p>
+              <Button href="https://tidycal.com/nola/book-a-speaker" external variant="primary">
+                Check Speaking Availability
+              </Button>
               <Button href="/speaker-kit.html" external variant="secondary">
                 View One-Pager
               </Button>
@@ -230,6 +249,12 @@ export default function AdvisorySpeakingPage() {
                 Download Full Kit (PDF)
               </a>
             </div>
+
+            <p className="mt-6">
+              <a href="#advisory" className="text-[13px] font-semibold text-pink hover:underline">
+                &larr; Or see advisory tracks
+              </a>
+            </p>
 
           </div>
         </div>
@@ -291,46 +316,11 @@ export default function AdvisorySpeakingPage() {
         </div>
       </SectionWrapper>
 
-      {/* ── 1:1 Consulting ── */}
-      <SectionWrapper className="bg-cream py-12 lg:py-24">
-        <div className="max-w-3xl">
-          <Eyebrow>CONSULTING</Eyebrow>
-
-          <h2 className="text-2xl font-semibold text-navy mt-4">
-            1:1 consulting for senior leaders
-          </h2>
-
-          <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-text-secondary">
-            <p>
-              For individual senior leaders navigating a personal inflection
-              point&nbsp;&mdash; a career transition, a leadership challenge, or
-              a moment where the old thinking isn&rsquo;t working anymore. These
-              are focused, strategic conversations designed to help you see
-              clearly and move with confidence.
-            </p>
-
-            <p>
-              Very limited availability. By invitation, not by volume. If
-              you&rsquo;ve been reading my work and finding yourself thinking
-              differently&nbsp;&mdash; noticing signals, questioning narratives,
-              sitting with discomfort instead of reacting&nbsp;&mdash;
-              you&rsquo;re already practicing Everyday Futurism.
-            </p>
-
-            <p className="mt-2">
-              <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="secondary">
-                Start a Conversation
-              </Button>
-            </p>
-          </div>
-        </div>
-      </SectionWrapper>
-
       {/* ── Final CTA ── */}
       <SectionWrapper className="bg-navy py-12 lg:py-24 text-cream">
         <div className="max-w-3xl text-center mx-auto">
           <h2 className="text-2xl font-semibold">
-            Every engagement starts the same way. A conversation.
+            Every engagement starts with a conversation.
           </h2>
 
           <p className="mt-4 text-[15px] leading-relaxed text-cream/80">
@@ -341,7 +331,7 @@ export default function AdvisorySpeakingPage() {
 
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
             <Button href="https://tidycal.com/nola/intro-consultation-nola-simon" external variant="primary">
-              Book an Intro Consultation
+              Not sure which? Start a conversation
             </Button>
             <a
               href="/why"

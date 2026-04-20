@@ -308,13 +308,21 @@ export default function MediaPage() {
             <div className="rounded-xl border border-border-light bg-cream p-6 flex flex-col items-center justify-center text-center">
               <h3 className="text-sm font-semibold text-navy">Speaker Kit</h3>
               <p className="mt-2 text-[13px] text-text-muted">
-                Bio, talks, credentials, and contact — ready to share.
+                Check availability, or download bios, talks, credentials, and contact materials.
               </p>
+              <a
+                href="https://tidycal.com/nola/book-a-speaker"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center gap-2 rounded-full border-[1.5px] border-pink bg-pink px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-pink/90"
+              >
+                Check Speaking Availability
+              </a>
               <a
                 href="/speaker-kit.html"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center gap-2 rounded-full border-[1.5px] border-pink bg-pink px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-pink/90"
+                className="mt-2 inline-flex items-center gap-2 rounded-full border-[1.5px] border-pink px-6 py-3 text-sm font-semibold text-pink transition-all hover:bg-pink hover:text-white"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />

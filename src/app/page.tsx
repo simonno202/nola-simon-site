@@ -141,14 +141,33 @@ export default function HomePage() {
             </Card>
           </div>
 
-          <div className="mt-10 pt-8 border-t border-navy/10 flex flex-wrap items-center justify-between gap-6">
-            <p className="text-[14px] text-text-secondary max-w-sm">
-              Most trust signals are cooperatively produced. Almost nobody
-              notices. 18 questions to find out where your filters actually sit.
+          <div className="mt-10 pt-8 border-t border-navy/10">
+            <Eyebrow>INTERACTIVE</Eyebrow>
+            <h3 className="mt-3 text-2xl font-semibold text-navy">
+              The Trust Signal Quiz
+            </h3>
+            <p className="mt-3 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+              Most trust signals aren&rsquo;t personal. They&rsquo;re
+              cooperatively produced&nbsp;&mdash; credentials, reputation
+              engines, social proof loops&nbsp;&mdash; stitched together before
+              you can check. You move through a dozen of them before your first
+              meeting of the day. Almost nobody notices.
             </p>
-            <Button href="/trust-signal-quiz.html" external variant="secondary">
-              Can you read a trust signal? →
-            </Button>
+            <p className="mt-3 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+              18 questions, about six minutes. You&rsquo;ll find out where your
+              filters actually sit, and what you&rsquo;ve been trained to call
+              trustworthy without checking. Three possible outcomes, one
+              honest read.
+            </p>
+            <p className="mt-3 text-[13px] text-text-muted max-w-2xl">
+              For leaders, hiring managers, investors, journalists&nbsp;&mdash;
+              anyone whose work depends on reading people and claims.
+            </p>
+            <div className="mt-6">
+              <Button href="/trust-signal-quiz.html" external variant="secondary">
+                Take the quiz &rarr;
+              </Button>
+            </div>
           </div>
         </div>
       </SectionWrapper>
