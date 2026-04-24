@@ -36,6 +36,11 @@ const SERIES = [
     label: "The Most Dangerous Assumption in the Room",
     num: 7,
   },
+  {
+    slug: "/blog/ben-affleck-reese-witherspoon-trust-receipts",
+    label: "What, Like It's Hard?",
+    num: 8,
+  },
 ];
 
 interface WitnessedTrustSeriesNavProps {

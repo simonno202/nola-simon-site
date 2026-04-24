@@ -65,6 +65,7 @@ const furtherReading = [
   { title: "Everyday Futurism: A Practice, Not a Prediction", href: "/blog/everyday-futurism-a-practice-not-a-prediction" },
   { title: "Who Gets to Be Trusted Now?", href: "/blog/who-gets-to-be-trusted-now" },
   { title: "Witnessed Trust — A Case Study", href: "/blog/witnessed-trust-case-study" },
+  { title: "What, Like It's Hard? Ben Affleck, Reese Witherspoon, and Who Gets to Be Trusted in the Age of AI", href: "/blog/ben-affleck-reese-witherspoon-trust-receipts" },
   { title: "The Rabbit Hole", href: "/blog/the-rabbit-hole" },
 ];
 
