@@ -26,6 +26,12 @@ const CORNERSTONE = {
 
 const WITNESSED_TRUST = [
   {
+    slug: "ben-affleck-reese-witherspoon-trust-receipts",
+    title: "What, Like It's Hard? Ben Affleck, Reese Witherspoon, and Who Gets to Be Trusted in the Age of AI",
+    line: "Same industry. Same crisis. Completely different receipts.",
+    date: "April 23, 2026",
+  },
+  {
     slug: "the-most-dangerous-assumption-in-the-room",
     title: "The Most Dangerous Assumption in the Room",
     line: "The audit that's hardest to run is the one you do on yourself.",
@@ -177,7 +183,7 @@ export default function WritingPage() {
       <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
         <Eyebrow>WITNESSED TRUST — SERIES</Eyebrow>
         <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
-          Seven essays on trust, discernment, and what it means to notice something real — in organizations, in rooms, and in yourself.
+          Eight essays on trust, discernment, and what it means to notice something real — in organizations, in rooms, and in yourself.
         </p>
         <div className="mt-6 max-w-3xl divide-y divide-border-light">
           {WITNESSED_TRUST.map((essay) => (
