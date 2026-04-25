@@ -8,7 +8,6 @@ import { LinkedInTopVoice } from "@/components/ui/LinkedInTopVoice";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { DiscoveryCTA } from "@/components/ui/DiscoveryCTA";
 import { Testimonials } from "@/components/ui/Testimonials";
-import { VideoEmbed } from "@/components/ui/VideoEmbed";
 
 export const metadata: Metadata = {
   title: "About — Nola Simon | Everyday Futurism",
@@ -231,62 +230,6 @@ export default function AboutPage() {
                 certainty.
               </p>
             </Card>
-          </div>
-        </div>
-      </SectionWrapper>
-
-      {/* ── Featured Clip ── */}
-      <SectionWrapper className="bg-surface py-10 lg:py-20">
-        <div className="max-w-4xl">
-          <div className="grid gap-10 lg:grid-cols-[320px_1fr] lg:items-center">
-            <VideoEmbed
-              youtubeId="p01S6AZbdyg"
-              title="AI's Impact on Trust and Workforce"
-              subtitle="Mama, What's Next"
-              className="mx-auto"
-            />
-            <div>
-              <Eyebrow>GUEST APPEARANCE</Eyebrow>
-              <h2 className="text-2xl font-semibold text-navy mt-4">
-                AI&rsquo;s Impact on Trust and Workforce
-              </h2>
-              <p className="mt-4 text-[15px] leading-relaxed text-text-secondary">
-                How is AI reshaping trust dynamics inside organizations? From
-                the{" "}
-                <a
-                  href="https://open.spotify.com/episode/2FJaympnKTWzX78g5YVvQN"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-pink hover:underline"
-                >
-                  Mama What&rsquo;s Next
-                </a>{" "}
-                podcast&nbsp;&mdash; what leaders need to understand about the
-                workforce shift that&rsquo;s already underway and why trust is
-                the variable most companies aren&rsquo;t measuring.
-              </p>
-              <p className="mt-3 text-[13px] text-text-muted">
-                Hosted by{" "}
-                <a
-                  href="https://www.linkedin.com/in/melieb/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-pink hover:underline"
-                >
-                  Melanie Elsbeth
-                </a>{" "}
-                on the{" "}
-                <a
-                  href="https://mamawhatsnext.com/podcast/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-pink hover:underline"
-                >
-                  Mama, What&rsquo;s Next
-                </a>{" "}
-                podcast.
-              </p>
-            </div>
           </div>
         </div>
       </SectionWrapper>
