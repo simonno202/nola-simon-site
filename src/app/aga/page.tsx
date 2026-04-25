@@ -815,6 +815,25 @@ export default function AGAPage() {
           </div>
         </section>
 
+        {/* ── INDEPENDENT RESEARCH ── */}
+        <section className="aga-section">
+          <span className="aga-section-label">Independent research</span>
+          <div className="aga-prose">
+            <p>
+              Most research disciplines are constrained by their approved sources and approved languages. Academic researchers work within institutional archives. Analysts work within their sector. Journalists work within their beat. Each one is fluent in their domain &mdash; and that fluency is also a boundary. Not a personal failing. That&rsquo;s how disciplines work. The roles forming now &mdash; AI ethicists, workforce futurists, climate strategists &mdash; aren&rsquo;t new job titles. They&rsquo;re the beginning of an answer to a question most organizations haven&rsquo;t asked yet.
+            </p>
+            <p>
+              The signal that connects a shift in workforce behavior to a trend in consumer culture to a finding in organizational psychology rarely lives inside a single discipline, and it rarely speaks a single language. It also rarely respects a border. Patterns forming in one regulatory environment are often the leading edge of what&rsquo;s arriving in another. What&rsquo;s already normalized in one market is still being debated in the next. That cross-border read isn&rsquo;t incidental to the work. It&rsquo;s structural. Based in Canada, with a cross-border Canada-US practice and an audience across 52 countries, the research draws from what&rsquo;s forming across jurisdictions, not just what&rsquo;s visible from inside one.
+            </p>
+            <p>
+              Independent research means following the question across peer-reviewed literature, public filings, journalism, and the places where culture is moving before anyone has written the paper yet. It also means knowing how to weigh what you&rsquo;re reading: what each source can tell you, what it can&rsquo;t, which one is moving faster than the others, and which one is performing certainty it doesn&rsquo;t have.
+            </p>
+            <p>
+              That last one is the trust question. It&rsquo;s the same discipline the Assumption-Ground Audit applies to organizational thinking: not just what you&rsquo;re assuming, but what that assumption has at stake in remaining unexamined. That cross-domain, cross-border fluency is what makes the AGA forensic rather than advisory. It finds the ground beneath the argument wherever that ground is &mdash; not just where the methodology says to look.
+            </p>
+          </div>
+        </section>
+
         {/* ── WHY NOW ── */}
         <section className="aga-why-band">
           <div className="aga-why-inner">

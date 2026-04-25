@@ -239,6 +239,12 @@ export default function AboutPage() {
         <div className="max-w-3xl">
           <Eyebrow>THE WORK</Eyebrow>
 
+          <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+            <p>
+              I research the way a detective works a case &mdash; following the signal wherever it leads. Academic papers, public company filings, journalism, pop culture, TikTok. What makes that possible isn&rsquo;t just range. It&rsquo;s fluency. I know how each source works, what it can tell you, what it can&rsquo;t, and what it has at stake in the telling. I can weigh a peer-reviewed finding against a cultural signal against an earnings call and know which one is moving faster than the others, and which one is performing certainty it doesn&rsquo;t have. Based in Canada, with years of cross-border Canada-US work and listeners across 52 countries, I&rsquo;ve learned that what&rsquo;s already normalized in one market is often still being debated in the next. The gap between them is exactly where the most useful signals live. The constraint of staying inside approved disciplines, approved sources, or a single jurisdiction is exactly what lets a pattern go unnamed for years. I don&rsquo;t have that constraint. That&rsquo;s not a gap in the methodology. That&rsquo;s the methodology.
+            </p>
+          </div>
+
           <ul className="mt-6 space-y-2 text-[15px] leading-relaxed text-text-secondary list-disc pl-5">
             <li>25 years across five large, complex organizations in account management, sales, and training</li>
             <li>Led employee resource groups, coordinated employee engagement alongside HR, senior leaders, and communications teams</li>
@@ -246,7 +252,7 @@ export default function AboutPage() {
             <li>LinkedIn Top Voice 2024 &amp; 2025</li>
             <li>Panelist at Elevate TechFest and enterprise events across North America</li>
             <li>Host of the Hope + Possibilities podcast (100+ episodes) — Goodpods Top 100 Leadership Indie Podcast</li>
-            <li>Writer on Substack covering self-trust, leadership, and the future of work</li>
+            <li>Newsletter: Signal Over Noise &mdash; trust, leadership, and the future of work</li>
             <li>Trusted advisor to leaders and transformation teams</li>
             <li>
               Featured in CBC, CTV, Maclean&rsquo;s, The Canadian Press, and
