@@ -9,13 +9,12 @@ export interface MediaItem {
 
 export const MEDIA_FEATURES: MediaItem[] = [
   {
-    outlet: "Maclean's · September 2024",
+    outlet: "Maclean's",
     title: "Why I Made a Midlife Career Switch",
     description:
-      "The origin story of Everyday Futurism — in print and on video.",
+      "A personal and professional story about reinvention, remote work, and building a business around the future of work.",
     url: "https://macleans.ca/society/why-i-made-a-midlife-career-switch/",
-    type: "video",
-    tiktokVideoId: "7431207502575947013",
+    type: "article",
   },
   {
     outlet: "CBC Radio",

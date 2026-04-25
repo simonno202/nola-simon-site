@@ -152,6 +152,43 @@ export default function AboutPage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Maclean's Feature ── */}
+      <SectionWrapper className="bg-cream py-10 lg:py-16">
+        <div className="max-w-4xl">
+          <div className="grid gap-10 lg:grid-cols-[325px_1fr] lg:items-center">
+            <div className="rounded-xl overflow-hidden" style={{ maxWidth: "325px" }}>
+              <iframe
+                src="https://www.tiktok.com/embed/v2/7431207502575947013"
+                width="325"
+                height="575"
+                allow="encrypted-media"
+                allowFullScreen
+                title="Maclean's — Why I Made a Midlife Career Switch"
+                style={{ border: "none" }}
+              />
+            </div>
+            <div>
+              <Eyebrow>AS SEEN IN MACLEAN&rsquo;S</Eyebrow>
+              <h2 className="text-2xl font-semibold text-navy mt-4">
+                Why I Made a Midlife Career Switch
+              </h2>
+              <p className="mt-4 text-[15px] leading-relaxed text-text-secondary">
+                The origin story of Everyday Futurism, as told in Canada&rsquo;s national magazine.
+                The pandemic clarified something I&rsquo;d been circling for years — and this is where it started.
+              </p>
+              <a
+                href="https://macleans.ca/society/why-i-made-a-midlife-career-switch/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block text-sm font-medium text-pink hover:underline"
+              >
+                Read the full article in Maclean&rsquo;s &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </SectionWrapper>
+
       {/* ── What I Believe ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-4xl">

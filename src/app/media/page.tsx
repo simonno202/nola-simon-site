@@ -97,19 +97,6 @@ export default function MediaPage() {
                 <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
                   {feature.description}
                 </p>
-                {feature.tiktokVideoId && (
-                  <div className="mt-4 rounded-xl overflow-hidden" style={{ maxWidth: "325px" }}>
-                    <iframe
-                      src={`https://www.tiktok.com/embed/v2/${feature.tiktokVideoId}`}
-                      width="325"
-                      height="575"
-                      allow="encrypted-media"
-                      allowFullScreen
-                      title="TikTok video"
-                      style={{ border: "none" }}
-                    />
-                  </div>
-                )}
                 {feature.url && (
                   <a
                     href={feature.url}
