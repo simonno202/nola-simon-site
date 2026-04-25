@@ -8,6 +8,7 @@ import {
   WebSiteSchema,
 } from "@/components/SchemaOrg";
 import { GoogleAnalytics } from "@/components/ui/GoogleAnalytics";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -73,6 +74,7 @@ export default function RootLayout({
           {children}
         </div>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );

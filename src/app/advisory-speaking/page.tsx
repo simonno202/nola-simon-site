@@ -7,9 +7,9 @@ import { VideoEmbed } from "@/components/ui/VideoEmbed";
 import { SpeakerSchema } from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Advisory & Speaking — Nola Simon | Future of Work, Trust, and AI Adoption",
+  title: "Advisory & Speaking — Nola Simon | Future of Work and Trust",
   description:
-    "Keynote speaking and strategic advisory from Nola Simon — Ontario, Canada. Talks and engagements on the future of work, organizational trust (Witnessed Trust), and AI adoption. Two advisory tracks: team engagements and executive 1:1.",
+    "Keynote speaking and strategic advisory from Nola Simon — Ontario, Canada. Talks and engagements on the future of work and organizational trust (Witnessed Trust). Two advisory tracks: team engagements and executive 1:1.",
   alternates: {
     canonical: "https://nolasimon.com/advisory-speaking",
   },
@@ -48,7 +48,7 @@ export default function AdvisorySpeakingPage() {
               </Button>
             </div>
 
-            <div className="mt-10 grid gap-3 sm:grid-cols-3 max-w-2xl">
+            <div className="mt-10 grid gap-3 sm:grid-cols-2 max-w-2xl">
               <div className="border border-border-light rounded-lg px-4 py-3">
                 <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">Decision-making</p>
                 <p className="mt-1 text-[13px] font-semibold text-navy leading-snug">What You&rsquo;re Not Asking Before You Commit</p>
@@ -58,11 +58,6 @@ export default function AdvisorySpeakingPage() {
                 <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">Trust &amp; reputation</p>
                 <p className="mt-1 text-[13px] font-semibold text-navy leading-snug">Witnessed Trust</p>
                 <p className="mt-1 text-[12px] text-text-muted leading-relaxed">Trust isn&rsquo;t built. It&rsquo;s caught. Most organizations don&rsquo;t know what their people actually trust.</p>
-              </div>
-              <div className="border border-border-light rounded-lg px-4 py-3">
-                <p className="text-[10px] font-mono uppercase tracking-[0.12em] text-pink">AI adoption</p>
-                <p className="mt-1 text-[13px] font-semibold text-navy leading-snug">Before You Commit</p>
-                <p className="mt-1 text-[12px] text-text-muted leading-relaxed">The most important AI decision your organization will make is happening right now&nbsp;&mdash; informally.</p>
               </div>
             </div>
             <p className="mt-3 text-[11px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized</p>
@@ -203,11 +198,6 @@ export default function AdvisorySpeakingPage() {
                   <span className="font-semibold text-navy">Witnessed Trust</span>
                   <span className="text-text-muted"> &mdash; Trust &amp; reputation</span>
                   <p className="text-[13px] text-text-muted mt-0.5">Trust isn&rsquo;t built. It&rsquo;s caught. Most organizations have no idea what their people actually trust.</p>
-                </li>
-                <li>
-                  <span className="font-semibold text-navy">Before You Commit</span>
-                  <span className="text-text-muted"> &mdash; AI adoption</span>
-                  <p className="text-[13px] text-text-muted mt-0.5">The most important AI decision your organization will make is happening right now&nbsp;&mdash; informally.</p>
                 </li>
               </ul>
               <p className="mt-4 text-[13px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized &middot; Pre-event planning call included</p>

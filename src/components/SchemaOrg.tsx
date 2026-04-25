@@ -7,7 +7,7 @@ export function PersonSchema() {
     image: "https://nolasimon.com/images/nola-hero.jpg",
     jobTitle: "Keynote Speaker & Strategic Advisor",
     description:
-      "Keynote speaker and strategic futurist based in Ontario, Canada. Nola Simon helps executive teams surface assumptions before decisions calcify — on the future of work, organizational trust, and AI adoption.",
+      "Keynote speaker and strategic futurist based in Ontario, Canada. Nola Simon helps executive teams surface assumptions before decisions calcify — on the future of work and organizational trust.",
     address: {
       "@type": "PostalAddress",
       addressRegion: "Ontario",
@@ -29,7 +29,6 @@ export function PersonSchema() {
       "Strategic Foresight",
       "Everyday Futurism",
       "Organizational Trust",
-      "AI Adoption",
       "Decision-Making",
       "Leadership",
       "Change Management",
@@ -252,7 +251,7 @@ export function SpeakerSchema() {
     image: "https://nolasimon.com/images/nola-speaking.jpg",
     jobTitle: "Keynote Speaker & Strategic Advisor",
     description:
-      "Keynote speaker on the future of work, organizational trust, and AI adoption. Based in Ontario, Canada. Nola Simon works with executive teams in the window before decisions calcify — surfacing assumptions before they become policy.",
+      "Keynote speaker on the future of work and organizational trust. Based in Ontario, Canada. Nola Simon works with executive teams in the window before decisions calcify — surfacing assumptions before they become policy.",
     address: {
       "@type": "PostalAddress",
       addressRegion: "Ontario",
@@ -266,7 +265,6 @@ export function SpeakerSchema() {
       "Future of Work",
       "Keynote Speaking",
       "Organizational Trust",
-      "AI Adoption",
       "Decision-Making Under Uncertainty",
       "Strategic Foresight",
       "Everyday Futurism",
@@ -300,21 +298,6 @@ export function SpeakerSchema() {
             name: "Witnessed Trust",
             description:
               "Trust isn't built. It's caught. A keynote on organizational trust, what people actually trust versus what organizations think they trust, and why transparency theater makes it worse.",
-            serviceType: "Keynote Speaking",
-            provider: { "@type": "Person", name: "Nola Simon" },
-            areaServed: [
-              { "@type": "State", name: "Ontario" },
-              { "@type": "Country", name: "Canada" },
-            ],
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Before You Commit",
-            description:
-              "The most important AI decision your organization will make is happening right now — informally. A keynote on AI adoption, pre-adoption assumptions, and the window before strategy calcifies.",
             serviceType: "Keynote Speaking",
             provider: { "@type": "Person", name: "Nola Simon" },
             areaServed: [

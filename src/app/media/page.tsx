@@ -300,10 +300,6 @@ export default function MediaPage() {
                   <span className="font-semibold text-navy">Witnessed Trust</span>
                   <span className="text-text-muted"> &mdash; Trust &amp; reputation</span>
                 </li>
-                <li>
-                  <span className="font-semibold text-navy">Before You Commit</span>
-                  <span className="text-text-muted"> &mdash; AI adoption</span>
-                </li>
               </ul>
               <p className="mt-3 text-[11px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized</p>
             </div>
