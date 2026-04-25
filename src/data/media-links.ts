@@ -4,16 +4,18 @@ export interface MediaItem {
   description: string;
   url: string;
   type: "article" | "video" | "audio";
+  tiktokVideoId?: string;
 }
 
 export const MEDIA_FEATURES: MediaItem[] = [
   {
-    outlet: "Maclean's",
+    outlet: "Maclean's · September 2024",
     title: "Why I Made a Midlife Career Switch",
     description:
-      "A personal and professional story about reinvention, remote work, and building a business around the future of work.",
+      "The origin story of Everyday Futurism — in print and on video.",
     url: "https://macleans.ca/society/why-i-made-a-midlife-career-switch/",
-    type: "article",
+    type: "video",
+    tiktokVideoId: "7431207502575947013",
   },
   {
     outlet: "CBC Radio",

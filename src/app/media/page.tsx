@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Script from "next/script";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Card } from "@/components/ui/Card";
@@ -97,6 +98,26 @@ export default function MediaPage() {
                 <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
                   {feature.description}
                 </p>
+                {feature.tiktokVideoId && (
+                  <div className="mt-4">
+                    <blockquote
+                      className="tiktok-embed"
+                      cite={`https://www.tiktok.com/@macleansmag/video/${feature.tiktokVideoId}`}
+                      data-video-id={feature.tiktokVideoId}
+                      style={{ maxWidth: "100%", minWidth: "325px" }}
+                    >
+                      <section>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href="https://www.tiktok.com/@macleansmag?refer=embed"
+                        >
+                          @macleansmag
+                        </a>
+                      </section>
+                    </blockquote>
+                  </div>
+                )}
                 {feature.url && (
                   <a
                     href={feature.url}
@@ -388,6 +409,7 @@ export default function MediaPage() {
           </div>
         </div>
       </SectionWrapper>
+      <Script src="https://www.tiktok.com/embed.js" strategy="afterInteractive" />
     </main>
   );
 }
