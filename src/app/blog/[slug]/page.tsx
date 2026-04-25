@@ -10,6 +10,7 @@ import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle"
 import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeriesNav";
 import { PinterestPin } from "@/components/ui/PinterestPin";
 import { ArticleSchema, FAQSchema, DefinedTermSchema, PediculosisFAQ } from "@/components/SchemaOrg";
+import { PinterestImagePicker } from "@/components/ui/PinterestImagePicker";
 
 const mdxComponents = {
   ConvergencesFramework,
@@ -132,14 +133,18 @@ export default async function BlogPostPage({
             <MDXRemote source={post.content} components={mdxComponents} />
           </div>
 
-          {/* Footer back link */}
-          <div className="mt-12 pt-8 border-t border-border-medium">
+          {/* Footer back link + share */}
+          <div className="mt-12 pt-8 border-t border-border-medium flex items-center justify-between flex-wrap gap-4">
             <Link
               href="/blog"
               className="inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted hover:text-pink transition-colors"
             >
               <span aria-hidden="true">←</span> Back to writing
             </Link>
+            <PinterestImagePicker
+              pageUrl={`https://nolasimon.com/blog/${slug}`}
+              description={post.description}
+            />
           </div>
         </div>
       </SectionWrapper>
