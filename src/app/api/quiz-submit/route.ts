@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 const TAG_IDS: Record<string, number> = {
   'Witnessed Observer': 19177906,
   'Selective Skeptic':  19177907,
-  'Credential Counter': 19177908,
+  'Signal Inheritor':   19177908,
   'Path A':             19177909,
   'Path B':             19177910,
   'Chose Neither':      19177911,
