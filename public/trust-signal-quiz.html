@@ -675,6 +675,43 @@
     color: white;
   }
 
+  /* SUBSCRIBE FORM */
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  @media (min-width: 480px) {
+    .cta-form { flex-direction: row; }
+  }
+  .cta-input {
+    flex: 1;
+    padding: 13px 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    background: rgba(247,244,240,0.1);
+    border: 1px solid rgba(247,244,240,0.25);
+    color: white;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .cta-input::placeholder { color: rgba(247,244,240,0.45); }
+  .cta-input:focus { border-color: var(--pink); }
+  .cta-status {
+    font-size: 14px;
+    margin-top: 12px;
+    color: var(--pink);
+  }
+  .cta-fine-print {
+    font-size: 11px;
+    color: rgba(247,244,240,0.45);
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+  .cta-fine-print a { color: inherit; text-decoration: underline; }
+
   /* KEEP GOING */
   .results-keep-going {
     text-align: center;
@@ -870,8 +907,13 @@
       <p class="results-cta-eyebrow">Everyday Futurism</p>
       <h3 class="results-cta-title">Keep reading the signals.<br><em>Get the newsletter.</em></h3>
       <p class="results-cta-body">Weekly thinking on trust, credibility, and how to read the future more clearly.</p>
-      <!-- TODO: Replace URL below with tagged quiz-takers Kit form (tag: trust-quiz-taker) -->
-      <a href="https://prodigious-painter-153.kit.com/430927c5eb" target="_blank" class="btn-cta">Subscribe →</a>
+      <form id="quiz-subscribe-form" class="cta-form" onsubmit="handleQuizSubscribe(event)">
+        <label for="quiz-email" style="position:absolute;width:1px;height:1px;overflow:hidden;">Email address</label>
+        <input id="quiz-email" type="email" class="cta-input" placeholder="Your email address" required>
+        <button type="submit" id="quiz-subscribe-btn" class="btn-cta" style="border:none;cursor:pointer;white-space:nowrap;">Subscribe →</button>
+      </form>
+      <p id="quiz-subscribe-status" style="display:none;" class="cta-status"></p>
+      <p class="cta-fine-print">By subscribing you agree to receive Nola Simon's Everyday Futurism newsletter. Unsubscribe anytime. <a href="/privacy">Privacy Policy</a></p>
     </div>
 
     <hr class="results-divider">
@@ -1094,6 +1136,7 @@ const questions = [
 const results = [
   {
     range: [15, 18],
+    key: 'Witnessed Observer',
     band: "Witnessed<br><em>Observer</em>",
     diagnosis: "You don't confuse visibility with verification.",
     body: "You read signals in context, you're not fooled by volume or prestige, and you've arrived at the thing this quiz was building toward: almost every conventional trust signal is cooperatively produced. The subject shaped it, approved it, paid for it, traded it, or fit a narrative someone else needed to tell. The signals that can't be manufactured are the ones that didn't require anyone's cooperation to exist. This is rare. Most professional environments actively reward credential counting — which is probably why you noticed.",
@@ -1102,6 +1145,7 @@ const results = [
   },
   {
     range: [9, 14],
+    key: 'Selective Skeptic',
     band: "Selective<br><em>Skeptic</em>",
     diagnosis: "You're asking the right questions — some of the time.",
     body: "Purchased bylines, click-dependent coverage, mutual rating inflation, cooperative case studies, and coordinated endorsements are still doing more of your evaluating than you'd like to admit. Your instincts are good. They just aren't fully load-bearing yet. The gap is usually in knowing which signals to slow down for and which to let pass.",
@@ -1110,6 +1154,7 @@ const results = [
   },
   {
     range: [0, 8],
+    key: 'Credential Counter',
     band: "Credential<br><em>Counter</em>",
     diagnosis: "Volume, prestige, and platform are doing most of your evaluating for you.",
     body: "To be fair, most professional environments are designed to reward exactly this. The problem isn't that you trust people. It's that you're trusting the packaging. The credential industrial complex thanks you for your continued support.",
@@ -1122,7 +1167,59 @@ let currentQ = 0;
 let answers = new Array(questions.length).fill(null);
 let score = 0;
 
+const QUIZ_ENDPOINT = '/api/quiz-submit';
+let sessionStartTime = null;
+let sessionId = null;
+let currentSession = null;
+
+function genId() {
+  return Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+}
+
+function postEvent(type, data, session) {
+  fetch(QUIZ_ENDPOINT, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ type, data: data || null, session: session || null })
+  }).catch(() => {});
+}
+
+async function handleQuizSubscribe(e) {
+  e.preventDefault();
+  const email = document.getElementById('quiz-email').value.trim();
+  if (!email) return;
+
+  const btn = document.getElementById('quiz-subscribe-btn');
+  btn.textContent = '...';
+  btn.disabled = true;
+
+  const session = Object.assign({}, currentSession, { pathway: 'subscribe' });
+
+  try {
+    const res = await fetch(QUIZ_ENDPOINT, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ type: 'subscribe', data: { email }, session })
+    });
+    if (res.ok) {
+      document.getElementById('quiz-subscribe-form').style.display = 'none';
+      const status = document.getElementById('quiz-subscribe-status');
+      status.textContent = "You’re in. Check your inbox to confirm.";
+      status.style.display = 'block';
+    } else {
+      btn.textContent = 'Subscribe →';
+      btn.disabled = false;
+    }
+  } catch {
+    btn.textContent = 'Subscribe →';
+    btn.disabled = false;
+  }
+}
+
 function startQuiz() {
+  sessionStartTime = Date.now();
+  sessionId = genId();
+  currentSession = null;
   showScreen('quiz-screen');
   renderQuestion();
 }
@@ -1207,6 +1304,20 @@ function showResults() {
   document.getElementById('results-blindspot').textContent = band.blindspot;
   document.getElementById('results-notice').textContent = band.notice;
 
+  currentSession = {
+    sessionId,
+    band: band.key,
+    score,
+    timeMs: sessionStartTime ? Date.now() - sessionStartTime : null,
+    passedQuestions: score,
+    exitFilter: band.key,
+    pathway: null,
+    resourcesViewed: [],
+    events: [{ name: 'quiz_completed' }],
+    answers: answers.map(String)
+  };
+  postEvent('quiz_completed', null, currentSession);
+
   showScreen('results-screen');
 }
 
@@ -1214,6 +1325,9 @@ function restartQuiz() {
   currentQ = 0;
   answers = new Array(questions.length).fill(null);
   score = 0;
+  sessionStartTime = null;
+  sessionId = null;
+  currentSession = null;
   showScreen('title-screen');
 }
 </script>
