@@ -1109,6 +1109,44 @@
     #results-screen { padding: 48px 20px; }
     .results-cta { padding: 32px 24px; }
   }
+
+  /* BADGE */
+  .badge-section {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+  }
+  .badge-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--warm-grey);
+    margin-bottom: 20px;
+  }
+  #badge-canvas {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 360px;
+    aspect-ratio: 1;
+    background: #1a0820;
+  }
+  .btn-badge {
+    background: var(--black);
+    color: var(--off-white);
+    border: none;
+    padding: 14px 32px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: background 0.2s;
+  }
+  .btn-badge:hover { background: var(--mid-grey); }
 </style>
 </head>
 <body>
@@ -1117,7 +1155,7 @@
 <div id="title-screen" class="screen active">
   <p class="title-eyebrow">Everyday Futurism</p>
   <h1 class="title-main">Can You Actually Read a <em>Trust Signal?</em></h1>
-  <p class="title-sub">18 questions. By the end, you'll notice something the credential industrial complex would prefer you didn't.</p>
+  <p class="title-sub">You trust what you notice. But what shaped what you notice in the first place? 18 questions to find out.</p>
 
   <div class="title-meta">
     <div class="title-meta-item">
@@ -1238,7 +1276,14 @@
       <p class="results-reveal-text">Almost every conventional trust signal is cooperatively produced. The subject shaped it, approved it, paid for it, traded it, or fit a narrative someone else needed to tell. The purchased byline, the approved case study, the coordinated blurb, the mutual rating, the pitched profile — all of them passed through a filter controlled by the subject or someone with an interest in the outcome. The signals that can't be manufactured are the ones that didn't require anyone's cooperation to exist. An independent observer noticing something. An unprompted citation. A referral that can't explain itself. A journalist who had to fight for the story. Those are rare. That's the point.</p>
     </div>
 
-    <div style="text-align:center;margin-top:48px;">
+    <div class="badge-section">
+      <p class="badge-eyebrow">Share your result</p>
+      <canvas id="badge-canvas" width="270" height="270"></canvas>
+      <br>
+      <button class="btn-badge" onclick="downloadBadge()">↓ Download badge</button>
+    </div>
+
+    <div style="text-align:center;margin-top:40px;">
       <button class="btn-cta" style="border:none;cursor:pointer;" onclick="showPathScreen()">What do you do with it? →</button>
     </div>
   </div>
@@ -2070,6 +2115,137 @@ function showResults() {
 
   try { localStorage.removeItem('trust_quiz_v1'); } catch {}
   showScreen('results-screen');
+  drawResultBadge();
+}
+
+const badgeConfigs = {
+  'Witnessed Observer': {
+    gradStops: ['#1a0820', '#6b1150', '#ec4197'],
+    accent: '#ec4197',
+    line1: 'WITNESSED',
+    line2: 'OBSERVER',
+    tagline: "You don't confuse visibility with verification."
+  },
+  'Selective Skeptic': {
+    gradStops: ['#040f18', '#0a3650', '#0099cc'],
+    accent: '#00c2e8',
+    line1: 'SELECTIVE',
+    line2: 'SKEPTIC',
+    tagline: "You're asking the right questions — some of the time."
+  },
+  'Signal Inheritor': {
+    gradStops: ['#0a1808', '#1e4010', '#5aab00'],
+    accent: '#88cc1a',
+    line1: 'SIGNAL',
+    line2: 'INHERITOR',
+    tagline: "Volume, prestige, and platform are doing most of your evaluating for you."
+  }
+};
+
+function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+  var words = text.split(' ');
+  var line = '';
+  var lines = [];
+  for (var i = 0; i < words.length; i++) {
+    var test = line ? line + ' ' + words[i] : words[i];
+    if (ctx.measureText(test).width > maxWidth && line) {
+      lines.push(line);
+      line = words[i];
+    } else {
+      line = test;
+    }
+  }
+  lines.push(line);
+  var totalH = lines.length * lineHeight;
+  var ly = y - (totalH - lineHeight) / 2;
+  for (var j = 0; j < lines.length; j++) {
+    ctx.fillText(lines[j], x, ly);
+    ly += lineHeight;
+  }
+}
+
+function renderBadge(canvas, bandKey, scale) {
+  var S = Math.round(1080 * scale);
+  canvas.width = S;
+  canvas.height = S;
+  var ctx = canvas.getContext('2d');
+  var cfg = badgeConfigs[bandKey] || badgeConfigs['Witnessed Observer'];
+  var m = Math.round(80 * scale);
+
+  var grad = ctx.createLinearGradient(0, 0, S * 0.7, S);
+  grad.addColorStop(0, cfg.gradStops[0]);
+  grad.addColorStop(0.5, cfg.gradStops[1]);
+  grad.addColorStop(1, cfg.gradStops[2]);
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, S, S);
+
+  ctx.strokeStyle = cfg.accent;
+  ctx.lineWidth = Math.max(1, Math.round(5 * scale));
+  ctx.beginPath();
+  ctx.moveTo(m, Math.round(108 * scale));
+  ctx.lineTo(S - m, Math.round(108 * scale));
+  ctx.stroke();
+
+  ctx.fillStyle = cfg.accent;
+  ctx.font = 'bold ' + Math.round(32 * scale) + 'px "DM Sans", sans-serif';
+  ctx.textAlign = 'center';
+  ctx.fillText('TRUST SIGNAL QUIZ', S / 2, Math.round(162 * scale));
+
+  ctx.fillStyle = '#ffffff';
+  ctx.font = 'bold ' + Math.round(148 * scale) + 'px "Playfair Display", serif';
+  ctx.fillText(cfg.line1, S / 2, Math.round(435 * scale));
+  ctx.fillText(cfg.line2, S / 2, Math.round(615 * scale));
+
+  ctx.strokeStyle = cfg.accent;
+  ctx.lineWidth = Math.max(1, Math.round(2 * scale));
+  ctx.beginPath();
+  ctx.moveTo(m, Math.round(685 * scale));
+  ctx.lineTo(S - m, Math.round(685 * scale));
+  ctx.stroke();
+
+  ctx.fillStyle = 'rgba(255,255,255,0.72)';
+  ctx.font = '300 ' + Math.round(38 * scale) + 'px "DM Sans", sans-serif';
+  wrapText(ctx, cfg.tagline, S / 2, Math.round(765 * scale), S - m * 2.5, Math.round(54 * scale));
+
+  ctx.strokeStyle = cfg.accent;
+  ctx.lineWidth = Math.max(1, Math.round(5 * scale));
+  ctx.beginPath();
+  ctx.moveTo(m, Math.round(940 * scale));
+  ctx.lineTo(S - m, Math.round(940 * scale));
+  ctx.stroke();
+
+  ctx.fillStyle = 'rgba(255,255,255,0.55)';
+  ctx.font = Math.round(28 * scale) + 'px "DM Sans", sans-serif';
+  ctx.fillText('everydayfuturism.com', S / 2, Math.round(988 * scale));
+  ctx.fillStyle = 'rgba(255,255,255,0.75)';
+  ctx.font = 'bold ' + Math.round(30 * scale) + 'px "DM Sans", sans-serif';
+  ctx.fillText('Nola Simon', S / 2, Math.round(1026 * scale));
+}
+
+function drawResultBadge() {
+  var band = currentSession && currentSession.band;
+  if (!band) return;
+  var canvas = document.getElementById('badge-canvas');
+  document.fonts.ready.then(function() { renderBadge(canvas, band, 0.333); });
+}
+
+function downloadBadge() {
+  var band = currentSession && currentSession.band;
+  if (!band) return;
+  var canvas = document.createElement('canvas');
+  document.fonts.ready.then(function() {
+    renderBadge(canvas, band, 1);
+    canvas.toBlob(function(blob) {
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'trust-signal-quiz-' + band.toLowerCase().replace(/\s+/g, '-') + '.png';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 'image/png');
+  });
 }
 
 function restartQuiz() {
