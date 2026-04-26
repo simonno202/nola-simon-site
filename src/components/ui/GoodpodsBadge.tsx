@@ -23,14 +23,6 @@ const BADGES = [
   },
   {
     leaderboardUrl:
-      "https://goodpods.com/leaderboard/top-100-shows-by-category/business/careers?indie=false&period=alltime#90578432",
-    imgSrc:
-      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_careers_top50.png",
-    alt: "Goodpods Top 100 Careers Podcasts",
-    label: "Top 100 Careers",
-  },
-  {
-    leaderboardUrl:
       "https://goodpods.com/leaderboard/top-100-shows-by-category/business/careers?indie=true&period=alltime#90578507",
     imgSrc:
       "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/business_careers_top50.png",

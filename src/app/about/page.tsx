@@ -241,12 +241,42 @@ export default function AboutPage() {
 
           <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
             <p>
-              I research the way a detective works a case &mdash; following the signal wherever it leads. Academic papers, public company filings, journalism, pop culture, TikTok. What makes that possible isn&rsquo;t just range. It&rsquo;s fluency. I know how each source works, what it can tell you, what it can&rsquo;t, and what it has at stake in the telling. I can weigh a peer-reviewed finding against a cultural signal against an earnings call and know which one is moving faster than the others, and which one is performing certainty it doesn&rsquo;t have. Based in Canada, with years of cross-border Canada-US work and listeners across 52 countries, I&rsquo;ve learned that what&rsquo;s already normalized in one market is often still being debated in the next. The gap between them is exactly where the most useful signals live. The constraint of staying inside approved disciplines, approved sources, or a single jurisdiction is exactly what lets a pattern go unnamed for years. I don&rsquo;t have that constraint. That&rsquo;s not a gap in the methodology. That&rsquo;s the methodology.
+              I research the way a detective works a case &mdash; following the signal wherever it leads. Academic papers, public company filings, journalism, pop culture, TikTok. What makes that possible isn&rsquo;t just range. It&rsquo;s fluency. I know how each source works, what it can tell you, what it can&rsquo;t, and what it has at stake in the telling. I can weigh a peer-reviewed finding against a cultural signal against an earnings call and know which one is moving faster than the others, and which one is performing certainty it doesn&rsquo;t have.
+            </p>
+
+            <p>
+              Based in Canada, with years of cross-border Canada-US work and listeners across 52 countries, I&rsquo;ve learned that what&rsquo;s already normalized in one market is often still being debated in the next. The gap between them is exactly where the most useful signals live. The constraint of staying inside approved disciplines, approved sources, or a single jurisdiction is exactly what lets a pattern go unnamed for years. I don&rsquo;t have that constraint. That&rsquo;s not a gap in the methodology. That&rsquo;s the methodology.
+            </p>
+
+            <p>
+              The methodology has an origin I don&rsquo;t talk about enough. I studied mathematics and history at Glendon College, York University&nbsp;&mdash; in French&nbsp;&mdash; at a time when those two disciplines rarely shared a hallway. Mathematics teaches you that a proof is only as strong as its weakest assumption. History teaches you that the sources everyone trusts are the ones most worth interrogating. Studied together, they produce a particular kind of thinking: not skepticism for its own sake, but the habit of asking what&rsquo;s holding the structure up before you add weight to it.
+            </p>
+
+            <p>
+              Then I spent 25 years talking to people. Customer service, account management, training, peer mentorship&nbsp;&mdash; work that required me to quickly understand someone&rsquo;s perspective, their personal narrative, their relationship to power, their values, how they process information, what they believe, and how they decide. Work that required influencing without hierarchical authority, and managing up inside organizations that didn&rsquo;t always want to hear what I was seeing. I&rsquo;ve had thousands of those conversations across five industries. Each one was a data point in how assumptions form, how they hold, and where they crack.
+            </p>
+
+            <p>
+              People deep in the AI bubble often talk about paper as if it marks the boundary between the future and the left-behind. I&rsquo;m married to a man who doesn&rsquo;t write notes on paper. He writes them on wood. He noticed AI last week. Five years after my first podcast episode about it. His work runs on physical judgment, trade knowledge, and client relationships that no model can replicate&nbsp;&mdash; and he&rsquo;s not behind. He&rsquo;s just building in a different material.
+            </p>
+
+            <p>
+              He also has a front-row seat to the theory that displaced white-collar workers will simply transition into trades. He&rsquo;s watched it happen. What he&rsquo;ll tell you is that skilled doesn&rsquo;t transfer the way people assume. The trades have their own culture, their own hierarchy, their own relationship to being wrong in front of someone who can see it immediately in the work. Showing up with credentials and expecting accommodation is its own kind of assumption. He knows what that costs&nbsp;&mdash; the person making it, and the people around them.
+            </p>
+
+            <p>
+              I understand both ends of this conversation.
+            </p>
+
+            <p>
+              The degree gave me the method. The people gave me the material. Living in both worlds gave me the range. The Assumption-Ground Audit is what happened when all three finally met. It turns out it wasn&rsquo;t a detour. It just took a while to find the work it was built for.
             </p>
           </div>
 
           <ul className="mt-6 space-y-2 text-[15px] leading-relaxed text-text-secondary list-disc pl-5">
-            <li>25 years across five large, complex organizations in account management, sales, and training</li>
+            <li>25 years across five large, complex organizations in customer service, account management, sales, training, and peer mentorship</li>
+            <li>Telecommunications, mutual funds, insurance, cross-border financial services, and banking</li>
+            <li>Influenced without hierarchical authority. Managed up. Stayed in the rooms where assumptions hardened into policy.</li>
             <li>Led employee resource groups, coordinated employee engagement alongside HR, senior leaders, and communications teams</li>
             <li>Award-winning work in teamwork and strategic thinking</li>
             <li>LinkedIn Top Voice 2024 &amp; 2025</li>
