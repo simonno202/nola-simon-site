@@ -826,6 +826,242 @@
     margin-bottom: 20px;
   }
 
+  /* ACT BAR */
+  .act-bar {
+    background: var(--off-white);
+    border-bottom: 1px solid var(--border);
+    padding: 7px 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--warm-grey);
+    font-family: 'DM Sans', sans-serif;
+  }
+  .act-bar-label { color: var(--pink); font-weight: 500; }
+  .act-bar-sep { opacity: 0.3; }
+
+  /* NOTICING METER */
+  .noticing-meter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    padding: 9px 14px;
+    background: rgba(236,65,151,0.06);
+    border-left: 2px solid var(--pink);
+    animation: fadeIn 0.3s ease;
+  }
+  .noticing-label {
+    font-size: 11px;
+    color: var(--warm-grey);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    white-space: nowrap;
+  }
+  .noticing-value {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--pink);
+    font-style: italic;
+  }
+
+  /* COMMENTARY */
+  .q-commentary {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: var(--pink-light);
+    border-left: 2px solid var(--pink);
+    font-size: 13px;
+    font-style: italic;
+    line-height: 1.65;
+    color: var(--mid-grey);
+    animation: fadeIn 0.35s ease;
+  }
+
+  /* PASS BUTTON */
+  .pass-area { margin-top: 10px; text-align: center; }
+  .btn-pass {
+    background: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    color: var(--warm-grey);
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 4px 8px;
+    transition: color 0.18s;
+  }
+  .btn-pass:hover { color: var(--black); }
+  .btn-pass:disabled { text-decoration: none; color: var(--pink); cursor: default; }
+
+  /* KEYBOARD HINTS */
+  .kbd-hints {
+    text-align: center;
+    font-size: 11px;
+    color: rgba(0,0,0,0.25);
+    margin-top: 10px;
+    letter-spacing: 0.03em;
+  }
+  kbd {
+    font-family: inherit;
+    background: rgba(0,0,0,0.07);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 10px;
+  }
+
+  /* INTERSTITIAL */
+  #quiz-screen { position: relative; }
+  .quiz-interstitial {
+    position: absolute;
+    inset: 0;
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 32px;
+    text-align: center;
+    z-index: 10;
+    animation: fadeIn 0.5s ease;
+  }
+  .interstitial-text {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(20px, 4vw, 30px);
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    line-height: 1.4;
+    max-width: 520px;
+    margin-bottom: 16px;
+  }
+  .interstitial-sub {
+    font-size: 13px;
+    color: rgba(247,244,240,0.5);
+    margin-bottom: 36px;
+    max-width: 420px;
+    line-height: 1.7;
+  }
+  .btn-interstitial {
+    background: none;
+    border: 1px solid rgba(247,244,240,0.3);
+    color: white;
+    padding: 12px 32px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .btn-interstitial:hover { background: white; color: var(--black); }
+
+  /* RESUME BANNER */
+  .resume-banner {
+    margin-top: 24px;
+    padding: 18px 24px;
+    background: white;
+    border: 1px solid var(--border);
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+  }
+  .resume-banner p { font-size: 14px; color: var(--mid-grey); margin-bottom: 14px; line-height: 1.5; }
+  .resume-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .btn-resume {
+    background: var(--pink);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .btn-resume-ghost {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--warm-grey);
+    padding: 10px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  /* REVIEW DRAWER */
+  .review-drawer {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    background: white;
+    border-top: 1px solid var(--border);
+    padding: 20px 24px 28px;
+    z-index: 100;
+    box-shadow: 0 -8px 40px rgba(0,0,0,0.1);
+    max-height: 55vh;
+    overflow-y: auto;
+    animation: slideUp 0.25s ease;
+  }
+  @keyframes slideUp {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+  }
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  .review-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--warm-grey);
+  }
+  .review-close {
+    background: none; border: none;
+    font-size: 22px; cursor: pointer;
+    color: var(--warm-grey); padding: 0; line-height: 1;
+  }
+  .review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .review-item {
+    padding: 9px 12px;
+    font-size: 12px;
+    line-height: 1.45;
+    border: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+  }
+  .review-q { color: var(--pink); font-weight: 600; white-space: nowrap; min-width: 22px; }
+  .review-a { color: var(--mid-grey); }
+  .review-a.skipped { color: var(--warm-grey); font-style: italic; }
+  .review-footer { display: flex; gap: 10px; }
+
+  /* TIME ON RESULTS */
+  .results-time {
+    font-size: 13px;
+    color: var(--warm-grey);
+    font-style: italic;
+    margin-bottom: 28px;
+  }
+
+  /* MILESTONE PULSE */
+  @keyframes milestonePulse {
+    0%   { opacity: 1; }
+    40%  { opacity: 0.4; }
+    70%  { opacity: 1; }
+    100% { opacity: 1; }
+  }
+  .milestone-pulse { animation: milestonePulse 0.7s ease; }
+
   /* KEEP GOING */
   .results-keep-going {
     text-align: center;
@@ -903,6 +1139,14 @@
   </div>
 
   <button class="btn-primary" onclick="startQuiz()">Begin</button>
+
+  <div id="resume-banner" class="resume-banner" style="display:none;">
+    <p>You were on question <strong id="resume-q-num">?</strong> of 18.<br>Pick up where you left off?</p>
+    <div class="resume-actions">
+      <button class="btn-resume" onclick="resumeQuiz()">Continue →</button>
+      <button class="btn-resume-ghost" onclick="clearSavedQuiz()">Start fresh</button>
+    </div>
+  </div>
 </div>
 
 <!-- QUIZ SCREEN -->
@@ -917,15 +1161,53 @@
     </div>
   </header>
 
+  <div class="act-bar">
+    <span class="act-bar-label" id="act-label">Part 1 of 3</span>
+    <span class="act-bar-sep">—</span>
+    <span id="act-title">Media &amp; Bylines</span>
+  </div>
+
   <div class="quiz-body">
+    <div class="noticing-meter" id="noticing-meter" style="display:none;">
+      <span class="noticing-label">You're filtering for</span>
+      <span class="noticing-value" id="noticing-value"></span>
+    </div>
+
     <p class="question-number" id="q-number">Question 01</p>
     <h2 class="question-text" id="q-text"></h2>
     <p class="question-subtext" id="q-subtext"></p>
     <div class="options-grid" id="options-container"></div>
+
+    <div class="q-commentary" id="q-commentary" style="display:none;"></div>
+
+    <div class="pass-area">
+      <button class="btn-pass" id="btn-pass" onclick="passQuestion()">Pass — I want to think about this</button>
+    </div>
+
+    <div class="kbd-hints">Press <kbd>1</kbd>–<kbd>4</kbd> to select &middot; <kbd>↵</kbd> to continue &middot; <kbd>⌫</kbd> to go back</div>
+
     <div class="quiz-nav">
-      <button class="btn-back" id="btn-back" onclick="prevQuestion()" disabled>← Back</button>
+      <button class="btn-back" id="btn-back" onclick="handleBack()" disabled>← Back</button>
       <button class="btn-next" id="btn-next" onclick="nextQuestion()">Next →</button>
     </div>
+  </div>
+
+  <div class="quiz-interstitial" id="quiz-interstitial" style="display:none;">
+    <p class="interstitial-text" id="interstitial-text"></p>
+    <p class="interstitial-sub" id="interstitial-sub"></p>
+    <button class="btn-interstitial" onclick="dismissInterstitial()">Continue →</button>
+  </div>
+</div>
+
+<div class="review-drawer" id="review-drawer" style="display:none;">
+  <div class="review-header">
+    <span class="review-title">Your answers so far</span>
+    <button class="review-close" onclick="closeReviewDrawer()">×</button>
+  </div>
+  <div class="review-grid" id="review-grid"></div>
+  <div class="review-footer">
+    <button class="btn-resume-ghost" onclick="closeReviewDrawer()">Stay here</button>
+    <button class="btn-resume" onclick="closeReviewDrawer(); prevQuestion();">← Go back</button>
   </div>
 </div>
 
@@ -935,6 +1217,7 @@
     <p class="results-eyebrow">Your Result</p>
     <h2 class="results-band" id="results-band"></h2>
     <p class="results-score" id="results-score"></p>
+    <p class="results-time" id="results-time"></p>
     <p class="results-diagnosis" id="results-diagnosis"></p>
     <p class="results-body" id="results-body"></p>
 
@@ -1102,7 +1385,9 @@ const questions = [
       "Depends entirely on what kind of decision it is and whether the PhD ever left the building",
       "I've met enough of both to have lost sleep over this question"
     ],
-    correct: 2
+    correct: 2,
+    commentary: "Most people split evenly on this one. Watch how that changes by question 6.",
+    noticing: "volume"
   },
   {
     text: "A regular byline in a respected publication vs. being interviewed as an expert by a journalist from the same publication.",
@@ -1113,7 +1398,9 @@ const questions = [
       "Both are media placements and most readers can't tell them apart",
       "Depends on whether the journalist was asking hard questions or writing something they'd already decided"
     ],
-    correct: 0
+    correct: 0,
+    commentary: "The interview feels more prestigious — someone else chose them. But the byline requires constructing an actual argument. And it's easier to buy.",
+    noticing: "volume + source"
   },
   {
     text: "A byline in a publication with hundreds of contributors vs. a byline in a publication with a small editorially selected roster.",
@@ -1124,7 +1411,9 @@ const questions = [
       "Depends on whether the contributor slot was earned, applied for, or purchased",
       "I didn't know bylines could be purchased until recently and now I can't unknow it"
     ],
-    correct: 1
+    correct: 1,
+    commentary: "Contributor networks changed this question. Some prestigious-sounding bylines are now purchased slots with no editorial filter.",
+    noticing: "volume + source"
   },
   {
     text: "A Forbes contributor byline vs. a staff-written feature about someone in the same publication.",
@@ -1135,7 +1424,9 @@ const questions = [
       "Most readers assume contributor means journalist. It often means neither.",
       "The contributor network model has made this question genuinely difficult to answer at a glance"
     ],
-    correct: 1
+    correct: 1,
+    commentary: "Most readers can't distinguish 'Forbes contributor' from 'Forbes journalist.' The publication is aware of this.",
+    noticing: "volume + source + incentive"
   },
   {
     text: "A glowing national media profile that the subject pitched vs. an investigation the subject tried to stop.",
@@ -1146,7 +1437,9 @@ const questions = [
       "Both are media coverage and most audiences treat them as equivalent",
       "Click-dependent media is an attention filter not an accuracy filter and those produce very different stories"
     ],
-    correct: 1
+    correct: 1,
+    commentary: "A story the subject tried to stop passed through an actual filter. Almost nothing else in media can say that.",
+    noticing: "source + incentive"
   },
   {
     text: "A major media outlet that runs on advertising and clicks vs. one that runs on subscriptions and reader trust.",
@@ -1157,7 +1450,9 @@ const questions = [
       "Both can be sensationalist and both can be rigorous — the model doesn't guarantee either",
       "The headline is almost always more alarming than the piece. The piece is almost always more alarming than the evidence. This is not an accident."
     ],
-    correct: 1
+    correct: 1,
+    commentary: "The incentive structure shapes the story before a reporter writes a word.",
+    noticing: "incentive structures"
   },
   {
     text: "A podcast with 100+ episodes vs. a podcast with 40 episodes, a documented guest vetting process, and a publicly stated ethical framework for who gets the microphone.",
@@ -1168,7 +1463,9 @@ const questions = [
       "Volume without curation is mostly evidence of a good microphone and a recurring calendar invite",
       "I'd listen to three episodes of each before I decided anything"
     ],
-    correct: 1
+    correct: 1,
+    commentary: "Volume proves consistency. It doesn't prove judgment.",
+    noticing: "selection criteria"
   },
   {
     text: "Frequent guest spots on podcasts that accept open pitches vs. guest spots on podcasts with a known selective vetting process.",
@@ -1179,7 +1476,9 @@ const questions = [
       "Most podcast listeners don't know which shows have a vetting process and which take everyone",
       "Guest spots on shows that accept random pitches are essentially purchased placements with extra steps"
     ],
-    correct: 1
+    correct: 1,
+    commentary: "From the outside, an open-pitch appearance and a curated invitation look identical.",
+    noticing: "selection + vetting"
   },
   {
     text: "Someone who built their reputation independently with no institutional backing vs. someone who built it inside large organizations and then left to work independently.",
@@ -1190,7 +1489,9 @@ const questions = [
       "The one who did both in sequence — they knew exactly what they were giving up and left anyway, then had to be right about it publicly with consequences",
       "Depends on whether their independent client list was built from scratch or was just former colleagues following them out the door"
     ],
-    correct: 2
+    correct: 2,
+    commentary: "The person who left and had to be right publicly, with real consequences — that's a different kind of claim.",
+    noticing: "independence"
   },
   {
     text: "A ride-share driver with a 4.9 rating vs. a consultant with a wall of five-star testimonials.",
@@ -1201,7 +1502,9 @@ const questions = [
       "The rating stopped meaning excellent and started meaning I didn't have a problem worth escalating",
       "Both systems select for mutual inflation. The signal didn't just weaken. It inverted."
     ],
-    correct: 2
+    correct: 2,
+    commentary: "4.9 means you didn't file a complaint. The signal has inverted so completely it's now measuring absence of friction, not presence of excellence.",
+    noticing: "independence + inflation"
   },
   {
     text: "A written testimonial on someone's website vs. an unsolicited audio or video clip of a client describing a specific outcome in their own words.",
@@ -1212,7 +1515,9 @@ const questions = [
       "Both are curated — nobody posts the ones where it went sideways",
       "I'd want to know if I could contact the person directly and ask my own questions"
     ],
-    correct: 1
+    correct: 1,
+    commentary: "Both are curated. No one posts the ones where it went sideways. The question is which is harder to manufacture.",
+    noticing: "curation + independence"
   },
   {
     text: "A published case study with a named client and measurable outcomes vs. no published case studies at all.",
@@ -1223,7 +1528,9 @@ const questions = [
       "Depends entirely on who approved the case study and what they had to gain from approving it",
       "Only the case studies that make the organization look good get published. That's not a coincidence. That's a filter."
     ],
-    correct: 1
+    correct: 1,
+    commentary: "High-stakes work rarely survives a client's legal and comms review. Absence of case studies isn't absence of work.",
+    noticing: "curation + approval"
   },
   {
     text: "A case study approved and published with the client's full cooperation vs. an independent assessment written by an observer with no relationship to the subject.",
@@ -1234,7 +1541,9 @@ const questions = [
       "The case study has better information; the independent assessment has better integrity — and those are different things",
       "Every cooperative case study has passed through the subject's communications team. Every single one."
     ],
-    correct: 1
+    correct: 1,
+    commentary: "Better information. Better integrity. Not the same thing.",
+    noticing: "cooperative vs. independent"
   },
   {
     text: "A blurb from a well-known peer praising someone's book vs. that same peer citing the book unprompted in their own subsequent work.",
@@ -1245,7 +1554,9 @@ const questions = [
       "Blurbs are a favour economy; citations are an intellectual judgment — they are measuring completely different things",
       "Both could be coordinated. One of them is much harder to coordinate."
     ],
-    correct: 1
+    correct: 1,
+    commentary: "One required a favour. The other required encountering the idea independently and finding it worth carrying forward.",
+    noticing: "coordination cost"
   },
   {
     text: "A client roster featuring logos from three globally recognized organizations vs. a referral from a past client who can't tell you what the work was but sent you anyway.",
@@ -1256,7 +1567,9 @@ const questions = [
       "The logos tell you they got hired; the referral tells you something happened that the client wants to happen again",
       "Referral without explanation is either the highest trust signal or a very unusual favour. Worth knowing which."
     ],
-    correct: 1
+    correct: 1,
+    commentary: "Trust transferred without the ability to produce evidence is almost impossible to manufacture. That's exactly what makes it rare.",
+    noticing: "permission requirements"
   },
   {
     text: "Someone who has been saying the same thing confidently for a decade vs. someone who said publicly \"I was wrong about this\" and changed their position based on new evidence.",
@@ -1267,7 +1580,9 @@ const questions = [
       "Consistency can be integrity or it can be brand protection — telling them apart is most of the skill",
       "A decade of the same message is either visionary or a very committed bit. Both exist in the wild."
     ],
-    correct: 1
+    correct: 1,
+    commentary: "A decade of the same message is either visionary or a very committed bit. Intellectual honesty under pressure is rarer and structurally more important.",
+    noticing: "consequences"
   },
   {
     text: "A glowing blurb from a famous peer vs. an LLM summary of someone's body of work vs. reading three of their actual pieces yourself.",
@@ -1278,11 +1593,15 @@ const questions = [
       "Reading the work yourself — the only method that lets you catch a reasoning error before it costs you something",
       "All three together — efficiency is fine until the decision actually matters"
     ],
-    correct: 2
+    correct: 2,
+    commentary: "You're one question from seeing the pattern whole.",
+    noticing: "the cooperative filter"
   },
   {
     text: "Every cooperatively produced signal on this list — the purchased bylines, the click-bait coverage, the mutual ratings, the approved case studies, the coordinated blurbs, the open-pitch podcast appearances, the logo rosters, the testimonials — vs. a single moment observed by someone with no relationship to the subject, no approval to seek, and no incentive to be generous.",
     subtext: "Which tells you more?",
+    commentary: "That's the stack. Every signal on this list passed through someone's hands before it reached you. Only one didn't.",
+    noticing: "the cooperative filter",
     options: [
       "The full cooperative signal stack — a pattern of recognition across time and context is hard to fake at scale",
       "The single independent observation — the only signal in this entire quiz that required no one's permission to be true",
@@ -1326,6 +1645,12 @@ const results = [
 let currentQ = 0;
 let answers = new Array(questions.length).fill(null);
 let score = 0;
+
+const acts = [
+  { label: 'Part 1 of 3', title: 'Media &amp; Bylines',           start: 0,  end: 5  },
+  { label: 'Part 2 of 3', title: 'Ratings, Podcasts &amp; Reviews', start: 6,  end: 11 },
+  { label: 'Part 3 of 3', title: 'The Pattern',                    start: 12, end: 17 }
+];
 
 const QUIZ_ENDPOINT = '/api/quiz-submit';
 let sessionStartTime = null;
@@ -1433,9 +1758,19 @@ function startQuiz() {
   sessionStartTime = Date.now();
   sessionId = genId();
   currentSession = null;
+  try { localStorage.removeItem('trust_quiz_v1'); } catch {}
   showScreen('quiz-screen');
   renderQuestion();
 }
+
+// Check for saved progress on page load
+(function checkResume() {
+  const s = loadSavedProgress();
+  if (s && s.currentQ > 0) {
+    document.getElementById('resume-q-num').textContent = s.currentQ + 1;
+    document.getElementById('resume-banner').style.display = 'block';
+  }
+})();
 
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
@@ -1447,11 +1782,36 @@ function renderQuestion() {
   const q = questions[currentQ];
   const total = questions.length;
 
+  // Act bar
+  const act = acts.find(a => currentQ >= a.start && currentQ <= a.end);
+  if (act) {
+    document.getElementById('act-label').textContent = act.label;
+    document.getElementById('act-title').innerHTML = act.title;
+  }
+
   document.getElementById('q-number').textContent = `Question ${String(currentQ + 1).padStart(2, '0')}`;
   document.getElementById('q-text').textContent = q.text;
   document.getElementById('q-subtext').textContent = q.subtext;
   document.getElementById('progress-text').textContent = `${currentQ + 1} of ${total}`;
   document.getElementById('progress-fill').style.width = `${((currentQ + 1) / total) * 100}%`;
+
+  // Noticing meter
+  const noticingEl = document.getElementById('noticing-meter');
+  if (q.noticing && currentQ > 0) {
+    document.getElementById('noticing-value').textContent = q.noticing;
+    noticingEl.style.display = 'flex';
+  } else {
+    noticingEl.style.display = 'none';
+  }
+
+  // Commentary — show if already answered
+  const commentary = document.getElementById('q-commentary');
+  if (answers[currentQ] !== null && answers[currentQ] !== undefined && q.commentary) {
+    commentary.textContent = q.commentary;
+    commentary.style.display = 'block';
+  } else {
+    commentary.style.display = 'none';
+  }
 
   const container = document.getElementById('options-container');
   container.innerHTML = '';
@@ -1464,9 +1824,16 @@ function renderQuestion() {
     container.appendChild(card);
   });
 
+  // Pass button
+  const passBtn = document.getElementById('btn-pass');
+  const isPassed = answers[currentQ] === -1;
+  passBtn.disabled = isPassed;
+  passBtn.textContent = isPassed ? 'Passed ✓' : 'Pass — I want to think about this';
+
   document.getElementById('btn-back').disabled = currentQ === 0;
   const nextBtn = document.getElementById('btn-next');
-  if (answers[currentQ] !== null) {
+  const hasAnswer = answers[currentQ] !== null && answers[currentQ] !== undefined;
+  if (hasAnswer) {
     nextBtn.classList.add('enabled');
     nextBtn.textContent = currentQ === total - 1 ? 'See Results →' : 'Next →';
   } else {
@@ -1483,10 +1850,86 @@ function selectOption(i) {
   const nextBtn = document.getElementById('btn-next');
   nextBtn.classList.add('enabled');
   nextBtn.textContent = currentQ === questions.length - 1 ? 'See Results →' : 'Next →';
+
+  // Show commentary
+  const q = questions[currentQ];
+  if (q.commentary) {
+    const commentary = document.getElementById('q-commentary');
+    commentary.textContent = q.commentary;
+    commentary.style.display = 'block';
+  }
+
+  // Disable pass button once answered
+  const passBtn = document.getElementById('btn-pass');
+  passBtn.disabled = true;
+  passBtn.textContent = 'Answered';
+
+  saveProgress();
+}
+
+function passQuestion() {
+  if (answers[currentQ] !== null && answers[currentQ] !== undefined) return;
+  answers[currentQ] = -1; // pass sentinel
+  document.getElementById('btn-pass').disabled = true;
+  document.getElementById('btn-pass').textContent = 'Passed ✓';
+  document.getElementById('btn-next').classList.add('enabled');
+  document.getElementById('btn-next').textContent = currentQ === questions.length - 1 ? 'See Results →' : 'Next →';
+  saveProgress();
+}
+
+function handleBack() {
+  if (currentQ === 0) return;
+  buildReviewGrid();
+  document.getElementById('review-drawer').style.display = 'block';
+}
+
+function buildReviewGrid() {
+  const grid = document.getElementById('review-grid');
+  grid.innerHTML = '';
+  for (let i = 0; i < currentQ; i++) {
+    const a = answers[i];
+    const item = document.createElement('div');
+    item.className = 'review-item' + (a === -1 ? ' skipped' : '');
+    const answerText = a === -1 ? 'Passed'
+      : a === null || a === undefined ? '—'
+      : questions[i].options[a].slice(0, 60) + (questions[i].options[a].length > 60 ? '…' : '');
+    item.innerHTML = `<span class="review-q">Q${i + 1}</span><span class="review-a ${a === -1 ? 'skipped' : ''}">${answerText}</span>`;
+    grid.appendChild(item);
+  }
+}
+
+function closeReviewDrawer() {
+  document.getElementById('review-drawer').style.display = 'none';
 }
 
 function nextQuestion() {
-  if (answers[currentQ] === null) return;
+  const hasAnswer = answers[currentQ] !== null && answers[currentQ] !== undefined;
+  if (!hasAnswer) return;
+
+  // Mid-quiz interstitial at Q9 (index 8)
+  if (currentQ === 8) {
+    showInterstitial(
+      'You\'re halfway. The pattern hasn\'t shown up yet.',
+      'That\'s deliberate. Nine questions in, and the signal stack is still being assembled. Keep going.',
+      () => { currentQ++; renderQuestion(); }
+    );
+    return;
+  }
+
+  // Band foreshadow at Q12 (index 11)
+  if (currentQ === 11) {
+    const currentScore = answers.slice(0, 12).filter((a, i) => a === questions[i].correct).length;
+    const trendBand = currentScore >= 10 ? 'Witnessed Observer'
+                    : currentScore >= 7  ? 'Selective Skeptic'
+                    : 'Signal Inheritor';
+    showInterstitial(
+      `You\'re currently trending toward: ${trendBand}.`,
+      'Six questions left. The last act is where most people\'s answers shift — or confirm.',
+      () => { currentQ++; renderQuestion(); }
+    );
+    return;
+  }
+
   if (currentQ < questions.length - 1) {
     currentQ++;
     renderQuestion();
@@ -1495,12 +1938,96 @@ function nextQuestion() {
   }
 }
 
+let interstitialCallback = null;
+
+function showInterstitial(text, sub, onContinue) {
+  interstitialCallback = onContinue;
+  document.getElementById('interstitial-text').textContent = text;
+  document.getElementById('interstitial-sub').textContent = sub;
+  document.getElementById('quiz-interstitial').style.display = 'flex';
+}
+
+function dismissInterstitial() {
+  document.getElementById('quiz-interstitial').style.display = 'none';
+  if (interstitialCallback) { interstitialCallback(); interstitialCallback = null; }
+}
+
+function saveProgress() {
+  if (!sessionStartTime || currentQ === 0) return;
+  try {
+    localStorage.setItem('trust_quiz_v1', JSON.stringify({
+      currentQ,
+      answers: [...answers],
+      sessionId,
+      sessionStartTime,
+      savedAt: Date.now()
+    }));
+  } catch {}
+}
+
+function loadSavedProgress() {
+  try {
+    const raw = localStorage.getItem('trust_quiz_v1');
+    if (!raw) return null;
+    const s = JSON.parse(raw);
+    if (!s || s.currentQ >= questions.length - 1) return null;
+    return s;
+  } catch { return null; }
+}
+
+function resumeQuiz() {
+  const s = loadSavedProgress();
+  if (!s) { startQuiz(); return; }
+  currentQ = s.currentQ;
+  answers = s.answers;
+  sessionId = s.sessionId;
+  sessionStartTime = s.sessionStartTime;
+  currentSession = null;
+  document.getElementById('resume-banner').style.display = 'none';
+  showScreen('quiz-screen');
+  renderQuestion();
+}
+
+function clearSavedQuiz() {
+  try { localStorage.removeItem('trust_quiz_v1'); } catch {}
+  document.getElementById('resume-banner').style.display = 'none';
+  startQuiz();
+}
+
 function prevQuestion() {
+  closeReviewDrawer();
   if (currentQ > 0) {
     currentQ--;
     renderQuestion();
   }
 }
+
+// Keyboard navigation
+document.addEventListener('keydown', function(e) {
+  const screen = document.querySelector('.screen.active');
+  if (!screen || screen.id !== 'quiz-screen') return;
+  if (document.getElementById('quiz-interstitial').style.display !== 'none') {
+    if (e.key === 'Enter') dismissInterstitial();
+    return;
+  }
+  if (document.getElementById('review-drawer').style.display !== 'none') {
+    if (e.key === 'Escape') closeReviewDrawer();
+    return;
+  }
+  if (['1','2','3','4'].includes(e.key)) {
+    const idx = parseInt(e.key) - 1;
+    const opts = document.querySelectorAll('.option-card');
+    if (opts[idx]) selectOption(idx);
+  }
+  if (e.key === 'Enter') {
+    const nextBtn = document.getElementById('btn-next');
+    if (nextBtn.classList.contains('enabled')) nextQuestion();
+  }
+  if (e.key === 'Backspace' && document.activeElement.tagName !== 'INPUT') {
+    e.preventDefault();
+    handleBack();
+  }
+});
 
 function showResults() {
   score = answers.reduce((acc, ans, i) => acc + (ans === questions[i].correct ? 1 : 0), 0);
@@ -1517,11 +2044,12 @@ function showResults() {
   document.getElementById('results-blindspot').textContent = band.blindspot;
   document.getElementById('results-notice').textContent = band.notice;
 
+  const timeMs = sessionStartTime ? Date.now() - sessionStartTime : null;
   currentSession = {
     sessionId,
     band: band.key,
     score,
-    timeMs: sessionStartTime ? Date.now() - sessionStartTime : null,
+    timeMs,
     passedQuestions: score,
     exitFilter: band.key,
     pathway: null,
@@ -1531,6 +2059,16 @@ function showResults() {
   };
   postEvent('quiz_completed', null, currentSession);
 
+  // Time display
+  if (timeMs) {
+    const mins = Math.floor(timeMs / 60000);
+    const secs = Math.floor((timeMs % 60000) / 1000);
+    const timeStr = mins > 0 ? `${mins} min ${secs} sec` : `${secs} seconds`;
+    document.getElementById('results-time').textContent =
+      `You spent ${timeStr}. Most people quit at 3 minutes.`;
+  }
+
+  try { localStorage.removeItem('trust_quiz_v1'); } catch {}
   showScreen('results-screen');
 }
 
