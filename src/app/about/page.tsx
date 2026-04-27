@@ -89,6 +89,25 @@ export default function AboutPage() {
         <hr className="border-border-medium" />
       </SectionWrapper>
 
+      {/* ── At a Glance ── */}
+      <SectionWrapper className="bg-cream py-10 lg:py-14">
+        <div className="max-w-[var(--max-width-reading)]">
+          <Eyebrow>AT A GLANCE</Eyebrow>
+          <ul className="mt-6 space-y-2 text-[15px] leading-relaxed text-text-secondary list-disc pl-5">
+            <li>LinkedIn Top Voice 2024 &amp; 2025</li>
+            <li>25 years in cross-border Canada-US financial services (telecommunications, mutual funds, insurance, banking)</li>
+            <li>Featured in CBC, Maclean&rsquo;s, and The Canadian Press</li>
+            <li>Panelist at Elevate TechFest</li>
+            <li>Host of the Hope + Possibilities podcast &mdash; 100+ episodes, Goodpods Top 10 Leadership</li>
+          </ul>
+        </div>
+      </SectionWrapper>
+
+      {/* ── Divider ── */}
+      <SectionWrapper className="bg-cream py-0">
+        <hr className="border-border-medium" />
+      </SectionWrapper>
+
       {/* ── The Story ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <div className="max-w-[var(--max-width-reading)]">
@@ -269,26 +288,9 @@ export default function AboutPage() {
             </p>
 
             <p>
-              The degree gave me the method. The people gave me the material. Living in both worlds gave me the range. The Assumption-Ground Audit is what happened when all three finally met. It turns out it wasn&rsquo;t a detour. It just took a while to find the work it was built for.
+              The degree gave me the method. The people gave me the material. Living in both worlds gave me the range. <Link href="/aga" className="font-medium text-pink hover:underline">The Assumption-Ground Audit</Link> is what happened when all three finally met. It turns out it wasn&rsquo;t a detour. It just took a while to find the work it was built for.
             </p>
           </div>
-
-          <ul className="mt-6 space-y-2 text-[15px] leading-relaxed text-text-secondary list-disc pl-5">
-            <li>25 years across five large, complex organizations in customer service, account management, sales, training, and peer mentorship</li>
-            <li>Telecommunications, mutual funds, insurance, cross-border financial services, and banking</li>
-            <li>Influenced without hierarchical authority. Managed up. Stayed in the rooms where assumptions hardened into policy.</li>
-            <li>Led employee resource groups, coordinated employee engagement alongside HR, senior leaders, and communications teams</li>
-            <li>Award-winning work in teamwork and strategic thinking</li>
-            <li>LinkedIn Top Voice 2024 &amp; 2025</li>
-            <li>Panelist at Elevate TechFest and enterprise events across North America</li>
-            <li>Host of the Hope + Possibilities podcast (100+ episodes) — Goodpods Top 100 Leadership Indie Podcast</li>
-            <li>Newsletter: Signal Over Noise &mdash; trust, leadership, and the future of work</li>
-            <li>Trusted advisor to leaders and transformation teams</li>
-            <li>
-              Featured in CBC, CTV, Maclean&rsquo;s, The Canadian Press, and
-              other major media outlets
-            </li>
-          </ul>
 
           <div className="mt-8 flex flex-wrap items-start gap-8">
             <LinkedInTopVoice variant="compact" />
