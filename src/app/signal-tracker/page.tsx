@@ -58,7 +58,7 @@ export default function SignalTrackerPage() {
           </p>
           <div style={{ maxWidth: "58ch", borderTop: "1px solid rgba(255,255,255,0.08)", paddingTop: "2rem" }}>
             <p style={{ ...sans, fontSize: "1rem", color: "rgba(255,255,255,0.7)", lineHeight: 1.8, margin: "0 0 1.1rem 0" }}>
-              A running record of what I'm watching before it becomes obvious.
+              Periodic snapshots of what I'm watching before it becomes obvious.
             </p>
             <p style={{ ...sans, fontSize: "1rem", color: "rgba(255,255,255,0.7)", lineHeight: 1.8, margin: "0 0 1.1rem 0" }}>
               Signals are patterns at the edge. By the time something is a trend, the window for a different choice has usually closed.
