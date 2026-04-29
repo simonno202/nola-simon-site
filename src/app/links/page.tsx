@@ -79,6 +79,7 @@ const socialLinks = [
 
 const siteLinks = [
   { label: "Website", href: "https://nolasimon.com" },
+  { label: "Signal Tracker — A Rabbit Hole in Plain Sight", href: "https://nolasimon.com/signal-tracker" },
   { label: "Advisory & Speaking", href: "https://nolasimon.com/advisory-speaking" },
   { label: "The Assumption-Ground Audit", href: "https://nolasimon.com/aga" },
   { label: "Podcast Episodes", href: "https://nolasimon.com/podcast" },
