@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Nola Simon | Everyday Futurism",
   description:
     "Futurist and researcher. The future isn't predicted — it's practiced. Self-trust, signal reading, and intentional moves.",
+  alternates: {
+    canonical: "https://nolasimon.com",
+  },
 };
 
 export default function HomePage() {
@@ -30,6 +33,11 @@ export default function HomePage() {
               <br />
               It&rsquo;s practiced.
             </h1>
+
+            <p className="mt-4 text-[15px] font-medium text-navy max-w-xl">
+              I&rsquo;m Nola Simon &mdash; a Canadian strategic futurist and
+              researcher based in Ontario.
+            </p>
 
             <p className="mt-4 text-[16px] leading-relaxed text-text-secondary max-w-xl">
               Historians study what already happened. Futurists project

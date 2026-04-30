@@ -2,24 +2,39 @@ export function PersonSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://nolasimon.com/#nola-simon",
     name: "Nola Simon",
     url: "https://nolasimon.com",
     image: "https://nolasimon.com/images/nola-hero.jpg",
-    jobTitle: "Keynote Speaker & Strategic Advisor",
+    jobTitle: "Keynote Speaker & Strategic Futurist",
     description:
-      "Keynote speaker and strategic futurist based in Ontario, Canada. Nola Simon helps executive teams surface assumptions before decisions calcify — on the future of work and organizational trust.",
+      "Nola Simon is a Canadian strategic futurist and researcher based in Ontario. She helps leaders and organizations surface assumptions before decisions calcify — on the future of work and organizational trust.",
+    nationality: {
+      "@type": "Country",
+      name: "Canada",
+    },
     address: {
       "@type": "PostalAddress",
       addressRegion: "Ontario",
       addressCountry: "CA",
     },
+    alumniOf: {
+      "@type": "CollegeOrUniversity",
+      name: "Glendon College, York University",
+    },
     areaServed: [
-      { "@type": "State", name: "Ontario" },
       { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "United States" },
+      "International upon request",
     ],
     sameAs: [
       "https://www.linkedin.com/in/nolasimon/",
       "https://nolasimonhrcoe.substack.com",
+      "https://www.threads.net/@nolasimonsayings",
+      "https://www.instagram.com/nolasimonsayings/",
+      "https://www.tiktok.com/@nolasimonsayings",
+      "https://x.com/nolasimontjo",
+      "https://ca.pinterest.com/EverydayFuturism/",
       "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
       "https://podcasts.apple.com/us/podcast/id1602822494",
     ],
@@ -258,8 +273,9 @@ export function SpeakerSchema() {
       addressCountry: "CA",
     },
     areaServed: [
-      { "@type": "State", name: "Ontario" },
       { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "United States" },
+      "International upon request",
     ],
     knowsAbout: [
       "Future of Work",

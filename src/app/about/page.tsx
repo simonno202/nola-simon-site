@@ -10,7 +10,7 @@ import { DiscoveryCTA } from "@/components/ui/DiscoveryCTA";
 import { Testimonials } from "@/components/ui/Testimonials";
 
 export const metadata: Metadata = {
-  title: "About — Nola Simon | Everyday Futurism",
+  title: "About",
   description:
     "I live my life like a Choose Your Own Adventure novel. Strategic futurist, speaker, podcast host.",
   alternates: {

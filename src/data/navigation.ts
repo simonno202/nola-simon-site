@@ -14,6 +14,11 @@ export const SOCIAL_LINKS = {
   substack: "https://nolasimonhrcoe.substack.com/",
   apple: "https://podcasts.apple.com/us/podcast/id1602822494?mt=2&ls=1",
   spotify: "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
+  threads: "https://www.threads.net/@nolasimonsayings",
+  instagram: "https://www.instagram.com/nolasimonsayings/",
+  tiktok: "https://www.tiktok.com/@nolasimonsayings",
+  pinterest: "https://ca.pinterest.com/EverydayFuturism/",
+  x: "https://x.com/nolasimontjo",
 } as const;
 
 export const CTA_LINK = "https://tidycal.com/nola/intro-consultation-nola-simon";
