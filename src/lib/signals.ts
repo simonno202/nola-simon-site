@@ -117,6 +117,18 @@ export const signals: Signal[] = [
     relatedTo: ["embodiment-gap", "physical-presence", "inclusion-inversion", "futures-methodology", "credential-compression"],
   },
   {
+    id: "verbal-ai-wfh-accountability",
+    date: "April 2026",
+    status: "active",
+    signal: "Verbal AI tools (transcription, dictation, meeting summarization) work better in quiet home environments — potentially driving higher WFH rates",
+    origin: "Nick Bloom, Stanford Professor, LinkedIn post — April 29, 2026. Via Palladio AI CEO David Purdy.",
+    evidence: "Bloom cites a Bay Area AI company that values WFH specifically because AI verbal engagement requires low background noise. Transcription, dictation, calls, and discussions can be summarized and queried in AI — hard in open offices, easy on video or while commuting.",
+    read: "The productivity frame is the decoy. The real assumption underneath: that AI capture is neutral and universal. It isn't. Who controls what gets recorded, summarized, and surfaced — and who quietly opts out — is a power question, not a productivity question.",
+    tension: "Organizations mandating RTO may be actively working against their own AI investment. The assumption that presence equals productivity collides with the assumption that AI tools are environment-agnostic.",
+    question: "The ultimate perk is who gets to avoid the recording and the accountability.",
+    relatedTo: ["witnessed-trust", "assumption-ground-audit"],
+  },
+  {
     id: "surveillance-trust",
     date: "April 2026",
     status: "active",
