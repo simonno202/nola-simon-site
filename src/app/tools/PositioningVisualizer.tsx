@@ -292,7 +292,7 @@ function MapView() {
       }}>
         {active === 'witnessed-trust' ? (
           <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
-            <strong style={{ color: C.dark }}>Witnessed Trust —</strong>{' '}The diagnostic framework that runs underneath the AGA. Trust isn&rsquo;t declared — it&rsquo;s built from what people have actually seen. What surfaces in an AGA depends entirely on whether people feel safe saying &ldquo;I don&rsquo;t know why we believe that.&rdquo; That&rsquo;s not separable from the relationship, which is why this work can&rsquo;t be fully automated or templated.
+            <strong style={{ color: C.dark }}>Witnessed Trust —</strong>{' '}The diagnostic framework that runs underneath the AGA. Trust isn&rsquo;t declared — you extend it first, and what people witness determines whether it comes back. What surfaces in an AGA depends entirely on whether people feel safe saying &ldquo;I don&rsquo;t know why we believe that.&rdquo; That&rsquo;s not separable from the relationship, which is why this work can&rsquo;t be fully automated or templated.
           </p>
         ) : activeField ? (
           <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
