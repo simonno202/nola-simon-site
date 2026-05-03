@@ -136,7 +136,7 @@ function AGAView() {
           The AGA doesn&rsquo;t decide the direction. It clears the ground so the organization can decide well.
         </p>
         <p style={{ margin: 0, fontFamily: mono, fontSize: 9, letterSpacing: '0.05em', color: '#bbb', lineHeight: 1.8 }}>
-          Witnessed Trust runs underneath all four movements — how trust is built in the room shapes what surfaces.
+          Witnessed Trust runs underneath all four movements — what people have witnessed in the room shapes what surfaces.
         </p>
       </div>
 
