@@ -7,6 +7,7 @@ export const NAV_ITEMS = [
   { label: "Podcast", href: "/podcast" },
   { label: "Writing", href: "/blog" },
   { label: "Newsletter", href: "/newsletter" },
+  { label: "Tools", href: "/tools" },
 ] as const;
 
 export const SOCIAL_LINKS = {

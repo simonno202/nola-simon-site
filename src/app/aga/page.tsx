@@ -67,6 +67,7 @@ const furtherReading = [
   { title: "Witnessed Trust — A Case Study", href: "/blog/witnessed-trust-case-study" },
   { title: "What, Like It's Hard? Ben Affleck, Reese Witherspoon, and Who Gets to Be Trusted in the Age of AI", href: "/blog/ben-affleck-reese-witherspoon-trust-receipts" },
   { title: "The Rabbit Hole", href: "/blog/the-rabbit-hole" },
+  { title: "Pre-adoption tools", href: "/tools" },
 ];
 
 const faqs = [
@@ -760,6 +761,11 @@ export default function AGAPage() {
             <p style={{ marginTop: "16px" }}>
               <a href="/why" className="aga-inline-link">
                 Why you. Why now. Why at all. →
+              </a>
+            </p>
+            <p style={{ marginTop: "12px" }}>
+              <a href="/tools" className="aga-inline-link">
+                Not sure where to start? Try the pre-adoption tools first. →
               </a>
             </p>
           </div>

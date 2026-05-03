@@ -204,6 +204,26 @@ export default function HomePage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Tools Block ── */}
+      <SectionWrapper className="bg-cream py-10 lg:py-16 border-t border-navy/10">
+        <div className="max-w-3xl">
+          <Eyebrow>FREE TOOLS</Eyebrow>
+          <h2 className="text-2xl font-semibold text-navy mt-4">
+            Tools for the moment before the decision.
+          </h2>
+          <p className="mt-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+            Before the direction is set. Before the assumption hardens into
+            policy. Free instruments for the pre-adoption stage of change —
+            the window that closes faster than most organizations realize.
+          </p>
+          <div className="mt-6">
+            <Button href="/tools" variant="secondary">
+              See all tools →
+            </Button>
+          </div>
+        </div>
+      </SectionWrapper>
+
       {/* ── AGA Block ── */}
       <SectionWrapper className="bg-[#0a0a0a] py-12 lg:py-20">
         <div className="max-w-3xl">
