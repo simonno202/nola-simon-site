@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import CollapsibleVisualizer from "../tools/CollapsibleVisualizer";
 
 export const metadata: Metadata = {
   title: "Links",
@@ -239,6 +240,11 @@ export default function LinksPage() {
               </a>
             ))}
           </div>
+        </div>
+
+        {/* ── Visualizer ── */}
+        <div className="mt-10">
+          <CollapsibleVisualizer dark />
         </div>
 
         {/* ── Footer ── */}

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import CollapsibleVisualizer from "../tools/CollapsibleVisualizer";
 
 export const metadata: Metadata = {
   title: "Assumption-Ground Audit — Nola Simon | Everyday Futurism",
@@ -951,6 +952,11 @@ export default function AGAPage() {
             </p>
           </div>
         </section>
+
+        {/* ── POSITIONING VISUALIZER ── */}
+        <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 32px' }}>
+          <CollapsibleVisualizer />
+        </div>
 
         {/* ── HOW IT WORKS ── */}
         <section className="aga-section">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import CollapsibleVisualizer from "./CollapsibleVisualizer";
 
 export const metadata: Metadata = {
   title: "Tools — Nola Simon",
@@ -306,6 +307,11 @@ export default function ToolsPage() {
             answer surprises you.
           </p>
         </div>
+      </div>
+
+      {/* ── VISUALIZER ── */}
+      <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 32px', borderBottom: '1px solid #ebebeb' }}>
+        <CollapsibleVisualizer />
       </div>
 
       {/* ── TOOL LISTINGS ── */}
