@@ -88,6 +88,22 @@ const PAGES: Record<string, LivingLabPageData> = {
               can&rsquo;t see it operating. That&rsquo;s what unexamined
               assumptions do.
             </p>
+            <blockquote>
+              <p>
+                <strong>Nola:</strong> &ldquo;Sometimes they&rsquo;re
+                gaslighting themselves and gaslighting other people instead of
+                being courageous enough to go, &lsquo;Yeah, I was really upset
+                when they disagreed with me publicly in front of my boss, and so
+                I did do this.&rsquo;&rdquo;
+              </p>
+              <p>
+                <strong>Sarah:</strong> &ldquo;Yeah, exactly &mdash; and then
+                they play dumb and say, &lsquo;That&rsquo;s not what
+                happened,&rsquo; or &lsquo;That&rsquo;s not what it was
+                intended.&rsquo; I think you&rsquo;re reading into it. And then
+                it becomes this corporate gaslighting.&rdquo;
+              </p>
+            </blockquote>
           </>
         ),
       },
@@ -168,6 +184,17 @@ const PAGES: Record<string, LivingLabPageData> = {
               </em>{" "}
               &mdash; never has to be stated aloud.
             </p>
+            <blockquote>
+              <p>
+                <strong>Sarah:</strong> &ldquo;The people who are best at
+                retaliation &mdash; is using policy. Policy as a battleground
+                basically&hellip; there was a policy that if you&rsquo;re at a
+                certain dollar value, the manager actually had veto power about
+                whether you actually get that reward or recognition. So
+                that&rsquo;s where policy and a sequence of policies can
+                actually be used in a method that&rsquo;s retaliatory.&rdquo;
+              </p>
+            </blockquote>
             <p>
               Sarah and I had this conversation before any of the litigation
               that&rsquo;s now making this visible.{" "}
@@ -316,17 +343,29 @@ const PAGES: Record<string, LivingLabPageData> = {
                 we mean by what we say.&rdquo;
               </em>
             </p>
-            <p>
-              Leslie backed her up. Confirmed it was real. Said I was a people
-              lover, a profound one, and that was the engine underneath the
-              listening.
-            </p>
+            <blockquote>
+              <p>
+                <strong>Leslie:</strong> &ldquo;You&rsquo;re a people lover.
+                You&rsquo;re a profound people lover. And I think that&rsquo;s
+                always at the heart of it &mdash; if you genuinely love and care
+                about other humans, you pay attention.&rdquo;
+              </p>
+            </blockquote>
             <p>
               Erica kept going. She talked about how I use social media &mdash;
               not as a broadcast, but as the beginning of a conversation. That I
               introduce people. That I show up. That this is what social media
               was actually designed for and almost nobody uses it that way.
             </p>
+            <blockquote>
+              <p>
+                <strong>Erica:</strong> &ldquo;Social media is not a push.
+                It&rsquo;s the beginning of a conversation. Every single thing
+                that you post should be with an intent to have a conversation,
+                to get feedback or to build a relationship in some way. I feel
+                that you do that.&rdquo;
+              </p>
+            </blockquote>
             <p>
               I did something I don&rsquo;t always do. I stopped and took the
               compliment. Out loud. On record.{" "}
@@ -535,6 +574,18 @@ const PAGES: Record<string, LivingLabPageData> = {
               her from sources she hadn&rsquo;t consciously managed for that
               purpose.
             </p>
+            <blockquote>
+              <p>
+                <strong>Nola:</strong> &ldquo;Just before we started recording
+                I looked her up on ChatGPT. It said: Cher Jones is a Canadian
+                social media trainer, personal branding expert, and keynote
+                speaker known for her expertise in helping individuals and
+                organizations improve their online presence. Almost perfect.
+                Then I asked it about me. It said: I&rsquo;m sorry, but I
+                don&rsquo;t have any specific information about an individual
+                named Nola Simon in my database.&rdquo;
+              </p>
+            </blockquote>
             <p>Then I looked myself up. Nothing. I didn&rsquo;t exist.</p>
             <p>
               At the time, I&rsquo;d been active on LinkedIn since 2016, visible
@@ -557,6 +608,18 @@ const PAGES: Record<string, LivingLabPageData> = {
               other credible sources have already decided you&rsquo;re worth
               knowing about.
             </p>
+            <blockquote>
+              <p>
+                <strong>Cher:</strong> &ldquo;It&rsquo;s looking for what it
+                would designate as a reliable source. You put content out there
+                &mdash; but then where else do you show up that someone else has
+                verified or validated your credibility? I think about the amount
+                of stages I&rsquo;ve been on over the last eight, ten years. And
+                the media stuff where I&rsquo;ve been mentioned and quoted in
+                articles. I would assume that&rsquo;s what it&rsquo;s drawing
+                from.&rdquo;
+              </p>
+            </blockquote>
             <p>
               The assumption underneath most personal branding work:{" "}
               <em>if I put it out there, it counts.</em> It counts for some
