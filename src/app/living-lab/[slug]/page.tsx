@@ -207,6 +207,15 @@ const PAGES: Record<string, LivingLabPageData> = {
         body: (
           <>
             <p>
+              <a
+                href="https://podcasts.apple.com/us/podcast/retaliation-at-work-sarah-noll-wilson/id1602822494?i=1000609154964"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Listen to the full episode on Apple Podcasts &rarr;
+              </a>
+            </p>
+            <p>
               If this conversation is landing for you &mdash; if you&rsquo;re
               recognizing an assumption that&rsquo;s been running in your
               organization without anyone naming it &mdash; that&rsquo;s the
@@ -451,12 +460,23 @@ const PAGES: Record<string, LivingLabPageData> = {
       {
         heading: "If you want to go deeper",
         body: (
-          <p>
-            If you lead people and you&rsquo;ve been trained in how to receive
-            feedback but haven&rsquo;t examined what you believe about what
-            you&rsquo;ll hear &mdash; that gap is worth looking at. The{" "}
-            <Link href="/aga">Assumption-Ground Audit</Link> starts there.
-          </p>
+          <>
+            <p>
+              <a
+                href="https://podcasts.apple.com/us/podcast/ehm2-legacy-reinvention-and-the-power-of-speech/id1602822494?i=1000604193943"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Listen to the full episode on Apple Podcasts &rarr;
+              </a>
+            </p>
+            <p>
+              If you lead people and you&rsquo;ve been trained in how to receive
+              feedback but haven&rsquo;t examined what you believe about what
+              you&rsquo;ll hear &mdash; that gap is worth looking at. The{" "}
+              <Link href="/aga">Assumption-Ground Audit</Link> starts there.
+            </p>
+          </>
         ),
       },
     ],
@@ -652,15 +672,26 @@ const PAGES: Record<string, LivingLabPageData> = {
       {
         heading: "If you want to go deeper",
         body: (
-          <p>
-            If you&rsquo;re a leader who hasn&rsquo;t thought about what AI says
-            about you when your name comes up &mdash; or an organization that
-            hasn&rsquo;t asked what assumptions your external record is creating
-            &mdash; that&rsquo;s an assumption worth looking at before it
-            hardens. The{" "}
-            <Link href="/aga">Assumption-Ground Audit</Link> is where that work
-            begins.
-          </p>
+          <>
+            <p>
+              <a
+                href="https://podcasts.apple.com/us/podcast/cher-jones-your-brand-at-work/id1602822494?i=1000627296750"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Listen to the full episode on Apple Podcasts &rarr;
+              </a>
+            </p>
+            <p>
+              If you&rsquo;re a leader who hasn&rsquo;t thought about what AI
+              says about you when your name comes up &mdash; or an organization
+              that hasn&rsquo;t asked what assumptions your external record is
+              creating &mdash; that&rsquo;s an assumption worth looking at
+              before it hardens. The{" "}
+              <Link href="/aga">Assumption-Ground Audit</Link> is where that
+              work begins.
+            </p>
+          </>
         ),
       },
     ],
