@@ -15,14 +15,12 @@ export const metadata: Metadata = {
     title: "Tools — Nola Simon | Everyday Futurism",
     description:
       "Free instruments for the pre-adoption stage of change. Built for the moment before the direction is set — before the assumption becomes load-bearing.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Tools — Nola Simon | Everyday Futurism",
     description:
       "Free instruments for the pre-adoption stage of change. Built for the moment before the direction is set — before the assumption becomes load-bearing.",
-    images: ["/og-image.jpg"],
   },
 };
 
