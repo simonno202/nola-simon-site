@@ -14,14 +14,12 @@ export const metadata: Metadata = {
     title: "The Trust Signal Quiz — Can You Actually Read a Trust Signal?",
     description:
       "Most trust signals are cooperatively produced. Almost nobody notices. 18 questions, ~6 minutes, 3 outcomes — find out where your filters actually sit.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Trust Signal Quiz",
     description:
       "18 questions to find out where your trust filters actually sit. For leaders, hiring managers, investors, and journalists.",
-    images: ["/og-image.jpg"],
   },
 };
 
