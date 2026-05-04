@@ -322,13 +322,13 @@ function MapView() {
         ))}
 
         {/* AGA — center */}
-        <rect x={154} y={122} width={92} height={56}
+        <rect x={142} y={119} width={116} height={62}
           fill={C.tealBg} stroke={C.teal} strokeWidth={1.5} rx={3}
         />
-        <text x={200} y={137} textAnchor="middle" fontSize={6.5} fontFamily={mono} letterSpacing={1.5} fill={C.teal}>METHODOLOGY</text>
-        <text x={200} y={151} textAnchor="middle" fontSize={9.5} fontFamily={sans} fontWeight={700} fill={C.teal}>Assumption-Ground</text>
-        <text x={200} y={163} textAnchor="middle" fontSize={9.5} fontFamily={sans} fontWeight={700} fill={C.teal}>Audit</text>
-        <text x={200} y={174} textAnchor="middle" fontSize={6.5} fontFamily={mono} letterSpacing={0.5} fill="#6b7280">spans all quadrants</text>
+        <text x={200} y={133} textAnchor="middle" fontSize={6.5} fontFamily={mono} letterSpacing={1.5} fill={C.teal}>METHODOLOGY</text>
+        <text x={200} y={148} textAnchor="middle" fontSize={9} fontFamily={sans} fontWeight={700} fill={C.teal}>Assumption-Ground</text>
+        <text x={200} y={160} textAnchor="middle" fontSize={9} fontFamily={sans} fontWeight={700} fill={C.teal}>Audit</text>
+        <text x={200} y={173} textAnchor="middle" fontSize={6.5} fontFamily={mono} letterSpacing={0.5} fill="#6b7280">spans all quadrants</text>
       </svg>
 
       {/* Description panel */}
