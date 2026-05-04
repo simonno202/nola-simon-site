@@ -86,6 +86,11 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      {
+        source: '/trust-signal-quiz.html',
+        destination: '/trust-signal-quiz',
+        permanent: true,
+      },
     ];
   },
 };
