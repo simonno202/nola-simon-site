@@ -74,6 +74,16 @@ function AGAView() {
         @media (max-width: 380px) {
           .aga-grid { grid-template-columns: 1fr; }
         }
+        /* Desktop: show row layout; mobile: hide it */
+        .aga-rows { display: block; }
+        .aga-cards { display: none; }
+        @media (max-width: 640px) {
+          .aga-rows { display: none; }
+          .aga-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        }
+        @media (max-width: 380px) {
+          .aga-cards { grid-template-columns: 1fr; }
+        }
       `}</style>
 
       {/* Plain language intro */}
@@ -84,48 +94,52 @@ function AGAView() {
         </p>
       </div>
 
-      {/* Movement names row */}
-      <div className="aga-grid" style={{ marginBottom: 6 }}>
-        {movements.map(m => (
-          <div key={m.num} style={{
-            border: `1px solid ${C.pinkBorder}`,
-            borderRadius: 4,
-            padding: '14px 14px',
-            background: C.pinkBg,
-          }}>
-            <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', color: '#bbb', marginBottom: 6 }}>{m.num}</div>
-            <div style={{ fontFamily: sans, fontSize: 15, fontWeight: 700, color: C.pink, lineHeight: 1.2, marginBottom: 5 }}>{m.name}</div>
-            <div style={{ fontFamily: mono, fontSize: 9, letterSpacing: '0.06em', color: '#aaa', lineHeight: 1.5 }}>{m.sub}</div>
-          </div>
-        ))}
+      {/* Desktop: three separate rows */}
+      <div className="aga-rows">
+        <div className="aga-grid" style={{ marginBottom: 6 }}>
+          {movements.map(m => (
+            <div key={m.num} style={{ border: `1px solid ${C.pinkBorder}`, borderRadius: 4, padding: '14px 14px', background: C.pinkBg }}>
+              <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', color: '#bbb', marginBottom: 6 }}>{m.num}</div>
+              <div style={{ fontFamily: sans, fontSize: 15, fontWeight: 700, color: C.pink, lineHeight: 1.2, marginBottom: 5 }}>{m.name}</div>
+              <div style={{ fontFamily: mono, fontSize: 9, letterSpacing: '0.06em', color: '#aaa', lineHeight: 1.5 }}>{m.sub}</div>
+            </div>
+          ))}
+        </div>
+        <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#bbb', margin: '14px 0 6px' }}>What you do</div>
+        <div className="aga-grid" style={{ marginBottom: 6 }}>
+          {movements.map(m => (
+            <div key={m.num} style={{ border: '1px solid #e5e7eb', borderRadius: 4, padding: '12px 14px', background: '#fff' }}>
+              <p style={{ margin: 0, fontFamily: sans, fontSize: 12, lineHeight: 1.7, color: '#555' }}>{m.does}</p>
+            </div>
+          ))}
+        </div>
+        <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#bbb', margin: '14px 0 6px' }}>What it produces</div>
+        <div className="aga-grid">
+          {movements.map(m => (
+            <div key={m.num} style={{ border: `1px solid ${C.tealBorder}`, borderRadius: 4, padding: '12px 14px', background: C.tealBg }}>
+              <p style={{ margin: 0, fontFamily: sans, fontSize: 12, fontWeight: 600, lineHeight: 1.7, color: C.teal }}>{m.produces}</p>
+            </div>
+          ))}
+        </div>
       </div>
 
-      {/* What you do row */}
-      <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#bbb', margin: '14px 0 6px' }}>What you do</div>
-      <div className="aga-grid" style={{ marginBottom: 6 }}>
+      {/* Mobile: one card per movement */}
+      <div className="aga-cards">
         {movements.map(m => (
-          <div key={m.num} style={{
-            border: '1px solid #e5e7eb',
-            borderRadius: 4,
-            padding: '12px 14px',
-            background: '#fff',
-          }}>
-            <p style={{ margin: 0, fontFamily: sans, fontSize: 12, lineHeight: 1.7, color: '#555' }}>{m.does}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* What it produces row */}
-      <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#bbb', margin: '14px 0 6px' }}>What it produces</div>
-      <div className="aga-grid">
-        {movements.map(m => (
-          <div key={m.num} style={{
-            border: `1px solid ${C.tealBorder}`,
-            borderRadius: 4,
-            padding: '12px 14px',
-            background: C.tealBg,
-          }}>
-            <p style={{ margin: 0, fontFamily: sans, fontSize: 12, fontWeight: 600, lineHeight: 1.7, color: C.teal }}>{m.produces}</p>
+          <div key={m.num} style={{ border: `1px solid ${C.pinkBorder}`, borderRadius: 4, overflow: 'hidden' }}>
+            <div style={{ padding: '12px 14px', background: C.pinkBg }}>
+              <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', color: '#bbb', marginBottom: 4 }}>{m.num}</div>
+              <div style={{ fontFamily: sans, fontSize: 14, fontWeight: 700, color: C.pink, lineHeight: 1.2, marginBottom: 3 }}>{m.name}</div>
+              <div style={{ fontFamily: mono, fontSize: 9, letterSpacing: '0.06em', color: '#aaa' }}>{m.sub}</div>
+            </div>
+            <div style={{ padding: '10px 14px', background: '#fff', borderTop: '1px solid #e5e7eb' }}>
+              <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#ccc', marginBottom: 4 }}>You do</div>
+              <p style={{ margin: 0, fontFamily: sans, fontSize: 12, lineHeight: 1.65, color: '#555' }}>{m.does}</p>
+            </div>
+            <div style={{ padding: '10px 14px', background: C.tealBg, borderTop: `1px solid ${C.tealBorder}` }}>
+              <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.14em', textTransform: 'uppercase', color: C.teal, opacity: 0.6, marginBottom: 4 }}>Produces</div>
+              <p style={{ margin: 0, fontFamily: sans, fontSize: 12, fontWeight: 600, lineHeight: 1.65, color: C.teal }}>{m.produces}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -194,9 +208,17 @@ const adjacentFields = [
   { id: 'od',         label: 'Org. Development',     left: 84, top: 74, desc: 'Improves how an organization functions now — systems, culture, process, and team effectiveness. Works with what\'s already in motion, post-decision.' },
 ]
 
+const witnessedTrustDesc = 'The diagnostic framework that runs underneath the AGA. Trust isn’t declared — you extend it first, and what people witness determines whether it comes back. What surfaces in an AGA depends entirely on whether people feel safe saying “I don’t know why we believe that.” That’s not separable from the relationship, which is why this work can’t be fully automated or templated.'
+
 function MapView() {
   const [active, setActive] = useState<string | null>(null)
   const activeField = adjacentFields.find(f => f.id === active)
+
+  const descText = active === 'witnessed-trust'
+    ? witnessedTrustDesc
+    : activeField
+      ? `${activeField.desc} The AGA works in the seam before any of this fully engages.`
+      : null
 
   return (
     <div>
@@ -223,90 +245,147 @@ function MapView() {
           border-color: ${C.gray};
           color: ${C.dark};
         }
+        .map-quadrant-wrap { display: block; }
+        .map-list-wrap { display: none; }
+        @media (max-width: 480px) {
+          .map-quadrant-wrap { display: none; }
+          .map-list-wrap { display: block; }
+        }
       `}</style>
 
-      {/* Quadrant — scrollable on small screens */}
-      <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
-      <div style={{ position: 'relative', width: '100%', minWidth: 480, aspectRatio: '4 / 3', background: '#fafafa', border: '1px solid #e5e7eb', borderRadius: 4, overflow: 'hidden' }}>
-        <div style={{ position: 'absolute', top: '50%', left: '8%', right: '8%', height: 1, background: '#e5e7eb' }} />
-        <div style={{ position: 'absolute', left: '50%', top: '8%', bottom: '8%', width: 1, background: '#e5e7eb' }} />
+      {/* ── DESKTOP: quadrant map ── */}
+      <div className="map-quadrant-wrap">
+        <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+          <div style={{ position: 'relative', width: '100%', minWidth: 480, aspectRatio: '4 / 3', background: '#fafafa', border: '1px solid #e5e7eb', borderRadius: 4, overflow: 'hidden' }}>
+            <div style={{ position: 'absolute', top: '50%', left: '8%', right: '8%', height: 1, background: '#e5e7eb' }} />
+            <div style={{ position: 'absolute', left: '50%', top: '8%', bottom: '8%', width: 1, background: '#e5e7eb' }} />
 
-        {/* Axis labels */}
-        <div style={{ position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8' }}>Future</div>
-        <div style={{ position: 'absolute', bottom: 10, left: '50%', transform: 'translateX(-50%)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8' }}>Present</div>
-        <div style={{ position: 'absolute', left: 8, top: '50%', transform: 'translateY(-50%) rotate(-90deg)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8', whiteSpace: 'nowrap' }}>Individual</div>
-        <div style={{ position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%) rotate(90deg)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8', whiteSpace: 'nowrap' }}>Organizational</div>
+            <div style={{ position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8' }}>Future</div>
+            <div style={{ position: 'absolute', bottom: 10, left: '50%', transform: 'translateX(-50%)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8' }}>Present</div>
+            <div style={{ position: 'absolute', left: 8, top: '50%', transform: 'translateY(-50%) rotate(-90deg)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8', whiteSpace: 'nowrap' }}>Individual</div>
+            <div style={{ position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%) rotate(90deg)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8', whiteSpace: 'nowrap' }}>Organizational</div>
+            <div style={{ position: 'absolute', top: 9, left: 14, fontFamily: mono, fontSize: 8, letterSpacing: '0.12em', textTransform: 'uppercase', color: C.teal, opacity: 0.65 }}>Everyday Futurism</div>
 
-        {/* Everyday Futurism label */}
-        <div style={{ position: 'absolute', top: 9, left: 14, fontFamily: mono, fontSize: 8, letterSpacing: '0.12em', textTransform: 'uppercase', color: C.teal, opacity: 0.65 }}>Everyday Futurism</div>
+            <button
+              onClick={() => setActive(active === 'witnessed-trust' ? null : 'witnessed-trust')}
+              style={{
+                position: 'absolute', right: '3%', top: '6%',
+                background: active === 'witnessed-trust' ? '#fef3c7' : C.yellowBg,
+                border: `1px solid ${active === 'witnessed-trust' ? '#f59e0b' : C.yellowBorder}`,
+                borderRadius: 3, padding: '5px 10px',
+                fontFamily: mono, fontSize: 8, letterSpacing: '0.07em', color: '#92400e', lineHeight: 1.6,
+                cursor: 'pointer', textAlign: 'left',
+              }}
+            >
+              Witnessed Trust<br />
+              <span style={{ color: '#b45309', opacity: 0.7, fontSize: 7 }}>diagnostic layer</span>
+            </button>
 
-        {/* Witnessed Trust — clickable */}
+            {adjacentFields.map(field => (
+              <button
+                key={field.id}
+                className={`viz-field-btn${active === field.id ? ' active' : ''}`}
+                style={{ left: `${field.left}%`, top: `${field.top}%` }}
+                onClick={() => setActive(active === field.id ? null : field.id)}
+              >
+                {field.label}
+              </button>
+            ))}
+
+            <div style={{
+              position: 'absolute', left: '50%', top: '50%',
+              transform: 'translate(-50%, -50%)',
+              background: C.tealBg, border: `2px solid ${C.teal}`,
+              borderRadius: 4, padding: '12px 18px',
+              textAlign: 'center', zIndex: 10, minWidth: 130,
+            }}>
+              <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.16em', textTransform: 'uppercase', color: C.teal, marginBottom: 5 }}>Methodology</div>
+              <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 12, color: C.teal, lineHeight: 1.3 }}>Assumption-Ground<br />Audit</div>
+              <div style={{ fontFamily: mono, fontSize: 7, color: '#6b7280', marginTop: 6, letterSpacing: '0.06em' }}>spans all quadrants</div>
+            </div>
+          </div>
+        </div>
+
+        <div style={{
+          marginTop: 10, minHeight: 52, padding: '12px 14px',
+          background: descText ? C.grayBg : 'transparent',
+          border: descText ? '1px solid #e5e7eb' : '1px solid transparent',
+          borderRadius: 3, transition: 'all 0.2s',
+        }}>
+          {descText ? (
+            <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
+              {active !== 'witnessed-trust' && activeField && <strong style={{ color: C.dark }}>{activeField.label} — </strong>}
+              {active === 'witnessed-trust' && <strong style={{ color: C.dark }}>Witnessed Trust — </strong>}
+              {descText}
+            </p>
+          ) : (
+            <p style={{ margin: 0, fontFamily: mono, fontSize: 9, letterSpacing: '0.08em', color: '#6b7280' }}>
+              ← select a discipline to see where it hands off
+            </p>
+          )}
+        </div>
+      </div>
+
+      {/* ── MOBILE: stacked list ── */}
+      <div className="map-list-wrap">
+        {/* AGA anchor */}
+        <div style={{ border: `2px solid ${C.teal}`, borderRadius: 4, padding: '14px 16px', background: C.tealBg, marginBottom: 12, textAlign: 'center' }}>
+          <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.16em', textTransform: 'uppercase', color: C.teal, marginBottom: 4 }}>Core methodology</div>
+          <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 14, color: C.teal, lineHeight: 1.3 }}>Assumption-Ground Audit</div>
+          <div style={{ fontFamily: mono, fontSize: 8, color: '#6b7280', marginTop: 5, letterSpacing: '0.06em' }}>spans all quadrants</div>
+        </div>
+
+        {/* Witnessed Trust */}
         <button
           onClick={() => setActive(active === 'witnessed-trust' ? null : 'witnessed-trust')}
           style={{
-            position: 'absolute', right: '3%', top: '6%',
-            background: active === 'witnessed-trust' ? '#fef3c7' : C.yellowBg,
+            width: '100%', textAlign: 'left', cursor: 'pointer',
             border: `1px solid ${active === 'witnessed-trust' ? '#f59e0b' : C.yellowBorder}`,
-            borderRadius: 3, padding: '5px 10px',
-            fontFamily: mono, fontSize: 8, letterSpacing: '0.07em', color: '#92400e', lineHeight: 1.6,
-            cursor: 'pointer', textAlign: 'left',
+            borderRadius: 4, padding: '12px 14px',
+            background: active === 'witnessed-trust' ? '#fef3c7' : C.yellowBg,
+            marginBottom: 8, fontFamily: sans,
           }}
         >
-          Witnessed Trust<br />
-          <span style={{ color: '#b45309', opacity: 0.7, fontSize: 7 }}>diagnostic layer</span>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <span style={{ fontFamily: mono, fontSize: 9, letterSpacing: '0.07em', color: '#92400e', fontWeight: 600 }}>Witnessed Trust</span>
+            <span style={{ fontFamily: mono, fontSize: 8, color: '#b45309', opacity: 0.7 }}>diagnostic layer</span>
+          </div>
+          {active === 'witnessed-trust' && (
+            <p style={{ margin: '10px 0 0', fontSize: 13, lineHeight: 1.7, color: '#444' }}>{witnessedTrustDesc}</p>
+          )}
         </button>
 
-        {/* Adjacent fields */}
-        {adjacentFields.map(field => (
-          <button
-            key={field.id}
-            className={`viz-field-btn${active === field.id ? ' active' : ''}`}
-            style={{ left: `${field.left}%`, top: `${field.top}%` }}
-            onClick={() => setActive(active === field.id ? null : field.id)}
-          >
-            {field.label}
-          </button>
-        ))}
-
-        {/* AGA — center */}
-        <div style={{
-          position: 'absolute', left: '50%', top: '50%',
-          transform: 'translate(-50%, -50%)',
-          background: C.tealBg, border: `2px solid ${C.teal}`,
-          borderRadius: 4, padding: '12px 18px',
-          textAlign: 'center', zIndex: 10, minWidth: 130,
-        }}>
-          <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.16em', textTransform: 'uppercase', color: C.teal, marginBottom: 5 }}>Methodology</div>
-          <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 12, color: C.teal, lineHeight: 1.3 }}>Assumption-Ground<br />Audit</div>
-          <div style={{ fontFamily: mono, fontSize: 7, color: '#6b7280', marginTop: 6, letterSpacing: '0.06em' }}>spans all quadrants</div>
+        {/* Adjacent disciplines */}
+        <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#bbb', margin: '4px 0 8px' }}>Adjacent disciplines</div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+          {adjacentFields.map(field => (
+            <button
+              key={field.id}
+              onClick={() => setActive(active === field.id ? null : field.id)}
+              style={{
+                width: '100%', textAlign: 'left', cursor: 'pointer',
+                border: `1px solid ${active === field.id ? C.gray : C.grayBorder}`,
+                borderRadius: 4, padding: '12px 14px',
+                background: active === field.id ? C.grayBg : '#fff',
+                fontFamily: sans,
+              }}
+            >
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ fontSize: 13, fontWeight: 500, color: C.dark }}>{field.label}</span>
+                <span style={{ fontFamily: mono, fontSize: 9, color: '#aaa' }}>{active === field.id ? '↑' : '↓'}</span>
+              </div>
+              {active === field.id && (
+                <p style={{ margin: '8px 0 0', fontSize: 13, lineHeight: 1.7, color: '#555' }}>
+                  {field.desc}{' '}
+                  <span style={{ color: C.teal }}>The AGA works in the seam before any of this fully engages.</span>
+                </p>
+              )}
+            </button>
+          ))}
         </div>
       </div>
-      </div>{/* end scroll wrapper */}
 
-      {/* Active field description */}
-      <div style={{
-        marginTop: 10, minHeight: 52, padding: '12px 14px',
-        background: (activeField || active === 'witnessed-trust') ? C.grayBg : 'transparent',
-        border: (activeField || active === 'witnessed-trust') ? '1px solid #e5e7eb' : '1px solid transparent',
-        borderRadius: 3, transition: 'all 0.2s',
-      }}>
-        {active === 'witnessed-trust' ? (
-          <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
-            <strong style={{ color: C.dark }}>Witnessed Trust —</strong>{' '}The diagnostic framework that runs underneath the AGA. Trust isn&rsquo;t declared — you extend it first, and what people witness determines whether it comes back. What surfaces in an AGA depends entirely on whether people feel safe saying &ldquo;I don&rsquo;t know why we believe that.&rdquo; That&rsquo;s not separable from the relationship, which is why this work can&rsquo;t be fully automated or templated.
-          </p>
-        ) : activeField ? (
-          <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
-            <strong style={{ color: C.dark }}>{activeField.label} —</strong>{' '}{activeField.desc}{' '}
-            <span style={{ color: C.teal }}>The AGA works in the seam before any of this fully engages.</span>
-          </p>
-        ) : (
-          <p style={{ margin: 0, fontFamily: mono, fontSize: 9, letterSpacing: '0.08em', color: '#6b7280' }}>
-            ← select a discipline to see where it hands off
-          </p>
-        )}
-      </div>
-
-      {/* Legend */}
+      {/* Legend — shown on both */}
       <div style={{ display: 'flex', gap: 20, marginTop: 14, flexWrap: 'wrap' }}>
         {[
           { bg: C.tealBg, border: C.teal, label: 'Core methodology' },
