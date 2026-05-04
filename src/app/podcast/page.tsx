@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { GoodpodsBadge } from "@/components/ui/GoodpodsBadge";
@@ -189,6 +190,20 @@ export default function PodcastPage() {
             <span className="font-mono text-[12px] tracking-[0.05em] text-text-muted">
               Find the rabbit hole above for the five-year arc
             </span>
+          </div>
+
+          <div className="mt-8 pt-6 border-t border-border-medium">
+            <p className="text-[14px] leading-relaxed text-text-secondary max-w-xl">
+              Some episodes have been revisited through the Assumption-Ground
+              Audit &mdash; reading back through the conversations to find the
+              assumptions that were operating before the methodology had a name.
+            </p>
+            <Link
+              href="/living-lab"
+              className="mt-3 inline-flex items-center gap-1.5 font-mono text-[11px] uppercase tracking-[0.12em] text-pink hover:text-pink/80 transition-colors"
+            >
+              See the Living Lab <span aria-hidden="true">&rarr;</span>
+            </Link>
           </div>
         </div>
       </SectionWrapper>

@@ -1162,6 +1162,35 @@ export default function AGAPage() {
           </div>
         </section>
 
+        {/* ── LIVING LAB ── */}
+        <section className="aga-section">
+          <span className="aga-section-label">The methodology in the wild</span>
+          <h2>The AGA was operating before it had a name.</h2>
+          <div className="aga-prose" style={{ marginBottom: "28px" }}>
+            <p>
+              The Living Lab is a retroactive read of the Hope + Possibilities
+              podcast through the lens of the AGA. These conversations &mdash;
+              about workplace retaliation, feedback, AI discoverability, and the
+              assumptions underneath each &mdash; were recorded before the
+              methodology existed as a named practice. Going back and reading
+              them through the AGA now, the discipline is right there. It was
+              always there.
+            </p>
+            <p>
+              The Living Lab shows what the AGA looks like operating in real
+              conversations &mdash; not as a framework being taught, but as a
+              way of noticing that was already running.
+            </p>
+          </div>
+          <Link
+            href="/living-lab"
+            className="aga-inline-link"
+            style={{ fontSize: "14px" }}
+          >
+            Read the Living Lab →
+          </Link>
+        </section>
+
         {/* ── FAQ ── */}
         <section className="aga-section">
           <span className="aga-section-label">Frequently asked</span>
