@@ -41,20 +41,18 @@ const tools = [
     eyebrow: "Trust",
     title: "The Witnessed Trust Quiz",
     body: [
-      "Trust has more definitions than love, and the context matters. You might trust someone to pick up your mail and walk your dog — but not to put your kids to bed.",
-      "I once flew to Minnesota to meet a colleague who criticized everything I did. I ordered sliders — the messiest thing on the menu — so she’d have something to complain about that didn’t matter. She raved about the work. I trusted that she would behave in character. Years of observation told me how she’d react to a messy food choice. That was irrelevant — and it allowed the work to shine.",
-      "Context, witnessed in person, revealed the signal that actually mattered.",
-      "Trust isn’t declared. It’s witnessed. And it shifts based on what people see — in the room, online, and through AI systems forming assessments about you whether you know it or not. An AI once told me I had a Grammy award for spoken word. I don’t. Hallucinations are real. This quiz works with what you can actually observe.",
+      "Trust has more definitions than love, and the context matters. Trust isn’t declared — it’s witnessed, and it shifts based on what people see: in the room, online, and through AI systems forming assessments about you whether you know it or not.",
+      "This quiz works with what you can actually observe.",
     ],
     cta: "Take the quiz",
-    href: "https://nolasimon.com/trust-signal-quiz.html",
-    external: true,
+    href: "/trust-signal-quiz",
+    external: false,
   },
   {
     eyebrow: "Signal",
     title: "The Signal Tracker",
     body: [
-      "For practitioners already inside the Witnessed Trust framework. A working instrument for logging trust signals over time, finding the pattern, and knowing what to do with what you see.",
+      "A working instrument for logging trust signals over time, finding the pattern, and knowing what to do with what you see.",
     ],
     cta: "Open the tracker",
     href: "/signal-tracker",
@@ -311,6 +309,9 @@ export default function ToolsPage() {
 
       {/* ── VISUALIZER ── */}
       <div style={{ maxWidth: 800, margin: '0 auto', padding: '0 32px', borderBottom: '1px solid #ebebeb' }}>
+        <p style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontSize: 15, color: '#666', margin: '32px 0 0', lineHeight: 1.7 }}>
+          If you already have coaches, OD, or change management in place, these tools are built for the gap they don&rsquo;t cover.
+        </p>
         <CollapsibleVisualizer />
       </div>
 
