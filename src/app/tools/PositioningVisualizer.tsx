@@ -208,184 +208,149 @@ const adjacentFields = [
   { id: 'od',         label: 'Org. Development',     left: 84, top: 74, desc: 'Improves how an organization functions now — systems, culture, process, and team effectiveness. Works with what\'s already in motion, post-decision.' },
 ]
 
-const witnessedTrustDesc = 'The diagnostic framework that runs underneath the AGA. Trust isn’t declared — you extend it first, and what people witness determines whether it comes back. What surfaces in an AGA depends entirely on whether people feel safe saying “I don’t know why we believe that.” That’s not separable from the relationship, which is why this work can’t be fully automated or templated.'
+// SVG label definitions: lines[], cx, cy, w, h in viewBox units (400×300)
+const svgFields: Array<{
+  id: string
+  lines: string[]
+  cx: number
+  cy: number
+  w: number
+  h: number
+  desc: string
+}> = [
+  { id: 'coaching',   lines: ['Coaching'],             cx: 52,  cy: 240, w: 68, h: 22, desc: 'Works with the individual after direction is chosen — ongoing personal development.' },
+  { id: 'mentoring',  lines: ['Mentoring'],             cx: 48,  cy: 174, w: 68, h: 22, desc: 'Relationship-based guidance across time. Present-rooted, future-aware.' },
+  { id: 'ld',         lines: ['Leadership', 'Dev.'],    cx: 60,  cy: 68,  w: 74, h: 34, desc: 'Prepares individuals for future demands — leadership programs, training & development, innovation teams. Structured, post-framing work that assumes the direction is already set.' },
+  { id: 'succession', lines: ['Succession', 'Planning'],cx: 320, cy: 68,  w: 78, h: 34, desc: 'Plans who leads the organization into the future. Assumes the direction is already known.' },
+  { id: 'strategy',   lines: ['Strategists'],           cx: 308, cy: 132, w: 74, h: 22, desc: 'Defines organizational direction. Often engaged after the pre-adoption window has closed.' },
+  { id: 'change',     lines: ['Change', 'Mgmt.'],       cx: 292, cy: 201, w: 66, h: 34, desc: 'Manages transitions after direction has been set. Assumes the decision is made — focuses on adoption and execution.' },
+  { id: 'comms',      lines: ['Comms.'],                cx: 238, cy: 260, w: 56, h: 22, desc: 'Shapes how decisions are messaged to stakeholders. Operates after assumptions have been formalized into strategy.' },
+  { id: 'od',         lines: ['Org. Dev.'],             cx: 348, cy: 224, w: 66, h: 22, desc: 'Improves how an organization functions now — systems, culture, process, and team effectiveness. Works with what\'s already in motion, post-decision.' },
+]
+
+function FieldLabel({ field, isActive, onClick }: {
+  field: typeof svgFields[0]
+  isActive: boolean
+  onClick: () => void
+}) {
+  const x = field.cx - field.w / 2
+  const y = field.cy - field.h / 2
+  const midY = field.lines.length === 1 ? field.cy + 4 : field.cy - 4
+  return (
+    <g onClick={onClick} style={{ cursor: 'pointer' }} role="button" aria-pressed={isActive}>
+      <rect
+        x={x} y={y} width={field.w} height={field.h}
+        fill={isActive ? C.grayBg : 'white'}
+        stroke={isActive ? C.gray : C.grayBorder}
+        strokeWidth={0.75} rx={2}
+      />
+      {field.lines.map((line, i) => (
+        <text
+          key={i}
+          x={field.cx}
+          y={midY + i * 13}
+          textAnchor="middle"
+          fontSize={10}
+          fontFamily={sans}
+          fontWeight={isActive ? 600 : 400}
+          fill={isActive ? C.dark : C.muted}
+        >
+          {line}
+        </text>
+      ))}
+    </g>
+  )
+}
 
 function MapView() {
   const [active, setActive] = useState<string | null>(null)
-  const activeField = adjacentFields.find(f => f.id === active)
+  const activeField = svgFields.find(f => f.id === active)
 
+  const toggle = (id: string) => setActive(prev => prev === id ? null : id)
+
+  const descLabel = active === 'witnessed-trust' ? 'Witnessed Trust'
+    : activeField ? activeField.lines.join(' ') : null
   const descText = active === 'witnessed-trust'
-    ? witnessedTrustDesc
+    ? `The diagnostic framework that runs underneath the AGA. Trust isn't declared — you extend it first, and what people witness determines whether it comes back. What surfaces in an AGA depends entirely on whether people feel safe saying "I don't know why we believe that." That's not separable from the relationship, which is why this work can't be fully automated or templated.`
     : activeField
       ? `${activeField.desc} The AGA works in the seam before any of this fully engages.`
       : null
 
+  const wtActive = active === 'witnessed-trust'
+
   return (
     <div>
-      <style>{`
-        .viz-field-btn {
-          position: absolute;
-          transform: translate(-50%, -50%);
-          background: transparent;
-          border: 1px solid ${C.grayBorder};
-          border-radius: 3px;
-          padding: 5px 10px;
-          cursor: pointer;
-          font-family: ${sans};
-          font-size: 11px;
-          font-weight: 500;
-          color: ${C.muted};
-          white-space: nowrap;
-          transition: all 0.15s;
-          line-height: 1.4;
-        }
-        .viz-field-btn:hover,
-        .viz-field-btn.active {
-          background: ${C.grayBg};
-          border-color: ${C.gray};
-          color: ${C.dark};
-        }
-        .map-quadrant-wrap { display: block; }
-        .map-list-wrap { display: none; }
-        @media (max-width: 480px) {
-          .map-quadrant-wrap { display: none; }
-          .map-list-wrap { display: block; }
-        }
-      `}</style>
+      {/* SVG map — scales to any container width, no min-width */}
+      <svg
+        viewBox="0 0 400 300"
+        width="100%"
+        style={{ display: 'block', background: '#fafafa', border: '1px solid #e5e7eb', borderRadius: 4 }}
+        aria-label="Positioning map of the AGA relative to adjacent disciplines"
+      >
+        {/* Axes */}
+        <line x1="32" y1="150" x2="368" y2="150" stroke="#e5e7eb" strokeWidth={1} />
+        <line x1="200" y1="24" x2="200" y2="276" stroke="#e5e7eb" strokeWidth={1} />
 
-      {/* ── DESKTOP: quadrant map ── */}
-      <div className="map-quadrant-wrap">
-        <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
-          <div style={{ position: 'relative', width: '100%', minWidth: 480, aspectRatio: '4 / 3', background: '#fafafa', border: '1px solid #e5e7eb', borderRadius: 4, overflow: 'hidden' }}>
-            <div style={{ position: 'absolute', top: '50%', left: '8%', right: '8%', height: 1, background: '#e5e7eb' }} />
-            <div style={{ position: 'absolute', left: '50%', top: '8%', bottom: '8%', width: 1, background: '#e5e7eb' }} />
+        {/* Axis labels */}
+        <text x="200" y="14" textAnchor="middle" fontSize={7} fontFamily={mono} letterSpacing={2} fill="#d1d5db" textDecoration="none">FUTURE</text>
+        <text x="200" y="293" textAnchor="middle" fontSize={7} fontFamily={mono} letterSpacing={2} fill="#d1d5db">PRESENT</text>
+        <text x="12" y="154" textAnchor="middle" fontSize={7} fontFamily={mono} letterSpacing={2} fill="#d1d5db" transform="rotate(-90,12,150)">INDIVIDUAL</text>
+        <text x="388" y="154" textAnchor="middle" fontSize={7} fontFamily={mono} letterSpacing={2} fill="#d1d5db" transform="rotate(90,388,150)">ORGANIZATIONAL</text>
 
-            <div style={{ position: 'absolute', top: 10, left: '50%', transform: 'translateX(-50%)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8' }}>Future</div>
-            <div style={{ position: 'absolute', bottom: 10, left: '50%', transform: 'translateX(-50%)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8' }}>Present</div>
-            <div style={{ position: 'absolute', left: 8, top: '50%', transform: 'translateY(-50%) rotate(-90deg)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8', whiteSpace: 'nowrap' }}>Individual</div>
-            <div style={{ position: 'absolute', right: 8, top: '50%', transform: 'translateY(-50%) rotate(90deg)', fontFamily: mono, fontSize: 8, letterSpacing: '0.18em', textTransform: 'uppercase', color: '#c8c8c8', whiteSpace: 'nowrap' }}>Organizational</div>
-            <div style={{ position: 'absolute', top: 9, left: 14, fontFamily: mono, fontSize: 8, letterSpacing: '0.12em', textTransform: 'uppercase', color: C.teal, opacity: 0.65 }}>Everyday Futurism</div>
-
-            <button
-              onClick={() => setActive(active === 'witnessed-trust' ? null : 'witnessed-trust')}
-              style={{
-                position: 'absolute', right: '3%', top: '6%',
-                background: active === 'witnessed-trust' ? '#fef3c7' : C.yellowBg,
-                border: `1px solid ${active === 'witnessed-trust' ? '#f59e0b' : C.yellowBorder}`,
-                borderRadius: 3, padding: '5px 10px',
-                fontFamily: mono, fontSize: 8, letterSpacing: '0.07em', color: '#92400e', lineHeight: 1.6,
-                cursor: 'pointer', textAlign: 'left',
-              }}
-            >
-              Witnessed Trust<br />
-              <span style={{ color: '#b45309', opacity: 0.7, fontSize: 7 }}>diagnostic layer</span>
-            </button>
-
-            {adjacentFields.map(field => (
-              <button
-                key={field.id}
-                className={`viz-field-btn${active === field.id ? ' active' : ''}`}
-                style={{ left: `${field.left}%`, top: `${field.top}%` }}
-                onClick={() => setActive(active === field.id ? null : field.id)}
-              >
-                {field.label}
-              </button>
-            ))}
-
-            <div style={{
-              position: 'absolute', left: '50%', top: '50%',
-              transform: 'translate(-50%, -50%)',
-              background: C.tealBg, border: `2px solid ${C.teal}`,
-              borderRadius: 4, padding: '12px 18px',
-              textAlign: 'center', zIndex: 10, minWidth: 130,
-            }}>
-              <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.16em', textTransform: 'uppercase', color: C.teal, marginBottom: 5 }}>Methodology</div>
-              <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 12, color: C.teal, lineHeight: 1.3 }}>Assumption-Ground<br />Audit</div>
-              <div style={{ fontFamily: mono, fontSize: 7, color: '#6b7280', marginTop: 6, letterSpacing: '0.06em' }}>spans all quadrants</div>
-            </div>
-          </div>
-        </div>
-
-        <div style={{
-          marginTop: 10, minHeight: 52, padding: '12px 14px',
-          background: descText ? C.grayBg : 'transparent',
-          border: descText ? '1px solid #e5e7eb' : '1px solid transparent',
-          borderRadius: 3, transition: 'all 0.2s',
-        }}>
-          {descText ? (
-            <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
-              {active !== 'witnessed-trust' && activeField && <strong style={{ color: C.dark }}>{activeField.label} — </strong>}
-              {active === 'witnessed-trust' && <strong style={{ color: C.dark }}>Witnessed Trust — </strong>}
-              {descText}
-            </p>
-          ) : (
-            <p style={{ margin: 0, fontFamily: mono, fontSize: 9, letterSpacing: '0.08em', color: '#6b7280' }}>
-              ← select a discipline to see where it hands off
-            </p>
-          )}
-        </div>
-      </div>
-
-      {/* ── MOBILE: stacked list ── */}
-      <div className="map-list-wrap">
-        {/* AGA anchor */}
-        <div style={{ border: `2px solid ${C.teal}`, borderRadius: 4, padding: '14px 16px', background: C.tealBg, marginBottom: 12, textAlign: 'center' }}>
-          <div style={{ fontFamily: mono, fontSize: 7, letterSpacing: '0.16em', textTransform: 'uppercase', color: C.teal, marginBottom: 4 }}>Core methodology</div>
-          <div style={{ fontFamily: sans, fontWeight: 700, fontSize: 14, color: C.teal, lineHeight: 1.3 }}>Assumption-Ground Audit</div>
-          <div style={{ fontFamily: mono, fontSize: 8, color: '#6b7280', marginTop: 5, letterSpacing: '0.06em' }}>spans all quadrants</div>
-        </div>
+        {/* Everyday Futurism watermark */}
+        <text x="16" y="20" fontSize={7} fontFamily={mono} letterSpacing={1.5} fill={C.teal} opacity={0.55}>EVERYDAY FUTURISM</text>
 
         {/* Witnessed Trust */}
-        <button
-          onClick={() => setActive(active === 'witnessed-trust' ? null : 'witnessed-trust')}
-          style={{
-            width: '100%', textAlign: 'left', cursor: 'pointer',
-            border: `1px solid ${active === 'witnessed-trust' ? '#f59e0b' : C.yellowBorder}`,
-            borderRadius: 4, padding: '12px 14px',
-            background: active === 'witnessed-trust' ? '#fef3c7' : C.yellowBg,
-            marginBottom: 8, fontFamily: sans,
-          }}
-        >
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <span style={{ fontFamily: mono, fontSize: 9, letterSpacing: '0.07em', color: '#92400e', fontWeight: 600 }}>Witnessed Trust</span>
-            <span style={{ fontFamily: mono, fontSize: 8, color: '#b45309', opacity: 0.7 }}>diagnostic layer</span>
-          </div>
-          {active === 'witnessed-trust' && (
-            <p style={{ margin: '10px 0 0', fontSize: 13, lineHeight: 1.7, color: '#444' }}>{witnessedTrustDesc}</p>
-          )}
-        </button>
+        <g onClick={() => toggle('witnessed-trust')} style={{ cursor: 'pointer' }} role="button" aria-pressed={wtActive}>
+          <rect x={298} y={8} width={92} height={30}
+            fill={wtActive ? '#fef3c7' : C.yellowBg}
+            stroke={wtActive ? '#f59e0b' : C.yellowBorder}
+            strokeWidth={0.75} rx={2}
+          />
+          <text x={344} y={21} textAnchor="middle" fontSize={9} fontFamily={mono} letterSpacing={0.5} fill="#92400e">Witnessed Trust</text>
+          <text x={344} y={32} textAnchor="middle" fontSize={7} fontFamily={mono} fill="#b45309" opacity={0.7}>diagnostic layer</text>
+        </g>
 
-        {/* Adjacent disciplines */}
-        <div style={{ fontFamily: mono, fontSize: 8, letterSpacing: '0.14em', textTransform: 'uppercase', color: '#bbb', margin: '4px 0 8px' }}>Adjacent disciplines</div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-          {adjacentFields.map(field => (
-            <button
-              key={field.id}
-              onClick={() => setActive(active === field.id ? null : field.id)}
-              style={{
-                width: '100%', textAlign: 'left', cursor: 'pointer',
-                border: `1px solid ${active === field.id ? C.gray : C.grayBorder}`,
-                borderRadius: 4, padding: '12px 14px',
-                background: active === field.id ? C.grayBg : '#fff',
-                fontFamily: sans,
-              }}
-            >
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <span style={{ fontSize: 13, fontWeight: 500, color: C.dark }}>{field.label}</span>
-                <span style={{ fontFamily: mono, fontSize: 9, color: '#aaa' }}>{active === field.id ? '↑' : '↓'}</span>
-              </div>
-              {active === field.id && (
-                <p style={{ margin: '8px 0 0', fontSize: 13, lineHeight: 1.7, color: '#555' }}>
-                  {field.desc}{' '}
-                  <span style={{ color: C.teal }}>The AGA works in the seam before any of this fully engages.</span>
-                </p>
-              )}
-            </button>
-          ))}
-        </div>
+        {/* Adjacent fields */}
+        {svgFields.map(field => (
+          <FieldLabel
+            key={field.id}
+            field={field}
+            isActive={active === field.id}
+            onClick={() => toggle(field.id)}
+          />
+        ))}
+
+        {/* AGA — center */}
+        <rect x={154} y={122} width={92} height={56}
+          fill={C.tealBg} stroke={C.teal} strokeWidth={1.5} rx={3}
+        />
+        <text x={200} y={137} textAnchor="middle" fontSize={6.5} fontFamily={mono} letterSpacing={1.5} fill={C.teal}>METHODOLOGY</text>
+        <text x={200} y={151} textAnchor="middle" fontSize={9.5} fontFamily={sans} fontWeight={700} fill={C.teal}>Assumption-Ground</text>
+        <text x={200} y={163} textAnchor="middle" fontSize={9.5} fontFamily={sans} fontWeight={700} fill={C.teal}>Audit</text>
+        <text x={200} y={174} textAnchor="middle" fontSize={6.5} fontFamily={mono} letterSpacing={0.5} fill="#6b7280">spans all quadrants</text>
+      </svg>
+
+      {/* Description panel */}
+      <div style={{
+        marginTop: 10, minHeight: 52, padding: '12px 14px',
+        background: descText ? C.grayBg : 'transparent',
+        border: descText ? '1px solid #e5e7eb' : '1px solid transparent',
+        borderRadius: 3, transition: 'all 0.2s',
+      }}>
+        {descText ? (
+          <p style={{ margin: 0, fontSize: 13, lineHeight: 1.75, color: '#444', fontFamily: sans }}>
+            {descLabel && <strong style={{ color: C.dark }}>{descLabel} — </strong>}
+            {descText}
+          </p>
+        ) : (
+          <p style={{ margin: 0, fontFamily: mono, fontSize: 9, letterSpacing: '0.08em', color: '#6b7280' }}>
+            Tap a discipline to see where it hands off
+          </p>
+        )}
       </div>
 
-      {/* Legend — shown on both */}
+      {/* Legend */}
       <div style={{ display: 'flex', gap: 20, marginTop: 14, flexWrap: 'wrap' }}>
         {[
           { bg: C.tealBg, border: C.teal, label: 'Core methodology' },

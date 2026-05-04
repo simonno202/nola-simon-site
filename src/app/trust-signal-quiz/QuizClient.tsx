@@ -299,7 +299,7 @@ export default function QuizClient() {
   }
 
   function finishQuiz() {
-    const finalScore = answers.reduce((acc, ans, i) => acc + (ans === questions[i].correct ? 1 : 0), 0)
+    const finalScore = answers.reduce((acc, ans, i) => (acc as number) + (ans !== null && ans === questions[i].correct ? 1 : 0), 0) as number
     setScore(finalScore)
 
     const band = finalScore >= 15 ? results[0] : finalScore >= 9 ? results[1] : results[2]
