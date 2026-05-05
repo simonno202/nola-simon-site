@@ -127,7 +127,7 @@ const LIVING_LAB_BOTTOM = {
   text: "You've reached the bottom.",
   sub: "Most people stop here. A few don't.",
   ctas: [
-    { label: "Explore the Living Lab →", href: "/podcast", variant: "primary" },
+    { label: "Explore the Living Lab →", href: "/living-lab", variant: "primary" },
     {
       label: "Book an Intro Consultation",
       href: "https://tidycal.com/nola/intro-consultation-nola-simon",

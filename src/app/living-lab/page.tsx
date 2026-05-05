@@ -83,7 +83,7 @@ export default function LivingLabIndex() {
               Going back and reading them through the AGA now, the methodology
               is right there. It was always there. That&rsquo;s what the Living
               Lab is: retroactive evidence that the discipline predated the
-              framework.
+              framework. The methodology just finally caught up.
             </p>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function LivingLabIndex() {
       <SectionWrapper className="bg-cream py-10 lg:py-16">
         <div className="max-w-3xl">
           <p className="text-[15px] leading-relaxed text-text-secondary">
-            These conversations happened before the methodology had a name.{" "}
+            The framework those conversations built toward has a name now.{" "}
             <Link
               href="/aga"
               className="text-pink underline underline-offset-2 hover:text-pink/80 transition-colors"

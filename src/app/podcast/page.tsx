@@ -122,7 +122,6 @@ export default function PodcastPage() {
           </p>
 
           <GoodpodsBadge variant="compact" className="mt-5" />
-          <PodcastRabbitHole />
 
           <a
             href="https://www.listennotes.com/podcasts/hope-possibilties-a-love-letter-to-the-nHWeA2OGmD-/"
@@ -177,6 +176,8 @@ export default function PodcastPage() {
               build.
             </p>
           </div>
+
+          <PodcastRabbitHole />
 
           <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-3">
             <a
