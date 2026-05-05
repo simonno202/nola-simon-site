@@ -83,6 +83,7 @@ const siteLinks = [
   { label: "Signal Tracker — A Rabbit Hole in Plain Sight", href: "https://nolasimon.com/signal-tracker" },
   { label: "Advisory & Speaking", href: "https://nolasimon.com/advisory-speaking" },
   { label: "The Assumption-Ground Audit", href: "https://nolasimon.com/aga" },
+  { label: "The Living Lab — Podcast Episodes Revisited", href: "https://nolasimon.com/living-lab" },
   { label: "Podcast Episodes", href: "https://nolasimon.com/podcast" },
   { label: "Newsletter Archive", href: "https://nolasimon.com/newsletter" },
   { label: "Work — Writing, Audio, Video", href: "https://nolasimon.com/work" },
