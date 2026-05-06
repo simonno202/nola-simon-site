@@ -17,14 +17,14 @@ export const metadata: Metadata = {
     title: "The Living Lab | Nola Simon",
     description:
       "A retroactive read of the Hope + Possibilities podcast through the lens of the Assumption-Ground Audit. These conversations happened before the methodology had a name.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/og-living-lab.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Living Lab | Nola Simon",
     description:
       "A retroactive read of the Hope + Possibilities podcast through the lens of the Assumption-Ground Audit. These conversations happened before the methodology had a name.",
-    images: ["/og-image.jpg"],
+    images: ["/og-living-lab.jpg"],
   },
 };
 
