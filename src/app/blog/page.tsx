@@ -24,6 +24,16 @@ const CORNERSTONE = {
     "This is the essay that shows the Assumption-Ground Audit and Witnessed Trust in the same story: what it costs when ground is assumed rather than examined, and what changes when someone finally checks it.",
 };
 
+const LATEST = {
+  slug: "the-throughline-is-the-future",
+  title: "The Throughline Is the Future",
+  meta: "Essay \xB7 May 6, 2026",
+  description:
+    "I named my newsletter before I knew what the throughline was. The Plum assessment that got me wrong. Sweta Regmi, Hilke Schellmann, Cher Jones, and the thread that connected them. George Michael. The inference layer. And why the only durable ground is the one you’ve already documented.",
+  description2:
+    "This is the synthesis essay — where the throughline finally has a name.",
+};
+
 const WITNESSED_TRUST = [
   {
     slug: "ben-affleck-reese-witherspoon-trust-receipts",
@@ -173,6 +183,35 @@ export default function WritingPage() {
                 className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
               >
                 Explore the AGA &rarr;
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </SectionWrapper>
+
+      {/* ── Latest Essay ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>LATEST</Eyebrow>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              {LATEST.meta}
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              {LATEST.title}
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              {LATEST.description}
+            </p>
+            <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+              {LATEST.description2}
+            </p>
+            <div className="mt-5">
+              <Link
+                href={`/blog/${LATEST.slug}`}
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the essay &rarr;
               </Link>
             </div>
           </Card>
