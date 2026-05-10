@@ -20,6 +20,18 @@ export default async function OgImage({
   const post = getPost(slug);
   const title = post.displayTitle ?? post.title;
 
+  // If the post has a custom ogImage, serve it directly
+  if (post.ogImage) {
+    const imgPath = path.join(process.cwd(), "public", post.ogImage.replace(/^\//, ""));
+    const imgBuffer = await fs.promises.readFile(imgPath);
+    const ext = path.extname(post.ogImage).toLowerCase();
+    const mime = ext === ".png" ? "image/png" : "image/jpeg";
+
+    return new Response(imgBuffer, {
+      headers: { "Content-Type": mime },
+    });
+  }
+
   // Load fonts from local files
   const fontsDir = path.join(process.cwd(), "public", "fonts");
   const [jakartaBold, jetbrainsMono] = await Promise.all([
