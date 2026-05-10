@@ -37,7 +37,7 @@ const LATEST = {
 const DISCERNMENT = {
   slug: "discernment-as-leadership",
   title: "The Skill Nobody Taught You (But You Already Have)",
-  meta: "Essay · April 29, 2026",
+  meta: "Essay · May 9, 2026",
   description:
     "Most people already have discernment — the capacity to see what's true before it's been officially named. What they don't have is the self-trust to act on it.",
   description2:
