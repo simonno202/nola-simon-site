@@ -290,6 +290,10 @@ export default function AboutPage() {
             <p>
               The degree gave me the method. The people gave me the material. Living in both worlds gave me the range. <Link href="/aga" className="font-medium text-pink hover:underline">The Assumption-Ground Audit</Link> is what happened when all three finally met. It turns out it wasn&rsquo;t a detour. It just took a while to find the work it was built for.
             </p>
+
+            <p>
+              <Link href="/blog/discernment-as-leadership" className="font-medium text-pink hover:underline">The essay that tells the story behind it is here &rarr;</Link>
+            </p>
           </div>
 
           <div className="mt-8 flex flex-wrap items-start gap-8">

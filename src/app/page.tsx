@@ -257,6 +257,16 @@ export default function HomePage() {
           >
             Read the methodology →
           </a>
+          <p className="mt-5 text-[13px]" style={{ color: "#888" }}>
+            Latest essay:{" "}
+            <a
+              href="/blog/discernment-as-leadership"
+              className="hover:opacity-80 transition-opacity underline underline-offset-2"
+              style={{ color: "#ec4197" }}
+            >
+              The Courage to Act Before Permission Arrives &rarr;
+            </a>
+          </p>
         </div>
       </SectionWrapper>
 
