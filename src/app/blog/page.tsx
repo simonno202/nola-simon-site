@@ -41,7 +41,7 @@ const DISCERNMENT = {
   description:
     "Most people already have discernment — the capacity to see what's true before it's been officially named. What they don't have is the self-trust to act on it.",
   description2:
-    "On the IKEA moment that changed the direction of my work. The word 'coincidence.' George Michael, Taylor Swift, and the 2018 clause that paid out this week. And what discernment looks like before there's a room to be quiet in.",
+    "On the IKEA moment that changed the direction of my work. The word 'coincidence.' And what discernment looks like before there's a room to be quiet in.",
 };
 
 const WITNESSED_TRUST = [
