@@ -59,6 +59,12 @@ const agaEssays = [
       "I drove into a cement hauler, showed up to court without a lawyer, and was certain I understood the situation. The audit that's hardest to run is the one you do on yourself.",
     href: "/blog/the-most-dangerous-assumption-in-the-room",
   },
+  {
+    title: "The Courage to Act Before Permission Arrives",
+    description:
+      "Most organizations don't lack information. They lack the capacity to receive it. On discernment as the upstream skill — what it looks like when it's present, what it costs when it's not, and why it's the infrastructure the AGA depends on.",
+    href: "/blog/discernment-as-leadership",
+  },
 ];
 
 const furtherReading = [
