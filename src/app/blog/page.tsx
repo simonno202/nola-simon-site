@@ -34,6 +34,16 @@ const LATEST = {
     "This is the synthesis essay — where the throughline finally has a name.",
 };
 
+const DISCERNMENT = {
+  slug: "discernment-as-leadership",
+  title: "The Skill Nobody Taught You (But You Already Have)",
+  meta: "Essay · April 29, 2026",
+  description:
+    "Most people already have discernment — the capacity to see what's true before it's been officially named. What they don't have is the self-trust to act on it.",
+  description2:
+    "On the IKEA moment that changed the direction of my work. The word 'coincidence.' George Michael, Taylor Swift, and the 2018 clause that paid out this week. And what discernment looks like before there's a room to be quiet in.",
+};
+
 const WITNESSED_TRUST = [
   {
     slug: "ben-affleck-reese-witherspoon-trust-receipts",
@@ -209,6 +219,38 @@ export default function WritingPage() {
             <div className="mt-5">
               <Link
                 href={`/blog/${LATEST.slug}`}
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the essay &rarr;
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </SectionWrapper>
+
+      {/* ── Discernment as Leadership ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>DISCERNMENT AS LEADERSHIP</Eyebrow>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+          On the capacity to see what&rsquo;s true before it&rsquo;s been officially named — and the self-trust to act on it.
+        </p>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              {DISCERNMENT.meta}
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              {DISCERNMENT.title}
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              {DISCERNMENT.description}
+            </p>
+            <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+              {DISCERNMENT.description2}
+            </p>
+            <div className="mt-5">
+              <Link
+                href={`/blog/${DISCERNMENT.slug}`}
                 className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
               >
                 Read the essay &rarr;
