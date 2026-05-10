@@ -292,7 +292,7 @@ export default function AboutPage() {
             </p>
 
             <p>
-              <Link href="/blog/discernment-as-leadership" className="font-medium text-pink hover:underline">The essay that tells the story behind it is here &rarr;</Link>
+              <Link href="/blog/discernment-as-leadership" className="font-medium text-pink hover:underline">The essay behind it — Discernment as Leadership — is here &rarr;</Link>
             </p>
           </div>
 
