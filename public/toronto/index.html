@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toronto · May 29 — Nola Simon</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --pink: #ec4197;
+    --pink-dim: rgba(236,65,151,0.15);
+    --pink-glow: rgba(236,65,151,0.4);
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --surface2: #1a1a24;
+    --border: rgba(236,65,151,0.2);
+    --text: #e8e4f0;
+    --text-dim: rgba(232,228,240,0.55);
+    --text-faint: rgba(232,228,240,0.3);
+    --mono: 'DM Mono', monospace;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image:
+      linear-gradient(rgba(236,65,151,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(236,65,151,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none; z-index: 0;
+  }
+
+  body::after {
+    content: '';
+    position: fixed; inset: 0;
+    background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.08) 2px, rgba(0,0,0,0.08) 4px);
+    pointer-events: none; z-index: 0;
+  }
+
+  .glow-orb {
+    position: fixed; width: 600px; height: 600px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(236,65,151,0.12) 0%, transparent 70%);
+    pointer-events: none; z-index: 0; top: -200px; right: -200px;
+    animation: pulse 8s ease-in-out infinite;
+  }
+  .glow-orb-2 {
+    position: fixed; width: 400px; height: 400px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(100,60,200,0.08) 0%, transparent 70%);
+    pointer-events: none; z-index: 0; bottom: -100px; left: -100px;
+    animation: pulse 10s ease-in-out infinite reverse;
+  }
+  @keyframes pulse {
+    0%,100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.1); opacity: 0.7; }
+  }
+
+  .wrapper {
+    position: relative; z-index: 1;
+    max-width: 680px; margin: 0 auto;
+    padding: 80px 24px 120px;
+  }
+
+  .eyebrow {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--pink); margin-bottom: 32px;
+    display: flex; align-items: center; gap: 12px;
+    opacity: 0; animation: fadeUp 0.6s ease forwards 0.1s;
+  }
+  .eyebrow::before {
+    content: ''; display: inline-block; width: 24px; height: 1px; background: var(--pink);
+  }
+
+  .headline {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(42px, 8vw, 72px); line-height: 1.0; letter-spacing: -0.02em;
+    margin-bottom: 8px; opacity: 0; animation: fadeUp 0.7s ease forwards 0.2s;
+  }
+  .headline em { font-style: italic; color: var(--pink); }
+
+  .subhead {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(18px, 3vw, 24px); font-weight: 400;
+    color: var(--text-dim); margin-bottom: 48px; line-height: 1.4;
+    opacity: 0; animation: fadeUp 0.7s ease forwards 0.3s;
+  }
+
+  .date-strip {
+    display: flex; align-items: stretch; margin-bottom: 56px;
+    border: 1px solid var(--border); border-radius: 4px; overflow: hidden;
+    opacity: 0; animation: fadeUp 0.6s ease forwards 0.4s;
+  }
+  .date-cell {
+    padding: 20px 28px; background: var(--surface); border-right: 1px solid var(--border);
+  }
+  .date-cell:last-child { border-right: none; flex: 1; }
+  .date-label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-faint); margin-bottom: 6px;
+  }
+  .date-value { font-family: var(--mono); font-size: 15px; font-weight: 500; color: var(--text); }
+  .date-value.pink { color: var(--pink); }
+
+  .intro {
+    font-size: 17px; line-height: 1.75; color: var(--text-dim); margin-bottom: 48px;
+    opacity: 0; animation: fadeUp 0.6s ease forwards 0.5s;
+  }
+  .intro strong { color: var(--text); font-weight: 500; }
+
+  .what-section {
+    margin-bottom: 56px; opacity: 0; animation: fadeUp 0.6s ease forwards 0.6s;
+  }
+  .section-label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--pink); margin-bottom: 20px;
+  }
+  .what-grid { display: grid; gap: 2px; }
+  .what-item {
+    display: grid; grid-template-columns: 32px 1fr; gap: 16px; align-items: start;
+    padding: 20px; background: var(--surface); border: 1px solid transparent;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .what-item:hover { border-color: var(--border); background: var(--surface2); }
+  .what-num { font-family: var(--mono); font-size: 11px; color: var(--pink); padding-top: 2px; }
+  .what-text { font-size: 15px; line-height: 1.6; color: var(--text-dim); }
+  .what-text strong { display: block; font-weight: 500; color: var(--text); margin-bottom: 4px; font-size: 16px; }
+
+  .venue-card {
+    margin-bottom: 56px; border: 1px solid var(--border); border-radius: 4px; overflow: hidden;
+    opacity: 0; animation: fadeUp 0.6s ease forwards 0.7s;
+  }
+  .venue-header {
+    background: var(--pink-dim); padding: 16px 24px;
+    display: flex; align-items: center; gap: 10px; border-bottom: 1px solid var(--border);
+  }
+  .venue-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--pink); box-shadow: 0 0 8px var(--pink); flex-shrink: 0;
+  }
+  .venue-header-text {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em;
+    text-transform: uppercase; color: var(--pink);
+  }
+  .venue-body {
+    padding: 24px; background: var(--surface);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+  }
+  @media (max-width: 480px) { .venue-body { grid-template-columns: 1fr; } }
+  .venue-detail-label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-faint); margin-bottom: 6px;
+  }
+  .venue-detail-value { font-size: 14px; color: var(--text); line-height: 1.5; }
+  .venue-note {
+    padding: 16px 24px; background: var(--surface2); border-top: 1px solid var(--border);
+    font-size: 13px; color: var(--text-faint); font-family: var(--mono); line-height: 1.6;
+  }
+
+  /* ── PRICING ── */
+  .pricing-section {
+    margin-bottom: 56px; opacity: 0; animation: fadeUp 0.6s ease forwards 0.72s;
+  }
+  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+  @media (max-width: 480px) { .pricing-grid { grid-template-columns: 1fr; } }
+  .pricing-card {
+    background: var(--surface); border: 1px solid transparent; padding: 28px 24px;
+    transition: border-color 0.2s, background 0.2s; position: relative;
+  }
+  .pricing-card:hover { border-color: var(--border); background: var(--surface2); }
+  .pricing-card.featured { border-color: var(--border); }
+  .pricing-card.featured::before {
+    content: 'First time offered';
+    position: absolute; top: -1px; right: 20px;
+    font-family: var(--mono); font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--bg); background: var(--pink); padding: 4px 10px;
+  }
+  .pricing-format {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-faint); margin-bottom: 12px;
+  }
+  .pricing-name { font-family: 'DM Serif Display', serif; font-size: 22px; margin-bottom: 6px; line-height: 1.2; }
+  .pricing-duration { font-family: var(--mono); font-size: 12px; color: var(--text-faint); margin-bottom: 20px; }
+  .pricing-amount {
+    font-family: 'DM Serif Display', serif; font-size: 40px;
+    color: var(--pink); line-height: 1; margin-bottom: 4px;
+  }
+  .pricing-currency {
+    font-family: var(--mono); font-size: 11px; color: var(--text-faint);
+    letter-spacing: 0.1em; margin-bottom: 20px;
+  }
+  .pricing-desc {
+    font-size: 13px; color: var(--text-dim); line-height: 1.65;
+    border-top: 1px solid rgba(255,255,255,0.06); padding-top: 16px;
+  }
+  .pricing-note {
+    margin-top: 12px; font-family: var(--mono); font-size: 11px;
+    color: var(--text-faint); line-height: 1.6; letter-spacing: 0.03em;
+  }
+
+  /* ── TICKER ── */
+  .ticker {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.15em; color: var(--pink);
+    margin-bottom: 56px; overflow: hidden;
+    border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 10px 0;
+    opacity: 0; animation: fadeUp 0.5s ease forwards 0.55s;
+  }
+  .ticker-inner { display: flex; gap: 64px; white-space: nowrap; animation: ticker 20s linear infinite; }
+  @keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .ticker-sep { color: var(--text-faint); }
+
+  /* ── FORM ── */
+  .form-section { opacity: 0; animation: fadeUp 0.6s ease forwards 0.8s; }
+  .form-title { font-family: 'DM Serif Display', serif; font-size: 28px; margin-bottom: 8px; }
+  .form-sub { font-size: 14px; color: var(--text-faint); margin-bottom: 32px; line-height: 1.6; }
+  .field { margin-bottom: 16px; }
+  .field label {
+    display: block; font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--text-faint); margin-bottom: 8px;
+  }
+  .field input, .field select, .field textarea {
+    width: 100%; background: var(--surface); border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 3px; padding: 14px 16px; color: var(--text);
+    font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 300;
+    outline: none; transition: border-color 0.2s, box-shadow 0.2s; -webkit-appearance: none;
+  }
+  .field select {
+    cursor: pointer;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23ec4197' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px;
+  }
+  .field textarea { resize: vertical; min-height: 100px; line-height: 1.6; }
+  .field input:focus, .field select:focus, .field textarea:focus {
+    border-color: var(--pink); box-shadow: 0 0 0 3px var(--pink-dim);
+  }
+  .field input::placeholder, .field textarea::placeholder { color: var(--text-faint); }
+  .field select option { background: #1a1a24; color: var(--text); }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 480px) { .field-row { grid-template-columns: 1fr; } }
+
+  .submit-btn {
+    width: 100%; margin-top: 8px; padding: 18px 32px;
+    background: var(--pink); border: none; border-radius: 3px; color: #fff;
+    font-family: var(--mono); font-size: 13px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer;
+    transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+    box-shadow: 0 4px 24px var(--pink-glow);
+  }
+  .submit-btn:hover { opacity: 0.9; transform: translateY(-1px); box-shadow: 0 8px 32px var(--pink-glow); }
+  .submit-btn:active { transform: translateY(0); }
+  .form-fine {
+    margin-top: 16px; font-size: 12px; color: var(--text-faint);
+    text-align: center; line-height: 1.6; font-family: var(--mono);
+  }
+
+  /* ── SUCCESS STATE ── */
+  .success-state { display: none; }
+  .success-state.visible { display: block; }
+
+  .success-top {
+    text-align: center; padding: 56px 32px 48px;
+    border: 1px solid var(--border); background: var(--surface); border-radius: 4px;
+    margin-bottom: 48px;
+  }
+  .success-icon { font-size: 40px; margin-bottom: 20px; color: var(--pink); }
+  .success-title { font-family: 'DM Serif Display', serif; font-size: 32px; margin-bottom: 12px; }
+  .success-title em { color: var(--pink); font-style: italic; }
+  .success-text {
+    font-size: 15px; color: var(--text-dim); line-height: 1.7;
+    max-width: 440px; margin: 0 auto 32px;
+  }
+
+  /* ── DOWNLOAD BUTTON ── */
+  .download-btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 14px 28px;
+    background: transparent; border: 1px solid var(--pink); border-radius: 3px; color: var(--pink);
+    font-family: var(--mono); font-size: 12px; font-weight: 500;
+    letter-spacing: 0.12em; text-transform: uppercase; cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  .download-btn:hover { background: var(--pink); color: #fff; }
+  .download-btn svg { flex-shrink: 0; }
+
+  /* ── SPEAKER SHEET WRAPPER ── */
+  .sheet-label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em;
+    text-transform: uppercase; color: var(--pink); margin-bottom: 16px;
+  }
+
+  .sheet-outer {
+    border: 1px solid var(--border); border-radius: 4px; overflow: hidden;
+  }
+
+  /* ── SPEAKER SHEET (light, self-contained) ── */
+  .speaker-sheet {
+    --s-pink: #ec4197;
+    --s-ink: #0f0d0e;
+    --s-paper: #f5f1ec;
+    --s-rule: #d8d1c8;
+    background: var(--s-paper);
+    color: var(--s-ink);
+    font-family: 'DM Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .s-accent-bar { height: 5px; background: var(--s-pink); width: 100%; }
+
+  .s-deco-circle {
+    position: absolute; width: 300px; height: 300px; border-radius: 50%;
+    border: 1px solid rgba(236,65,151,0.1); top: -80px; right: -80px; pointer-events: none;
+  }
+  .s-deco-circle-2 {
+    position: absolute; width: 180px; height: 180px; border-radius: 50%;
+    border: 1px solid rgba(236,65,151,0.07); top: -20px; right: -20px; pointer-events: none;
+  }
+
+  .s-header {
+    padding: 2.8rem 3rem 2rem; border-bottom: 1px solid var(--s-rule);
+    display: grid; grid-template-columns: 1fr auto; align-items: end; gap: 1.5rem;
+  }
+  @media (max-width: 560px) { .s-header { grid-template-columns: 1fr; } }
+
+  .s-name {
+    font-family: 'DM Serif Display', serif; font-size: 2.6rem;
+    line-height: 1; letter-spacing: -0.02em; color: var(--s-ink);
+  }
+  .s-name em { font-style: italic; color: var(--s-pink); }
+
+  .s-role {
+    font-family: 'DM Mono', monospace; font-size: 0.72rem;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--s-pink);
+    font-weight: 500; margin-top: 0.5rem;
+  }
+  .s-sub-role { font-size: 0.82rem; color: #6b6560; margin-top: 0.2rem; font-weight: 300; }
+
+  .s-contact {
+    text-align: right; font-family: 'DM Mono', monospace;
+    font-size: 0.68rem; color: #7a746e; line-height: 1.8;
+  }
+  .s-contact a { color: var(--s-pink); text-decoration: none; }
+
+  .s-body { padding: 0 3rem; }
+  @media (max-width: 560px) { .s-body { padding: 0 1.5rem; } .s-header { padding: 2rem 1.5rem 1.5rem; } }
+
+  .s-lead {
+    padding: 2rem 0 1.8rem; border-bottom: 1px solid var(--s-rule);
+  }
+  .s-lead-text {
+    font-family: 'DM Serif Display', serif; font-size: 1.2rem;
+    line-height: 1.45; color: var(--s-ink); max-width: 580px;
+  }
+  .s-lead-text strong { color: var(--s-pink); font-style: italic; font-weight: 400; }
+
+  .s-impact {
+    padding: 1.8rem 0 0; display: grid;
+    grid-template-columns: 1fr 1fr; gap: 1.5rem 2.5rem;
+  }
+  @media (max-width: 560px) { .s-impact { grid-template-columns: 1fr; } }
+
+  .s-impact-item { padding-bottom: 1.5rem; border-bottom: 1px solid var(--s-rule); }
+  .s-impact-label {
+    font-family: 'DM Mono', monospace; font-size: 0.63rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--s-pink); font-weight: 500; margin-bottom: 0.55rem;
+  }
+  .s-impact-headline {
+    font-family: 'DM Serif Display', serif; font-size: 1rem;
+    line-height: 1.25; margin-bottom: 0.5rem;
+  }
+  .s-impact-body { font-size: 0.8rem; line-height: 1.6; color: #4a4540; font-weight: 300; }
+
+  .s-pullquote {
+    margin: 0.5rem 0; padding: 1.6rem 0;
+    border-top: 1px solid var(--s-rule); border-bottom: 1px solid var(--s-rule);
+    display: flex; align-items: center; gap: 1.2rem;
+  }
+  .s-pq-bar { width: 3px; height: 48px; background: var(--s-pink); flex-shrink: 0; }
+  .s-pq-text {
+    font-family: 'DM Serif Display', serif; font-style: italic;
+    font-size: 1rem; line-height: 1.4; color: var(--s-ink);
+  }
+
+  .s-credentials {
+    padding: 1.5rem 0 2rem; display: flex; gap: 2rem; flex-wrap: wrap;
+  }
+  .s-cred-item { flex: 1; min-width: 140px; }
+  .s-cred-label {
+    font-family: 'DM Mono', monospace; font-size: 0.6rem; letter-spacing: 0.14em;
+    text-transform: uppercase; color: #9a9390; margin-bottom: 0.3rem;
+  }
+  .s-cred-value { font-size: 0.78rem; line-height: 1.5; color: #4a4540; font-weight: 400; }
+
+  .s-footer {
+    padding: 1.4rem 3rem; border-top: 1px solid var(--s-rule);
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+  }
+  @media (max-width: 560px) { .s-footer { padding: 1.2rem 1.5rem; flex-direction: column; align-items: flex-start; } }
+  .s-footer-brand {
+    font-family: 'DM Mono', monospace; font-size: 0.65rem;
+    letter-spacing: 0.1em; text-transform: uppercase; color: #9a9390;
+  }
+  .s-footer-brand span { color: var(--s-pink); }
+  .s-talks { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .s-talk-tag {
+    font-family: 'DM Mono', monospace; font-size: 0.6rem; letter-spacing: 0.06em;
+    color: #7a746e; border: 1px solid var(--s-rule); padding: 0.25rem 0.6rem; background: white;
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent);
+    margin: 56px 0; opacity: 0; animation: fadeUp 0.5s ease forwards 0.85s;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    font-family: var(--mono); font-size: 11px; color: var(--text-faint);
+    letter-spacing: 0.1em; text-align: center;
+    opacity: 0; animation: fadeUp 0.5s ease forwards 0.9s;
+  }
+  .footer a { color: var(--pink); text-decoration: none; }
+  .footer a:hover { opacity: 0.7; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── PRINT STYLES ── */
+  @media print {
+    body { background: white; }
+    body::before, body::after, .glow-orb, .glow-orb-2 { display: none; }
+    .wrapper { padding: 0; max-width: 100%; }
+    .eyebrow, .headline, .subhead, .date-strip, .intro, .ticker,
+    .what-section, .venue-card, .pricing-section, .form-section,
+    .success-top, .sheet-label, .download-btn, .divider, .footer { display: none !important; }
+    .success-state { display: block !important; }
+    .sheet-outer { border: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="glow-orb"></div>
+<div class="glow-orb-2"></div>
+
+<div class="wrapper">
+
+  <div class="eyebrow">Everyday Futurism · Toronto Session</div>
+
+  <h1 class="headline">Before you<br><em>commit.</em></h1>
+  <p class="subhead">Most decisions are built on ground that's already shifting. Everyday Futurism is how you examine what's beneath yours before you commit.</p>
+
+  <div class="date-strip">
+    <div class="date-cell">
+      <div class="date-label">Date</div>
+      <div class="date-value pink">May 29, 2026</div>
+    </div>
+    <div class="date-cell">
+      <div class="date-label">Format</div>
+      <div class="date-value">In-Person · Private</div>
+    </div>
+    <div class="date-cell" style="border-right:none; flex:1;">
+      <div class="date-label">Location</div>
+      <div class="date-value">Toronto, ON</div>
+    </div>
+  </div>
+
+  <p class="intro">
+    I'll be in Toronto on May 29th. I'm holding a few hours for one specific kind of work — <strong>the kind that doesn't happen on Zoom, in a boardroom with an agenda, or after the budget has already been approved.</strong>
+    <br><br>
+    Everyday Futurism isn't about predicting what's coming. It's about noticing what's already shifted — and whether the decision you're about to make was built for that reality or the last one. Most of the time, nobody checks. The budget gets approved and the assumptions travel with it.
+    <br><br>
+    If you have a decision in front of you — a direction you're about to commit to — this is the window. Private room. Proper table. My full attention on your assumptions before they become sunk cost.
+    <br><br>
+    When it fills, I'll book the room and confirm. If it doesn't, I'll tell you directly. No ghost either way.
+  </p>
+
+  <div class="ticker">
+    <div class="ticker-inner">
+      <span>Pre-adoption strategy</span><span class="ticker-sep"> · </span>
+      <span>Assumption-Ground Audit</span><span class="ticker-sep"> · </span>
+      <span>Leadership decision quality</span><span class="ticker-sep"> · </span>
+      <span>Before you commit</span><span class="ticker-sep"> · </span>
+      <span>Everyday Futurism</span><span class="ticker-sep"> · </span>
+      <span>King Street West · Toronto</span><span class="ticker-sep"> · </span>
+      <span>Pre-adoption strategy</span><span class="ticker-sep"> · </span>
+      <span>Assumption-Ground Audit</span><span class="ticker-sep"> · </span>
+      <span>Leadership decision quality</span><span class="ticker-sep"> · </span>
+      <span>Before you commit</span><span class="ticker-sep"> · </span>
+      <span>Everyday Futurism</span><span class="ticker-sep"> · </span>
+      <span>King Street West · Toronto</span><span class="ticker-sep"> · </span>
+    </div>
+  </div>
+
+  <div class="what-section">
+    <div class="section-label">What this is</div>
+    <div class="what-grid">
+      <div class="what-item">
+        <div class="what-num">01</div>
+        <div class="what-text">
+          <strong>Half-day working session</strong>
+          Three hours, in person. Your decision on the table. The Assumption-Ground Audit surfaces what's been inherited, pressured, or assumed: the logic that felt settled because everyone agreed with it. We check whether the ground beneath it holds as things shift, before you commit to a direction built for a reality you may already be leaving behind.
+        </div>
+      </div>
+      <div class="what-item">
+        <div class="what-num">02</div>
+        <div class="what-text">
+          <strong>Strategic advisory hour</strong>
+          One tight hour. You arrive with one question that's costing you clarity. We examine the ground beneath it: what's inherited, what's pressure-shaped, what you're already sensing but haven't named yet. You leave with a sharper frame.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="venue-card">
+    <div class="venue-header">
+      <div class="venue-dot"></div>
+      <div class="venue-header-text">Venue · iQ Offices — 150 King Street West, Toronto</div>
+    </div>
+    <div class="venue-body">
+      <div class="venue-detail">
+        <div class="venue-detail-label">Space type</div>
+        <div class="venue-detail-value">Private Meeting Room</div>
+      </div>
+      <div class="venue-detail">
+        <div class="venue-detail-label">Neighbourhood</div>
+        <div class="venue-detail-value">Financial District</div>
+      </div>
+      <div class="venue-detail">
+        <div class="venue-detail-label">Included</div>
+        <div class="venue-detail-value">Video conferencing · High-speed Wi-Fi · Whiteboard · Water</div>
+      </div>
+      <div class="venue-detail">
+        <div class="venue-detail-label">Access</div>
+        <div class="venue-detail-value">Business hours · Concierge on-site</div>
+      </div>
+    </div>
+    <div class="venue-note">
+      Room will be confirmed and booked once waitlist demand warrants it. You'll hear from me either way — no ghost.
+    </div>
+  </div>
+
+  <div class="pricing-section">
+    <div class="section-label">Pricing · CAD, before tax</div>
+    <div class="pricing-grid">
+
+      <div class="pricing-card">
+        <div class="pricing-format">Format 01</div>
+        <div class="pricing-name">Strategic Advisory Hour</div>
+        <div class="pricing-duration">1 hour · in person</div>
+        <div class="pricing-amount">CAD$500</div>
+        <div class="pricing-currency">+ tax · credited toward future engagements</div>
+        <div class="pricing-desc">
+          You arrive with one question that's costing you clarity. We spend the hour on what's underneath it — the assumptions that feel settled, the logic that formed under different conditions, the signals you're already reading but not quite trusting yet. You leave with a sharper frame and a clear sense of what to do next.
+        </div>
+        <div class="pricing-note">No pre-work required. Invoiced on confirmation. If you go on to book a keynote or longer-term engagement, the CAD$500 is applied to that fee.</div>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-format">Format 02</div>
+        <div class="pricing-name">Half-Day Working Session</div>
+        <div class="pricing-duration">~3 hours · in person</div>
+        <div class="pricing-amount">CAD$1,500</div>
+        <div class="pricing-currency">+ tax · credited toward future engagements</div>
+        <div class="pricing-desc">
+          This format has never been offered before. Three hours, in person, with my full attention on the ground beneath your decision. We examine whether it holds as things shift — before you've committed the budget, the people, or the momentum. The Assumption-Ground Audit in real time. I have no stake in your answer. That's the point.
+        </div>
+        <div class="pricing-note">First time offered. Brief intake form sent on confirmation. Invoiced in advance. If you go on to book a keynote or longer-term engagement, the CAD$1,500 is applied to that fee.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="form-section">
+    <h2 class="form-title">Add your name.</h2>
+    <p class="form-sub">No payment. No commitment yet. Just signal — so I know whether to book the room.</p>
+
+    <form id="waitlist-form" action="https://app.kit.com/forms/9437887/subscriptions" method="POST" onsubmit="return validateForm(event)">
+      <div class="field-row">
+        <div class="field">
+          <label for="fname">First name</label>
+          <input type="text" id="fname" name="first_name" placeholder="Given name">
+        </div>
+        <div class="field">
+          <label for="lname">Last name</label>
+          <input type="text" id="lname" name="fields[last_name]" placeholder="Family name">
+        </div>
+      </div>
+      <div class="field">
+        <label for="email">Email address</label>
+        <input type="email" id="email" name="email_address" placeholder="you@organization.com">
+      </div>
+      <div class="field">
+        <label for="org">Role & organization</label>
+        <input type="text" id="org" name="fields[organization_role]" placeholder="Title and level — VP Strategy, Director of Operations, that kind of thing">
+      </div>
+      <div class="field">
+        <label for="format">Format interest</label>
+        <select id="format" name="fields[preferred_format]">
+          <option value="" disabled selected>Select one</option>
+          <option value="advisory">Strategic advisory hour — CAD$500</option>
+          <option value="half-day">Half-day working session — CAD$1,500</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="context">What's the question on the table? <span style="opacity:0.5;">(optional)</span></label>
+        <textarea id="context" name="fields[context]" placeholder="The thing you're trying to think through — even if it's half-formed."></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Join the waitlist</button>
+      <p class="form-fine">No spam. No sales sequence. Just a direct note from me when the decision is made.</p>
+    </form>
+
+    <!-- SUCCESS STATE — also shown when #confirmed is in URL (Kit redirect) -->
+    <div class="success-state" id="success-state">
+
+      <div class="success-top">
+        <div class="success-icon">✦</div>
+        <h3 class="success-title">You're on the list, <em id="success-name">friend.</em></h3>
+        <p class="success-text">
+          I'll be in touch directly once I know whether the room is happening. Either way, you'll hear from me — no ghost, no auto-sequence.
+        </p>
+        <button class="download-btn" onclick="window.print()">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 1v8M4 6l3 3 3-3M2 10v1a1 1 0 001 1h8a1 1 0 001-1v-1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Download speaker sheet
+        </button>
+      </div>
+
+      <div class="sheet-label">About Nola Simon — Everyday Futurism</div>
+      <div class="sheet-outer">
+        <div class="speaker-sheet">
+          <div class="s-accent-bar"></div>
+          <div class="s-deco-circle"></div>
+          <div class="s-deco-circle-2"></div>
+
+          <div class="s-header">
+            <div>
+              <div class="s-name">Nola <em>Simon</em></div>
+              <div class="s-role">Keynote Speaker &amp; Strategic Advisor</div>
+              <div class="s-sub-role">Founder, Everyday Futurism &nbsp;·&nbsp; Keswick, Ontario</div>
+            </div>
+            <div class="s-contact">
+              <div><a href="https://nolasimon.com">nolasimon.com</a></div>
+              <div>LinkedIn Top Voice 2024 &amp; 2025</div>
+              <div>Maclean's · CBC · CTV · The Canadian Press</div>
+            </div>
+          </div>
+
+          <div class="s-body">
+            <div class="s-lead">
+              <div class="s-lead-text">
+                She reduces the cost of being wrong <strong>before anyone realizes they're about to be.</strong> Her work happens in the window between decision and commitment — where assumptions still have a price tag.
+              </div>
+            </div>
+
+            <div class="s-impact">
+              <div class="s-impact-item">
+                <div class="s-impact-label">Risk Reduction</div>
+                <div class="s-impact-headline">Pre-commitment assumption forensics</div>
+                <div class="s-impact-body">The Assumption-Ground Audit surfaces flawed logic before it becomes sunk cost. Organizations commit to directions — technology, structure, strategy — before the ground beneath has been examined. By the time the error surfaces, the budget is spent and the board has been told.</div>
+              </div>
+              <div class="s-impact-item">
+                <div class="s-impact-label">Decision Quality</div>
+                <div class="s-impact-headline">Examined ground, not inherited consensus</div>
+                <div class="s-impact-body">She doesn't tell leaders what to decide. She ensures the decision is built on tested assumptions — not legacy logic, pressure-shaped consensus, or inherited orthodoxy. C-suite and senior leaders leave with clarity, not just a recommendation.</div>
+              </div>
+              <div class="s-impact-item">
+                <div class="s-impact-label">Structural Independence</div>
+                <div class="s-impact-headline">The only advisor whose value increases if the answer is no</div>
+                <div class="s-impact-body">Her fee is unchanged regardless of which direction a client goes. This isn't a policy — it's the structural point. Most advisors and vendors have something to gain from yes. She doesn't. That independence is the product.</div>
+              </div>
+              <div class="s-impact-item">
+                <div class="s-impact-label">Institutional Pattern Recognition</div>
+                <div class="s-impact-headline">17 years inside the machine</div>
+                <div class="s-impact-body">Manulife/John Hancock: billion-dollar vendor relationships, cross-border Canada–US operations at scale. She knows what gets missed inside large organizations because she lived inside one. She ran a hybrid work pilot in 2012 — a decade before the language existed.</div>
+              </div>
+            </div>
+
+            <div class="s-pullquote">
+              <div class="s-pq-bar"></div>
+              <div class="s-pq-text">"Speed to clarity, not speed to action. The pressure in most organizations runs toward momentum — her value is in slowing down the right moment so the organization moves faster with confidence."</div>
+            </div>
+
+            <div class="s-credentials">
+              <div class="s-cred-item">
+                <div class="s-cred-label">Methodology</div>
+                <div class="s-cred-value">Assumption-Ground Audit (AGA)<br>Witnessed Trust<br>Everyday Futurism</div>
+              </div>
+              <div class="s-cred-item">
+                <div class="s-cred-label">Background</div>
+                <div class="s-cred-value">17 yrs Manulife/John Hancock<br>Mathematics &amp; History, Glendon/York<br>Star of Excellence (top &lt;1% of 38,000)</div>
+              </div>
+              <div class="s-cred-item">
+                <div class="s-cred-label">Media &amp; Recognition</div>
+                <div class="s-cred-value">Maclean's · CBC · CTV · CityNews<br>The Canadian Press · Reworked<br>Newstalk 1010</div>
+              </div>
+              <div class="s-cred-item">
+                <div class="s-cred-label">Booking</div>
+                <div class="s-cred-value">Direct — no bureau representation<br>nolasimon.com<br>TidyCal</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="s-footer">
+            <div class="s-footer-brand">Everyday <span>Futurism</span> &nbsp;·&nbsp; Practice not prediction</div>
+            <div class="s-talks">
+              <div class="s-talk-tag">What You're Not Asking Before You Commit</div>
+              <div class="s-talk-tag">Witnessed Trust</div>
+              <div class="s-talk-tag">Before You Commit</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="footer">
+    <a href="https://nolasimon.com">nolasimon.com</a>
+    &nbsp;·&nbsp;
+    <a href="https://newsletter.everydayfuturism.com">Substack</a>
+    &nbsp;·&nbsp;
+    Everyday Futurism · Keswick, Ontario
+  </div>
+
+</div>
+
+<script>
+  // ── Show success state if Kit redirects here with #confirmed ──
+  (function() {
+    if (window.location.hash === '#confirmed') {
+      showSuccess('');
+    }
+  })();
+
+  function showSuccess(name) {
+    document.getElementById('waitlist-form').style.display = 'none';
+    const s = document.getElementById('success-state');
+    s.classList.add('visible');
+    if (name) document.getElementById('success-name').textContent = name + '.';
+    s.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function validateForm(event) {
+    const fname = document.getElementById('fname').value.trim();
+    const email = document.getElementById('email').value.trim();
+
+    if (!fname) {
+      const el = document.getElementById('fname');
+      el.style.borderColor = '#ec4197'; el.focus(); return false;
+    }
+    if (!email || !email.includes('@')) {
+      const el = document.getElementById('email');
+      el.style.borderColor = '#ec4197'; el.focus(); return false;
+    }
+
+    return true;
+  }
+
+  ['fname','lname','email','org'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener('input', () => { el.style.borderColor = ''; });
+  });
+</script>
+</body>
+</html>
