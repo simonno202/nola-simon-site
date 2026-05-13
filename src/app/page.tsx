@@ -8,11 +8,16 @@ import { ProofBar } from "@/components/ui/ProofBar";
 import { NewsletterCTA } from "@/components/ui/NewsletterCTA";
 
 export const metadata: Metadata = {
-  title: "Nola Simon | Everyday Futurism",
+  title: "Nola Simon | Keynote Speaker & Strategic Futurist",
   description:
-    "Futurist and researcher. The future isn't predicted — it's practiced. Self-trust, signal reading, and intentional moves.",
+    "Nola Simon is a keynote speaker and strategic futurist based in Ontario, Canada, available for events worldwide. She helps leaders and organizations read the signals, question their assumptions, and build what's next.",
   alternates: {
     canonical: "https://nolasimon.com",
+  },
+  openGraph: {
+    title: "Nola Simon | Keynote Speaker & Strategic Futurist",
+    description:
+      "Nola Simon is a keynote speaker and strategic futurist based in Ontario, Canada, available for events worldwide. She helps leaders and organizations read the signals, question their assumptions, and build what's next.",
   },
 };
 

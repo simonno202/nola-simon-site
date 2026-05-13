@@ -29,18 +29,9 @@ export const metadata: Metadata = {
     title: "Nola Simon — The Future Isn't Predicted. It's Practiced.",
     description:
       "Strategic futurist, researcher & podcast host helping leaders read the signals, trust themselves, and build what's next. Based in Ontario, Canada.",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Nola Simon — Everyday Futurism. The future isn't predicted. It's practiced.",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
