@@ -241,6 +241,14 @@ export default function AdvisorySpeakingPage() {
               >
                 Download Full Kit (PDF)
               </a>
+              <a
+                href="https://speakerhub.com/speaker/nola-simon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
+              >
+                SpeakerHub Profile
+              </a>
             </div>
 
             <p className="mt-6">

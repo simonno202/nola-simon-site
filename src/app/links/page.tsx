@@ -90,6 +90,7 @@ const siteLinks = [
   { label: "Can You Read a Trust Signal? — Quiz", href: "https://nolasimon.com/trust-signal-quiz.html" },
   { label: "Speaker Kit — One-Pager", href: "https://nolasimon.com/speaker-kit.html" },
   { label: "Full Speaker Kit (PDF)", href: "https://nolasimon.com/nola-simon-speaker-kit.pdf" },
+  { label: "SpeakerHub Profile", href: "https://speakerhub.com/speaker/nola-simon" },
 ];
 
 /* ── Icons ── */
