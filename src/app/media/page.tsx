@@ -361,6 +361,14 @@ export default function MediaPage() {
               >
                 Speaker Logistics (Fees &amp; Travel)
               </a>
+              <a
+                href="https://speakerhub.com/speaker/nola-simon"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-1 inline-flex items-center gap-1 text-[12px] text-text-muted hover:text-pink hover:underline transition-colors"
+              >
+                SpeakerHub Profile
+              </a>
             </div>
           </div>
         </div>
