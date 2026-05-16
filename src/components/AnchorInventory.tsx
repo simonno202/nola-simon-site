@@ -487,6 +487,27 @@ function ResultsScreen({ path, answers }: { path: string; answers: Record<number
           </div>
         )}
 
+        {/* Why I built this */}
+        <div style={{ background: "white", border: `1px solid ${BRAND.sand}`, borderLeft: `3px solid ${BRAND.pink}`, padding: "1.75rem", marginBottom: "2rem" }}>
+          <div style={{ fontFamily: "monospace", fontSize: "0.6rem", letterSpacing: "0.15em", textTransform: "uppercase", color: BRAND.pink, marginBottom: "1rem" }}>Why I built this</div>
+          <p style={{ fontFamily: "Georgia, serif", fontSize: "1.05rem", lineHeight: 1.75, color: BRAND.ink, marginBottom: "1rem" }}>
+            My daughter graduated in June 2023. She didn&apos;t start university until August 2024. For that year in between, she was becoming an adult, and the role of mom was turning into something closer to advisor.
+          </p>
+          <p style={{ fontFamily: "Georgia, serif", fontSize: "1.05rem", lineHeight: 1.75, color: BRAND.ink, marginBottom: "1.25rem" }}>
+            That&apos;s when the anchor question stopped being abstract for me. Not <em>what&apos;s my next move</em> — what holds steady when a role you&apos;ve stood on changes shape under you. Same question I help leaders work through now, before they decide what to move.
+          </p>
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.97rem", lineHeight: 1.7, color: "#3a3834", marginBottom: "1rem" }}>
+            If the inventory surfaced something — a gap, a question, an anchor you&apos;d stopped noticing — I&apos;d like to hear about it.{" "}
+            <a href="mailto:nola@nolasimon.com" style={{ color: BRAND.pinkDark, textDecoration: "underline" }}>nola@nolasimon.com</a>
+          </p>
+          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.97rem", lineHeight: 1.7, color: "#3a3834", marginBottom: "1rem" }}>
+            When the question belongs to a whole organization and not one person, the Assumption-Ground Audit is where it goes next.
+          </p>
+          <a href="/aga" style={{ display: "inline-block", fontFamily: "system-ui, sans-serif", fontSize: "0.95rem", fontWeight: 500, color: BRAND.pink, textDecoration: "none", borderBottom: `1px solid ${BRAND.pink}`, paddingBottom: "2px" }}>
+            Learn about the AGA →
+          </a>
+        </div>
+
         <div style={{ height: 1, background: BRAND.sand, margin: "2rem 0" }} />
 
         {/* Email CTA */}
