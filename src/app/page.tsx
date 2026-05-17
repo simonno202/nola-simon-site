@@ -28,7 +28,7 @@ export default function HomePage() {
       <SectionWrapper className="bg-cream py-12 lg:py-20 xl:py-28 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_420px] lg:items-center lg:gap-10">
           <div>
-            <Eyebrow>FUTURIST &amp; RESEARCHER</Eyebrow>
+            <Eyebrow>KEYNOTE SPEAKER &amp; STRATEGIC FUTURIST</Eyebrow>
 
             <h1
               className="font-sans font-normal text-navy mt-4"
@@ -39,9 +39,15 @@ export default function HomePage() {
               It&rsquo;s practiced.
             </h1>
 
-            <p className="mt-4 text-[15px] font-medium text-navy max-w-xl">
-              I&rsquo;m Nola Simon &mdash; a Canadian strategic futurist and
-              researcher based in Ontario.
+            <p className="mt-4 text-[16px] leading-relaxed text-navy max-w-xl">
+              I help leaders and organizations trust themselves to read the
+              signals already around them&nbsp;&mdash; and make intentional moves
+              before the status quo collapses underneath them.
+            </p>
+
+            <p className="mt-4 text-[15px] font-medium text-text-secondary max-w-xl">
+              I&rsquo;m Nola Simon &mdash; a keynote speaker and strategic
+              futurist based in Ontario, Canada.
             </p>
 
             <p className="mt-4 text-[16px] leading-relaxed text-text-secondary max-w-xl">
@@ -50,22 +56,12 @@ export default function HomePage() {
               what&rsquo;s shifting right now, before it has a name.
             </p>
 
-            <p className="mt-4 text-[15px] leading-relaxed text-text-secondary max-w-xl">
-              I help leaders and organizations trust themselves to read the
-              signals already around them&nbsp;&mdash; and make intentional moves
-              before the status quo collapses underneath them.
-            </p>
-
             <div className="mt-8 flex flex-wrap gap-4">
               <Button href="/advisory-speaking" variant="primary">
                 Work With Me
               </Button>
-              <Button
-                href="https://tidycal.com/nola/intro-consultation-nola-simon"
-                external
-                variant="secondary"
-              >
-                Book an Intro Consultation
+              <Button href="/blog" variant="secondary">
+                Read the Writing
               </Button>
             </div>
           </div>

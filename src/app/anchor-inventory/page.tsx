@@ -271,15 +271,9 @@ export default function AnchorInventoryPage() {
       <div className="anchor-framing">
         <div className="anchor-prose">
           <p>
-            My daughter was on a gap year. Her friends were all at university. The world was moving
-            and she wasn&rsquo;t &mdash; or at least, not in the same direction. I told her: when
-            everything is shifting, you need something concrete to hold onto until you stabilize.
-            Then you can go with the flow.
-          </p>
-          <p>
-            That&rsquo;s what an anchor is. Not what&rsquo;s keeping you stuck. Something to hold
-            onto when everything around you is moving &mdash; until you can move again from a place
-            you actually chose.
+            An anchor isn&rsquo;t what&rsquo;s keeping you stuck. It&rsquo;s something concrete to
+            hold onto when everything around you is moving &mdash; until you can move again from a
+            place you actually chose.
           </p>
           <p>
             Drift happens in organizations the same way. Leaders aren&rsquo;t drifting because

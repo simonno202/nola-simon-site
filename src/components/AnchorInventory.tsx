@@ -14,9 +14,6 @@ const BRAND = {
   muted: "#9a8f8a",
 };
 
-// Kit form submission endpoint
-const KIT_FORM_URL = "https://app.convertkit.com/forms/430927c5eb/subscriptions";
-
 const questions: Record<string, Question[]> = {
   individual: [
     {
@@ -392,10 +389,6 @@ function QuizScreen({ path, onDone }: { path: string; onDone: (answers: Record<n
 }
 
 function ResultsScreen({ path, answers }: { path: string; answers: Record<number, number> }) {
-  const [email, setEmail] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-  const [skipped, setSkipped] = useState(false);
-  const [submitting, setSubmitting] = useState(false);
   const isOrg = path === "organization";
   const { pct, strong, moderate, emerging, inheritedFlag } = computeResults(path, answers);
 
@@ -410,26 +403,6 @@ function ResultsScreen({ path, answers }: { path: string; answers: Record<number
     : pct >= 50
     ? `The foundation is there — some of it stronger than ${isOrg ? "the organization may currently recognize" : "you may be giving yourself credit for"}. What shows up as present rather than holding isn't gone. It's under-tended. ${strong.length > 0 ? `${cap(strong[0])} is your most reliable point of return right now — the place to stand before you decide what moves next.` : "The anchors that remain need deliberate attention, not more motion."} The instinct to keep moving is understandable. This is a moment to also look down at what you're standing on.`
     : `This inventory is most useful at exactly this kind of moment. Not because ${isOrg ? "the organization has" : "you have"} nothing to stand on — but because some of what felt solid may have been borrowed rather than built, inherited rather than examined. That's not failure. It's information. The re-grounding work is real work, and it starts with being honest about which anchors were always yours and which ones you assumed were.`;
-
-  const handleSubmit = async () => {
-    if (!email.includes("@")) return;
-    setSubmitting(true);
-    try {
-      const formData = new URLSearchParams();
-      formData.append("email_address", email);
-      await fetch(KIT_FORM_URL, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: formData.toString(),
-        mode: "no-cors",
-      });
-    } catch {
-      // Fail silently — show success regardless
-    } finally {
-      setSubmitting(false);
-      setSubmitted(true);
-    }
-  };
 
   const MapRow = ({ items, rowLabel, fillPct }: { items: string[]; rowLabel: string; fillPct: number }) =>
     items.slice(0, 2).map((a) => (
@@ -450,7 +423,7 @@ function ResultsScreen({ path, answers }: { path: string; answers: Record<number
         <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "1rem", color: "rgba(253,249,247,0.65)", fontStyle: "italic" }}>{label}</p>
       </div>
 
-      <div style={{ maxWidth: 720, margin: "0 auto", padding: "2.5rem 1.5rem 4rem" }}>
+      <div style={{ maxWidth: 720, margin: "0 auto", padding: "2.5rem 1.5rem 1.5rem" }}>
         {/* Map */}
         <div style={{ background: "white", border: `1px solid ${BRAND.sand}`, padding: "2rem", marginBottom: "2.5rem" }}>
           <div style={{ fontFamily: "monospace", fontSize: "0.6rem", letterSpacing: "0.15em", textTransform: "uppercase", color: BRAND.muted, textAlign: "center", marginBottom: "1.75rem" }}>Your Anchor Map</div>
@@ -496,58 +469,15 @@ function ResultsScreen({ path, answers }: { path: string; answers: Record<number
           <p style={{ fontFamily: "Georgia, serif", fontSize: "1.05rem", lineHeight: 1.75, color: BRAND.ink, marginBottom: "1.25rem" }}>
             That&apos;s when the anchor question stopped being abstract for me. Not <em>what&apos;s my next move</em> — what holds steady when a role you&apos;ve stood on changes shape under you. Same question I help leaders work through now, before they decide what to move.
           </p>
-          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.97rem", lineHeight: 1.7, color: "#3a3834", marginBottom: "1rem" }}>
+          <p style={{ fontFamily: "Georgia, serif", fontSize: "0.98rem", lineHeight: 1.7, color: "#3a3834", margin: 0 }}>
             If the inventory surfaced something — a gap, a question, an anchor you&apos;d stopped noticing — I&apos;d like to hear about it.{" "}
             <a href="mailto:nola@nolasimon.com" style={{ color: BRAND.pinkDark, textDecoration: "underline" }}>nola@nolasimon.com</a>
           </p>
-          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.97rem", lineHeight: 1.7, color: "#3a3834", marginBottom: "1rem" }}>
-            When the question belongs to a whole organization and not one person, the Assumption-Ground Audit is where it goes next.
-          </p>
-          <a href="/aga" style={{ display: "inline-block", fontFamily: "system-ui, sans-serif", fontSize: "0.95rem", fontWeight: 500, color: BRAND.pink, textDecoration: "none", borderBottom: `1px solid ${BRAND.pink}`, paddingBottom: "2px" }}>
-            Learn about the AGA →
-          </a>
         </div>
 
-        <div style={{ height: 1, background: BRAND.sand, margin: "2rem 0" }} />
+        <div style={{ height: 1, background: BRAND.sand, margin: "2rem 0 1.5rem" }} />
 
-        {/* Email CTA */}
-        <div style={{ background: BRAND.deep, padding: "2.5rem", textAlign: "center" }}>
-          <h3 style={{ fontFamily: "Georgia, serif", fontSize: "1.5rem", fontWeight: 400, color: BRAND.parchment, marginBottom: "0.6rem" }}>Want to go deeper?</h3>
-          <p style={{ fontFamily: "system-ui, sans-serif", fontSize: "0.95rem", color: "rgba(253,249,247,0.65)", fontStyle: "italic", marginBottom: "1.5rem", lineHeight: 1.65 }}>Essays on trust, leadership, and the future of work. No noise. Just signal.</p>
-          {!submitted && !skipped ? (
-            <>
-              <div style={{ display: "flex", maxWidth: 400, margin: "0 auto 0.85rem" }}>
-                <input
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  onKeyDown={(e) => { if (e.key === "Enter") handleSubmit(); }}
-                  type="email"
-                  placeholder="your@email.com"
-                  style={{ flex: 1, padding: "0.8rem 1rem", border: "1px solid rgba(253,249,247,0.25)", background: "rgba(253,249,247,0.08)", color: BRAND.parchment, fontFamily: "system-ui, sans-serif", fontSize: "0.95rem", outline: "none" }}
-                />
-                <button
-                  onClick={handleSubmit}
-                  disabled={submitting}
-                  style={{ padding: "0.8rem 1.25rem", background: BRAND.pink, border: "none", color: "white", fontFamily: "system-ui, sans-serif", fontSize: "0.95rem", fontWeight: 500, cursor: submitting ? "wait" : "pointer", whiteSpace: "nowrap", opacity: submitting ? 0.75 : 1 }}
-                >
-                  {submitting ? "Sending…" : "Send it to me"}
-                </button>
-              </div>
-              <button
-                onClick={() => setSkipped(true)}
-                style={{ background: "none", border: "none", color: "rgba(253,249,247,0.38)", fontFamily: "system-ui, sans-serif", fontSize: "0.82rem", fontStyle: "italic", textDecoration: "underline", cursor: "pointer" }}
-              >
-                No thanks, I&apos;m good with what I have
-              </button>
-            </>
-          ) : (
-            <p style={{ fontFamily: "Georgia, serif", fontSize: "1.1rem", fontStyle: "italic", color: BRAND.pink }}>
-              {submitted ? "Good. Watch for it. — Nola" : "That's fair. The anchors are yours either way."}
-            </p>
-          )}
-        </div>
-
-        <div style={{ textAlign: "center", marginTop: "2.5rem", fontFamily: "monospace", fontSize: "0.6rem", letterSpacing: "0.18em", textTransform: "uppercase", color: BRAND.muted }}>
+        <div style={{ textAlign: "center", fontFamily: "monospace", fontSize: "0.6rem", letterSpacing: "0.18em", textTransform: "uppercase", color: BRAND.muted }}>
           A tool from <span style={{ color: BRAND.pink }}>Everyday Futurism</span> &middot; nolasimon.com
         </div>
       </div>
