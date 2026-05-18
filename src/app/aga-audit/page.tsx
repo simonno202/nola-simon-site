@@ -409,8 +409,26 @@ export default function AGAAuditPage() {
         body: JSON.stringify({ messages: newHistory, mode }),
       });
 
-      const data = await res.json();
-      const raw: string = data.text || "";
+      const data = await res.json().catch(() => ({}));
+
+      if (!res.ok || !data.text) {
+        const detail =
+          data && typeof data.error === "string" ? ` (${data.error})` : "";
+        setMessages((m) => {
+          const updated = [
+            ...m,
+            {
+              role: "assistant" as const,
+              content: `The audit couldn't respond just now${detail}. Please try again in a moment.`,
+            },
+          ];
+          setNewMsgIndex(updated.length - 1);
+          return updated;
+        });
+        return;
+      }
+
+      const raw: string = data.text;
       const assumption = parseAssumption(raw);
       const content = assumption ? cleanText(raw) : raw;
 
@@ -423,10 +441,18 @@ export default function AGAAuditPage() {
       });
       if (assumption) setDone(true);
     } catch {
-      setMessages((m) => [
-        ...m,
-        { role: "assistant", content: "Something went wrong. Please try again." },
-      ]);
+      setMessages((m) => {
+        const updated = [
+          ...m,
+          {
+            role: "assistant" as const,
+            content:
+              "Something went wrong reaching the audit. Please try again.",
+          },
+        ];
+        setNewMsgIndex(updated.length - 1);
+        return updated;
+      });
     } finally {
       setLoading(false);
     }
