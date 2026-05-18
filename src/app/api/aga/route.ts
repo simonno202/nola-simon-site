@@ -90,9 +90,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         {
           error:
-            "Server not configured: ANTHROPIC_API_KEY is missing in this environment.",
+            "The audit is temporarily unavailable. Please try again later.",
         },
-        { status: 500 },
+        { status: 503 },
       );
     }
     const client = new Anthropic({ apiKey });
@@ -119,20 +119,12 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({ text });
   } catch (error) {
+    // Full detail stays in the server log for the owner; clients only ever
+    // see a generic message — never raw Anthropic or billing text.
     console.error("AGA API error:", error);
-    // Anthropic error messages never contain the API key — safe to surface
-    // the type/status so the failure is diagnosable without server logs.
-    if (error instanceof Anthropic.APIError) {
-      return NextResponse.json(
-        {
-          error: `Anthropic API error (${error.status ?? "?"} ${error.name}): ${error.message}`,
-        },
-        { status: 502 },
-      );
-    }
     return NextResponse.json(
-      { error: "Internal server error" },
-      { status: 500 },
+      { error: "The audit is temporarily unavailable. Please try again later." },
+      { status: 503 },
     );
   }
 }

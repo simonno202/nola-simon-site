@@ -412,14 +412,13 @@ export default function AGAAuditPage() {
       const data = await res.json().catch(() => ({}));
 
       if (!res.ok || !data.text) {
-        const detail =
-          data && typeof data.error === "string" ? ` (${data.error})` : "";
         setMessages((m) => {
           const updated = [
             ...m,
             {
               role: "assistant" as const,
-              content: `The audit couldn't respond just now${detail}. Please try again in a moment.`,
+              content:
+                "The audit couldn't respond just now. Please try again in a little while.",
             },
           ];
           setNewMsgIndex(updated.length - 1);
