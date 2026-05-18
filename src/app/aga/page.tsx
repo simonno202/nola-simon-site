@@ -42,6 +42,12 @@ export const metadata: Metadata = {
 
 const agaEssays = [
   {
+    title: "The No-Go Zone",
+    description:
+      "A billion-dollar vendor, a baseball game, and the line nobody writes down. The conceptual entry point: how to tell a constraint that's real from one nobody ever questioned — Fixed, Protected, or Unexamined.",
+    href: "/blog/the-no-go-zone",
+  },
+  {
     title: "The $30 Million Assumption Nobody Checked",
     description:
       "One school board policy. One unexamined assumption. Eighteen months of upstream work. $30 million in recovered value — and counting. The clearest worked example of an AGA in practice.",
@@ -775,6 +781,11 @@ export default function AGAPage() {
                 Not sure where to start? Try the pre-adoption tools first. →
               </a>
             </p>
+            <p style={{ marginTop: "12px" }}>
+              <a href="/aga-audit" className="aga-inline-link">
+                Prefer a guided conversation? Run the audit interactively. →
+              </a>
+            </p>
           </div>
         </section>
 
@@ -1129,13 +1140,14 @@ export default function AGAPage() {
         {/* ── ESSAYS ── */}
         <section className="aga-section">
           <span className="aga-section-label">The AGA in practice</span>
-          <h2>Three positions. One discipline.</h2>
+          <h2>The concept, then the cases.</h2>
           <div className="aga-prose" style={{ marginBottom: "36px" }}>
             <p>
-              An organizational assumption that cost $30 million before anyone
-              checked it. A process designed to look like discovery while the
-              answer was already decided. And the audit that&rsquo;s hardest to
-              run — the one you do on yourself.
+              Start with the No-Go Zone &mdash; where an organization&rsquo;s
+              real constraints hide behind its stated ones. Then the worked
+              examples: a $30 million assumption nobody checked, a process built
+              to look like discovery, and the audit that&rsquo;s hardest to run
+              &mdash; the one you do on yourself.
             </p>
           </div>
           <div className="aga-essays">

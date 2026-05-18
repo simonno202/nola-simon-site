@@ -24,6 +24,16 @@ const CORNERSTONE = {
     "This is the essay that shows the Assumption-Ground Audit and Witnessed Trust in the same story: what it costs when ground is assumed rather than examined, and what changes when someone finally checks it.",
 };
 
+const NOGOZONE = {
+  slug: "the-no-go-zone",
+  title: "The No-Go Zone",
+  meta: "Essay \xB7 Assumption-Ground Audit \xB7 May 18, 2026",
+  description:
+    "A billion-dollar vendor, a baseball game, and the line nobody writes down — where what an organization depends on quietly meets what it can acknowledge out loud.",
+  description2:
+    "The conceptual entry point to the Assumption-Ground Audit: how to tell a constraint that's real from one nobody ever questioned.",
+};
+
 const LATEST = {
   slug: "the-throughline-is-the-future",
   title: "The Throughline Is the Future",
@@ -184,6 +194,44 @@ export default function WritingPage() {
             <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
               <Link
                 href={`/blog/${CORNERSTONE.slug}`}
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the essay &rarr;
+              </Link>
+              <Link
+                href="/aga"
+                className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
+              >
+                Explore the AGA &rarr;
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </SectionWrapper>
+
+      {/* ── The No-Go Zone ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>THE NO-GO ZONE</Eyebrow>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+          The concept the Assumption-Ground Audit starts from — read this before the worked examples.
+        </p>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              {NOGOZONE.meta}
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              {NOGOZONE.title}
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              {NOGOZONE.description}
+            </p>
+            <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+              {NOGOZONE.description2}
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
+              <Link
+                href={`/blog/${NOGOZONE.slug}`}
                 className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
               >
                 Read the essay &rarr;
