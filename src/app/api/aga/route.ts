@@ -83,7 +83,19 @@ export async function POST(req: NextRequest) {
 
     // Instantiate per-request so the build/deploy does not crash when
     // ANTHROPIC_API_KEY is absent — the SDK constructor throws without it.
-    const client = new Anthropic();
+    // Trim defends against a pasted key with trailing whitespace/newline.
+    const apiKey = process.env.ANTHROPIC_API_KEY?.trim();
+    if (!apiKey) {
+      console.error("AGA API error: ANTHROPIC_API_KEY is not set");
+      return NextResponse.json(
+        {
+          error:
+            "Server not configured: ANTHROPIC_API_KEY is missing in this environment.",
+        },
+        { status: 500 },
+      );
+    }
+    const client = new Anthropic({ apiKey });
 
     const systemText = mode === "facilitated" ? FAC_SYSTEM : SYSTEM;
 
@@ -108,6 +120,16 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ text });
   } catch (error) {
     console.error("AGA API error:", error);
+    // Anthropic error messages never contain the API key — safe to surface
+    // the type/status so the failure is diagnosable without server logs.
+    if (error instanceof Anthropic.APIError) {
+      return NextResponse.json(
+        {
+          error: `Anthropic API error (${error.status ?? "?"} ${error.name}): ${error.message}`,
+        },
+        { status: 502 },
+      );
+    }
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 },
