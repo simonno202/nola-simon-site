@@ -129,6 +129,18 @@ export const signals: Signal[] = [
     relatedTo: ["witnessed-trust", "assumption-ground-audit"],
   },
   {
+    id: "commencement-ai-backlash",
+    date: "May 2026",
+    status: "breaking",
+    signal: "The inevitability frame is breaking on contact — audiences are rejecting the AI rhetoric itself, not just the messaging",
+    origin: "Nautilus (May 19), BBC News (May 18), Sinead Bovell on TikTok (May 19), Ema | Digital Transformation on TikTok (May 19) — four sources, one week, May 2026",
+    evidence: "Three commencement speakers booed in real time using near-identical framing. Eric Schmidt at University of Arizona: 'next technological transformation, larger, faster, more consequential.' Gloria Caulfield at UCF: 'rise of artificial intelligence is the next industrial revolution.' Scott Borchetta at MTSU: 'you can hear me now, or you can pay me later.' Schmidt's pre-emptive acknowledgment — 'I know it feels written, I can hear you' — did not stop the boos. Lumina Foundation-Gallup 2026 State of Higher Education: students are changing fields of study away from entry-level tech and stats toward critical thinking, communication, and human-centric work — voting with their enrollment choices before the future arrives. Pew Research 2026: 50% of US adults more concerned than excited about AI in daily life versus 10% more excited than concerned. A 5:1 ratio. Sinead Bovell named the backlash as signal rather than noise — while reproducing, captioned over footage, the timeline-collapse framing ('all white collar work is going to be gone in 18 months') that produces it. Ema | Digital Transformation named the prior question that was skipped: 'Why can't we get it through their heads that people don't want AI infused into every aspect of their lives? We are leading all of this wrong and not thinking about the type of future [we] WANT to create.'",
+    read: "This is not a messaging problem. Schmidt's acknowledgment-then-pivot proves better delivery does not recover the frame. The frame is the problem. Four sources, two coverage angles, two creator responses, two datasets — all pointing at the same fracture in one week. The inevitability frame is now an active liability with the cohort that will live longest with the technology. The 5:1 Pew ratio inverts the assumption about who agrees with the boosters. The boosters are the 10%, not the 90%. Leadership skipped from 'is this desirable' to 'how fast can we deploy.' The prior question was never asked — and the audiences asking it are no longer waiting.",
+    tension: "The frame being broken publicly is also the frame most change leaders are still using internally. Any leader deploying either the inevitability frame or the urgency/timeline-collapse frame is inheriting both the audience reaction and inverted demographics about who agrees with them. Sinead Bovell correctly diagnoses the backlash as signal while reproducing the framing that produces it — in the same video. That is not hypocrisy. That is how deep the frame runs. The people most fluent in the critique are still inside it.",
+    question: "If you have used the words 'next industrial revolution' or 'it's not a matter of if, but when' in the last 90 days — who were you trying to convince? And what assumption were you protecting?",
+    relatedTo: ["futures-methodology", "inclusion-inversion", "credential-compression"],
+  },
+  {
     id: "surveillance-trust",
     date: "April 2026",
     status: "active",
