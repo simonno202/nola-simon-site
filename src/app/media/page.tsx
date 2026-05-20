@@ -310,12 +310,13 @@ export default function MediaPage() {
               <p className="mt-2 text-[13px] text-text-muted">
                 Downloadable graphic for event listings, slides, and features.
               </p>
-              <div className="mt-4 relative aspect-video rounded-lg overflow-hidden border border-border-light">
+              <div className="mt-4 rounded-lg overflow-hidden border border-border-light">
                 <Image
                   src="/images/nola-simon-reputation-wordcloud.png"
                   alt="Nola Simon reputation word cloud — Assumption, Everyday Futurism, Trust, Keynote Speaker, Strategic Futurist, AGA, Anchor Inventory, Leadership, Future of Work"
-                  fill
-                  className="object-cover"
+                  width={960}
+                  height={620}
+                  className="w-full h-auto"
                   sizes="300px"
                 />
               </div>
