@@ -288,7 +288,7 @@ export default function MediaPage() {
           </div>
 
           {/* Speaking Topics + Download */}
-          <div className="mt-8 grid gap-8 sm:grid-cols-2">
+          <div className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-xl border border-border-light bg-cream p-6">
               <h3 className="text-sm font-semibold text-navy">Sample Talks</h3>
               <ul className="mt-3 space-y-3 text-[13px] text-text-secondary">
@@ -302,6 +302,35 @@ export default function MediaPage() {
                 </li>
               </ul>
               <p className="mt-3 text-[11px] text-text-muted">45&ndash;60 min &middot; Typically no slides &middot; Fully customized</p>
+            </div>
+
+            {/* Brand Visuals */}
+            <div className="rounded-xl border border-border-light bg-cream p-6">
+              <h3 className="text-sm font-semibold text-navy">Brand Visuals</h3>
+              <p className="mt-2 text-[13px] text-text-muted">
+                Downloadable graphic for event listings, slides, and features.
+              </p>
+              <div className="mt-4 relative aspect-video rounded-lg overflow-hidden border border-border-light">
+                <Image
+                  src="/images/nola-simon-reputation-wordcloud.png"
+                  alt="Nola Simon reputation word cloud — Assumption, Everyday Futurism, Trust, Keynote Speaker, Strategic Futurist, AGA, Anchor Inventory, Leadership, Future of Work"
+                  fill
+                  className="object-cover"
+                  sizes="300px"
+                />
+              </div>
+              <a
+                href="/images/nola-simon-reputation-wordcloud.png"
+                download
+                className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-pink hover:underline"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download PNG
+              </a>
             </div>
 
             <div className="rounded-xl border border-border-light bg-cream p-6 flex flex-col items-center justify-center text-center">
