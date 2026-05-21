@@ -7,6 +7,7 @@ import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { ConvergencesFramework } from "@/components/essay/ConvergencesFramework";
 import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle";
+import { AssumptionEtymology } from "@/components/essay/AssumptionEtymology";
 import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeriesNav";
 import { PinterestPin } from "@/components/ui/PinterestPin";
 import { ArticleSchema, FAQSchema, DefinedTermSchema, PediculosisFAQ } from "@/components/SchemaOrg";
@@ -15,6 +16,7 @@ import { PinterestImagePicker } from "@/components/ui/PinterestImagePicker";
 const mdxComponents = {
   ConvergencesFramework,
   AssumptionGroundCycle,
+  AssumptionEtymology,
   WitnessedTrustSeriesNav,
   PinterestPin,
   FAQSchema,
