@@ -225,6 +225,29 @@ export default function HomePage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Make It So ── */}
+      <SectionWrapper className="bg-cream py-10 lg:py-16 border-t border-navy/10">
+        <div className="max-w-3xl">
+          <Eyebrow>SEMINAR — FOUNDING COHORT</Eyebrow>
+          <h2 className="text-2xl font-semibold text-navy mt-4">
+            Make It So: Everyday Futurism for Leaders
+          </h2>
+          <p className="mt-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+            An 8-week working seminar that builds a futurism practice underneath
+            the instincts you already have. Runs June&ndash;August so the
+            practice is already running when September arrives.
+          </p>
+          <p className="mt-2 text-[13px] text-text-muted max-w-2xl">
+            Founding cohort prices. Enrollment closes Sunday.
+          </p>
+          <div className="mt-6">
+            <Button href="/make-it-so.html" external variant="primary">
+              See the seminar &rarr;
+            </Button>
+          </div>
+        </div>
+      </SectionWrapper>
+
       {/* ── AGA Block ── */}
       <SectionWrapper className="bg-[#0a0a0a] py-12 lg:py-20">
         <div className="max-w-3xl">

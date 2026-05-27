@@ -14,6 +14,10 @@ export const metadata: Metadata = {
 
 const ctaLinks = [
   {
+    label: "Make It So — 8-Week Leadership Seminar",
+    href: "https://nolasimon.com/make-it-so.html",
+  },
+  {
     label: "Book an Intro Consultation",
     href: "https://tidycal.com/nola/intro-consultation-nola-simon",
   },
