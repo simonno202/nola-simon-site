@@ -110,6 +110,27 @@
     color: var(--bg);
   }
 
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .nav-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-decoration: none;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-link:hover {
+    color: var(--text);
+  }
+
   /* ── HERO ── */
   .hero {
     padding: 100px 0 80px;
@@ -681,7 +702,11 @@
 <nav>
   <div class="container">
     <a href="https://nolasimon.com" class="nav-brand">Nola Simon <span>/</span> Everyday Futurism</a>
-    <a href="#enroll" class="nav-cta">Enroll by Sunday</a>
+    <div class="nav-links">
+      <a href="https://nolasimon.com" class="nav-link">Home</a>
+      <a href="https://nolasimon.com/links" class="nav-link">Links</a>
+      <a href="#enroll" class="nav-cta">Enroll by Sunday</a>
+    </div>
   </div>
 </nav>
 
