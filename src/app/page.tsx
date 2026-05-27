@@ -24,6 +24,45 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main>
+      {/* ── Make It So Announcement ── */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes mis-flash {
+          0%, 100% { box-shadow: 0 0 0 0 rgba(236,65,151,0.7); }
+          60% { box-shadow: 0 0 0 10px rgba(236,65,151,0); }
+        }
+        .mis-flash-btn { animation: mis-flash 1.8s ease-in-out infinite; }
+      `}} />
+      <SectionWrapper className="bg-[#0a0a0a] border-b border-[rgba(236,65,151,0.2)] py-8 lg:py-12">
+        <div className="max-w-3xl">
+          <p className="font-mono text-[9px] uppercase tracking-[0.22em] mb-4" style={{ color: '#ec4197' }}>
+            Seminar &mdash; Founding Cohort
+          </p>
+          <h2
+            className="font-sans font-bold text-[#f0f0f0]"
+            style={{ fontSize: 'clamp(22px, 3vw, 30px)', letterSpacing: '-0.02em' }}
+          >
+            Make It So: Everyday Futurism for Leaders
+          </h2>
+          <p className="mt-4 text-[16px] leading-relaxed" style={{ color: '#aaa' }}>
+            An 8-week working seminar that builds a futurism practice underneath
+            the instincts you already have. Runs June&ndash;August.
+          </p>
+          <p className="mt-2 text-[13px]" style={{ color: '#888' }}>
+            Founding cohort prices. Enrollment closes{' '}
+            <strong style={{ color: '#f0eef8' }}>Sunday, June 1</strong>.
+          </p>
+          <div className="mt-6">
+            <a
+              href="/make-it-so.html"
+              className="mis-flash-btn inline-flex items-center gap-2 font-sans font-bold text-[13px] tracking-[0.04em] px-6 py-3 rounded-sm transition-opacity hover:opacity-90"
+              style={{ background: '#ec4197', color: '#fff' }}
+            >
+              See the seminar &rarr;
+            </a>
+          </div>
+        </div>
+      </SectionWrapper>
+
       {/* ── Hero ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-20 xl:py-28 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_420px] lg:items-center lg:gap-10">
@@ -220,29 +259,6 @@ export default function HomePage() {
           <div className="mt-6">
             <Button href="/tools" variant="secondary">
               See all tools →
-            </Button>
-          </div>
-        </div>
-      </SectionWrapper>
-
-      {/* ── Make It So ── */}
-      <SectionWrapper className="bg-cream py-10 lg:py-16 border-t border-navy/10">
-        <div className="max-w-3xl">
-          <Eyebrow>SEMINAR — FOUNDING COHORT</Eyebrow>
-          <h2 className="text-2xl font-semibold text-navy mt-4">
-            Make It So: Everyday Futurism for Leaders
-          </h2>
-          <p className="mt-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
-            An 8-week working seminar that builds a futurism practice underneath
-            the instincts you already have. Runs June&ndash;August so the
-            practice is already running when September arrives.
-          </p>
-          <p className="mt-2 text-[13px] text-text-muted max-w-2xl">
-            Founding cohort prices. Enrollment closes Sunday.
-          </p>
-          <div className="mt-6">
-            <Button href="/make-it-so.html" external variant="primary">
-              See the seminar &rarr;
             </Button>
           </div>
         </div>
