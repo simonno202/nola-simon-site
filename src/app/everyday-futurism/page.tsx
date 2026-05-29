@@ -90,6 +90,12 @@ const behaviors = [
 
 const examples = [
   {
+    title: "Stability Has Always Been An Illusion",
+    description:
+      "Thirty years of disruption — the recession, 9/11, SARS, the blackout, the pandemic heard first as a word on a ship — and what they taught about the ground you're actually standing on. The origin story of the practice.",
+    href: "/blog/stability-has-always-been-an-illusion",
+  },
+  {
     title: "Everyday Futurism: A Practice, Not a Prediction",
     description:
       "The foundational essay. Three decades of examined assumptions — the 2008 conversation that rearranged something, the 2012 flexibility pilot, the husband holding the expired map.",

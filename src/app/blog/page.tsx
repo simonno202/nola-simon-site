@@ -35,13 +35,13 @@ const NOGOZONE = {
 };
 
 const LATEST = {
-  slug: "the-throughline-is-the-future",
-  title: "The Throughline Is the Future",
-  meta: "Essay \xB7 May 6, 2026",
+  slug: "stability-has-always-been-an-illusion",
+  title: "Stability Has Always Been An Illusion",
+  meta: "Essay \xB7 May 29, 2026",
   description:
-    "I named my newsletter before I knew what the throughline was. The Plum assessment that got me wrong. Sweta Regmi, Hilke Schellmann, Cher Jones, and the thread that connected them. George Michael. The inference layer. And why the only durable ground is the one you’ve already documented.",
+    "Thirty years of disruption — the 1994 recession, the blackout, 9/11, SARS, the financial collapse, swine flu in Mexico, a word heard on a ship in the Panama Canal. The ground was never stable. I was just already there.",
   description2:
-    "This is the synthesis essay — where the throughline finally has a name.",
+    "What Everyday Futurism is, why you’ve been practicing it your whole life without calling it that, and what thirty years of unexamined stability actually cost.",
 };
 
 const DISCERNMENT = {
@@ -106,6 +106,12 @@ const WITNESSED_TRUST = [
 ];
 
 const METHODOLOGY = [
+  {
+    slug: "the-throughline-is-the-future",
+    title: "The Throughline Is the Future",
+    line: "The synthesis essay — where the throughline finally has a name.",
+    date: "May 6, 2026",
+  },
   {
     slug: "not-just-another-futurist",
     title: "Not Just Another Futurist",
