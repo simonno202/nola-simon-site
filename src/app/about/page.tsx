@@ -166,6 +166,15 @@ export default function AboutPage() {
               The common thread through all of it? Trust. The kind you have to
               build with yourself before you can build it with anyone else.
             </p>
+
+            <p>
+              <Link
+                href="/blog/stability-has-always-been-an-illusion"
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                The thirty-year record &rarr;
+              </Link>
+            </p>
           </div>
         </div>
       </SectionWrapper>
