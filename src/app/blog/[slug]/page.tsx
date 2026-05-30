@@ -10,7 +10,7 @@ import { AssumptionGroundCycle } from "@/components/essay/AssumptionGroundCycle"
 import { AssumptionEtymology } from "@/components/essay/AssumptionEtymology";
 import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeriesNav";
 import { PinterestPin } from "@/components/ui/PinterestPin";
-import { ArticleSchema, FAQSchema, DefinedTermSchema, PediculosisFAQ } from "@/components/SchemaOrg";
+import { ArticleSchema, FAQSchema, DefinedTermSchema, PediculosisFAQ, StabilityFAQ } from "@/components/SchemaOrg";
 import { PinterestImagePicker } from "@/components/ui/PinterestImagePicker";
 
 const mdxComponents = {
@@ -22,6 +22,7 @@ const mdxComponents = {
   FAQSchema,
   DefinedTermSchema,
   PediculosisFAQ,
+  StabilityFAQ,
 };
 
 export async function generateStaticParams() {

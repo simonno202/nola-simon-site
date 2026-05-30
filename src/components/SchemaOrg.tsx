@@ -209,6 +209,38 @@ export function PediculosisFAQ() {
   );
 }
 
+export function StabilityFAQ() {
+  const faqs = [
+    {
+      question: "What is Everyday Futurism?",
+      answer: "Everyday Futurism is the practice of naming what you're already observing before the ground you're standing on has a name. It is not forecasting, trend-spotting, or scenario planning. It is the discipline of noticing what's already shifting — in your body, your organization, or the conditions around you — and examining the assumptions underneath before they harden into policy or strategy. Developed by Nola Simon through thirty years of lived disruption.",
+    },
+    {
+      question: "What is metaruption?",
+      answer: "Metaruption is the term futurists use for disruptions that stack, feed each other, and accelerate simultaneously. The experience is not new — many people have lived inside multiple overlapping systemic failures at once. What is new is the name, and the recognition that the stability others experienced was not skill or preparation. It was luck.",
+    },
+    {
+      question: "Why does stability feel real if it has always been an illusion?",
+      answer: "Stability feels real because institutions, policies, and social contracts are designed to absorb disruption invisibly. When they work, you don't see the maintenance underneath. When they fail simultaneously — as they do in recessions, pandemics, infrastructure collapses, and climate events — the assumption of ground becomes visible. The ground was always this unstable. Most people just haven't had to perceive it yet.",
+    },
+  ];
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function FAQSchema({ faqs }: { faqs?: { question: string; answer: string }[] }) {
   if (!faqs?.length) return null;
   const schema = {
