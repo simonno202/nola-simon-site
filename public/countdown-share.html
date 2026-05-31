@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: #faf8f3;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 48px;
+    }
+    .widget {
+      background: #faf8f3;
+      border: 1.5px solid #0a0a0a;
+      box-shadow: 6px 6px 0px #ec4197;
+      padding: 40px 48px;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+    }
+    .header { text-align: center; }
+    .label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #0a0a0a;
+      opacity: 0.4;
+      margin-bottom: 10px;
+    }
+    .title {
+      font-family: 'DM Mono', monospace;
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: #0a0a0a;
+      letter-spacing: -0.02em;
+    }
+    .digits {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .digit-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .digit-value {
+      font-family: 'DM Mono', monospace;
+      font-size: 4rem;
+      font-weight: 500;
+      color: #0a0a0a;
+      background: #f5f0e8;
+      border: 1.5px solid #0a0a0a;
+      padding: 16px 24px;
+      min-width: 100px;
+      text-align: center;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      box-shadow: 3px 3px 0px #ec4197;
+    }
+    .digit-label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #0a0a0a;
+      opacity: 0.5;
+    }
+    .sep {
+      font-family: 'DM Mono', monospace;
+      font-size: 3rem;
+      color: #0a0a0a;
+      opacity: 0.25;
+      margin-top: 16px;
+      line-height: 1;
+    }
+    .cta {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #faf8f3;
+      background: #ec4197;
+      padding: 13px 32px;
+      text-decoration: none;
+      display: inline-block;
+      border: 1.5px solid #0a0a0a;
+    }
+    .url {
+      font-family: 'DM Mono', monospace;
+      font-size: 0.6rem;
+      color: #0a0a0a;
+      opacity: 0.35;
+      letter-spacing: 0.06em;
+    }
+  </style>
+</head>
+<body>
+  <div class="widget">
+    <div class="header">
+      <p class="label">Enrollment closes</p>
+      <h2 class="title">Make It So</h2>
+    </div>
+    <div class="digits">
+      <div class="digit-block">
+        <div class="digit-value" id="days">00</div>
+        <span class="digit-label">days</span>
+      </div>
+      <div class="sep">:</div>
+      <div class="digit-block">
+        <div class="digit-value" id="hours">00</div>
+        <span class="digit-label">hours</span>
+      </div>
+      <div class="sep">:</div>
+      <div class="digit-block">
+        <div class="digit-value" id="minutes">00</div>
+        <span class="digit-label">minutes</span>
+      </div>
+      <div class="sep">:</div>
+      <div class="digit-block">
+        <div class="digit-value" id="seconds">00</div>
+        <span class="digit-label">seconds</span>
+      </div>
+    </div>
+    <a href="https://nolasimon.com/make-it-so.html" class="cta">Secure your spot →</a>
+    <span class="url">nolasimon.com/make-it-so.html</span>
+  </div>
+  <script>
+    const TARGET = new Date("2026-06-01T00:00:00");
+    function pad(n) { return String(n).padStart(2, "0"); }
+    function tick() {
+      const diff = TARGET - new Date();
+      if (diff <= 0) return;
+      document.getElementById("days").textContent    = pad(Math.floor(diff / 86400000));
+      document.getElementById("hours").textContent   = pad(Math.floor((diff % 86400000) / 3600000));
+      document.getElementById("minutes").textContent = pad(Math.floor((diff % 3600000) / 60000));
+      document.getElementById("seconds").textContent = pad(Math.floor((diff % 60000) / 1000));
+    }
+    tick();
+    setInterval(tick, 1000);
+  </script>
+</body>
+</html>
