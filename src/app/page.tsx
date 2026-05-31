@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/Card";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { ProofBar } from "@/components/ui/ProofBar";
 import { NewsletterCTA } from "@/components/ui/NewsletterCTA";
+import MakeItSoCountdown from "@/components/MakeItSoCountdown";
 
 export const metadata: Metadata = {
   title: "Nola Simon | Keynote Speaker & Strategic Futurist",
@@ -47,18 +48,8 @@ export default function HomePage() {
             An 8-week working seminar that builds a futurism practice underneath
             the instincts you already have. Runs June&ndash;August.
           </p>
-          <p className="mt-2 text-[13px]" style={{ color: '#888' }}>
-            Founding cohort prices. Enrollment closes{' '}
-            <strong style={{ color: '#f0eef8' }}>Sunday, June 1</strong>.
-          </p>
           <div className="mt-6">
-            <a
-              href="/make-it-so.html"
-              className="mis-flash-btn inline-flex items-center gap-2 font-sans font-bold text-[13px] tracking-[0.04em] px-6 py-3 rounded-sm transition-opacity hover:opacity-90"
-              style={{ background: '#ec4197', color: '#fff' }}
-            >
-              See the seminar &rarr;
-            </a>
+            <MakeItSoCountdown />
           </div>
         </div>
       </SectionWrapper>
