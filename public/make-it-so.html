@@ -705,7 +705,7 @@
     <div class="nav-links">
       <a href="https://nolasimon.com" class="nav-link">Home</a>
       <a href="https://nolasimon.com/links" class="nav-link">Links</a>
-      <a href="#enroll" class="nav-cta">Enroll by Sunday</a>
+      <a href="#waitlist" class="nav-cta">Join the Waitlist</a>
     </div>
   </div>
 </nav>
@@ -718,99 +718,18 @@
     <p class="hero-sub">
       You've been right about something before the room caught up. You've felt it — that early read on a situation that turned out to be accurate. What you may not have is a reliable system for doing that consistently, or the language to make it legible to the people around you when it counts.
       <br><br>
-      Futurism doesn't require a crystal ball. It requires a practice — <strong>woven into your daily life, not bolted on top of it.</strong> Make It So is an 8-week seminar that builds that practice underneath the instincts you already have. By September, you're not someone who learned about futurism. You're already running.
+      Futurism doesn't require a crystal ball. It requires a practice — <strong>woven into your daily life, not bolted on top of it.</strong> Make It So is an 8-week seminar that builds that practice underneath the instincts you already have.
     </p>
     <div class="deadline-block">
       <div class="deadline-dot"></div>
-      <div class="deadline-text">Enrollment closes <span>Sunday</span> &nbsp;·&nbsp; Starts June 1 &nbsp;·&nbsp; Capped at 20</div>
+      <div class="deadline-text">Coming <span>September 2026</span> &nbsp;·&nbsp; Capped at 20</div>
     </div>
-
-    <!-- COUNTDOWN WIDGET -->
-    <div id="mis-countdown" style="margin: 32px 0 8px; display:inline-flex; flex-direction:column; align-items:flex-start; gap:20px; background:#faf8f3; border:1.5px solid #0a0a0a; box-shadow:5px 5px 0px #ec4197; padding:28px 32px;">
-      <div id="mis-digits" style="display:flex; gap:12px; align-items:flex-start; flex-wrap:wrap;">
-        <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
-          <div class="mis-digit" id="mis-days">00</div>
-          <span class="mis-label">days</span>
-        </div>
-        <div class="mis-sep">:</div>
-        <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
-          <div class="mis-digit" id="mis-hours">00</div>
-          <span class="mis-label">hours</span>
-        </div>
-        <div class="mis-sep">:</div>
-        <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
-          <div class="mis-digit" id="mis-minutes">00</div>
-          <span class="mis-label">minutes</span>
-        </div>
-        <div class="mis-sep">:</div>
-        <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
-          <div class="mis-digit" id="mis-seconds">00</div>
-          <span class="mis-label">seconds</span>
-        </div>
-      </div>
-      <p id="mis-live" style="display:none; font-family:'JetBrains Mono',monospace; font-size:1.1rem; color:#0a0a0a; margin:0;">We&rsquo;re live. &mdash;</p>
+    <div id="waitlist" style="margin-top: 32px; max-width: 480px;">
+      <p style="font-family:'JetBrains Mono',monospace; font-size:11px; font-weight:700; color:var(--hot-pink); letter-spacing:0.14em; text-transform:uppercase; margin-bottom:16px;">Join the waitlist</p>
+      <p style="font-size:15px; color:var(--text-muted); margin-bottom:24px; line-height:1.7;">The September cohort opens before it's announced publicly. Waitlist gets first access and founding cohort pricing.</p>
+      <a href="mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%20Waitlist" class="btn btn-primary" style="display:inline-block; width:auto; padding:16px 36px;">Reserve your spot &rarr;</a>
+      <p style="margin-top:12px; font-size:13px; color:var(--text-muted);">Email Nola directly. You'll hear back within 24 hours.</p>
     </div>
-    <style>
-      .mis-digit {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        font-weight: 700;
-        color: #0a0a0a;
-        background: #f5f0e8;
-        border: 1.5px solid #0a0a0a;
-        padding: 12px 18px;
-        min-width: 76px;
-        text-align: center;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        box-shadow: 3px 3px 0px #ec4197;
-      }
-      .mis-label {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: 0.6rem;
-        font-weight: 700;
-        letter-spacing: 0.18em;
-        text-transform: uppercase;
-        color: #0a0a0a;
-        opacity: 0.5;
-      }
-      .mis-sep {
-        font-family: 'JetBrains Mono', monospace;
-        font-size: clamp(1.8rem, 4vw, 3rem);
-        color: #0a0a0a;
-        opacity: 0.3;
-        margin-top: 10px;
-        line-height: 1;
-        user-select: none;
-      }
-    </style>
-    <script>
-      (function() {
-        var TARGET = new Date("2026-06-01T00:00:00");
-        function pad(n) { return String(n).padStart(2, "0"); }
-        function tick() {
-          var diff = TARGET - new Date();
-          if (diff <= 0) {
-            document.getElementById("mis-digits").style.display = "none";
-            document.getElementById("mis-live").style.display = "block";
-            return;
-          }
-          document.getElementById("mis-days").textContent    = pad(Math.floor(diff / 86400000));
-          document.getElementById("mis-hours").textContent   = pad(Math.floor((diff % 86400000) / 3600000));
-          document.getElementById("mis-minutes").textContent = pad(Math.floor((diff % 3600000) / 60000));
-          document.getElementById("mis-seconds").textContent = pad(Math.floor((diff % 60000) / 1000));
-        }
-        tick();
-        setInterval(tick, 1000);
-      })();
-    </script>
-
-    <div style="display:flex; flex-direction:column; gap:10px; max-width:420px; margin-top:8px;">
-      <a href="https://buy.stripe.com/5kQ3cwaHqc360PJ2fEenS05" target="_blank" rel="noopener noreferrer" style="display:block; padding:14px 24px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-align:center; text-decoration:none; color:var(--text); border:1px solid var(--border-subtle);">Self-Paced &mdash; $800 USD</a>
-      <a href="https://buy.stripe.com/00w14ocPy7MQ41V4nMenS04" target="_blank" rel="noopener noreferrer" style="display:block; padding:14px 24px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-align:center; text-decoration:none; background:var(--hot-pink); color:var(--bg);">Program + Office Hours &mdash; $1,200 USD</a>
-      <a href="https://buy.stripe.com/00w7sM5n61oscyrf2qenS03" target="_blank" rel="noopener noreferrer" style="display:block; padding:14px 24px; font-family:'JetBrains Mono',monospace; font-size:12px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-align:center; text-decoration:none; color:var(--text); border:1px solid var(--border-subtle);">Program + 1:1 &mdash; $1,600 USD</a>
-    </div>
-    <p style="margin-top: 16px; font-size: 14px; color: var(--text-muted); line-height: 1.6;">Not sure yet? <a href="#quiz" style="color: var(--hot-pink); text-decoration: none; border-bottom: 1px solid rgba(236,65,151,0.4);">Take the 4-minute Futurist Readiness Assessment</a> — it tells you where you're starting from before you decide.</p>
   </div>
 </div>
 
@@ -1200,62 +1119,17 @@
   </div>
 </section>
 
-<!-- PRICING -->
+<!-- WAITLIST CTA -->
 <section id="enroll">
   <div class="container">
-    <div class="section-label">Enrollment</div>
-    <h2>Closes Sunday. Starts June 1.</h2>
-    <p>These are <strong>founding cohort prices</strong> — the first 20 pay less because they take the bet without the track record. The 1:1 tier also includes something the September cohort won't get: quarterly trend presentations, extended from the paid Substack to these 20 spots only. The September cohort pays $1,600 / $2,400 / $3,200. All prices in USD. Canadian pricing also available. If currency is a barrier, <a href="mailto:nola@everydayfuturism.ca" style="color: var(--hot-pink);">message Nola</a>.</p>
-
-    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px;" class="pricing-grid-three">
-      <div class="pricing-card">
-        <div class="pricing-tier">Self-paced</div>
-        <div class="pricing-amount"><span class="currency">$</span>800</div>
-        <div class="pricing-also">USD &nbsp;·&nbsp; $1,110 CAD</div>
-        <p class="pricing-desc">Eight weeks of program material and a Telegram community. Work at your own pace, on your own schedule.</p>
-        <ul class="pricing-includes">
-          <li>All 8 weeks of program material</li>
-          <li>Two live Google Meet sessions (recorded)</li>
-          <li>Telegram cohort — discussion, signals, thought in progress</li>
-          <li>A practice — a way of noticing, thinking, and orienting — already running</li>
-        </ul>
-        <a href="https://buy.stripe.com/5kQ3cwaHqc360PJ2fEenS05" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Enroll — Self-Paced</a>
-      </div>
-
-      <div class="pricing-card featured">
-        <div class="pricing-badge">Most popular</div>
-        <div class="pricing-tier">Program + Office Hours</div>
-        <div class="pricing-amount"><span class="currency">$</span>1,200</div>
-        <div class="pricing-also">USD &nbsp;·&nbsp; $1,665 CAD</div>
-        <p class="pricing-desc">Everything in self-paced plus optional weekly drop-in office hours. Times rotate across 8 weeks so every time zone gets a live window.</p>
-        <ul class="pricing-includes">
-          <li>Everything in Self-Paced</li>
-          <li>Weekly optional office hours on Google Meet</li>
-          <li>Rotating times — North America, Europe, Asia-Pacific</li>
-          <li>All sessions recorded</li>
-        </ul>
-        <a href="https://buy.stripe.com/00w14ocPy7MQ41V4nMenS04" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Enroll — With Office Hours</a>
-      </div>
-
-      <div class="pricing-card">
-        <div class="pricing-badge">Founding exclusive</div>
-        <div class="pricing-tier">Program + 1:1</div>
-        <div class="pricing-amount"><span class="currency">$</span>1,600</div>
-        <div class="pricing-also">USD &nbsp;·&nbsp; $2,215 CAD</div>
-        <p class="pricing-desc">Everything in the Office Hours tier, plus two private sessions and quarterly trend presentations — a paid Substack exclusive extended to these 20 spots only. The 1:1 sessions are for your actual context: the constraints and conditions the group can't address.</p>
-        <ul class="pricing-includes">
-          <li>Everything in Office Hours tier</li>
-          <li>Two 30-minute private sessions with Nola via Telegram</li>
-          <li>Direct feedback on your thinking and your context</li>
-          <li>Assumption-Ground Audit (AGA) applied to your context</li>
-          <li>Quarterly trend presentations — starting June 15, founding cohort only</li>
-        </ul>
-        <a href="https://buy.stripe.com/00w7sM5n61oscyrf2qenS03" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Enroll — Program + 1:1</a>
-      </div>
+    <div class="section-label">September 2026</div>
+    <h2>The next cohort opens before it's announced.</h2>
+    <p>Waitlist gets first access and founding cohort pricing. Capped at 20. All prices in USD — Canadian pricing also available.</p>
+    <div style="margin-top: 32px; display: flex; flex-direction: column; gap: 12px; max-width: 480px;">
+      <a href="mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%20Waitlist" class="btn btn-primary" style="display:inline-block; width:auto; padding:16px 36px;">Reserve your spot &rarr;</a>
     </div>
-
-    <p style="margin-top: 24px; font-size: 14px; text-align: center;">
-      Questions before enrolling? <a href="mailto:nola@everydayfuturism.ca" style="color: var(--hot-pink);">nola@everydayfuturism.ca</a>
+    <p style="margin-top: 16px; font-size: 14px; color: var(--text-muted);">
+      Questions? <a href="mailto:nola@everydayfuturism.ca" style="color: var(--hot-pink);">nola@everydayfuturism.ca</a>
     </p>
   </div>
 </section>
@@ -1346,12 +1220,8 @@
     </div>
 
     <div style="margin-top: 56px; padding-top: 40px; border-top: 1px solid var(--border-subtle);">
-      <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--hot-pink); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 16px;">Ready to enroll</div>
-      <div style="display: flex; flex-direction: column; gap: 12px; max-width: 480px;">
-        <a href="https://buy.stripe.com/5kQ3cwaHqc360PJ2fEenS05" target="_blank" rel="noopener noreferrer" style="display:block; padding:16px 24px; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-align:center; text-decoration:none; color:var(--text); border:1px solid var(--border-subtle); transition:all 0.2s;">Self-Paced &mdash; $800 USD</a>
-        <a href="https://buy.stripe.com/00w14ocPy7MQ41V4nMenS04" target="_blank" rel="noopener noreferrer" style="display:block; padding:16px 24px; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-align:center; text-decoration:none; background:var(--hot-pink); color:var(--bg);">Program + Office Hours &mdash; $1,200 USD</a>
-        <a href="https://buy.stripe.com/00w7sM5n61oscyrf2qenS03" target="_blank" rel="noopener noreferrer" style="display:block; padding:16px 24px; font-family:'JetBrains Mono',monospace; font-size:13px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; text-align:center; text-decoration:none; color:var(--text); border:1px solid var(--border-subtle); transition:all 0.2s;">Program + 1:1 &mdash; $1,600 USD</a>
-      </div>
+      <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 700; color: var(--hot-pink); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 16px;">Join the waitlist</div>
+      <a href="mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%20Waitlist" class="btn btn-primary" style="display:inline-block; width:auto; padding:16px 36px;">Reserve your spot &rarr;</a>
       <p style="margin-top: 16px; font-size: 13px; color: var(--text-muted);">Questions? <a href="mailto:nola@everydayfuturism.ca" style="color: var(--hot-pink);">nola@everydayfuturism.ca</a></p>
     </div>
   </div>

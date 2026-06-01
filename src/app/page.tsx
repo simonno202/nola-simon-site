@@ -6,7 +6,6 @@ import { Card } from "@/components/ui/Card";
 import { SectionWrapper } from "@/components/ui/SectionWrapper";
 import { ProofBar } from "@/components/ui/ProofBar";
 import { NewsletterCTA } from "@/components/ui/NewsletterCTA";
-import MakeItSoCountdown from "@/components/MakeItSoCountdown";
 
 export const metadata: Metadata = {
   title: "Nola Simon | Keynote Speaker & Strategic Futurist",
@@ -25,35 +24,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <main>
-      {/* ── Make It So Announcement ── */}
-      <style dangerouslySetInnerHTML={{ __html: `
-        @keyframes mis-flash {
-          0%, 100% { box-shadow: 0 0 0 0 rgba(236,65,151,0.7); }
-          60% { box-shadow: 0 0 0 10px rgba(236,65,151,0); }
-        }
-        .mis-flash-btn { animation: mis-flash 1.8s ease-in-out infinite; }
-      `}} />
-      <SectionWrapper className="bg-[#0a0a0a] border-b border-[rgba(236,65,151,0.2)] py-8 lg:py-12">
-        <div className="max-w-3xl">
-          <p className="font-mono text-[9px] uppercase tracking-[0.22em] mb-4" style={{ color: '#ec4197' }}>
-            Seminar &mdash; Founding Cohort
-          </p>
-          <h2
-            className="font-sans font-bold text-[#f0f0f0]"
-            style={{ fontSize: 'clamp(22px, 3vw, 30px)', letterSpacing: '-0.02em' }}
-          >
-            Make It So: Everyday Futurism for Leaders
-          </h2>
-          <p className="mt-4 text-[16px] leading-relaxed" style={{ color: '#aaa' }}>
-            An 8-week working seminar that builds a futurism practice underneath
-            the instincts you already have. Runs June&ndash;August.
-          </p>
-          <div className="mt-6">
-            <MakeItSoCountdown />
-          </div>
-        </div>
-      </SectionWrapper>
-
       {/* ── Hero ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-20 xl:py-28 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_420px] lg:items-center lg:gap-10">
