@@ -141,6 +141,18 @@ export const signals: Signal[] = [
     relatedTo: ["futures-methodology", "inclusion-inversion", "credential-compression"],
   },
   {
+    id: "cognitive-weaning",
+    date: "June 2026",
+    status: "emerging",
+    signal: "Cognitive weaning — the withdrawal from needing external mediation before you're willing to act on your own read of a situation",
+    origin: "A DM exchange with a podcast guest, June 2026. She posted a photo of her kids on a hot metal slide. I said they must have loved it. She said: yes, once they stopped asking me to do things. I typed back two words: cognitive weaning.",
+    evidence: "We wean from milk, from substances, from reassurance-seeking in anxiety treatment. The mechanism is identical across all three — a legitimate dependency, a transition marked by protest, an outcome only available on the other side of the discomfort, not around it. The same pattern is visible in how creators are responding to algorithmic disruption: the ones getting louder are doing what lost control looks like when it keeps showing up — more volume, more frequency, more reassurance from the comment count that the work is landing. The ones disappearing for the summer to write long-form and build search assets have a different relationship to uncertainty. They can produce without the feedback loop closing. The extended data-gathering in organizational settings often has less to do with decision quality than with distributing responsibility for it. More input means more people implicated. More input means a longer runway before anyone has to commit. More input means that when the thing goes sideways, you can point to the process. The view that arrives before all the input is usually the view the room ends up with. The information gathering changes the language. It rarely changes the direction.",
+    read: "Cognitive weaning is the transition from needing external mediation — someone to tell you, something to confirm, an audience to respond, a system to answer — to an internal capacity to act on your own read of the situation. Not the elimination of feedback or collaboration. The development of a self that doesn't collapse in their absence. The scaffold that becomes a ceiling is still a scaffold. It still made sense once.",
+    tension: "Weaning is never purely mechanical — there's an emotional architecture underneath it that rarely gets named. Any dependency that has lasted long enough becomes an identity, a responsibility, a role, a performance. It is embodied competence: something that was agony at first, that you learned, that became effortless, that you eventually just knew. When it ends, all four end simultaneously. You are retiring a skill at the top of it. Releasing something that made you necessary in a way nothing else replicates. This is why the resistance in organizational settings isn't a skills gap or a knowledge gap. It's a grief. The leaders who resist developing their own read aren't lazy — they're attached. To being guided. To the comfort of the routine. To a form of being needed they haven't consciously named. Weaning is always bilateral. The one doing it has to hold their ground through the protest, which requires its own kind of trust that the discomfort is not damage.",
+    question: "What dependency are you maintaining past its usefulness — and is that for you, or for someone else?",
+    relatedTo: ["futures-methodology", "commencement-ai-backlash", "surveillance-trust"],
+  },
+  {
     id: "surveillance-trust",
     date: "April 2026",
     status: "active",

@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     url: "https://nolasimon.com/signal-tracker",
     title: "Signal Tracker — Nola Simon | Everyday Futurism",
     description: "A running record of what I'm watching before it becomes obvious. Signals are patterns at the edge. A rabbit hole in plain sight.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/images/nola-about.jpg", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Signal Tracker — Nola Simon | Everyday Futurism",
     description: "A running record of what I'm watching before it becomes obvious. Signals are patterns at the edge. A rabbit hole in plain sight.",
-    images: ["/og-image.jpg"],
+    images: ["/images/nola-about.jpg"],
   },
 };
 
