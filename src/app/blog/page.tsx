@@ -34,6 +34,16 @@ const NOGOZONE = {
     "The conceptual entry point to the Assumption-Ground Audit: how to tell a constraint that's real from one nobody ever questioned.",
 };
 
+const CONVERGENCE = {
+  slug: "cognitive-weaning",
+  title: "Cognitive Weaning",
+  meta: "Essay · Cognitive Weaning · Negative Capability · Witnessed Trust · June 8, 2026",
+  description:
+    "An Instagram DM about a metal slide. A new urban park with wrought iron gates and pipes in the forest connecting nothing. Two ways of knowing without being told — and the discipline of withdrawing from external mediation to act on your own read.",
+  description2:
+    "The essay that names the concept and stakes the triad I'm testing this summer: cognitive weaning, negative capability, and witnessed trust.",
+};
+
 const LATEST = {
   slug: "stability-has-always-been-an-illusion",
   title: "Stability Has Always Been An Illusion",
@@ -247,6 +257,38 @@ export default function WritingPage() {
                 className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
               >
                 Explore the AGA &rarr;
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </SectionWrapper>
+
+      {/* ── Summer Convergence ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>SUMMER CONVERGENCE</Eyebrow>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+          The work I&rsquo;m testing this summer is the convergence of three concepts: cognitive weaning, negative capability, and witnessed trust.
+        </p>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              {CONVERGENCE.meta}
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              {CONVERGENCE.title}
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              {CONVERGENCE.description}
+            </p>
+            <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+              {CONVERGENCE.description2}
+            </p>
+            <div className="mt-5">
+              <Link
+                href={`/blog/${CONVERGENCE.slug}`}
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the essay &rarr;
               </Link>
             </div>
           </Card>
