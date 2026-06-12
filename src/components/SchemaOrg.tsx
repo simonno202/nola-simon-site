@@ -1,8 +1,13 @@
+import { MEDIA_FEATURES } from "@/data/media-links";
+
+export const PERSON_ID = "https://nolasimon.com/#nola-simon";
+export const ORG_ID = "https://nolasimon.com/#organization";
+
 export function PersonSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://nolasimon.com/#nola-simon",
+    "@id": PERSON_ID,
     name: "Nola Simon",
     url: "https://nolasimon.com",
     image: "https://nolasimon.com/images/nola-hero.jpg",
@@ -37,7 +42,18 @@ export function PersonSchema() {
       "https://ca.pinterest.com/EverydayFuturism/",
       "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
       "https://podcasts.apple.com/us/podcast/id1602822494",
+      "https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061",
+      "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work",
     ],
+    subjectOf: MEDIA_FEATURES.filter(
+      (item) => item.type === "article"
+    ).map((item) => ({
+      "@type": "Article",
+      headline: item.title,
+      url: item.url,
+      publisher: { "@type": "Organization", name: item.outlet },
+    })),
+    worksFor: { "@id": ORG_ID },
     knowsAbout: [
       "Future of Work",
       "Keynote Speaking",
@@ -68,11 +84,13 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ORG_ID,
     name: "Nola Simon Advisory",
     url: "https://nolasimon.com",
     logo: "https://nolasimon.com/images/nola-hero.jpg",
     founder: {
       "@type": "Person",
+      "@id": PERSON_ID,
       name: "Nola Simon",
     },
     description:
@@ -106,6 +124,7 @@ export function PodcastSchema() {
     url: "https://nolasimon.com/podcast",
     author: {
       "@type": "Person",
+      "@id": PERSON_ID,
       name: "Nola Simon",
     },
     webFeed:
@@ -142,7 +161,7 @@ export function ArticleSchema({
     ? image.startsWith("http")
       ? image
       : `https://nolasimon.com${image}`
-    : "https://nolasimon.com/og-image.jpg";
+    : "https://nolasimon.com/opengraph-image";
 
   const schema = {
     "@context": "https://schema.org",
@@ -155,11 +174,13 @@ export function ArticleSchema({
     url: `https://nolasimon.com/blog/${slug}`,
     author: {
       "@type": "Person",
+      "@id": PERSON_ID,
       name: "Nola Simon",
       url: "https://nolasimon.com",
     },
     publisher: {
       "@type": "Person",
+      "@id": PERSON_ID,
       name: "Nola Simon",
       url: "https://nolasimon.com",
     },
@@ -278,7 +299,7 @@ export function DefinedTermSchema({
     inDefinedTermSet: {
       "@type": "DefinedTermSet",
       name: "Everyday Futurism Glossary",
-      url: "https://nolasimon.com",
+      url: "https://nolasimon.com/everyday-futurism",
     },
   };
   return (
@@ -293,6 +314,7 @@ export function SpeakerSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": PERSON_ID,
     name: "Nola Simon",
     url: "https://nolasimon.com/advisory-speaking",
     image: "https://nolasimon.com/images/nola-speaking.jpg",
@@ -380,6 +402,7 @@ export function WebSiteSchema() {
       "Strategic futurist Nola Simon helps leaders and organizations trust themselves to read the signals, question the status quo, and build what's next.",
     publisher: {
       "@type": "Person",
+      "@id": PERSON_ID,
       name: "Nola Simon",
     },
   };

@@ -1,6 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /api/
-Disallow: /_next/static/
-
-Sitemap: https://nolasimon.com/sitemap.xml

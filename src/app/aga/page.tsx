@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Script from "next/script";
 import CollapsibleVisualizer from "../tools/CollapsibleVisualizer";
 
 export const metadata: Metadata = {
@@ -29,14 +28,14 @@ export const metadata: Metadata = {
     title: "The Assumption-Ground Audit — Nola Simon",
     description:
       "A structured investigation of what your organization is taking for granted — before the convergences make it expensive.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "The Assumption-Ground Audit — Nola Simon",
     description:
       "A structured investigation of what your organization is taking for granted — before the convergences make it expensive.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 
@@ -85,6 +84,10 @@ const furtherReading = [
 
 const faqs = [
   {
+    q: "What is an Assumption-Ground Audit?",
+    a: "The Assumption-Ground Audit (AGA) is a structured, forensic examination of what's being taken for granted — run at the moment when there's still room to question it, before assumptions harden into direction. It traces a belief, policy, or strategy back to its source: what's being assumed, who decided it was true, and whether the ground has ever been verified. The discipline is scale-invariant — it can be run on yourself, on a process, or on an organization. Developed by Nola Simon as the structural discipline of Everyday Futurism.",
+  },
+  {
     q: "What's the difference between an Assumption-Ground Audit and a strategy audit?",
     a: "A strategy audit examines whether your strategy is working. The AGA examines what you're assuming before you've built the strategy — the layer underneath that shapes which trends get noticed, which scenarios get built, and which futures get treated as possible before anyone has made a conscious choice.",
   },
@@ -131,6 +134,22 @@ const faqSchema = {
   })),
 };
 
+const definedTermSchema = {
+  "@context": "https://schema.org",
+  "@type": "DefinedTerm",
+  "@id": "https://nolasimon.com/aga#term",
+  name: "Assumption-Ground Audit",
+  alternateName: "AGA",
+  description:
+    "A structured, forensic examination of what's being taken for granted — before assumptions harden into direction. It traces a belief, policy, or strategy back to its source: what's being assumed, who decided it was true, and whether the ground has ever been verified. Scale-invariant: run on yourself, on a process, or on an organization. The structural discipline of Everyday Futurism, developed by Nola Simon.",
+  inDefinedTermSet: {
+    "@type": "DefinedTermSet",
+    name: "Everyday Futurism Glossary",
+    url: "https://nolasimon.com/everyday-futurism",
+  },
+  url: "https://nolasimon.com/aga",
+};
+
 const steps = [
   {
     number: "01",
@@ -165,10 +184,13 @@ const notList = [
 export default function AGAPage() {
   return (
     <>
-      <Script
-        id="faq-schema"
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSchema) }}
       />
 
       <main className="aga-page">

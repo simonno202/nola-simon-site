@@ -13,14 +13,14 @@ export const metadata: Metadata = {
     title: "Run the Assumption-Ground Audit — Nola Simon",
     description:
       "A guided conversation that surfaces the assumption underneath your next commitment, before the direction hardens.",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Run the Assumption-Ground Audit — Nola Simon",
     description:
       "A guided conversation that surfaces the assumption underneath your next commitment, before the direction hardens.",
-    images: ["/og-image.jpg"],
+    images: ["/opengraph-image"],
   },
 };
 
