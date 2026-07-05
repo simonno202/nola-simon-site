@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/lib/blog";
 import { getAllIssues } from "@/lib/newsletter";
+import { getAllEpisodes } from "@/lib/episodes";
 
 const BASE_URL = "https://nolasimon.com";
 
@@ -61,6 +62,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "weekly",
       priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/podcast/archive`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
     },
     {
       url: `${BASE_URL}/blog`,
@@ -176,5 +183,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...postEntries, ...newsletterEntries];
+  const episodes = getAllEpisodes();
+  const episodeEntries: MetadataRoute.Sitemap = episodes.map((ep) => ({
+    url: `${BASE_URL}/podcast/${ep.slug}`,
+    lastModified: new Date(ep.updatedDate).toISOString(),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...postEntries, ...newsletterEntries, ...episodeEntries];
 }

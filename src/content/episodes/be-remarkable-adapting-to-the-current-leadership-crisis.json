@@ -1,0 +1,260 @@
+{
+  "number": null,
+  "slug": "be-remarkable-adapting-to-the-current-leadership-crisis",
+  "title": "Be Remarkable - Adapting to the Current Leadership Crisis",
+  "show": "Hope + Possibilities",
+  "format": "Interview",
+  "host": {
+    "name": "Nola Simon",
+    "title": "Futurist & Founder, Everyday Futurism",
+    "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+  },
+  "guest": {
+    "name": "Karen Ferris",
+    "title": "Author & Leadership Speaker",
+    "org": null,
+    "credentials": "Author of eight books including Be Remarkable · Runs leadership workshops · Based in Australia",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/karenferris-resilience-change-management/",
+      "website": "https://karenferris.com/"
+    }
+  },
+  "publishDate": "2024-08-06",
+  "publishDateHuman": "August 6, 2024",
+  "updatedDate": "2026-07-04",
+  "updatedDateHuman": "July 4, 2026",
+  "duration": null,
+  "durationISO": null,
+  "listen": {
+    "apple": null,
+    "spotify": null,
+    "youtube": null
+  },
+  "abstract": "Karen Ferris argues that the modern workplace faces a leadership crisis rooted in a collapse of trust, evidenced by an 80% surge in employee-surveillance software in March 2020 that has never receded. Her REMARKABLE framework treats leadership as a set of ten learnable traits built on the skill of learning to unlearn, measuring performance by outcomes rather than hours and adapting style to context. The episode makes the case that anyone can lead without a title, and that realistic optimism, not nostalgia for pre-pandemic control, is the path forward.",
+  "takeaways": [
+    "Measure performance by outcomes, not hours at the desk — if the work is delivered, whether it took two hours or ten is irrelevant.",
+    "Name surveillance for what it signals: monitoring keystrokes and Teams status tells employees directly that you don't trust them.",
+    "Start the shift to trust-based leadership small — pick one low-risk task and one team member, then chip away rather than changing everything overnight.",
+    "Separate empathy from sympathy — empathy is understanding how another person feels in their situation, shaped by a worldview formed long before they joined your company.",
+    "Adapt leadership style to context — lead from the front, middle, or back, and reserve command-and-control for genuine emergencies with norms set in advance.",
+    "Audit your workload with the Eisenhower matrix to surface the tasks you should delegate or drop entirely.",
+    "Treat employee feedback as information about the role rather than a personal attack, and acting on it builds trust fast."
+  ],
+  "keyQA": [
+    {
+      "timestamp": null,
+      "question": "Why did demand for employee surveillance software spike during the pandemic?",
+      "answer": "Because managers who could no longer physically see their teams panicked about whether people were working — global demand for surveillance software rose 80% in March 2020 compared with the same time the year before. That demand has never dropped since, which signals an ongoing trust problem rather than a temporary reaction. The irony is that even when managers could see employees in the office, they never actually knew whether they were working."
+    },
+    {
+      "timestamp": null,
+      "question": "How do you shift a manager who only knows command and control?",
+      "answer": "Start small and low-risk: pick one task and one team member you can have an honest conversation with, agree on the outcome, the deadline, the resources and the checkpoints, then step back. Change doesn't have to happen overnight — you chip away at it as each person demonstrates they're trustworthy. Most command-and-control managers were never given an alternative model, so the shift is a skill to build rather than a character flaw to fix."
+    },
+    {
+      "timestamp": null,
+      "question": "What is the REMARKABLE framework for leadership?",
+      "answer": "REMARKABLE is Karen Ferris's acronym for ten traits she believes leaders need, built on the core skill of learning to unlearn. It spans Resilient, Empathetic, Mindful, Adaptive, Resourceful, Known and more, with Listen as the final trait. Leaders aren't expected to master all ten at once — they pick the biggest area for development and start there."
+    },
+    {
+      "timestamp": null,
+      "question": "How should managers measure remote employees' performance?",
+      "answer": "Measure outcomes, not hours or activity. Agree up front on the result you want, when it's needed and the resources available, then judge the work by whether it's delivered — not by keystrokes, desk time or a green light on Teams. If someone delivers the outcome, whether it took two hours or ten is irrelevant."
+    },
+    {
+      "timestamp": null,
+      "question": "What's the difference between empathy and sympathy in leadership?",
+      "answer": "Empathy is understanding how another person feels while standing in their situation; sympathy is feeling for them from your own perspective. Ferris reframes the usual 'walk a mile in their shoes' as understanding how that person feels walking in their shoes, because their worldview — formed in childhood — differs entirely from yours. That distinction is why listening is the foundational skill beneath empathy."
+    },
+    {
+      "timestamp": null,
+      "question": "What is the Leader's Journey?",
+      "answer": "The Leader's Journey adapts Joseph Campbell's Hero's Journey into three stages — separation, initiation and return — for leadership growth. It begins with a wake-up call that separates you from the familiar way you've always led, moves through initiation as you navigate unfamiliar territory with support along the way, and ends in return, where you bring relearned skills back and work to sustain them. The point is that the cycle is continuous, not a one-time transformation."
+    }
+  ],
+  "chapters": [
+    {
+      "time": null,
+      "label": "A leadership crisis and the case for constant adaptation"
+    },
+    {
+      "time": null,
+      "label": "The surveillance-software spike and the collapse of trust"
+    },
+    {
+      "time": null,
+      "label": "Monitored at work: outcomes versus activity"
+    },
+    {
+      "time": null,
+      "label": "The mindset shift to outcomes-based leadership"
+    },
+    {
+      "time": null,
+      "label": "The REMARKABLE framework, trait by trait"
+    },
+    {
+      "time": null,
+      "label": "Learning to unlearn and the feedback gap"
+    },
+    {
+      "time": null,
+      "label": "Everyone is a leader, with or without the title"
+    },
+    {
+      "time": null,
+      "label": "The Leader's Journey"
+    },
+    {
+      "time": null,
+      "label": "Who needs this most, and realistic optimism"
+    }
+  ],
+  "transcript": [
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Thank you for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence. And joining me today is a guest that I've had actually before. She's the only person I've actually invited back twice. And that's Karen Ferris. We are birds of a feather. We have a lot in common in terms of the future of work and how we view the world of work changing. And Karen has written another book. How many books does it go? Eight all in all now. Yes. This one is called Be Remarkable and it is available globally. Karen is from Australia. I'm in Canada, but you can get it anywhere online, including from Karen's website. And Karen had originally come to me asking me to read a synopsis of it and actually give her a blurb, which is the first time that I'd actually been asked to write a blurb for a book. So thank you very much for that invitation, Karen. One of the quotes that was in the preview: Leaders may need to be agile, highly entrepreneurial, socially conscious and digitally savvy. They must lead through ambiguity, uncertainty, managing a diverse workforce. They must possess cognitive flexibility and be innovative, adaptive and collaborative. And that, if we could figure out how to do that would be the amazing thing. Because the question is, how do you hire for that? And if you've already got people, how do you retrain them to do that?"
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "Absolutely. So the inspiration for the book was exactly what you're saying, Nola, that I really believe we've got a leadership crisis at the moment. And you can't lay that blame all on leaders themselves. I do believe that most people get out of bed in the morning and want to be the best they can be. But people need help. And I think one of the challenges people have today generally in leaders — and when I talk leaders, everyone could be a leader if they want to be, you don't have to have a title bestowed on you — it's that ability to adapt constantly. Because the world changes and we need to change with it. And because we went on a training course four years ago that taught us a particular way to lead the team is probably not going to suit today. And the real sort of first trigger for me about having a crisis is, in March 2020, the global demand for employee surveillance software went up by 80 percent compared to the same time the previous year. There's this big peak in March 2020, when obviously all these bosses panicked. I can't see them anymore. How do I know they're working? And I'm like, when you could see them, you didn't know they were working. But there was this mentality that I need to monitor their keyboard strokes. And that demand for surveillance software hasn't gone down since. So we still have that problem. We have leaders who now are desperately trying to go back to pre pandemic, and let's get everyone back in the office where I can see them. Let me get that control that I had back then. Hey, it's not going to happen. The genie's out of the bottle. People have had that taste of autonomy and flexibility and they want to retain it."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "And even companies that have been really flexible are backtracking as well. I noticed Dropbox — even though they're a hundred percent remote, they're starting to coordinate anchor weeks where people are expected to come into the office. People are stuck on this coordination tax, the amount of time that's actually spent trying to coordinate who's actually in the office. Which honestly is just another red flag that you're wasting your time and you don't actually understand how to collaborate."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "At the end of the day we employ adults and we employ smart people that are able to say to each other, I think we should actually catch up in person next week because I think that brainstorming we need to do would be more effective. So we decide when it's better to co-locate or when we're just as good working remotely. And we can negotiate what's going to work for both of us because we're in charge, we've got the autonomy, and we'll get it done because we can trust it. That's the big word, isn't it? Trust. And I think there's a lot of so-called leadership behavior at the moment that's just saying, I do not trust you. If you're monitoring my keyboard strokes and checking that the green light is still on my Teams, then you're just saying, I do not trust you."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "And I came from an environment where I was heavily monitored. It's definitely a reason why I left. They were always able to tell how many calls you made, but it got to the point where they were actually able to start seeing who you called, what number you dialed, who answered, how long you were on for. And her question to me was — because I was always one of the ones who talked an awful lot and I had higher call numbers — she'd say, but if that's what you were doing this whole time, you were wasting time. And I'm like, but I got the results. What I was actually doing was acting as a go-between and coordinating. The bridge person always ends up having more conversations than most people because you're a conduit of information. I'm 50 years old, I've done this job for 16 years and if you can't trust me at this point that I know what I'm doing, I don't know how to help you."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "It's the worst thing to say, to tell someone, however you say it, I do not trust you. That's the foundation of everything. If I'm delivering the outcomes that you want, it doesn't matter whether it takes me two hours or 10 hours."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "And I actually interviewed Ludmila Praslova. She has a book called The Canary Code. It's about neurodivergence. And she brought up an interesting point, because she has ADHD. And sometimes with ADHD, you get into hyperfocus. Work for 24 hours straight. You could actually get a week's worth of work done that would take a non-neurodivergent person a full week. And is that fair? No, you wouldn't expect anybody else to work like that, but that doesn't mean that person should then be monitored and held to the same standard."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "And this is one of the reasons I've written a book about this. It's a fundamental mindset shift. You sit down with somebody and say, this is the outcome we want. This is when we need it by. These are the resources available to you. This is how often we'll have a checkpoint, because I'm not going to micromanage you, and off you go. And I'm here to support you all along the way when you need it. And magic happens. I run workshops with leaders that go, oh, that's going to be tough, because they've just been so used to command and control micromanagement. That's the only leadership style they've known. And I say, start small. Take something really low risk and pick a member of the team that you can have the conversation with. It's not like everything has to change overnight. You can chip away at it. It's about that agility again. And it's about each person demonstrating that they're trustworthy."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Stress, respect, psychological safety. And I like the Rachel Botsman definition, which is trust is a confident relationship with the unknown. So if you're monitoring and surveilling, you're trying to make that known, and that's transparency, but transparency is not trust."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "Absolutely. That's so good. But I do love how you come up with frameworks. So this one is Remarkable. That's the name of the book. It's Be Remarkable and remarkable is really the framework. So the fundamental core of the book is talking about learning to unlearn. Learn, unlearn, relearn was something that Alvin Toffler said in his 1970 book, Future Shock. We learn, but then we need to have the courage and humility to say, I need to get rid of that now. It's no longer valid. And REMARKABLE is an acronym for all the traits I believe leaders should have. There's 10 characteristics. It's not saying you have to do all 10 tomorrow. Pick something that you believe is the biggest area for development. So the R is for Resilient. It summarizes the need for leaders and teams to be resilient in the face of constant change. You can't yoga your way out of burnout. There's what I call superpowers that you can pull on, depending on the context you find yourself in, to help you be resilient and adapt and transition through that constant change. E is for Empathetic. We talk about it a lot, but we don't do it very well. I think we still confuse empathy with sympathy. And the key for empathy is we have to go back to basics. You have to learn how to listen. So that's the last L in the remarkable acronym, is to really listen. We often talk about empathy as walking a mile in someone else's shoes, and I say no, it's understanding how that person feels walking in their shoes. Because their experience is totally different to yours. So everybody has their own worldview. Worldview is fundamentally shaped in childhood. It's not going to change because they've happened to land at your particular company. And that's where the M, Mindful, comes from. It's about emotional intelligence and understanding your own emotions and being able to regulate those emotions. Being able to identify the things that trigger not only the negative emotions, but the positive ones. If I can identify that trigger, then I can manage it. And then the A is Adaptive. Adaptive leadership. It's a passion of mine. I use the analogy of a shepherd with the sheep. Sometimes lead from the front — there's a North Star, we're all heading in the same direction, but I'll take the lead and check the terrain. And then some will lead from the middle, finding out what's going on, what's the concerns. And then leading from the back, making sure the stragglers are coming along. So leaders need to adapt. It's not always lead from the front. I talk about moving away from command and control to empowerment and trust. But there are times when command and control is absolutely necessary. If we're in an office and it's on fire, I'm not going to sit down with the team and say, now, what do you think we should do? I'm going to go, there's the door, we're going now. Hopefully you also have norms in place, so the team knows that will be your leadership style in that situation. There's no shock. But they know in other situations, you are that empowering leader. R, Resourceful. We're all being asked to do more with less. Resourceful is making best use of all the resources I have available. Knowing what I should be doing or what I shouldn't be doing. I'm a great fan of the Eisenhower matrix, where you allocate the things that you must do and they're important. And then in one of the boxes, you've got the things that you go, why am I even doing that? Can I delegate or can I just not do it at all? K is for Known. So that's about your brand. What do you want to be known for? What would you want your legacy to be when you walk out the door? When you have a brand, what people see is what they get. It is authentic because you live by your values. There's no surprises. So your brand is what? Rebel with a cause. And I like that because I like to push boundaries. I like to challenge the status quo. I always ask why? I'll never accept the status quo."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "And Cindy Gallop actually has a really nice phrase, that women challenge the status quo because women have never been the status quo. Half of the stuff does not work for us because we're not the people who put it in place. I keep saying to people, with the return to the office mandate, keep asking why. Do it constructively. And they go, oh, because you're more productive in the office. Actually, no, I'm not. And the research says I'm just as productive at home. And also ask them where they're working from, because there have been all kinds of pieces lately that say the people who enforce the RTOs are the people who are working from home most often. And there's that research from Mark Ma of University of Pennsylvania, where there's a real coincidence between the amount of return to office mandates and stock price. There's a lot of blaming of the workforce. Our stock price has fallen because they're working remotely. Where's the trust when you're getting blamed for organizational performance that has absolutely nothing to do with you?"
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "How do you encourage people to unlearn? It's really trying to get them to get that wake up call. It's getting feedback from employees, from colleagues. And it was research from Jacob Morgan. He found that most people go into a people leader role in their late 20s. Most of them get their first development as a leader in their late 30s, early 40s. So they've had over a decade with no support. The only role model they've had is the bad boss that went before them. And we just need to give these people the help. It's about stepping outside your comfort zone. For example, I've been used to measuring performance by hours at the desk. Now at the back of my mind, I knew that was stupid. But I didn't know the alternative. I didn't know how to measure outcomes. So unless we're giving people that development support, what do we expect?"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "And it has to go both ways too. Having that trust and respect to give feedback and that psychological safety to tell your manager that the support they're giving isn't necessarily what you need."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "When you say to leaders, do you ask your employees for feedback? No, I don't want to hear what they're going to say. How are you going to change if you don't ask for feedback? And don't take feedback as personal. It's about you as a leader, the role you're carrying out. And when you act upon feedback that you've been given, the trust that generates in an employee is immense."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "We have to talk about the fact that employees are leaders, even though they're not necessarily at the top of the hierarchy. You lead as a parent. You're involved in your community. You don't forget those skills as soon as you walk in the door."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "Absolutely. You help your friends. You step up when someone needs some direction. You could do the same in the workplace. You don't have to have the name on the plaque to use your leadership skills that you're using day in, day out."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "And could you just talk about the Leader's Journey?"
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "So that's adapted from the Hero's Journey, the classic story from Joseph Campbell, The Hero with a Thousand Faces. I took the three stages of the journey — separation, initiation and return. The very first thing is the wake up call. There has to be that thing that goes, yep, I need to learn something different. I need to separate from my familiar world. Then there's initiation, where I need to now navigate this unfamiliar world I'm stepping into. This is about stepping out of your comfort zone and exploration and learning and then reflecting on what you've learned. Every hero needs the guide on the side. And then return is when the hero goes back to the familiar world, but it's now very different because we've now unlearned and relearned. So then it's about sustaining those learnings. Because it's continuous."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "So who are the ideal type of clients that you feel are really receptive to this type of leadership message?"
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "Most of my clients would be small to medium businesses. The businesses I think really need to learn this are the large, old traditional large financial type organizations. They're the ones I really think are struggling. We might not see the fallout just yet, but we can see the cracks starting to appear. Government as well. There's just this reluctance to change. We've always done it this way. And the financial ones, people get retained by the golden handcuffs. But the handcuffs will loosen. And someone said to me, unfortunately the people reading your stuff are not the people that need to read it. And I said, but I hope someone who reads it passes it on to the person who's not reading it."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Honestly, I'm looking at rebranding my newsletter. I'm going to call it Hope and Possibilities, because it's more about, I'm not really too interested in talking about what people want to cling on to from the past, but what can we move towards? We're moving forward with hope."
+    },
+    {
+      "time": null,
+      "speaker": "Karen Ferris",
+      "text": "That optimism I think is more what we have to move towards. It's realistic optimism. It's not just blue skies, but realistic optimism that things can change for the better. We just need to work towards it."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "So the book is Be Remarkable, available anywhere online — Amazon, or karenferris.com. If you enter the code MINDSET at the checkout, there's a 15 percent discount. I'll put that all in the show notes. Thank you."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "I'll see you next time."
+    }
+  ],
+  "hostNote": "Karen asked me to blurb her new book — the first time I've been asked to do this for anyone, so this episode logically followed. Karen has the honour of being the only guest I've invited to the podcast twice. My blurb: \"Are you looking for a practical guide to help you navigate the ever-evolving world of work? Look no further than Karen's new book, which provides a human approach to work that is future-focused, effective, and feels good. Using a memorable acronym (R.E.M.A.R.K.A.B.L.E), Karen's book is a valuable resource for leaders and employees alike. Mindset is everything, and leaders at all levels who want to be remarkable will be well served by this thoughtful and practical book. An ever-evolving workforce and nonstop change means that ongoing learning is the key to success.\"",
+  "ctaQuote": {
+    "text": "Leaders may need to be agile, highly entrepreneurial, socially conscious, and digitally savvy. They must lead through ambiguity and uncertainty, managing a diverse workforce. They must possess cognitive flexibility and be innovative, adaptive, and collaborative.",
+    "source": "Be Remarkable: Learn, Unlearn — The New Leadership Mindset, Karen Ferris"
+  },
+  "resources": [
+    {
+      "label": "Be Remarkable (book)",
+      "type": "Book",
+      "url": "https://a.co/d/3niMJ6W",
+      "note": "Available globally online."
+    },
+    {
+      "label": "Order direct from Karen — 15% off with code MINDSET",
+      "type": "Store",
+      "url": "https://karenferris.com/store/be-remarkable-learn-unlearn-the-new-leadership-mindset",
+      "note": "Ships from Australia; shipping can be costly."
+    }
+  ],
+  "relatedEpisodes": [
+    {
+      "title": "A Rebel With a Cause - Karen Ferris",
+      "url": "https://podcasts.apple.com/ca/podcast/a-rebel-with-a-cause-karen-ferris/id1602822494?i=1000626756405"
+    }
+  ]
+}

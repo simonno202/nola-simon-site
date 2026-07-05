@@ -12,7 +12,7 @@ import { EPISODES } from "@/data/episodes";
 export const metadata: Metadata = {
   title: "Podcast — Nola Simon | Everyday Futurism",
   description:
-    "Hope + Possibilities is a podcast about everyday noticing — trust, leadership, and the future of work. Hosted by strategic futurist Nola Simon. Top 10 Leadership Indie on Goodpods.",
+    "Hope + Possibilities is a podcast about everyday noticing — trust, leadership, and the future of work. Hosted by strategic futurist Nola Simon. Top 10 Leadership Indie on Goodpods. Episode transcripts published in full.",
   alternates: {
     canonical: "https://nolasimon.com/podcast",
   },
@@ -212,6 +212,32 @@ export default function PodcastPage() {
       {/* ── Episode Archive ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24">
         <PodcastSearch />
+      </SectionWrapper>
+
+      {/* ── Transcript Archive ── */}
+      <SectionWrapper className="bg-surface py-10 lg:py-16">
+        <div className="max-w-3xl">
+          <Eyebrow>TRANSCRIPT ARCHIVE</Eyebrow>
+          <h2
+            className="mt-4 font-sans font-semibold text-navy"
+            style={{ fontSize: "clamp(20px, 4vw, 28px)" }}
+          >
+            Every episode, on the record
+          </h2>
+          <div className="mt-4 space-y-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+            <p>
+              Episodes are being published here in full&nbsp;&mdash; complete
+              transcript, a summary, and the key questions each conversation
+              answers, with original air dates intact. The record stays whole,
+              early episodes included, so you can read how the thinking moved.
+            </p>
+          </div>
+          <div className="mt-6">
+            <Button href="/podcast/archive" variant="secondary">
+              Read the Transcript Archive →
+            </Button>
+          </div>
+        </div>
       </SectionWrapper>
 
       {/* ── Bridge Section ── */}
