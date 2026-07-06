@@ -1,0 +1,1426 @@
+{
+ "number": null,
+ "slug": "lets-talk-thought-leadership-and-podcasting-in-canada",
+ "title": "Let's Talk Thought Leadership and Podcasting in Canada",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Amanda Cupido",
+  "title": "Founder, Lead Podcasting",
+  "org": "Lead Podcasting",
+  "credentials": "Author of Let's Talk Podcasting and Let's Talk Podcasting for Kids · TEDx speaker · Making podcasts since 2010",
+  "links": null
+ },
+ "publishDate": "2025-10-31",
+ "publishDateHuman": "October 31, 2025",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Amanda Cupido, founder of Lead Podcasting, maps the difference between the American podcast industry's boom-and-correction cycle and Canada's slower, more stable market — and names what's missing here: a middle layer of networks that pool independent shows for advertisers, the way Radiotopia and Sonar Network do. The conversation also covers podcast listeners as young as five, interviewing as listening practice, what a LinkedIn Top Voice badge actually does, and her new show, Let's Talk Thought Leadership.",
+ "takeaways": [
+  "Map the Canadian podcast market on its own terms — Canada skipped the US acquisition frenzy, so it never over-invested and never needed the painful right-sizing American podcasting is living through now.",
+  "Name the real gap in Canadian podcasting: there is no middle layer between grassroots collectives and the CBC, Rogers, and Bell networks to pool independent shows and sell their audiences together.",
+  "Test sponsor alignment against your positioning before taking ads — an advertiser whose ethics contradict your show's message undercuts a brand built on challenging the status quo.",
+  "Run interviews as listening practice: podcasting forces you to stay present, hunt for the follow-up question, and break the habit of interrupting.",
+  "Read the audience data before dismissing a format — Disney-backed Edison research found active podcast listeners as young as five, a demographic that had no resources until one was written for it.",
+  "Treat thought leadership as an ongoing process rather than a badge — recognition like LinkedIn Top Voice follows sustained, distinctive activity and disappears when the activity stops."
+ ],
+ "keyQA": [
+  {
+   "timestamp": null,
+   "question": "How is the Canadian podcast industry different from the American one?",
+   "answer": "Canada is behind the US market and, in one important way, better off for it: Canada never had the 2019-era acquisition frenzy — Spotify buying the Joe Rogan rights and Anchor, Amazon buying Wondery — so it never over-invested and is not going through the corrections, layoffs, and shutdowns now hitting American podcasting. The Canadian market is smaller but comparatively stable, and it can learn from the risks the US took first."
+  },
+  {
+   "timestamp": null,
+   "question": "What is missing for independent podcasters in Canada?",
+   "answer": "A middle ground between grassroots collectives and the big networks. Canada has strong independents and a top layer — CBC, Rogers' Frequency Network, Bell's iHeart, Corus's CuriousCast — but nothing like Radiotopia in the US, which bundles well-made independent shows under one sales hub so advertisers can buy across them. Sonar Network does this for comedy and arts; most other genres have no equivalent."
+  },
+  {
+   "timestamp": null,
+   "question": "Why are podcasts for young children a growing market?",
+   "answer": "Research Disney commissioned with Edison Research showed a large, growing uptick in podcast listening among kids under twelve — including active listeners aged five to eight. When Amanda Cupido searched for resources for that age group and found no books at all, she wrote Let's Talk Podcasting for Kids, which introduces the medium and encourages kids to record private or live podcasts rather than upload content to the internet."
+  },
+  {
+   "timestamp": null,
+   "question": "How do you become a LinkedIn Top Voice?",
+   "answer": "There is no rubric and you cannot buy it — LinkedIn chooses you and notifies you by email. The pattern behind it is consistent, distinctive activity: writing that says something different from everyone else rather than echoing the platform. The badge can also now be lost; someone who stops posting and commenting can watch it disappear. Its concrete perks are the profile badge and LinkedIn Premium."
+  },
+  {
+   "timestamp": null,
+   "question": "Should you put advertising on your podcast?",
+   "answer": "Only if the sponsor survives an alignment test. An advertiser implicitly claims your endorsement, so a show built on challenging the status quo takes a reputation risk with every mismatched ad — like a leading-from-the-heart podcast sponsored by an oil company. In Canada the practical route for independents is a collective like Sonar Network, which bundles several shows' audiences, pitches advertisers once, and shares the revenue."
+  },
+  {
+   "timestamp": null,
+   "question": "Can starting a podcast make you a better listener?",
+   "answer": "Yes — that was one of the reasons Nola Simon started hers. Interviewing forces you to stay present, listen for the golden clip, and formulate the follow-up question instead of waiting to talk, and the skill ripples far beyond the studio. Different kinds of listening matter too: listening to learn what the person needs in the moment, and allowing silence instead of filling it."
+  }
+ ],
+ "chapters": [
+  {
+   "time": null,
+   "label": "Canadian podcast resources and charting on Goodpods"
+  },
+  {
+   "time": null,
+   "label": "From radio kid to podcasting since 2010"
+  },
+  {
+   "time": null,
+   "label": "Podcasting for kids and the Disney research"
+  },
+  {
+   "time": null,
+   "label": "Podcasting as listening practice"
+  },
+  {
+   "time": null,
+   "label": "TEDx, shrinking TED talks, and the TED AI conference in Vienna"
+  },
+  {
+   "time": null,
+   "label": "Workshops and the new Let's Talk Thought Leadership podcast"
+  },
+  {
+   "time": null,
+   "label": "LinkedIn Top Voice and what thought leadership means"
+  },
+  {
+   "time": null,
+   "label": "Canada vs. the US: acquisitions, networks, and advertising"
+  },
+  {
+   "time": null,
+   "label": "Podcasting in pop culture and the Canadian opportunity"
+  }
+ ],
+ "transcript": [
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "All right. Thanks for joining me. I'm Nola Simon and I am the host of Hope and Possibilities, a love letter to the Future of work. And my guest today is Amanda. She is the owner and founder of lead Podcasting. And she's also very a speaker. She was recently doing a Ted Talk. You've actually been to attend a Ted AI conference. And she actually was involved in doing the podcasting for Toronto Metropolitan University, which happens to be where my daughter actually goes to university. So there's a whole bunch of excitement with this, especially in this area because Amanda is like the first person who's actually ever driven up to Keswick to come and do a podcast in person in our podcast studio at the the library the Merck in Keswick. I was the first person to actually do a podcast about this podcast, studio and resource, and Amanda has added us to her national book tour and I feel really validated so You're sweet."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I'm really here 'cause of you. So I really appreciate it. I love coming out to different areas across across, of course across the country, but especially in the GTA 'cause I just feel like there's a lot of great talent, great stories and great people like you. So thanks for inviting me out and connecting me with the folks here and I'm really happy to be here."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You're welcome. And now that the 4 0 4 is finished, we can all direct people to say you can get to was real easy. It's where the 4 0 4 ends. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's a nice tagline. That's good."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "No, before I when I first started driving the 4 0 4 only went to Bloomington."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Wow. Okay. Just"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "aging me. But anyway, so what we wanted to do was actually talk about podcast resources in Canada. Quite honestly, when I was learning how to do podcasting, I didn't actually know the only person who actually made me feel that I could do it again, it was the whole six degree separation kind of thing. John Lee Dumas is an American podcaster who happened to work for John Hancock, which is where I worked for years. And he happens to be he actually left during 2008 the whole financial meltdown there and he started doing podcasting. He just fell into it. But he started telling a story about a work situation that I also remember in 2008, and I was like, if he can do it with that background, I can do it. And I started looking at all the resources that are available. And so many of them are American. And that's the fabulous thing of Amanda, is she's actually written Canadian resources."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's it. Thank you. I like, I think that's important actually because we tend to look at a lot of American resources when it comes to media and learning and engaging with content. And it's nice to have something that's local and also is leaning into the fact that it's local. So sometimes we have Canadians who create content with the North American audience in mind, and then they don't even acknowledge that they're from Canada. But I've tried to lean into it. So I definitely acknowledge throughout my book let's talk podcasting that we're talking about this show, but here's the Canadian equivalent, or we're talking about these stats, but here's what's happening in Canada. So I always tried to bring in that, that Canadian lens. 'cause I think it's important."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "It is really important because it makes you feel like you belong and that you recognize what's happening in your local area and also like across the country. And you're starting to recognize that you're not alone. Yes, exactly. When you actually look at like the charts, like if you go to Apple and you look at the top charts on Apple it's rare to see Canadians anywhere there."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I know very few people actually chart on Apple. Amanda though does,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes. And I've and it's nice to be able to have said that you charted on Apple podcasts. Yes. And there are different charts depending on the country too. So Yeah, it's like looking at the Canadian charts and seeing what shows make it to those charts that are made in Canada. It's tough. It's tough and it's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "hard even. Filtering it out to see, I know. Yeah. Whether it was actually made in Canada. Yes. It's really challenging to be able to do that. You wanna hear my most important metric that I think is the most hilarious thing ever. Okay."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Shoot."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So I don't usually chart on Apple, but I do chart on good pos, which is another player. Great. And I love good thoughts. Yeah. They're great Used and they make discoverability easy, but, they have, they've introduced so many categories and one of the categories is the office, ah, fun. It's me and Ricky. J Ricky jva."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. At first."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh my God, really? It's the best metric ever because it absolutely means nothing. Take it and it's hilariously funny."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. That's amazing. Oh my gosh, that's really funny. And good pause is great too to you talk about finding a sense of belonging in this space and one feature, if folks haven't used it before, is it has like a home feed of what all of your connections are listening to. Yes. So you get to see and learn. And it's great for podcast discoverability, which is also tough in the industry these days."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. And you can actually make a list of like your favorite podcast and you can share that out really easily and you can review right in it. And so I think the functionality of it, even though I do listen to Apple Podcasts a lot, yeah. Is really important. And that's honestly, if you were gonna review me, if you reviewed me on Good Pods, that would be amazing."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "All right. There you go. Listeners, you have your to-do, go over to Good pos. Nice."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You got into audio really early."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes. I've always loved audio. I was listening to the radio a lot as a kid. I would be, I talk about this in my TEDx talk where I would be like listening to the radio and instead of making mixed tapes with songs that I liked from the radio, I'd be calling into radio stations and recording myself when I, when my little segment aired and then making a mix tape of me talking. So it was essentially a podcast. But it was early days and as the medium continued to evolve, I just loved experimenting. And I went and studied journalism, as you mentioned, at Toronto Metropolitan University and focused on radio with most of my classes 'cause I loved audio. But ever since I got into the radio industry, I was making podcasts on the side since day one. So I made my first podcast in 2010, a long time ago now. And now happily working and podcasting full time."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That's really cool. I have an opposite reaction. My father used to love to listen to talk radio. Cfr b was the thing I got to listen to like maybe one or two songs. And then we had to switch back to talk radio. So I hate talk radio."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Okay. You're you were like, it was forced down your throat. So now"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it was Right. But it was also, there was never anything that was actually topical to something that I was interested in. It was really hard to find age appropriate podcasting. And that's actually what's interesting about the books that you've published is not only is it podcasting for adults, you actually have a book about podcasting for kids because you notice that Disney. Is interested in audio."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes, that's right. So I was doing research for the second edition of my adult book, if you wanna call it that. So let's talk. Podcasting originally came out in 2018. The second edition came out last year in 2024. And I was updating everything and I including the age brackets and the listener stats around certain age brackets. And that's when I stumbled upon this research that Disney invested in with Edison research that showed there was a huge uptick in listenership for kids under the age of 12. And this is when I was like, wait, what? And then they even did further research and there was research to show that kids even age five to eight were actively listening to podcasts. And that number was growing year over year. And I had never really thought about that age demo and what that might look like. When I saw that there was that big of a audience there, I went what resources do they have? And I started searching There is, there are no books for that age group. And so that's why I thought I have to just write a an a kid's book now. So let's Talk. Podcasting for Kids was written at the same time as I was updating my original book. And it launched this year in March, and that is for age five to eight. And it introduces them to the medium and then encourages them to tell their own story and interview their family members. Of course there's a lot of caution to be had with kids uploading content on the internet. And so the book gently encourages them to either perform it as a live podcast or to record it and just keep it for themselves as a private podcast. So I think that's nice also to to acknowledge,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "right? And it's fascinating how you can build that storytelling skill. Young. That's amazing. Yes. And with the push to get kids away from screens podcasting is a fabulous medium. That's going to be something that is flexible. Still exposes them to content that isn't visual. Yep. Doesn't have to be visual. Yep. I have a big thing about video podcasts. We're doing video for this, but it's not, it doesn't have to be what I personally like"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "to have"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "as a podcast. That's fair. So fair. I think that's really cool for kids."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes. Because there's a growing concern around screen time and also we see that it helps park their imagination. So one of the activities I'll do when I do my Podcasting for Kids Workshop is have a group of, I'll do this for like grade ones, twos, threes have a group of kids listen to an audio story and then we go around the room and say, the woman's voice in that podcast, what do you think she looked like? And each one is describing this character that they imagined in their mind, purple hair with a black t-shirt. And they're like going off on what they described as their character and we get to hear how everybody thought of something different. And at the end of that exercise I say no one's right and no one's wrong. Everyone just got to create a something in their mind. And that means a part of them is in that story now. And that's the beauty of audio storytelling. So getting that's great for brain health. So that's like a nice piece to it. And you talk about the championing their voice. And you'll see even at that young of an age students who don't wanna listen to their voice back and say, I don't like the way I sound. Or they'll plug their ears when we do an exercise where I'm recording them and I'm playing it back. But I do it on purpose and I make everybody cheer for everyone and really start to embrace that. We gotta love our voices. Every voice is unique, every voice is special. And what I also try to start to explain is scientifically why we sound different when we. Hear ourselves back, right? So our ears are behind our mouth. And I just use that example for the kids to say, and look, it's behind you. And when you're talking to Mike, the mic's in front of you, and of course it's gonna sound different, and that's okay. That's science. And so hoping to instill these kind of nuggets of information young so that they can grow to love their voice and not be so hard on themselves."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. No, and but it's also not just for kids too, because just actually before I came over here, I happened to see somebody had written that basically like women over 50, they wanna silence us."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "But we"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "didn't get silence. We picked up a microphone. Heck yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes. I know. When the number of women podcasters are increasing like over the years and it's tripled over, I just read a stat that women listenership has tripled over the last decade. Yeah. So it actually used to be skewed with more men listening to podcasts and, but now we've really seen an uptick with women and that women like to listen to women. So there you go. It's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "great. Yeah. Yeah. Actually, it's fascinating that you say that because I. Really try to actually balance the difference between my guests. And make sure that I've got like a representation. Great. But when I listen to women."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "See, there you go."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And I I actually had a debate with, actually, he happens to be Canadian, a really long standing podcaster. You'll know their name I won't talk"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "about. Okay."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. And honestly, every time I engage with him, I just get irritated."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Oh my gosh. Fiery, we got some fiery ones in the mix."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. But I think it's really important that you have a voice and it's a way that people can maybe counter the loneliness epidemic because a lot of loneliness is about not feeling seen and heard. Yeah. So podcasting is a way that you can do that."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah, definitely. And I think sometimes there's been a lot of research around loneliness and people who have people around them would assume that, oh, you're not lonely. You have a partner, you have a family, but. You can still feel lonely when being surrounded with people. So if that is the case, how can you continue to do outreach and build community in ways beyond just your immediate household? And yeah, podcasting definitely allows for that, that relationship with and the intimacy that people feel from listening to podcast hosts, it's nice."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And I think that's a really important part of it. And honestly, that's why I podcast is, my family doesn't necessarily wanna listen to all of my current theories on what the future of work is. Or could be Right. So it gives me an outlet to really talk about things that are out there that aren't necessarily things that I have somebody else to talk about with."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "There you go."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. And that's the best thing about podcasting too. It's an excuse to get really smart people who sometimes will even come up and actually meet with you in person. Why not? And they'll talk to you and tell you. Amazing advice, just for free."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah, no, it's great. It's really fun. Yeah, exactly. And do you find, what, I'm just, now I'm reversing it. 'cause I'm curious, like what did you, what was what were you expecting when you started a podcast and did creating a podcast meet those expectations or surpass them? Or what was it like pre podcast? Amazing question."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "It's almost like I fed that to you. Like seriously. No, but I wanna know. So my story was I actually got laid off. Okay. But I had been in call centers for the majority of my career, and then I moved into sales. So I was very used to talking to people like all day long. Okay. And when I got laid off and was home with my kids and didn't necessarily have to talk to everybody about things all day long, I eventually found that I was, I felt like I was being silenced. And I needed an outlet."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "But I also needed an outlet that would allow me to talk about things that I thought were. Important because I'm also the type of person who tends to be on the outskirts of the future. Yeah. Like I, I notice patterns, I notice things that happen Yep. Before they really happens. If you started podcasting in 2010, you can relate to that. Yes. Yeah. Early, right? Like I tend to be that type of person too. Frequently I don't necessarily always have people who are like that. So I started because I wanted to advance a personal brand for, work because I decided to start a consulting company. Yeah. So strategic in terms of how do I support myself, but also it was I felt like I wasn't being listened to. Yeah. And so when I was talking to people, I also noticed myself interrupting. So I was trying to actually train myself to be a better listener. Wow. And that was in the other part of it as well too."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "And do you feel like you accomplished all that?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I feel like I have."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Wow, that's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "so good. Yep. It was funny, I took a story tour in telling course once probably 2019. 2020. Yep. Somebody in she's actually through Eth Godin. She actually Oh, great. She's in Australia. Cool. She wrote a piece today. Wow. What are the odds? I know about noticing that she was not as good a listener as she wanted to be. And how she was training herself to be that way. And I was just like, wow. That's, I think, something that could really resonate. I, and I don't think that people think about podcasting as a way to help them develop speaking skills, listening skills. Communication skills overall."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. Yep. For sure. I think listening is so important in all aspects of our life, and podcasting really forces you to get good at it. And, but that. Yeah, but that skill is gonna have ripple effects far beyond the podcast studio. So I think it's really commendable that that someone might start a podcast for that reason, the opposite of what you might think to sharpen those listening skills. 'cause you really do have to be present and listening in order to do a great interview and to have a great conversation and to let it flow. And so I think that as a journalist, as a trained journalist, that was my crash course in, oh, I gotta be listening 'cause I'm looking for that golden nugget of a clip. I have to think of the great follow-up questions, and so that training on the act of listening part, I got young, which was and I loved it. And I think it's helped come into, as a foundational skill for, as I moved into the podcasting space too. And I think there's whole books on listening. So if anybody is wanting to, and it takes a little bit of. Self-awareness to recognize, hey, maybe I'm not a great listener. Yeah. No it's great to continue to be aware of that side of things."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. And there's different types of listening are you listening so that you can talk? Or are you listening to learn? What does the person need from you in that moment? And just allowing that space sometimes. Yeah. Space never happens in podcasts. I notice."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "It depends. Especially like certain ones where Yeah. They're like talking over each other. But if you can, you let the there be silence a little bit. Sometimes it can be powerful too."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You know who uses space?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Who? Malcolm"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Gladwell."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. There we go. Nice. Yeah. Yeah. Does a good job of it. I love Krista Tippet in on being podcast. She also does a great, oh yeah, check it out. She does a, she's a great interviewer and she's really great with, sometimes she'll even I use this clip, so this is why I know it off the top of my head. 'cause I use it in a lot of my workshops where she's interviewing Brene Brown and actually she just reads. A quote from Brene's book back to Brene Brown. And then just lets, and then just lets her go. But she just, and then she just sits and Brene, is obviously media trained and will speak, but letting her be a minute and Brene will really think before she speaks. So actually that's common. Yeah. For her. Did you"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "listen to the podcast that they, she did. Was Adam Grant for her latest book? I did. And she teases him?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes. '"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "cause he got feedback. That he needs to be more like Brene Brown in terms of actually thinking through the questions and allowing that space. Yeah. So it's funny you bring that"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "up. I know, and I love that you listen to that. 'cause I love them too. And so for those of you who don't know, there's Brene Brown has a Dare to Lead podcast and she did a separate subseries within this to promote her upcoming books. And Adam Grant takes the host role instead of Brene and interviews her about the book. So this is what we're referencing. And and there's actually many moments in that miniseries where there's a lot of silence actually, though. There is. Yeah. Because, and she'll, she's such a deep thinker and she'll be even, she'll even say, gimme a second, I, I wanna formulate my response properly, but I gotta just process it. She'll, so she'll preface it, take her moment to think and then talk and, I think it's very effective."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So I wanna highlight the fact that Amanda. Just did something that's amazing that I didn't think to do, which was give you that whole backstory because I'm assuming that you had that backstory and, I'm"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "just, I know I'm just a trained broadcaster, I'm like, we go, we just gotta give it to them just in case. And it's funny, some people don't. I'll reference, there's certain thought leaders like Brene Brown who in my world is very mainstream, and I think for yours too, but even sometimes I'll come up at the end of presentations and someone will say, but who is Brene Brown? And I was like, whoa. I guess I have to give context on that one too. So if you don't know Brene Brown, she's a researcher around belonging, happiness. And she has a PhD. She lives in Texas. But as very famous Ted talk about belonging and vulnerability that you could check out. But anyway, sometimes you just never know who, what context is needing. We need it. So of course I always try to jump into to, to help keep podcasts inclusive."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. No, it makes sense. And Adam Grant is a professor at Wharton who talks about the future of work. Yes. But also, he's a psychologist. Yeah. So it's the how people live at work basically."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Exactly. And they're both PhD grads who really love the research behind all of this. Yes. And I appreciate that it's always grounded with real research, what they talk about."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yes. Yeah. It's, those are honestly two of my favorite people"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "to listen. Yeah. We're very similar. I'm the same. I'm a big fan."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. So I wanted to actually switch to the speaking aspect of it. Yeah. So not only do you do audio podcasting, but you also do keynote speaking."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yep."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And you have done a TED Talk? Yes. I tried to do a TED Talk. I applied for the global TED Talk. Oh."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "And"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "got"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "declined. It's, they must have got so many. Of course I saw those course they were running ads for it. Yes. So it's good for you for applying though, that's good First step. I, to be honest, I had applied to many TED stages before I got one. So it's not easy. It's a tough thing to crack the nut on. But my TEDx talk was with Toronto Metropolitan University, which was my alumnus. It was a great fit. But even that stage, like I had applied to be on that stage multiple times before they chose me. So sometimes it just takes time. But I do love speaking. I feel obviously the audio storytelling and being on a stage, it's all storytelling, but. It is different because like here, there's no one, it's just us two in a room and some folks who come up on the radio side don't necessarily always enjoy being on a stage with hundreds or thousands of people looking at them. But I was brought up loving public speaking actually. That's where I think I was like in grade school going through the competitions. I went, I won the whole thing. Like I went up all the way to the board level and really loved doing that portion of work. And in school I did the in morning announcements in high school. I then, and then really what supercharged me was I, my first ever full-time job actually was working on a cruise ship and I worked as a entertainment host. I can see it. Yeah. So I did the Trivias and the Bingos and I was on a microphone 40 hours a week on a stage in front of thousands of cruise guests. And oh yeah, like I loved it. I really thrived and it taught me how to. Keep an audience captivated and and just have fun and roll with the punches. So it was it was a great training ground for me to eventually do what I'm doing today."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Very cool. So what's your thought on the fact that TED talks are getting shorter?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I know this is like the drama in the TED talk space. 'cause I think it used to actually be 20 then it was 18 when I did it. 18 minute limit and now it's, is it 15 or 12 minute? 15 minutes now?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I think it's like"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "12. 12 now. 12, yeah. So something like that. But it significantly shorter from where we started. Yeah, I think it's interesting because when I had my 18 minute limit in my head, I felt like I had to fill the 18 minutes. And maybe that's what they're trying to prevent. Like some of those TED talks could have been shorter and people were failing the time 'cause they felt they needed to fill the time. But I think no matter what, when you are given constraint, it's always interesting and creative to see how people. Yeah, flex their creative muscles to work around that. I think obviously you could still tell a great story in that amount of time and really powerful ideas. And there are still some of the greatest TED talks that are actually shorter. They just didn't use their full stage time. I think that it could be a positive. I'm interested to see if how it translates and if we find that there's a shift in how TED Talks are delivered because of this. But yeah, I guess it's just gonna be a wait and see."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I'm curious what gets lost, because to me the obvious answer is context."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah, it's true. You're obviously missing out on time and you're gonna have to pick and choose how much or where to give that extra context. So it's hard to say. I think I, yeah, what would my TED talk have been? If I only had 12 minutes, what would I have had to cut out? I really love my TEDx talk. So if you wanna look it up, it's called why Audio Storytelling is the Backbone of Humanity and. The, it had a lot of elements in it. I talk about my background in radio. I talk about the rise of podcasting. I do this demonstration of a really powerful audio app that my company created and helps people capture legacies on audio stories, oral histories. So yeah, I probably would've had to cut that part. I would've had to cut that oral history part, which feels like incomplete. It feels wrong. So I don't know, it's tough. I yeah, I guess there will be pros and cons to it."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That's interesting. So you also were invited to go to the TED conference on ai?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yes. Yes. Tell"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "us about that."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Okay. It was really exciting. So the head of ted, which is, that's why there's no x, the X means it's like an offshoot run somewhere locally. Ted, the actual TED runs conferences and there'll be in big. Cities all over the world. They actually do them in Vancouver, British Columbia, though they're discontinuing those, I dunno if you heard that. Next year's, the last year. Yeah. So that was So actually once that they're"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "doing global."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yep. And actually that's what made me go I had never really paid attention to those conferences globally even. I never really looked up where exactly are they. And that's why I saw that news and I went, oh, that's a shame, but where else are they even doing them? And I just started digging in and I saw the applications were open to attend the Ted AI in Vienna, which was a new one. Yeah. And this was only their second year running it. And I just thought, oh, it's a very intentional delegation because they do, and I didn't know this about. TED conferences before I went, unlike the TEDx talks, the TED conferences have one day of talks and it's 20 talks back to back. It's like a very long day. And then the other days of the conference are, you're networking, you're doing excursions together that they pay for. That is like part of it. You're doing dinners together. It's you're brainstorming. You have solution circles where they put a problem and then people are collaborating and trying to figure out problems together. Like it's very interactive dynamic. And the audience is not just an audience. You're basically. Also speaking and sharing ideas quite extensively. And so they wanna make sure they have a stacked room and they wanna make sure they have a diverse room. And so that's why there's an application to, you can't just go. So they, I don't exactly know what the rubric was, but I was chosen and I'm very happy. I was one of 13 Canadians Yeah. To go. Yeah. Which was really exciting. And I made some, I met some incredible people. I made some incredible French which was really, I'm so glad I went and it all worked out. So yeah. So it, it's a three day event. Day one is an initial meetups and then a gala. And it was, 'cause it was in Vienna and they love balls, so they threw this huge ball and it was just a nice way to kick off in this, in the Imperial Palace, which is a historical building and quite stunning. And the whole conference actually took place there in this imperial palace. And then day two was all of those workshops. And so even one of the excursions I went on was. To have AI create a perfume for you. And so they took us to this special perfume shop. We filled out this survey about ourselves, and then there was a billion, combinations of scents that they could have put together for you. And based on how you filled out the survey, this machine gave you a s. That it thought you would like and did you And okay, so well, what it did, it gave me three to choose from and one was definitely ama, like I loved it. And one was like okay. And the third was, I definitely did not like it. So it was interesting. It was like a range. But then what they did is, and they, and I like how they did this, they said, A, with AI you have, there always has to be adjustments. Humans have to be working alongside it. And so yes, it's gonna give you your three samples and then you can tweak if you feel you need, if one is close to make it the absolute perfect scent. But I said, you know what, it really nailed it with that first one. I loved it the most. I'm just gonna print. That's gonna be my bottle. And so actually everyone got a bottle of the scents that was made for them. And I was like, what a cool experience as part of a conference, it's cool. Yeah. And now I have my own original Ted AI scent"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That's. I don't know anybody else right to tell that story."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Very neat. So if you ever have the opportunity Yes, to go to one of these conferences, I would highly recommend it. I really enjoyed it."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "What did you learn from it? Yes, that was invaluable."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Oh, okay. So that was all the fun stuff as far as the talks themselves. Now, in that final day, I felt like it was really interesting some of, and I think everyone took different things away, which I also found fascinating when we talked after, based on where they were at, what they were interested in. So for instance, one of the opening talks was a someone who was very technical, and this was not for me 'cause I'm just not that, and I'm like, somebody in this audience must love this. But essentially she was talking about, she was equating the scientific periodic table of elements and demonstrating how she has developed a machine learning periodic table of. Code. I don't even know. It was a periodic table of AI basically. And I was like, fascinating. And that was as far as I could even wrap my head around, and the rest of the talks were explaining it all. That's a blank like expression of my face. I'm like, whoa, great for you. I was happy for her. She was clearly a genius and that exists out there so neat. We're innovating and just to you, but I think it's interesting to even think about, we are redefining the periodic tables in science and, in relation to AI and that's being defined right now as we go. Very neat. She's doing her PhD in this, so great. So that's one end of the spectrum. And then, the complete opposite end of the spectrum was a magician who was doing magic tricks as part of his TED talk. And saying how, like he was just playing off of the idea of wonder and things that he could have made somebody feel was a magic trick. Now people are like, that's just ai. They were skeptical of some of the magic tricks he was doing online because of all the AI technology that can basically make a video of you doing anything. Yeah. It was very fun and he was, making tennis balls appear outta nowhere and really great magic tricks. And then connecting it to the idea of wonder which was like a more of a creative and fun presentation. But, when we look at the talks that were in the middle, that really challenged, the way I think about some things as I engage was number one, there was one about living with a robot. And so how, what is it gonna be like when there are physical robots in our world? And so she had a robot that she'd been living with for a year and. The robot damaged some things in her house and she was like does insurance cover this? And what, right? What's the line about The robot damaged it? Who's liable for that? And raise. And she just raised a lot of great questions. Then she's I wanted to take it on public transit with me, so it has to go through the turnstile. So my buying in a pass, is it a, or am I carrying it over? Like it's taking up a seat. So is it a, okay, so then it's so where do you draw the line? Then even with talking about it being transported and around the city, and it's like, what if she folded it up and it was in a box? Does it count then or does it only count when it's walking?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "He used it as a passenger in the HOV lane. There you go."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "But we gotta make Phil's decisions legit. Someone's gonna say that's like my assistant. And so it's. It just, Hey,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "It beats a blow up doll,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "right? Yeah. More use cases for sure. I, so I just thought, this is really interesting questions that I never really thought about and actually we have to figure out answers to pretty soon. So there's, there was that talk and the robot came out on the stage at one point. It was really neat. Oh, that's good. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So did she have to buy a plane ticket,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I wonder? I don't know, but she, why was it I didn't ask her. She show, she did show how she folds them up into a box though. But it is a very big heavy box, so she's I still get asked questions anyway quite interesting the world that'll be living in soon."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That is fun. The only robot I've lived with is eye robot, which is like the automatic vacuum. Yeah. Which I honestly hate because I swear it stalks me and I trip on it. Oh"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "my God. See"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it terrifies my dog."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I know. I've never, I never got one of those yet. I'm like, it's okay. I'm still a gate to manually vacuum."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I wanted to live it. I really did because I really hate vacuuming. Yeah. I really wanted to love it, and"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I do not. Yeah. Fair."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So that's really cool. Thank you for sharing that. There you go. And today you're actually doing a workshop. Yes. It's seven o'clock. We're recording. What time is it now? We have to actually make sure that we're getting 'em in edit here on time. It's five 30. Yeah. Good on"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "time. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So how do your workshops fit into everything? Is it really just about taking the ideas, the thought leadership? You seem to have a new podcast, by the way. How does that all fit into what you're planning for your upcoming future?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "The workshops, I love giving workshops and I've been giving them definitely with the launch of the book the first time in 2018, I got a lot of requests for workshops. So I've been giving them since then very actively. And I love empowering people to overcome any gaps in their knowledge or in their and when it comes to their own self-confidence to get them to do what they wanna do. The whole thing with podcasting is such an accessible medium. And so I just want to continue to make it that and champion it. So I think I'll always be doing some sort of workshops in some capacity no matter what. But the core of them are my, now my Workshop for kids, which has come out with the, in attachment to the new book. Let's Talk Podcasting for Kids. And then the areas that people tend to wanna learn about the most are the art of interviewing. Podcast 1 0 1, which is like my, just baseline and we introduce people to the medium. And even if podcasts, I like play a bunch of clips and talk behind the scenes about the making of them. So I think it's a really good, like anybody can attend that one. I do a nuts and bolts of production where we get into the nitty gritty of the technology and the. Producer hat that you need to have on when you're making a podcast. And then I do this one, which I'm gonna be doing later tonight, which is called Podcasting for Business Growth. And so this is where we really take a business lens on podcasts and talk about how businesses can use them, some best practices, and we get into some case studies. And so this is one that I typically do with in entrepreneur groups or within organizations who are contemplating starting a podcast. So it could set them up for success and help them identify what their strategy and what their goals should be. Because especially for those kinds of podcasts, hitting number one on Apple might not actually accomplish your business goals, right? So it's thinking strategically about why are you making this show. Those are the ones that I typically do. And do they"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "tend to be in person or do you do virtual? Both."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I think that I do a lot in person, but. I have done virtual as well, especially in the pandemic, like I was still giving them all the time. And so I've adjusted some of them to yeah, to be good for the screen. And I used to give editing workshops too, but now honestly there, there's so many tools that do the edits basically for you that I haven't really been running those ones as much and I would first see that really becoming a non-issue for people to have to learn as you even said, I have an open audition. I don't think you'll have to really, you'll have enough tools to do it without Yeah. The professional high end ones. Yeah. I take a"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "very low key approach to editing, which is basically remove filler words, add music, and that's it."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's it. And that's fine. And so many, there's so many successful podcasts that do that kind of treatment, so it makes sense."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. Yeah. I did do one where the guest was just really uncomfortable and we edited line by line and"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I learned that I don't"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "wanna do that. No. And I started interviewing professional speakers. There you go."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. Yeah. That makes a difference for sure."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And so this thought leadership podcast that I happen to come across a trailer, yes. That looks like it was just released this week. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "So this is like a very soft launch, which you're on it. Yes. We, let's go. It's so I've been making podcasts for other people for a very long time, and I have hosted some, and usually in collaboration with a client or a news outlet, but this one's purely my own. So it, it's very exciting. It's about time. So it is called Let's Talk Thought Leadership, and I'm actually debuting the trailer tonight at the workshop. Oh, are you? Yes. Which is why I actually pushed it live this week. Okay. Because it's, I'm glad I looked for it. There you go. You're on it. I know. I haven't made any post. I have not said this, so if you're listening, you're getting the real first announcement."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And if you ever doubt if I do my research,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "clearly she's on it. So I, this has been a brainchild of mine for a long time and I had recorded this trailer and I'd been sitting on it for a bit because I am in the midst of recording all my episodes and I am gonna do a an approach where I've recorded everything and then strategically released them next year. It's called Let's Talk Thought Leadership. And it's talking about thought leadership because I feel like every time I had this conversation with people are defining that word differently. But it's so buzzy and people will tend to use it for other people, but then we might be using it differently. And so I just thought, I love, and then"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "there's the sarcastic version. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "And people like hate, it's, some people have a real disdain for it, and I understand it's overused sometimes. And so we're just gonna dig in. We're putting it all on the table, let's talk about it. 'cause there's not a lot of discourse about the term itself. It's just embedded itself in weird little ways everywhere. And so I really want to dig in on how people view this real. Trend of becoming a thought leader in a certain field, and what does that even mean and what does that look like and how do you pursue that? And it's like an ongoing process. And to me, like leadership is an ongoing process and so is thought leadership. And so how do we yeah, how do we just look at that, define it and talk to some folks that I have a lot of respect for, and I'm sticking to Canadians for season one, which is great."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "If you're looking for a LinkedIn top voice, there you go. I have thoughts on thought leadership. I just pitching myself now. Yeah. I love it. Because actually just LinkedIn Top Voice,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "it's huge."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So how do you get that? It's huge. It's huge, but it's really interesting how people react to it"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "really. So tell me, talk about this. I'm interested in that."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Very few Canadians actually have Yes. Top voice. Yes. And so my coach Carrie Twig was a LinkedIn Top Voice. And so I for sure working with her and. I paid attention to how she behaved. On LinkedIn."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "On LinkedIn,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "yeah. And how she writes and how she conducts herself and presents herself basically. And she is a story and telling coach, and so she has that speaker background, even though she doesn't present herself as a speaker. It's, she has a very different way of being that's not exactly like everybody else on LinkedIn. Yeah, and so I've watched her since 2018. And it's funny because if anything, it just taught me to be more myself and to trust my own instincts and my own insights. And really between the podcasting, between the writing on LinkedIn, it's how do you become more yourself?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's nice."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And what I find stands out really for LinkedIn is when you're actually not. Saying the same thing as everybody else. Yeah. You've got something that's unique, that's special, that's valuable. There is no rubric."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You can't buy it. Yeah. You can't influence it. There are patterns. Yeah. LinkedIn trainers."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yep."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Almost never get them, although I do know too."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Interesting."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So it's very interesting the FOMO that generates from the people who tend to work in areas that don't receive the LinkedIn voice. So I'm part of a LinkedIn group John Experience group. He's actually in Wales. Oh, cool. In the uk. And he was teasing me today about being a, he's I need that blue badge. And I'm like, what for? He said, just because, and I'm like, but you haven't told me. Yeah. Other than the fact that you can't get it, what it's gonna do for you. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "So"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "people don't actually understand. How to use it, how it benefits you, and honestly I've actually experienced a lot of backlash really from people who are jealous."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's so about it. Sad. I'm sorry to hear that. But again"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it's the way that LinkedIn presents it and it's the fact that it's not clear in terms of how you've achieved it. Like the first question you asked me is, how did I get that?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Not in the, what you did. 'cause I can tell the buyer content. It makes sense. To me, but I was more like, I was always curious. Is it just a, do they just reach out to you? What was the actual I got"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "an email."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah, the email. You, okay. That's what the literal communication method of how, that's what, so they email you being like, you've been chosen."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's amazing."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Me. And then I checked my profile and I had the"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "back and it's on. Okay. And it's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "there now. You can lose it now."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Oh. So they changed it. Wow. So I actually"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "do know somebody who lost it because she actually works in internal communications. And she was always really active and then she changed jobs. And then with that new job, she stopped post it as my"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "job"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "and stop commenting and all of that stuff. And I, when I checked to her profile the other day, she doesn't have it anymore."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Wow. And"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "so it's how you conduct yourself and how active you are on the platform. And so if you stop,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "it goes away. You have the"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "ability to lose it now."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Wow. That's smart of them. It keeps people hooked. So"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it, it does, but the only benefit, I honestly, if you ask me what the only benefit is Yeah. Is you can add it to like profile pictures. Yeah. It, it draws the eye. Yeah. But also they give you LinkedIn premium. Oh, that's amazing. I didn't know that"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "there, technically"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it's only supposed to be for a certain period of time, but if you look at my profile it's I don't know, a hundred years from now."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Wow. Great. Nice perk. Yeah, there you go. Love that. Thanks for that insider. See, but this is the exact kind of thing that I think people are always curious about. They're always, and they're either out looking in or they're in and still reflecting on and learning about. So these are the kinds of conversations I hope to have more of. So there you go. So"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "look at the external validation. Of what look, thought leadership is. Yeah. 'cause that is a very interesting thing. Thinkers, you think Thinkers 50. Yep. That kind of stuff."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yep. And who considers, it's also been very interesting even to some of the initial guests I've reached out to of who even considers themself a thought leader. So I will reach out to somebody and they'll say, but I'm not a thought leader. Yeah. But it's 'cause what is, yep. And they still say here, but this is what I'm saying. Yes. Really. I'm not gonna say who because no, that's fine. Because these are some well-known names. But you know what I think it's interesting that because what are they defining thought leadership as? What are they defining thought leader as? So I always though ask Chad GPT, I think that's a good little litmus test is, and then put a name in a thought leader and just see what they say and and so that's actually, and that's what I use in the trailer script actually, is that's how I put my own name in and saw what it said and it said yes. I went, all right, at least we've got that validation."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Hey, I have a Grammy award that perplexity told me that I have"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "uhoh."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So you gotta be careful with those. Okay, sedations out there."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's right. You do gotta be careful. But I think if it is gonna help somebody who is like questioning their own yes, genuine thought leadership, then I think it's a good thing."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That is actually how I use AI in lots of ways. Yeah. Like I ask it a lot of questions and I ask what it knows about me and then I ask it. Confronting questions Yes. To make myself think."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's good. And there was a whole other Ted talk at today, I actually about that too, which was like, don't let these a AI agents do the thinking for you. Have them prompt you to be a better thinker. Yeah. And I thought that was a nice way to reverse, like we keep thinking about prompting them, but get them to prompt you."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, exactly. And I do that too, although you have to be careful with sometimes the prompts that you just line, because there was one time I copied somebody's prompt and it was about if you don't want AI to suck up to you, oh, how do you challenge it to not be obsequious? Okay. And that prompt was not worded in such a way that I felt the output was like, it actually upset me. Like it was so confrontational. Oh no. And so you have to be really careful. How you teach it to behave. Oh my"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "gosh."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "It's a good warning."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. So what's the difference of podcasting Canada versus podcasting in the United States, do you think?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "If we look at the industry, I think there's a lot of overlap, a lot of similarities, and yes, a lot of differences. I think in Canada, if you look at the market as a whole, we are behind. And that's how we tend to be with a lot of things, especially in the media industry. And that's okay. Like we know. But it is the reality. And so when and I like to actually go back to around that 2019 time, right before the pandemic, we were still we continued to see a surge in podcast listening year over year. That was the case then and now. But at that time there started to be this like acquisition frenzy where a lot of companies, specifically in the US started buying up other companies Yes. To try to become front runners in the industry. And so what happened was there was a lot of. Over investment. And now there's a little bit of a right sizing happening in the US market, specifically Canada never had that. We never over invested and therefore we were never right sizing. So actually I think the market, it as a whole in Canada is quite stable comparatively because we were a little slower and a little more risk adverse. And so now if you actually talk to podcasters who are in the us, they have a, they're in a little bit of a crisis. There's a lot of jobs being lost. There's a lot of entire departments and companies being shut down and a lot of grief, like true grief over things that people were really excited about or passionate about. And that's very interesting to see. And I wouldn't have expected it here. I was watching the American market at that time going, oh my gosh, what a, it feels like a gold rush. I wish I could be part of it, but I feel I'm on the other side of the border and I'm so far from it."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So this is when like they were buying, like they Harry and Meghan."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "So they were buying, yeah, so it would it, like some examples were Spotify bought the rights to the Joe Rogan shows Alex Cooper and Call her daddy was getting deals. Now she's with Sirius xm, but she was with Spotify. Amazon bought Wondery, which was a narrative production house. So there was all these kinds of, but then also smaller acquisitions over technology. Anchor FM was bought by Spotify. So some of the even tech that the tools were being purchased up squad cast. Purchase DS script or the other way around d script, purchase squad cast. So you know, like these kinds of me, like things happening. Yeah. And that it was just very buzzy. It was like what's bought today? Every day was like a new acquisition. And so that all happened really quick. But now we see, like one of the news I was just referring to that's caused a lot of grief is that Amazon has shut down that Wondery department. They're not doing podcasts, but they've assigned all the podcast portfolios to the audiobook team. And like that team that was acquired is essentially gone completely. And so"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "they've sent it over to audiobooks. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I know this is very controversial. Books"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "and podcasts are not the same thing. Correct."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "So this is why people are freaking out."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh, okay. Yeah, I glad my reaction's the same. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "And but, and causing a lot of concern and sadness and this is all these things. And and also begs is a question like, why didn't they actually just take the top performers from both groups and try to more merge them rather than just shut down. They just shut down the Wondery side completely. So this was, and they were still operating under that brand. Apparently they still will, but who knows what's gonna come out from there now on the other side of that move, but with this, I think we're just in an iterative period where people are trying to figure out how the profits and laws all balance out and how, what makes sense. And so there was a lot of new money and now there's a lot of right sizing and iterations that are happening. So that's all. So I think. But because of that, we can learn from the US. 'cause they took those risks, they moved faster. We've been a little more slow and take in watching from across our border and going, all right, and so what can we learn from that? Where I think Canada's truly lacking, and we haven't picked up the pace on yet, is in support for independent podcasters. Yeah. No kidding. I know everybody's just alone in their basement or library recording. And so you have all, in Canada, we have all these independents. There's lots of independent people making great shows. Successful shows, and then we have. The CB. C and Rogers has a podcast Arm and Bell has a podcast arm. Sure. So these and Canada Land, I would say is pretty big and up there as a network."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Hey, banners a CBC podcast. I don't know about the others."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Like these are the Yeah. So Frequency Network is with Rogers, bell has iHeart podcasts, iHeart Media. And then Chorus has Curious Cast. So these are the big players. Sure. But the what's in between, this is what's lacking. We don't really have you, maybe you could say Canada Lands in between kind of, but I would say they're pretty much on the higher end, there's nothing really. There's a couple of collectives that we've got Women in Media Sound Off Network Sonar podcast, black Canadian creators. There's some collectives emerging, but. These are grassroots, these are, some of them are being done off the side of somebody's desk. These aren't, there's nothing really bridging this gap. Whereas in the US they have very well established collectives, net full networks that are independently owned and bringing together independent producers to help for instance, like Radiotopia, where they are a collection of shows that are really well made with a localized sales hub, and they're selling and placing podcast ad podcast ads on all of these different, independent, essentially independent shows. It's a, but it's just a really well known network. We don't really have an equivalent. So you wanna make it Nola?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "No, but I am actually interested in asking you about the the advertising aspect of it. Yeah. Because I personally fund everything. Yeah. I'm uncomfortable with actually having ads."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "because I'm worried about reputation, especially because of the topics that I tend to talk about. I'm constantly challenging the status quo. And so anybody who's placing an ad might have the expectation that I would agree with their product, that I would agree with their their ethics, their, how they behave, how their company operates, how they dedicate their assets. And I would look at all of that, and so I've chosen not to actually go down that road."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yep."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I know of a podcaster in the US for example, he's sponsored by this massive of oil company and his show is all about leading from the heart."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "And I'm"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "like leading from the heart, as long as you destroy the environment."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "To me that's a disconnect."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I don't know how you do that."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So I don't know that much about advertising in Canada. Yeah. Because I've chosen to, to not explore that. But do you have insight on that?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. And I think. W when I talk about the lack of middle ground for creators, that lack of middle ground also has and is a bit of a chicken and egg is impacted or is impacted by advertising. Because even if somebody wanted to a advertise on some Canadian podcasts, where are they going? They're either going to the big players and it's a whole different pricing scheme and you actually gotta do a bundle with probably a bunch of the other digital properties. Or you're going to an individual to say, can I put an ad on? And maybe if that person has their podcast on like a cast or a hosting site that allows people to buy ads, sure. But there's no real middle ground where we can have somebody selling ads to go on multiple independent podcasts. You have to go. And so that gap is very real. But there is, there are people wanting that someone needs to just fill this gap. So maybe someone listening can do it, but really pooling together some of the independent podcasts that are out there that are very good. There's lots, and then representing them and getting ads placed. So Sonar Network is one example of a network that is doing it well"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "because you have yours. Exactly."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "My Sleep podcast with them. So this is why I could talk with knowledge with how they work. So Sonar Network does, but this is comedy and arts, so they're tailored to a certain genre. There's still so many other genres that can get representation. And I have a sleep podcast. With original music compositions done by my husband, which is amazing. Called How To Fall Asleep Fast. And that is part of the Sonar Network. And why I went with them is because they're one of the few middle ground independent collectives that do this sort of group sales pitching. And so the numbers of my podcast are pretty good, but they're really good when you pair it with three others that are pretty good. And so what they'll do is sell for all of us and do a bundle deal. And so because of that, we've had advertisers like better Help on our podcast through Sonar, and then Sonar takes a cut and we get a cut and everybody's happy. So it definitely could happen. So this is"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "reminding me of that Pushkin."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. Because"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "that's basically how Pushkin works, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. And see again then Pushkin is Malcolm Gladwell's and they're in the US like we don't have an equivalent. What's Pushkin in Canada? We don't have that really. No. Yeah. So this is, which is ironic since Malcolm Glad I know. Come on back, Malcolm. Like that's where there's some real gaps in our in the industry here for sure."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. That's fascinating. Yeah. See, this is why I like to have people on, I could ask questions that I Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "that you want. There you go. You get 'em. If you're wondering it, it means other people are wondering it too, so it's good."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. That's right. So I is there anything we haven't talked about that you wanna talk about?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I love that you asked that. I always encourage people to ask that when I do my interview. That actually"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "in your book. I do it all"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "the time. Yes. That's good. I can"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "see that."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Oh I will say, since this is the first official time I'm talking about my new podcast, thanks for doing the research and bringing it up. I will encourage people to go check it out and follow the trailer. The it's, let's talk thought leadership. You might need to still type my name beside it. 'cause the SE like the searchability of it is so new, might not come up. But the podcast, the episodes will start dropping next year planning for February. So"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I dunno what you did with your SEO but it was the first thing that came up when I searched your name today."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Whoa. Okay. That's great to hear."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And literally she has a transcript that comes up. It's probably just the apple transcript."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And you've got the trailer and that's it. That's"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "it. It's it's very new and that's why, but I found it like"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it's the first immediately that was listed."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Great. Thanks. And so I did it speak to you? Do you feel like that's the kind of show you'd listened to?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh yeah. Why do you think I'm asking?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I wanna, I don't wanna get honest responses. I don't know. You're like, so few people have heard it Nola. Honestly, it's so new"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "so I'm fascinated to hear what other people, how other people talk about thought leadership. Yeah. 'cause I think it's a polarizing topic."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I think. So that's why. And actually I did a little bit of focus grouping and I realized that, and I thought, do I change the word? But I'm like, no, but it actually just has to be that, and we have to just talk about it being polarizing. It's, yeah. And maybe somebody is actually doing the thing, like the things that I think about, but I associate with thought leadership. Maybe someone who doesn't like the word is actually still doing all the things and they just don't like the word. Yes,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "absolutely. So it's like"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "how, the way to talk about that and"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "how it, we talked about that briefly is how podcasting actually comes up in, in pop culture. Yeah. So I happen to hear a podcast earlier and they were talking about an author who didn't know how to characterize a job that one of her characters had, and her agent said, just have it be a podcaster. Murders in the building. All these oddballs, you just happen to have podcasting to fall back on. That's right. And you mentioned Sarah Jessica Parker. Yes. In the city, it's if you wanna update a T trope, you just have the person be a podcaster. Yeah. That's it. What does that actually look like in real life? Because Yeah, I can tell you I don't have a whole closet like Sarah Jessica Parkers or Selena Gomez."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "That's right. And it's interesting to see how it's represented in some of these shows. And how they very much glamorize it a hundred percent"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "but there is that glamor. Yeah. Like we were talking about diary of CEO, I actually hate that show. Keep quite honest. Yeah, it's fair. Malcolm Gladwell again. Yeah. I think when he did that show with Steven Bartlett and it went on for two hours and they started talking about remote work."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "think Malcolm Gladwell got tired and just actually went off about in-person work and it escalated globally and he never talked about it."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Whoa. I haven't listened to this episode, so I'm gonna have to go back and hear it. Oh, listen"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "to this episode. Ooh. Sounds it actually fiery. It was actually the first, I have a theory about in-person work and presence. And that certain people are validated by meeting in person. And certain people have that ability to actually maintain digital presence and don't need to read body language. They can listen. They can. And it's a skill that you can develop if you want to. It goes into your mental models and how the world works. Yeah. And Malcolm Gladwell, as ironic as it is, he travels all over the world to meet people, to talk to people, but he's a very person for somebody who like connects remotely."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And that podcast is where that theory started."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Interesting."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And that's fascinating to me because Steven Bartlett gets amazing people on there."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yep."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Louis Tomlinson just had, it's the only podcast that's ever actually been released into the theaters. And today he's interviewing Kamala Harris."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "How do we get that in Canada?"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah, it's true. Some of, because he's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "not doing anything that can't be done in Canada."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Correct. He"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "is a"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "entrepreneur and specifically in marketing. So you also have to recognize it's like all of his best skills at play that led to him being so successful after you listen to his earlier episodes. They're a little rough actually for him as a host. Like he had to really, he really learned on the job, but it was his marketing mind that allowed him to gain such success. And so I think it's when will Canadian talent or Canadian podcasters. Team up with a master marketer and really be able to try to have a run at it and cut through like that. I think it's possible someone's just gotta put in the blood sweat and tears. Like he did, like he really put in the hours. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. It's not like we don't have Dragon's Den"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "So that's why if Arlene Dickinson wanted to do one of these is that's what I was thinking of, like I'd listen, you'd but she has to want, she has to do it and then put the marketing in and and do you wanna do it? It's a lot of work. So it's not for everyone I get, but I think we do have some great Canadians who could do it."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "But you know what, we have some great Canadians who did it, like Erica EM'S podcast. She stopped because she couldn't get sponsorship."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Okay. But I will say that you have to look at the timing. You have to look at how many people were actually around and how many people were. Podcast professionals verse other kinds of professionals we'll sometimes see a bunch of radio folks who are brilliant with audio, but they never marketed a podcast trying and then really upset that they didn't get sponsorship. And it's I don't blame you. You've never actually done that before. Yeah. So you have to really have that right team around you to really make a proper run for it. Yeah. That's what I'll say."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. No, it's valid and that's why I stay away from it,"
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "because"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "that's not what I'm going for. No, you're strategy."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "For me it's about the business and honestly, the ideas. Thought leadership."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Yeah, there you go. And you're doing it, so congrats."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "Thank you. And thanks for having me along for the ride."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "It's amazing and thank you. As I said, it is so rare that anybody wants to actually come up to Keswick."
+  },
+  {
+   "time": null,
+   "speaker": "Amanda Cupido",
+   "text": "I'm happy, honestly. It's great. Find yourself in."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": null,
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": null
+}

@@ -29,15 +29,31 @@ function EpisodeCard({
   ep: (typeof EPISODES)[number];
   i: number;
 }) {
+  const hasTranscript = !!ep.transcriptSlug;
+
   return (
-    <a
-      href={`${PODCAST_BASE_URL}/${ep.slug}`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group block border-b border-border-light px-7 py-[26px] no-underline text-inherit transition-colors hover:bg-surface-hover"
+    <div
+      className="group relative block border-b border-border-light px-7 py-[26px] no-underline text-inherit transition-colors hover:bg-surface-hover"
       style={{ animation: `fade-in-up 0.3s ease ${i * 0.025}s both` }}
     >
-      <div className="flex items-start justify-between gap-4">
+      {/* Stretched primary link: transcript page when one exists, Podpage otherwise */}
+      {hasTranscript ? (
+        <a
+          href={`/podcast/${ep.transcriptSlug}`}
+          className="absolute inset-0 z-0"
+          aria-label={`${ep.title} — read the transcript`}
+        />
+      ) : (
+        <a
+          href={`${PODCAST_BASE_URL}/${ep.slug}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute inset-0 z-0"
+          aria-label={`${ep.title} — listen on Podpage`}
+        />
+      )}
+
+      <div className="pointer-events-none relative flex items-start justify-between gap-4">
         {/* Left content */}
         <div className="min-w-0 flex-1">
           {/* Meta row */}
@@ -59,6 +75,11 @@ function EpisodeCard({
             <span className="font-mono text-[11px] tracking-[0.07em] text-text-muted">
               S{ep.season}
             </span>
+            {hasTranscript && (
+              <span className="rounded-[--radius-pill] bg-pink/10 px-[9px] py-[3px] font-mono text-[10px] uppercase tracking-[0.08em] text-pink">
+                Transcript
+              </span>
+            )}
           </div>
 
           {/* Title */}
@@ -88,6 +109,18 @@ function EpisodeCard({
               </span>
             ))}
           </div>
+
+          {/* Secondary Podpage link when the card itself goes to the transcript */}
+          {hasTranscript && (
+            <a
+              href={`${PODCAST_BASE_URL}/${ep.slug}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="pointer-events-auto relative z-10 mt-[10px] inline-block font-mono text-[11px] uppercase tracking-[0.08em] text-text-muted underline-offset-2 hover:text-navy hover:underline"
+            >
+              Listen on Podpage ↗
+            </a>
+          )}
         </div>
 
         {/* Arrow */}
@@ -103,7 +136,7 @@ function EpisodeCard({
           </svg>
         </div>
       </div>
-    </a>
+    </div>
   );
 }
 

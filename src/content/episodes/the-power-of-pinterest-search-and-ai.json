@@ -1,0 +1,697 @@
+{
+ "number": null,
+ "slug": "the-power-of-pinterest-search-and-ai",
+ "title": "The Power of Pinterest, Search and AI",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Meagan Williamson",
+  "title": "Pinterest Marketing Expert & Educator",
+  "org": null,
+  "credentials": "School psychologist for a decade before building a Pinterest education business · Licensed in Canada and the UK · Has run her free live Pinterest challenge since 2020",
+  "links": null
+ },
+ "publishDate": "2024-09-13",
+ "publishDateHuman": "September 13, 2024",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Meagan Williamson — a school psychologist for a decade before becoming a Pinterest marketing educator — makes the case for Pinterest as a visual search engine rather than a social feed: marketing that keeps working when you step away. She explains how she uses AI to remove friction for students without feeding her intellectual property into public GPTs, why evergreen and seasonal content beat trend-chasing, and how much stock to put in Pinterest Predicts' claimed 80 percent accuracy. Under it all is a business deliberately designed around her family, and a free live challenge she has now run twelve times.",
+ "takeaways": [
+  "Treat Pinterest as a search engine, not a social feed — search marketing keeps compounding when you step away, which is exactly its value to a solo business owner.",
+  "Test AI against your friction points rather than your strategy: its job is clearing the places people stall, while the thinking and the voice stay yours.",
+  "Audit where your intellectual property goes before loading it into a public GPT — once people have access you can't revoke it, and your name quietly detaches from your own work.",
+  "Run evergreen and seasonal content ahead of trend-chasing; Pinterest Predicts is a place to align what you already talk about, not a strategy to build on.",
+  "Design the business around the life you want — summers outdoors, care work, and family emergencies were built into the structure instead of requested as exceptions.",
+  "Name the real timeline of search marketing: like a garden, the first year can look like failure while the roots take hold."
+ ],
+ "keyQA": [
+  {
+   "timestamp": null,
+   "question": "Is Pinterest a social media platform or a search engine?",
+   "answer": "A search engine — Pinterest is a visual search engine, and that distinction drives the whole strategy. Feed-based social platforms demand constant presence; search platforms like Pinterest, Google, and YouTube keep delivering traffic from content published months earlier. Meagan Williamson schedules her marketing so she can disappear for a summer with her kids and have the business look fully active the entire time."
+  },
+  {
+   "timestamp": null,
+   "question": "Why does search marketing take longer to work than social media?",
+   "answer": "Because search compounds instead of spiking. Social media has conditioned business owners to expect fast results from effort, but a search platform is closer to a garden — the butterfly bush that looks dead its first year and blooms in its second. The durable wins on Pinterest come from evergreen content plus seasonal content that recurs, not from chasing whatever is viral this week."
+  },
+  {
+   "timestamp": null,
+   "question": "How can a small business use AI without giving away its intellectual property?",
+   "answer": "Get ahead of the technology, but keep control of what feeds it. Williamson trains GPT-based assistants to remove friction for her students — yet refuses to load her IP into publicly available GPTs, because once someone has access it can't be revoked, and things drift: three people told her they used her prompts daily having forgotten the prompts came from her. Her answer was a custom app with individual logins, so access can be updated or ended."
+  },
+  {
+   "timestamp": null,
+   "question": "How accurate are Pinterest's annual trend predictions?",
+   "answer": "Pinterest Predicts claims roughly 80 percent of its forecasts come true, and the numbers are real — but treat it as an alignment check, not a strategy. If a rising trend matches what you already talk about, ride it; if nothing on the list fits your business, ignore it without worry. The consistent growth comes from evergreen and seasonal content, not flash-in-the-pan aesthetics."
+  },
+  {
+   "timestamp": null,
+   "question": "What is Pinterest's predictive modeling?",
+   "answer": "Pinterest anticipates what you'll need next rather than only answering what you searched. Look up puppy training and it will later surface adolescent-dog behavior content; search branding photoshoots and it starts showing outfits, makeup, and prep material. It's a reminder that most people have been benefiting from AI for years — the technology is new to the conversation, not to the platform."
+  },
+  {
+   "timestamp": null,
+   "question": "Why did a school psychologist become a Pinterest marketing educator?",
+   "answer": "Ten years as a school psychologist — including at the largest school board in North America — ended when her first child arrived and the traditional structure stopped fitting. A blog started in Northern Ireland in 2010, where her Canadian credentials weren't recognized, had already turned into early Pinterest skill. Building her own business gave her control: her husband left his job to care for their kids, later joined her team, and the business was consciously shaped around the family."
+  }
+ ],
+ "chapters": [
+  {
+   "time": null,
+   "label": "A seasoned Pinterest marketing expert"
+  },
+  {
+   "time": null,
+   "label": "From school psychology to blogging in Northern Ireland"
+  },
+  {
+   "time": null,
+   "label": "A business designed around family"
+  },
+  {
+   "time": null,
+   "label": "Search marketing that works while you're away"
+  },
+  {
+   "time": null,
+   "label": "Predictive modeling: the AI you've used for years"
+  },
+  {
+   "time": null,
+   "label": "Training GPTs without giving away the IP"
+  },
+  {
+   "time": null,
+   "label": "The free Pinterest challenge, twelve runs in"
+  },
+  {
+   "time": null,
+   "label": "Pinterest Predicts and how much to trust trends"
+  }
+ ],
+ "transcript": [
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Thank you for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence. And today we've got uh, Megan Williamson. She's a Pinterest expert. Is that how you describe yourself?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yes, I call my, well, I, I jokingly or lovingly call myself a seasoned Pinterest marketing expert because I've been doing it so long. Although then that leads into what exactly does that mean? But yeah, I'm a experienced Pinterest marketing expert and really, um, A coach and a educator in the space."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Right, exactly. That's right. And I was drawn to you because I really find that you're really adapting to the tools that exist right now. Like you've done a lot of work with AI, you're developing that. And, um, also the way that you're. Encouraging people to repurpose their content from other platforms and really focusing on how that can really kind of benefit their mental health. Um, I really feel is really insightful and I wanted to talk to you about that and this month, you're actually got a challenge going on. So it's a perfect month for us to be talking about this. Yeah. And Megan's got this challenge that I just signed up for personally. And I, I, it starts with the 23rd."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah, we kick off September 23rd. And if you miss it, if you're hearing this later, I do run it. Well, my goal is to run it three times a year, but generally I run it at least two times, but hopefully it's half this year. It's been three times that I've run it. So we're hoping to keep that up."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That's great. That's great. So tell me a little bit about your background because me, Megan is also one of the first people I've really invited to the podcast from threads. So we've chatted on threads here and there, but I don't necessarily know everything about your background. So what is it you normally like people to know about how you started and"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "yeah, well, do you"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "want the short or the long?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Kachat for Days version. No, I'll give you, I'll give you the Coles Notes version, which is essentially, so my background is actually in educational and clinical psychology. I was a trained school psychologist in Canada, worked in that career for 10 years. I also got. Uh, recognized and licensed in the United Kingdom. So I was an educational psychologist while I lived overseas. And during all that time, even though my day job, you know, I was assessing kids and working in school boards, doing psych consultations and working in a pediatric hospital before that. I on the side had a love of blogging and social media content creation and fell into using Pinterest for my blog. And so I really started working online in 2010 when I went to live abroad, nobody would hire me as an educational psychologist because I had been trained in Canada, not the United Kingdom, and they didn't really know what to do with me. And I'm a doer, I like to say. I love learning. And so I taught myself how to create a website. I started blogging about my adventures living in Northern Ireland as a Canadian, uh, and kind of the rest was history. I signed up to Pinterest in the very early days and I was just good at it. I, I kind of, it clicked with me, which is funny because actually before we started recording, we were talking about Pinterest and social media and this idea of, uh, Being highly conscious of the effects of social media in terms of what I teach to other people, but what my personal preferences are as well. And I'm really highly aware of its effects on mental health, its effects on our connections with other people. And although I love social media, I often default to ways of promoting my own business and the people that I work with in ways that are more sustainable, or you used a word, um, and I'm not thinking of it at this exact moment, but it feels like a little bit more introverted, a little bit more like it'll take care of you if you can walk away. Um, Uh, and that's that power of search. And that is what Pinterest is. Pinterest is a visual search engine. So, um, although I'm very out there and active online, it's by choice when I want to be, and oftentimes you'll see that I just kind of quietly disappear and my marketing, like marketing on Pinterest, Google, YouTube, these are the things that take care of me when I want to step away from my own business."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Right. I thought that was actually genius. I think he was posted a whole bunch of things at the beginning of the summer where you had already scheduled everything so that you could really kind of walk away, enjoy the summertime with the kids, go to your cottage and all of that stuff. And then it wouldn't even really kind of like appear that you'd, you'd stepped away at all. And I thought that was genius because so many, um, businesses, especially when you're a solopreneur, like my husband is a renovation contractor and, you know, If he's not working on the business or, or chatting with people, uh, like laying out a pipeline basically. Sure. Like he doesn't work. Right. And of course he won't take any of it, my advice or YouTube news or anything like that. But, um, but I think that that approach to businesses is genius. And, and another thing that I noticed you wrote one time was, you know. You could be much busier if you really wanted to, like Pinterest has actually hired you or, or come to try to hire you in the past. Right. Um, but it's really doing the things that fuel you and, and are sufficient for you. You know, all of the stuff that you could be doing"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "to"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "kind of expand like 10 times, but you don't want to, right."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah, I've, well, I've made very conscious choices to build a business. Um, like, you know, the term like business by design, I think that I've learned so much over my time and I'm not really built like other people. I do think differently. I'm also want to make it clear as some of it is not by choice. I am a highly ambitious person, always have been. I'm sort of in a competition with myself. I'm not in a competition with other people. Um, it's a gift and a curse that I. Kind of love figuring things out and I will quietly do it on my own, especially with, you know, I have amazing people around me, including my husband, um, who also doesn't want to take advice from me to do with marketing or messaging or website stuff. Um, and that is just the nature, you know, of the, of the beast. I think sometimes when you, uh, love somebody and you're in a close relationship, it doesn't always mean that you're compatible for work, but I, um, I really took, began developing my business in a more serious sense. Like I really saw the potential and I, you know, I, I love the work I did before. I was working at the largest school board in North America. I had, I found my work incredibly fulfilling. I loved it. I gave it my all. I was one of the top team members on my team in terms of my. You know, how many children I was able to work with, how many school, the schools I was working in, it was highly fulfilling and it compensated well, but it was very traditional. Um, I also had great perks summers off, you know, like that's what people would love, but there was always this like thing where. I, I almost got punished for working too hard. It was like reminded on a regular basis, you know, Oh Megan, you're doing too many assessments. Oh, Hey, slow down. You're making us look bad. Um, and. It's just who I am. Like, I, I love working and I think when I started kind of realizing as a side hustle that I could control my work, I could make extra money while helping people in a different way. It was really powerful. And then I decided my husband, my partner, And I decided to start a family. And that is when the bomb went off in my life. You know, I never thought I was a control freak. I am absolutely used to controlling my outcomes and having making choices. And then I had this beautiful child who was just the opposite of everything I had thought I knew about, you know, my husband and I were those people that folks would say. You're going to make such great parents. You guys are such good parents. We were babysitters. We were caregivers. We both worked in the world of disabilities. Um, and so we were, are naturally very caring, enriching individuals. And then we had our own child who just cried all day. So I figured out in the trenches that there was no way I could go back to my job. Um, when I had this thing, that was me, that was me. Sucking the life out of me. And so I learned really quickly that I wanted to start my own business almost out of desperation and that desperation in the first year, well, being on maternity leave allowed me to safely start this business that I had control of. And since that time, I've welcomed a second child who wasn't quite as hard as the first, but she definitely in a very different way. My business has been created around my kids and around the not just my kids, but on my family unit, the way that we want to live our life. And we're very, very privileged in that way. My husband and I, so he stopped working a traditional job so that he could care for children. So I could grow our business. We foster dogs. We love dogs. We love being, you know, Camping and being in the outdoors. And so we kind of built this beautiful little life that was like supporting the parents we wanted to be. Well, also, you know, we have a life that is really fun and lets us be who we want to be right now. So who our kids need us to be, which is very hands on, very, you know, we have kids that don't want to be put down. Um, and that's who they are today. It won't be who they are in the future. But because of that reason, I've really shaped my business around them. And that's so like, you know, your example of what I've done in the summer. It's really important to me that my, um, that we get to spend a lot of time together, not just in the summer, but the summer is, you know, Canada, Canadian, we live for our summers. Uh, we love being outdoors. We are outside all day. We're swimming, we're hiking, we're walking the dogs, we're doing things together. And so this business lets us do those things. And, um, it's been very conscious. The way that I've done it. Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "that's great. And honestly, I got to say that that's sort of how I got into the work that I do now too, is because I was an only child, my parents were older and, um, like we just didn't have support and I was working in Toronto. So that's how I started pushing and advocating for hybrid remote because I was seeing my kids in one hour a day and that's not what I wanted."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "No,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "my family life to be right. So I would say that I, I crafted it the same way. And I got to tell you that my oldest has learning disabilities. And that's another thing. I think that's actually how you caught my attention. Initially, it was, you started talking about your, your work with, um, doing psychological work. Assessments, um, because we've had to go through that with my daughter, uh, she has anxiety too. So we just went into university and had to do that big transition. But, um, having that support since like grade 2 made a huge difference for her. Amazing. And so, like, it was incredible work and we're very lucky that there are people doing that, but I can totally understand. Why that can also be frustrating because I've run into that as well to, um, incredible staff, but some of the policies and procedures that, that limit the work is just,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "yeah, all those, those extra things that you don't realize could, um, take a toll, whether it's commuting, whether it's, um, You know, kind of being put in situations where you have to prioritize, like, I can't make it to something that is really important to my kids because I have an important meeting and, um, it's choices that people make every single day. And sometimes people have have to make those choices, and it is a privilege to be able to make those choices, but really being able to work for yourself or even work remotely gives you more control over your day. I've always been one of these people that. I work very quickly, very efficiently, and I have felt very throttled and punished by traditional settings. And actually that's why when I worked at the school board, it was such a wonderful, if I had to work in a formal nine to five setting, it was a warm, a really great setting for me because I was like a lone wolf. I could travel around to the schools. I got to choose my days. What days am I in meetings? What days am I with kids? What days am I crawling around on a kindergarten floor, like working with some kids, uh, with a teacher who's struggling with a particular, um, thing. And so it allowed me to constantly switch as I needed to. Whereas I think a lot of, you know, office settings, there's really just not that we know we're sitting there a lot. We're not necessarily of effect as effective as we could be. Whereas I'm very intrinsically motivated. So I get a lot done. When I can control my environment, how I work, um, and that non traditional setting. I didn't realize I was like hardwired to become an entrepreneur. I didn't have parents who were entrepreneurs. I don't know any, like, you know, I know a few people that had their own businesses, but it was never something I was like, I want to be that person. I want to, I, it was like almost by accident. And I'm, I'm just very, very good at it because of maybe who I am as a person and how I learn and how I take action. Um, and it's exciting, right? Because you control. You put in as much as you want, maybe what your life, you know, whether you're a caregiver, or you have children that need you more or, um, and that you don't have to make those choices. I think that for me, emotionally, I'm very empathetic. And so, um, I want to have full control of those aspects so that if people need me, You know, my mother in law or family, we had family members getting surgery and it was like, not even a question. Oh, yeah, my partner, he can like, drive everybody to their appointments, take, pick them up, take them down and it was like at the, you know, and nobody else could because everyone else had jobs and they can only take off a certain amount of time. Whereas for us, it's like, oh, yeah, of course we can. We'll just like shift around the school drop off. That's the only thing we have. Yeah. And"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "you don't have to ask anybody's permission, right? It's really just. You know, you can, you can adjust the throttle, uh, as, as much as you want. Right. And, um, that, that is a benefit and that's actually how we started team. My husband started his business in 2008. And then, um, I didn't start until I got laid off in 2020. So,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "well, and sometimes like those good things come out of difficult time periods, right? Or you think like, what am I going to do? What, what am I, what does this look like for me going forward? Um, just the same way that I wouldn't necessarily, I wasn't equipped. For knowing what to do when I was, you know, like being that being a mom for the first year or two, you know, I knew, but I didn't know until I was, we all know, right? You never know."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So you're in it. You can"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "read every baby book. You can be, um, That person, like I was the baby whisperer to everyone else's children, but my own, and I'll never forget that when my husband, so my husband was employed full time until our son was about seven months old. And then we made that decision on a camping trip in a tent in a Gonkwin Park where we kind of saw that we forecasted like the business could, and actually it was came out of Kieran cried for three days straight. I owed everybody in that campground a bottle of wine. It was like, nobody was sleeping. It was awful. And we were like, we, we were campers and we wanted to bring, bring our kids, you know, bring our son camping. He did not want to camp. He hated it. So we sat there and I kind of said like, what would it take for us to you to, for you to be home? Because I just can't work if I'm this tired. And so he, He let, he gave his notice and he came home and I remember it was like the second week and he just looked at me and this was like a very involved partner. He did. Everything and anything that he could to help us, but he hadn't been home with us, you know, since the very beginning. First, when Karen first came home at the, when he was born and he said to me, how do you do this? Like, nothing stops him from crying. And I was like, did you think that I just wasn't doing something? Like when I told you, he was like, but he's not hungry. He's not wet. He's not like they're like, we would go through all the medical, medically possible reasons of why we had a miserable child. And he was like, Nothing's helping. And I'm like, I know. And now you're living by reality. And it was so like beautiful to have somebody, and I hated it because it's almost like trauma bonding. Like we joke about the fact that we're trauma bonded by having these like beautiful children who cry a lot and that are very sensitive. But it's sort of like, um, it was such a relief, uh, to know that I wasn't like, Alone or that it wasn't because of something I was missing. I read every book. I was the person that people, even to this day, you know, people are like, here, hold my baby. My baby doesn't like other people. Oh my gosh, she loves you. I'm like, but my own kids."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "It's just preparation really for teenage years. Oh,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "I think I joke about it all the time that we are, if I, I thought surviving, you know, infancy was going to be difficult. It's the teenage years are going to be. Interesting. I will be a different person. I do"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "love, there's a lot of jokes about teenagers, but I love teenagers. I do. Every so often they get opinionated, fell down the stairs last week and broke my, or why I've bruised my foot. So, oh, hobbling around and so my daughter is not really thrilled about having to take the dog for a walk. And, uh, I'm mad about that because I'm like, seriously, I do all the dog walk. Yeah, yeah. I think that if I'm in this much pain, you could step up and share that opinion. I'm like, so yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Missing, I always like to say for my psych days, their frontal lobe is not fully developed."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I know, I try to keep that in mind. You know,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "they don't totally realize what they're saying and how selfish it is. And then they, yeah, they start to realize, you know, eventually they, we all get there. That is what I know from all my neuropsychology that I used to do for any idea that we have about people, um, they will eventually get there. Some just take longer to get there than others."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. Yeah. I know. I, uh, I remember looking at her this weekend going, keep your mouth shut. It will be a gift if you could just give up with"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "love. With love. With"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "love. No, no, no, no. I was telling myself. I"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "wasn't telling my daughter that."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "She's like, well yourself with"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "love as well. It's just"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "really not worth it. Like this is, this is the benefit of emotional regulation. You're just"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "practicing. It's all just a big practice."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "That's right."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So, um, yeah, no, that's, that's fascinating. I, I feel that parenting really prepares you for an awful lot. And I, I think that, um, people who dismiss like leadership lessons that you get from are there, they have no idea. Right. Yeah, you shouldn't dismiss that because"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "you don't know what you don't know. I think some people it's just due to lack of experience. I even see that in business, right? Like, so if you haven't really seen the power, like again, before we started recording, you were talking about a Pinterest pin that continues to drive engagement and growth and you're kind of mystified by it all. And it's sort of like, but if you haven't seen that, you just don't even know Possible. I think that I've been online so long and worked with so many different types of businesses from like multi million dollar a year companies down to solopreneurs, you know, struggling to make their first, uh, bit of money to, you know, drive their life. And it's sort of like, I've seen it all and you start to see patterns. I think that's something I'm just really good at recognizing patterns and you, you know, what, um. Yeah, that sometimes like people will say really kind of like nasty things online, like, you're dumb if you're not doing this thing in your online business. And it's like, people just don't know, like, we all started a different baseline, actually, probably like working in psychology and understanding that, like, everyone's baseline is different. Every business is unique, every person that they bring, and sometimes like others just need it. You know, it's a different way to the same end result, the way that they do it. And some, some execute very quickly, some need longer. Um, but you need to sort of see things yourself to understand the potential that is there. And search engines, like whether you're using Google to drive traffic or YouTube or Pinterest, or even now more people talk about TikTok, um, is that I think With search, you have to be patient. It's not overnight results. And it's really hard because a lot of social media has conditioned us that things should happen quick. If you put in the work, it's going to happen quick. And that's just not how things happen. Right. Especially with marketing, there's so many factors and it can look really simple when you first start. You just, you know, you think about a few accounts that you know, that you like them and you like their marketing and you think, well, I'm just going to do that. And then you realize that's not how it works. Right. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "My husband actually is more of a Pinterest person than I am, and it's quite funny because, um, you realize you start to realize the power when you do things accidentally. I, um, I used his account to look up hair cuts because I have a media interview and I have to do a photo shoot and all this stuff. So I was like, various haircuts, right? And my husband is as bald as bald can be. And he's like, why am I getting haircuts? Haircuts for women over 50. Yeah. You"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "were using my"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "account,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "weren't you? Yeah. You got thrown under the bus. Your search history is coming back to, to haunt you. Yeah. And that can happen, right? Like Pinterest tries to predict as well. Well, so if you look up things, this is one of the cool things about Pinterest is it has predictive modeling. So say if you got a puppy and you looked up training for puppies on Pinterest, it would predict down the road to show you like how to manage teenage dog behavior, what to do with your adult dog, like it will attempt to protect. Predict. So even if you start looking up branding, um, branding photo shoots, it would show you outfits. It would show you makeup. It will show you like, you know, uh, quotes to help get in the right headspace. Um, and that's one of the cool things about predictive modeling. Well, and that's the use of AI, right? You mentioned AI earlier, and we don't even realize that we've been engaging with AI for years. Yes. And have benefited from it. Some of it good. Some of it bad. Um, you know, I think I see both sides of things. I'm cautiously optimistic. I do know it can be used for lots of not such nice, you know, very unsavory things, but I like to look at the ways, especially myself, like, you know, I'm, I have a million ideas. I need help with execution. I need help with. friction points and AI has really helped me myself. And so, um, I think when used right, and when you understand what you want it to do, it can be very, very powerful."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Right. So are you training GPTs on your existing material?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "I am, but I'm doing it very carefully. Um, I think that, I think you jokingly said earlier that not the word jaded, but that, you know, like when you've been online, sorry,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Cynical."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Cynical. I think that, yeah, that's a great word. So I think one, it's my background, you know, having an Irish family, you tend to be a bit cynical. You tend to be a bit like, I think I'm also just somebody that I'm a, I'm very real to a point that sometimes people don't like it. If you ask me my opinion, I will be honest. Um, and People don't, aren't always ready for that. Um, I joke that I am the friend that when you need to move, break up, get confirmation that you should break up with somebody, or, you know, I'm the person they come to, they don't come to me when they aren't sure if they want to break up with that person, but once they know, I will say, I don't think they're good for you, you know, and I can't, I can't hide that, but how does that relate to what I do? So, um, when it comes to AI. I, I'm not afraid of it. I know a lot of people are very worried about how it can be used. I tend to think though, um, I actually heard the great launch master Jeff Walker say this during his launch recently, is it's not going anywhere. And really as business owners and entrepreneurs, we need to get out ahead of it. So if you keep your head in the sand, and I thought this very early, that when it started to sort of trickle and become very accessible and commonplace for us to use it, I was a little bit apprehensive. I didn't really want to get into it, but I started to see very quickly that if I didn't get out ahead of it, it was somebody else was going to, and it could take twists and turns that, you know, that, I just, I wanted to be in control of it. And so I started educating myself, um, my husband as well. We both, you know, he works for on my team with me. We both started looking at ways that were ethical to use it. How to control it, even with my father in law, who worked at IBM for 45 years. We talked a lot about even when he was at IBM, you know, he's retired now. Um, he said like they used AI then just what, how they described it was different, but we talked a lot about being, knowing what you want it to do, being in control of it, being the guide, being the expert. And so the way that I look at it is how can I be a leader to those that are interested in the way that I think and teach. Well, also acknowledging that there's a lot of gray zone legislation, laws, et cetera. I think there's also as a Canadian, I see things so differently. I think, um, privately, I had an American say to me like that. I shouldn't be teaching how to use chat. Well, I'll tell you, so they thought it's dangerous. It's going to take jobs away and I should wait for US lawmakers to make decisions about it before I caught it as a, and I, I, you know, I feel sorry for that person. They have since. Changed their positioning. They never apologized to me. They were very, um, I tried to come to the conversation with a very open mind, but they said that it was dangerous and that I was being unethical and it was harmful as a thought leader in the space. And I said, well, actually, I think it's the opposite. I think that we have to teach how to use it ethically. What parameters, what it can do, what we should be using it for, what we shouldn't be using it for, and how to sort of, I'm not going to approach this with rose tinted glasses, but let's also be real. Like, you know, you're anyways, I'm not going to be left behind. And so, um, I'm telling you all that because I am training GPTs. To help my students and clients and people in my audience, um, to remove friction from the process of getting active on on Pinterest. But I do that through the lens of also not trusting AI. So. Yep, uh, I'm very lucky and that I'm married to a developer and I said, I'm really excited about some of these things, these features, these methods that people other course creators, other educators, how they're using, um, GPTs in their business. But what I worry about is I don't want to feed all of my intellectual IP into a GPT that is publicly available. And then I have no control over what happens to it in the future. While things are advancing at a pace that we, we just don't know, we don't know where. And so, um, I don't think. Chachapiti will never be me. I know it won't, but I also am, I want to do things under parameters that I have control. So, um, the ways that we were sort of looking at it is how could we embed and help people, um, have access to me and my knowledge and my sort of the way that I do things, the things that come very easily to me. But still have full control over it. So we are, we've developed some special, a special app that helps you do that. Um, and control access and allows me to update it and help people. So that's one of the ways that we're using, um, GPTs and AI in terms of how we deliver education and not necessarily strategy, but. Identifying the friction points were where people get stuck where they get overwhelmed and when they don't move forward and when they're learning how to use Pinterest for their business. So I'll teach the, the what and the why and the how and then, um, my assistants help people move forward. So they don't get stuck at that particular point in their journey."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And you're restricting it through your community because you have like a private community, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. So I have different programs. I have, um, Evergreen and then some reoccurring, like a reoccurring, a revenue, um, like reoccurring program, like in, in the sense that it's a membership. Um, and then I have some courses. So, uh, you know, one of the things that I worried about is if it's, if you create something, The way that GPTs are designed, if you make them publicly available or when you, or even if you make them private, but people can access them with a link is once they have access to it, you can't take away access. I also worry that sometimes people share information. Like if I share a prompt, actually, this was a real eye opener. So I have Pinterest prompts that I share with people through as a freebie. And I ask people for their honest feedback. Like, are you using them? Do they help you? And I had three different people. Say to me, Oh my gosh, I got these from you a year ago, copy and pasted them into my own chat GPT. And I forgot, I forgot that they were from you. I use them every day and I had no recollection that you were the person they came from. And I was like, wait a sec. This is, this is interesting because we, with the excitement of prompts and sharing our knowledge and, you know, I was giving these experts. written prompts, but people were forgetting they came from me. And then there's this disconnect with my branding. And we like to, um, it's actually why much to the annoyance of many of our students that even if you buy something from me, that 7, we have people log into our website. We create a custom login. Because one, once you buy one thing from me, I assume that you will love it other things that I'm creating. And so you're going to need an account anyways. And two, it's a way that we protect our IP and we brand things. I find that I buy products from people, and I'm just given a link to download it. I don't remember who it came from. I don't become a repair customer because they don't ever email me again. There's all these like points where people are sort of like, it's just not a very good customer experience. Um, and so actually I had my own wake up call where I was like, wait a sec. I'm sharing this amazing information that's helping people. And they forgot, they got it from me. Um, So it's sort of, that's where GPTs can be really, really helpful and help people and help them move forward in the thing that you're really good at. But I wanted to do it with parameters that allow me to continue to control it, update it, and, you know, if someone joins my membership and then leaves, you know, they're, they were paying for access to my tools. So I don't really want them to continue to have access, whereas, of course, it's. It's different, right? If someone buys a course from you and it's, it's, it's, uh, they have access to it for as long as they exist. That's different. Um, but I wanted to sort of have more control of it. And that's what we're, what we looked at developing."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, the, the, um, intellectual property aspect of it is really fascinating for many different areas. That's, uh, that's, uh, it's an opportunity and a challenge, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah, it is. Well, and I think that's just it that people everyone also to comes at it from different perspectives. Um, I think that I, there are many things that are happening in the AI world that are worrying, but I also think that that's. It's going to happen anyways. And so it's sort of like, like I said, I'd rather be out in front of it. See how it can help me. I see how it helps myself. So I know it can help other people, but we also need to understand its restrictions and things that we shouldn't be using it for and be careful. Right. Like we make, we make choices. That's no different than people who go onto Pinterest, download images, and think they can use them as their own. Like these types of things have been happening for years. Right. So I think that when people have concerns about using AI, um, you know, you just have to know what you're doing and be in control of it. And also. It's, it's a process, a process of consent. So if you're giving it information, you just need to know how that information will, could be used in the future."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, it makes a lot of sense. So we are almost at time. Uh, did you want to talk a little bit about your challenge and why people might want to share that?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. So I have, uh, I figured out very early on in my business that, um, I love teaching and I love teaching live. So in early 2020, I started running a free Pinterest challenge. So it was a way for me to deliver high quality live training. That kind of allowed me to tap into some of the things that I think are my superpowers, which is actually providing very real time, custom, supportive coaching and advice. And so the challenge came out of that, that I was like, how can I be myself, really help people, but also allow them to learn with me and get results. And so I started running this five day challenge. I've since evolved it to just calling it sometimes it's four days. Sometimes it's five days. It's been six days. But what we do is in a very short amount of time, I will teach you everything you need to know to grow your audience. I do say double your audience in most cases. If you do exactly what I say, you will add a bare minimum, grow your audience, but it's sort of fast and furious. It's so much fun. It's my 12th time running it. So I've been running it, uh, several times a year since 2020. Um, and we, it's going to be our biggest and best one yet. I have a bunch of like Surprises and new little things that I'm testing out and doing ways for people to really, um, get access to some of my resources that I normally keep in my programs, but also adjust it. So we have, we have kind of every type of business owner. We have people who are beginners to Pinterest. We have people who have literally are heads of marketing. Massive companies take the challenge. So we have a diverse audience. And so I started realizing, well, how could I segment this and how can I make it really valuable? So we offer a coaching and a Q and a session. I offer my core teachings, which are always updated because everything's done live, um, and it's really fun. We allow replays for the week and then we do take them down, but I'm going to be running my challenge kicking off on Monday, September 23rd. There's no charge. It's completely free. Um, you know, people, I got asked this on one of my images yesterday or something I'm promoting. They were like, are you going to sell a course at the end? And the way that I look at it is I do, I have created the challenge so that you can just, we have people have taken, I'm not even joking. We found somebody who has taken at the time. So now I'm about to start my 12th. We have somebody who has taken 10 out of my 11 at the time, 11 challenges. And that is because every single time, because it's done live, I teach something new. I have new things that I share, um, and there is no obligation at the end. Obviously, I have a cool opportunity that people want to keep learning with me. They can, but if you just take my challenge, watch the training and do what I say, you will get results. And actually, I find that people will. Really love coming into my world after they've done a challenger to because they start to see if Pinterest has potential for them. And I'd much rather people come to me. I'm not here to convince people that they should be using Pinterest for their business, but if you've already had a taste of some of this, uh, Things that Pinterest can do for you as a business owner. It's just a great way to have that, like, accountability, work quickly. It's like a sprint, right? It kind of reinvigorates you. And I know that, you know, September is a really wonderful time to sort of head full steam into our new marketing plans and really set us up for 2025 is really what we're looking at now."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Right. Yeah. I saw a metaphor they used the other day. It was like planting seeds to harvest later."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. Well, and that's like the oldest, like, you know, the oldest example in the book, but it really is so incredibly true. And I think that those people who garden and have a yard, they know, and it's like, you know, like my butterfly bush that I planted two years, like, It was beautiful this summer, but the first year I wasn't even sure if it was going to live. And I think that we have to be patient. Um, any search platform like Pinterest takes time, but I do know I do have tricks and, you know, strategies up my sleeve to help people get quick results. And that's what I know. I know that when it comes to marketing, we want quick wins, but investing now is really the type of thing that will bring you weeks and months and years of benefit. Um, and so the right people who want to, you know, keep learning with me and, um, whether it's in the free sense or coming into my programs, I give away, you said, I give away a ton and I do that on purpose. And I really don't think you can ever teach too much for free. I know there's people that would say, Oh no, that's not true. You're, you're, you know, you're hurting your business. I really just don't think, I don't think I am at all. I know I've been doing this so long."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You're, you're triggering the, um, The gift of reciprocity, right? So, um, I want to tell you how I've used the advice that you've given out for free on thread so far. So I created a podcast episode. It was actually about, uh, using garden as a metaphor for organizational design, whether remote is really process policy or organizational design. So I then put that whole transcript into AI and asked it to summarize like that I could use Pinterest. Um, and I created a, um, I just actually took like a short little video of my roses in the garden and did like a voiceover. So I have a Pinterest pin that I can use because I know from my personal branding experience that the video pins do get more attention than else. And then once I actually published that episode, then I can put that in and that's going to be my first,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "uh, I love it. Yeah, so that's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "kind of like drawing, actually everything that you really said to this together. And that's actually why I wanted to give you the opportunity to come on the podcast, because I do find that you're so generous in what you're teaching that, um, Thank you. Well, you would actually asked, you would put out a, like a thing on threads, basically asking for early people who wanted to have people in power. So I'm like, oh, okay, this is an opportunity for me to give something back to you. That's all."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Oh, well, I appreciate that. That's really sweet of you. And really sweet that sometimes like, you know, it feels like we're like putting things out into the world and we don't always hear back. So it is. So nice to hear. Like you, what's the phrase? Like you were picking up what I was putting down. Right. I do think, and it accumulates and that's what I always say to people too. Like just follow me on threads or follow me on Tik TOK. My dog is trying to tell me that she wants to say hello here."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That's okay. Of course."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah, of course. She's, she's reached the end of her rope there. Um, but I do think that like, you know, you don't have to, some of the best things to do is to do, take action on what you see and start to see if it's fruitful for you and it benefits you as a business owner because what We're not all made the same and we don't, we just naturally gravitate towards certain platforms, certain content creation, like, you know, the fact that you have a podcast, um, that's your, one of your chosen methods. Um, and I've thought about that for years. I love podcasts. I don't have my own, not yet. Um, I find creating short form video was very painful for me for years, but now I love it. And, you know, we all change. We adapt. We figure out what we like to do. I love threads. I'm obsessed with threads, admittedly. It's my favorite. Um, it's just been a great place for me personally, but I know that other people are like, no, not for me. And that's okay."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I prefer writing. My challenge with, um, platforms like TikTok and YouTube and, um, Instagram really is Um, the visuals, because I am not a visual thinker, but I did actually try that in a I too. So after I put in a transcript, I'm like, what visuals can I use? to create pins and gave me all kinds of suggestions and I'm like, Oh, Oh,"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "so it's helping you with like a friction point of some. Yeah, exactly. So I always, it's funny because I started blogging at a time when it was really about the words. It was really about your writing. And I, I too, I struggle because I feel like I know what looks good. I look, I consume a lot of video. I consume a lot of images, but But I'm not a graphic designer. I'm not a natural videographer. And, but I had to, to grow, continue to grow my audience and evolve with social media. I just had to be like, you know, it's okay. You know, I can outsource my graphic design. I'm going to create video. Sometimes people criticize me. I actually had somebody on one of my TikToks say, Could you do shorter edits? Could you get better at editing? It's a little bit choppy. And I was just like, it doesn't change the information that I'm sharing. And if you want to edit my video, actually, I think I responded, if you're offering to edit, edit my videos for free, I'd love to have you. Because I'm not going to let that stop me. Right. Um, but it's true. Like I'm similar where I feel like I've never been video is not like some people are just gifted videographers or they're very good at editing. Editing, um, definitely on my hit list to get better at editing. And we all have things that we're working on and I think, yeah. I'm, I also have things that I need to continue to improve upon."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. And that's actually why I kind of liked AI because I'm like, okay, well, I can take content that I already have, like in my camera role. And then what can I do with that? And I'm like, Oh, I never thought about that. Right. So it's like, It's stuff that I'm already creating, but then giving me a different perspective that I don't necessarily have available to me because I don't have a team."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. Right. And valuable, good content is valuable, good content. Yeah. I think that that doesn't change. Right. So you have knowledge, you have information you can share with people. And like you were joking earlier, like it's just a 20 second video of me talking about branding, but that's really helpful. That's 20 seconds. That"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "wasn't even me talking. It was just a picture of my orchid."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "There you go. But there you go. But it's like, it's, there's all these different, you just have to think of like, who are you helping? Who are you, who are you able to help them learn something to you? That is very. Easy and default information. And it's like, well, of course, everyone knows that. Well, no, not everyone does. Actually, I'll be talking about it in the challenge. Um, these are 1 of the things we talk about, but, um, I'm so glad that you decided to join. No, no, it's funny because I do the challenge. Like, I don't know anyone. Um, so always when, when, for example. Friends or online acquaintances join. It's always funny. Or even last time I had somebody who I've used as an example, who's amazing at Pinterest and she joined my challenge and I was like, it feels like we have a Pinterest celebrity here. That's"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "good. That's great."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah, it's fun. We have a lot of fun. It's very real. It's very funny. There's flub that happens. You know, my dog shows up or I forget to turn on my mic. It's, it's a good time. It's a good time. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. Yeah. I mean, my daughter has walked in while I'm recording and then she's like, which way is the camera facing? I'm like, why are you in a towel? Like, yeah. Yeah. You know, I'm recording. Like, what are you doing? I mean, the camera was facing the opposite way. It was fine. But it was like, it's always entertaining when you're recording from home. I'm actually really excited. My local library is supposed to be opening up a podcast studio. It's been six months. Oh, that's, I know. Right. In Keswick no less."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. Um,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "and it was supposed to open in March and I don't know, they had, they had hiring issues. They had equipment issues. And so finally it's supposed to be opening. I'm, I'm booked for Wednesday. I was trying, I was trying to see, can we do this? But yeah, no, on Wednesday I get to go. And he's like, let"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "me know. That's amazing. Yeah. They're like, well, we have to teach you. I'm"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "like, well, I've got 85 episodes. I don't need you to teach"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "me how to, you're like, I'm good. I don't need it. I really just need"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "access."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. Right. I would love to have a little thing like that that I could go to. I"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "know. Yeah. I'm getting"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "sick of being at home. I love my house. I love being able to make tea and coffee and hang out and jump in the backyard with the dogs. But I think I need, yeah, I need, I might start doing a little bit of coworking. Although then I get annoyed when people are too loud."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, well, and I honestly up here, like, we just don't have anything like that to go to Tim Hortons or like, it's nowhere. I guess you could go to a pizza. That feels"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "very Canadian. Oh, yeah. But then it's like the hub of the town. So you don't want to be there either."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "No. Yeah, exactly. Well, and then forget about anything confidential. Right. I laugh at people that are like, oh, you can totally do this in a coffee shop. And I'm like, well, only if you want like the entire town to know in like 5 minutes."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. Yeah, exactly. That's small town life. Only small town people know that nothing is private in a small town. I'll never forget. Like 1 time I walked my dog and somebody like it got back before I in Northern Ireland in a small town, it got back to my mother in law. Before I got back from the walk, she was like, Oh, you walked by such and such today. And I was like, how did you know that? She's like, Oh, so and so called me to tell me who knew social"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "media in a small town. You just really need somebody who went to school with somebody's brother and somebody's uncle. And you know, everybody knows everything that happened anyway. Right. So, yeah. Yeah, that's that's why we have such well developed senses of how information spreads on social media. Yeah, just"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "spend one year in a small town, you'll know, or the broken telephone that can occur, right? Like, oh, yeah, well, I moved to a small town when I was like, Well, my parents split up when I was like nine and my mom was a divorced woman, you know, moving to a small town with her three children. So you can only imagine. Yeah. We learned we were outsiders for the 15 years. We were city people, the 15 years that we live there. It's so funny to me, right? Like, or even the things like weird conceptions that People had about us. We were just weird city people, freaky. We homeschooled for a while. So that was really weird. You know, even our dog was weird. They will find, I remember my best friend moved to a small town and they got given this old Volvo by her partner's grandparents, like they were upgrading and they said, do you guys want our old Volvo? So they got this Volvo, they moved to this small town and this very old Volvo had. Little windshield wipers on the lights."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yep."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "This car was like 20, 20 years old."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Right."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "And. A kid from the town came to their house and he was like, one of those kids that talks to everybody. He's like, so you're the new people with the fancy car. And they were like, what? They're like looking at this old, you know, well loved, very about to break down Volvo with a million gazillion kilometers on it. I just ruined myself being Canadian by saying kilometers, miles. And, uh, They were like, what are you talking about? He's like, Oh, well, everybody's talking about you, you know, with your fan. Oh, and they had a retired greyhound. So they were really, really stuck out because they had this fancy city greyhound because nobody in the country has greyhounds, right? And they had this Volvo that had, um, Wipers on the lights. And so he told them, Oh, well, everybody's talking about you. They saw your car at the grocery store and it has little wipers on the light. They could not stop laughing. She was like, is that what we're going to be known for? Like, we're going to be known for these like little wipers that don't even work and our greyhound dog, our retired racing dog that we got from a rescue. And she said, it's like, we're witches. Like that's what they're saying."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh, well, I, I can, uh, when I grew up, like I had a streak of white in my hair, my hair started turning white when I was seven, right? And so I was always the kid with the white hair and every single person knew who that was."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah. You have a superpower and that's like a secret superpower."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Hey, there's a kid's book and, uh, it exists in my, I told my story in it and, uh, the author's kid, uh, author's kids, I'm on their favorite character in the story. I love it. I have different colored eyes and yeah. Look at that. Right? You were just, um, uh, when I was a kid though, people thought I was a witch because Wardenberg syndrome also has different, uh, pigmentation differences, right? Sure. So, um, when we started learning about like the, uh, the witches of Salem and all that stuff, they were like into the stake. I'm like, prime candidate."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "That's me. If I, if I was alive in that time period, right? Well, that's what, yeah, like it's, there's so many of these things, right? That people are like, yeah, well, thankfully you weren't born in those times and you're alive now."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh yeah, I know. And now I miss my streak. My daughter has a streak and I'm jealous that she has the streak."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Um, so we have freckles because my mom is Irish and my son has now fully grown into his freckles and at the beginning of the summer, he said, um, mommy, I don't like my freckles because they make me different. And I said, look at my face and he said, well, yours, I like yours. And I said, well, why don't you like your own? And he's like. Well, I just don't know if I want to look different than other people. And that, that made me a little bit sad, but we had this big long conversation and my, my two, my well now three year old was listening and she wants, she wants freckles. And I said, it's our special thing that makes us different. Like our freckles and people would love to have freckles. And he's like, well, you know, anyways, it was a very interesting"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "freckles these days."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yes. And there's broccoli. I know, I know people, and there's even at Sephora, there's like freckle makeup and I remember I last, I was a year ago, I went into Sephora and I saw the freckle makeup and I was like, wow, I wish, yeah, as a kid I got made fun of and people thought I was weird. And, and, Now, seeing my kid have them and he's like, they're so cute on him and he's like, I don't know. And I'm like, great. And now my, my daughter wants them. She only has 2. It all starts to like, you know, when you're little has a sun exposure. You know, she only has a few, but she's talking about how she already wants them. And anyways, yeah, it's, it's,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it's actually really interesting because I've told people for years that white hair goes in and out of trend. Right. Because these days people are all, they're ditching the dye and getting out of it, but I don't fit in with those people. Cause I never died. Right. Yeah. But, um, you see it in like superhero movies, like storm and X Men, you know, so it's, it's always been associated with either superpowers or evil. Right. And it switches. It goes inside. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Depending on, depending on the what's in or out."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. And that's actually what I, I wanted to ask you just one more question, then we'll wrap it up. Um, so the Pinterest trends, they just, uh, released the 2024 trends. What's your take on that? Are they, do they tend to be accurate or?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "So they're based on numbers and yes, they have like a 80 percent accuracy rate typically. Um, so. Out of what they predict, 80 percent will come true."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Hmm. And do you find that true?"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yes, and no, I think they tend to be like their lot of them are up and coming. I feel like they want something to differentiate and to make themselves be a little bit more quirky and cutting edge. I don't, I think the superpower for most people using Pinterest, um, for driving traffic is actually in evergreen. Content, but also seasonal content that trends. That's where we see a lot of growth and website power. So things that are sort of more flash in the pan are cool. But I just from a long, like, you know, I default to sustainability and things that yes. Is it nice to benefit from something that's going viral? Um, but like, I wouldn't place a huge amount of effort in it. I think if your content and your products or services align with it, like there's been really cool mental health initiatives, there's been sort of some re envisioning of ideas, um, and, and that could be quite empowering to align something you already talk about with this idea. For example, I saw in the fall, or as part of me in the winter, they did sort of this, like, Self care and journaling and so like my approach to that as a business owner was like, well, what is my journaling look like as an entrepreneur? Or what does my self care look like as an entrepreneur? So am I going to tap into it's the premise as is probably not, but you can do some nice adjustments in terms of thinking about content that you can create. But the Pinterest predicts tends to be a little bit wacky, but I do see in some. Jellyfish."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Jellyfish."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Anyone? Yeah, or like, you know, metals or bows. Actually,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "the metals I was looking at because it was weird because I was looking at my branding just to see if it was where I want it to be. And I was thinking I would, I would want to do sort of like liquid silver, metal, ladders and stuff. And I was just like, Ooh, that's like, I'm on trend. And it's just"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "instantly nicely and"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "also like I use hot pink and I was just like, it's hot pink. So out because Barbie is gone."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Right."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And they've, they've got this whole tropical thing. And I'm like, Ooh, hot pink is still in because of the tropics. It"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "is sort of this, like, I think it's like, don't put too much stock in it, but it's like cool to look at because if it aligns great, but if it doesn't, if you're like, Oh, none of my stuff is like hot this year, You know, don't worry about it."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "That's what I think. This, this actually is an example of one because I found one, it was actually under relationships and it was the hot seat question and I'm like, that is a good podcast thing. So you have the very first honor of being a hot seat question."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "Yeah, but there you go. Right. Where you can align yourself like business hot seats. Right. So you can align what you, uh, Are very good at and what you talk about with something that is picking up momentum on Pinterest. That is like the perfect content. And it"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "had like 800, it was like an increase of like 800%. And I'm like, Ooh, that one, that one I'm going to use. So"
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "that's it. There you go. I love it. I love that. So I've been totally"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "paying attention to everything you're talking about."
+  },
+  {
+   "time": null,
+   "speaker": "Meagan Williamson",
+   "text": "So yeah, very, you're very observant."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "All right. Well, thank you so much. I'll see you next time."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": null,
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": null
+}

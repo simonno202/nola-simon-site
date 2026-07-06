@@ -1,0 +1,652 @@
+{
+ "number": null,
+ "slug": "community-with-rosie-sherry",
+ "title": "Community with Rosie Sherry",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Rosie Sherry",
+  "title": "Founder, Ministry of Testing & Rosieland",
+  "org": "Ministry of Testing",
+  "credentials": "Building communities since 2007 · Former community lead at Indie Hackers · In tech since 2000, starting as a software tester",
+  "links": null
+ },
+ "publishDate": "2024-10-10",
+ "publishDateHuman": "October 10, 2024",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Rosie Sherry, founder of Ministry of Testing and Rosieland, was building communities before 'community manager' was a job — and she runs hers on an 80/20 rule: 20 percent conversation, 80 percent the artifacts around it, from articles to courses to the TestBash conference. She lays out how a deeply introverted founder designs events where nobody stands alone, why AI spam has become a structural threat to open communities, and what happens when the word 'community' gets borrowed as cover for agendas like return-to-office mandates or crypto launches. The through-line is ownership: member portfolios, photo memories, and data on platforms the community controls rather than rents.",
+ "takeaways": [
+  "Run community on the 80/20 rule — 20 percent conversation, 80 percent artifacts like articles, courses, and conferences — because constant chat exhausts people.",
+  "Model the welcome you want at events: the Pac-Man gap in conversation circles and a culture of approaching whoever stands alone turn a conference into belonging.",
+  "Name AI spam as a structural threat to open communities — the volume is 100x what it was, and the real defense is removing incentives for fake engagement, not more moderation.",
+  "Test transformation, not conversation, as the reason members stay: 99-second stage talks and public portfolio pages give people proof of their own growth.",
+  "Interrogate the word 'community' whenever it arrives attached to an agenda — return-to-office mandates and crypto tokens borrowed the label without the substance, and people noticed.",
+  "Audit what attribution tracking actually buys you — when sales arrive through word of mouth and training budgets, ROI dashboards measure noise.",
+  "Map your answer to loneliness small and local: a handful of intentional contacts and nearby neighbours do what virality never will."
+ ],
+ "keyQA": [
+  {
+   "timestamp": null,
+   "question": "What is the 80/20 rule of community building?",
+   "answer": "Twenty percent of a community should be conversation and the other eighty percent everything around it — published articles, courses, conferences, and other artifacts. Most people equate community with constant talk, but constant conversation is tiring and most members don't have time for it. At Ministry of Testing the forum is roughly 20 percent of the effort; the rest is the durable work the community gathers around."
+  },
+  {
+   "timestamp": null,
+   "question": "How do you design a conference that works for introverts?",
+   "answer": "Build the welcome into the culture rather than the schedule. At TestBash, attendees check on people standing alone, conversation circles keep a 'Pac-Man' gap open so newcomers can join, lean-coffee tables replace small talk with topics people wrote down themselves, and every speaker comes from the community — so the audience is cheering for someone they know. The effect compounds: people who were welcomed extend the same welcome to others."
+  },
+  {
+   "timestamp": null,
+   "question": "How is AI changing spam and moderation in online communities?",
+   "answer": "It has multiplied the problem — roughly 100x the spam that existed before, and much harder to spot, including AI-generated comments designed to look genuine and game upvotes or algorithms. Ministry of Testing sees very little of it, and Rosie Sherry credits the design: no rewards for volume engagement, no growth-hacking incentives, and forum software that auto-flags suspicious behaviour. Communities that reward attention-farming get exactly what they incentivize."
+  },
+  {
+   "timestamp": null,
+   "question": "What makes people stay in a community long-term?",
+   "answer": "Transformation, not just support. Ministry of Testing designs pathways to members' actual goals: 99-second open-stage talks let anyone try speaking with a cheering audience, the recordings land on member profile pages that work as public portfolios, and community photo 'memories' build a shared record. The principle behind it — why should the big social networks have all the fun? — keeps the data and the identity inside a platform the community owns."
+  },
+  {
+   "timestamp": null,
+   "question": "Can a return-to-office mandate build workplace community?",
+   "answer": "Not credibly. When 'community' appears suddenly as the justification for a mandate, it isn't genuine — organizations that valued community would have been building it all along, and a community that won't allow the mandate itself to be questioned has already limited the conversation. Forcing attendance also dismisses the needs of disabled people, neurodivergent people, and caregivers, for whom normalized remote work was one of the real gains of the pandemic."
+  },
+  {
+   "timestamp": null,
+   "question": "What actually helps with loneliness?",
+   "answer": "Going small and intentional. A handful of people in a WhatsApp thread with an agreement to stay in touch produces more connection than any viral post — a photo shared there always starts a conversation, where the same photo on Instagram doesn't. The other half is local: neighbours and nearby community are the people who can actually show up when you're unwell or stuck, and technology alone doesn't substitute for them."
+  }
+ ],
+ "chapters": [
+  {
+   "time": null,
+   "label": "From software tester to community builder"
+  },
+  {
+   "time": null,
+   "label": "Ministry of Testing as a community of practice"
+  },
+  {
+   "time": null,
+   "label": "TestBash: a conference where no one stands alone"
+  },
+  {
+   "time": null,
+   "label": "99-second talks and lean coffee"
+  },
+  {
+   "time": null,
+   "label": "AI spam and the new moderation problem"
+  },
+  {
+   "time": null,
+   "label": "The 80/20 rule of community"
+  },
+  {
+   "time": null,
+   "label": "Profile pages, memories, and owning the data"
+  },
+  {
+   "time": null,
+   "label": "Return-to-office and borrowed community"
+  },
+  {
+   "time": null,
+   "label": "Loneliness, WhatsApp circles, and the local"
+  }
+ ],
+ "transcript": [
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Thank you so much for joining me. I'm Nola Simon. I'm the host of Highway Remote Center of Excellence. Say that three times fast. Today we have a guest from the UK. Where exactly are you from, Rosie?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I'm in Brighton in the UK, the south coast."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Ah, I'm familiar with the beaches. I haven't been there, but I've heard of them. Anyways, our guest is Rosie Sherry, and she is an expert in all things community. She started ministry and testing, what, back in 2007? And so that has grown to its community of thousands of users, and it brings in millions of dollars. And in addition, she also runs another community called Rosyland, which is dedicated to all things community. So Rosie, when I was exploring communities, and I keep continuing to explore communities because I haven't figured it out myself. She was the expert that I came across online. Literally, I think it was more Twitter initially. And then more linked in now. But she has a way of explaining community that nobody else does, I find. And I found her approach really relatable. You started ministry testing because you had 2 kids at home and it was a way that you could start a business, right? Did I get that correct?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And it's grown since then. And recently you had to step back. You had initially headed it off to a CEO and then recently you stepped back in as CEO. Is that correct?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So could you tell us more about your journey with community and where that started?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, so I guess I've been in tech since around 2000 the year 2000, which is a bit scary to, to say I started off as a software tester. I got like my first job as a software tester, hence ministry testing that came along probably seven years later. But as I was working in tech I started going to local meetups in Brighton it was quite an active geeky type scene and I was just inspired about all the things that were happening, and I stumbled across the idea of community, and I enjoyed the local community aspect and as the web was grown, it was like web 2. 0 era. For me there was like a lot of kind of excitement around all of that. And yeah, mostly once I discovered the idea of community, I could, I was like, that became my thing. I just couldn't forget. What community, the idea of community to me, it just stuck with me and I've never been able to let it go since. So since I've discovered that and like community has always been like how I start things and, or how I think about things. And I started a local meetup. It was a woman in tech. It was a meetup. called Brighton Girl Geek Dinners and that was like my first step into like actually doing community things and that kind of opened my eyes to how special community can be and like I ran it for probably a couple of years, and it was like, always fully booked out, and I met loads of people and, still in contact with many of them even like 20 years on, and it's that was I guess as a introverted style person that I am, that was like a real kind of eye opener for me. Yeah, after that I was looking for an excuse to apply community to the ideas I had or the work I wanted to do. And at that time as well, there were like no community jobs really. It just wasn't, I think."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, it was like a job that came later. This is the type of job that, when you were a kid, you didn't imagine it could be a real job."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah. I remember seeing like job ads at the time, like for Yelp and community managers. So there were a few startups that kind of had started to adopt that role, that me and Brighton, those jobs in San Francisco was like never going to happen."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I know how that feels. I'm from Canada. Nothing ever interesting ever happens in Canada."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, so I just was always looking for opportunities to do my own community thing. I ran a co working space for a while and then I also decided to start ministry of testing because I felt like there could, there should be a better community for software testers, which at the time there wasn't really much at all. Nothing that I really approved of. So I used it as an excuse just to start something. I had no real idea that it would turn into something, but it was just something I wanted to try, play with, see where it goes and yeah, I guess that's what, partly what I'm, I've discovered that I'm good at is just I just do stuff and then figure stuff out and either suffer the consequences or suffer with the success along the way as well."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, that's very interesting. So in terms of administrative testing that's the part of your work that I actually don't relate to at all because I don't have that kind of software background at all. So what's the purpose of community? It's to share expertise and you offer courses as well, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, so I would call it like a community of practice. So it's essentially for software testing professionals or quality assurance engineers, they go by a few names. And it's a space to gather and to hopefully learn more and advance. People's careers and we do conferences. So at the moment we do one conference a year in Brighton."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yes, you just did that though right? Yeah, because I've seen things online people really complimenting, you know how engaging it was and just appreciating the, like the in person touch. So that's an interesting aspect Of community, because we got away from it, obviously, during the pandemic. So are people really excited about in person? Do you think that's. And aspect of community that's going to develop."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I think so. And I think so pre pandemic we, it was a bit crazy to be honest, but we had as ministry of testing grew we had nine conferences across the world in the, in 2019 which feels like really crazy now. But post pandemic we've gone back down to just one conference and the idea at the moment is just to have that one conference a year and put much more effort into it and hopefully make it bigger than what it's been before. Is there an appetite for it, like 100%? It's like people, yeah, I think people need it. I don't think they're realising how much they need it until they show up. And it's once they show up that they're like, ah, this is exactly what I needed, this is like the break I needed from work, or this is just like reconnecting with people, or getting to meet people in real life that they've connected with online. And yeah, I think we've just forgotten that. And, partly, a big part of that is the pandemic, but when people go, they, they don't regret going in my opinion, especially this past conference, which I think we've leveled up the experience and got amazing feedback from it. And it was a product manager who attended And she shared on LinkedIn, I can't remember her name off the top of my head, but she was sharing on LinkedIn how, just like, how amazing it felt and how jealous of FOMO she had that software testers had this space to gather and she didn't feel like The product managers had that same kind of space with that community feel. Where everyone's literally supporting each other. And the speakers have grown up in the community."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh, so you bring in people who are actually members of the community to actually speak."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "That's cool. Yeah, like, all our effort is like, all our kind of I guess you, you call it marketing effort, but all our effort is focused on the community and uplifting the community and trying to get them to publish their first article. Or do their first talk or, speak at a conference or, all our effort is like community first. It's the people in the community. We don't go outside seeking other speakers. Don't do keynote talks. We've never done keynote talks. For example, it was just like every talk is a talk from the community. So you're really focusing on the relationships that build within the community themselves. Yeah. And it really makes a difference because people know these people and they can identify with them, right? And they can see, oh, I know that person. I've spoken to him or we've been in touch. He's never spoken and now he's up on stage. And the vibe that gives as well is that you have like people like cheering them on, or if they're struggling, you can really see that the crowd is like supporting them rather than criticizing them, for example. So the online"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "connection is really fueling the in person."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah. So I guess like some conferences happen once a year for us. The conference is just part of the community. So really we're like planning all year round. We, we publish content all year round and all year round, we're looking for new speakers and those sparks was, connections that, or, information or trends that might be of value to the community. And we're trying to get better at spotting it and then bringing it to the conference as like the icing on the cake,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "so you mentioned before we started recording that you're a deep introvert. So how does an introvert plan a conference? Because I would assume that a lot of people in that type of profession tend to be introverts. I could be completely wrong there, but that's my perception. So how does a conference for introverts in person differ from the standard conference that's planned by extroverts?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, I say introverted these days I'd probably use neurodivergent, being neurodiverse. But, whatever it is, it's people struggle in, In real life situations and say, how do you make it feel more comfortable for them. And part of it again is going back to community and feeling welcomed and supported and things like that. And another part is creating a variety of activities or meetups or events that are happening so that, hopefully there's something for everybody. But like a big part of it. I feel, sometimes I feel like I harp on a lot about community, but it's so many of the people arrive and they're like really nervous and but like the moment they step in, they're welcomed by the community or there's there's this culture of everyone's checking in on other people or people standing alone, and they might go up to them and say hello or just checking on them."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I saw you write on thread something about that. Somebody had mentioned the fact that they were nervous that a community just standing around, or they were at a conference and they were just standing around and just having that awkward conversation. It was like the worst experience ever. And you're like, just. Being generous enough to go up to somebody and say hi, that's the most generous thing that you could do to, for somebody at a group, if you see them standing alone."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, and it's part of the culture so it's like everyone is literally doing it because they experience it and they see How great it can feel and how it brings that belonging. And it just like naturally ends up extending. And it's not just oh, let's, this is what we want to see. It's that's happened over the years. And like when, we try to communicate it. And then run up to it, we have the host on stage who also communicates it. So it's like we're trying to really embed this culture of we're all here to support each other, and we're all actually quite friendly, or we're all struggling a bit. And, it's just yeah, for whatever reason, it's just it's become a big part of what Ministry of Testing and Test Bash is all about. And it's pretty, pretty amazing to see that, to be honest, because I do go to other conferences and no one ever comes up to me, other tech conferences and it's just sometimes I just like wonder why am I even here? So it's yeah, I guess there's the, there's a Pac Man model as well, which is one way they talk about it, so it's it's like when you're having a conversation with other people, they always leave a gap like Pac Man's mouth. So that others can come in, stand in and listen, and maybe join in. So people have naturally started doing that as well, as trying to welcome people in."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You want to leave windows and doors open so that people can feel, see entrances into the conversation. I've been part of groups like that before and it's you have no idea when these guys are going to stop talking. It's hey, I don't know how to do this. Yeah, I one of my first employee resource group meetings that I ever went to, I, I remember walking in and I'd never done one of those and it was a whole bunch of executives and I just, I didn't know who to talk to, even though I'd worked for the company for over probably 15 years at that point, the majority of people from my division weren't usually the ones who attended those types of events, right? And I went in and I, I didn't know what to do. So I went to my table. Because we were assigned tables and I just sat thinking that, once dinner started, at least that way, it would be natural. I'd have somebody on either side of me. At least conversation would start to float the table and I just. sat there by myself. And this woman that I used to actually work for, she was my skip level. So my boss's boss, she saw me at the table and she came over and gave me this big hug and introduced me to people. And then people started rising at the table. So she started introducing me to people around the table. And honestly, without her breaking that ice, I was just, I was so grateful that it's like, Oh, okay. Now that I've been introduced, I feel better. And she just made me feel like I had a place there."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I can relate. I can relate."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "We've also done things like for quite a few years now, we do lean coffee in the morning. So there's like a few tables set aside. And lean coffee is basically like people writing down in post it notes things that they want to talk about. And then people float on them around the table and they just start talking about those things that they've written down. So it's like a small group thing. And so things like that really help to give people, another option of meeting people and having conversations with people, perhaps without the small talk, because a lot of people struggle."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So do you run that around the world? So not just in Brighton, but because your community is global, right? Do you have the"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "community is global? Yeah, the conference is just in Brighton at the moment. But we do have localized meetups, like kind of community volunteer led as well. I think it's about 40 of them at the moment. It was like 100 pre pandemic, but obviously. Pandemic does that. Yeah, we do a lot of stuff online. We do monthly virtual events as well. Again, people who speak on those all come from the community. So literally our source of voices is 100 percent from the community."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Very cool. And one thing I like about the way you position your work, especially for Rosalind is you are the source for all community. You research so you do all the research so that other people don't have to. So I think that's genius. What trends are you seeing right now that you think are either helpful or hindering community?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, I guess like AI is an obvious one. I think it's probably hindering more at the moment."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, I saw a post you wrote on that."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "It's a nightmare like with content and if you have a community where anyone can submit content or write something, a lot of communities are really like struggling with how to deal with that because it's just so much, I guess I would call it AI spam. It's we had spam before, but now it's 100x like what we, what used to exist. And. It's, 100x harder to spot it or to figure out how to deal with it. So are"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "people like using it to post and comment or like both? Yeah. Really?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah. So"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "what's the point of Using AI to comment, because, personally for me, comments are how I express my opinion, how I express my value, to share expertise. To filter that through AI, I don't know that I would get value from that, for me personally, right? What's the point of even commenting? I don't get it."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I don't know. There's tools now that will auto Also create comments for you, like on social, isn't there? So it's so you can leave so many comments and they look genuine, but they're not really genuine. Or they read the posts that you're commenting on to try to sound authentic. And it's just yeah, I just don't get it. It was like, what's the point? And, places like product don't have a lot of AI spam. People always trying to play the game, always trying to, ends up becoming not really bad. community it ends up becoming about trying to get as many upvotes so that then that might somehow turn into click throughs or more sales or more awareness of the product Right and like sometimes comments can influence the algorithm Whether that's true or not, that's, generally like what they say is that the more comments, the more chance it has of being featured and stuff. So people will play the game and they'll use AI to support that. Yeah. And it's just Yes, it's just not great and I did work at Indie Hackers I led the community there for a couple of years and that was pre AI hype but like they suffered a ton from spam in general And I saw as AI was becoming popular as like a lot of the comments on the posts were AI generated And it's hard to deal with, right? It's just as a community person, you don't want to have to deal with that. But and, yeah, it causes extra work for anyone who's trying to run it. Probably work that they don't want to do."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "How are you managing that? Are you deleting posts that are obvious AI? I"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "don't actually have that problem. It's just"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it's a"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "problem like we see. Yeah. Okay. So we get minimal spam at Ministry of Testing, but there is some, but not a huge amount."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Do you think that's actually because of the connection?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Cool. I love that."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "And because we don't go out trying to create fake games. We don't go out trying to create fake hype or there's no real motivation for people or reward for people who do come in and comment on stuff. We use a discourse as a forum and they're quite good at like auto fragging like suspicious behavior Okay, we make we get that maybe a couple times a week. It's no big deal to manage right? and A lot of that is because we don't really focus on that kind of external growth. We're not like stressed out about trying to get new people in and participate in. It's just the forum is just like one part of our community strategy. It's not the community. It's I call it like the 80 20 rule of conversations and community. A lot of people think of community as community. It's all about the conversation. It's let's talk and have fun and blah, blah, blah. But actually, constant conversation is like really tiring and exhausting and people don't have time for that. Idea of the 80 20 rule is 20 percent of community should be conversations. And then the other 80% Is other stuff. So like our forum is maybe 20 percent of our efforts and the other 80 percent are articles we publish, the conference we run, courses we produce, there's a whole list of other things that we do that counts up for the other 80%."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So there's actually action in addition to conversation. Yeah. Action. And that, that, that combination, like people often join community because they're looking for not just support, but they're actually looking for transformation of some sort."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So if you're helping people achieve goals that they have personally and professionally, then that's, is that the key to, to really having community stick? Do you think?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I think so. I really do. And it's definitely easier said than done, right? But at Ministry of Testing the goal is perhaps they want to stay on top of trends that are happening, so that's something we're giving more focus on, and making it easier for the community to learn about trends that are happening. But another thing is, a lot of people have a goal of being a speaker, right? Getting up on that stage. So we then design things in to enable that. Whether it's a simple encouragement of submitting to speak, that's always like a good first step, right? But then another thing is like a test bash, which is our conference. We've done it since our second ever conference, but I came up with this idea that wouldn't it be great if anybody had the opportunity just to get up on stage just to get a little bit of tape. So I came up with the idea of doing 99 second talks at the end of a conference day. So anyone can stand in the queue, get up on stage, talk about absolutely anything for 99 seconds. We have a buzzer, we set the timer, they go, they talk, we buzz them if they go over the limit and then the next person comes on."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Okay, so you're on stage, you take the action, you're fighting your like, imposter syndrome, and you actually get a sense of achievement, right? And do you get feedback? Do you get feedback for that speaking or?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "You get the feedback from the audience, and it's amazing, like everyone's like cheering them on. Okay. So there's that aspect, we record all the talks, then it goes on to our website. So they can show it to other people. They have proof of their contribution. And now at the moment, as we're building our Ministry of Testing further, and we're going increasingly down the route of just, Custom building everything pretty much apart from the forum and then, they get that talk on their profile page So now we're introducing profile pages which becomes a portfolio and it becomes something more It gives you know, the sense of they are contributing to the community"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "right"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "and here's a proof of it and Not quite like a Facebook page or LinkedIn page, eventually one day it'll get there, but right. So is it externally"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "accessible, the profile page? Yeah. Oh, that's cool. So you can build it out and use it as like a mini profile or portfolio."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "more active you are in the community. I like that. That's really cool."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Sorry, a phrase I said the other day is like, why should all the social networks have all the fun, right? So I'm trying to bring that in, but into A community that's ours and it's a community that's not owned by a big tech company. We're just trying to build something like really special and we've got we've got photos now we call them memories. So now people can post photos. So our conference that just passed. We've, started building a collection of photos that anyone can add. And people can add memes as well. So we're building up this, knowledge base, community knowledge base. I would call it, and where everyone can contribute, right? And these ideas aren't new. It's there's memes, there's Instagram, right? But it's actually Let's do that within our community, let's own the data, let's not let the big socials like, be forever in power, and let's see what we can do for ourselves and People are loving it, we're doing it on a really small budget, but"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "we're trying. Yeah, it's amazing how happy GIFs and memes can make people laugh. It's still true. It is still true. For all the people who try to tell us that it's not cool Gen Z it still makes people laugh. It's very"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "cool."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Exactly. It's very cool, yeah. It's actually interesting to think about, The profile page in conjunction with AI, because one of the most interesting uses I've come across with AI when I'm testing AI at all. And when I say test, I'm just using it. I literally start with a question of tell me about an assignment and it pulls in anything that I've done on LinkedIn or anything on my website and whatnot. And if you don't recognize me, that means that I don't know what data you're crawling, but it's not. The data that are like, it's not the places that I am, right? So I like perplexity because perplexity knows really who I am. So I'm like, okay they pick up my media, they pick up my podcast, they pick up LinkedIn, they pick up all of this stuff. So to have a publicly profile, like a public profile page that's indexed by search, that's actually helping building out yeah. Personal branding, right? And that's the interesting thing about personal branding. Going forward is it's it's not just what's on Google. It's not just what's on LinkedIn. It's not what you put on your resume, but it's like, what is a I going to know about you and if you're not a public person and you're not in media, you don't have a podcast. What does it know about you? And so that's interesting. For software developers who aren't necessarily public people, how does that publicize them in a way that is advantageous for the future of work?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah. And that's interesting, right? I think that's where AI can come. Yeah. Would be helpful in coming, rather than AI creating content for people, it's like actually AI, Making it easy to find information or data about people, right? Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "that discoverability, I think, is what's interesting, and how does it connect dots? That's what I'm interested in, is because there's so much information in the world these days. It's like, how can you filter it? And Google search is being weird lately, personally. So AI is interesting, too. But, anyways, that's just an aside. But I think what you're doing Has a lot of potential, is what I'm saying."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I'm excited about it. The first time in a few years, I'm actually like really excited about the work that we're doing again. It felt like there was this lull and first pandemic and then there's like community hype and then it feels like everyone's now forgotten about community. It's no longer the hype anymore. And there's this lull in community, but like the deeper, like I go into trying to explore how to build community. Our way, from scratch, custom building it, going through all the pains that are involved in that as well. I just it feels exciting again to be like, building something. Yeah. Yeah, something unique, and trying to do something different, trying not to be scared. With, people saying, oh, you're crazy for doing that stuff, it'll never work, social media, whatever platform, they'll always have the advantage over yourself. All those things, but it's like. Yeah, I just feel a bit more excited partly the Fediverse, partly like open web stuff. I think, I have hope that the trend is changing more towards that. And I'm definitely seeing a few more tech people just disregarding the big socials. Twitter is an obvious one that people have just left en masse. To be honest, I think people feel the same with everything. Even Thread seems nice, or LinkedIn seems nice, and they'll play in your favor for a while, but then they own your data, right? Yeah. And they opt you in to the AI stuff without permission, but you can uncheck yourself, but people mostly don't, or they're not aware. And to me, it's just I don't want to play that game anymore. I've just I've decided I've had enough."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. So I'm part of generalist world. I know you're considering yourself a generalist and I think you've consulted with Malik on how to build that community, right? So it is the one group that I've been part of where we've done the in person meetup. So I actually went to Toronto what, two weeks ago now? It took me two and a half hours each way. Certainly a full time commitment. But it was fun. It was neat to find something. It was actually interesting because a lot of the people who are actually there were potential community members. They weren't actually part of the community. So I was like, oh, okay. So I found myself pitching a lot of it, what the community was and what the potential was. But what was interesting is he mentioned threads. I posted I took a picture of just. Toronto it's really just trying to prove that I was in Toronto because I don't go very often right because I'm north of the city and I took a picture I had Roy Thompson Hall in front of it and then Seattle Tower. It was just those are recognizable Toronto landmarks, right? And I post it on threads and I just put, every time I go to Toronto, I remember why I don't go to Toronto. Meaning that the keeming was awful, right? Traffic was just awful, right? And oh my God, people just jumped on me. It, the whole thread went viral, but it was like for completely the wrong reason because they're like if you don't want to come to Toronto, don't come to Toronto. And it was just like all of these negative people. They're like, what's your problem with Roy Thompson Hall? And I'm like, I don't have a problem with Roy Thompson Hall. It's a beautiful facility. I've been there once in my life. I don't care. It's just in the picture because that's where the CN Tower is, right? Oh my goodness. So yeah, it was interesting because I like threads, but I do find that it still gets that type of like viral negativity every so often that Twitter has. It's interesting how it's pages."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I've had a couple of viral threads. I didn't get the negativity though, so that's interesting. Block and mute. Yeah, I basically posted about Twitter, and leaving Twitter, or something like that. What was it? I got kicked out of a group. On Twitter for some reason. Yeah, I can't remember what it was or something about Elon Musk blocking me or no, it was because I had blocked Elon Musk. It wouldn't let me join. Yeah, it wouldn't let me join their kind of Twitter moderation group or something. Oh,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "yeah, because you can be part of the group if you had actually blocked Elon Musk and you were like yeah, I'm blocking him to be able to join."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "So I posted a screenshot of that, and it went viral. It was quite funny. But does it add value to my life in any kind of way? Is it? Absolutely not. Did it bring followers? Not really. So it's I think it's I don't know, I'm getting older, I just don't care anymore about that kind of stuff. And to be honest, I've just whilst I still occasionally post, and I still will, but There's a term, it's post once, syndicate everywhere, I think it is. P O S E so the idea is to like, first post on your own platform, on your own website. And then cross post to yeah. But these days, I just I just post to either Ministry of Testing or Rosyland for my stuff. And I barely bother anymore with social, I just,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, I've seen you a lot less."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, I just can't, I don't have the yeah, I don't know."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I think there's a general amount of these, basically. People are just not enjoying it. Honestly I gotta tell you, I love LinkedIn. I always did love LinkedIn. But it's been less fun this year. Something is in the air. And I don't exactly, couldn't tell you what. And maybe it's the focus on video. Because I really just don't love video. You can barely tell what platform you're on anymore, it's like sometimes I'm on LinkedIn and I think I'm on Facebook. Oh"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And if you scroll the video feed, like if you have the new video feed, it's oh my god, these are all the people that I know from TikTok. But it's I've never seen those people on LinkedIn before ever, right? So it's like, where does that come from? And it's I don't know. I just, I don't know that there's so much value. You can share it. Like the videos have to be like under 60 seconds. And I tried, or is it 90, 90 seconds? I tried and I could only get do two minutes and 20 seconds. And that is I couldn't cut it down anymore because I'm like, I'm just, I'm not sharing anything useful. So it's I don't care if you don't like me, but that's how long I need to be able to actually craft a message. But honestly, maybe that's wrong because you do 99 seconds. You have to get better at speaking. That's funny."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "We'd love to, like one of the ideas I'd love to do is actually do really short form videos on MOT, like Reels, like TikToks. Yeah. I think that would be quite fun."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "With us owning the data. Obviously."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Not the social platforms."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. I wanted to bring one thing up. You mentioned that people have been going away from community and is starting to come back. Before we started recording, I got an email from somebody that I follow that I like and basically they were talking about, like, how to facilitate return to office. And one of the themes was, So what's your theory? I know what my theory is about immunity as part of an agenda, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, that kind of, it feels if someone like, All of a sudden springs the answer is community. It feels just genuine. It doesn't feel real, right? It feels like another fad. It's we're doing back to office because we want to build community. I think most companies, if they really wanted to do community, they would have been doing it anyways. And maybe if there's a back to office thing, it's like, Considering the communities or the people's voices in that is do people really want to go back? Or are they, have they really listened to people that about their opinions or needs about going back to office?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And that's what I think about a return to office community. It's is the topic of whether going back or not off the table, because if that conversation isn't a conversation you're willing to have, then automatically it's not a genuine community, right? Because you're limiting the conversation, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "So it's also a very ableist thing to do, right? It's like dismissing like the needs of so many people. And I think honestly, like a lot of good came from COVID from that perspective. I've worked from home for 15 years, but the fact that like working from home became normalized, I think it's amazing for. For so many people around the world, new divergent people, mothers, it's just people with complicated lives or, parents to care for. I almost have all of that in my life at the moment. I've got my care for, I've got a new divergency, we homeschool have five kids. It's there's no way I'd be able to go into an office, but it's like, can I still build community in a sense of work? And what we do is yeah, But it doesn't, it doesn't mean going into the office and I, I definitely know with Ministry of Testing if we force people into the office, it's like, everyone would leave, it's not community focused if you're not taken into consideration. what people need. And I know in my circumstance, it wouldn't be possible because of how people's lives have now adapted since COVID. It's there's been too much change to go back, in my opinion, to and, often, I think, isn't that illegal to force that? onto people, isn't that like discrimination, like disability, like discrimination? This is where if you can work from home, yeah, this is really where the laws get interesting around the world, because like the UK is actually being pretty thoughtful, I think, because isn't there a a law that where, All companies have to at least consider the work from home request and actually assess it so everyone can believe. So yeah, I just don't know what that looks like in practice and whether it has any and if you're denied what you're What your rights are basically. Think that's a whole area of development that needs to really come into play to make sure that rights are respected. But that whole aspect of, does return to office impact women, people who are older people who have neurodivergence, like you mentioned, disabilities, physical disabilities as well, too, when you see systems in place that are targeting those people, because those are the people who are said that their lives are impacted negatively by going back to the office. Then that's a whole system of oppression, right? So basically systems are meant to continue, right? So they're built to continue. So my personal take is Return to Office is an example of systems of oppression thriving, and that's a conversation that not a lot of people are having. And then from the community aspect. I guess what I get annoyed about and sometimes a bit, I wouldn't say angry, but protective with community is, it's like using communities as an excuse to make Thanks Other things happen because like when people say the word community everybody's oh, yeah, of course, that sounds great. Oh, we'd love more. Yeah Oh, yes, let's buy into it. And like through the whole Pandemic is that it's like community hype and Yeah, oh my god, like crypto stuff and like people going into all this stuff Crypto's community and I kept pushing back and saying, it's not community what the heck are you talking about? This is not going to work and, but people kept slapping the name community on it saying this is community or it's buy it, buy this token or buy this NFT and you'll automatically be part of this community and find belonging and you can make money and this and that and it's just Yeah. Doesn't help like what community is and what we can achieve and people end up what I feel is like people are disillusioned by the idea of community now they're like oh it's just hype."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Because the focus isn't on the members, it's not on that connection, there's an agenda. Before I actually was restructured in my work, I had founded like an employee resource group at my work family because I knew as soon as people were forced from home, the people who are going to be impacted were the people who had children who had caregiving, who had never worked from home before and didn't know how to manage how do you work when you've got three kids? I knew that was going to be an issue because I knew what it was like to try to manage that. And I was really disappointed the other day, they posted that still community still exists, even though I'm not there anymore. And they posted that it was all about teaching kids about, financial literacy, but it's okay, that's great. That's a, it's a valid thing to teach kids about, but it's that is directly funneling into the products that you sell. So basically your community is not necessarily focused on family and the kids. Your community is really about. Building a potential new customers, and that's really what your focus is. And I'm like five years later. You haven't actually learned what community is about, and the focus is not on the people that you actually serve. And I'm like, that's so sad. It made me so sad, because I'm like, that is not at all what I envisioned was the potential for the community. I visioned it as being a resource to help people with their lives, help people with their needs. People with their work and basically just be committed to like their belonging and wellbeing and, make it a better place to work, not a funnel for potential new customers when they're 10 . I just, yeah. It becomes transactional at that point and it under undermines the trust I think that you have in the community organizers. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "It's also, stuff like that, it's also a reason why I don't track our marketing efforts and stuff like that, it's like, we have systems in place, we send emails, we do social stuff, but I don't I tend to keep an eye on the graphs going upwards and whether it's trending in a positive way. Yeah. But you open rates like crazy. No, and I don't track like sales that come in, like when did they first subscribe? How long does it take them to become a customer and stuff like that? It's of course, it's in the ideal world, it'd be nice if they became a customer quicker rather than later it would make our lives a lot easier. We could probably grow quicker and stuff like that. But I've come to the conclusion that it's just like too much work to even try to make sense of. How people make decisions where purchases come from and actually often like a lot of our purchases come from like training budgets. So there's no actual way to track it from an individual because it would be a word of mouth or an internal conversation that happens with the HR or training people to get budget sign off. And then that budget sign off team would then come to us. Separately and say, buy something, but like trying to connect it to the original source is like impossible. So like the idea of like tech being able to track absolutely everything, I think, like for us, it's just it's just overkill, right? You can spend so much time, time and money, on all these things, or for me it's just or you can have fun along the way and just do your best to grow, do your best to get people to sign up, and keep your fingers crossed that people will like what you dO."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "how do you quantify like word of mouth and that connection if people are being drawn because of the community aspect and the support like all of that kind of stuff. It's really hard to quantify. So you're probably even not going to get great data on the reality of why people join. So you're probably wise."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah, and then there's in the community world, it's oh, what's a return on investment on community and stuff, and it's just I just cannot get involved."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "It's, it just feels like an impossible task, or, pointless task, and it's I'd rather spend my time trying to improve the industry, or trying to find or create better ways of building community. Perhaps, that's what I've ended up being good at. I guess that's how you people like yourself like stumble across me is because I just tried to push forward with different ideas to get people to think differently. Yeah, about community because mostly because I'm just frustrated like with. I like your genuineness, your honesty."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Honestly, that's I feel that you're a straight talker and I can trust your expertise and your advice and you come to things with what I feel is the right approach. putting people first. I do have one last thing that I'd like to bring up and that's the whole connection of the world loneliness epidemic, if you'd like to call it that and how community can really help. And it seems like it's a big, vast topic, but I personally think big, vast topics are best solved with Small approaches on a regular basis. What's your take on that?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah a lot of people would look at me and I'd say, Oh, you've got a lot of followers, or you must be surrounded by people. But actually day to day, it's a very small amount of people that I actually interact with closely, right? I think there's a lot of people who, look at others and think, Oh, they must have it all together. But, actually we don't. And more recently I've been going small and more intentional and I've picked out a handful of people and we WhatsApp together and we just have this like agreement that we're going to keep in touch whatever way we can. And sometimes it's just instead of you could share a photo on Instagram or I could share it in a WhatsApp. Yeah. And the WhatsApp always gets a response or always gets a conversation going. And it's always nice to see, right? But it's not the same in Instagram."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "WhatsApp"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "doesn't have an"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "algorithm, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "It doesn't have an algorithm. It's more personal sometimes. Yeah. Depends how you use it. But I think like startups, especially what, the tech world, they think they can solve loneliness through technology. And whilst I think it contributes honestly, it's just We have to find ways to properly connect one to one with people and have conversations and not rely on this spamming of groups or thinking like, getting the attention or getting the virality is going to all of a sudden help our loneliness. It doesn't. It doesn't help at all. And I guess if I was making recommendations to people, I would, I'd say, think about your local community, think about the people around you. Those are really the people, most of the time, who you can, they will help you get out of that loneliness. It's like when you're Unwell when you're unable to do something and it's the people around you who are close to you who can actually give you what you need, if you need someone to go to the shop for you and you've got a broken leg, whatever it"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "is, it's like local people can help you, right? You just need sugar. Let's go back to the old days. Ask your neighbor for sugar."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "It's so simple, right? But like people have forgotten it. Yes. That's, that's my strategy. That's my intentional strategy at the moment is I'm guilty of falling into that loneliness trap as well. I'm guilty of just getting overwhelmed with life and everything around it and neglecting the people around me. But especially in the past couple of years, I've like more intentionally reached, reaching out to people, developing friendships. And, making that extra effort with people that, I think would make a difference to my life with my family's life."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, very nice. I agree. Yeah, I've always I was thinking the other day I've always been a part of a community family, right? I grew up. My parents would get up at five o'clock leave by six o'clock in the morning, and they wouldn't get home until six, seven o'clock at night. And that's been my entire life until I started working from home. And for people to then expect us to give that up, where you feel that you can, if you need somebody to walk your dog, you can just go next door, right? You've built those connections with people, right? Because you have more time. To invest in the people around you, right? And to give that up to go back to commuting. So you have maybe one hour a day with my kids. That's a really big expectation. And I think that's honestly a big part of why people are fighting it is because they've built community closer to where they live rather than community where they work in the office. How do you let that go? And"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "some people, they look at me and say, Oh, you're crazy. You've got what, five kids? You've got a business, a couple of businesses, homeschool as well. It's Oh my God, that must be so much. But actually there's certain aspects, for example, with homeschooling that actually makes life so much easier. Not doing the school run every day and not dealing with, like, all the things that come with school, all the messages, all the, you don't have to sit in an"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "auditorium and listen to 30 kids play recorders really badly."
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "Yeah. But instead the flip side of that is we end up connecting with other home editors, and we end up supporting each other, right? So we're like, we'll have we say playdates, but it's also, playdates aren't playdates themselves, often they're a way of supporting each other or, it's let's share car runs, or pick up times sometimes we find people locally, and we try to, encourage each other to, to help each other out, instead of it's good for the environment as well, obviously, but it's like trying to be efficient with each, with our time, but also appreciate that we need each other. It's really helpful to have other parents who can step up and say, Oh, I'll pick up your kid for you if you're stuck, right? Yeah. And but yeah, just Not having that makes a really lonely world. So it's like homeschooling is naturally more community led and it's almost like it ends up becoming that, I wouldn't quite say second family, but it becomes that supportive network that That we need and we recently went on a camping trip with some other home editors and it was amazing. It was just like, there's a way to get to know some of the other parents, but then the kids just were like, they were off playing all day. And"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "you can schedule that when the weather's going to be good. You don't have to schedule it around actual school time. So"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "yeah, literally we scheduled it during the week when it's nice and quiet."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, you can take advantage of all of the benefits of that seniors have and people who who aren't bound by that school's school schedule. I like it. Very cool. All right. Was there anything else that you thought we missed in this discussion that you want to highlight?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "I don't think so."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "We managed to hit the high points of what we planned. Oh, that's perfect. I will make sure that all your socials are available to people. Is there anything else that you want me to add?"
+  },
+  {
+   "time": null,
+   "speaker": "Rosie Sherry",
+   "text": "No. Just yeah, I guess websites to me are more important than socials these days, okay."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Okay. Yeah, I will make sure that's in there. All right. Thank you so much, Rosie. I'll see you next time."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": null,
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": null
+}

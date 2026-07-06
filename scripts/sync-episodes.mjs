@@ -205,6 +205,8 @@ function writeEpisodes(episodes) {
   topics: string[];
   slug: string;
   desc: string;
+  /** Slug of the full-transcript page at /podcast/<slug>, when one exists. */
+  transcriptSlug?: string;
 }
 
 export const PODCAST_BASE_URL =

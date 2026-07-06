@@ -1,0 +1,491 @@
+{
+ "number": null,
+ "slug": "the-algorithm-how-ai-decides-who-gets-hired",
+ "title": "The Algorithm: How AI Decides Who Gets Hired",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Hilke Schellmann",
+  "title": "Journalism Professor, New York University",
+  "org": "New York University",
+  "credentials": "Author of The Algorithm: How AI Decides Who Gets Hired, Monitored, Promoted, Fired, and Why We Need to Fight Back Now · Investigated AI hiring for the Wall Street Journal",
+  "links": null
+ },
+ "publishDate": "2024-11-12",
+ "publishDateHuman": "November 12, 2024",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Hilke Schellmann, journalism professor at NYU and author of The Algorithm, lays out what her investigations found inside AI hiring tools: resume screeners that gave extra points for the name Thomas or the word baseball, video-interview analysis with no science behind it, and a Harvard survey in which about 90 percent of leaders said they know their tools reject qualified candidates. The conversation runs from a Lyft driver's job interview with a robot to Whisper's hallucinated medical transcripts, and lands on the case for treating hiring as high-risk decision-making.",
+ "takeaways": [
+  "Test AI hiring tools with cheap experiments before trusting them — answering in German and scoring six out of nine on English proficiency is all the evidence needed that a tool doesn't measure what it claims.",
+  "Audit the training data: tools built on your current workforce replicate its historical inequities, down to awarding points for the name Thomas or the word baseball on a resume.",
+  "Interrogate vendor claims of objectivity — facial-expression analysis in video interviews has no science behind it, and vendors themselves often can't say what their models infer from.",
+  "Demand explainability: if a vendor cannot explain a candidate's score in front of a judge, the score should not be deciding who gets hired.",
+  "Name hiring as high-risk decision-making alongside credit and sentencing — the EU AI Act now treats it that way and outlaws emotion recognition outright.",
+  "Map where your data flows before signing consent forms — medical transcription built on Whisper can hallucinate text into records while the original audio is deleted.",
+  "Run audits at the intersections: comparing men to women misses the compounding errors where marginalized identities overlap and training data is thinnest."
+ ],
+ "keyQA": [
+  {
+   "timestamp": null,
+   "question": "Why do companies use AI to screen job applicants?",
+   "answer": "Because they are drowning in applications: IBM reported about five million a year, Google about three million, and Goldman Sachs over 220,000 for a single summer internship. There aren't enough humans to read them, human reviewers carry their own bias, and generative AI has multiplied the flood by writing applicants' resumes and cover letters — so screening is now often AI versus AI. The tools are pitched on efficiency, which rewards fast hiring rather than accurate hiring."
+  },
+  {
+   "timestamp": null,
+   "question": "How does AI hiring software become biased?",
+   "answer": "Most tools are trained on the company's current workforce — resumes of people already succeeding in the role — so they learn and replicate whatever historical inequities that workforce contains. Real examples include a resume screener that gave extra points for the name Thomas, tools that scored baseball above softball, keywords like 'Africa' penalizing candidates, and Amazon's experimental screener downweighting resumes containing the word 'women.' Because many systems are black-box neural networks, even the vendors often don't know what the model is inferring from."
+  },
+  {
+   "timestamp": null,
+   "question": "Is there any science behind AI video-interview analysis?",
+   "answer": "No. Psychologists told Schellmann there is no evidence that facial expressions in a job interview predict performance, and the 'six universal emotions' assumption behind the software is decades out of date — emotions don't map to expressions consistently across cultures. It persists because it feels intuitive, the way handwriting analysis once did, and Fortune 500 companies used it without questioning it."
+  },
+  {
+   "timestamp": null,
+   "question": "How can an employer test whether an AI hiring tool actually works?",
+   "answer": "Run cheap adversarial tests before deployment: Schellmann answered a video interview in German and still received six out of nine for English proficiency. Ask the vendor to explain a specific score plainly enough to satisfy a judge — if they can't, that's the answer. Bring in outside counsel to audit the system, and check results at the intersections of marginalized identities, where standard four-fifths-rule audits miss the worst failures."
+  },
+  {
+   "timestamp": null,
+   "question": "What rights do job seekers have over AI hiring decisions?",
+   "answer": "It depends on jurisdiction. Under GDPR, a rejected applicant can request his data — which is how Martin Birch discovered a gamified assessment had scored him low and Bloomberg had auto-rejected him without the required disclosure; he settled his legal inquiry. The EU AI Act outlaws emotion recognition and classifies hiring as high-risk. In the US, New York City requires annual audits of hiring algorithms, but companies decide what counts as AI and the audit standard misses intersectional bias."
+  },
+  {
+   "timestamp": null,
+   "question": "What is the risk of AI transcription in hospitals?",
+   "answer": "OpenAI's Whisper — the engine under many medical transcription products — sometimes hallucinates entire passages, including a medication that doesn't exist. One vendor serving roughly 30,000 medical providers deletes the original audio for privacy, so there is no way to check the transcript against what was actually said. A hallucination can then live in the medical record indefinitely, feeding misdiagnosis, wrong prescriptions, insurance denials, or legal evidence."
+  }
+ ],
+ "chapters": [
+  {
+   "time": null,
+   "label": "From Eightfold and Plum: the questions that started it"
+  },
+  {
+   "time": null,
+   "label": "When automated systems can't hear your voice"
+  },
+  {
+   "time": null,
+   "label": "The Lyft driver interviewed by a robot"
+  },
+  {
+   "time": null,
+   "label": "Why employers drowning in applications reach for AI"
+  },
+  {
+   "time": null,
+   "label": "Thomas, baseball, and huskies: what the tools actually learn"
+  },
+  {
+   "time": null,
+   "label": "No science behind facial-expression analysis"
+  },
+  {
+   "time": null,
+   "label": "Regulation: GDPR, the EU AI Act, and New York's audits"
+  },
+  {
+   "time": null,
+   "label": "Whisper hallucinations in medical transcripts"
+  },
+  {
+   "time": null,
+   "label": "Flight risk, transferable skills, and pushing back"
+  }
+ ],
+ "transcript": [
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "so much for joining me. I'm Nola Simon. I'm your host of the Hybrid Remote Center of Excellence and joining me today is Hilke Schellman. Did I pronounce your last name right? Yes. So it's"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Hilke Schellman. Hilke. Yeah, it's a, German first name. Very hard. Sorry, my dad is actually German,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "but I don't actually speak"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "German. The funny thing is Germans don't know the name either. So they're often like Heike, Zilke, what? So it is, it is an enigma for anyone I encounter."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Okay that's fine. I'm glad I asked. So thank you. She's the author of the algorithm, how AI decides who gets hired, monitored, promoted, fired, and why we need to fight back now. And so it was actually interesting how I came across your book, and I want to tell the audience a little bit about how I became aware of your work. And so it started, honestly, I started on my own noticing like AI being a trend back when I started my podcast back in like December of 2021. And I interviewed a guy from Eightfold AI and he told me all about the way they were using it in hiring and firing. But also he was telling me about how they can identify transferable skills. And I found this very interesting. They have contracts with government to really identify transferable skills that existed in long term unemployed people. With the goal of actually getting them back to work. And I'm like, wow, that's fascinating. I never considered that was a possibility. And he came up with this example that, if you have somebody who has went to university, they have a math degree, but they have always worked in customer service, you could literally get them into data analysis. because the skill sets are really the same, but data analysis is really more future focused and also pays a lot more, right? So people are sitting on skill sets that are extremely valuable. They don't even realize what the value is of those skill sets. And that really appealed to me because I have a degree in math and I spent 20 years working in customer service. Now that's how it started. So then I also was aware of a company called Plum who worked with Scotia Bank to actually replace their resumes. And so basically nobody submits a resume for Scotia Bank in Canada. They use this. AI profile called Plum. Now, I ran a personal profile for myself, and it came up with all kinds of interesting things, except one of the lines was, basically, you're better doing work that doesn't really take any initiative, that it's repetitive, and you need structure, and you need to be told what to do, basically. And I'm like, Yeah, that's not me. Thank you. I'm working for myself. And my podcast, I've got, I'm nearing a hundred episodes. So it's yeah, nobody's been telling me to do my podcast. Thank you very much. So I wanted, but what I wanted to know and why I had approached the CEO of Plum was what is, What does AI actually know about me that is pulling that result? Because if I'm running my own profile and I notice an inaccuracy in it, so what's causing it? Where is it pulling from? How can I influence that result so that, I'm going to draw something that's more accurate, but also what are the repercussions of that? inaccuracy, right? And how do you get it removed? How do you get it fixed? And how do you do the due diligence on doing like on any of that information? Because if I applied for a job and that came up and the job is about innovation and, taking initiative and, every job that I'd be interested in, and that's what's coming out of that profile, that's gonna shoot you dead in the water right there, right? Yeah. And then I could not get an answer from the company. She didn't initially respond to me because I'm like, I want to interview you. And then she goes to me and she even actually walked by me on a stage. I had told her that I would be there and she walked by me and wouldn't talk to me. So it's okay. So I, I've given up on, on that, but I was fascinated with reading your book because you focused on both of those companies and I was like, Oh, somebody else noticed this and put it together and put it into the book. And that's where I knew I really wanted to interview but we started, there's one more piece of the story. I didn't, I'd introduced you to somebody else that I had as a guest on my podcast, and that's Swetha Redney. She's a career coach up in Sudbury. And I had noticed Swetha trying to get. Information and trying to get media to actually interview her about concerns that she had about AI and immigrants. If you're if English is not your 1st language, how does that influence an AI interview? These 1 way video interviews, do you have accommodations, right? If you have a stutter, if you have a lisp, all of these things factor into how you perform. And personally, again, my own personal story going back, there's something about my voice that automated systems do not like. So Siri and Alexa hate me. My kids used to razz me because they could get Alexa to talk and Alexa wouldn't respond to me. So they would harass me using Alexa. I've turned Siri off because it's so reliably does not understand my voice that it's more hassle than it's worth. And one time I had a bad accident they actually sorry, I've got music playing somewhere. Can you just pause for a moment? Yeah. Hang on a second. Oh my God. It was an electric. It started playing in my ear. Now it heard you. Finally. Now it hears me. This is why I hate it so much. Because, literally, it was played like the theme song from the Mickey Mouse Club. I'm like, did I say anything at all about the Mickey Mouse Club?"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Wait till it starts again."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Oh, God. Apparently that's dangerous to talk about. Yeah, so I used to have to, I was checking the status because I was waiting for my license to be reinserted after the accident. And I had to wait my eight year old up to say the letter S. Because the system would not recognize me saying the letter S. I literally have concerns about if I ever had to do one of those video interviews, how would that actually affect my voice? English is my first language. I don't have a concern otherwise. But there's something about how automated systems, Recognize my voice that I don't trust that they're going to get it right. So I have a lot of concerns."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "So we could totally test that in different ways. Yeah, exactly. That's right. We usually have people who have maybe a dialect or an accent, right? Or have a speech disability that we mostly concerned about. I've never had somebody who is a native English speaker who has automatic systems that. Don't want to listen to you. I know"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "it's so aggravating and so annoying. And I actually I was working for a bank before my job was restructured and they had an automated system as well, too. And I had run tests for them demonstrating like how badly you couldn't recognize me and they didn't know how to, Handle that right? And again, I volunteered to be a subject for them so they could test it out. But I got restructured before that project could go anywhere. But yeah, no, I find that fascinating to me because again, if this can happen to me, then how does it happen to, how does it affect people who have bigger barriers than I face? Yeah. And that's where it's the only thing that I know how to do anything about is to ask questions and to talk about it. And so that's why I'm very grateful to have you on the podcast so we can amplify this conversation because I do think that it's extremely important. Because it's only the tip of the iceberg where we are right now. Yeah. So before we really get into it you're a professor at New York University and you're In the journalism"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "department, teaching journalism. I'm in, I'm a professor in the journalism department, teaching journalism, what I love. So I have the dream job. I get to teach what I love to do. I get to do journalism. So I'm I feel very blessed with that job."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. And the AI really fell in your lap too, when you were actually in a cab and this guy told you he had an interview with a robot. And that started, that question really just started opening up the whole Pandora's box for you, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, totally. We always wonder like where do journalists get their ideas from and this was literally like me in the back of a Lyft ride talking to the driver and he was like, I've had a weird day that doesn't ever happen to me. It's usually they say I'm fine. How are you? And he's yeah, I've had a weird day. And I was like, Oh, yeah, what happened? He's I was interviewed by a robot for a job. And I was like, robot? He's yeah, I got a call from a robot. So probably like a pre recorded voice. And he had applied for a baggage handler position at at a local airport. And he was just really just almost speechless about the process, because he was like, that has never happened so weird and I took note of that and was like, Oh, I've never heard of that. And then, I went to an AI conference a few weeks later, and somebody talked about AI and algorithms being used to check people's calendars and absences. And she also did mention, oh, they use it for hiring and. She told me about, could the company hire of you, which is one of the largest providers in this space and it just started this. And when I started looking into it, I was like I didn't know how ubiquitous it is. And I think talking to your point of feeling like, whoa, like if, It's inaccurate for me. What is it for people who have way less agency? And I think that in introduction of algorithms and AI and hiring does shift the power balance, it's always been more power with the employers, right? Because make the final decision, of course, but now it feels like that, you could like Think about what am I put in my application? Who do I list as a reference? So you were a little bit of the curator of your passport, maybe. But now companies assess you with AI or without even without knowing, right? Like you may be thinking you're doing a video interview, little did you know that they use AI on you or you send in your application material. And if you send it through like LinkedIn or any of the large job platforms, they all use AI, no recruiter wants to have just a folder with 2000 applicants Transcribed Their resumes, right? There's all kinds of ranking in the way this ranking happens. It's like really curious, right? Like, how do we know that the person ranked at number one is better than the person ranked at 100 and those are like feel interesting questions. And I started looking into that. And at the time, like a lot of the I was first used on people. What the industry calls like high turnover high volume job. So we hire a lot of people and you have a lot of turnover often for like retail positions, fast food service. Yeah, customer service call centers have a really high turnover too. So we see, in one of the in one of the tests that we did the company is actually for a call center. So the video is like somebody, you have this irate person on the phone. How are you going to calm them down with one of the tests, right? So we see that. And I would say that folks who are looking for those kinds of job have probably one of the least power in the workplace and the least time and get don't make often a living wage or not near living wage. And they're being subjected to this first, whereas CEO is another like sort of leadership positions very rarely get subjected to these kinds of tools. We've seen it like climbed a little bit, I've seen it used for flight attendants, for teachers now I've seen it being used for a lot of recent graduates because a lot of people feel hiring managers feel like, Oh, there's so many people, they all have great bachelor's degree, but they don't have a lot of work history. So they all look alike. So let's do a skills capability assessment because we don't know a lot about them, so we see it used mostly for that. And we see it, I think what happened with the dawn of job platforms and now with generative AI companies are flooded by applications. And I think that is, there's a real need there. IBM said they get about 5 million applications. Google get about 3 million applications per year. Goldman Sachs said for their summer internship alone, they got over 220, 000 applications. There's not enough humans to go through all of them. And we know that humans are biased too. So a lot of companies turn to technology because they, they're drowning under applications. We now more than ever, they're drowning because, a lot of job applicants use generative AI to generate a cover letter, to generate Resume and now we have a I that can actually apply for you. So you don't even have to do anything."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "The battle of who has the best a I"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "it is a I versus a I out there and, at one point, you might have to ask okay, what's still real here? What are we talking about? What are the capabilities? How do we actually hire the best people? And I don't think we necessarily have an answer there"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "well, and how many people are actually avoiding that whole process and just working the network and, That then becomes problematic too, because then it's like, who, and in terms of equity and, equality, that's, Automatically problematic because, people tend to have closed networks, right? Like they, they like people who are like them, right? So if you're building a process, that's automatically going to be biased, then is it's example of systems working as systems are designed to work and that's really what the outcome is that everybody wants. Yeah, we don't Diverse workforce."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah. That's a"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "question that you have to ask, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah. And especially like when you build tools based on the current workforce that you have. Yeah. Most companies are not diverse, right? So the the problem is that you might replicate, right? The historical inequities that you've built into your workforce for hiring more men or more white people, right? Over time, right? And then the tools pick up. Their facial expressions, the words that they use, their manners, their way of behaving and game playing might just hire more white men which I don't think is anyone's intention, but is a likely outcome."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Because they the systems have access to your hierarchy through performance reviews or anything that's written, right? You have an example in the book about, this AI had learned that the name Thomas. It was, yeah, it was getting more points. My hypothesis is that this was built. This is a resume screener. And if the resume happened to include the name, Thomas, it was rated more, it was,"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "it was, yeah, it was getting more points. That my hypothesis is that this was built. This was a resume screener. that it was probably built with a bunch of resumes of people who are currently successful in the role, which often means the people who are doing the job now. Yeah. So you give the tool like thousand resumes of the people you have employed right now, or you have been recently employed the last six months or so made it to the last round of interviews. And you say those people are the successful people. And then the tool does a statistical analysis. And apparently in this Statistical analysis, the word Thomas came up and became statistically significant, so then the tool gave people who had the word Thomas on their resume more points. So obviously, any human knows that Thomas, the word Thomas, doesn't qualify you for anything. The machine obviously doesn't have a conscience and doesn't have any ethical ideas and I should also say, Humans are also problematic, right? We know from like social science that like we send resumes with more Caucasian sounding names versus African American sounding names, right? There's a lot of human bias too, that we know that people get fewer callbacks who have African American first sounding names, but like a machine was supposed to be objective, right? That's what. These AI vendors sell that it like democratizes hiring. It has no bias. It is absolutely fair. And that has not been the case. And I was really surprised when I talked to industrial organizational psychologists who said like all of the tools that you looked at had problems. And other employment lawyer told me like every fourth tool he looked at resume parser had problematic keywords. He found in one of them, the word Africa and African American were used as keywords. Another tool. The word baseball. If you had the word baseball on your resume, you got more points. If you had the word softball on your resume, you got fewer points, which points, which is"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "which is excellent reason that you don't want to put your activities your after curriculars. And I don't"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "know what happens for the people who don't have any hobbies, right? We don't know if they get penalized or not, right? But that's the problem. A tool will look at everything that's on a resume, doesn't know that maybe Python, a programming language, is a more important skill for a software developer job than hobbies, which really should be, not be part of the decision making at all, because hobbies doesn't say more about like your socioeconomic background. If you put snowboarding or skiing, probably means in some societies that you have more money than others that you come from a privileged background because you can afford it. That means more that tells you more about your background than your actual skills and capabilities to do the job. Unless it's a skiing instructor, they probably need skiing skills. But other than that it doesn't have any bearing on the job. And we see this again and again, and in a lot of these tools and that does worry me. And we have so little oversight where in this case is the vendors themselves didn't find the problem, right? It was like when a vendor talked and talked to an employer and, about using the system. And then some of the employers do their due diligence. They bring in outside counsel, they start the system, and then they find the problem. And a lot of times companies use deep neural networks, which you don't need to know what that means, but it means that you have training data. to build the model, and you can look at the results, but you don't necessarily know what happens inside the machine. We can ask the machine what exactly happened, but most companies don't do that. So a lot of AI vendors don't know what is the machine inferring upon? And what we see a lot of machine learning, there's been like a famous example where I think somebody built a tool that was supposed to understand what's the difference between huskies and wolves. and fed a lot of pictures in the model. And, the model miraculously learned what's a husky and a wolf because if you send in a new photo it was like, oh, husky, yes, until it didn't work. And then the the folks asked the tool what did you infer upon? Was it the nose? Was it like the fur of the husky or the wolf? How did you know the difference? And the tool highlighted the snow in the background of the huskies."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Because it turns out"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "the Huskies had like snow in the background, the Wolves did not. So the tool that actually didn't know what's the difference between Husky and Wolves, what? The Wolves didn't have snow? Or the Huskies didn't have snow? I don't remember, actually. I would have expected Wolves to have more snow. One of, one of them didn't have snow. Yeah. And that was and that's what the tool learned. And so that's what we call, and this is actually. More prevalent than you think in these systems, like we think it does X, but when we tested, we learned that it doesn't do anything. So there's another example with The COVID cough, like during the pandemic, there were a lot of companies that tried to build AI systems where you like cough into the phone to your doctor, the tool will tell you, do you have COVID or not, right? And that never worked out. And what we saw in even like academic literature where people said, Oh, we found the COVID cough when you tested it. What it actually found was that it had the people who were, had the COVID cough and most often in the ICU. So you heard the beeping of the machines and the people who didn't have COVID were in, whatever scenario where they were coughing. So the tool had learned that COVID means machines beeping in the background. So obviously had to learn anything about COVID. So we see this again and again, it's a real problem. And I'm. Not too hopeful that obviously that the hiring space isn't spared from this problem because I found this problem now many times. And that's just, as you said, the tip of the iceberg, right? I haven't looked at all the tools. I don't have access to all the tools. So we need a lot more scrutiny. We need a lot more testing. So I hope that people in talent acquisition or in hiring will hear this. Oh, hear me speak like please test these tools and do these like super cheaper tasks that I do. If I can speak German to a tool and still get a six out of nine English proficiency score that the tool probably doesn't work. Do some kind of testing and to really understand what does this tool do? And if it doesn't do what it's supposed to do, you really might want to rethink using this for hiring. It matters who gets a job. It matters to job seekers. I'm relying on making money to put food on the table to have an apartment. I'm nervous before a job interview because it matters if I get the job. I know for employers, often it feels ah, so many candidates. We reject any, them anyways, but It doesn't matter. And I'm sure it mattered to the hiring manager and the talent acquisition manager at one point that they did get the job, right?"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "And there's legal ramifications as well too. So if you're using tools that have built in discrimination, like you said, like they're learning things that aren't necessarily relevant. An example would be like just university related to like social economic class, right? If you're filtering out your AI tools, filtering out, Harvard or whatever university. There's long time studies and proof that show that those aren't necessarily tied to skills and ability, but those are definitely tied to socio economic class,"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "right? Yeah. Yeah, and I feel especially with the resume parser there was 1 example that it had highlighted, had learned that Syria and Canada are, Predictions of success. So everyone else was fascinated with that one since I'm"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "from Canada."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Exactly. I was like, look, the Canadians, like they're, moving forward at a faster clip. But you know what this means for people from other places that they would be potentially get discriminated against, which is illegal in the United States, right? Like they're illegal place. Yeah. I think what's a little bit problematic is like that the tools themselves obfuscate some of the decision making, right? Because we don't actually know that Canada and Syria were indicators of success, which we shouldn't be using, because unless somebody digs deep into the system, we just see the results of the ranking. And they look very convincing. Even when I did tests, I know that these tests are bogus that I was like, okay, there's no science behind them. But when you still see your score, you're like 78%, blah, blah, blah. It's really hard to not see that score and feel like, oh, that means I'm this. You still put meaning towards it, even though, it's actually meaningless. And I think that's. What's really problematic, right? As an hiring manager, you get this list of 1000 people, and you're going to call the first 20. I'm not going to call 998 that person, even though I have no idea how this banking was really put together, right? I assume the machine, somebody did their due diligence, and these machines work and pick the best people. But I think it was interesting from one survey that Joe Fuller did at Harvard. We know that he surveyed like 2200 or so people in leadership when their company use an AI tool. Almost 90 percent said, Oh, we know that they reject qualified candidates. So we know that they don't actually fulfill that promise that they find the most qualified candidate. But we still use it because I think the tools make hiring so much more efficient, so much easier, cut down the number of days that you're hiring. And that is something that companies care about, which I think is probably the wrong incentive. Who cares if you found somebody in two days? Are they the most qualified? Can they actually do the job the best? If it takes three weeks maybe that's okay. That isn't necessarily the incentive that is being used,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "right? Yeah, exactly. That's right. And it comes down to trust and accountability. Really? Are you walking the talk? And are you being responsible for what it is? You're doing and that seems to be lacking in companies that are actually using these. These AI systems. And again, I don't know that's their intention, but it is. I don't think it's"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "at all their intention. Yeah, this is like a tale of like good intentions, maybe gone bad or having unintended consequences, right? I don't think actually anyone building these systems or using these systems has any ill intent. I think everyone. Really does probably want to diversify the workforce, want to give more people a chance but it's not really fully understanding how are we actually using this system? How do these systems make decisions? Yeah, because they are literally black boxes, like that, what we always say, and I think that's, really problematic. And I think, a lot of companies come into this. They want to have they want to save money. They want to have more efficient hiring technology. So they don't want to necessarily now hire someone to oversee these systems and test them continuously, like they're easier and faster. So they're not going to maybe apply like a lot of scrutiny to this. They're just like, okay, it works. It cuts down hiring. We need to employ fewer people. That's all I want. And I"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "mean, it's basically software as a service, right? So like the vendors could be updating the software as they go, right? So they really should keep on top of that. Just from a compliance point of view, you would think that you'd want to make sure that you're reviewing the terms and conditions every time there's an update to the software. I don't understand what the risk people are like, where's the cybersecurity and the risk assessment that goes along with this."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah. And I'm sometimes wondering about this too, because, like we reported very early on in 2018, after I met the Lyft driver and the next year I was working for the Wall Street Journal. And we did this like a 10 minute, as a video investigation, because we felt like, oh, this is, it's about video interviews mostly and other AI and hiring, but it felt like, oh, we want to show this in video. And we looked at HireVue and HireVue at the time still use like facial expression analysis Ation of our voice and analysis. And it also transcribed the words that you used. And, when I started digging deeper, at first I was like so surprised. I was like, oh, I didn't know that facial expression and job interviews are predictive of success in a job. What Interesting way to measure things. And then when I dug deeper and I talked to expert, they're like, there's no science here. I was like. Wait, what? There's no science here. They're like, yeah, we don't have any science. What facial expressions you have to have in a job interview that predicts how good you should be at any given job. And I was like, Oh but they're using it. And and then I talked to folks, there is the effective computing companies that, that, that put out the tools. They also say we have the same six emotions. If you're smiling, you're happy. If you're frowning, you're angry. And when I talked to psychologists, they said Oh yeah, that's 60 years ago. We thought that, but we know now that like different cultural backgrounds, different societies, we don't have the same emotions. Like we are likely to have similar emotions, but not always. And so this is not predictive at all either. And I was like, Oh, I was like, this is really problematic, but large fortune 500 companies were using the technology without questioning it. From what I know. So I was really surprised that I was like, I do wonder, like, where are those people? Where are the compliance people? I don't know if each into that. hiring space or they feel like because there is like almost no way for people to get access to these systems. If the person who builds the system doesn't know what the tool infers upon, like the people using it, the companies don't know it, job seekers are never going to find out. So maybe the risk is very low."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. There's no transparency. Like even as a job seeker, it's only because of press releases and whatnot. Like I knew that Scotiabank was using Plum, for example, and that's why I was researching Plum. But most of the time they don't identify who's providing the documentation. the services, right? Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "I think after, like some sort of scandals, right? Amazon tried to build an algorithmic tool that scans resumes, and they built a tool that was downweighing women. If you had the word woman or women on your resume, it would downweigh you. So I think, They got a lot of backlash for that as I think since that companies have also been very careful to publicize anything bad about these tools, right? Like I have talked to, like after the book came out, I got lucky. Before too, but like really after the book came out, I had talked to a lot of CHROs, like chief human resource officers, chief people officers, and Oh yeah, we use that tool. We have the same questions and problems that you uncovered. And then we like stopped using it. And I was like that's great. I'm glad to hear it. Did you tell anyone? Because Company X is still using it. Could you publicly say that you found out these tools didn't work? And they're like, No, we can't publicly acknowledge that because they're afraid of class action lawsuits. They're afraid of press that they use the tool that's flawed. You can understand it. But the problem is we don't really have much progress then, right? No one calls out the bad actors, or not the bad actors, but like when tools don't work, they don't call out the companies. And, I think the vendors are unlikely to dig deep and really check out their systems and change them. They do want to market and sell, right? And there's still companies that merely believe them that this works. So yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "So what's the solution? Like you've been on record saying that, regulation is needed. Government involvement is needed."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah. We just did a recent election in this country, so I'm not sure. under a Trump administration, there will be more regulation, right? In fact, we've seen a lot of deregulation under the last Trump administration. So I'm not very hopeful. We haven't seen some forward movement under the Biden administration. There has been like AI not lost, but like hopeful, like we should really look into this. And there has been like progress but we really haven't seen an agency stepping in. starting to approve these tools or test them or anything. I think that is, there isn't a whole lot of political will, I think, to do that, and maybe also not a lot of. knowledge because it is tricky to, and I wouldn't recommend that government agency do this like little testing that I do. I sometimes do this thing where bring a question to like computer scientists and sociologists and we do larger Studies. Yeah. That's how we found the problem and their hallucinations and whisper. That's also how we found out that some AI tools who take your personality from your LinkedIn or your Twitter feed don't work and that you have multiple personalities and even the same AI tool has different things finding out about your personality. , if it looks to you at your LinkedIn or Twitter, which is, against the theory, like if you use personality, you would assume that it is a stable. Thing, right? Otherwise, if it changes every 5 minutes, then you really shouldn't use it for hiring. So we had also"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Social media is a filter to begin with, right? Who you are on LinkedIn may be very different from who you present yourself to be on Twitter or threads or whatever. I absolutely agree. You adopt personas, or at least some people do."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah but I think the companies would say you didn't write this to get a job. Especially your tweets, so there's something about you that you're not hiding, right? This idea to look under the hood of a job seeker. It is pretty prevalent. I think the same idea with checking your facial expressions like you get something up about yourself that you weren't even knowing about. And we know from history of companies analyzing like handwriting and other things and hiring that, there is no science there. There is no science. But we've seen this again and again, because it does feel. So intuitive, right? It does feel intuitive that something in your writing says something about you. So I could analyze that and find the real you that you can't hide. But so we fall into that again. Those are those are assumptions that, that, that worry me in this space. Let me see. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "But Europe isn't having the same sort of problem because of the GDPR, right? And the privacy?"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yes and no. I do think that Europe is like a more regulated place on earth, right? Like we see much more regulation coming out of the European Union. And we see, they have, we call those like omnibus legislation because there are large laws. So one is GDPR, the general data protection privacy law even the UK adopted, although it's no longer in the European union. And I was like lucky to find who I call like patient zero Martin Birch who got his who had to take a plum assessment, like a gamified personality test to, to really basically describe it you. Get some, I don't know, you do some Tetris thing games. And you have to answer a couple of questions. What would you in the workplace, if you encounter this or that and they come up with the personality and capability analysis of you. So he was he had applied for a job in data. And he was like, I was data scraping all day at my current job. So he was like, I was really surprised that, I wasn't, asked to do an assessment on my capability of data analysis and data scraping, which I do in my job, which I applied for at Bloomberg. But I was asked to answer these questions about my personality and puzzle Tetris and other things. And he was also surprised that he pretty much got an instant within a day, a rejection. He was like, Huh. For a job that I'm already doing that I applied for at this other company. That's interesting. So he was in a journalism adjacent job, right? He was for a news organization. He wasn't like a reporter, but he knew what reporters do. So he thought about the GDPR. He asked for his data. And then he got the data and he scored really low and then he found out that Bloomberg had automatically rejected him, which is under, some other laws, is not legal, you have to disclose that if you use automatic And Bloomberg didn't disclose that. So he started, he started like a inquiry, a legal inquiry. And he settled with the company, but, it's one of the first people that I ever heard from that like actually had the data to look at and ask about it exactly. And I think that happens so rarely. And it doesn't happen very often in Europe, right? Because a lot of Europeans don't even know that they have this right or they know how to get it. And then when you get the data, it's also really hard to really understand it. Okay. Capability or not, I'm, I don't know if it's right or not. There's no authority to go to and say I don't think it's right. Who would you call? We see a little bit more and now we see the EU AI Act, which actually outlaws outright the emotion recognition. So that kind of tools would not, will no longer exist in the European Union legally. If you use it, it would be illegal. And there's a high bar for hiring, which I'm really happy about because I've been saying for a while now that I think, hiring is high risk decision making, like it makes It is important to understand who gets hired and we're not. So it should be up there with like other high risk things about who gets a mortgage, who gets a loan, who goes to jail, like those are or how long you go to jail. Those are also high risk decision making and hiring should be one of them. So there is a little bit more scrutiny that companies have to face. We not exactly know how it's going to interpret it in every country and every like sort of societal system. There's like general guidance. How is this actually going to be implemented? It's going to be interesting. So we're not 100 percent sure, but we see, a little bit of that. We've seen promising things in California, but they've recently been turned down by the government, governor there. With the Trump administration, I'm not seeing that we'll have a lot of regulation. Maybe on the state level, but not on the federal level. Probably not. So we'll see what happens. I do think there needs to be more regulation, but I think actually, I don't know if every regulation will catch. Problematic use case. So I think that like companies need to speak out and push the vendors to do better, or we need to have more non for profit initiatives to build tool in the public interest, right? I think as the barriers of building some of these tools come down and make it easier for a lot of people. To do the question is could we, could civil society build tools in the public interest that are better than some of the commercial companies put out there and we can actually make public how the tools were built, what the assumptions are built in and all of those things that that we criticize that we don't know from commercial suppliers. That's all I do."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Are you familiar with Amy Webb? She's a futurist."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yes. Yes. I've interviewed her actually for an article. Oh, have"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "you? Okay. What do you think about her point? Her point is that she thinks that regulation is going to be so challenging, especially to get it consistent across the globe. And really it has to be a financial incentive for companies to really build it ethically and Responsibly and if companies then hire the are used the AI produced by that company, then they get a reward for choosing the ethical AI company. Do you think that's viable?"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah. I don't know if it's viable because I think. I do agree that regulation can't catch them all, right? Like it's not really going to work out. It might work for like the European union, but that doesn't necessarily transfer to all these other jurisdictions. So it is really problematic and it can't catch them all. So if we rely on industry itself, like maybe a system where we reward, or we have some sort of certification we require we publicly shame companies who don't use certification. But the question is like. does the certification work? And I would argue that we've seen in some industries that we have like thick leaf as certifications. We've seen this about diamonds where diamonds come from. We see this, we call it greenwashing, right? That companies like buy a certification that they look like a green, organic, super environmentally friendly company, but then they dump their trash in the landfill and they actually don't recycle, whatever their promise it's actually not true. They're just buying. The certification. So I am worried about that too, that we then have another level of that looks like this is certified and this is a good algorithm, then no one looks at it and knows is this actually good or not? And the, I wish we had like clear standards on how to judge algorithms. They're being developed in the European Union, but there's still a lot of we don't know a lot of things here. So I hope we will have standards and maybe if we had a little bit more transparency and demand accountability and explainability. A lot of times when I do some of these tests, like talking German to the tool and then, I get a, I got a six out of nine English proficiency and I talk to the developers. Oh, before we publish, we always go back."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Ask for comment and also maybe we made a mistake, right? Like we want to know. So we go back to the developers. And I was just, I was listening and listening. I was like, wow. He was like, it's maybe because German and English is in this 5D space. The languages overlap. And I was like, 5D, I was like, I'm really not understanding. I was like, I can't follow. I was like, can you just explain to me if you were in front of a judge, how, why I was scored six out of nine? Can you just explain how you would explain in front of a judge? And he couldn't. And I was like, I, 5D doesn't mean anything to me. It seems very complex. Can you just explain it? Like how the score came together. And I think if people can't do that tells us something like if you can't explain why this person was scored this way, we have a problem. So I think we need much more explainability, transparency. If he could get that through government regulators, that would be great if he could have like benchmarks standards, we've now seen in New York, there is a law that companies who use AI and hiring or algorithms and hiring they do have to get an audit every year. It's up to the companies to actually decide how much AI and algorithms they use. So that's flawed. And then the audits. It's also unclear necessarily it's like usually follows a lot of people follow the four fifth rule which is actually already. a guideline by the Equal Employment Opportunity Commission in, in, in the US. So it's like just auditing what's already being audited. And we know that those kinds of audits are really flawed. They just look at different genders, like male and females and different sexes against each other. They don't look at the intersection of Black, Black women versus Caucasian men, for example. We know at those intersections where marginalized identities crossover That's where I see most of the problems in the system because marginalized groups are underrepresented in the tool and in the training data, often not the tools. Then they become underrepresented in the tools and the models. And then we have the the problem multiplies. And so we don't look at that. There's no mandate to look at that. And we've actually, when somebody looked at that, we found problems. I'm hopeful ish. That this will help. A little bit."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Let's talk about the whisper network. So you just published an article in the Associated Press. I read it this morning. And it's basically about how you found problems in terms of a transcription having a hallucination. And honestly, this is 1 of the use cases that I use AI for often when I do podcast, I'll take the transcript and I'll just put it into. perplexity. I prefer that. And it spits out my show notes and I read it briefly. And usually it's I don't really have a concern about it. Also it's, that doesn't have a lot of effect. Couldn't tell you anybody who's ever called back to me saying you wrote really great show notes. So I don't spend a lot of time on it. But the whisper network is actually being used in hospitals and this is where it can be very interesting in terms of transcripts for medical use that. Are then actually they're deleting the audio. And so the only record that remains is this transcript. And you found in your test that there are hallucinations and the transcripts are including text that actually was never"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "said. Just chat GPT, but this is a transcription tool, right? Like a benign. Tool that companies use every day people use every day. It's very ubiquitous. So let me take one step back and tell you how we got to this because it actually relates to AI and hiring and it relates to you know that I work with computer scientists and sociologists. So I've looked into AI. one way video interviews, right? And even regulators have asked me, and I've wondered about this too what happens with people who have a speech disability, or have a dialect, or have who have an accent, exactly what we talked about. If they use these systems, or are being asked to use these systems the tool then takes the audio and transcribes it into text. Is it fair? To people with different dialects or accent and speech disabilities. So I was asked by regulators and others and I'm like, why are you asking me? I'm just a lone journalist. But I was like I guess no one is looking into this. So I talked to a computer scientist and a sociologist and I was like, I think we should really test this. So I asked the companies which tools do you use, right? Because most companies in the space don't build their own tools. You buy one on the market because there's large companies that use those. So we took those tools and then, as we were doing, we found a a database with audio recordings of people who have a speech disability and people who don't have a speech disability. And we had about, 13, 000 recordings as a whole. And we ran it through these transcription software. And as we were starting to do the experiment, we also heard about open AI snooze, new whisper tool, which everyone was like raving about. And millions of people were already using it's open source. It's very cheap. It has a very high accuracy rate that everyone was raving about. It can also use it can translate between different languages and be like, okay, this becomes, seems to be like one of the market leaders, we should also. And when we looked at the scatter plots, we did see that for Whisper, like a lot of, there were very low error rates and some, but there were some plots that had like ginormous error rates. And we were like, how do you get a thousand percent error rate? Like everything must be wrong in these transcripts compared to the ground truth. So we did a human. Intelligence investigation and looked at these two because you know we were like did we upload a wrong clip like what happened here. And when we looked into it we saw that it like in some instances just hallucinated whole stories like made up whole paragraphs that weren't there in the first place. And when we did a close analysis like it also had facial commentary, it, it had hallucinated a new medication, like all these new things that like, were never there. A medication that didn't actually exist. Yes, it was, wasn't it psychoactivated? Yeah, it was a hyper, hyperactivated. Antibiotics. It also like hallucinated violence and all kinds of things, because, it learned from everything on the internet. So like the stuff that we put on the internet and in books and stuff, it learns from that. But we hadn't seen this in a transcription software. And when I started looking at GitHub, where a lot of like open source developers congregate, there were just like so many entries of what is happening? What is this tool doing? I was like, Okay, we're not the only one. So it wasn't like a problem that only we encountered. This is like much, much bigger. And then I found this company called Nabla that does we see this a lot now, medical transcription. So where doctor patient conversations are being recorded. And then a system conscribes it and summarizes and you. Does these doctor notes, right? So your doctor can spend more time with you instead of documenting everything and taking notes. It sounds like a great idea, but some companies, I use whisper and not the only one that uses whisper, but it is the, I think the, the only one that I talked to that, so they work with about at least 30, 000 or so medical providers in the U S and large. systems and hospital systems. And, they built their own tool on top of the whisper interface. And it summarizes the recordings and what the tool also does, they, it, because of privacy concerns, it throws away the underlying recording. So if I am a doctor, I look at my notes and I'm like, Was that really sad? I can go back to the transcript, but the transcript might not be accurate because there might be hallucinations in there, and I can't go back to the actual recording to check. Was that actually said did anyone talk about antibiotics or, whatever the hallucination might be. And, to a lot of people who look at AI, this was really problematic that a company was using that, not, and I also asked them, I was like, we know that whisper hallucinates and they're like, oh yeah, we know too. We try to mitigate it. And I was like, oh. Were you able to get rid of it 100 percent because I've never heard of anybody being able to mitigate it 100 percent and they were like, no, but I think we have it under control. And I was like, okay So what are the, what are"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "the impacts of having a medical transcript that is inaccurate and includes a hallucination? So that could be, it could go to court. It can be used as evidence to actually deny coverage for insurance claims."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, it also is in your presumably in your electronic medical records forever. So you might have so it could lead to misdiagnosis. Yeah it could have a lifelong implications. You might also get a prescription for the wrong medication all kinds of consequences."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "It can even, honestly, with the changes in law, if it picks up somehow that you had an illegal abortion, does that then lead to legal consequences?"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah,"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "if that's not something that haven't happened."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, and I think that's, it could be that it hallucinates something, but it could also be like what happens if the transcript is actually accurate and the transcript is used for more, it's not protected by HIPAA, right? Which is the privacy loss in the United States because that. mandates that medical information stays private between a patient and a doctor, but it's also now shared with other companies. And what we've seen is like now patients are asked to sign a release to actually sign away. Their HIPAA rights that, says I acknowledge that the transcripts or the end of recording sometimes is being shared with some large tech companies, these providers and, that does worry me too, that when we go to the doctor, we get this tablet where you just sign things and, just sign here, you don't even read it, and people aren't even aware of the potential consequences that these very personal I think a lot of things that we tell our doctor, we might not want to tell others very private information gets shared with large tech companies. Then they use it against for for training data and other things. And who knows who uses it, who is being sold to the next time what happens if a company goes bankrupt, like that is it's usually very valuable material that then the next company buys. And, yeah, or even just"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "like you run the test and go, tell me what you know about this person and all of a sudden your private medical records show up in like a general inquiry that anybody in the world could actually ask."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, and, I find that, they're like anonymized, but we also know from like anonymized data that they can be. Pretty easily right there. There's a lot of data on us out there. So it does worry me. And I know of companies use this kind of medical data to then predict this is what happens to people. They need a therapist. They need back surgery. We already know it's not. 100 percent predicted protected. I'm not saying it's the specific transcript, but there is like data lakes of medical data on Americans and other people out there that is already used for kind of predictions and and things that I think people would find very creepy if they know why they're being suggested that everyone has a bad day and they should see a therapist. I might, When my company sends me a nudge like that, I might be like, Oh, yeah, maybe I'm having a bad day if I would know that the company has derived this information because I through my spouse of my medical benefits, and that might be a signal of divorce and I need a therapist. I might feel very different that my company shares that kind of information with a third party provider."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, it's so concerning."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, that's probably going to be the subject of my next book is AI and health care. Yeah, that's fascinating because we see a lot of AI also moving into the workplace, right? That can find out like, are we depressed? Are we anxious? And I think there is something that like, if you share this with your doctor, I hope gets protected. We just talked about that the protection isn't ubiquitous, but but also What happens in the workplace with like, when we have these kinds of tools are they used only for the benefit of employees? Are they also being used against them? That was"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "one of the questions in your book that I found the most fascinating, because it goes back initially to my interest in the eightfold, which was, if you identify transferable skills that are valuable, but that Employee doesn't necessarily want to use that skill because they find it draining or they have trauma associated with, that work in the past or whatever reason they don't want to do it anymore. What are the repercussions for turning down what the companies perceives to be an opportunity? Yeah. To benefit from your skill."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah. And I think also what I thought is interesting about eightfold is like, it has these like career laddering that people in your position did this, they became vice president five years because they did X, Y and Z. Here's some, LinkedIn learning or whatever learning platform that you can use to get those skills. And that's interesting. So but it could also be used for managers to find like high performers and it could also be used to find. Maybe what we might see from the platform is low performance right people who didn't advance in five years to vice president who took longer. But the platform doesn't tell you why that is are they slow learners or did they have difficult pregnancy or did they have to take care of their parents and you know didn't want. Yeah, there's multiple reasons why you might. And like. When I asked them that question, I was like it could also be used to penalize people. They're like everyone knows about it. The employer knows about it, about our assessment of them and the employee knows as well. And the employer you could question it, but I don't think it uses it."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "If you're in a state that has at will employment and you don't like the answer to that particular question, then you could also use it as a reason to terminate."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, totally. Exactly. Exactly. And I think there, there isn't a whole lot of protection. It could also be that maybe you used another learning platform, right? To have new skills and that get never registered in the company's system, which uses maybe another event or you read a book. Yes, and that never is part of the system either, right? Like we can think of so many use cases that are actually not part of the what a company collects on us. And there's no way to like manually entry that and be like, no, but I did get these skills somewhere else. And we don't necessarily know how company executives or managers actually use these systems. And I think that opens it up for some doubtful things. And we've seen this, unfortunately, again and again, that companies like collect data for one thing, and then they want to analyze it. And it's actually not then their layoffs, they want to look at the data that they collected for one thing. It's actually not used for layoffs, but it's not supposed to be used for layoffs, but they still use it because they have the data, right? Once you have it, I know it. Exactly. And I think that's another problem. Once you have the data, once you do the analysis, like if I think that you are at flight risk, meaning you're going to leave the company, the, there are these indicators that say this person is 80 percent likely to leave the company in a year. Am I in a manager and I want to keep you maybe I'll give you a promotion. Did you deserve it? I don't know. Probably somebody else is not gonna get a promotion or a raise because there's only a limit, a limited pod, and I only do that based on this. flight risk indicator. How can I unsee that? Am I going to put you forward for leadership training if you think you're already one way out? I don't know. But the question is you don't even know that the tool predicted that you're with one foot out the door and you may or may not be, right? Like it's right. Exactly."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "There might be something keeping you there like a personal relationship that isn't going to show up on any tool."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "You follow the advice to have friends at work. I"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "mean, there are so many things connected to this. It's just, it's wild. So"
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "I wanted to make sure that we were going back to the book. You've fabulous book. I highly recommend it really got a great job. Thank you. What are the successes that you've had with the book that you really want to highlight? Because it's done so well."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Yeah, I got really lucky that I think, it was like a, it was like a a topic that is really in the zeitgeist, right? And I think a lot of job seekers also feel like I've heard of algorithms, how do they really work? And do you think that people in talent acquisitions Are also like thinking do these tools work? And there may have like similar questions. So I think it was also really interesting for them. So I've been lucky to talk in actually like HR, talent acquisition conferences. And I'm very grateful for that. Cause I think those are the people that I actually have maybe more than job seekers, actually maybe the power to actually investigate these tools, maybe make changes, I've also spoken at data science and technology companies for the people who build these tools to be like much more. thoughtful and think through and talk to different people and not just assume that they're domain experts about hiring. And really, they have no clue how to really hire and what are their best case scenarios and how to not discriminate. So I also tell them like, here's how, what you should avoid. And here's exactly how you avoid it. Don't do this, don't do that. So I'm really grateful that I feel like people who built the technology and use the technology are actually listening. And then I love just connecting with like readers from all over the world, it's amazing when you get a message from like Brazil and the next day from Sweden, somebody read your book was really meaningful to them. Like I was just like, very honored. And then recently I gave a TED talk about the subject. Oh, I listened to the podcast. Yeah. And getting new finding new audiences. So hopefully, it's also reached some lawmakers. So hopefully there will be change. And I'm just like, so grateful for people who pick up the book, spend so much time with it. And I hope to illuminate a new world that maybe they didn't know about. And it's endlessly fascinating to me how we quantify human beings. So I, I hope that like rubs off on people too, that it is interesting, like how we try to make sense of the world, In in, in different ways."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, it's fascinating. And it validated me because I'm like, I don't have a journalistic background at all, but I went back and I'm like, Oh, look, I was hearing really a lot of the similar work and I'm like, exactly. And I think that's what I want to do. journalistic instincts to say, Hey, I'm noticing these things. This is good. Yeah."
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "Welcome to our world. Like the next book about AI and hiring and in the world of work. But I actually think I always want to encourage people. I tell them like steal my methods. Like some of them are super basic. Some of them are more elaborate, but yeah, these methods to scrutinize these AI tools, because as we can see, like technology companies just put out these tools and, for example, with Open AI knew about the hallucinations. In fact, they put it in the paper. They did say in one of their disclosures, it shouldn't be used for high risk use cases. Lots of people don't need the model card. So they ignored the advice from the company. They took it from it's not like they didn't know, but you wonder like, why did they release a flop system? There's all kinds of questions that we can ask about this. So I feel like. We need to be much more skeptical users, testers of these technologies and push back. So I want everyone to steal my methods and do, invent your own ones, test these tools push back against the companies so we build better tools. Because you think that AI can be transformative technology. The jury is still out if we use it to predict the future of job seekers. It's really a question if we actually, if AI can help with that. But I think it's really helpful in in, in other use cases. But in some maybe we shouldn't use it and we should push back and like highlight how it doesn't work. So I think everyone can do the work. We don't have enough journalists to do all this work."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Yeah. This is what my fourth podcast episode about it. So"
+  },
+  {
+   "time": null,
+   "speaker": "Hilke Schellmann",
+   "text": "I'm doing my part. Thank you. Yeah. And if anyone wants to be in touch with me I'm on LinkedIn. You find my email on my pet faculty page. There's only one Helga Shellman. Please be in touch. Like I'm happy to I always love to hear from job seekers or people who work in talent acquisition. I love talking to folks. It might take a few days to like respond. And, I have a bunch of obligations. I also have a four year old kid I like to spend time with. And, she demands a scavenger hunts for sweets with her mom. But, I love to be in touch with people and I, I'm so grateful for everyone who's listening and has wrote me and, has engaged with the book. It's just wonderful."
+  },
+  {
+   "time": null,
+   "speaker": "Nola Simon",
+   "text": "Okay. That's good. I think make sure that everything is linked in the show notes. And I really appreciate you making the time. So thank you so much. I'll see you next time."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": null,
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "The Assumption-Ground Audit",
+   "url": "/aga"
+  },
+  {
+   "title": "Living Lab: AI already decided who you are",
+   "url": "/living-lab/ai-already-decided-who-you-are"
+  }
+ ]
+}
