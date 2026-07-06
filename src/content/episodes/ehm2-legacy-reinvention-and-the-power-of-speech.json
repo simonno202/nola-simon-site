@@ -13,7 +13,7 @@
   "name": "Erica Ehm & Leslie Ehm",
   "title": "Co-founders, Ehm2",
   "org": "Ehm2",
-  "credentials": "Erica: MuchMusic VJ turned founder of YMC (Yummy Mummy Club) · Leslie: author of Swagger, presentation and creativity trainer for companies including Disney and Google",
+  "credentials": "Erica: MuchMusic VJ turned founder of YMC (Yummy Mummy Club) · Leslie: author of Swagger, presentation and creativity trainer for companies including Disney and Google · Both are now writing books",
   "links": null
  },
  "publishDate": "2023-03-14",
@@ -721,7 +721,20 @@
  ],
  "hostNote": "This is the only podcast they have done together, and it was an honour to host Ehm2 on Pi Day (yes, I'm a math geek). We talk about legacy, mothers, children, social media, worldviews and how reality often forces us to choose differently than we might dream. And yes, I finally asked Erica a music question — I've held off for years, but her answers are worth a listen. My favourite part is the end, when we get to see the full power of sisterhood as Leslie describes her protective instincts towards Erica. It's an episode that radiates love.",
  "ctaQuote": null,
- "resources": null,
+ "resources": [
+  {
+   "label": "Erica Ehm on LinkedIn",
+   "type": "LinkedIn",
+   "url": "https://www.linkedin.com/in/ericaehm/",
+   "note": null
+  },
+  {
+   "label": "Leslie Ehm on LinkedIn",
+   "type": "LinkedIn",
+   "url": "https://www.linkedin.com/in/leslieehm/",
+   "note": null
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": [
   {
