@@ -1,0 +1,369 @@
+{
+ "number": null,
+ "slug": "how-im-rethinking-my-linkedin-strategy-for-the-future",
+ "title": "How I'm Rethinking My LinkedIn Strategy for the Future",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2025-12-08",
+ "publishDateHuman": "December 8, 2025",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "LinkedIn has been Nola Simon's favourite place on the internet for a decade — 7,000 followers, Top Voice, small but mighty — and it's changing under her feet: the 360 Brew algorithm shifts weight from posting to commenting, and the bias controversy around it is real but runs through proxies, not gender flags. Her response is a working strategy: assess how the platform makes you feel, experiment with what the algorithm now rewards (one comment out-performed 28 days of her posts), rebuild the profile for strangers arriving through discovery, and move the centre of gravity to assets she owns — the website, Substack, and an email list. The blunt line underneath: having friends is great, but friends don't pay your bills — clients do.",
+ "takeaways": [
+  "Name how proxy bias works before arguing about intent — activity levels, titles, and hierarchy skew male, so an algorithm can disadvantage women without ever using gender as an input.",
+  "Test what the platform now rewards instead of mourning what it rewarded before: one comment drew 21,000 impressions — nearly triple 28 days of original posts.",
+  "Audit your profile for strangers, not friends — on a discovery platform, most visitors arrive from one comment and decide from what they find.",
+  "Map your effort to platforms where identity is real and assets are owned: website first, then Substack and email, then syndication everywhere else.",
+  "Run the future-you test before adopting a fight as content strategy — Cindy Gallop's platform battle fits her business; supporting the conversation without driving it can fit yours.",
+  "Interrogate the in-person orthodoxy: the bar for leaving the house is money, learning, or collaboration with real potential — and most of the world doesn't live where events are easy."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "2:05",
+   "question": "Is the LinkedIn algorithm biased against women?",
+   "answer": "Not by explicit design — LinkedIn states gender isn't a ranking input — but proxy bias does the same work: the 360 Brew algorithm weighs activity, titles, and hierarchy, and men are more active on the platform and over-represented in senior roles. The same mechanism compounds at intersections of identity. The concerns are legitimate; the mechanism is proxies, which is what makes it hard to see and harder to fix."
+  },
+  {
+   "timestamp": "5:11",
+   "question": "Should you fight the platform or adapt to it?",
+   "answer": "Ask whether the fight fits your business — the future-you test. Cindy Gallop's very public battle with the platforms is coherent because her business serves the underserved communities the platforms penalize, and she has the voice and marketing expertise to wage it. For most users the honest answer is different: support the conversation about transparency and proxy bias without making it your content strategy, and spend the energy adapting."
+  },
+  {
+   "timestamp": "7:57",
+   "question": "What actually works on LinkedIn now?",
+   "answer": "Commenting. The algorithm has shifted weight from posting to engagement, and the evidence landed personally: one of Nola's comments drew over 21,000 impressions — nearly triple what 28 days of original posts earned. Commenting has always been part of her strategy, but the style matters now: cheerleading makes people like you without conveying insight or credibility, so comments have to carry a point of view."
+  },
+  {
+   "timestamp": "10:29",
+   "question": "What does LinkedIn becoming a discovery platform mean for your profile?",
+   "answer": "That strangers are the audience. When people arrive on the strength of a single comment left on someone else's post, the profile has to work for someone who has never heard of you — making clear what you believe, what you offer, and where to go next — rather than for the network that already knows you. It also raises the question every visit should answer: is this driving people to a DM, a website, or content you own?"
+  },
+  {
+   "timestamp": "12:04",
+   "question": "Which platforms deserve a business owner's time?",
+   "answer": "The ones where identity is real and the assets are yours. Nola keeps LinkedIn (identity-verified, invested), uses Instagram only for stories and its inbox, and finds X, TikTok, and Threads don't build long-term relationships — partly because anonymity is allowed. The direction of travel: post to your own website first, then syndicate; build the email list; lean into Substack under your own name. Having friends is great — friends don't pay your bills, clients do."
+  },
+  {
+   "timestamp": "18:30",
+   "question": "Does business networking have to happen in person?",
+   "answer": "The claim isn't inclusive, and Nola challenges it from experience: she lives 45 minutes north of Toronto, where any in-person event costs a two-hour commute each way before the venue door opens. Her bar for attending is concrete — earning money, learning something significant, or collaborating on something with real potential to save time or reduce risk. Most of the world doesn't live where events are easy, which keeps virtual options genuinely attractive."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:20",
+   "label": "LinkedIn, favourite place on the internet"
+  },
+  {
+   "time": "2:05",
+   "label": "360 Brew and proxy bias"
+  },
+  {
+   "time": "5:11",
+   "label": "Cindy Gallop and picking your battles"
+  },
+  {
+   "time": "7:57",
+   "label": "Comments beat posts: the 21,000-impression signal"
+  },
+  {
+   "time": "10:29",
+   "label": "A discovery platform now — rebuild for strangers"
+  },
+  {
+   "time": "12:04",
+   "label": "Where the other platforms fit"
+  },
+  {
+   "time": "14:36",
+   "label": "Own the assets: website, Substack, email"
+  },
+  {
+   "time": "18:30",
+   "label": "The in-person orthodoxy and the two-hour bar"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:20",
+   "speaker": "Nola Simon",
+   "text": "I am Nola Simon, thank you for joining this episode of Hope and Possibilities. Love Letter to the Future of work. I'm the host of this podcast and what I wanna talk about really is the state of social media and. Discoverability in general. And I wanna start with talking about LinkedIn because quite honestly, LinkedIn has been my favorite place on the internet for a very long time."
+  },
+  {
+   "time": "0:48",
+   "speaker": "Nola Simon",
+   "text": "At least 10 years. I've, I think I created an account back in 2009, 2010, something like that. But I didn't really actively start using it until 2016 and then. I started getting a lot of traction as an employee advocate. And then when I started my own business in 2020, then I really seriously started to grow it."
+  },
+  {
+   "time": "1:09",
+   "speaker": "Nola Simon",
+   "text": "And again, I only have 7,000 followers, but I am a LinkedIn top voice, so I like to think that my account is small but mighty, and I've had impact with it. Now, honestly, it depends what you think of LinkedIn top voice, but. It's not something that you can pay for. You can't influence your way into it. The only thing you can do is really create good content that gets the attention of LinkedIn and talk about things that stand out that aren't the same as everybody else."
+  },
+  {
+   "time": "1:42",
+   "speaker": "Nola Simon",
+   "text": "And that seems to be what I've been able to do. My coach, Carrie Twick has been on LinkedIn Top Voice several times. I think she's being. I designated three different years. LinkedIn has changed Top Voice over the years as well too, so now it stays with you unless you actually use it, lose it. And one of the ways you lose it is you stop engaging, you stop posting, you stop commenting."
+  },
+  {
+   "time": "2:05",
+   "speaker": "Nola Simon",
+   "text": "You stop adding value really, to the community. So for me, if I want to maintain top voice status, I have to continue my work on LinkedIn Now. If you've been paying attention to LinkedIn at all, you'll note that there's a controversy going on right now because people feel that posts by women are really downgraded in the algorithm."
+  },
+  {
+   "time": "2:27",
+   "speaker": "Nola Simon",
+   "text": "The algorithm has definitely changed. There's something now called 360 Brew Degree Brew. And what this algorithm really is doing is it's shifting the focus from. Posting to commenting. There's also other things that are factoring into it. LinkedIn has come out to state that they don't use gender as a determinant of how people get discovered in the algorithm, but they do use other democratic, other information and data that really serve as proxy bias. Men tend to be more active on the platform, so activity is a factor. Your hierarchy your title. Men tend to get, promoted. If you look at the demographics of CEOs and senior leadership, they tend to be men."
+  },
+  {
+   "time": "3:18",
+   "speaker": "Nola Simon",
+   "text": "So those types of proxy bias are ways that people who don't fit that particular demographic are maybe overlooked in the. Algorithm. So of course it's not women alone. It's, anybody who has an intersection. If you happen to be female and a person of color, your algorithm is going to treat you differently."
+  },
+  {
+   "time": "3:47",
+   "speaker": "Nola Simon",
+   "text": "If you happen to be trans, your algorithm is going to treat you differently. It's proxy bias. So the algorithm is looking at."
+  },
+  {
+   "time": "4:00",
+   "speaker": "Nola Simon",
+   "text": "How you intersect with the world and what those dominant features are and how that matches to what other people are searching for. And that's problematic in lots of ways. But what I'd like to point out is, the people who are bringing this to your attention also do have. Legitimate concerns, but they also do have an agenda themselves as well."
+  },
+  {
+   "time": "4:26",
+   "speaker": "Nola Simon",
+   "text": "So if I look at the people who are the most vocal about it, they are the people who are also themselves trying to create platforms for underserved communities. They are people who. Have not thrived in the status quo. They don't meet that demographic, and therefore what they're creating and fueling their business really serves those underserved communities."
+  },
+  {
+   "time": "4:54",
+   "speaker": "Nola Simon",
+   "text": "So as legitimate as their concerns are, they do also have an agenda. So what does that mean, and why am I talking about this? What this means is you have to think about."
+  },
+  {
+   "time": "5:11",
+   "speaker": "Nola Simon",
+   "text": "Future you. Future you is future. You going to thank yourself for really taking on a Goliath type battle and making it a real focus of your business. So for some of the people that I've seen really get up in LinkedIn's face and go on the news and really they have made that a big core piece of their business, right?"
+  },
+  {
+   "time": "5:43",
+   "speaker": "Nola Simon",
+   "text": "The one person in particular that I'm talking about is Cindy Gallup. And I like Cindy. I like her approach. I like her. Instincts. I do think that she has a lot of valid points, and again, she is a person of color, right? She has an Asian background, right? So she appears white, but she's not,"
+  },
+  {
+   "time": "6:06",
+   "speaker": "Nola Simon",
+   "text": "and she works in a sex tech. So make love not porn is her business. She's being unbanked. A lot of her accounts get shadow banned all the time because of the way the platforms, Instagram and LinkedIn. All of those social media platforms tend to react towards businesses they don't themselves offer and in categories that they deem inappropriate."
+  },
+  {
+   "time": "6:33",
+   "speaker": "Nola Simon",
+   "text": "I understand where she's coming from, but she does also have an AI tech solution. She is really vocal about creating platforms that are alternatives to what we have so far. So she does actually have a vested interest in alternatives. And she has the voice to really back it up. She's been doing this for a very long time and she's a marketing expert to boot, right?"
+  },
+  {
+   "time": "7:06",
+   "speaker": "Nola Simon",
+   "text": "So she has actually created a business where it behooves her really to be vocal. Is that you? So if it's not. And again, no shame to Cindy. I believe in, in, what she's creating. And I understand where she's coming from and I agree with an awful lot of what she's doing. I think it's more complex than most people are recognizing."
+  },
+  {
+   "time": "7:33",
+   "speaker": "Nola Simon",
+   "text": "So far, I think there's more to it that we just don't know. I do think it's a worthwhile conversation to be having as well too, but. How does the regular LinkedIn user wanna proceed with that? And how do you adapt to the changing algorithm? Because it's a reality. It's not gonna change overnight, and the average user isn't going to change LinkedIn's mind."
+  },
+  {
+   "time": "7:57",
+   "speaker": "Nola Simon",
+   "text": "So how do you proceed? And that honestly is assessing how it's making you feel for one. How does it feel that you're posting and not getting a lot of interaction, not getting a lot of reach, your impressions have dropped significantly. How do you change that and how do you deal with the emotional impact?"
+  },
+  {
+   "time": "8:20",
+   "speaker": "Nola Simon",
+   "text": "Again, a lot of these platforms are designed to manipulate, right? So you have to recognize that. There are emotions that are attached to this, and the way that you've been doing things up until now is not necessarily the way that it's gonna work in the future. But again, this is change. And how do you adapt to change?"
+  },
+  {
+   "time": "8:41",
+   "speaker": "Nola Simon",
+   "text": "How do you adapt to uncertainty? Because there's no playbook that's really being made public. Sure, there's lots of speculations, but it's not LinkedIn has actually laid out their algorithm to explain step by step. Exactly how you've gained traction in this particular version of their platform."
+  },
+  {
+   "time": "9:03",
+   "speaker": "Nola Simon",
+   "text": "So what do you do? You have to assess again, as I said, how it's making you feel, but you also have to experiment and look at what seems to be working. As I said, commenting seems to be working. Now for me, commenting has always been part of my strategy. Initially I, when I started commenting I leaned into cheerleading, really is celebrating wins of others and being supportive."
+  },
+  {
+   "time": "9:29",
+   "speaker": "Nola Simon",
+   "text": "And I've gotten away from that, not because I don't believe in being supportive, but again, it's about how much traction you're getting from the effort that you're putting in. And cheerleading. Might make people like you, but it's actually not gonna drive business. For example, like I'm offering consulting services being supportive without actually creating any kind of understanding about my insights, my capability, my credibility, the services I offer, that doesn't serve me."
+  },
+  {
+   "time": "10:05",
+   "speaker": "Nola Simon",
+   "text": "So I've had to change how I comment since I really started commenting back in 2016. That's changed and adapted. Recently I got, I had a comment get over 21,000 impressions, which was more than almost triple the impressions I'd gotten from 28 days of actually posting my own original con content."
+  },
+  {
+   "time": "10:29",
+   "speaker": "Nola Simon",
+   "text": "That's a true signal of how things are working. And does it indicate to me that the platform is more of a discovery platform now? Yes, because what's happening is people are coming to my platform on the strength of those comments and what are they learning about me when they first look at my profile."
+  },
+  {
+   "time": "10:48",
+   "speaker": "Nola Simon",
+   "text": "So I have to assess my profile and see, have I built this for people who already know me and know what I'm about and what I believe in, and what my values are. And. How to hire me and what I'm trying to do, or am I building it for people who have never heard of me and the only thing they know about me is the one particular comment I happen to leave on a stranger's post that I may or may not be connected to."
+  },
+  {
+   "time": "11:18",
+   "speaker": "Nola Simon",
+   "text": "So I think that I have to go back and reassess my profile and how I've built that so that I am. Being memorable and being engaging, it's going to spark curiosity, but also how am I driving that interest? Am I encouraging people to DM me? Am I encouraging people to go to my website?"
+  },
+  {
+   "time": "11:36",
+   "speaker": "Nola Simon",
+   "text": "Am I building out blog content that I own on a platform that's mine? And where am I going to be spending my time in a way that feels good to me and feels productive and feels. That it's really just not fueling the algorithm for LinkedIn. And again, I like LinkedIn. I'm a LinkedIn top voice. I'm invested in the success of the platform because it's treated me well."
+  },
+  {
+   "time": "12:04",
+   "speaker": "Nola Simon",
+   "text": "But this also goes for all the other services that you're on. Like I don't really post on Instagram. The only thing I do on Instagram is stories. If you look at my Instagram account, it's on private and my my grid is empty. I don't use it. The only thing I like on Instagram is stories, and I like their inbox, right?"
+  },
+  {
+   "time": "12:25",
+   "speaker": "Nola Simon",
+   "text": "So I will respond to messages there. I still have a Twitter or X. I don't really use it. I post occasionally. Mostly I find that it's not productive. Same with TikTok. I do TikTok because. It surfaces what's immediately happening. But I don't find that people engagements from people who tend to hang out there and who are commenting and interacting I do find the people who tend to be on TikTok aren't there to build relationships long term."
+  },
+  {
+   "time": "13:01",
+   "speaker": "Nola Simon",
+   "text": "They're there to make themselves feel good in the moment. And again, that's not how I want to build out my business. And, I like the discoverability idea. Same with YouTube. But YouTube and Pinterest are more search related, right? I'm not there for comments. It's like, how can you use that for discoverability?"
+  },
+  {
+   "time": "13:22",
+   "speaker": "Nola Simon",
+   "text": "And so I'm all about async as well too. I don't wanna have to be managing multiple inboxes. So I plan to, as I said, like I like the LinkedIn and I like Instagram. Threads has an inbox, but I say almost nobody knows it exists. I like threads as well too, but again, I don't find it drives relationships or long term commitment."
+  },
+  {
+   "time": "13:48",
+   "speaker": "Nola Simon",
+   "text": "And again, I think that's a lot to do with the platform and the fact that they don't insist on you using your own identity on those platforms. So any platform where you don't actually have to use your identity, I don't know that's where I really wanna build. So that means that I'm looking at Substack again, you can create there, but I create under my own name and I have my podcast there, my newsletter there under hope and possibilities."
+  },
+  {
+   "time": "14:16",
+   "speaker": "Nola Simon",
+   "text": "I like Substack. I think it's very interesting. I'm interested in what I can actually do. There that I haven't explored yet. Like I haven't done video on Substack. I don't know how that drives engagement. I don't think a lot of people use Substack for live or video. So does that have more discoverability?"
+  },
+  {
+   "time": "14:36",
+   "speaker": "Nola Simon",
+   "text": "I'm interested in playing with that. So what I'm saying basically is I. I'm going to focus my intention on things that I own. For example, before I post anywhere, I should post on my website, on my blog and then use that to then post a LinkedIn again. Articles seem to be doing well, a newsletter. I have a newsletter with 2,500 followers."
+  },
+  {
+   "time": "15:00",
+   "speaker": "Nola Simon",
+   "text": "How many of those actually receive emails? I have no idea. But in terms of like actually owning email list, I need to develop at my email, which I can use Substack to, to help as well too. And that's really where I want to focus my attention is"
+  },
+  {
+   "time": "15:21",
+   "speaker": "Nola Simon",
+   "text": "how do I build in such a way that I'm building out relationships and people who actually care about me as a person, as an individual, as a consultant, and are looking to hire me. So again, having friends is great friends. Don't pay your bills. Clients do. And that's really what my focus is, has to be. And you'll be seeing more for me on that."
+  },
+  {
+   "time": "15:43",
+   "speaker": "Nola Simon",
+   "text": "So again, this is a topic that I tend not to write about very often on LinkedIn just because people then come to me and expect me to want to be a LinkedIn trainer because. Somehow people always wanna put me in a trainer box. I know an awful lot about the platform. I know a lot about social media, but social media and training in particular tends to be transactional."
+  },
+  {
+   "time": "16:09",
+   "speaker": "Nola Simon",
+   "text": "And I've spent my career in transactional roles and I'm much more interested in strategy and long term nurturing and. Planning and innovation than I am about transactional task related type work. And that's, I think, where my strong suit is. I'm capable of doing the other thing, but that's not where I feel the long term opportunity is for me."
+  },
+  {
+   "time": "16:41",
+   "speaker": "Nola Simon",
+   "text": "And that's not where my drinks lie in the future of work. This is why I'm doing the podcast. I will actually then convert this into things that I post in the platforms I've mentioned. So Substack and Pinterest, and I might put some shorts on YouTube to experiment with how that really plays in the algorithms there and how that drives search."
+  },
+  {
+   "time": "17:05",
+   "speaker": "Nola Simon",
+   "text": "This is the decision that I've made and now it's up to me to. Really experiment and fuel and see how it goes. I support having more clarity and transparency in platforms and how they actually derive their content. And I do think that ethical AI use means that we have to look at proxy bias."
+  },
+  {
+   "time": "17:32",
+   "speaker": "Nola Simon",
+   "text": "It's how long, how much effort do you wanna devote to it personally and."
+  },
+  {
+   "time": "17:41",
+   "speaker": "Nola Simon",
+   "text": "My instinct is to support the conversation and not drive it. So that's how I'm choosing to actually pursue that is how do I adapt, how do I change my behavior so that I'm going to be successful in a way that feels good and drives business and also supports the conversations that need to be happening to actually."
+  },
+  {
+   "time": "18:04",
+   "speaker": "Nola Simon",
+   "text": "Facilitate change in a way that's not gonna be draining for me. That's really what it comes down to."
+  },
+  {
+   "time": "18:11",
+   "speaker": "Nola Simon",
+   "text": "So I'm interested to hear your thoughts. I'm interested to hear how you're changing your behaviors what you think about social media and the changes, not just on LinkedIn, but anywhere that you actively active. And. The other thing I'd like to mention too is like there's a really strong push that I'm noticing."
+  },
+  {
+   "time": "18:30",
+   "speaker": "Nola Simon",
+   "text": "I'm noticing trends 'cause I'm always looking for trends and foresight and scenarios. I'm seeing a really strong trend to people saying that in person is where it has to be. That you have to have success offline and that the changes in social media mean that everything's going to be driven in person."
+  },
+  {
+   "time": "18:49",
+   "speaker": "Nola Simon",
+   "text": "I still don't find that's to be. Inclusive, because again, you have to remember, I live in the middle of nowhere. I'm 45 minutes north geographically of Toronto. But every time I go to Toronto, it takes out two hours of my day at best. That's honestly when I'm taking my kids back to university and we're going at nine o'clock at night."
+  },
+  {
+   "time": "19:08",
+   "speaker": "Nola Simon",
+   "text": "During the day, if I try to go to Toronto, it's gonna be a two hour commute. So before I even step foot into a venue, I have to get up, get dressed, take my dog for a walk. Drive down there, find parking deal with all of the stress. Even just going to Toronto last night, it almost got killed three times by people driving too fast, people switching lanes too quickly."
+  },
+  {
+   "time": "19:30",
+   "speaker": "Nola Simon",
+   "text": "Somebody was driving backwards on Dundas. I have no idea why commuting in Toronto was. A joy. So the bar is really high for me to actually go to somewhere in person, and that's for somewhere that I can drive. If you're actually expecting me to get on an airplane, then that becomes a different bar entirely."
+  },
+  {
+   "time": "19:52",
+   "speaker": "Nola Simon",
+   "text": "Why am I actually leaving my house? I'd have to arrange dog walkers and care for everything that I have to do in the house. It has to be worth my while. I'm not just going because it's a nice to have. I'm either making money, I'm learning something significant, or I'm collaborating with something that has real potential to save me time, earn me money, or reduce my risk."
+  },
+  {
+   "time": "20:29",
+   "speaker": "Nola Simon",
+   "text": "Those are really high bars, and so I challenge the people who are saying that in person is the way to go because in person is the way to go if you happen to live. Where events are easy, but the majority of the world doesn't necessarily live where events are easy. And where there's interest in the particular thing that you're offering."
+  },
+  {
+   "time": "20:59",
+   "speaker": "Nola Simon",
+   "text": "So again, virtual options still are very attractive, particularly to me. So that's one thing I wanted to put out there as well too. So anyways, thank you for listening again, some of your comments. I'm always interested. You can rate or review the podcast. That would be great. Apple, Spotify pod engagement."
+  },
+  {
+   "time": "21:22",
+   "speaker": "Nola Simon",
+   "text": "Good Pods is my favorite place. I'm actually listed in the top Leadership podcast of all time there. So this is the reason why. It's like how do you lead when things are uncertain and what, how is that gonna serve and fuel the future of your work?"
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "Having friends is great. Friends don't pay your bills. Clients do.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": null
+}

@@ -1,0 +1,308 @@
+{
+ "number": null,
+ "slug": "beyond-hybrid-remote-leadership-decisions-that-will-define-the-next-decade",
+ "title": "Beyond Hybrid/Remote: Leadership Decisions That Will Define the Next Decade",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2026-01-14",
+ "publishDateHuman": "January 14, 2026",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Nola Simon's 2026 outlook names a pivot: away from hybrid-remote as the fight, and toward the leadership decisions underneath it — because flexibility isn't going away, only the debate about who grants permission for it. She maps why the return-to-office argument runs in circles (identity, real estate, and twenty-year CVs invested in office space), why the AI-will-shrink-the-workforce narrative directly contradicts the back-to-the-office one, and why neither story deserves belief. What replaces both: reinvention as a permanent condition, discernment as the scarce leadership skill, and a podcast that shifts from guest interviews to working through thorny questions out loud.",
+ "takeaways": [
+  "Name what's actually ending: not flexibility, but the debate over who has permission to grant it — people are simply working in ways that give them what they need.",
+  "Map the vested interests behind the circular return-to-office debate — identity, power, and twenty-year careers built on real estate and in-person employee experience.",
+  "Test the contradiction between the two loudest narratives: AI that never sleeps needs no building, so shrinking-workforce claims and office mandates can't both be true.",
+  "Treat change as reinvention rather than a project — a continuous redistribution of work, tasks, and value with no end date.",
+  "Run decisions through discernment: emotional intelligence, pattern recognition, and knowing which data to trust, at a moment when misinformation and AI training data make that harder.",
+  "Audit any confident prediction against how futurists actually work — trends, scenarios, and convergences, never guarantees."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "0:22",
+   "question": "Is hybrid and remote work going away?",
+   "answer": "No — what's going away is the debate about who has permission to grant it. People want flexible schedules and the standing to make day-by-day decisions around childcare, elder care, weather, and travel, and studies keep showing that autonomy and work-life integration now outrank compensation in practice. Workers are increasingly just choosing arrangements that give them what they need, rather than waiting for the argument to be settled."
+  },
+  {
+   "timestamp": "3:00",
+   "question": "Why does the return-to-office debate keep going in circles?",
+   "answer": "Because it's about identity, power, and sunk investment more than about work. Leaders whose careers were built on real estate, office design, and in-person employee experience have twenty-year CVs invested in space containing people — walking away means explaining a pivot to a board and rewriting their own story of success. People don't reset mindsets like that without strong external force, so the debate loops."
+  },
+  {
+   "timestamp": "4:39",
+   "question": "How does AI change the office-location argument?",
+   "answer": "It exposes a contradiction: AI never sleeps and doesn't need a building, so the narrative that AI will shrink the workforce runs directly against the narrative that everyone must return to the office. Nola doesn't believe either story — a future where head count collapses is also a future where nobody can buy the products, and no compelling account of what actually comes next has been written. The truth will be worked out incrementally, which makes the decisions along the way the real story."
+  },
+  {
+   "timestamp": "6:52",
+   "question": "What replaces the hybrid-remote conversation?",
+   "answer": "Leadership through permanent reinvention. Change is not a project anymore — it's continuous, with variables arriving from every direction, and the work becomes reinventing identities and organizations: redistributing work, tasks, and value, and making people matter, because people show up when they feel purpose. The leadership type currently claiming people don't matter is a narrow story that benefits a narrow slice of the population, and it isn't one worth backing."
+  },
+  {
+   "timestamp": "9:49",
+   "question": "What is discernment, and why is it the leadership skill that matters now?",
+   "answer": "The ability to judge what to trust and act on — built from emotional intelligence, history, pattern recognition, and knowing how you connect dots. It's hard to transfer to others, and it's getting more urgent: misinformation is everywhere, AI training data shapes what you read, and leaders have to have honest conversations about what feeds their decisions. The step that matters is taking discernment from an individual capacity to an organizational one."
+  },
+  {
+   "timestamp": "12:28",
+   "question": "How is the podcast changing in 2026?",
+   "answer": "Fewer guests, more working-through. The plan is essay-style episodes that flesh out conversations needing nuance — 'it's not thought leadership; it's how do you lead thought' — paired with long-form writing on LinkedIn, Substack, and email, plus a voicemail line so listeners' questions can steer episodes. Guest interviews continue only when a conversation is irresistible."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:22",
+   "label": "Flexibility isn't going away — the permission debate is"
+  },
+  {
+   "time": "3:00",
+   "label": "The circular debate: identity, power, real estate"
+  },
+  {
+   "time": "4:39",
+   "label": "AI never sleeps: two narratives in conflict"
+  },
+  {
+   "time": "6:52",
+   "label": "The pivot: leadership and permanent reinvention"
+  },
+  {
+   "time": "9:49",
+   "label": "Discernment, the scarce skill"
+  },
+  {
+   "time": "11:45",
+   "label": "Anchors, thresholds, and the trust leap"
+  },
+  {
+   "time": "12:28",
+   "label": "How the podcast changes in 2026"
+  },
+  {
+   "time": "15:10",
+   "label": "A voicemail line for your questions"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:22",
+   "speaker": "Nola Simon",
+   "text": "Hi, I am Nola Simon. I'm the host of the Hope and Possibilities Podcast, and this episode is really to talk about what my, what I'm seeing for 2026 and for the future. And honestly, what I'm seeing is a move away from my work with hybrid, remote and actually just embedding that into leadership. In my personal opinion, we are not going away from flexibility."
+  },
+  {
+   "time": "0:53",
+   "speaker": "Nola Simon",
+   "text": "We are not going away from hybrid, remote. What we are going away from, and what some of us will go away from is the debate about who has permission to grant us the access to the type of work that we want. It's what the people want. If you talk to people a lot of times what they need is flexible schedules, the ability to make a decision on the day, because of what's happening with childcare, what's happening with elder care, what's happening with the weather, travel schedules, all kinds of different things, all kinds of different reasons."
+  },
+  {
+   "time": "1:32",
+   "speaker": "Nola Simon",
+   "text": "But that flexibility to treat each. Individual as a person capable of making decisions that are in the best interest for themselves personally and for the business. That's something that people want, right? And people are going to start working in ways that give them more of what they want."
+  },
+  {
+   "time": "1:56",
+   "speaker": "Nola Simon",
+   "text": "There's all kinds of studies that have recently come out that basically said that, that wellbeing, that sense of wellbeing, that sense of autonomy, that sense of flexibility, it's work life integration, and that's more valuable to people than compensation. Now people are gonna get that bent because people hear the word money and they automatically think that's the be all and end all."
+  },
+  {
+   "time": "2:20",
+   "speaker": "Nola Simon",
+   "text": "But in practice, what we're seeing is people actually making choices that are in line with what they need financially, but also how they. Embed their work into their life so that they get more of what they need to make their families function. And family could look like anything, right? Whatever's important to that specific person."
+  },
+  {
+   "time": "2:44",
+   "speaker": "Nola Simon",
+   "text": "How does your day look? Who do you live with? Who do you interact with and where does work fit into that? And how do you choose what makes the most sense for you now?"
+  },
+  {
+   "time": "3:00",
+   "speaker": "Nola Simon",
+   "text": "The circular debate is really caused by people who are trying to retain identity. They're trying to retain process, they're trying to retain power and control. And they have ingrained narratives about how the way. About the way the world works, right? Real estate is a big factor of that. But it's also identity, if you are a leader and real estate has been good to you both personally, professionally how do you make the choice to actually back away from real estate and recognize that the depreciation that people have been talking about is a real thing?"
+  },
+  {
+   "time": "3:44",
+   "speaker": "Nola Simon",
+   "text": "How do you convince your board of that? It's a challenging thing because what you're asking people to do is reset mindsets about the way the world works, and that's where that circular debate comes in because so many people are invested in this. If you have 20 years of working in building maintenance, in, designing offices and ex employee experience built around in-person events, you have a vested interest in the way that."
+  },
+  {
+   "time": "4:14",
+   "speaker": "Nola Simon",
+   "text": "Real estate and space contain people, and that's your track record. That's your CV in moving away from that's a pivot that you then have to explain. People don't do that kind of thing unless they're really motivated to do that and to have external forces push them in that direction, that's a challenging thing."
+  },
+  {
+   "time": "4:39",
+   "speaker": "Nola Simon",
+   "text": "But what we're actually seeing is convergence because, since the pandemic, there's been a distinct move, obviously towards flexibility and the hybrid remote way of working. But what now is happening is AI is being introduced, right? And. Depending on who you are, what you think about ai, that's still going to change how people work because AI never sleeps."
+  },
+  {
+   "time": "5:03",
+   "speaker": "Nola Simon",
+   "text": "So if you're integrating AI into your role and AI is doing transactional things that AI is capable of doing right now, AI doesn't need to be in a building. AI doesn't need to be in a physical space. AI can be influenced without. Monitoring body language. So what does that look like? The current narrative that's going on right now is that AI is likely to shrink the workforce, meaning that there's going to be fewer and fewer people."
+  },
+  {
+   "time": "5:34",
+   "speaker": "Nola Simon",
+   "text": "So this push, this narrative to bring people back to an office is in direct conflict with the narrative that we're seeing around ai. Now, I personally don't think either narrative is right. I think that there's going to be something new and creative because I'm always suspicious about a narrative where, people are told that human beings aren't worth betting on, that human beings are gonna go away."
+  },
+  {
+   "time": "6:05",
+   "speaker": "Nola Simon",
+   "text": "We're gonna reduce head count. If you reduce head count. Who's actually gonna be buying your products because nobody's gonna actually have money. Then you get into the whole government benefit scheme and what does that look like, and how long is that gonna take to work out? So I personally don't think we've come across a narrative of what the future is actually gonna be."
+  },
+  {
+   "time": "6:26",
+   "speaker": "Nola Simon",
+   "text": "That's compelling, that's persuasive. I think the truth is somewhere in the middle. But again, that's going to be. Developed over years. It's going to be incremental in the way that we approach that. So what really matters are the choices we make, and that's where my pivot from focusing just solely on."
+  },
+  {
+   "time": "6:52",
+   "speaker": "Nola Simon",
+   "text": "What up until now I've been most proud of, which is my ability to actually influence the hybrid remote adoption of policy. How to make that work smoothly, how to advise companies on how to adopt it. It feels restricted right now because I don't think. That it ends solely there. I think it's a leadership decision."
+  },
+  {
+   "time": "7:16",
+   "speaker": "Nola Simon",
+   "text": "I think it's more of a question about reinvention and ongoing, continual change. Change is not a project anymore. It's actually a reinvention that's never gonna stop because there's so many variables coming at us in all different aspects of life and work that. What we're looking at is how do we reinvent identities?"
+  },
+  {
+   "time": "7:41",
+   "speaker": "Nola Simon",
+   "text": "How do we reinvent organizations to redistribute work, redistribute tasks, redistribute value? What matters to people? How do we make people matter? People show up and do a good job when they feel that they have a sense of purpose and they feel that they themselves matter. And what we're seeing in the narratives right now, especially the AI narrative, is"
+  },
+  {
+   "time": "8:06",
+   "speaker": "Nola Simon",
+   "text": "there's a certain type of leadership out there that basically says people don't matter. That's. Is never gonna be something I'm gonna put my weight behind because I think people and wisdom, all the things that matter. To human beings are far more important than this narrow story that tech founders are going are spending right now."
+  },
+  {
+   "time": "8:34",
+   "speaker": "Nola Simon",
+   "text": "That's really only going to benefit a very narrow section of the population, and it's really gonna be detrimental to others when somebody is telling you that something is guaranteed and this is the way it's gonna be, and they're giving you that prediction. Futurists don't. Give prediction. They look at trends and scenarios and convergences, and that's what I'm seeing is we have to look at the decisions that we're making and that leads me into a."
+  },
+  {
+   "time": "9:05",
+   "speaker": "Nola Simon",
+   "text": "The leadership aspect, right? And that's, how are you reducing your risk? How are you growing your potential and your business? And how are you doing this credibly and sustainably? That's really what the choice is gonna be because you don't know the future, and the future is coming at us faster than ever before."
+  },
+  {
+   "time": "9:30",
+   "speaker": "Nola Simon",
+   "text": "It's important to look at the way that we're making those decisions, what data we're using to support them and how we trust that any of this is the right direction, right? So this is where I'm going to be pivoting to the business into more of that. It's really a matter of discernment as well too."
+  },
+  {
+   "time": "9:49",
+   "speaker": "Nola Simon",
+   "text": "And discernment is a really tough thing too. Teach anyone because it's fundamentally based in emotional intelligence, but it's also based in what your history has been, what your skills are who you trust pattern recognition how you connect the dots, and how do you take that from an individual level and apply that at an organizational level."
+  },
+  {
+   "time": "10:17",
+   "speaker": "Nola Simon",
+   "text": "And discernment is important for everyone, especially with the way that misinformation is becoming so prevalent. And even, how day AI is pulling data and how it's being trained. How do you know that what you're reading is actually true and reliable and trustworthy? Discernment has become."
+  },
+  {
+   "time": "10:38",
+   "speaker": "Nola Simon",
+   "text": "Honestly, one of the biggest things that I'm concerned about as well too, and especially in a leadership aspect, you really have to be able to have those tough conversations about how all of that feeds into the decisions you're making, both EU as an individual and you as an organization. And I think that's the bigger conversation where I can be."
+  },
+  {
+   "time": "11:05",
+   "speaker": "Nola Simon",
+   "text": "More useful. So again, it's not that I don't believe in hybrid, remote, or flexibility. I absolutely do. I think it's the way of the future. We're seeing all these things about the four wheel four day work week. That all ties into this conversation about the universal benefit and how people are gonna make money."
+  },
+  {
+   "time": "11:22",
+   "speaker": "Nola Simon",
+   "text": "And it's going to be not necessarily just what they're able to earn from employment, but it's also, the. The side projects the portfolio careers, all of these things are converging to make work be something completely different than what we've seen up until now. But there are forces that are gonna drag us backwards."
+  },
+  {
+   "time": "11:45",
+   "speaker": "Nola Simon",
+   "text": "How do you anchor yourself? So that you feel safe and stable. And then how do you make that trust leap to move into the next? How do you crash that threshold into what's going to be your future? That's the more interesting conversation, right? And that's where I think that I can be of more value."
+  },
+  {
+   "time": "12:06",
+   "speaker": "Nola Simon",
+   "text": "So fundamentally, it's all. Part and partial of it. And again, this is more of a a love letter to the future of work. So I'm gonna be changing how I work on LinkedIn how I do newsletters, how I do email. You're probably gonna see less of me on a lot of the social media that I do because I do think that long form is really where I need to be more than anything else."
+  },
+  {
+   "time": "12:28",
+   "speaker": "Nola Simon",
+   "text": "And I am, I'm gonna be switching up what I do with the podcast. I don't think I'm gonna be doing guest episodes unless there's a guest. I just can't resist in the opportunity to have a conversation is irresistible. I think that I'm going to be using this as a way to flesh out conversations that need to be had that the nuance and."
+  },
+  {
+   "time": "12:50",
+   "speaker": "Nola Simon",
+   "text": "That's something I'm going to be experimenting with more. What can the podcast be? Who knew it was gonna be a Global Globes category. Now, podcasting has come so much further than I ever thought it would going to be when I started this five years ago. Now. I have issues with the way that the Global Golden Globes actually created the criteria and who's eligible to win those awards."
+  },
+  {
+   "time": "13:15",
+   "speaker": "Nola Simon",
+   "text": "But realistically, I'm also not doing podcasting because I wanna win awards. I'm using it for a specific reason directly related to my business and how I communicate and help people think through. These types of thorny types of problems. And it's not thought leadership. It's how do you lead thought, and that's what I'm interested in."
+  },
+  {
+   "time": "13:40",
+   "speaker": "Nola Simon",
+   "text": "So that's how I plan to use the podcast as well. So you'll see more of that. My plan really is podcast newsletters, so LinkedIn, substack and also email. I'm really going to lean into email because I really have not. Done a good job. I have created email lists. I do have a whole raft of people who have subscribed to newsletters and things that I write, but I'm going to be tweaking that and cleaning those lists and asking people to unsubscribe if the new direction isn't necessarily what they're after with."
+  },
+  {
+   "time": "14:11",
+   "speaker": "Nola Simon",
+   "text": "So I can identify people that truly want to be in conversation with me. 'cause what I find is a lot of people follow me, but nobody really ever. Has those conversations on an ongoing basis. The people who actually speak to me about things that matter to them, that's a really small kind of group of people, and I'd like to get more of the people who are willing to commit to actual change and have those conversations and then work through that, right?"
+  },
+  {
+   "time": "14:42",
+   "speaker": "Nola Simon",
+   "text": "So I haven't found. The magic in terms of how I create a safe space for those types of conversations that lead into actual business. So that's what I'm. Working on an ongoing basis. So anyways, that's my plan for 2026. I will be trying to lay up content that will support that more. But this is the first thing that I wanted to start with and hopefully you find that interesting."
+  },
+  {
+   "time": "15:10",
+   "speaker": "Nola Simon",
+   "text": "I will actually be including a link of been testing out a way for you to interact with the podcast. You can actually leave a voicemail and send with questions. If you record a message, you can indicate to me whether you'd like me to be able to use that as clips in the podcast. Questions are the lifeblood of how you stay on top of what people are thinking and getting that type of information."
+  },
+  {
+   "time": "15:33",
+   "speaker": "Nola Simon",
+   "text": "That's really such a valuable, so what ways work for that? I. TikTok. Lots of people talk about TikTok being A F for questions, but I just find TikTok to be a little bit toxic, not to mention it's also really dominated by certain. Demographics and countries. So I'm interested in the people who are willing to speak directly to me in a way that feels safe to them without actually having to go through the gates of hell on public comment forums like TikTok."
+  },
+  {
+   "time": "16:09",
+   "speaker": "Nola Simon",
+   "text": "So that's what I'm experimenting with as well too. So check the show notes for that. And I'll also put it in my LinkedIn thing when I share this, so I'll put it on Substack as well too. So anyways, hopefully that's interesting to you. I'd love to know what you're thinking about what questions are keeping you up at night."
+  },
+  {
+   "time": "16:26",
+   "speaker": "Nola Simon",
+   "text": "The thorny pieces of identity that really keep on coming up is who are you going to be if you have to move away from what has always worked for you? So that's an interesting thing."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "Change is not a project anymore. It's a reinvention that's never going to stop.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "The Assumption-Ground Audit",
+   "url": "/aga"
+  },
+  {
+   "title": "The Anchor Inventory",
+   "url": "/anchor-inventory"
+  }
+ ]
+}
