@@ -12,9 +12,12 @@
  "guest": {
   "name": "Tamsen Webster",
   "title": "Message Designer & Author",
-  "org": null,
-  "credentials": "Author of Say What They Can't Unhear · Creator of the Red Thread approach to messaging · Led roughly 3,000 Weight Watchers meetings over 13 years",
-  "links": null
+  "org": "Message Design Institute",
+  "credentials": "Author of Find Your Red Thread and Say What They Can't Unhear: The 9 Principles of Lasting Change · Named to the Thinkers50 Radar in 2022 · Idea Strategist for over a decade at one of nine legacy-level TEDx events · Advisor at the Martin Trust Center for MIT Entrepreneurship",
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/tamsenwebster",
+   "website": "https://www.messagedesigninstitute.com"
+  }
  },
  "publishDate": "2024-10-09",
  "publishDateHuman": "October 9, 2024",
@@ -211,7 +214,14 @@
  ],
  "hostNote": null,
  "ctaQuote": null,
- "resources": null,
+ "resources": [
+  {
+   "label": "Message Design Institute",
+   "type": "Website",
+   "url": "https://www.messagedesigninstitute.com",
+   "note": "Tamsen's books, keynotes, and message-design work."
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": [
   {
