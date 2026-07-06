@@ -124,6 +124,9 @@
 .hp-ep .date { font-family: var(--mono); font-size: 12px; color: var(--ink-soft); flex: none; }
 .hp-ep .sub { font-size: 14px; color: var(--ink-soft); margin-top: 6px; }
 .hp-ep .sub .guest { color: var(--accent); }
+.hp-ep .desc { font-size: 14.5px; line-height: 1.55; color: var(--ink-soft); margin: 8px 0 0; max-width: 64ch; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.hp-ep .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.hp-ep .tag { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); border: 1px solid var(--line); border-radius: 100px; padding: 3px 9px; background: var(--raised); }
 
 @media (max-width: 520px) {
   .hp-q { flex-direction: column; gap: 6px; }
