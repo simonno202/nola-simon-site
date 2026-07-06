@@ -14,7 +14,10 @@
   "title": "Founder, Ministry of Testing & Rosieland",
   "org": "Ministry of Testing",
   "credentials": "Building communities since 2007 · Former community lead at Indie Hackers · In tech since 2000, starting as a software tester",
-  "links": null
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/rosiesherry",
+   "website": "https://rosie.land/"
+  }
  },
  "publishDate": "2024-10-10",
  "publishDateHuman": "October 10, 2024",
@@ -645,8 +648,24 @@
   }
  ],
  "hostNote": null,
- "ctaQuote": null,
- "resources": null,
+ "ctaQuote": {
+  "text": "Why should all the social networks have all the fun?",
+  "source": "Rosie Sherry, in this episode"
+ },
+ "resources": [
+  {
+   "label": "Ministry of Testing",
+   "type": "Website",
+   "url": "https://www.ministryoftesting.com/",
+   "note": "The software testing community of practice — home of the TestBash conference."
+  },
+  {
+   "label": "Rosieland",
+   "type": "Website",
+   "url": "https://rosie.land/",
+   "note": "Rosie's community about building communities."
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": null
 }
