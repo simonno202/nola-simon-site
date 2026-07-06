@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Eyebrow";
 import { Card } from "@/components/ui/Card";
@@ -16,9 +17,40 @@ export const metadata: Metadata = {
   },
 };
 
+/* ItemList of earned-media features — makes the "featured in" claims
+   machine-readable: each item carries the outlet as publisher, the verified
+   publication date, and ties back to Nola as the person mentioned. */
+function mediaJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Media features and expert commentary by Nola Simon",
+    itemListElement: MEDIA_FEATURES.map((f, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      item: {
+        "@type": f.type === "article" ? "Article" : "CreativeWork",
+        headline: f.title,
+        url: f.url,
+        ...(f.date ? { datePublished: f.date } : {}),
+        publisher: { "@type": "Organization", name: f.outlet },
+        mentions: {
+          "@type": "Person",
+          name: "Nola Simon",
+          url: "https://nolasimon.com",
+        },
+      },
+    })),
+  };
+}
+
 export default function MediaPage() {
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mediaJsonLd()) }}
+      />
       {/* ── Hero ── */}
       <SectionWrapper className="bg-cream py-12 lg:py-24 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-10">
@@ -90,6 +122,12 @@ export default function MediaPage() {
               <Card key={feature.title}>
                 <p className="text-[13px] font-mono text-text-muted uppercase tracking-wide">
                   {feature.outlet}
+                  {feature.date && feature.dateHuman && (
+                    <>
+                      {" · "}
+                      <time dateTime={feature.date}>{feature.dateHuman}</time>
+                    </>
+                  )}
                 </p>
                 <h3 className="mt-2 text-lg font-semibold text-navy">
                   {feature.title}
@@ -178,6 +216,21 @@ export default function MediaPage() {
               style={{ borderRadius: "var(--radius-card)" }}
             />
           </div>
+
+          <p className="mt-6 text-[15px] leading-relaxed text-text-secondary">
+            Go deeper:{" "}
+            <Link href="/podcast" className="font-medium text-pink hover:underline">
+              Hope + Possibilities
+            </Link>
+            {" · "}
+            <Link href="/podcast/archive" className="font-medium text-pink hover:underline">
+              Episode transcripts
+            </Link>
+            {" · "}
+            <Link href="/aga" className="font-medium text-pink hover:underline">
+              The Assumption-Ground Audit
+            </Link>
+          </p>
         </div>
       </SectionWrapper>
 
@@ -267,20 +320,20 @@ export default function MediaPage() {
                 <div>
                   <p className="text-[11px] font-mono uppercase tracking-wide text-text-muted mb-1 flex items-center">
                     Short
-                    <CopyButton text="Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. A LinkedIn Top Voice and Goodpods Top 100 host, she helps leaders practice Everyday Futurism — reading signals, building self-trust, and making intentional moves before the map is complete." />
+                    <CopyButton text="Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. A LinkedIn Top Voice and Goodpods Top 10 Leadership host, she helps leaders practice Everyday Futurism — reading signals, building self-trust, and making intentional moves before the map is complete." />
                   </p>
                   <p className="text-[13px] leading-relaxed text-text-secondary">
-                    Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. A LinkedIn Top Voice and Goodpods Top 100 host, she helps leaders practice Everyday Futurism — reading signals, building self-trust, and making intentional moves before the map is complete.
+                    Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. A LinkedIn Top Voice and Goodpods Top 10 Leadership host, she helps leaders practice Everyday Futurism — reading signals, building self-trust, and making intentional moves before the map is complete.
                   </p>
                 </div>
 
                 <div>
                   <p className="text-[11px] font-mono uppercase tracking-wide text-text-muted mb-1 flex items-center">
                     Full
-                    <CopyButton text="Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. After 25 years in account management, sales, and training across five large organizations, she left to build Everyday Futurism — a practice grounded in self-trust, signal reading, and small intentional moves. A LinkedIn Top Voice (2024 & 2025) and Goodpods Top 100 Leadership host, Nola has been featured in CBC, Maclean's, CTV News, and The Canadian Press. She works with leaders and organizations who sense the shift and are ready to move." />
+                    <CopyButton text="Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. After 20+ years in account management, sales, and training across five large organizations, she left to build Everyday Futurism — a practice grounded in self-trust, signal reading, and small intentional moves. A LinkedIn Top Voice (2024 & 2025) and Goodpods Top 10 Leadership host, Nola has been featured in CBC, Maclean's, CTV News, and The Canadian Press. She works with leaders and organizations who sense the shift and are ready to move." />
                   </p>
                   <p className="text-[13px] leading-relaxed text-text-secondary">
-                    Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. After 25 years in account management, sales, and training across five large organizations, she left to build Everyday Futurism — a practice grounded in self-trust, signal reading, and small intentional moves. A LinkedIn Top Voice (2024 &amp; 2025) and Goodpods Top 100 Leadership host, Nola has been featured in CBC, Maclean&rsquo;s, CTV News, and The Canadian Press. She works with leaders and organizations who sense the shift and are ready to move.
+                    Nola Simon is a futurist, researcher, and host of the Hope + Possibilities podcast. After 20+ years in account management, sales, and training across five large organizations, she left to build Everyday Futurism — a practice grounded in self-trust, signal reading, and small intentional moves. A LinkedIn Top Voice (2024 &amp; 2025) and Goodpods Top 10 Leadership host, Nola has been featured in CBC, Maclean&rsquo;s, CTV News, and The Canadian Press. She works with leaders and organizations who sense the shift and are ready to move.
                   </p>
                 </div>
               </div>
