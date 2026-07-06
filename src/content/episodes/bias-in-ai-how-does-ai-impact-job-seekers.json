@@ -1,0 +1,394 @@
+{
+ "number": null,
+ "slug": "bias-in-ai-how-does-ai-impact-job-seekers",
+ "title": "Bias in AI: How Does AI Impact Job Seekers?",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Sweta Regmi",
+  "title": "Career Strategist & Founder",
+  "org": "Teachndo",
+  "credentials": "Founder of Teachndo, a career consultancy for immigrants and newcomers to Canada and the US · Former hiring manager who ran bilingual and personality-test hiring processes herself · Runs career workshops for qualified newcomers landing roles without the 'Canadian experience' penalty",
+  "links": {
+   "linkedin": "https://www.linkedin.com/company/teachndo/",
+   "website": "https://teachndo.com"
+  }
+ },
+ "publishDate": "2023-11-01",
+ "publishDateHuman": "November 1, 2023",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": "41 min",
+ "durationISO": "PT40M42S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/us/podcast/sweta-regmi-bias-in-ai-how-does-ai-impact-job-seekers/id1602822494?i=1000633404352",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Sweta Regmi — founder of Teachndo, a career consultancy for immigrants and newcomers to Canada and the US — clicked into a bank internship posting and found an AI assessment rating applicants' verbal communication from average to excellent, with no disclosure of how the rating worked, who reviewed it, or what happened to the qualified candidate whose accent, stutter, or timed-interview nerves the model read as a deficiency. She asked publicly. Nobody answered. A former hiring manager herself, she maps how these tools actually arrive inside companies: vendors sell packages to executives, hiring managers receive scores with no training, and personality tests get calibrated to clone last year's top performer. Nola brings the intersection — a soft-spoken voice Siri refuses to recognize, deafness in one ear, a daughter whose anxiety has nothing to do with capability. Recorded when Canada had no AI-hiring compliance at all, this conversation is an inventory of assumptions being encoded into hiring while nobody audits the auditor.",
+ "takeaways": [
+  "AI screening now rates things like verbal communication with no disclosure of how the rating works — an accent, a stutter, or nerves under a timer can read as a deficiency the qualified candidate never learns about.",
+  "Bias doesn't arrive with the algorithm; it arrives with the humans who set the prompts and pick the calibration — and it outlives them, integrated into the system after they've moved on.",
+  "Vendors sell AI hiring tools in packages, executives buy them, and hiring managers receive a score with no handbook on where the biases sit — Sweta got scores as a hiring manager and no training to go with them.",
+  "A DEI commitment that doesn't extend to the recruiting stack is incomplete: verbal-communication scoring now shows up even in operations and coding roles with no client contact.",
+  "Hire for cultural add, not culture fit — matching candidates to the personality profile of existing top performers encodes one mindset and calls it merit, and personality itself shifts with environment and circumstance.",
+  "Transparency is the accommodation: publish how candidates are rated, offer practice rounds and written alternatives, disclose the timer rules, and give people a human to reach when the tool doesn't fit them.",
+  "The same technology that gatekeeps can also widen doors — AI that surfaces transferable skills can spot the customer-service rep with a math degree that no supervisor ever noticed."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "2:16",
+   "question": "What made a routine internship posting a red flag?",
+   "answer": "A bank's paid internship program routed applicants to an AI hiring partner that rated verbal communication from average to excellent. Sweta went looking for how the rating worked, how candidates would be told where they stood, and what quality check sat behind it — and found nothing. She tagged the companies on LinkedIn and Twitter asking how people whose first language isn't English would be monitored. No response. The posting wasn't customer-facing either: the same scoring applied to technical and operations roles."
+  },
+  {
+   "timestamp": "5:22",
+   "question": "Who gets caught in the intersection of AI screening?",
+   "answer": "Far more people than the accent conversation suggests. Nola is soft-spoken enough that Alexa and Siri won't recognize her, is deaf in one ear, and once had to wake her eight-year-old because a government phone system couldn't parse her saying the letter L — and English is her first language. Stack an accent, a stutter, neurodivergence, or timed-interview anxiety on top of each other and the barriers compound exponentially, with no visible path to say 'I need to talk to a person.'"
+  },
+  {
+   "timestamp": "8:14",
+   "question": "Who is auditing the AI — and the person who set it up?",
+   "answer": "As far as Sweta could find: nobody. There's no compliance body in Canada monitoring AI hiring. The prompts are set by humans with their own biases, and once that person leaves, the bias stays integrated in the system, training the next person. Her questions for the labour minister are direct: how are you protecting these job seekers, how are you holding employers accountable, and are the hiring managers and recruiters using these tools trained at all?"
+  },
+  {
+   "timestamp": "16:00",
+   "question": "What's wrong with hiring on personality tests?",
+   "answer": "Employers build the scoring matrix by mirroring their existing top performers — and not all top performers are actually good at what they do. Personality changes with environment, leadership, stress, and life circumstances, so the test enshrines one moment of one person as the standard. Sweta received these scores as a hiring manager with no training on what they meant, and the profiles were never matched against the manager the person would actually work for. Sometimes the score is a mandatory cutoff, and the hiring manager has no say at all."
+  },
+  {
+   "timestamp": "26:19",
+   "question": "What would real transparency look like for job seekers?",
+   "answer": "Tell candidates how they'll be rated, give them a sample, and let them practice. Some tools allow one timed shot, some three, some keep every take and send them all to the employer without explaining how retakes are judged. As a career strategist, Sweta can only prep her clients for what's disclosed — everything done in hush helps nobody. And when the tool doesn't fit someone, there should be a number to call, an inbox to reach, an alternative path that doesn't cost a qualified person the role."
+  },
+  {
+   "timestamp": "37:48",
+   "question": "What's the vision five or ten years out?",
+   "answer": "A newcomer lands today and gets the offer tomorrow, without the 'no Canadian experience' penalty — qualified people making the six figures they're qualified for instead of being routed into survival jobs. With 1.25 million immigrants arriving, Sweta argues Canada needs to be the country worth the picture it paints. Nola's mother arrived from Scotland in 1964, went to deposit a cheque, and was offered a job at the bank on the spot: someone saw potential and acted on it. That's the reality worth rebuilding — for every job seeker, not just newcomers."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:22",
+   "label": "Two similar paths and one unanswered question"
+  },
+  {
+   "time": "2:16",
+   "label": "The bank posting and the verbal-communication rating"
+  },
+  {
+   "time": "5:22",
+   "label": "Intersections: accents, soft voices, timers, anxiety"
+  },
+  {
+   "time": "8:14",
+   "label": "No compliance in Canada: who audits the auditor?"
+  },
+  {
+   "time": "14:29",
+   "label": "Where AI helps: transferable skills the org chart misses"
+  },
+  {
+   "time": "16:00",
+   "label": "Personality tests and the cloned top performer"
+  },
+  {
+   "time": "24:43",
+   "label": "Facial-expression scoring and the backlash that ended it"
+  },
+  {
+   "time": "31:15",
+   "label": "Cultural add, not culture fit"
+  },
+  {
+   "time": "37:48",
+   "label": "The vision: land today, offer tomorrow"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:22",
+   "speaker": "Nola Simon",
+   "text": "Thank you so much for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence, and today I'm actually thrilled to have Sweta Regmi on the show with me. She is actually Canadian. She is from Sudbury. You're currently in Sudbury, but you initially, when you came to Canada, were you were in Toronto? Yes. For it started, yes. Oh, okay. So she's the founder of Teachndo and she works with immigrants and newcomers to Canada and the US. That's right. One of the reasons I wanted to have Sweta on is we have a very similar background in terms of where we've worked and we have an awful lot of in common in terms of how we perceive the office and how things are done. And unfortunately, not all of our experiences have been positive, but it's about having those tough conversations and still managing to find ways to go forward and be positive and make it something into. a better situation. So that's often what we talk about is we talk about the realities, but it's also like what we can do of it. And one of the questions that came up with Sweta on, on Twitter, she was actually trying to interest the CBC because we do a lot of similar media as well too. And it was it all CBC. I can't remember who else was on there. I know Ian Hanson was on there."
+  },
+  {
+   "time": "1:42",
+   "speaker": "Sweta Regmi",
+   "text": "I think some like a major new channel. I tagged a couple of new channel in there and then a couple of journalists in there to get the attention."
+  },
+  {
+   "time": "1:51",
+   "speaker": "Nola Simon",
+   "text": "Exactly. And the best question was, what protections are in place for AI for people who don't necessarily have English as their first language, have a different background that's not North American, it's not traditional. And is anybody working with people and coaching them how to do this? That's basically what that question was. It's what protections are in place."
+  },
+  {
+   "time": "2:16",
+   "speaker": "Sweta Regmi",
+   "text": "Absolutely. Yeah. And I was doing a lot of research. This happened to just pop up on my LinkedIn feed. When I saw one of the bank advertising for a lot of roles for internship, they had internship program, paid program, and then I looked into it. It was technical role. It was so many different varieties of the role. And when you click on that, it pushes out to the AI partner they had. Yeah. The hiring, I'm not, we're not going to name them. When I looked into it, how do they actually hire people? 1 thing stood out to me was verbal communication rating. Was it average or was it, excellent. I was thinking, oh, all right how do they actually go and rate that? And I try to find informations in there, how the employers are giving heads up to the job seekers. Hey, this is where you stand out. And this is where you need improvement when it comes to verbal communication. So they have an idea. And I wondered, okay, The people like me, whose English is not the 1st language, and I do have an accent as well. And when I'm nervous, sometime I speak fast, my pronunciations might not be captured by AI correctly sometimes. And I started thinking about it. All right. How is it being monitored? Who is doing the quality check on it? Is it AI? How is the system set up in the backend? Who sets it up? Who's auditing the biases in AI, especially when I'm working with the immigrant community, newcomers they're not aware of the jargon and they're not aware of how the Canadian people talks in time, right? The pronunciation factors in as well. And that kind of led me to really tag them on my LinkedIn post. I got no response. And I went on Twitter as well, tag them as well. Hey, can you give me an idea? How are you going to be monitoring these people? And especially I'm concerned about people with English not being a first language. Not only that, right? Neurodiverse people as well. Sometimes they're nervous and maybe the speech, someone who stutters, let's put it that way as well. Someone whose speech are not clear enough. When we're talking about DEI, diversity, equity, and inclusion, we need to factor in all those things. Not only about people not speaking in English, it's all about how are we going to accommodate? And I was looking at their tools and there's no such thing as, hey, do you require the accommodations? Especially on that one. People don't even know that, right? Accommodation for people who are just new to Canada, they're going to be like what does that mean? I'm not going to ask for specific, let's see accommodations for these kinds of things that I'm going through. They probably are not even aware of it. They probably want to probably the solution would be listed out. What kind of accommodation is play is in place for people who are new or diverse who have that. Speech delays or, stuff like that."
+  },
+  {
+   "time": "5:22",
+   "speaker": "Nola Simon",
+   "text": "Yeah, it's the intersection. So it's not necessarily just English isn't your first language or French even, right? Yeah. But what's the intersection? So for me, for example, I know that, so Alexa in Siri, my voice, I'm pretty soft spoken. So Alexa in Siri hate me. I can't use those. They don't recognize me. When I actually had that accident that I talk about in 2018 I managed to destroy my car and I, my license was suspended until I passed medical when I called into the ministry of transportation, I had to wake my 8 year old up because their system would not recognize me saying the letter L. And this is where I was really interested in it because I know that how it reacts with my voice and I don't have an accent. English is my first language and I don't have that. But the other thing that I do have is I'm deaf in one ear. Right if you consider somebody who does have those other barriers, right? English isn't their 1st language. They have a background and they have some other kind of physical disability exponentially. It gets harder. Right so that's where I was really interested in the lack of accommodations, or even the option to talk to somebody, if you feel that this is not going to be a system that's going to set you up for success what control does job seeker have when that's the only option that's being presented to them and it's not easy because I know the bank that you're talking about, I don't think that there's another option that I've seen where they can literally click on something and say, I need to talk to a person."
+  },
+  {
+   "time": "7:02",
+   "speaker": "Sweta Regmi",
+   "text": "Yes, that's right. And option you have a very valid point there, right? So I know a couple of organizations they have if you're not okay with the video interview, you have an option for written skills and they would give out the questions and you would go just to make sure there is no discrimination and biases in there. There's a mitigation right there. Preventative measures been happening in award winning companies, right? But not all companies are doing it. And the concern here is. When I went through the tool that my client went through when they had an interview, there's a time or between 2 to 5 minutes, I have to answer and there are different tools and people work under pressure to handle that. What if. Again, some people who are not able to commit to that timing for whatever reason, whatever disabilities they have, barriers, maybe there's invisible disabilities,"
+  },
+  {
+   "time": "7:57",
+   "speaker": "Nola Simon",
+   "text": "right? My, my daughter has anxiety, but she also has like a learning disability, like a communications disability. And so she has, she's just 18. She hasn't necessarily started working. She's got a job at a grocery store, but for her, that timer would spark anxiety."
+  },
+  {
+   "time": "8:14",
+   "speaker": "Sweta Regmi",
+   "text": "There you go. And we're talking about that, or, who is it or who is it actually, when you are as a job seeker going in there a without having that options be without actually talking to someone else and say, hey, do I have an options? And I have this can the timer go up and down? Can I adjust the timer? There are no options for people. So what kind of accommodation is in place? It's too late because and the back end. Who's going to review that? Is it AI monitoring it? Is someone even going to watch that or listen to the video? Whatever it is it hiring manager, recruiter or AI just monitoring and then picking from there? The process was so unclear to me, and I wanted to bring it under media's attention since we're talking about AI, it's impacting a lot of job seekers who are trying to get ahead. They're qualified, but because of the system limitations or whatever, they had their own limitations. They're not successful. And how do you get the answer? Because there's no compliance in Canada who's monitoring AI. So I'd like to know that from the labor minister's perspective, how are you protecting these people? How are you holding employers accountable to make sure it's fair process? And how do you go about providing solutions? Are you training from the employer's perspective? Our hiring managers train our recruiters train, right? Our people who are setting up that AI, because there's human brain besides setting that AI ATS, whatever they're working with it. How are they trained? What makes you think that there's no biases, whoever's actually putting it there, who's auditing that AI tool and who's auditing the person who's actually putting those prompt and, the things that matters to them and that might not matter to someone else. And this is where the biases and discriminations are probably happening and people don't even know, because it just, there's no audit from what I know"
+  },
+  {
+   "time": "10:11",
+   "speaker": "Nola Simon",
+   "text": "of. And there's a lack of transparency. So it's not like it's documented and disclosed, right? And that's where press really becomes a factor. So how do you trust an employer who isn't disclosing all of this even if they have a commitment to diversity, equity, and inclusion, they have that, but how does it relate to AI? Like it's, they're not connecting the dots. There you go and"
+  },
+  {
+   "time": "10:38",
+   "speaker": "Sweta Regmi",
+   "text": "then when we were talking about D. I. people are thinking about race color of our skin and everything, but that is definitely a part of D. I. as well. It goes hand in hand. And this is where employers need to go. 1 step extra and think about it, how does that impact the when they're setting up the automated tools? Where does it impact put the process flow on it on the perspective and then go from there and then put the, preventative. Control on it, because listen, we have brain, we have biases. All we need to do is we need to self check and get a training with the clear example. What's biases? What's discriminations during that process of let's say, when you're evaluating the verbal communications, what seems to be biases and discrimination and what seems to be gray area, then there needs to be calibration as well, right? Only 1 person would not should not be doing that hiring, especially if it's really with automated have the panel have the calibrations with a different stakeholders and department touch point on it and come with the consensus. What's right? What's wrong? So people are aware of that issue as well. What's going on? Right? 1 of the example that you brought very valid point. I wanted to bring it up is French. I used to manage French people as well in down in Moncton, I had a team, I had my own bias, right? French was their first language and I could sometime hardly understand them. I was like, wow, they're born and raised in Canada. I can't believe they can't talk in English. And some agent would refuse to even go take English call. They were so bad at it. And. We had to come up with the testing requirements, stuff like that, because we needed someone to be bilingual English and French. I did not know the French, but we had a process where the French speaking managers would be taking interview at the same time as well, evaluating it with the test and everything like that as well. So how is it, let's say that could apply to people living in Canada as well, where French is their first language. How are they evaluating on a verbal communication as well? Yep."
+  },
+  {
+   "time": "12:49",
+   "speaker": "Nola Simon",
+   "text": "Oh, exactly. And I actually studied French, so I went to Glendon College. I took all of my degree actually in mostly French. And I actually had a job where I was evaluating calls, the bilingual calls. So I am no longer probably totally bilingual, but back then I could get by. And for me, that was a challenge. So It's very relevant, and I think that it does apply. It's not just for immigrants. It's a bilingual country. And we see it in the States as well, too. Spanish is not an official language, but companies support Spanish customer service. So it's not unheard of in the US to be an issue as well, too. Now, there was something that you mentioned earlier. You said that the US has actually developed AI"
+  },
+  {
+   "time": "13:33",
+   "speaker": "Sweta Regmi",
+   "text": "protections. That's what I heard I was following 1 of the journalists who actually who specializes in this AI monitoring and everything like that too. And then I think there's a committee in the place. I'm not don't quote me on it, but I've heard that they have something something which is, I don't know if it's waiting to be passed or there is something in the place to audit the AI system. At least they are once what I know is U. S. is one step ahead of Canada for sure. I don't think Canada even is thinking about this. Yeah. I don't think Canada even realizes considering that we are going to be having 1. 24 millions of new immigrants coming in. That's what the government is saying in a couple of years. No Canadian experience matters and people are going to be rejected, right? Especially newcomers and there's going to be AI recruitment happening, right? There's nothing wrong with it. I'm not against AI, I don't mind."
+  },
+  {
+   "time": "14:29",
+   "speaker": "Nola Simon",
+   "text": "There's a possibility that it could be a good thing too, right? Because if they're actually filtering out accents or, there's a process in place where they're really just looking at skills and abilities that AI may actually pick up a skill and ability and like transferable Understanding in a way that a human might not, right? Because 1 of my 1st podcast episodes, I actually invited somebody who worked for a company and he was talking about how I could actually be used to identify people who maybe had taken a degree in math, for example, and they were working in customer service. And it meant a lot to me because that is my background and they were able to actually identify people who would. Be able to move into data strategy and data analysis and automatically increase their salary like 2 times just because they've identified that transferable skill. But they had to really divorce the people who had been supervising those people in order to even become aware of what those skills and abilities were. The system picked it up right? And he was talking about the fact that the government is actually looking at how they can use AI to actually identify it. People who've been long term employee unemployed. Who have skills and abilities, but they're not marking themselves for specific jobs, because 1, they don't even understand that those skills that they have not used in a while are valuable. Or 2, that the new types of jobs actually exist that they need those skills for."
+  },
+  {
+   "time": "16:00",
+   "speaker": "Sweta Regmi",
+   "text": "So there's a disc which is a great one. I like that strategy and AI where you're matching and it takes a, it's all data driven. And I like that kind of strategies. One thing that it always bothered me was hiring based on personality. And that happens a lot from the sector I came in. And I've done it myself and I've reviewed as a manager, hiring manager as well. Honestly. How are you defining the personality without even, let's say, based on what they are talking based on the multiple choices questions and it just automatically matches up with the score for whatever personality tests they are using it. And here's the catch right there. A lot of employers, what they do is they try to mirror their high performing employees or top seller. Let's say if it's a sales job as the standard, right? Already someone who is successful in the role and they try to put the matrix together, mirroring that person. And when the new hires are compared against them, they're like, okay if you have an 80 score and that matches up with our employee, a recent employee, past employee who are top employer, then that they might be the right match. And I don't necessarily agree with that. Not all top performers are. Really good at what they do. I've seen it. I've let the top performing team the personality honestly changes based on the environment. I think based on the leadership coaching based on the, their own personal. When the life happens to them, personality could, change with the stress management, with the disabilities, which is invisible or not visible. So what makes you think that's a right way of hiring? And it's again, matching up with the AI, who is setting that up? Are the managers trained? Vendors are popping out with the AI personality to make it seem like this is the way to go. But I feel like there are tons of biases and I don't feel there's a compliance that anybody is looking. Into it and seeing are we doing the right thing? And that's where it pains me. When it comes to job seekers, they have no idea how the hiring has been done. They're just doing the resume and LinkedIn branding, whatever, but there are things they cannot control, even though they're a qualified candidate."
+  },
+  {
+   "time": "18:19",
+   "speaker": "Nola Simon",
+   "text": "Exactly. And LinkedIn is coming out with AI stuff too. Did you see those announcements today as well?"
+  },
+  {
+   "time": "18:24",
+   "speaker": "Sweta Regmi",
+   "text": "Yeah. Yes. I support LinkedIn AI on it and, on certain categories. I do feel like they have a recruiter tools and I asked selling to see you on the comment sections as well when he was talking about talent connections, whatever. And I said yeah. Can you give us a data on a recruiter tools? Who is using your blind recruiting? Because there's a tool on recruiting that you can just, click on the blind recruiting. You don't see the name. You don't see any personal information. It's all based on qualifications. I'd like to know how many recruiters and employers are using it. That's, and I think a blind recruiting would be so much better. And I think it's not going to mitigate the risk of biases and discriminations. People would go out of the way to find the information. But I think it would minimize some of the AI biases, discrimination. If you don't see anything, you just have a data. You just have no personal information, no face, no name, and you just recruit based on what in terms"
+  },
+  {
+   "time": "19:22",
+   "speaker": "Nola Simon",
+   "text": "of skills and experience. Yeah. Yeah. No, it'd be really interesting. And that's where I think. We have to look at what kind of future we're building when we're using these tools, right? And that's where it's yes, this is something that we don't quite understand now. But if this continues down the path that we've got right now, what does this look like for 5, 10 years from now if we don't talk about the risks involved and we just let it go? That's"
+  },
+  {
+   "time": "19:48",
+   "speaker": "Sweta Regmi",
+   "text": "right. And have you seen the hiring world has changed from the way that I used to hire and the way it's going on right now for you to get that in person face to face, even online virtual, you'd have to pass so many tests. AI test some time assignment as well. Nobody's talking email and then personality AI, then video interview. And then you get the test again to see if you're the right fit and you're going with the phone interview. Then you're going for the zoom interview and then you are possibly going for face to face. How many rounds of interviews are happening in AI world before you get into the face to face as well, right? It's a lack of human interactions and connection as well."
+  },
+  {
+   "time": "20:35",
+   "speaker": "Nola Simon",
+   "text": "Exactly. What does that feel like? And that's where it's it really feels impersonal. And if you're an employer, who's, talking about building like belonging and, employee wellness and we really want our people to feel special, what kind of tech, what kind of like recruiting process do you have where you don't even talk to a person for the first four rounds? That's right."
+  },
+  {
+   "time": "20:56",
+   "speaker": "Sweta Regmi",
+   "text": "And that's really harmful for employee engagement, especially if you're asking for people to work in remote, you don't have any human connections and all of a sudden you're on boarded and you haven't even seen your reporting manager sometimes. And. Again, AI is amazing when done right, right? I don't want to spend here 10 hours doing the same thing. It's great. But then inside that there's like cons with it as well. Somebody else has to suffer because of AI biases and discriminations and who is going to monitor that, who is going to hold people accountable or train to go about, this is the bias, this is the discrimination and let's take. That accountability and let's navigate around that to ensure that we do the, we go and not compromise the D. E. I. especially with the companies who are touting about D. I. all the time. They definitely need to look into the AI system they're using for recruiting because that actually is an employer branding as well."
+  },
+  {
+   "time": "22:02",
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. And like you said there's multiple companies involved. So what consistency is there from company to company, right? And, it's, you and I know if you're in an industry, you bounce between employers, right? They like to hire people who have that company experience and they move from company to company. But if everybody's using a different system, There's like layers of bias. And so are we really setting everybody up? It's not just newcomers and people who are new to the workforce in Canada, but even Canadians, right? You have to learn how to navigate all these different systems that aren't really"
+  },
+  {
+   "time": "22:35",
+   "speaker": "Sweta Regmi",
+   "text": "transparent. Absolutely, and when we talk about there was a ASISM in ASISM, right? So we tell people about, ASISM could fall in the DEI aspect as well, and it could sometime fall in different bucket as well, right? So these people are not tech savvy sometime, so let's say if you are asking people to come on the video and talk, they haven't done that for a while and they don't want to do it, right? And I was so surprised to take a look into those. Posting that was happening for a different banking sectors. I was taken back because the operations role where you are not going to have a client contact or tech role, you're just building the coding and software and everything does have those perspective of verbal communications as well. And I'm thinking I honestly thought it was a customer service role. Customer facing role. They're actually doing it to monitor that. But it feels like now it's applied everywhere. Universal is that the standard going forward that everything is going to be video interview. And now people have to be ready on camera. This is 1 more skills. People have to be very good at it and not people. Not everyone is okay with that. And that's where the aces and kicks in. Sometime people who are just recent graduate, they have no idea how it works, right? It impacts so many people when we talk about AI biases, especially the video interviews, which is timed on and stuff like"
+  },
+  {
+   "time": "23:59",
+   "speaker": "Nola Simon",
+   "text": "that. And they're also using it. Once you get the job, they're now embedding it into like zoom and you can actually get reports from the system about how people are paying attention and whether they're keeping their, eye contact going, if they're multitasking or doing something else so that your manager can get reports of how you were performing within a video meeting, but it's again, how is that coached? How is that judged? Is there any kind of accommodation for, any kind of disability, or mental capacity issue, that sort of thing. And really, how is that going to be used to rate and review and monitor and get raises and performance reviews? That sort of thing."
+  },
+  {
+   "time": "24:43",
+   "speaker": "Sweta Regmi",
+   "text": "Yeah, there was one AI that I, it came in the news as well. They got there were a couple of AIs that were using it. Even I think LinkedIn got in trouble and Amazon got in trouble for they were just, their recruiting tool just got more men and men, right? Remember that? And that's how they set up their AI. So they, that's why they went with a different tool. Now, the other AI specifically used for video interview apparently They were scoring people based on facial expressions, like eye contact to facial expressions, smile and stuff like that. And people started questioning now, like, why are you doing it? It's a biases discrimination, right? In some culture, eye contact is really huge. You are not able to straight look into someone's eye, let's say, like, why are you doing that on purpose? There's a cultural bias as well. Stigma. As well, and on the news, it came in on the report, they removed that. Because they got the backlash and they removed that and going forward, they were not judging candidate based on a facial expressions, like smile and body language and stuff like that, like whatever, right? So it's good thing they're listening, but were they listening because they got caught? What else is there that we don't know as a consumer, as a job seekers that would like to know and who's holding them accountable? Let's put it that way."
+  },
+  {
+   "time": "26:05",
+   "speaker": "Nola Simon",
+   "text": "Yeah. That accountability and that trust that's really what it comes down to. Yes, these tools can be useful, but it's more about how we're actually using them, how we're trusting them and what information they're really collecting and how it's being used."
+  },
+  {
+   "time": "26:19",
+   "speaker": "Sweta Regmi",
+   "text": "Yeah, as a career strategist, when I'm coaching my clients and training my clients on AI video interview, which I do, right? Because and I do research and I know so much about it because I go research and see it and potential things. It's going to come up as a hurdle for them and. I need to know to pass it along to my clients as well when the interviews are like that interviews are happening. I need to know how are they going to be monitor? How are they going to be squared as well? So I prep them for success by employer. Not giving informations and doing everything in hush, it's not helping anybody. I can't coach them. I cannot educate them. Let's be transparent and say, how are you going to be rated on these kind of AI tools on it? Give them a sample, maybe create that and that's probably a solution. And it's up to the people to do the homework now, right? So you're gone, you're, we've given you that and this is how you're going to be rated. Now, here's a homework, go prep it, practice it. Give. Couple of rounds of practice as well for video interviews. So they are okay. This is how it's going to be. Some tools would give you the timer and 1 shot. Only some tools would give you 3 shots and some tool would give you last answers for you to go in there. Submit it. So they don't know. There"
+  },
+  {
+   "time": "27:36",
+   "speaker": "Nola Simon",
+   "text": "I came across 1 tool where they you had multiple shots, but the employer was going to get everyone that you did. Yes, there was no explanation of how they would. Perceive that if you did it multiple times. It was like, that's strange."
+  },
+  {
+   "time": "27:53",
+   "speaker": "Sweta Regmi",
+   "text": "Yeah, and then some tools where you don't have any second shot, take it or leave it. Some would stop right at two minutes or something. And even you're talking, you're done, right? And it would not give you a chance. Some tools would have option for you to pick at which one some tools would not even give you the chance. Whatever is the last one. This is your last shot, right? Yeah. So I hope there's a prompt. I hope they give you the practice round, whatever it is, stuff like that to at least make it seem like, Hey, we're going to accommodate you. Or if you can't follow this along, here's the number, get in touch. Here's the inbox and ask to connect with us and we'll guide you through or what other possibilities are there for you. So you are qualified, but you're not discriminated because of our. Hiring system, and it's not fair."
+  },
+  {
+   "time": "28:46",
+   "speaker": "Nola Simon",
+   "text": "Have you I mean, I know you, you went to media and whatnot, but have you actually tried to actually go behind the scenes and talk to talent acquisition and heads of HR about this? As"
+  },
+  {
+   "time": "28:56",
+   "speaker": "Sweta Regmi",
+   "text": "I have no companies. And, most people are not aware of it. They are not the one who are setting this up. The heads are buying it. The heads are buying it, getting sold on vendors idea. Wow, it's beautiful. It's going to save you this right, but it's not an entry level people on HR who's putting that system have nothing to say. They would be the last person when they get the tool and these vendors are teaching them how to do it. And. These are not the organization teaching them, so whatever vendors are doing it, right? It all depends on what kind of prompt employers and HR wants based on the particular role. Keep in mind, not all the roles would require a personality test, they sell in package and HR is learning as they go. These are the new tools for them as well. And who's sitting down with them and say, Hey, While there's a biases, you don't do this. You don't do that. I don't see any handbooks. I never got it as a hiring manager. We use AI tool personality test, right? Did I get it as a hiring manager? These are the discrimination. These are the biases. No, I just got the score from HR. They sent the software and then score was done. And then I got the results of it. Okay. That's it. Did I get the extensive training in this company that I worked in the past, where they have used the personality test and everything, right? How are they matching personality with me? Yeah, their personalities match up with the top performer, not necessarily in my team. Somebody else, how are they matching with me? That's this is where there's this connect right there when I'm hiring people based on that personality score, even though I'm doing the interviews and everything like that, when I'm looking at the score, I'm like, okay, not bad 80, whatever it is, right? Sometimes they make it the mandatory requirement that they have to come up with that score and they might be weeded out and I have nothing to say with it. That's a risk for them. So this is why the hiring manager is not even trained. At least I know of unless they are trained right now, but absolutely. I bet you the personality tests are not being, match with the hiring manager who's going to be handling and coaching team. You see"
+  },
+  {
+   "time": "31:15",
+   "speaker": "Nola Simon",
+   "text": "what I'm saying? Exactly, because it's more like it's, we want you to fit the culture. We're not interested in what you're bringing that you can add to the culture and we can create"
+  },
+  {
+   "time": "31:24",
+   "speaker": "Sweta Regmi",
+   "text": "together. I love that and that's a very good pointer because this is what I tell my clients, especially when I'm working with the immigrant pool and newcomers. I would say you were not there to fit in. You are a cultural add. Stop trying to fit in because employers are asking people to fit in on their type of personality. They want them to be. Yeah. And this is why the personality traits, whatever they are looking for, it's not a one size fits all. Again, it keeps on changing and we got to move past that, which opens the norms of biases and discrimination for particular type of people, particular type of mindset and everything like that. Yeah, no,"
+  },
+  {
+   "time": "32:04",
+   "speaker": "Nola Simon",
+   "text": "I know. I think that's it's really interesting. And that's where I'm hoping that somebody listens to this episode, understands where our concerns are and picks it up and does even more research to actually, advocate for. We understand that these tools are going to be done, but it's what can we build to make sure that it's going to create the future that we want to have 5, 10"
+  },
+  {
+   "time": "32:26",
+   "speaker": "Sweta Regmi",
+   "text": "years from now. That's right. We're not going to is not going to go away. People are saying is going to take our jobs. But let me tell you, is going to create so much jobs as well. And that's when it comes. The prompt are set up by human, right? Who's training those human to self check their own audit because by the time that person is the 1, who's going to be setting up that prompt and hiring tool, whatever they're using it. If a person is no longer there, it's already in the system as biases and discrimination. Who's detecting that? That person's going to be training the other person. That person's going to be mentor. It's all in there. integrated by human's mind. Remember"
+  },
+  {
+   "time": "33:05",
+   "speaker": "Nola Simon",
+   "text": "that? Yeah. And how often does it get reviewed and updated as things changed, right? Yes. The enterprises I worked for, things ran for years and years. I know. And nobody ever touched anything because if it ain't broke, don't"
+  },
+  {
+   "time": "33:19",
+   "speaker": "Sweta Regmi",
+   "text": "fix. I get it. And it's and we're talking about, we both are talking about the companies that we've worked in the past. They made billions of dollar, imagine they could afford to do this do the right way, but it's not broken. Why would they question that? Why would they come up with the third party for audit and everything? Because now there, there's a brand risk and reputation risk as well. So they're not going to do it. So this is why somebody in that authority leadership role, executive team has to come up with, Hey, we need to do things better. Yeah. Thought leader. Being a thought leader is not about saying yes to everything. Sometime you're gonna have to speak up for something that it's not going to make people feel comfortable. And this is why you are there, because you have a title not to Hey, I'm this. I have this fancy title, take a look at me. You are given the title. You've earned that role up there in any companies to make an impact. And especially for a talking DEI, take a look at holistic DEI. Not only people colors and who in the table, you got to look at the hiring process and that includes the AI as well."
+  },
+  {
+   "time": "34:34",
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, very much and that really leads us into that, that tiny little section that I mentioned before I would to add structure to the podcast. So what's the best question that you've come across that you really find to be effective? So say for example, you're that leader that you want to stand up and really like challenge that. What kind of question do you think people should be asking?"
+  },
+  {
+   "time": "34:56",
+   "speaker": "Sweta Regmi",
+   "text": "If I was, let's say, I'd like to, I'd like to make sure that people are well aware of their own self areas of opportunities and a lot of people, including me as well. We don't necessarily feel like, we need to develop ourself all the time. If someone wants to ask me. Hey, what you need to work on, are you aware of it? I am now aware of my own self. Limitations belief or self doubt and something. I think a lot of people are not aware of it and people don't like feedback. People don't like getting told. I'd like to see that future where people are aware of it and people are going to start work on it. So where people are not feeling it's intimidations, anything like that. So talk about AI biases, right? People just because you have not used that AI tool. That doesn't mean that. It's not there just because you've not gone through that process. That's that does not mean that it's not happening. Invite people listen to them. I'd like to see the world of that where people are feeling your pain as well. Okay. I have not gone through that, but you know what? You have a valid point. Let's take a look into that as well. And this is why we need to have a media and journalist to come up and hear us out. I'm not going through that right now as a job seeker. But if I were to go back in the industry, I would go through that. It would hurt me not to know the process behind it, how I'm going to be monitored. So I'd like to. People to think about it, just because you're not going through it right now, the world that we're living that doesn't mean that you're never going to go through that your loved ones never going to go through that,"
+  },
+  {
+   "time": "36:33",
+   "speaker": "Nola Simon",
+   "text": "right? Yeah, no, definitely. And especially as a newcomer how does that work with a network? You're new to the country. You don't necessarily know a whole lot of people to ask the questions of, right? And I love what you mentioned about not everybody likes feedback, but that's where that feed forward concept comes in. Have you come across that before? You can't fix the past, but you can change the future, right? So it's less useful to give people feedback about what's happened that they can't change. But it's let's look at what happened, but let's look at. And focus on what you can do about it. So it's that feed forward. This is where we're at. This is where we want to be. How do we get there? That's"
+  },
+  {
+   "time": "37:10",
+   "speaker": "Sweta Regmi",
+   "text": "right. And you know what? You're right. I don't see anything as a mistake. I see that as a lesson learned. And if you continue to go and do the same thing over and over, that's going to be, I tell my kids, that's going to be an habit for you. So what are you going to do differently now? You're doing something wrong. Let's fix it right now before he gets into the mode of, we're going to continue doing this and we have always done this way. And it's about time we talk about AIs, especially in the hiring world that we are seeing right now."
+  },
+  {
+   "time": "37:40",
+   "speaker": "Nola Simon",
+   "text": "So is that your favorite vision for the future out of all of the work that you do right now, like five, 10 years from now, what would you love to be the"
+  },
+  {
+   "time": "37:48",
+   "speaker": "Sweta Regmi",
+   "text": "reality? The reality for me is especially if I'm working with the, immigrant community and newcomer community I want them to come in and not go through that biases and discriminations when it comes to no Canadian experience. Reality would be, hey, I can make six figures because I'm qualified for it. Reality for me would be immigrants are not just. Told to work survival jobs, right? Especially if you're talking about 1. 25 millions immigrants coming in. We need to really paint the good picture of Canada. And we don't have it right now. People are struggling and reality for me would be to make sure that newcomer lands in today and they got the offer tomorrow without the biases and discrimination. That's what I'm looking forward."
+  },
+  {
+   "time": "38:33",
+   "speaker": "Nola Simon",
+   "text": "That sounds like a beautiful vision. When my mom came to Canada, she's 1964, she was from Scotland. So obviously didn't face discrimination, but she went to go deposit a check at the bank and was offered a job on the spot."
+  },
+  {
+   "time": "38:48",
+   "speaker": "Sweta Regmi",
+   "text": "Okay that's great. Yes, I know."
+  },
+  {
+   "time": "38:50",
+   "speaker": "Nola Simon",
+   "text": "That's that's the reality. That would be amazing, right? So somebody sees the opportunity and the potential of someone and you know that becomes a reality, right? So that's right. That would be amazing experience for all job seekers"
+  },
+  {
+   "time": "39:06",
+   "speaker": "Sweta Regmi",
+   "text": "for sure. Not only newcomers, right? Everybody should not go through the hoops of AI and everything to get this done, right? So let's do something better. And"
+  },
+  {
+   "time": "39:15",
+   "speaker": "Nola Simon",
+   "text": "why do you need eight? Eight interviews and like that process that you described before, it's like, Oh my God, that sounds awful. So"
+  },
+  {
+   "time": "39:21",
+   "speaker": "Sweta Regmi",
+   "text": "it is. I don't know if I have it in me to go back to the world or where I came from. I was like, I don't think I'm going to be right fit. Like it was a dream job at once, but I don't see myself as a fit. See, this is why the personality change. I'm not the same person. 10 years ago, I was. Perfect. Yeah, I have upcoming 5 days career workshop coming up, especially targeting immigrants who are struggling to land the role, despite of being qualified and newcomers. We're going to be landing sooner. They're already here. Feel free to sign up. It's happening on November 6 at 12 noon, Eastern Standard Time for 5 days in a row. You get to hear inspiring story from my past client as well. And honestly, just come in and get inspired because Canada is beautiful. If you do the thing the right way, let's not blame the system like AI or something. What are you going to do differently? Let's do that as well in the workshop."
+  },
+  {
+   "time": "40:11",
+   "speaker": "Nola Simon",
+   "text": "Exactly. How do you work with the reality? Exactly. That's cool. That's cool. Make sure that we've got the links in the show notes and put your website and whatnot in there. So awesome."
+  }
+ ],
+ "hostNote": "Sweta and I have worked in similar corporate worlds and do a lot of the same media — and not all of our experiences have been positive, which is exactly why we talk. This episode started as a question she raised publicly, tagging journalists and the companies themselves: what protections are in place for job seekers screened by AI? Nobody answered her. So we recorded the conversation instead.",
+ "ctaQuote": {
+  "text": "You are not there to fit in. You are a cultural add. Stop trying to fit in.",
+  "source": "Sweta Regmi"
+ },
+ "resources": [
+  {
+   "label": "Teachndo",
+   "type": "Website",
+   "url": "https://teachndo.com",
+   "note": "Sweta's career consultancy for immigrants and newcomers to Canada and the US."
+  },
+  {
+   "label": "Teachndo on LinkedIn",
+   "type": "LinkedIn",
+   "url": "https://www.linkedin.com/company/teachndo/",
+   "note": null
+  }
+ ],
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Can AI Improve Recruiting and Retention? — the Todd Raphael episode Nola cites in this conversation",
+   "url": "/podcast/can-ai-improve-recruiting-and-retention"
+  },
+  {
+   "title": "The Algorithm: How AI Decides Who Gets Hired — Hilke Schellmann",
+   "url": "/podcast/the-algorithm-how-ai-decides-who-gets-hired"
+  },
+  {
+   "title": "The Assumption-Ground Audit",
+   "url": "/aga"
+  }
+ ]
+}

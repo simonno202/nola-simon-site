@@ -1,0 +1,314 @@
+{
+ "number": null,
+ "slug": "can-ai-improve-recruiting-and-retention",
+ "title": "Can AI Improve Recruiting and Retention?",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Todd Raphael",
+  "title": "Eightfold AI (at the time of recording)",
+  "org": "Eightfold AI",
+  "credentials": "Was with Eightfold AI when this episode was recorded — a talent-intelligence platform that matches people to roles by skills and potential, drawing on career-path data from more than a billion people",
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/toddraphael/",
+   "website": null
+  }
+ },
+ "publishDate": "2022-02-17",
+ "publishDateHuman": "February 17, 2022",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": "22 min",
+ "durationISO": "PT21M53S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/us/podcast/can-ai-improve-recruiting-and-retention/id1602822494?i=1000551342702",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Recorded in early 2022, in the show's first season — back when it was still The Janus Oasis — this is the episode Nola has cited most since. Todd Raphael, then with talent-intelligence platform Eightfold AI, lays out what changes when hiring runs on skills and potential instead of who-knows-who: the applicant tracking system holding a million ignored resumes becomes a pipeline, teachers become product trainers, furloughed cabin crew become a delivery workforce, and a reorganization that would have cut people redeploys them instead. The bias conversation is unusually concrete — vendor demos that promise to clone your top performers from one company's data, versus inferring potential from a billion career paths — and the episode lands on the claim that gives it staying power: used honestly, the technology frees recruiters to be more human, not less.",
+ "takeaways": [
+  "People are modest: veterans and teachers carry second-nature skills they never put on a resume, and skills inference exists precisely because humans under-report what they can do.",
+  "The applicant tracking system is a warehouse, not a pipeline — one company found a million past applicants nobody had looked at until the system could match them to open roles.",
+  "Career growth inside a company runs on water-cooler moments and happy-hour tips — exactly the channels remote and hybrid workers are cut off from unless the matching moves into a system everyone can access.",
+  "Show employees the gap, not just the ladder: profile where they are, name the role they want, and surface the courses, mentors, and projects that close the distance.",
+  "Cloning your high performers from one company's data exacerbates bias; inferring potential from a billion career paths widens the pipeline instead.",
+  "Calibrate job requirements to what's learnable — requiring one exact computer language filters women out disproportionately, when the data shows the second language comes within months.",
+  "Every hiring decision stays human: the system takes the administrivia — screening, scheduling, matching — so recruiters finally have time for the human work they always said they wanted to do."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "0:38",
+   "question": "What does Eightfold AI actually do?",
+   "answer": "It uses artificial intelligence to break every employee and every candidate down into their skills and their potential to do a role — instead of who knows who, who came from the same company, or who happens to be in the same city. Every employment decision, pre-hire and post-hire, runs on that basis, with the aim of reducing the bias that comes from the informal versions of those decisions."
+  },
+  {
+   "timestamp": "2:43",
+   "question": "Why does this matter more in a remote or hybrid world?",
+   "answer": "Because the things that build a career — projects, mentors, internal jobs, courses — mostly travel through water-cooler moments, happy-hour tips, and knowing someone from the same college. Remote and hybrid workers are structurally cut off from those channels. When skills are inferred and matching happens in a system, an employee's visibility no longer depends on who they physically run into."
+  },
+  {
+   "timestamp": "4:16",
+   "question": "What actually happens to the resumes companies promise to keep on file?",
+   "answer": "Mostly nothing — applicant tracking systems are systems of record, good at storing applications and rarely revisited. One auto-parts company connected its ATS to the platform and found a million past applicants it had effectively been ignoring because it had no way to match them to future openings. For current employees, the same logic runs forward: build a profile, name the next role, and the system shows the overlap, the gap, and what closes it."
+  },
+  {
+   "timestamp": "8:38",
+   "question": "Can skills matching actually save jobs?",
+   "answer": "Two cases from the episode: a medical-device company in reorganization matched the skills of people slated for elimination against roles it was hiring for at the same time — and tripled the number of people it redeployed instead of cutting. A discount airline that furloughed thousands when the pandemic hit used skills matching to move cabin crew into its new food-delivery and financial-payments businesses, taking people off furlough instead of hiring strangers."
+  },
+  {
+   "timestamp": "10:17",
+   "question": "How do you keep AI from making hiring bias worse?",
+   "answer": "Todd had sat through hundreds of vendor demos, and some promised exactly the wrong thing: cloning your existing high performers from your own company's data, which bakes your current workforce's skew into every future hire. The alternative is inferring skills and potential from career paths across more than a billion people — and calibrating job requirements to what's learnable. If men disproportionately know one computer language and the data shows the second language comes in a couple of months, requiring the exact language is a bias, not a standard."
+  },
+  {
+   "timestamp": "17:53",
+   "question": "What can governments do with this for the long-term unemployed?",
+   "answer": "Eightfold was working with a Scandinavian country and with states like New York and Indiana to re-describe what laid-off workers actually know. A trucker or restaurant general manager of twenty years believes all they know is trucking or food — when what they know is logistics, customer service, inventory, budgeting, and managing people. Todd told the story of a restaurant worker who'd lost her job in the pandemic and, quite reasonably, didn't want to get back on her feet — she landed with New York State and then Verizon on the strength of skills she already had."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:00",
+   "label": "Another episode of The Janus Oasis"
+  },
+  {
+   "time": "0:38",
+   "label": "Skills and potential, not who-knows-who"
+  },
+  {
+   "time": "1:29",
+   "label": "People are modest: veterans and teachers"
+  },
+  {
+   "time": "2:43",
+   "label": "The water-cooler problem in hybrid work"
+  },
+  {
+   "time": "4:16",
+   "label": "A million applicants nobody looked at"
+  },
+  {
+   "time": "6:39",
+   "label": "Gap analysis: courses, mentors, projects"
+  },
+  {
+   "time": "8:38",
+   "label": "Reorgs and furloughs: redeployment that saves jobs"
+  },
+  {
+   "time": "10:17",
+   "label": "Bias: a billion career paths vs. cloning top performers"
+  },
+  {
+   "time": "17:53",
+   "label": "Governments and the long-term unemployed"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:00",
+   "speaker": "Nola Simon",
+   "text": "All right. So thank you for joining us. This is another episode of the Janus Oasis. I'm Nola Simon And joining me today is Todd Raphael from Eightfold AI. And talking to I'd really love to know more about what your company actually does in the recruitment"
+  },
+  {
+   "time": "0:38",
+   "speaker": "Todd Raphael",
+   "text": "space. Sure. Thanks. Eightfold AI is a company that uses artificial intelligence to help companies manage people, hire people. So that everything that you do when you use our technology has done looking at people's skills and their potential, instead of who knows who, or instead of who came from the same company or who's geographically in the same location, it breaks down every employee and every candidate for that matter into their skills and their potential to do a role so that all the employment decisions pre hire and post hire are all done again, based on someone's skills and their potential. And reducing the bias that goes on in the workplace."
+  },
+  {
+   "time": "1:16",
+   "speaker": "Nola Simon",
+   "text": "Perfect. So that's really an opportunity really to improve diversity and inclusion within a company because you're identifying skills and abilities that somebody might have, that they may not even consider."
+  },
+  {
+   "time": "1:29",
+   "speaker": "Todd Raphael",
+   "text": "A few people lie, but most of us are modest, right? So I'm not particularly many of the people that employers most want, see a military veteran, which, everyone says they want, but then when it comes to placing that veteran in a job, a lot of employers and veterans for that matter are sometimes at a loss like how to fit that person in. And part of that is because people are modest. They're doing things in the military every day that are like second nature or say a teacher teachers are able to translate really complex, simply in dealing with a lot of people who are distracted. And those are really valuable skills that could be used in a corporation as say like a product trainer, but most teachers don't have on their application. I'm able to translate complex skills simply or have on their bio or the resume because it's second nature to teachers. We're modest. We humans being. So I think, yeah, for the for a great extent, a lot of us don't really have a clear sense of even what we all know, what we all can do. And that's where the AI can infer. Cause it's crunched so much data, like more than a billion people, much of the working world. And so it can see patterns. What people succeed in what role."
+  },
+  {
+   "time": "2:43",
+   "speaker": "Nola Simon",
+   "text": "So really it's also a way that people become visible and empower themselves. Because you're not just limited to random introductions or, the apocryphal water cooler moments who you happen to run into when somebody happens to take a break at the same time you do, you're visible in a way that could be really helpful in a remote or hybrid world."
+  },
+  {
+   "time": "3:02",
+   "speaker": "Todd Raphael",
+   "text": "Think about like the things that happen when you have a job you take on work like projects you find mentors or friends network you find internal jobs, external jobs, you take courses. Sometimes all of those things are essentially done. Typically the way that you just described and they're done by like water cooler there, you hear about a job at happy hour. Do you know someone that came from the same company or the same college as you? And they say something like, Hey, do you want to work on this site, launch with me or something? Or Hey, I know that, a little bit of Spanish Todd, you'd be good at this. So that's how things happen. Informal water cooler same geographic location, that kind of thing. And AI can help change all of those things. I named courses, mentors, mentees, internal mobility short-term projects. A lot of times companies will go out to a temp company or like one of these digital platforms like Upwork or Fiverr or one of those. And they'll go find someone in the employees sitting there going, wait a second. I have. The skills to do that job, but my employer doesn't have any idea of it. So the AI can handle all of this because employees skills are inferred. Employees can build profiles and showcase all of what they can do at an employer. And democratize the workflow, the workforce and the work being done."
+  },
+  {
+   "time": "4:16",
+   "speaker": "Nola Simon",
+   "text": "Yeah. But, and how does the system actually work with other systems that have had that information for years? Workday platform, for example, where, they've got your resume, you've updated your skills you've updated your education. And then you think that might eventually lead you into a career path that you want to get to. How does your system help with the existing systems that are already in place?"
+  },
+  {
+   "time": "4:39",
+   "speaker": "Todd Raphael",
+   "text": "A couple of things. One is for new hires companies that have a system that you mentioned, Workday companies have these resume tracking applicant tracking systems they're are mostly systems of record that they do well, that housing resumes and housing applications and keeping track of people. But for most companies, they don't access those systems and the people in those systems over time. So companies typically say to people, we'll keep your resume on file. And while we're rejecting you now, We'll look at it in the future for future openings, but they rarely do as employers complete injection, but with our system, Our customers go in and they access past applicants and often find them for future jobs. We had a company I talked about three months ago, which is a auto parts company and they hooked up their applicant tracks to the platform and found that there were a million people who they were basically adoring, basically, who they just were not able to find matches for and look at the potential of these people until they have the AI. That enable them to do that. And then going back to what you were talking about a minute ago with the current employees, what happens is every current employee builds a profile of themselves and they indicate a role they'd like to have next in the future. And then what the AI does is show them what skills they have now. And what skills are required in that next role and where there's a gap and that's where the AI kicks in and the platform kicks in and you find mentors, you find projects, you find new jobs, you find courses all based on where that gap is. So if I'm working in a bank for example, and I'm a systems administrator, and I want to be a cloud engineer, and there's some overlap between those jobs, it shows me the overlap. It also shows me where the gap is. So it says, oh, you, this court, this computer language. Picking up the second language and you might be well-advised to do so because that will help you get that cloud engineer role. So it sees the"
+  },
+  {
+   "time": "6:39",
+   "speaker": "Nola Simon",
+   "text": "way to supercharge, like a career path and really guide and coach and mentor people in a way that companies have never been able to do"
+  },
+  {
+   "time": "6:46",
+   "speaker": "Todd Raphael",
+   "text": "before. That's right. And most of our con our customers are in a position where they've they're really forced to do that in a way they are, banks were trying to keep up with fintechs they're clothing companies that are trying to be more trying to deliver different kinds of clothing because people are working at home. Food and restaurant companies that are having to deliver more and healthcare companies are having to do more telehealth and energy companies are having to do a lot more alternative energy and so on and so forth. And when you add that up, it's basically every company and they're all trying to shift the type of skills they have and their workforces. And again, how do you do that? You take the existing people you have, and you see where there's a gap between the skills that they have and what they need to take on. Most relevant, most valuable roles and you help them find those up-skilling and re-skilling opportunities, the opportunities to meet people, to find mentors, to take on projects, to take courses and everything else they need to do to move into these new roles."
+  },
+  {
+   "time": "7:41",
+   "speaker": "Nola Simon",
+   "text": "So can the system actually identify the people that would be the best mentors for that situation is"
+  },
+  {
+   "time": "7:47",
+   "speaker": "Todd Raphael",
+   "text": "yes. It shows you that Hey Todd, you're interested in being a Let's just say, I don't know, VP of user experience. And then it will say you have these skills and those skills that you want to add include I dunno, let's say advanced design or something, then it will show who it, my company knows advanced design and pop up the profile for me. Particularly if they've agreed to opt in to be amended."
+  },
+  {
+   "time": "8:11",
+   "speaker": "Nola Simon",
+   "text": "Oh, so they have to opt in to be the mentor. Okay, cool. That makes sense. You can see me a while. You can see me. This is a podcast. You can only hear me, but I'm really getting super excited at this whole idea of networking, because this is really like opening the door for those informational type interviews where people can really learn from each other and really help advise and just help one another, get to the next level. And that drives business. That's really super"
+  },
+  {
+   "time": "8:38",
+   "speaker": "Todd Raphael",
+   "text": "cool. And it also can, it can save jobs. Frankly, we had a customer who is a a medical device company who was going through reorganization, which they, which like many companies they do ever use several years. And they were able to see the skills that people have, who are going to be eliminated and the skills that they needed in jobs they were hiring for at the same time. And they ever they're able to shift some people from roles that were going to be eliminated and save those jobs and move them into open roles. And they tripled the number of people who they typically save and redeploy in a reorganization. We have another company I just talked to the end of last year. 2021. Who's just major discount airline. And when the pandemic hit, they were going, they not surprisingly. They furloughed thousands of people, but they had this idea that they would go into food delivery and financial payments and a local delivery, like Uber type stuff. But they had all these cabin crew people and, like flight attendants and whatnot, but they didn't necessarily have all of these food delivery and financial payments and Uber type people. So what they did was they were able to use the platform to see who had the similar skills and they were able to redeploy a lot of people and take them off a furlough and move into these new areas. So really saving money and saving jobs in the meantime,"
+  },
+  {
+   "time": "9:56",
+   "speaker": "Nola Simon",
+   "text": "But that's investing in human lives. Yeah that's really a great aspect of it that I never even considered. So in terms of fighting bias there's been questions about how AI is developed. What does Abe have in place to make sure that the systems that you're using the algorithms that you're using are free of."
+  },
+  {
+   "time": "10:17",
+   "speaker": "Todd Raphael",
+   "text": "I think technology can definitely be used to make bias worse. I've sat through hundreds of demos of products and, some of them would tell me that they. They try to clone your high-performers and you hire people who are like your high-performers and they often use datasets that were your high performers, but those are, it's a limited data set. We do a lot of things, but one of the things that we do is we have this massive data set instead of using one company's set of their data and try to like clone people or replicate people we're using the skills and the potential. More than a billion people. So we're saying, Hey, you want to hire someone or you want to promote someone you want to find, as I said, courses, or projects or mentors for someone it's based on the skills and potential, what we learned from a billion plus people in their career paths, not from one company which may be, which may exacerbate bias based on their employee population. That's right,"
+  },
+  {
+   "time": "11:10",
+   "speaker": "Nola Simon",
+   "text": "because you tend to hire people who look like you, who, you're familiar with who's fit your mentality of what success is."
+  },
+  {
+   "time": "11:17",
+   "speaker": "Todd Raphael",
+   "text": "Yes. But even beyond that, you tend to hire people. Who've done the job before. So you say we want a product trainer. You generally look for a product trainer. You don't typically look for. Someone who maybe was a teacher. You look, you hire an engineer and you want someone who knows that exact computer language that could buy us a women, because there are computer languages that men know highly disproportionate to women. And there are other computer languages that's not true, but with those other computer languages, our AI shows that you can quickly pick up the other the second language. So if one language and completely. Language to within maybe a couple of months or whatever it might be, then, you should possibly advertise your job and include as the calibration of what is needed in that job. The right criteria that doesn't bias, who you bring in that pipeline. It's all about hiring for potential, for hiring, for skills, hiring people who can do the job, not people who have done that exact job before not necessary. People who have the experience doing that exact thing before. In some cases, that's the case. It's people who have all the potential to do that thing."
+  },
+  {
+   "time": "12:28",
+   "speaker": "Nola Simon",
+   "text": "Very cool. So the companies that you work with, the the most successful companies that you work with who implement this, are these companies that are dedicated to learning and developing and working with the people that have. Are those the most successful companies, the companies that implement your services are these, the companies that tend to be dedicated to learning and developing and wanting to work with, existing people in career pathing, them and upskilling them. Is that mostly the type of client"
+  },
+  {
+   "time": "12:57",
+   "speaker": "Todd Raphael",
+   "text": "that you attract? Yeah. I I think our best customers have a skills culture. They have a culture where they are really thinking about. Who can, who has the skills potential to fill our roles? So we've had customer customers who have said to us we don't know, we meet, we need, we think we need 300 data scientists over the next three years. And we think we can fill some of those jobs from the outside. And we're able to say to them, yeah, There are some of those jobs you can feel from the inside because you have a lot of people in your workforce who may not have a job called data science, where they do have a skill. That's very similar in that all of our data show that people who have that skill can pick up data science pretty quickly. So again, our best customers are ones who see that link that you can see how to take people from roles that are very similar to the roles they need to fill and make that happen through up-skilling and re-skilling and everything. And going back to what we talked about earlier with applicant tracking systems, some of our best customers are looking first at their networks. They're saying, Hey, if you look at the people who applied before, if you look at the people who worked here before, if you look at the people who are referred here, employee referrals, if you look at the people who are doing contingent workforce, if you look at all of these populations, we have so many people in our next. That we're not really tapping into their skills potential, and they have all of those things to do our open roles. We just haven't really linked who has done a, that makes them capable to do B. And if we make that link, yeah, there are some jobs we need to go out and find someone. But most of our jobs we will to fill internally, whether that's internal employees, past applicants, past employees, contingent workers, employer referrals. And"
+  },
+  {
+   "time": "14:42",
+   "speaker": "Nola Simon",
+   "text": "all right. So you're really using the pipeline that you've already exists. You've got built and just bringing it to life and making the recruiter's job, whether it's external or internal, that machines."
+  },
+  {
+   "time": "14:54",
+   "speaker": "Todd Raphael",
+   "text": "Yeah. And also just to go, even beyond that, what's really cool is some of our best customers can take their pipelines and send, use the AI to send tailored messages to those people. What happens with most companies right now is they'll send out like a, and you've probably seen these like a monthly newsletter or something where I'll tell you about. What's happening in the company and volunteer activities that employees are doing, and maybe they'll list them, open jobs are linked to them. But what some of our best customers are doing is they're actually tailoring their messages to people that the AI shows are the best matches to certain roles. So it'll say who's like a five or a four star match out of five to a given role. And maybe who's in engineer in Florida or something, for example, and they'll send out a tailored message to that group and they get much better results. Would that kind of approach them with this kind of one size fits all approach. Yeah. Because it's"
+  },
+  {
+   "time": "15:45",
+   "speaker": "Nola Simon",
+   "text": "being personalized. Yeah. That's really cool. And just to be clear, just like ATS is not a computer rejecting people, AI isn't like a system that rejects anyone either. There's always a human component using the data that the system."
+  },
+  {
+   "time": "16:03",
+   "speaker": "Todd Raphael",
+   "text": "That's right. I don't think we have any customers and we, to be clear, we don't have any customers who are like eliminating the human from the equation. They're all making decisions by humans. Should we hire this person? Should we promote this person? Should we take, give this person a co project, the short project. All of the decisions our customers are making by humans. Now, though, I would say that our customers are able to free up a lot of their time to do the stuff that recruiters have for years talked about. The human work of recruiting and HR, they've never been able to do it because they're always stuck with the, administrivia always stuck with things like interview scheduling and screening thousands of resumes. They don't really spend more than a second with getting that down to a smaller number. Like all of those activities have taken the human out of the equation actually, because. Recruiters and HR been bogged down where these kind of administrative activities and actually our customers, interestingly enough, have become more human because they've been able to do the things they've been wanting to do for years. Spend more time with candidates spend more time with the best candidates do market mapping, where they can see what the supply of good talent is in certain area, a country or region or things like that are the discount airlines been doing that. It's. Ironic, but in some cases, the technology has freed up people's time to be more human."
+  },
+  {
+   "time": "17:21",
+   "speaker": "Nola Simon",
+   "text": "And it makes sense because it's a tool that's designed to really do the grunt work and then free people up to do what they're best at, which is what humans do. Yeah. That makes complete sense. That's awesome. And then when we had our brief chat earlier, you mentioned that it can actually go beyond an individual company to, and even be something that can be. Repurposed for like government purposes to really identify skills and abilities that exist within long-term unemployed and help people who really need out."
+  },
+  {
+   "time": "17:53",
+   "speaker": "Todd Raphael",
+   "text": "What we're working with the country and Scandinavia, we're working with states, provinces in north America, like New York and Indiana. And. We're helping them see how people can be employed and redeployed and re-employed. So take, for example, a trucking employee who's been trucking for 20 years. Take a restaurant employee. Who's been General manager for 20 years, a hotel employee, rental car, all of these people feel like, oh, all I know is let's say food, they're frustrated. They think that because they have been laid off their opportunities are limited. In many cases, they have been in the past, but what we've been working. Individuals and with these states, province, states and countries and so on is to show how people can be transferred into different kinds of careers. What you may have thought you only knew was food rental cars. Restaurants, trucking and so on, but you actually know customer service, logistics, morale, hiring, you might know inventory, you might know budgeting. And so on. You might know time management, project management, managing people, and all of these skills can be redeployed into other jobs at a a telecom company, like a Verizon or at a grocery store or at a coffee place or at an office environment. All of these are valuable skills. They just need to be. Broke it down into what the AI shows people can do. What people's skills are, what people's potential are. So again, we've been working with governments basically to help them get people back to work."
+  },
+  {
+   "time": "19:18",
+   "speaker": "Nola Simon",
+   "text": "Yeah. And it's really just about like, how do you re-imagine how do you repackage what you already know and the skills that you have and be able to apply that to something new that may not have even existed when you started your career."
+  },
+  {
+   "time": "19:33",
+   "speaker": "Todd Raphael",
+   "text": "I was during the pandemic. I was talking a lot to this lady who was in the restaurant. Business. And she lost her job and she was turning it back on her feet. But she was literally not trying to get back on her feet because it's exhausting being on your feet for so many years. So she was able to get you see eventually got in with New York state as an employer then later with, I think it was Verizon, but yeah. She was able to just take these skills working with people and redeploy them with us annoying people who deal with telemarketers and. Patient and can do, can deal with us, calling her for our customer service complaints. Yeah."
+  },
+  {
+   "time": "20:10",
+   "speaker": "Nola Simon",
+   "text": "Patience is a wonderful skill set. Yeah. Yeah. And that's the thing. If people, you can work almost any industry. That's great. Is there anything you wish people knew about what you do that we haven't talked about?"
+  },
+  {
+   "time": "20:24",
+   "speaker": "Todd Raphael",
+   "text": "Just, I'd say to reiterate what we just talked about, which is that technology absolutely can oddly enough, interestingly enough, and ironically enough can actually bring the human back into so many of the ways that we deal with people, manage people, hire people. And so that to me is one of the best things about technology is to. Allow people the time and the bandwidth to actually deal with other humans in a way that they haven't in so long, because they've just spent their time doing other things. So that to me is one of my favorite things about technology is how it can, oddly enough, bring the human back."
+  },
+  {
+   "time": "20:56",
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, I think that's perfect. I think that's a great way to look at it. All right. I think we'll wrap up there, but thank you so much for joining me. It's been enlightening. And in case you wondered how we met on Twitter. Follow Todd on Twitter, I will make sure that his information is in the the show notes. And is there another color that you'd like to. Anybody to know about you,"
+  },
+  {
+   "time": "21:16",
+   "speaker": "Todd Raphael",
+   "text": "Twitter's gray or Eightfold dot AI. I'm on LinkedIn obviously, and I'm happy to connect with anyone. Awesome."
+  },
+  {
+   "time": "21:23",
+   "speaker": "Nola Simon",
+   "text": "I will make sure that's all available for you. All right. Thank you again, Todd. It's been a pleasure. All right."
+  }
+ ],
+ "hostNote": "This is an early episode from the show's first season, when it was still called The Janus Oasis — and it's the conversation I've reached for most often since. When Sweta Regmi and I dug into AI hiring bias a year and a half later, this was the episode I cited. Todd changed jobs after we recorded and let me keep the episode live — thank you, Todd. We met on Twitter, which tells you something about the era.",
+ "ctaQuote": {
+  "text": "Ironically enough, technology can actually bring the human back into so many of the ways that we deal with people, manage people, hire people.",
+  "source": "Todd Raphael"
+ },
+ "resources": [
+  {
+   "label": "Eightfold AI",
+   "type": "Website",
+   "url": "https://eightfold.ai",
+   "note": "The talent-intelligence platform discussed in this episode."
+  },
+  {
+   "label": "Todd Raphael on LinkedIn",
+   "type": "LinkedIn",
+   "url": "https://www.linkedin.com/in/toddraphael/",
+   "note": null
+  }
+ ],
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Bias in AI: How Does AI Impact Job Seekers? — Sweta Regmi, citing this episode",
+   "url": "/podcast/bias-in-ai-how-does-ai-impact-job-seekers"
+  },
+  {
+   "title": "The Algorithm: How AI Decides Who Gets Hired — Hilke Schellmann",
+   "url": "/podcast/the-algorithm-how-ai-decides-who-gets-hired"
+  },
+  {
+   "title": "The Assumption-Ground Audit",
+   "url": "/aga"
+  }
+ ]
+}
