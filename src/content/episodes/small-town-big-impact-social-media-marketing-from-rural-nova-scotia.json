@@ -11,10 +11,13 @@
  },
  "guest": {
   "name": "Ingrid Deon",
-  "title": "Marketing Agency Founder & CEO",
-  "org": null,
-  "credentials": "Nominated by Ernst & Young for Entrepreneur of the Year · Runs an organic social media agency from Yarmouth, Nova Scotia with an all-rural team",
-  "links": null
+  "title": "Founder & CEO, word-craft",
+  "org": "word-craft",
+  "credentials": "Nominated by Ernst & Young for Entrepreneur of the Year · Serves national clients including Nestlé Canada and RBC Wealth Management from Yarmouth, Nova Scotia",
+  "links": {
+   "linkedin": "https://ca.linkedin.com/in/ingriddeon",
+   "website": "https://www.word-craft.ca/"
+  }
  },
  "publishDate": "2024-11-26",
  "publishDateHuman": "November 26, 2024",
@@ -255,7 +258,20 @@
  ],
  "hostNote": null,
  "ctaQuote": null,
- "resources": null,
+ "resources": [
+  {
+   "label": "word-craft",
+   "type": "Website",
+   "url": "https://www.word-craft.ca/",
+   "note": "Ingrid's organic social media agency in Yarmouth, Nova Scotia."
+  },
+  {
+   "label": "word-craft on Instagram",
+   "type": "Social",
+   "url": "https://www.instagram.com/wordcraftinc/",
+   "note": null
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": [
   {
