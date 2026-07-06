@@ -1,5 +1,5 @@
 {
- "number": null,
+ "number": 106,
  "slug": "lets-talk-thought-leadership-and-podcasting-in-canada",
  "title": "Let's Talk Thought Leadership and Podcasting in Canada",
  "show": "Hope + Possibilities",
@@ -13,15 +13,18 @@
   "name": "Amanda Cupido",
   "title": "Founder, Lead Podcasting",
   "org": "Lead Podcasting",
-  "credentials": "Author of Let's Talk Podcasting and Let's Talk Podcasting for Kids · TEDx speaker · Making podcasts since 2010",
-  "links": null
+  "credentials": "Founder of Lead Podcasting · Author of Let's Talk Podcasting and Let's Talk Podcasting for Kids · Broadcaster, keynote speaker, and TEDx presenter",
+  "links": {
+   "linkedin": "https://ca.linkedin.com/in/amandacupido",
+   "website": "https://www.amandacupido.com/"
+  }
  },
  "publishDate": "2025-10-31",
  "publishDateHuman": "October 31, 2025",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "59 min",
+ "durationISO": "PT59M24S",
  "listen": {
   "apple": null,
   "spotify": null,
@@ -1419,8 +1422,54 @@
   }
  ],
  "hostNote": null,
- "ctaQuote": null,
- "resources": null,
+ "ctaQuote": {
+  "text": "We didn't get silenced. We picked up a microphone.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": [
+  {
+   "label": "Let's Talk Podcasting: The Essential Guide to Doing It Right (book)",
+   "type": "Book",
+   "url": "https://www.indigo.ca/en-ca/lets-talk-podcasting-the-essential-guide-to-doing-it-right/9781069089809.html",
+   "note": "Amanda's Canadian podcasting guide, second edition."
+  },
+  {
+   "label": "Let's Talk Podcasting for Kids (book)",
+   "type": "Book",
+   "url": "https://www.indigo.ca/en-ca/lets-talk-podcasting-for-kids/9781069089830.html",
+   "note": "For ages 5-8 — the book discussed in the episode."
+  },
+  {
+   "label": "Let's Talk Thought Leadership (Amanda's new podcast)",
+   "type": "Podcast",
+   "url": "https://podcasts.apple.com/us/podcast/lets-talk-thought-leadership/id1849322663",
+   "note": "The show announced for the first time in this episode."
+  },
+  {
+   "label": "Let's Talk Podcasting — workshops and resources",
+   "type": "Website",
+   "url": "https://www.letstalkpodcasting.com/",
+   "note": null
+  },
+  {
+   "label": "Malcolm Gladwell on The Diary of a CEO",
+   "type": "Podcast episode",
+   "url": "https://podcasts.apple.com/us/podcast/malcolm-gladwell-working-from-home-is-destroying-us/id1291423644?i=1000570664675",
+   "note": "The remote-work exchange discussed in the episode."
+  },
+  {
+   "label": "Brené Brown and Adam Grant on the skill sets of empathy",
+   "type": "Podcast episode",
+   "url": "https://podcasts.apple.com/us/podcast/bren%C3%A9-and-adam-grant-on-the-skillsets-of-empathy/id1730985049?i=1000731952564",
+   "note": null
+  },
+  {
+   "label": "Louis Tomlinson on The Diary of a CEO",
+   "type": "Podcast episode",
+   "url": "https://podcasts.apple.com/us/podcast/louis-tomlinson-the-room-was-cold-that-day-when/id1291423644?i=1000730938704",
+   "note": null
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": null
 }
