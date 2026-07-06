@@ -1,0 +1,732 @@
+{
+ "number": null,
+ "slug": "ehm2-legacy-reinvention-and-the-power-of-speech",
+ "title": "Ehm2 — Legacy, Reinvention and the Power of Speech",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Erica Ehm & Leslie Ehm",
+  "title": "Co-founders, M2",
+  "org": "M2",
+  "credentials": "Erica: MuchMusic VJ turned founder of YMC (Yummy Mummy Club) · Leslie: author of Swagger, presentation and creativity trainer for companies including Disney and Google",
+  "links": null
+ },
+ "publishDate": "2023-03-14",
+ "publishDateHuman": "March 14, 2023",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": null,
+ "durationISO": null,
+ "listen": {
+  "apple": null,
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Erica Ehm and Leslie Ehm — sisters, broadcasters, and now co-founders — give their first-ever joint podcast interview as they launch M2, a presentation-skills venture built on a premise the training world almost never sees: two senior trainers in the room, cohorts of six, sold directly to individuals. The conversation covers what made Erica's Kurt Cobain interview endure, why listening is a speaker's secret weapon, the summer-camp childhood that built both sisters' confidence, and Leslie's frank accounting of why retirement isn't in her plan: a daughter who will always need her support. Underneath runs the sister dynamic itself — the quiet black sheep and the loud one, one plus one equals six.",
+ "takeaways": [
+  "Test a business idea in public before building it — one LinkedIn post asking 'what if?' drew the response that made M2 real, and the name, logo, and site followed within a day.",
+  "Run every post as the start of a conversation: social media is not a push channel, and the people who use it to promote others build the most durable audiences.",
+  "Interview reluctant people by dropping the media questions — Erica Ehm's Kurt Cobain interview endures because she asked him what he read and what made him happy.",
+  "Name listening as the speaker's secret weapon — leaders who stop hearing their staff, clients, and critics fail wildly, and presenting well starts with the same skill.",
+  "Map your working life around real obligations rather than the retirement script: a child who will always need financial support changes the math, and reinvention becomes the plan.",
+  "Model complementary strengths instead of smoothing them over — an introvert who gets to the point and an extrovert in capitals and exclamation marks add up to more than two trainers.",
+  "Audit the 'she got lucky' story against the record: behind the nepotism smear was a teenager volunteering at radio stations and writing a newspaper column because nobody else would."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "6:45",
+   "question": "What is M2, the Ehm sisters' new venture?",
+   "answer": "M2 — M squared, 'M to the power of two' — is the first business Erica and Leslie Ehm have built together: presentation and speaking training with individual feedback throughout, delivered to cohorts of just six people with both sisters in the room the whole way through. Two trainers of that caliber together is something Leslie never saw in 15 years of corporate training, and it's aimed directly at individuals rather than the big companies that could previously afford this level of work."
+  },
+  {
+   "timestamp": "15:56",
+   "question": "Why is listening a speaker's secret weapon?",
+   "answer": "Because everything else depends on it. Erica Ehm credits listening — on social media, in interviews, in the room — as the skill behind her career: being fully present with a person rather than rehearsing your next question. It scales up to leadership: you have to know what your staff, community, clients, and even competitors are thinking, and leaders who believe they already know it all fail wildly."
+  },
+  {
+   "timestamp": "27:16",
+   "question": "How do you interview someone who doesn't want to be interviewed?",
+   "answer": "Talk to them like a human being. Facing Kurt Cobain on the In Utero press junket — a private person doing twenty interviews a day — Erica Ehm asked him what books he read and what made him happy instead of the standard media questions. Genuine curiosity reads completely differently from intrusion, and that conversation is now featured in the book Kurt Cobain: The Last Interview."
+  },
+  {
+   "timestamp": "23:02",
+   "question": "What is social media actually for?",
+   "answer": "Conversation, not promotion. Every post should carry the intent to start a conversation, gather feedback, or build a relationship — the opposite of treating platforms as a push channel for yourself. The model both sisters point to is promoting other people first: spark the conversation around the topic, support the people in it, and mention your own work last."
+  },
+  {
+   "timestamp": "30:22",
+   "question": "Where does lifelong stage confidence come from?",
+   "answer": "For the Ehms, a childhood at Camp Kennebec — the summer camp their mother co-founded — where everyone did announcements, plays, and talent shows, and nobody learned to fear a stage. Their non-conformist parents built a small utopia where being yourself was the norm, and their quietly subversive mother modelled the risk-taking both sisters run on. Leslie's observation: meet a confident adult and ask — summer camp is usually in the story."
+  },
+  {
+   "timestamp": "36:57",
+   "question": "Why isn't retirement part of every plan?",
+   "answer": "Leslie Ehm's younger daughter, adopted from China, has a mild intellectual disability — at 14 she reads at a grade-three level, her earning potential will be limited, and she will always need financial support. That means the travel-and-retire script is gone: the only lasting protection a parent can build is money, so the plan becomes working indefinitely at things that serve a purpose, and reinventing as many times as it takes. Nine careers in, Leslie is on the model's proof."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:00",
+   "label": "Two decades of social media friendship"
+  },
+  {
+   "time": "5:39",
+   "label": "M2: why the sisters are finally working together"
+  },
+  {
+   "time": "10:40",
+   "label": "Inside the program: cohorts of six"
+  },
+  {
+   "time": "15:56",
+   "label": "Listening as the secret weapon"
+  },
+  {
+   "time": "23:02",
+   "label": "Social media as conversation, not push"
+  },
+  {
+   "time": "25:50",
+   "label": "The George Michael question — and Kurt Cobain"
+  },
+  {
+   "time": "30:22",
+   "label": "Camp Kennebec: where the confidence comes from"
+  },
+  {
+   "time": "36:57",
+   "label": "Why retirement isn't the plan"
+  },
+  {
+   "time": "48:49",
+   "label": "Power turned outward: portraits, causes, fierce sisterhood"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:00",
+   "speaker": "Nola Simon",
+   "text": "Thank you so much for joining the Hybrid Remote Center of Excellence. I'm Nola Simon, and I'm your host, and today I'm really excited because I have two people that I've made friends with over social media, LinkedIn, Instagram, and Facebook for. Decades, really. So I'm gonna tell that story in a little bit, but I'd like to welcome Erica m and her sister Leslie M"
+  },
+  {
+   "time": "0:23",
+   "speaker": "Leslie Ehm",
+   "text": "Hello. Hi, ."
+  },
+  {
+   "time": "0:26",
+   "speaker": "Nola Simon",
+   "text": "Thank you so much. Um, now Erica m is honestly often introduced as a person who needs no introduction, but if you only know her from much music, you have missed some of the most impactful work that she's done. So thank you."
+  },
+  {
+   "time": "0:43",
+   "speaker": "Erica Ehm",
+   "text": "Have you, oh my God, NOLA, thank you. Really appreciate that."
+  },
+  {
+   "time": "0:49",
+   "speaker": "Nola Simon",
+   "text": "Well, and I loved much. I adored you. Uh, you were my connection to music because especially with my hearing, I'm deaf in one ear. My mom is really super protective of my hearing. So I went to a Glass Tiger concert when I was a teenager, and I was it, and then I got to go to a blue rodeo a couple of times when I was like in my early twenties. And then I had kids. Well, you know, so VJs were my insight into the world, right? So I adored your work with much, don't get me wrong. I did. , I really never really understood a lot of what you started doing until they really started following you on social media. So you started a company called Amco, which is a digital agency working with like mom's social group. My daughter was born in 2005 and you started that company in 2006, right? That's right. So I was part of Yummy Mummy going way, way, way back. Right. And it was like a world that opened up to me because again, I live in Kaza. . I don't necessarily, I've lived here all my life, but my, the people that I knew all did different types of work and so I lost touch with a lot of people that I knew who lived here, right? Because I was commuting constantly to Toronto. And so social media and Facebook was a way that I actually got to know a lot about how other mothers across Canada we're actually interacting. And so Yummy Mummy was, , even just like the tweets for mothers was just really helpful, ,"
+  },
+  {
+   "time": "2:13",
+   "speaker": "Leslie Ehm",
+   "text": "and"
+  },
+  {
+   "time": "2:13",
+   "speaker": "Erica Ehm",
+   "text": "you're so happy to hear that because. You know, that that was, um, and still is, uh, a, a really important component of who I am. I guess my purpose is to use my voice to help people connect and learn and be inspired, be motivated, and really to know that they're not alone. So it worked. Yes, it did."
+  },
+  {
+   "time": "2:33",
+   "speaker": "Nola Simon",
+   "text": "It did definitely work. But I had no concept of everything that you were doing behind the scene until we met on Linked. Right. And I had no concept about all of the work that you did with brands and B2B and content marketing, but also education and, and promoting causes, um, and really like advancing women and, and even just the commitment of how you ran that business to, you know, hire mothers, allow them to work from home, work remotely. Like that's groundbreaking stuff. When we connected on LinkedIn, it was like, cool, this is Eric. Um, this is much music, but I had no understanding of everything else that you did. So it really shine a light on me. And then, um, I met your sister and."
+  },
+  {
+   "time": "3:23",
+   "speaker": "Leslie Ehm",
+   "text": "She's, she's so"
+  },
+  {
+   "time": "3:24",
+   "speaker": "Erica Ehm",
+   "text": "cool. She really is. Well, we have to say her name. It's Leslie M. It is Leslie. Thank you. Leslie m who does not need introduction as well. But go ahead and you can"
+  },
+  {
+   "time": "3:34",
+   "speaker": "Leslie Ehm",
+   "text": "talk about, you can talk about me now. Yeah, yeah,"
+  },
+  {
+   "time": "3:36",
+   "speaker": "Nola Simon",
+   "text": "go ahead. This is my summary. So once, once Eric and I connected, I usually, when I connect with people, I start noticing like who else they interact with, right? So then it's like, oh, okay, she has a sister. I didn't even know that, right? But Leslie Am was also in tv, but in the uk. , right. So you've been a t A TV presenter as well, but you also run a training agency and you teach global corporations, and I'm talking like big corporations like Disney Creativity and Leadership. How do you walk into Disney and teach them about creativity? , right? That tells you everything you need to know about Les Leslie. Um, and then she wrote this book called Swagger and like, let me tell you like, it's so inspirational because we met kind of right around when your book was released, right? Mm-hmm. , and you were doing all of the media for that. And I was like, oh, cool. So I read the book, I reviewed the book, but she responds. And that's what people, I love people who actually respond on social media too, and interact and, and what's really interesting to me is you can tell. who people are by the way that they interact with the people that they meet on social media. And so Erica is, is usually very responsive, but usually fairly short and to the point in, uh, in your responses, Leslie, there's like exclamation marks and there's capitals and there's just"
+  },
+  {
+   "time": "4:55",
+   "speaker": "Leslie Ehm",
+   "text": "it's art, emojis and exactly's. You're so"
+  },
+  {
+   "time": "4:59",
+   "speaker": "Erica Ehm",
+   "text": "insightful. Moola, you are so insightful because the way that we communicate. Absolutely different. I'm completely introverted. I'm quite protected. Um, I get to the point I kind of feel like, you know, in quotation man, uh, mark's like a man to a certain degree. I'm very not flowery. Um, and my sister is the absolute opposite of me. And because it is absolutely true for who she is since she was a. That is so insightful of you. Nula. Really? . That's very cool. Well, I"
+  },
+  {
+   "time": "5:39",
+   "speaker": "Nola Simon",
+   "text": "just go by what, what I noticed, right? And so this is where, when you announced M squared, which is your new, uh, company, uh, to, uh, teach speaking skills and, and really train people how to interview and, and interact. I thought this was a fascinating thing just because I know the dynamic between you and, and something about your personalities and, and how your skills really compliment each other, and so I thought that was a fabulous. Wonderful idea. And then when that, uh, post came up, TD was actually looking for people to be on their podcast. And it's not like you need me to introduce you to TD because you both have already worked with TD . But I'm like, Hey, if there's content out there, I'd love to see Eric and her sister do this because I know they're starting this new business. Then. . Anyways, you guys jumped all over that, which is great. And um, but then I'm like, wait a minute, I don't have to wait for td. I have a podcast. Why don't I That's right."
+  },
+  {
+   "time": "6:33",
+   "speaker": "Leslie Ehm",
+   "text": "What you waiting for?"
+  },
+  {
+   "time": "6:34",
+   "speaker": "Nola Simon",
+   "text": "Exactly. That's right. So I sent them a note and I'm like, Hey, I don't mean to push it, but like, Hey, would you like to do my podcast? And you guys are like, sure."
+  },
+  {
+   "time": "6:45",
+   "speaker": "Erica Ehm",
+   "text": "Well, you're the first person that we're going to talk. this new initiative. And it's funny as you were, this is brand new obviously, and yes, it's m squared and I was also thinking cuz it's really M two, which is m squared, but it's really m to the power of two, right Leslie, when you think about it. Mm-hmm. , the company's not called M to the power of two. But really that is the essence of what it is. That's why it's m squared because the two of us together, uh, basically are unstop. and we, we, uh, managed to discuss sort of the range of insights, um, from again, an not just an introvert and an extrovert, but someone who has, uh, led intuitively, and then my sister, who is absolutely an intuitive leader. she is researched up the yin yang. So together, we just, I feel like we offer one plus one equals six. Yep. And"
+  },
+  {
+   "time": "7:49",
+   "speaker": "Nola Simon",
+   "text": "I'm a math geek. I, I majored in math. So for me, I'm like, cool M squared. That's like the perfect company title, right? So I love that. So I"
+  },
+  {
+   "time": "7:59",
+   "speaker": "Erica Ehm",
+   "text": "hate math though. Just wanna say you hate math Except when it involves money. Money, then, then I'm all."
+  },
+  {
+   "time": "8:06",
+   "speaker": "Nola Simon",
+   "text": "And you're all ears ."
+  },
+  {
+   "time": "8:08",
+   "speaker": "Leslie Ehm",
+   "text": "Well, everybody, yeah. We've never, we've never done anything together. I mean, it, it's amazing that our paths have, have been so parallel in so many ways and we've overlapped and, you know, all that stuff, but we've never really said, let's do something together. So it, to do it at this stage of our lives is super cool. We couldn't have done it 20 years ago. We would've killed each other. It never would've happened. Forget about it. But now I think, you know, our, our relat. It's always evolving and deepening and growing and all of that stuff, and I think we're at a place where we, we have such profound respect for each other, so much. We've always loved each other, but I mean, we're talking now a deep, you know, unbreakable, don't mess with my sister Owen, beat you up. You know, like a completely. Just an absolute respect and awe for each other's lives and values and accomplishments. And to be able to just play with her is part of the fun for me. I just get to hang out with my sister more, which is, which is amazing, and I think. People are gonna be blown away by, by the diversity of our perspectives and our experiences when we get them into these programs. I think it's gonna be pretty mind-blowing cuz listen, I've been training for 15 years. You never have two trainers in the room. A, it's way too expensive. Right. It's just not, it's not, doesn't make sense from a business perspective and also to have two trainer trainers at this, at this level, this caliber never happens. Doesn't happen. I be, you know, I mean, you know, I, I trained Google all over the world. I'm never in my wildest dreams when I brought two trainers in. This wouldn't, wouldn't"
+  },
+  {
+   "time": "9:49",
+   "speaker": "Erica Ehm",
+   "text": "happen. And Leslie, you also used the word diversity. I wanna add dynamic because it is not only going to be really informative and um, and, uh, participatory. But the dynamic between my sister and I will also be fully entertaining because we're both lit up and we both love to communicate, have fun, teach, learn, interact, communicate. We, we both do it really well and we do it differently. So I think people really will enjoy what we're"
+  },
+  {
+   "time": "10:24",
+   "speaker": "Leslie Ehm",
+   "text": "doing in the world watching the circus. . Exactly. ."
+  },
+  {
+   "time": "10:29",
+   "speaker": "Nola Simon",
+   "text": "Well, and it's interactive too, right? Like you're not just doing like an online course where people are doing it, um, you know, on their own time. Right? I think there's an element of that. But you're going to have like live sessions,"
+  },
+  {
+   "time": "10:40",
+   "speaker": "Leslie Ehm",
+   "text": "right? . Oh, no. They, they have us. They have us the whole time. The whole way through. Oh. It's, it's, it's a combination of training, training and coaching. Okay. And we really, our commitment is that when people finish this program, they come out the other end truly changed and better for the experience. They really have super concrete, um, skills, a deeper understanding of how they come across, because it's great for us, we're objective, right? They come into the room and we get to watch them do their thing. To see how they're coming across and help them to align their authenticity and their purpose to make sure that they're in their bodies and they're in their hearts, but they're also, you know, doing their thing at a, at a, I don't wanna say more professional, but I guess a more expert level. It's kind of, you know, it's, it's that masterclass kind of thing to be able to super upskill them and they leave hopefully trans. Yeah. And also I think,"
+  },
+  {
+   "time": "11:32",
+   "speaker": "Erica Ehm",
+   "text": "um, a word that you didn't mention Leslie, which I think is really important for us, is by doing all of those things, their confidence will rise because they will feel this inner strength, a better understanding of who they are as people, who they are in a boardroom, what their role is on a large stage. And when you have that confidence, then your whole, uh, persona. I don't even wanna use persona. That's the wrong word. In fact, it, you don't have to have a persona. No, no more persona. Yeah. You just become confident in yourself. You will be confident in your abilities to create, um, content that will move the needle because everything is based on sales like that, that we have to understand. when you do, uh, a speech or, um, present in a boardroom or even on a large stage, you could be selling a product. You could be selling an idea, or you could be selling yourself, your personal brand. So we need to understand, like really in, you have to understand it. Say it out loud, what are you trying to achieve here? And then let us help you. We're gonna walk you through all the different things that you need to keep in account, into account to be that. , um, to be able to move the needle in how people think about what you want them to think about."
+  },
+  {
+   "time": "12:57",
+   "speaker": "Leslie Ehm",
+   "text": "And the beautiful thing is too, that it's very small groups. So there's only, the cohort is only six people at a time, so you're gonna get a ton of feedback and a ton of time to practice and, and, and all that, that good stuff because for, for us, it's, I, you know, uh, that one of the greatest satisfactions that, you know, that Erica knows as well as that watching people evolve. Evolve and grow is the most satisfying thing ever. It feels so good to see that what you're doing for them is actually making a difference and helping them to evolve and bring out their true selves. Mean. You know, I, I, as I said before, I've been training presentation skills for about 15 years. , and I cannot tell you how many times I've cried in the room. I mean, everybody cries , and we all cry because we have these breakthrough moments that are incredible When people start to recognize their personal power and they start to understand that they're gonna be more successful by being their authentic selves as opposed to being less successful. It is the most liberating thing in the world, and I've watched people for this is the basis of my book. You know, I've watched people for 15 years have those. Those aha moments and the, the flood of emotion that just comes out when they realize just how powerful they are. That's a beautiful thing. We wanna give that gift to as many people as we possibly can. And"
+  },
+  {
+   "time": "14:16",
+   "speaker": "Erica Ehm",
+   "text": "it's interesting, Leslie, cuz you do a lot of one-on-one coaching with people. What I love about this, the fact that we're gonna have a cohort is you're gonna watch other people. You're gonna watch how they have their aha moments. You're gonna watch what they do and the coaching that we give them. Anything that we share with someone, you can apply to yourself. So I think that's gonna be a really useful thing cuz I'm in a, a course right now for writing a novel and part of the experience is working with all the other writers and hearing what the, the coach or the teacher, uh, shares with the other people. I learn as much from that as they, as they do. When they critique my work. And so I think that's a really important piece. So it's like, it's a great mix between having a one-on-one coaching and a large cohort. This is an intimate cohort where you get a lot of personal time, but you also get to experience other"
+  },
+  {
+   "time": "15:13",
+   "speaker": "Leslie Ehm",
+   "text": "people's journey. You don't even have to plan questions for us, Noah. We could just talk. We'll just talk, just hold up a word and, and just, that's"
+  },
+  {
+   "time": "15:22",
+   "speaker": "Nola Simon",
+   "text": "why I actually started a podcast was cause I wanted to become a better listener and learn how to balance. expressing my opinions and actually asking insightful questions. And so actually part of the reason that I actually approached you to was because this is a really putting myself on a hot seat to really put myself in front of one of Canada's most well-known interviewers, um, in front of expert speakers and say, Hey, I've been paying attention. Tell me do it . ,"
+  },
+  {
+   "time": "15:55",
+   "speaker": "Leslie Ehm",
+   "text": "you're, I think you're doing, you're doing great. You're doing"
+  },
+  {
+   "time": "15:56",
+   "speaker": "Erica Ehm",
+   "text": "great. I think you're doing honestly, doing great. You're right, because listening is, I think, the secret weapon, and it's sort of ironic that we're teaching presentation skills, which is the art of speaking, but really I would really like to do a course on how to listen because I think that has been, My secret weapon. I listen in social media, I hear what people are saying. I listen to people when I interview them. I actually pay attention like you're doing right now, Nolly. You're nodding your head. You're listening to what I'm saying. You're not thinking about what you're gonna ask me next. You're actually in the moment with me and learning, and perhaps you're gonna ask me another question based on what I'm saying. That's the power of"
+  },
+  {
+   "time": "16:41",
+   "speaker": "Nola Simon",
+   "text": "listen. , I watched an interview that you did with Amber Mack and some other ladies, uh, just recently, and I, I, I, I noticed this with Leslie as well. To you, you're both so generous in conversations. You look for ways to involve others within the conversations, and it's not just about you. And that's, that's a skill in itself."
+  },
+  {
+   "time": "17:03",
+   "speaker": "Erica Ehm",
+   "text": "Well, it's a life philosophy, , right? It's not just the way that we talk. I actually believe. , I am just a piece of something greater. You know, when I ran my business, when, when Y M C had a ton of people working for me, everybody was special because they actually were. And I couldn't have run the business without them. I just couldn't. And I feel like, you know, in this world of. Patriarchal leadership, if you will. And when I say patriarchal, it implies men, but it's, I don't just mean men, I just mean a, a style of leadership, which is not necessarily inclusive, which is sort of from top down. It's not, it, it's, it doesn't, it's not like a kibbutz in Israel where everybody feels an ownership and wants to contribute. And I feel like that's sort of my philosophy in life and listening. is the key to great leadership. You have to know what your staff is thinking. You have to know what your community is thinking. You have to know what your clients are thinking. You have to know what your F frenemies are thinking, what your competitors are thinking. You have to listen. If you don't listen, if you think you know it all, you will fail wildly as many companies are currently. because they feel like they, they know"
+  },
+  {
+   "time": "18:28",
+   "speaker": "Leslie Ehm",
+   "text": "it all. It's so interesting because, you know, one of, one of my superpowers, which, which is same and different from Erica's, is that I can read people. Oh yeah, she's like a witch. No, I, I , I really, I really can, like it's uncanny that I can talk to them for five minutes and figure out exactly what's going on under the surface. What are their issues? What are their fears? What are their pains? What are think? I think it's because I'm a massive empath and I kind of hone that skill over years, and it's what makes me particularly powerful and sought after in the training world because I can. Through the bullshit in two seconds and go, yeah, yeah, yeah. You know, that's fine. That's what your mouth is saying, but I can see what your body and your heart is saying. And I tell them what I'm seeing and people go, oh my God, oh my God, how do you, how can you see that? So my listening comes from like this weird little, these antenna that I put up and I sort of pick up on people's energy and. people don't see me coming because they haven't told me they don't think they've told me anything, and I've been cut right through it. And it freaks people out. Like, how did you know that? How could you, how could you see that? So it's a beautiful skill cuz Erica has way more patience than I do. That's probably also one of the reasons I developed this skill, cuz I wanna get to it fast. I don't want this long, protracted, let me interview you for nine hours so I can figure out what's going on, , which make me crazy, right? It's like I'm able to figure it out very quickly. And, but it's the same thing. It's our desire to know people, to understand people, to be in service of what is going to make them and the, the worlds that they're in better. And we just have a very different mo for, for how we do it. But that, that comes from our mother. We both got it. We both got our values. You know, and our purpose from our mother, no question. I mean, despite the fact that we are like the black and the white sheep, we are, we, we both come from the same flock, you know, the exact same. I'm a black sheep too. We're both black, we're both black sheep. We're black in different ways."
+  },
+  {
+   "time": "20:24",
+   "speaker": "Erica Ehm",
+   "text": "We're loud black, and I'm quiet black. But we both are certainly not mainstream people. We both have always. Not necessarily fit in. We, we tend to lead rather than follow."
+  },
+  {
+   "time": "20:37",
+   "speaker": "Leslie Ehm",
+   "text": "Yes. So we're not even sheep. Forget the sheep analogy. That analogy, analogy,"
+  },
+  {
+   "time": "20:43",
+   "speaker": "Nola Simon",
+   "text": "I think with goats would be better because you're, you're climbing walls and you're going places where, you know, nobody ever gave you permission to go. Right."
+  },
+  {
+   "time": "20:51",
+   "speaker": "Leslie Ehm",
+   "text": "100s percent. That's true. That's true. I"
+  },
+  {
+   "time": "20:53",
+   "speaker": "Erica Ehm",
+   "text": "think Leslie. . I think NOLA is not dissimilar to us, honestly. , I mean the witchy part. Yeah, because yeah. Yeah. As we're talking, you keep on responding with very insightful comments that imply that you're not just hearing us, but you understand a few levels down, not just what we're saying, but what we mean by what we say. And I find that that is, um, that's an incredible skill and you have something very different. Certainly most people who I do pod podcasts with, other than Tony Chapman, who I enjoy, other Chapman,"
+  },
+  {
+   "time": "21:28",
+   "speaker": "Leslie Ehm",
+   "text": "well, I think Melissa a big, that is"
+  },
+  {
+   "time": "21:30",
+   "speaker": "Nola Simon",
+   "text": "a compliment. I just wanna highlight that and actually take that moment to shine. I'm sorry, Leslie,"
+  },
+  {
+   "time": "21:34",
+   "speaker": "Leslie Ehm",
+   "text": "go. Go and"
+  },
+  {
+   "time": "21:35",
+   "speaker": "Nola Simon",
+   "text": "just say that is I, I never started a podcast really to get feedback and and gratitude like that, or, , that's a compliment. And I'm gonna take that"
+  },
+  {
+   "time": "21:48",
+   "speaker": "Leslie Ehm",
+   "text": "compliment. You take it, girl, please. You take, it's a compliment, but I think"
+  },
+  {
+   "time": "21:51",
+   "speaker": "Nola Simon",
+   "text": "it really is. You're, that's related to my Scottish heritage and my white hair ."
+  },
+  {
+   "time": "21:57",
+   "speaker": "Leslie Ehm",
+   "text": "But you're a people lover. You're a profound people lover as well. And I think that's, that's always at the, at the heart of it is if you genuinely love and care about other humans, you pay a. Yes. Because what else is you pay attention to? And she's also a huge"
+  },
+  {
+   "time": "22:12",
+   "speaker": "Erica Ehm",
+   "text": "communicator. Mm-hmm. , I'm like, you participate and engage in social media in a way that I believe social media was meant to be used. Um, you"
+  },
+  {
+   "time": "22:25",
+   "speaker": "Leslie Ehm",
+   "text": "read everything,"
+  },
+  {
+   "time": "22:27",
+   "speaker": "Erica Ehm",
+   "text": "you comment on things or you like it, you're constantly saying to me, so it, I was there. Agree. You. , you introduce people using social media, Uhhuh, . You actually use it in a very"
+  },
+  {
+   "time": "22:43",
+   "speaker": "Leslie Ehm",
+   "text": "meaningful way. I do. Positive. Positive. I do too. Like I, I'm getting chill. Like I can't tell you it's true. Like, and"
+  },
+  {
+   "time": "22:50",
+   "speaker": "Erica Ehm",
+   "text": "I'm saying it to you. I'm saying it to you because I know that people are listening to this. Yeah. And I want them to understand that social media is not a push. Social media isn't, you just post something and promote yourself or something. It's the beginning of a conversation. Every single thing that you post should be with an intent to have a conversation, to get feedback or to build a relationship in some way. I feel that you do that. That's what I, and I feel like Tony Chapman does. I, I'm his number one fan. I think I, I don't know if I say it enough, but I watch him, I watch how he promotes his podcast, and he does it by promoting other people. He does it by sparking conversation, relate it to the topic of his podcast. And then he says, by the way, listen to my podcast. Yep. Because he genuinely wants, that's what, why he's making this podcast is that he wants to. Conversation not just with the people in his podcast, but the people who listen and he wants to change the world. I feel you"
+  },
+  {
+   "time": "24:07",
+   "speaker": "Leslie Ehm",
+   "text": "do too."
+  },
+  {
+   "time": "24:08",
+   "speaker": "Nola Simon",
+   "text": "I, yeah. And honestly, that's how I choose my guests. I don't, I, I turn down the majority of pitches I actually got, the majority of people that I have on my podcast are people that I've actually talked to, like for years, like with you guys. Mm-hmm. for. , right? Mm-hmm. . And the opportunity comes up and it's a particular topic that I find useful to explore it, and it benefits you and it benefits me, but it also benefits the audience, right? But you're completely right because I connect the conversations later, it's not a one and done. Um, I really try to focus on making sure that the guests have a really good experience and that they enjoy the moment, but then it's also. Not just promoting the particular episode, but how that episode and your insights connect to other conversations that I have. And that's where I do a lot of the introductions. So I had asked, when we were doing a little bit of prep earlier this morning, I had asked, um, uh, Eric had asked me for, for a summary of what we were gonna talk about. And so I gave her a preview. One of my previous guests is, well, she"
+  },
+  {
+   "time": "25:08",
+   "speaker": "Erica Ehm",
+   "text": "basically says, I don't usually tell people what I'm talking about. . It's fine with"
+  },
+  {
+   "time": "25:14",
+   "speaker": "Leslie Ehm",
+   "text": "me. Totally fine. I lay, I don't,"
+  },
+  {
+   "time": "25:18",
+   "speaker": "Nola Simon",
+   "text": "uh, I, I, I generally want to focus on what I know about you. , right? Yeah. And just have a conversation. Right. So, and it's not that I'm not, I'm, I'm keeping secrets or anything like that. It's just I don't want to, to be overly scripted is really what the goal was. Agreed. A hundred percent. But the, the, the, I had prepped this one a little bit more because, and I've done actually a really good job of actually not asking Erica a whole, whole lot of much music questions over the years. I don't think I've asked you. Thank"
+  },
+  {
+   "time": "25:47",
+   "speaker": "Erica Ehm",
+   "text": "God. Oh my god. ."
+  },
+  {
+   "time": "25:49",
+   "speaker": "Leslie Ehm",
+   "text": "Mm-hmm. . All right,"
+  },
+  {
+   "time": "25:50",
+   "speaker": "Erica Ehm",
+   "text": "go"
+  },
+  {
+   "time": "25:50",
+   "speaker": "Nola Simon",
+   "text": "for it. And so my, my one question that I've held onto is, have you actually ever interviewed George Michael, or Wham, did you ever meet them? What were they like? And I haven't been able to find anything. The only thing I could find for much was a contest that was run in like 1984. So if you could go to London and win tickets to go see them. So did you ever come across them? No."
+  },
+  {
+   "time": "26:14",
+   "speaker": "Leslie Ehm",
+   "text": "No. , that's what I thought you were gonna. Nope, never"
+  },
+  {
+   "time": "26:19",
+   "speaker": "Erica Ehm",
+   "text": "interviewed them. Ah, okay. But the, uh, sorry to"
+  },
+  {
+   "time": "26:23",
+   "speaker": "Nola Simon",
+   "text": "disappoint. No, no, no, that's okay. But as I, as I, I said this morning, but one of my, uh, my other guests had actually, um, submitted a question, uh, because I asked her to submit a question cuz I knew she's, uh, she's actually a really big George Michael fan, but her question's actually brilliant because. it would, it could apply to any musician. And it was like for a man who is literally, who kept his life really private because honestly the like the UK press didn't really treat him very well. He literally blew up all the symbols of the faith days. What is a person like that like to interview? How do you interview them without being intrusive? How do you respect, and honestly, you saw it with Hugh Grant on the weekend as well too. , like how do you interview somebody who really doesn't necessarily wanna be there, who is kind of shy about being interviewed, but it's a requirement for their job?"
+  },
+  {
+   "time": "27:16",
+   "speaker": "Erica Ehm",
+   "text": "Um, sort of easy to answer it. It's what I did with Kurt Cobain. Okay. Because he was exactly that. I knew that when I had to interview him in Seattle with he, when he, uh, released the in utero album, I knew that he didn't like to be interviewed and that we were considered. , potentially mainstream media, and it was a junket. So we knew that he would be doing several, like 20 interviews in a day. It's like the worst. And so I talked to him like a human being. I asked him questions like, what books do you read? Um, what makes you happy? . Um, and it's considered to this day the best interview that's ever been, been conducted. And in fact, funny enough, I just got a copy of this book, which I'm holding up, which is called Kurt Cobain, the last interview, and my interview is actually in featured in this book. Wow. The entire interview is transcribed. No, I didn't get paid, but, um, , speaking of money, but uh, it's because I spoke to him like a. and I'm not being intrusive, I'm being genuinely curious about his life. You can tell the"
+  },
+  {
+   "time": "28:28",
+   "speaker": "Nola Simon",
+   "text": "difference. Yeah, you can tell the difference. And it's, again, putting the, the person at the center of the, the work that you're doing and you're doing that with the work that you did on social, Leslie, with the work you do in training, if the person that you're dealing with is at the center of, of the work and the intentions are. then it's going to be a good experience. And that's really what I try to do with my social media, with a podcast, with any speaking that I do. Um, I mean, I worked for two decades in customer service. How do you do that without focusing on the person? Right?"
+  },
+  {
+   "time": "29:02",
+   "speaker": "Erica Ehm",
+   "text": "Well, that's what more people need to do, that, that's why customer service is so lacking these days is because they're, I, I think actually it's not the people doing the jobs. I believe it's the fact that c. are not shy, um, in the way that they treat their cus their, their staff, that they are replaceable and their commodities. And I think that employees are now getting the employee, the em, the employers are getting the employees they deserve, which are people who no longer give their heart and soul because they know that at any day they could be fired. Yes, let go. We don't need you because our, when I change. , our profits are more important than your life."
+  },
+  {
+   "time": "29:49",
+   "speaker": "Nola Simon",
+   "text": "When I changed jobs in 2019, it took 14 people to replace me. ,"
+  },
+  {
+   "time": "29:55",
+   "speaker": "Erica Ehm",
+   "text": "oh"
+  },
+  {
+   "time": "29:55",
+   "speaker": "Leslie Ehm",
+   "text": "God, , did you know your one"
+  },
+  {
+   "time": "30:00",
+   "speaker": "Nola Simon",
+   "text": "single person who could do everything that I did? And so I fully support that message. So yes. Mm-hmm. , they're getting exactly who they deserve. Mm-hmm. . . Um, I did wanna shift the conversation a little bit back to your mom, because you come from a family of entrepreneurs, right? So your Oh, yeah. They owned a holiday camp when you were kids."
+  },
+  {
+   "time": "30:22",
+   "speaker": "Leslie Ehm",
+   "text": "Uh, my mother started a summer camp with my uncle. Okay. So when we were very little, I was. Two, I think Erica was four when, when it started. Um, my father was also had always been an entrepreneur, so he was part of it, but he wasn't really as involved. Nevertheless, every single weekend we were dragged four hours from Montreal up to the summer camp to do all the stuff back home, back up. I mean, all throughout the entire year. , you know, then, and then in the summer we were, of course, we were there all summer. So you, you grow up like a little bit of like a wild, you know, bush rat . Cause you're, cause you're in, you know, you're at summer camp all the time, like life becomes summer camp. So I think it's, yeah, we"
+  },
+  {
+   "time": "31:06",
+   "speaker": "Erica Ehm",
+   "text": "were, yeah, we were also taught not to, we, we just were, my parents were not conformist. They, they made their own little world. I mean, they literally bought a world"
+  },
+  {
+   "time": "31:17",
+   "speaker": "Leslie Ehm",
+   "text": "and. They were the, they were the,"
+  },
+  {
+   "time": "31:20",
+   "speaker": "Erica Ehm",
+   "text": "uh, I don't know the, I was gonna say the king and queen, but that's not true because it wasn't autocratic. It was just, it was utopian. Yeah. I would say where everybody was encouraged and allowed to just be themselves, and everybody sort of raised their freak flag at Camp Kennebec, and they still do. It's, you know, it's a, it's a camp for odd. And, um, people are encouraged to just be themselves. And I, I think Leslie, isn't that true? That that probably has had a huge impact on, um, our ability to just say, no, that's not me, that's, mm-hmm. , this is who I am, and why is everybody else not proud of"
+  },
+  {
+   "time": "32:02",
+   "speaker": "Leslie Ehm",
+   "text": "who they are? I think it was also formative in terms of, of our confidence to be up in front of people and to be on stages and to be whatever. I mean, you were constantly thrown into those positions, whether it was doing announcements in the, in the dining hall or doing the, you know, the plays in the, in the thing or the talent shows or the whatever, and. No, it's funny because you think about all the people who are afraid of that. Nobody was afraid of that at camp, get back, it was just part of what we did. Everybody was on stage, everybody was front and center. Everybody had a voice. And we still have friends to this day who, who we've known, you know, since we were little kids. It can, and they are all incredibly successful, incredibly successful across the board in a million different, you know, uh, industries because of the confidence they built and the strong sense of. that they developed. Mm-hmm. , I think that, I think it, it is, you'll, you'll find a lot of people, when you meet someone who's really confident and seems to have a good sense of self, you go do good summer Camp part of your life, you'll go, yeah, I did. I'm right. Because you learn to be in a, in a, uh, you start to learn about yourself in a context of this little kind of tribal. and there's not, you know, the moms and dads and authority figures aren't watching, so you gotta work it out. It's all safe and everything, but the, the staff sort of are almost, they're almost as young as the kids in some ways. Right? So everyone's figuring out at the same time, there are no hard and fast rules other than, please don't die. Um, and you just kind of make up your own experiences, right? I, I believe too, that in terms of my creativity, Was core to that? Absolutely core because we were encouraged to be creative at every single term, in every single possibility that there could be. It was all about creativity. Make this up, create that, decorate that, change that, oh my God, it's raining. We had an idea for a program. We can't do it. What are we gonna do with 200 kids? I don't know. Let's figure it. So I remember when I started my training company, I was like, oh, this just like this, just like summer camp. This like coming up with a program for summer camp. Same, same thing. Yeah. So we, we were, um, We were not raised, you know, especially not the same way as Jewish suburban kids were like in no way, shape, or form. Cuz our parents did not conform to that in, in any way, shape or form. And our mother was a rebel. Oh, she was this quiet, subversive rebel from day one, you know? And she. The things that Eric and I, you know, talk when, when she and I are interviewed separately and we tell stories about our childhood. Usually there's an element of my mother's subversion in there or things that she got us she'd do, or to the risks that she encourages to take or the comments that she made that you can see why we ended up the way, the way that we did. That's we, our, our mother's daughter is big. ."
+  },
+  {
+   "time": "35:01",
+   "speaker": "Nola Simon",
+   "text": "That's cool. That's cool. And, um, the other thing that I wanted to bring up was, um, my mother was, you launched your business on Mar March 8th. My mother's birthday was March 8th. And so that's one of the posts that I actually wrote was, I'm gonna, I think it's amazing that you chose that particular date. I'm gonna send you my mother's magic too. So that's where I've always loved the way that you talk about your family and your mother in particular. And, uh, I think it's so special that you, uh, you share that with the. So thank you. Thank you. As a fan, ,"
+  },
+  {
+   "time": "35:33",
+   "speaker": "Leslie Ehm",
+   "text": "we're just, we're just trying to, you know, like our, her, her legacy, right? We are part of her legacy, so we're trying to do it right."
+  },
+  {
+   "time": "35:40",
+   "speaker": "Nola Simon",
+   "text": "That's good. And when we talk about legacy, that's another thing that I wanted to actually talk about is you actually wrote a post recently, Leslie, where you talked about the fact that, um, in your life with the circumstances that surround your family, you don't foresee that you're going to have an early retirement. or you may not stop working ever . Could you talk about that and how that actually informs your, your attitude towards work? Um, you know, your timelines, how does that make you feel? I have a gift of asking four questions at once, but I think you know where I'm going. ."
+  },
+  {
+   "time": "36:19",
+   "speaker": "Erica Ehm",
+   "text": "Yeah. So before you answer Leslie, let me just tell, let me just give you feedback as an interviewer. That's called double barreled questions. Yes. . And, um, so. , it's important for when you do an interview to ask one question. Yes. And if you have a second question, you can follow up with it, but it's very hard. Now, Leslie will be able to obviously give you an amazing answer, , but, and don't forget the question, Leslie, but Got it. Um, it's really important when, as an interviewer, most people don't understand this. I, it's my, actually, my pet peeve when I hear anyone doing an interview where they ask two questions at the same time. So, Leslie, you may answer your question."
+  },
+  {
+   "time": "36:57",
+   "speaker": "Leslie Ehm",
+   "text": "Okay. So, um, I'll give you a little, a little sort of backstory as I'm, I, I am an adoptive parent. I have two gorgeous, amazing, brilliant kids from, uh, adopted from China. My eldest one is in university now she's at, at McGill. She's 21. My little one is 14. And, um, from, from day one that, that we got her, we knew that. She was not tracking certainly the way that our older daughter had, but when you adopt, you don't, you don't know. I mean, she was eight months old. We knew she was in rough shape. We knew she was massively underweight that, um, she, her developmental skills were far behind and so on, but, Nobody could really tell us what was going on. And so we just loved her and nurtured her and, you know, being the kind of fierce mom that I am, like through everything that we possibly could at her in terms of helping her to develop and so on and so forth. And, and, um, we sort of, we, we were cautiously optimistic because she did develop, you know, and, and, and, Things that at the time we didn't know if she'd be able to do, she could do progressively, but we got to the stage where we kind of had to accept the fact that she was always gonna have a whole host of challenges. And it was, you know, we knew that we used to call her the X factor, um, in our lives because we knew that her needs were gonna be the driving force in terms of our family's choices because she's gotta come first. We knew. We could never go live in a small town because she wouldn't have the, the resources that, that she would need for, you know, for her development. We knew that we could never, you know, pick her up and go and travel because she would need that kind of infrastructure and so on. And then she formally, you know, recently got the, the diagnosis of mild intellectual disability and that kind of tell. . It's never, it ain't changing, it's not healing, it's not fixing, it's not whatever. She is who she is and she's amazing and beautiful and, and she has so many gifts and, and superpowers, but the likelihood of her doing secondary education or further education, not great. Um, she's 14. She's reading at a grade three level. You know, that's, that's where she is right now. And so you understand. Her the potential, her earning potential is, is gonna be limited. That's just the way that that life is. And um, and, and her ability to be independent is still very much in question. Will she be able to live independently and so on. The one thing we know for sure, she's always gonna need financial support, always. because if she, if she is able to work, she won't be getting, won't be making the big bucks, you know, and she will likely, um, having have to live in, in an environment that is somewhat supportive. And so it's. absolutely terrifying as a parent because first of all, you go, oh, okay. I, I'm never gonna be off the clock. Not that you're really off the clock as a parent, but when your kids are out in the world, you can kind of breathe a little bit. I will never be off the clock. And, um, the plans that, you know, my gorgeous husband and I had for, for. Our future is, is not gonna happen. You know, all, let's travel the world and let's, you know, we'll go live in another country for months of the year or, or I'll retire completely and I can paint nonstop and all of this stuff if I stop earning. Then my lifestyle has to change dramatically because I can't, I have to make sure that there's money put aside for her, and that money has to be, in my mind, infinite because I'm older. I'm a much older parent. So what's gonna happen to her after we're gone? And the only thing that we can protect her with is money, right? So that means that I gotta work and keep working and keep working and keep working. And fortunately, I love what I. and fortunately I have a lot of energy and fortunately I'm very well supported in, in the pursuits and that I have and so on, but it's, it's an exhausting prospect. You know, cuz we kind of get to the point I think, in our lives where we go, I still wanna have a purpose. Can I stop? Can I get off the wheel? Can I just, can, can I just take a break? Can I relax? Can I be more picky, choosy about what I do? Can I, you know, all of that kind of stuff. And, um, and I, I'm not gonna have that luxury in the same way that a lot of people are, are gonna have. So it just forces you to continually reinvent yourself to go deeper into. What, you know, serves your purpose and how you can give to the world. And, um, I don't like to do the same thing for really long time. Um, so I've had like nine different careers in my life. Um, training has been a through line, which is amazing magic because it's so dynamic and it's changing all the time and I'm learning and I, you know, I'm able to change what I do all the time. Um, but I'm always looking for new ways to, to. to do things that satisfy me where I can be in, in a place of service in the, in the world and still make money. And so one of the cool things when I, when Eric and I talked about it, we were like, let's do this thing. Yeah. It's like a, a brand new thing that we can get super excited about. Um, it uh, and it's also the first time, which is, which is really exciting for me that I've been able to do training that's directly to. , you don't have to work for some big fancy schmanzy company that you, they know that pays the big bucks to have someone like me come in Now anybody can do it. And I wanted to do that for years. And it's not, it's very co just for the record, it's very complicated to, to deliver programs for individuals. It is not a big maker . It is. It is time consuming. It's complic. You. You have to think about all of the individuals as opposed to the organization saying, okay, people, now you're in the room for this duration, for this program, for this, whatever. Everybody's got different schedules, everybody's got different budgets. Everybody's got different tolerances. Everybody's got different attention spans. Everybody's got different needs, and you're trying to serve all of them with two trainers. We're crazy ."
+  },
+  {
+   "time": "43:05",
+   "speaker": "Nola Simon",
+   "text": "I don't think you're crazy. I think that. a way of doing things that's very different and it's, it's just the high having that the two trainers at once, that's just a commitment to quality."
+  },
+  {
+   "time": "43:19",
+   "speaker": "Leslie Ehm",
+   "text": "Mm-hmm. Have you seen our website yet?"
+  },
+  {
+   "time": "43:22",
+   "speaker": "Erica Ehm",
+   "text": "I love your feedback. Have you gone"
+  },
+  {
+   "time": "43:25",
+   "speaker": "Nola Simon",
+   "text": "look at it?"
+  },
+  {
+   "time": "43:26",
+   "speaker": "Erica Ehm",
+   "text": "Okay, it's M two, like m e h m, then the number two.com. And um, although this has been in the works for a long time and the curriculum has been, um, built, the website is new. So, oh, cool. I love your feedback."
+  },
+  {
+   "time": "43:44",
+   "speaker": "Nola Simon",
+   "text": "Yeah, no, I'll definitely take a look at it. I, uh, I did check it, the business"
+  },
+  {
+   "time": "43:47",
+   "speaker": "Leslie Ehm",
+   "text": "page , when, when Erica, when Erica and I talked about it and, uh, we said, you know, we'd been talking about it for a while. It was like, what can we do together and what can we do, and da, da, da. And then I said, well, you know, after we've been talking, I said, let's see what people would. You know, have to say about this. And we posted something on LinkedIn to see what the response would be like. What if there was this program that involved the two of us and we got this huge, you know, outpouring and stuff and, and so I said to her, well, I guess we're doing it. And then this is typical of how my sister and I operate the next day. Like in the morning I was like, okay, so here's the name of the company, here's the logo, here's the basic design for the website. Here's the where. She was like, it was like, we had this conversation like three hours ago. I'm like, yeah. Cause once I get on it, I get so excited and I just, that's, that's what I love to do. So we went from kind of the idea, you know, building the curriculum to a brand and like, you know, it was really fast to, uh, to do that. So I'm, I love it. I love the fact that it's m. ."
+  },
+  {
+   "time": "44:48",
+   "speaker": "Nola Simon",
+   "text": "That's cool. I do have a one question for you though. I mean, it's, it's, you have so much on the go. I mean, Erica's writing a book. Uh, you"
+  },
+  {
+   "time": "44:56",
+   "speaker": "Leslie Ehm",
+   "text": "Erica's trying to write a book. Erica's writing a book. Erica's trying. He's trying. It's gonna be a great book too. The thing about the book,"
+  },
+  {
+   "time": "45:02",
+   "speaker": "Nola Simon",
+   "text": "if it gets banned, I'm gonna be impressed. Are you gonna make it flammable or playable?"
+  },
+  {
+   "time": "45:07",
+   "speaker": "Erica Ehm",
+   "text": "Like I, I've gotta, that's the marketing piece. We'll see. , but really the thing that I'm understanding more as I get into it more. the amount of, um, undivided attention and focus required in order to just let your imagination go freely. And I, Leslie got in the way. So right now, , I have to, you know, it's because Leslie and I are the same thing. It's like we have to make money. We want to make a living and do what we love, which. Speaking and teaching and connecting. So when this opportunity came up, it's like, okay, we're gonna focus on this now. So book goes sort of in the back pocket for a few weeks as we get this organized. And then hopefully, you know, as the sun starts to come out and I could sit outside and start to focus, it will become more of a focus. But it's, that's a pursuit, you know, that is, that's like a passion pursuit that, um, uh, my sister is, is also going to be writing a novel. So the two of us are supposed to keep each other accountable after"
+  },
+  {
+   "time": "46:14",
+   "speaker": "Leslie Ehm",
+   "text": "we finish this course after, after we do that , after"
+  },
+  {
+   "time": "46:17",
+   "speaker": "Nola Simon",
+   "text": "we do that. Ok. Cause that was really my question is like, you've got so much on the go. I mean, you're a consulting producer due 2 99, uh, queen Street West, which is, you know, at, uh, set by Southwest right now. Hopefully at the International Film Festival later in the fall, right? Yep. . Leslie has a business operating . You have all the art going on that you're doing, like, it's just so much. How do you, how do you prioritize that?"
+  },
+  {
+   "time": "46:40",
+   "speaker": "Erica Ehm",
+   "text": "But what else would we be doing watching tv like ? You know, it's like, uh, I think that, and I'm not gonna judge other people, but I don't really have a hobby. This is my hobby. My work is my hobby. Aside from going to the cottage and chilling there, I even like to work from the cottage. . I, I mean, I just don't like to party. I don't like to, what I consider to be waste my time, not of judgment on anybody else because a lot of people get joy out of socializing just for the sake of socializing. To me, it, I just don't enjoy it. So because of that, I tend to stuff more sort. , um, creative pursuits into my life and actually achieve them just because I, I focus my time doing those kinds of things."
+  },
+  {
+   "time": "47:36",
+   "speaker": "Nola Simon",
+   "text": "You were talking to the other day, Wesley,"
+  },
+  {
+   "time": "47:38",
+   "speaker": "Leslie Ehm",
+   "text": "right? Yeah. That's very, very indicative of entrepreneurs though. I think, I think if you, if you talk to a lot of entrepreneurs and you'll ask them what their hobbies are, they'll go, I don't, my, my work, my, my business is my hobby. Like, it's like, you know, everything becomes secondary to that. Um, I, you know, I, I never had a hobby until I was 48 and then it was boxing. It was like, you know, like that was, it was the first time I ever had a hobby in my life. And of course it was boxing, but I didn't just box, no. I went from, oh, I'll have a little hobby of boxing to know I wanna be a fighter. And I fought my first, you know, sanction international or sanctioned, um, uh, boxing match when I was 51 in front of a black tie crowd of, you know, 900 people. I mean that, that's terrifying. Being in"
+  },
+  {
+   "time": "48:20",
+   "speaker": "Erica Ehm",
+   "text": "the audience I was."
+  },
+  {
+   "time": "48:25",
+   "speaker": "Leslie Ehm",
+   "text": "So cute. My mother. So that's how I roll. And it's the same thing for the painting, right? Is that I took a painting without really any artistic, you know, Talent at all. Like I didn't know what that, I had it in me at all. I was just kind of doing it as a lark kind of thing. And then it turned out that I had much more in me than I thought, which is, you know, also pretty, pretty typical of what happens to me. And then when I realized that people were responding to the work that I, that I was doing, , what did I do? I, I launched portrait for good.com, which was, you know, selling my, my, um, portraits in exchange for, um, donations to, um, inclusive charity because I could, so it wasn't just enough for me to paint. , it was, now what? Now what good can I do with it? What, you know, how can I make this more meaningful? So I think that's what Eric and I both do, is even the stuff that, that we love to do for ourselves, we're always thinking about how can we bring it back to the world? How can it turn into a gift in some way? How can it turn into something that brings people together? Um, how can it, how can it do good in the world? I think if you look at our, our, you know, our stories and our, our backgrounds, it all comes back to that. It's how can we, we know that we're very powerful. , right? We've always known that we, it's, it's really amazing to always grow up understanding your power as a woman. Most women do not have that luxury. And we were, we were made very well aware of our personal power when we were very young. And so we've lived our lives in this place of, of personal power. And with that, I think comes a, comes a degree of responsibility. You've gotta do good with that when you are this powerful. You don't wanna turn it in words because that becomes arrogance or it becomes, you know, um, you know, self-centeredness or whatever. Um, but if you turn it out, it becomes you, you become more powerful because you're so full, but you're able to actually, you know, create change in the world. And there's nothing more addictive than that is, but that's exponential."
+  },
+  {
+   "time": "50:26",
+   "speaker": "Nola Simon",
+   "text": "Yes. That goes back to your name. Square, that's exponential power and that's growth and it's really future focused. All of these skills that we've been talking about is they're necessary for the future. How do you craft a message that's compelling? Um, knowing how to speak, how to raise the voice and seize the opportunity to really advance a message that's good for the world. How do you capture attention? All of that. Is so needed for the future, uh, work, life, everything. So. Okay. Is there anything that we haven't talked about that you really wanted to amplify? We're almost at time. Sorry. I just wanted to give you the opportunity."
+  },
+  {
+   "time": "51:07",
+   "speaker": "Erica Ehm",
+   "text": "I'm happy. I think you did a really great interview and, uh, it's fun listening to my sister talk. She's like powerhouse. I feel like sometimes when Leslie talks it's like, do you remember the old Maxwell Maxell"
+  },
+  {
+   "time": "51:19",
+   "speaker": "Leslie Ehm",
+   "text": "ads? Where, uh, picture this guy?"
+  },
+  {
+   "time": "51:22",
+   "speaker": "Erica Ehm",
+   "text": "Yeah. There's a guy sitting in a chair and the wind is blowing at him. Yeah, yeah, yeah. That's what I feel like when Leslie talks."
+  },
+  {
+   "time": "51:31",
+   "speaker": "Nola Simon",
+   "text": "Well, all I can say is you both talk like you're right, and it's been so fun to really have this actually come to life and I'm, I'm very much enjoying it. So thank you so much. I really appreciate"
+  },
+  {
+   "time": "51:42",
+   "speaker": "Erica Ehm",
+   "text": "it. And well, we'll see you online. We"
+  },
+  {
+   "time": "51:44",
+   "speaker": "Nola Simon",
+   "text": "will"
+  },
+  {
+   "time": "51:45",
+   "speaker": "Leslie Ehm",
+   "text": "definitely, and thank you for inviting us. I think it's great that you asked us. Most people are too afraid to ask. They shouldn't be afraid to ask."
+  },
+  {
+   "time": "51:51",
+   "speaker": "Nola Simon",
+   "text": "We love you. This is the first podcast you've done together, right? First time. First time. I know. I love being the first. Yeah. The only, no, I'm not gonna be the only, I get it. But, um, uh. I thought it was actually funny because you asked me in, in our exchange, it's like, do you want us separately or do you want us together? And I'm like, why would I not want you together? You're crafting a business together. I, I'm fascinated by the sister dynamic toge to, to begin with. Like, I'm absolutely gonna want you together. It's, it's not that I don't value you apart, but. I've had you apart for years on social . I have the opportunity to bring you together. I wanna do that. So, yeah, and I think"
+  },
+  {
+   "time": "52:28",
+   "speaker": "Erica Ehm",
+   "text": "be, before I let you go, I also wanna thank you for literally walking the talk of women supporting women. Um, I've noticed that you have put my name forward in several occasions. You sort of, uh, you, you, you in invite people to re. My many skills, cuz sometimes I don't speak all that loudly. I'm a little bit understated in, in my skills. And so, um, I really value women who support other women and I know that you do that in spade, so thank you for that."
+  },
+  {
+   "time": "52:59",
+   "speaker": "Nola Simon",
+   "text": "Oh, thank you for noticing. Ditto, ditto. I do think that that's important. I'm sorry,"
+  },
+  {
+   "time": "53:03",
+   "speaker": "Leslie Ehm",
+   "text": "Leslie, go ahead. No, ditto. I was just Ditto. ."
+  },
+  {
+   "time": "53:07",
+   "speaker": "Nola Simon",
+   "text": "Yeah. No, I, I try to, and, and honestly like we've had this conversation before, it's like sometimes people say, that isn't true. And I'll speak up for what I know to be true as well too. Mm-hmm. . And, um, I think"
+  },
+  {
+   "time": "53:20",
+   "speaker": "Erica Ehm",
+   "text": "that that's, oh, yes, Leslie, it's the idea. Everyone peop not everyone. Um, some uninformed, uh, small thinkers still think. , I got my job because my dad was the boss at much music. Where do they"
+  },
+  {
+   "time": "53:37",
+   "speaker": "Leslie Ehm",
+   "text": "get this"
+  },
+  {
+   "time": "53:37",
+   "speaker": "Erica Ehm",
+   "text": "crap?"
+  },
+  {
+   "time": "53:38",
+   "speaker": "Nola Simon",
+   "text": "Like where, but Becker talks about that too, right? Like it's, it's pervasive. It's everywhere. And I mean, mythology said it to me in, in the context of my life as well too. Even Daisy Jones in the six, uh, they were interviewing, uh, Riley kd, who's the granddaughter of Elvis Presley. And she was talking about like the way that she's being interviewed, the way that. Seen her family interviewed, like it's just horrendous Sometimes the, the questions that get in front of,"
+  },
+  {
+   "time": "54:07",
+   "speaker": "Leslie Ehm",
+   "text": "of women, except that"
+  },
+  {
+   "time": "54:08",
+   "speaker": "Erica Ehm",
+   "text": "her grandfather really was Elvis Presley So it was, it's a"
+  },
+  {
+   "time": "54:13",
+   "speaker": "Leslie Ehm",
+   "text": "little different. . Absolutely. Yeah. Yeah. You have to see on, on social if anybody makes a comment. Uh, some kind of comment about Erica. I just, I mean, you see, if you wanna see me fully fierce, my claws come out and I just go after them with like full force because to, you know, the fact that I know the truth of everything. I mean, you wanna know the truth. You, you could ask me if I, I'll tell you the facts of everything because I was there. I watched it all happen and all of those bullshit stories that that are about Erica not earning every single mo makes me cry to talk about it every single moment from the time that she was like 16 years old and volunteering at the radio station and organizing records. And going in all like every hour that God gave, just so that she could be around music and just so that somebody would notice her and give her another opportunity. And it started, then, it started before then when she was, you know, 15 years old and she. You know, was putting on plays in our little small town high school cause nobody else was, and someone needed to. And so Erica did it and no, the, the, the voice of teenagers were not being heard in our small town. So what did Erica do? Erica started a column. In the local newspaper called Teen Scene, like she has been doing this her whole life, and anybody who dares to denigrate that journey and the truth and the, the work that that journey took and the integrity that that journey had. Oh boy, you gonna get my fur up? I'm gonna come for you. Just, just saying. I love that. Just say"
+  },
+  {
+   "time": "55:49",
+   "speaker": "Erica Ehm",
+   "text": "I love it too. Love. I love it too."
+  },
+  {
+   "time": "55:53",
+   "speaker": "Nola Simon",
+   "text": "Well, I think that epitomizes the entire reason I wanted to have you both on. So thank you for that, Leslie , and uh, I really appreciate it. So I'll just hit stop. Uh, hang on a second. Uh, where's my record button?"
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": null,
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Small Town, Big Impact — Ingrid Deon (the friendship that ran through Erica)",
+   "url": "/podcast/small-town-big-impact-social-media-marketing-from-rural-nova-scotia"
+  }
+ ]
+}

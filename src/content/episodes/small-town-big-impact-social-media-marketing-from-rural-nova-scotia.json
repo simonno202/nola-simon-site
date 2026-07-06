@@ -257,5 +257,10 @@
  "ctaQuote": null,
  "resources": null,
  "relatedEpisodes": null,
- "relatedLinks": null
+ "relatedLinks": [
+  {
+   "title": "Ehm2 — Legacy, Reinvention and the Power of Speech (the episode this friendship led to)",
+   "url": "/podcast/ehm2-legacy-reinvention-and-the-power-of-speech"
+  }
+ ]
 }
