@@ -746,6 +746,11 @@ const PAGES: Record<string, LivingLabPageData> = {
               </a>
             </p>
             <p>
+              <Link href="/podcast/your-brand-at-work">
+                Read the full transcript &rarr;
+              </Link>
+            </p>
+            <p>
               If you&rsquo;re a leader who hasn&rsquo;t thought about what AI
               says about you when your name comes up &mdash; or an organization
               that hasn&rsquo;t asked what assumptions your external record is

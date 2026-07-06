@@ -1,0 +1,506 @@
+{
+ "number": null,
+ "slug": "your-brand-at-work",
+ "title": "Your Brand At Work",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Cher Jones",
+  "title": "Personal Branding Expert & Corporate Trainer",
+  "org": "Socially Active Training",
+  "credentials": "Founder of Socially Active Training · Named a LinkedIn Creator to Watch by LinkedIn editor-in-chief Daniel Roth · Creator of three LinkedIn Learning courses · Background in TV, journalism, PR, and corporate communications",
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/itscherjones/",
+   "website": "https://sociallyactiveltd.com"
+  }
+ },
+ "publishDate": "2023-09-08",
+ "publishDateHuman": "September 8, 2023",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": "60 min",
+ "durationISO": "PT60M4S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/us/podcast/cher-jones-your-brand-at-work/id1602822494?i=1000627296750",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Cher Jones — personal branding expert, founder of Socially Active Training, and a LinkedIn Creator to Watch named by LinkedIn's editor-in-chief — works from one premise: you bring your brand to work whether you manage it or not. Brand is reputation with tooling, and the work is giving people the language to talk about you when you're not in the room. Nola's sixteen years siloed in the US division of her own company supply the field evidence, and an experiment run minutes before recording supplies the disruption: ChatGPT described Cher almost perfectly and had nothing on Nola — the gap between self-published presence and an externally verified record. From ERG roles negotiated like contracts to headlines that work like dog whistles, the conversation maps what it takes to be recognized, respected, and rewarded — and lands on the version of trust that matters most in hybrid work: a brand strong enough that you can be trusted to work without being monitored.",
+ "takeaways": [
+  "You bring your brand to work whether you manage it or not — brand is reputation plus the tools that shape how people receive you, so influence the narrative before it forms without you.",
+  "People do not ask you to do something unless they already know you can do it — the visibility work runs ahead of the opportunity, and internal tools count as much as LinkedIn.",
+  "Take ERG and volunteer roles with a plan: name what you want up front, communicate it as an expectation with checkpoints, and record the work where it counts — most people take the role and hope.",
+  "Your brand supports what you're asking for — if the external record of you doesn't match the claim you're making, that gap is friction you pay for in real time.",
+  "AI now writes first impressions from sources you don't control: models weight externally verified signals — stages, articles, media mentions — over anything you post about yourself.",
+  "A headline is a dog whistle, not a summary: it tells the right people they need more and lets everyone else move on, and that filtering is the point.",
+  "Congruence beats uniformity across platforms — show different sides of yourself, as long as the you on Instagram never embarrasses the you on LinkedIn."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "3:30",
+   "question": "Where does a personal brand at work actually start?",
+   "answer": "With the recognition that you bring your brand to work no matter what — it's your reputation, enhanced by every tool that now influences how people receive you. The starting question is what you're walking into: what do the people on this team, in this role, in this outreach need to know about you to skip the pleasantries and start the conversation at a level of trust that only begins with knowledge? It's your job to give them that language."
+  },
+  {
+   "timestamp": "12:00",
+   "question": "How do you take on an ERG role without it becoming unpaid extra work?",
+   "answer": "Go in knowing what you want out of the opportunity, communicate it up front as an expectation, and set checkpoints with specific requests people can help with. Most people take on the role and hope; the role becomes resentment when there's no strategy attached to the time, effort, and passion it demands. Nola's addition from experience: report the work in your performance reviews — they're legal documents — and write it so the company benefit is unmistakable, because volunteer work that isn't part of your job can otherwise be held against you."
+  },
+  {
+   "timestamp": "16:39",
+   "question": "What did the ChatGPT experiment reveal about personal branding?",
+   "answer": "Asked about Cher, the model produced a near-perfect description — Canadian social media trainer, personal branding expert, keynote speaker. Asked about Nola, it had nothing, despite years of consistent social media activity. Cher's read: the model is looking for what it designates a reliable source — stages, media mentions, quoted articles — the places where someone else has verified your credibility. Self-published presence alone doesn't register; the external record does."
+  },
+  {
+   "timestamp": "27:32",
+   "question": "Should you be the same person on every platform?",
+   "answer": "Ten years ago the advice was to show up identically everywhere. Cher's shift: each platform is a permission space where a different side of you comes out, the way a business conference and a family event draw out different sides of the same person. The requirement is consistency, not uniformity — a 360-degree view where no platform embarrasses another, with the personal and the professional throttled to protect the integrity of your future."
+  },
+  {
+   "timestamp": "51:33",
+   "question": "What one question gets people thinking clearly about their own brand?",
+   "answer": "\"What do you want?\" — prefaced with an instruction not to censor the answer. Cher's sharpest skill is listening to someone's story and connecting the dots toward their future, but the connecting only works when the destination is named. Once she knows what you want, she can position the skills you dismiss as ordinary into the case for where you're going."
+  },
+  {
+   "timestamp": "54:46",
+   "question": "What's the five-to-ten-year vision for personal branding at work?",
+   "answer": "It's hard to ignore awesome. Everyone has something they're meant to serve others with, and most of the time people don't get to use it because nobody knew they had it. When people put their awesome out there positioned as service — here's why you can trust me, here's how I can help — they attract more of the work they should be doing. Better branded people can do better jobs, sponsors can advocate for them more precisely, and the ripple effect runs from work to home."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:22",
+   "label": "A community built in the comments"
+  },
+  {
+   "time": "3:30",
+   "label": "You bring your brand to work"
+  },
+  {
+   "time": "6:12",
+   "label": "Sixteen years siloed: the internal-mobility case study"
+  },
+  {
+   "time": "12:00",
+   "label": "ERG roles: negotiate before you volunteer"
+  },
+  {
+   "time": "16:39",
+   "label": "The ChatGPT experiment: one of us didn't exist"
+  },
+  {
+   "time": "25:53",
+   "label": "Not E for everyone: headlines as dog whistles"
+  },
+  {
+   "time": "27:32",
+   "label": "Congruence across platforms"
+  },
+  {
+   "time": "46:12",
+   "label": "Creator to Watch: trust extended in public"
+  },
+  {
+   "time": "51:33",
+   "label": "What do you want? — and the vision worth working toward"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:22",
+   "speaker": "Nola Simon",
+   "text": "All right. Thank you so much for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence and joining me today is Cher Jones. She is a personal branding expert. She trains, uh, with corporations, um, how to actually, uh, create a brand that will, you know, help you establish why people should know, like, and trust you. Um, is there something else I missed there,"
+  },
+  {
+   "time": "0:49",
+   "speaker": "Cher Jones",
+   "text": "Cher? I'm sure I've done. Yeah, so it's really about... Establishing your personal brand at work for work so that people, so your brand supports what you do on your job. It supports your future of where you want to go in your future of work. And also, also makes the company brand look good as well. So it's like that trifecta of branding when you think about your personal brand at work. So you're right"
+  },
+  {
+   "time": "1:11",
+   "speaker": "Nola Simon",
+   "text": "on path. Perfect. And honestly, I started, I think you started doing your lives, what in 2018, you've said. Correct. Um, so I probably found you just shortly after that 2019 ish and started learning a lot about you. Um, actually, when we went to book this podcast, Cher has. A lovely structure to her LinkedIn lives when she does it. She has this section where she, uh, highlights other people's content content is called hashtag scroll stopper. Um, and then there's a tap, uh, is it tap that app and it's cheeky because she's like, make sure there's two peas. And, um, and then there's a, my, my QT, your A."
+  },
+  {
+   "time": "1:55",
+   "speaker": "Cher Jones",
+   "text": "Yeah. My A's to your Q's. Oh, there we go. There you"
+  },
+  {
+   "time": "1:58",
+   "speaker": "Nola Simon",
+   "text": "go. There we go. But, um, when she went to book the, uh, the, the podcast, uh, interview, she was using a, an app that I, uh, I use, uh, to, to schedule and it's TidyCal and I use TidyCal because of Cher because I learned about it in your show. Right. And I was also telling her before we started recording as well, one of my first guests, uh, is a, is a personal stylist named Renee Lindo. And I met Renee in Cher's. Comments as well, too, and that's how we connected because, uh, share has a gift of really engaging with people and making people feel really front and center in the conversation as she, as she goes along and, and, you know, she does it on on the live versions in the video, but she also does it in audio rooms and she really strategically takes advantage of building up that community and, and that. Reciprocity and that goodwill, uh, among the people who follow and people, even people who are experts in personal branding show up for your rooms, right? Like, you have such respect, uh, throughout your community and it's, it's really great to see. And that's why I'm so honored to really have you here. But the other thing we were just talking about, and maybe we should start with that question is, um, We were talking about your brand at work and how essential it is to build that for now, but also for the future of work. And so how do you start with that? When you're in an organization, you're walking in, what's the first thing you,"
+  },
+  {
+   "time": "3:30",
+   "speaker": "Cher Jones",
+   "text": "you assess? Well, the one thing that you have to recognize right away is that you bring your brand to work. Right. No matter what you bring your brand to work. So you, as someone who, who brings their brand, which if we're going to old school, it's your reputation, right? And it's an, it's actually an enhanced version of your reputation. So it's like reputation is like brand 1. 0, but branding as we see it now and all the tools that we have to influence the way people see us. They influence the way they receive us. It is so important that you influence that conversation. You influence the narrative that someone has already created based off of what they know. And that's the really interesting thing is that we are constantly looking people up just to find out information. Right and most people what they have used a lot of the tools for in the past, especially from a social media perspective, specifically linked in. If we were to double tap on that for a 2nd, is we we've looked at that. Um, we, in our minds, we look at LinkedIn as something like you use it for a job and yes, that is true. But it's a yes. And, and it's more about the end than it is about the yes, because you, you look for a job, but so many times, but, and then once you're in your role, that is where you have to transition how you show up on LinkedIn. So it supports what you do now. It supports that level of trust that you want people to have and that recognition, right? So you want to, you want to be recognized, respected. And rewarded. But if you do not influence the way that people see you and, uh, respect the knowledge that you have, the experience that you bring to the table there, if you don't put that out there, how are they going to know? And that's the question right there. So you've got to think about. So, to go back to your question is like, well, where do you start? You got to think about what, what am I walking into? And what are the best things that these people need to know about me? So, if you're coming in to lead a team, if you're coming in to be a part of a team, if within your role, you need to outreach to people. You got to factor all those things in and say, well, what do these people need to know about me to have a better conversation, to start our conversations, not the pleasantry, but going to be able to dive deep, right into that conversation at a level of trust that you can only start with knowledge. So it's your job to give them what you think they need to know."
+  },
+  {
+   "time": "6:12",
+   "speaker": "Nola Simon",
+   "text": "And I learned all of this personally, the hard way, and I don't know that, you know, all this story, but, um, I worked for a company for 17 and a half years for 16 years. I was actually in the US division. And when I decided that I wanted to move over into the Canadian, I had a real challenge, even though I worked for the same company, um, getting hired in the Canadian division, because nobody knew who I was. Nobody knew my capabilities because I was. I was basically siloed away from the rest of the company. And so that's where I actually really started actively negotiating, uh, my brand within work. Um, I started, you know, using Yammer and internal collaboration tools. I started volunteering for hackathons. I actually used a hackathon to land a job interview. I called the guy and I'm like, I know we don't have the exact background that you're looking for, but I'm like, I'm going to be the face of Toronto for this global hackathon. Watch me work. Cause part of it was actually like a community based aspect of it as well. And I'm like, watch me work. And I got the job interview. I didn't actually get the job, but it got me the interview because it takes guts to really kind of perform in front of 40, 000 people. And. Be able to say, hey, like, watch me all day. Right? And that's really what made the shift that I was able to actually move in 2019 to a Canadian division. And I attribute to raising my profile by using the internal, uh, tools. Uh, that were available to communicate internally, but also, um, you know, ERG work and using LinkedIn in particular in Twitter, that sort of thing. Um, I, I moved into that new role and I actually walked in within 6 weeks. I was presenting to the executive leadership team in an innovation challenge, and I had people coming up to me going white people in Vancouver Island know who you are. Like you've only been here for like less than six weeks. You know, that is the power"
+  },
+  {
+   "time": "8:16",
+   "speaker": "Cher Jones",
+   "text": "connections. Exactly. And that is the power of personal branding right there, because I love what you talked about as far as you leveraged internal tools. And so that's the difference between, um, you know, a lot of the other people in the personal branding space and, and how I. I guess distinguish myself in that space is it's not just about what you put out there on LinkedIn. That is a huge tool and it is one important tool not to, to, to, um, downgrade it, but there are also those internal tools. It's how you show up. It's how you've built that network. It's the language that you're giving others. To, to talk about you when you're not in the room, and then you're building these champions who are, who are, I know Nola, even though they never met Nola in person, but they've heard of you, they've seen you. They've watched you work literally. And these are, these are these touch points that we have the honor of creating. At work that can accelerate opportunities, accelerate conversations, and quite frankly, accelerate our future as we step into new places, opportunities, roles, projects, whatever the case may be. You can't get there the same way they did 10 years ago. You need to use the power of branding and it's not a nice to have. It is a must have. Yeah, exactly."
+  },
+  {
+   "time": "9:42",
+   "speaker": "Nola Simon",
+   "text": "And when the pandemic actually started, I was actually approached by the communications team, uh, to found an ERG for parents. We knew that it was going to be challenging for people who are, you know, all of a sudden shifted completely work from home and have their kids there while they're working all the time too. Right. We knew there was going to be support and they asked me if I would be the founder. Wow. And those are my role was restructured before we got far, but,"
+  },
+  {
+   "time": "10:11",
+   "speaker": "Cher Jones",
+   "text": "but those are opportunities at one. It came through that doesn't, people don't just ask you to do something if they don't know you can do it. Right. And so that part right there, if you just, if anybody's listening right now, if you just walk away with that, people do not ask you to do something unless they know you can do it. Right. So they were convinced before they approached. Yeah. They trusted you, but the time where they extended it."
+  },
+  {
+   "time": "10:37",
+   "speaker": "Nola Simon",
+   "text": "Yeah. The timeframe between when I was trying to get a promotion and, and 2016, 17, um, actually it was after my mom died in 2017, um, the timeframe between 2017, 2019, it was less than two years. Nobody knew who I was. And then they're asking me to found a parenting group for 40, 000"
+  },
+  {
+   "time": "10:56",
+   "speaker": "Cher Jones",
+   "text": "people, which is, uh, and then you look at that audience that you got to get in front of. Right and and that potential of visibility and then. And while it is in one specific lane, that audience then affords you the opportunity to, to lean them in other directions to create awareness of who you are to give them language about you outside of that parenting ERG."
+  },
+  {
+   "time": "11:25",
+   "speaker": "Nola Simon",
+   "text": "Right. Yeah. And I was also involved in the women's group too. So like, I was actually asked, they, they didn't actually ran into an issue where they didn't actually have a host. I was running comms anyway. So they're like, do you want to interview our, our like most important person? Or what is the most powerful woman in Canada? Um, it was the whole keynote of that, that whole conference. Right. So they just talk about visibility. Exactly. That's right. So, yeah. So I mean, that, that whole. ERG aspect in that volunteer work was really key as"
+  },
+  {
+   "time": "12:00",
+   "speaker": "Cher Jones",
+   "text": "well. Right. And I think there's something, there's just one more note to hit on this. And this becomes when it, this is when it becomes a strategy of your personal brand. So there's a lot of. Challenges in taking up an ERG role because you don't get paid for it, but you can get paid for it in the sense of how you leverage the opportunity and the expectations that you have going into this opportunity. And some, some companies actually do provide some sort of compensation, but it's, it's usually not the case. And so what one needs to be when they're thinking about their personal brand. Is what do I want out of this opportunity and what do I need to communicate upfront? That is a part of my strategy that they need to know that this is my expectation of what I would like. And so that you are, this is a win win for you and for the company, but most people take on the role and hope. So they have this hope that they're going to get something out of it and hope that they're going to meet people. No, you need to be. Actively campaigning for 1, 1, you have to go in knowing what is it you want, and that can evolve, but you need to go in knowing what you would like to get out of this experience for your time, effort and energy and passion that you're going to throw at this role. In addition to what's on the side of your desk that you still need to accomplish and then 2. Knowing is half the battle. The other half is communicating that and, and having points in your communication to say, okay, these are the things that I would love to get out of this opportunity. And these are my plans for this opportunity. How and, and set up checkpoints where, and, and, and specific requests that people can help you with. But then the other, the backside of that opportunity is how are you positioning yourself? To take hold of what comes from that opportunity. So knowing that your brand supports what you're asking for, right. And that is where I think. The opportunity is lost and then it becomes feeling like it's slave labor that you're doing something outside of your job because you don't have the direct and I'll call it monetization of an opportunity because it's not always it's going to lead to money if you do it right, you know what I mean, but you need to know how you are going to monetize the opportunity. Yeah. And I"
+  },
+  {
+   "time": "14:32",
+   "speaker": "Nola Simon",
+   "text": "actually had started to do that too, because I had to, um, I ended up with a sponsor that I wasn't necessarily thrilled with. They had brought somebody new in and they just kind of put her as the face of the parenting ERG because it was brand new and it was an opportunity for her. And I'm like, yeah, but that doesn't work for me. So I actively went over and found myself a VP of strategy and said, Hey, like, I really need another sponsor. Cause I wanted a co sponsor who knew the company who had. tenure and who would listen to me and already had a relationship with me. And, um, I said, by the way, I'd also like to get into strategy. So I, if I bring you in as my co sponsor, can we talk about strategy? So, yeah, I was laying, I was laying for that,"
+  },
+  {
+   "time": "15:18",
+   "speaker": "Cher Jones",
+   "text": "but I love that. And if people don't walk into our ERGs with a plan, Yeah, you will immediately realize that this is a lot of work and yes, I'm getting these like the, the, the off, you know, the, you know, what the runoff of it, but it's not strategic. So you don't feel fed for the, for what you're serving out. So,"
+  },
+  {
+   "time": "15:43",
+   "speaker": "Nola Simon",
+   "text": "yeah. And you need to make sure that it's, it's fueling you as well, because like, you know, is it going to be reflected on your performance? Because for me, it wasn't, and, um, I had, I had issues with that because I, I, I always reported what I was doing and I had it there because performance reviews are legal documents. I made sure that it was well written so that, you know, people understood that it benefited the company, but at the same time, it was not actually part of my job, right? And so if I wasn't performing, it could have been held against me. So that's another piece that people really want to be negotiating as well. Is. Yes. Yes. Volunteer work is great, but how does it really, really leapfrog you in a way that also doesn't hamstrung hamstring you?"
+  },
+  {
+   "time": "16:29",
+   "speaker": "Cher Jones",
+   "text": "Yeah. Yeah. Yeah. And that alone, cause those, those opportunities do provide incredible visibility, but you got to be smart about it before you say yes."
+  },
+  {
+   "time": "16:39",
+   "speaker": "Nola Simon",
+   "text": "Exactly. I agree. So one thing that I managed to do before this conversation really started recording is I believe shares mine because I asked her how AI is really going to impact personal branding. And what I had done just before we started recording was I actually looked her up on chat GPT and all I said to chat JPT was tell me about share Jones. And, uh, let's just see. So it reads, Cher Jones is a Canadian social media trainer, personal branding expert, and keynote speaker known for her expertise in helping individuals and organizations improve their online presence. She has a corporate background in corporate training and has been recognized for her work in digital communication and personal branding. So, almost perfect, like literally if you'd written that yourself, it wouldn't be half bad, right? Right. And then I asked it about me, and now the thing you should know about just the basic version is that it doesn't have any updates to it since September of 2021. so I got restructured in December of 2020, and I was on sabbatical in 2021. I didn't really start. doing active work until 2022. So for me, I said, tell me about Nola Simon. And it said, I'm sorry, but I don't have any specific information about an individual named Nola Simon in my database. Uh, up to my last knowledge update in 2021 is possible. She might not be widely recognized or may not have been in the public eye at that time. And then there's a whole thing about private individuals. So Cher is public and I'm a private individual. Thanks. Thanks for coming out."
+  },
+  {
+   "time": "18:15",
+   "speaker": "Cher Jones",
+   "text": "Let me tell you how you blew my mind because again this we recognize how search one is evolving right we're starting to search through chat gpt and especially as it a certain versions allow more access to the internet and whatnot and how that can influence what's out there but just You know, I, I, and I asked you before we started, it's like, did you give it any, like location specifics, anything like that? And I'm like, Oh, wow. It used me. Like there's more than one sheer Jones. You know, and it used me to, to describe, and it described me well enough that it's just like, holy, holy cow, I was so surprised. And then it just, again, it blows my mind into thinking that yet another aspect of personal branding has been unearthed in the sense of how is chat GPT going to describe you. Right. And, and that I hadn't, to be honest, I hadn't thought about that because I've never let's for lack of a better word chat GPT myself, right. Or Googled myself on chat GPT. I never, I just never did. And, um, and then to, to go into, to, to have that much detail. And I think chat GPT is a wonderful tool and it is going to and so I'm sure we're leading into that direction around its impact on personal branding because it's going to be significant. Um, but there are a lot of things that people need to be aware of. So I'll, I'll pass the mic back to you and see where you want to go with this conversation."
+  },
+  {
+   "time": "19:54",
+   "speaker": "Nola Simon",
+   "text": "Yeah, no. And that's, that's the interesting part because for me, honestly, I really started, um, I mean, I signed up for LinkedIn a long time ago, but I didn't actively start using it until like 2016, 2017. So I had been active on social media and that's where it's, I find that it's fascinating that it knows nothing about me because I was pretty active, right? From 2017, 2018, 2019, 2020, up until 2020. 21. Like I would have thought that I've done pretty well really to have myself out there. Um, but I didn't have a website. I didn't do any media at that time. Right. So that's where it's like, what is it picking up and how do you influence it? That's where it's like, how do you, because AI, you know, has, depending on how it's, it's structured, how it's created, how it's trained, it may have some implicit biases in terms of how it's actually created and, and how it runs, um, and we don't necessarily know all of that. So how do you influence it? That's the question. Don't see how it's pulling you"
+  },
+  {
+   "time": "21:02",
+   "speaker": "Cher Jones",
+   "text": "data. My guess would be at this point is looking for what it would designate or, or, yeah, I guess designate as a reliable source. Um, so yes, you, but then where else do you show up that, you know, that someone else has verified or validated your credibility. So I'm looking at. When I think about what I have out there in the sense of other people, other than LinkedIn, because I mean, you would think at least it would leverage LinkedIn or something like that. But then I think about the amount of stages I've been on over the last, you know, eight, 10 years or whatever. And then, you know, stuff with the media stuff where I've been mentioned and, and. Um, mentioned in articles mentioned or quoted in articles and stuff like that, I would assume, but I, I really don't know. So that's a question for chat GPT exactly like where"
+  },
+  {
+   "time": "21:59",
+   "speaker": "Nola Simon",
+   "text": "it's also, it's also a question for individuals and organizations, because I'm sure you could look up organizations that way as well too, is how are you building a digital footprint in such a way that's going to set you up for success? Not only just right now, but like. Five, 10 years from now, what does this look like in the future? Because it's constantly evolving and it's constantly being trained in different ways, right?"
+  },
+  {
+   "time": "22:25",
+   "speaker": "Cher Jones",
+   "text": "Yeah. And that part's mind blowing because you, cause here's the problem that most people have most professionals, especially within corporate, they don't have the language to talk about themselves in a succinct way where someone's going to remember who they are. Right. They're not going to, and, and if they're not remembered, that means they weren't recognized. Right. And that means that if you're not giving them what they need to know to respect you, respect your knowledge, your experience, how are you, they going to be rewarding you or referring you like, these are all our words that I'm absolutely loving right now, but the, it goes beyond the, the alliteration here, it is serious business. Like we have to now think about how are. How are we influencing what people know what people say, and then also what the internet knows, and what is pulling from, and is it in alignment with who we are putting out there, and is it a good representation of who we are. And. And then how, as we evolve, because that's the other thing, brands evolved. If you had checked for me like 10 years ago, I called myself a social media trainer at that time. I was already into the personal branding space. I would call myself a very early pioneer into that space. Um, I, I was, I could honestly say, and I don't say this lightly and I don't say it flippantly as like, I was talking about personal branding before. A majority of people have ever even heard, like, had ever even thought about it. I have a talk, so I have an actual talk on YouTube from 2013, 99 problems, but my brand ain't one. And this is 2013, we're talking 10 years ago. And what's interesting from a foundational perspective, most of what I shared is still accurate. Like to, to, if I, if I go back right there and like, listen to it all, it's, it's. Other than, you know, the version of LinkedIn that I was showcasing at the time, or the version of Amazon, or, um, the version of Jay Z that I, I used the, the lyrics to, to teach us about personal branding, certain lyrics, um, those being older now. It is still bang on because my approach to personal branding is rooted in, in my communication skills. So I, I worked in, um, journalism, PR and corporate communications, and I've done corporate strategies, um, especially within the government sectors. And that was something that has informed my approach. So not only was I like tech savvy, I also rooted it in foundational, um, Communications principles that are standing the test of time, regardless of what technology it interfaces with. Yeah,"
+  },
+  {
+   "time": "25:17",
+   "speaker": "Nola Simon",
+   "text": "yeah, no, and it's, it's fabulous. I love your approach. I think it's so smart and I've learned so much from you. And to be honest, I think that it's just going to continue being incredibly important because, I mean, you know, so, so much of the content you see is, you know, all about cover letters and resumes, but it's like, I don't know that the future of how we. We start to trust each other in like personal life and in business relationships is really limited to cover letters and resumes. I think it's much deeper than that. Just from that example alone,"
+  },
+  {
+   "time": "25:53",
+   "speaker": "Cher Jones",
+   "text": "right? Absolutely. And you've got cover letters and resumes that are really targeted to a very specific audience where your brand. Is not necessarily E for everyone, but it is for those who are, who should be looking you up and checking you out. So you've got to think about that audience as a whole. It doesn't. And that's the interesting thing is I don't think your brand needs to ever be E for everyone. Like it doesn't have to, but it should attract those that you are either meant to serve in your role or, or through your business. And also, um, and, and even personally or professionally, like it should, it should attract. Um, it should attract those people and, um, and it should repel those who, who don't care. Right. So you've got like things like your headline, which is really a headline in any profile kind of defines what I'm clicking into. Right. What? And then I can at that point, just by reading your headline. And that's why headlines I think are one of the most important online assets that people should take the time to, to, to develop is that headline then does that helps me to determine, do I want to click in or is this all I need to know? And there's no problem if it's all I need to know, but I do want for those people who need to know more, that headline should be, it should be, um, Just like a, almost like a dog whistle that they can hear it, that they're, they get, Oh, I need to know more about him or her. So it's, I think the headline is one of your biggest assets besides your picture, because like we always click on pictures. Yeah,"
+  },
+  {
+   "time": "27:32",
+   "speaker": "Nola Simon",
+   "text": "exactly. Um, and what about congruence? So it's, I mean, LinkedIn is obviously like the place, especially for, for, for professional basis that a lot of people start, but you really want to be showing up as the same person in all the different places. Like, I mean, you mentioned, uh, YouTube, right. But there's, there's Pinterest, there's X or Twitter or whatever you want to call it this month. You know, all these different places and they're all slightly Different right, but you won't recognize yourself."
+  },
+  {
+   "time": "28:06",
+   "speaker": "Cher Jones",
+   "text": "Yes, this is an interesting challenge that a lot of people have to deal with because when we go to different places, we, we do become another version that fits the place. So, for example, we go to a business conference that's relevant to our interest. We are. This side of us comes out where we go to a family event. Another side of us come out. We are still us. And so the challenges is knowing it's almost like knowing what is public. Right. And, and it is more of a challenge than we think, because you can't just be, I can't be the same person a hundred percent that I am on LinkedIn, that I am on Facebook because my Facebook, for those of you actually still use Facebook, Facebook, it has a very specific lane. So the interesting thing is like 10 years ago, that would have been the absolute advice. You need to be the same person on every single channel that you're on, right? You need to show up exactly the same. What I like to shift with that thinking is you need to make sure that one, one place doesn't embarrass the other good or bad, right? And that there's a consistency of seeing the 360 version of you because you have certain permission spaces that you have on Tik TOK or that you have on Instagram. That you can share and be more free in certain areas, whereas on tick tock or on Instagram, there are certain things that is just like, they don't really care. The audience that I have cultivated and developed don't really care about these certain things. I can make them care, but it really means about cultivating a different audience, but depends strategically how you're going to use it. But I think what we need to recognize is that. The more tools that we use from a social media perspective are the are is the more the bigger opportunity. We have to show a 360 view of our brand if we choose to show that much. But what you want is to make sure that there is a consistency. In you, in the sense that the you on Instagram will embarrass the you on LinkedIn because it's you. So it's connected. You don't have to have the exact same voice or share the exact same content unless you're strategically aligning them. And that's a different conversation, but just generally speaking from a personal branding perspective, you can show different aspects of you, but again, it can't be so, so much of a stark difference between the two that you're like. Who, who are you, you know, the fundamental foundation of, like, if you're an empathetic person, if you, um, are, I, I think everybody should be, in my opinion, professional, personally, professional. Meaning how they show up there has to be and you can throttle the personal, or you can throttle the professional, but there has to be some combination of them both so that you can protect the integrity of your future. And it does matter, right? And it's just a very interesting, hard to balance bubble if you don't have those, those throttles in place to make sure that there's a level of protection because there are things that can, that can truly impact. Your future. And"
+  },
+  {
+   "time": "31:30",
+   "speaker": "Nola Simon",
+   "text": "I, I also find that, um, like there's certain places where I just don't show up well because of the people who happen to be there. So like on Facebook I have my family, I have my old babysitters, I have, um, you know, my high school contacts, right? Like there's a lot of people and like I perform, I find that I perform and my coach has actually told me that like, you have to assess the places where. You're not coming across well, because of who's there and that's Instagram and that's Facebook because I'm showing off in a different way that I do professionally when people actually respect my work and know what"
+  },
+  {
+   "time": "32:16",
+   "speaker": "Cher Jones",
+   "text": "I do. Right. Right. And that's the, that's the challenge. So sometimes, and that performative aspect, like no one likes to feel like we're performing or showcasing the side that. We know, or we feel judged on, right? Yeah. It's like, I"
+  },
+  {
+   "time": "32:31",
+   "speaker": "Nola Simon",
+   "text": "feel like I have to prove myself and that my knowledge is worthwhile, whereas I don't necessarily feel that in like LinkedIn or Twitter"
+  },
+  {
+   "time": "32:40",
+   "speaker": "Cher Jones",
+   "text": "or drugs, because it creates, it has those spots who have created the spaces. So then you have to recognize for, or, or, or acknowledge for yourself is how much time do I actually want to spend here? And is it worth my time? And it doesn't change. My feelings about who I am and how I show up so much that it impacts me negatively because sometimes it's still a tool and that's, you can downgrade certain networks to being a tool where you can use it as an engagement tool. I don't post a lot on Instagram and I don't post a lot on Facebook. I really don't. Just because one is like, you only have so much time and two, I'll use it as a tool because I think they're wonderful, incredible tools to, to stay connected to people in our lives that we wouldn't otherwise be able to stay connected to by seeing, you know, what they're sharing. And I use it more as a commenting or DM tool, and I do that in, in Instagram as well. And occasionally I'll share stuff just. More from a presence opportunity. So like if someone's looking me up and they find me, whatever they see enough that it's, it is an alignment with who I am, but that doesn't mean you have to post there and you can give yourself, give yourself that grace and permission to be like, no, it's just a tool. It's a stay in touch tool. It's, it's me going to the golf course or me going to the baby shower or me going to the wedding. I get to be a part of that conversation and those, and when they. Go back to my profile and I'm reminded of they're reminded of what I do and how I can help them. If, if the opportunity strikes, that's amazing, but it allows me just to stay in touch in a different way. And I'm okay with not having to create content for that."
+  },
+  {
+   "time": "34:23",
+   "speaker": "Nola Simon",
+   "text": "And that's where I step back from I'm, I'm looking, honestly, stepping back from a lot of places where it's like, it doesn't feel like it's worthwhile and it's yeah."
+  },
+  {
+   "time": "34:32",
+   "speaker": "Cher Jones",
+   "text": "And just look at it as the tool that it is. It's that stay in touch tool because there's certain things that quite frankly, why people don't get rid of Facebook if they're not actively on it is just because it becomes an accessibility tool, literally not in, in, in accessibility formats that we normally think, but meaning I can access you. You can access me easily. And if I had to get in touch with you for all the family or life milestones, I can do so."
+  },
+  {
+   "time": "35:02",
+   "speaker": "Nola Simon",
+   "text": "Exactly. The only reason I keep Facebook is because of the pictures. That's the blackmail that they've got."
+  },
+  {
+   "time": "35:10",
+   "speaker": "Cher Jones",
+   "text": "Exactly. Exactly. And that's why. Google, Google plus when they first came out and it's, it was actually a better network and how it functioned and how it allowed you to, to kind of quadrant off different people. And it was, it was like a well thought out way of doing things, but people couldn't abandon the investment that they made in the legacy. Of who they are by what they've uploaded and who they've connected to. And that's why, and that's why Facebook was meta was so smart and buying Instagram because they saw the shift and now they leverage both. And then they also have WhatsApp. And so very, very strategic acquisitions that maintain their relevance in so many different ways."
+  },
+  {
+   "time": "35:59",
+   "speaker": "Nola Simon",
+   "text": "Yeah, it is interesting. Actually that's something that maybe we should talk about is it seems like so many people are just kind of actually getting fed up with managing their brands online and engaging that way. And it's like every time, like the whole Twitter meltdown and threads and that whole introduction and it was just, well, what is it mastered on and all the other places, it's like another place to build. Right. So what's your take on that? And what's your advice to organizations who are encouraging their employees to get more active in building their personal brands?"
+  },
+  {
+   "time": "36:33",
+   "speaker": "Cher Jones",
+   "text": "Um, it depends on where your customers are one and it depends on how you can, I think so. I'm always going to be a fan of LinkedIn. Um, it's the, it's like the professional home of your personal brand, right? So no matter what, right now, things have not changed enough and there's always been, there's been, you know, other sites that have come up and try to kind of dethrone it, but no one's been able to dethrone. LinkedIn for what it is, you know, and, um, and they've evolved enough, although there's a lot of things I think they could, they, they do kind of half assed. So like, you know, when LinkedIn got LinkedIn audio, when. I felt like, and I still feel like they could have done so much better with that tech considering what Twitter spaces did to innovate on Clubhouse and Twitter spaces was certainly better, but LinkedIn had the better community to grow that, that technology. But they, they, you know, they didn't do as well as they could, but it's still a, a good technology to use anyways."
+  },
+  {
+   "time": "37:37",
+   "speaker": "Nola Simon",
+   "text": "Why can't they record? That's, that's the thing that comes up all the time, is like a hundred percent. Why can't they, I mean, Honestly, that that would be such a game changer, especially since they already had that podcast aspect."
+  },
+  {
+   "time": "37:50",
+   "speaker": "Cher Jones",
+   "text": "Exactly. And there's so many different things and there's just even like the interaction within a room. Like there's so many different things, but to go back to your question around, you know, what does one do with all of these, these options to build their brand and more coming like threads and stuff like that. And we saw that threads had a really. Record breaking adoption in the sense that everybody quickly set up to their set up their account mainly because it was a friction free, um, and they did a friction free experience and they did a really good job of like opening it earlier than they thought. And people run and jumped and try to get their, their threads account. But the thing is, here's the biggest problem is you, you join into these different networks and one of the biggest. The hardest things that you can ever do within a network is get people to come back. It's so easy to set up an account, but the question is, are you going to go back and why are you going to go back and how are you going to train the behavior? Right? And so I would say is you've got to look strategically at what you want, just period, personally, professionally. Um, you've got to look at what you want and how much time you really have. And what's it going to take to get you there? Who's it going to take to get you there and how can you help people along the way, right? Who do you have to help? And you got to look at who do you have to help to get there is really one of the best ways as opposed to who can help you. Who do you have to help? And and that becomes your audience in that sense. And then the other piece is, is how much. You know, we go back to that time piece. How much time do I have and what is the best use of my time? So we've got all these networks. We've got people like Gary Vee saying, you've got to be on all the networks, but I'm posting five to 10 times per day and blah, blah, blah, blah, blah, blah. And none of that advice is bad in, in. And it's promised to give you what, if you do all that, yes, you will get somewhere. The question is, can you sustain it? Right. It does work, but is it, it doesn't matter. So one of the things I love about what I do is I myopically focus on your personal brand at work as opposed to looking at the big grand scale. Like we were just talking about, you've got these three 60 view of your personal brand. Let's not forget. Um, although I'm not on the market right now, but like dating sites, that's another aspect of your personal brand. Right. And it's equally setting up a profile because I remember when I was, um, was on, on the dating streets, like seeing it was, it was actually a great social experiment from experiment for me, for what I do in a personal branding space is seeing how you are setting up yet another side of you. And is there that is, does that embarrass? My LinkedIn, or does my LinkedIn embarrass my Bumble, right? In the sense that I look so boring. And so stuck up on, on LinkedIn that is like, is this the same person? That's so cool over here. Like, then there's like this inconsistency. So you have to find that consistent experience, even though it's showing a different side. So bottom line is, is pick. Okay. So one always. You got to do something on LinkedIn, right? Um, you have to have a presence because it is the only networking site that really gives you the opportunity to articulate. Um, yourself, your brand and give people the language to talk about you from a professional side in, in its, in, in its, um, in its creation, like, and how it's created and what we can do with the site. And then also that's one piece, but also because the people are there, that's where the people go to check it. Yes, you can do this on a website, but it takes a lot. To find that and, and to go there and to click on there, whereas I'm LinkedIn is effortless in that sense. And then the 2nd piece is now, where are the best uses of my time. Right. And you've got to look at just like, does this conference make sense for me to go to? Right. Is it kind of, I'm kind of sort of interested or is this like, yo, these are all the things I'm interested in. You got to look at your, your, um, social presence the same way. So you've got to look at, and then you've got to look at, especially when you're talking about your brand at work, is it better to be building internally or externally? Usually when we think about personal branding, we're thinking about thought leadership and content and all that stuff when it's not necessarily the case for most people, right? They've got to work on the language and how they articulate what it is they do and how they serve and how they can help you. First, right? And then now where, and then you, you've mentioned things beautifully. You talked about how you were on YEM or how you're on these internal networks, how you're networking inside because that moved the dial. It wasn't necessarily like the LinkedIn supported that effort, right? But it wasn't your effort on LinkedIn first that got you that internal visibility that you needed."
+  },
+  {
+   "time": "42:52",
+   "speaker": "Nola Simon",
+   "text": "Yeah. It's funny if you actually go through my, my job history right now, um, because I was pivoting from what I've always done to what I'm doing now. Um, I didn't necessarily want to list out like tasks and skills and what I'd done. So I have actually, you know, these are the stories I like to tell. Ask me about them. Right. Yeah. It's like these types of stories that I've just told you. Right. Um, including the one where, you know, I, I knew I'd done a really good job with my personal brand at work because the CEO walked into the room looking for me and then got the photographer to take a picture, which ended up in the central of the social media, which was funny because I had also bribed the photographer to take that same picture. But yeah, so that, that story is one of those stories that's in there. And I find that that's. It's a way to capture attention, right? Because I'm looking for you to start a discussion with me, like talk to me about it."
+  },
+  {
+   "time": "43:48",
+   "speaker": "Cher Jones",
+   "text": "Exactly. Exactly. And that's what your presence should do is get you to hello, right? Get you to have the conversation and you through what you share, what you put out there, determine the commerce conversations that you're attracting to you, right? Your headline also sets the stage for the, what you like to talk about and what you like to do. And then, and then the interesting thing is. That content. You can use that to, to, to grow your brand, as opposed to thinking that you got to fit it all in your headline, you can use content to grow the conversation, grow and experiment with other areas that you're interested in or double, double tap on some of the, you want to go deeper in and really prove what you're out there. What what you want to talk about what you know, and how you can help. So you don't have and I think that's the stress that people have is they think they have to articulate everything and everything all at once. And it's like, no, no, no, no, you really don't because even with your LinkedIn profile, like, how many LinkedIn profiles have you read more than once? If you didn't have to meaning you might have read mine when you first met me and then because we're on the interview. Now, you went back and you took a look, but outside of that, we don't go back and read people's profiles, right? If we read them at all. Share"
+  },
+  {
+   "time": "45:09",
+   "speaker": "Nola Simon",
+   "text": "was on, uh, Stephen and Chris, if you are in Toronto, you'll know who those designers are. And I had no idea until I scoped at your profile right before this call. Cool. I, I wish I had known that we're just change the conversation. So now."
+  },
+  {
+   "time": "45:26",
+   "speaker": "Cher Jones",
+   "text": "Exactly. And I mean, at the end of the day, these are the things that we can feed people to. And then, well, how does that relate back to what I do with personal branding? It's all content. Right. And it's that, that TV side of things, the TV side of my employment and professional history that also plays into, you know, Us creating content to us showing up on camera or in podcasts or anything else where these things all matter and, and the produce side of it, when you're putting together, you know, whether what you're going to say or the idea of the segment. And that all comes back to, you know, I can dial that back to some of my training and some of the things I did and learned through, through that experience there."
+  },
+  {
+   "time": "46:12",
+   "speaker": "Nola Simon",
+   "text": "One piece of content that I remember you did you remember the piece that you did for got the attention of Daniel Roth with once again and you kind of like took a report that they had done you made it all fancy and pretty and then you explained how you had created it. And what did that actually end up. With result, because I remember he featured you in it, but it opens up opportunities for other things,"
+  },
+  {
+   "time": "46:35",
+   "speaker": "Cher Jones",
+   "text": "right? It certainly opened up opportunities. I'm just trying to remember the chicken or the egg as far as when I did my, it was right around the time when I was starting to get access to, um, some people in LinkedIn that eventually it led to me getting on LinkedIn learning. I'd done three courses with them since then, but it was one of the things that for me that I'm able to, um, I guess it touched that story again is the, is having that as cachet. To someone like the editor in chief of LinkedIn saying, establishing me as a creator to watch and then being able to, and this is part of what I do. So that validation, right? And that, that exposure and I. It was just it was something that was, I would say, definitely fast forwarded opportunities for me open doors just by trust and trust alone, because that that was an extension of trust and that was linked in extending their trust. Towards me and my brands. And so, which then, you know, expands that trust from other people where it's like, oh, you train in and around the space. I don't consider myself a LinkedIn trainer. I, I include LinkedIn as what I, as part of what I do, but I wouldn't, you know, there's a lot of people call themselves LinkedIn trainers. I wouldn't call myself that. Um, because your brand at work is way more than LinkedIn, but LinkedIn is. A crucial component of it. So it just gives me even, but a lot of people will associate LinkedIn with personal branding as if, as if they're synonymous. But, um, so either way it still works for me because you know, the editor in chief said, I'm a creator to watch. And he featured my content. That's kind of a big deal. And"
+  },
+  {
+   "time": "48:24",
+   "speaker": "Nola Simon",
+   "text": "what I remember is like, you were just so celebrated. Like I just. That reciprocity that we talked about coming out of the woodwork going, yeah, like it's about time you recognized her because she's been doing this forever and it's, it's great to see."
+  },
+  {
+   "time": "48:39",
+   "speaker": "Cher Jones",
+   "text": "Thank you for reminding me of that because I do forget about that because I feel like, you know, I've been giving, you know, I've been sharing content, creating content for this network for a long time. And I felt like while I built the community around me, which I am so grateful for, I felt like the network itself. You know, for all the, the hard work and effort that I put into the network, I, I, I was seeing other people get recognized and, um, and I was kind of like, you know, what about me guys, you know, but it's like, at the same time, it's like, it is what it is and then to see that happen was just, it felt really good. And then on top of that, like you said, like the other stuff, the opportunities that even still now it's, it's that name drop is the legit name drop in addition to, you know, doing my courses. And, and that again, opens up doors and trust. And that's what we want to do with our content. That's what we want to do with our connections being very intentional. About how we are leveraging our personal brands at work and what that can do for us and the ripple effect of it. Yeah, and"
+  },
+  {
+   "time": "49:45",
+   "speaker": "Nola Simon",
+   "text": "it's not just about going viral. That's that's no interesting part of of content on LinkedIn. Right? And I mean, it's actually comment and said that viral is not really what they want anyway. Um, but it's, it's that that ability to kind of like, build that strategy. And"
+  },
+  {
+   "time": "50:03",
+   "speaker": "Cher Jones",
+   "text": "let me just also, um, just to stick a pin in that part around the stuff that virality is like the stuff that you see that goes viral, so to speak on LinkedIn, primarily for the most part has to do with like selfies or things that. I don't remember the person who went viral for it. I'll remember the moment, but like, I don't as necessarily associate the skillset to the virality of, of anything that I see that goes active leave viral on LinkedIn. So while it's, it's like, yeah, that's a great accolade and I'm not at all, you know, hating on the other side of, oh, mine didn't go viral, whatever, , it was like, it's one of those things that when you really assess. How many things that you've seen where it's just been like next level, like engagement, right? There, there's almost like a formula to it where you're like, well, but I don't remember the person who did it and why they got it. Right. So, or I can see that, but I don't, I can see why that went viral, but I don't associate what, why it went viral to that person's skillset."
+  },
+  {
+   "time": "51:11",
+   "speaker": "Nola Simon",
+   "text": "Right, exactly. A lot of times it's just sort of like it. Right. Time. Right place. Yes. Yes."
+  },
+  {
+   "time": "51:17",
+   "speaker": "Cher Jones",
+   "text": "It's hot topic. It's"
+  },
+  {
+   "time": "51:19",
+   "speaker": "Nola Simon",
+   "text": "whatever. Exactly. That it's,"
+  },
+  {
+   "time": "51:20",
+   "speaker": "Cher Jones",
+   "text": "it's not even their content. It is often not their content"
+  },
+  {
+   "time": "51:25",
+   "speaker": "Nola Simon",
+   "text": "and that's, that's a whole different story. Yeah. Yeah. You don't want to do that. Cause that's not good for your personal brand. Yeah."
+  },
+  {
+   "time": "51:31",
+   "speaker": "Cher Jones",
+   "text": "No."
+  },
+  {
+   "time": "51:33",
+   "speaker": "Nola Simon",
+   "text": "So let's, let's do, um, and I have to come up with creative titles like Cheryl has done. But, uh, so I, I'm adding in structure to the podcast. So one of the things that I like to ask is, um, what's the best question that you find works so well to get people really actively thinking about their personal brand? Like the type of question that really just resonates and you always get a good answer from"
+  },
+  {
+   "time": "51:57",
+   "speaker": "Cher Jones",
+   "text": "somebody. Okay. My question is so basic, but it is, it is exactly what I need to hear like the answer. Um, and I always preface it with listen, do not censor your answer for me and is what is it you want. What do you want? And it's literally like, tell me what you want because I can, I, the, the, one of the biggest skills, or one of my favorite skills that I have, that I've been able to hone is to listen to someone's story and connect the dots to towards their future. But I've gotta know what you want so that when I'm hearing the rest of what you're gonna tell me and the questions that I need to ask you that come out of that, what do you want you. Got it. You got to give me that nugget. You got to give me the, the info. And I love that question because especially when I preface it with a, listen, I don't, I don't care. Just tell me what you want. Cause I, I it's, it's the PR side of me that is looking at, well, how do we spin it? And I don't mean it in a spin doctor way, but how do we, how do we position and present? Your experience while you may see, and this is 1 of my things that I love about what I do is like, I can see how that skill from this thing way over a year. And this skill from this thing that you do right now has formed your perspective. On how, how it is you, you serve others and why you do things the way you do. Like I love to me, that's the puzzle, but it all in order for me to connect it in a way that supports what you want, I got to know what do you want? So everybody gets that question and then I just go off from there."
+  },
+  {
+   "time": "53:43",
+   "speaker": "Nola Simon",
+   "text": "That's awesome. And of course you're talking and I'm hearing the Spice Girls, have you ever done content to tell"
+  },
+  {
+   "time": "53:50",
+   "speaker": "Cher Jones",
+   "text": "me what you want, that used to be, I'm sure there's a talk somewhere on the internet that used to be one of the things that was like one of my go to tell me what you really, really want. I would always say that, but I did it for like, you know, from like 2013 to maybe 2017. I was like, okay, got to let it go. We need your music share. I know. Exactly. Exactly. Exactly. Cause I'm putting myself out there and be like, wait, carry the four. Oh, what you are. Oh yes. It's like, no, no, I am not a millennial. I'm millennial adjacent over here in the Gen X crew. You know what I mean? So you're"
+  },
+  {
+   "time": "54:25",
+   "speaker": "Nola Simon",
+   "text": "an elder. Would you be, you know, I guess you'd be a young Gen X."
+  },
+  {
+   "time": "54:30",
+   "speaker": "Cher Jones",
+   "text": "I'm right in the middle. I'm like 49. That's what I'm saying. So I'm like right up in there. I'm, but I'll call myself millennial adjacent. Oh, that's funny."
+  },
+  {
+   "time": "54:46",
+   "speaker": "Nola Simon",
+   "text": "So the other question I like to ask is what's your favorite vision for the future if we were taking all the work that you do with organizations individuals and bring that out 510 years from now, what would you love to see? What's your favorite vision of what"
+  },
+  {
+   "time": "55:00",
+   "speaker": "Cher Jones",
+   "text": "could be? There's nothing I love more than seeing people really working in their awesome, like really like light, like what drives me to do what I do, like, so like my foundational why is, is really based off of a revelation that it's hard to ignore awesome. Right. And I believe that everyone. Has been gifted with a piece of awesome. There's something about you that you are supposed to use that you are meant to serve others with. And specifically, let's, let's go into the work because we spend so much time at work, right? So whether you are in your, and most people are not in the exact space that their skills and, um, you know, their skills and what they love and where they want to be, they're not perfectly aligned right now, but there are things that they get to do. That lights them up and that cannot be applied to where they are right now. So I think that as we. I think we have a lot more control over that than we think as far as the stuff that we get to do and the stuff that we want to do. Most times that we don't get to do it is because people didn't know you were that good at it or have that skill set to do it. So I want people to own their awesome because when people put their awesome out there in a right way, it's hard to ignore it. You can't ignore awesome. You see something awesome in the street. What's the first thing you do? Take a picture of it. You post it because you can't ignore it. It's awesome. You want to share it. That's what we do, right? So if we take that same human behavior that is innate in every single one of us and then showcase in, in a way of service. So that's the other side of it. We can't just blast and brag about our awesome. We have to position it in a way of how we leverage this awesome to serve others. And here's why you can trust me because I've done this, this, and this, and I know I can help you too. That kind of positioning changes everything because then when you're putting yourself out there and you're letting people know how they can see you, how they, what skills you have, you're going to attract through knowledge and through, through what you're putting out there, more of what you should be doing. Because when you see people like, like when they're lit up at work, that is a beautiful thing. Because that has such a ripple effect on when you're satisfied or you're doing satisfying things. And I'm not trying to paint some magical workplace where everybody's like, absolutely thrilled with everything they do. But when we are stepping into more of the things that light us up, and we are, when we are creating access and ways to do that through networking, through serving the right people, letting people know the right skill sets you have. You leave those places, you want to stay there longer, but you leave those places, you leave, you know, work, you go home and that that ripple effect is, is felt, right? You're happier at work. You're happier at home. So, I just think that there's such a connection to what we do and how we serve at work and we spend so much time out there that it would. Thrill me, because it's so hard, especially chat GPT, like literally blew my mind in November, December, when we were seeing this as like, Oh my gosh, everything's changing. What I thought was super special about me, a machine can do. And so I had to now rethink how, you know, how I show up. But at the end of the day, I know I've given you such a long winded question. I had a long winded answer. Cause I'm good at that. I asked"
+  },
+  {
+   "time": "58:38",
+   "speaker": "Nola Simon",
+   "text": "for a vision. You're giving me a"
+  },
+  {
+   "time": "58:40",
+   "speaker": "Cher Jones",
+   "text": "vision. And so it's just, for me, it's like the more people are leveraging. Personal branding and more organizations that recognize how powerful personal branding is at work for work, right? Is the happier your employees are going to be because they're leveraging their brands to work in their zones of genius. They're awesome. Right. Um, especially when they, when they are aware strategically how they can leverage it to help them in their role, help them build their career and. Connect it to the company brand as well. You're talking a lot of happier places. And so, so, and I really believe, especially when you think about all the leadership programs, all the programs, all of that stuff. When you say it's at the end of the day, it's they're connected by people. Right, that their success is intrinsically connected to the people that they're associated to. So, from a leadership program, those people, if they're better branded, that means their sponsors and champions can better advocate for them into where they should be. Right? Um, if they are better connected, if they're in a sales role, or in a recruiting role, They do better in their role as well in their job. So again, and then creating content for the company, whatever it is you need to do to show up partnerships, all that kind of stuff. If you have a better brand, you can do a, you can do a better job. Wow, that's that, that right there, if you have a better brand, you can do a better job. I stand on that. That is what I want to see is I want to see branded people because I believe in the power of branding. And that is my vision because technically speaking, I don't know where we're going to be now that with things like chat GPT and all the AI that's coming out and all the things that can do. But I know that better branded people are happier people and we're going to have a better place out of that."
+  },
+  {
+   "time": "1:00:42",
+   "speaker": "Nola Simon",
+   "text": "And that's fascinating because like you mentioned trust and as a society, we're moving actually from like organizational trust to distributed trust. And you see that with hybrid work, you see that, um, you know, just in the way reviews and recommendations work, Airbnb, um, you know, Uber, right? It's all run through personal recommendations from those people. And you have to have a good rating for people to trust that you're, you're, um, Your review, your rating is, is, is worthwhile and it's the same sort of thing in what we're talking about personal branding. But the other aspect that you're mentioning about the happiness is people, there's a correlation in the, in the research that's been done about trust is people who are trusted are happier. Um, perform better because being micromanaged and that's where, you know, this proximity bias where, you know, you have to be in the office, um, to be trusted so that we can trust that you're working. Well, that's actually not trust. You're trying to actually control, right? And that's where it's like, if you advance the personal brand to the point where. You can be trusted to work without being monitored."
+  },
+  {
+   "time": "1:01:56",
+   "speaker": "Cher Jones",
+   "text": "That's the magic. That is the magic, right? And wow, that, that, that's another, um, whole rabbit hole of the power personal branding as well, like around that building trust and they're happier people like that, that alone. Is is huge for me. So I thank you for sharing that with me. Oh,"
+  },
+  {
+   "time": "1:02:18",
+   "speaker": "Nola Simon",
+   "text": "yeah. No, it's funny. Once you start researching trust, you see it everywhere in every aspect. And so we are at end of time. Is there anything that you wanted to mention that we didn't actually talk about?"
+  },
+  {
+   "time": "1:02:30",
+   "speaker": "Cher Jones",
+   "text": "No, I'm one actually. Yes. So, um, one thing if you're, if you're out there and you're thinking about your personal brand and you're thinking, okay, what do I need to do next? Don't worry. Share's got you just head over to personal branding, quiz. com. And I have a eight question quiz. That will help you based off of where you're at right now and building your brand at work that will help you think about what your next step should be. So again, personalbrandingquiz. com head over there and, um, it'll help you figure it out. And there'll be a little video at the end for you to watch, and it'll give you some nuggets on what you can do next."
+  },
+  {
+   "time": "1:03:05",
+   "speaker": "Nola Simon",
+   "text": "That's excellent. And you can find share on LinkedIn. Um, an easy way is she has a hashtag. Just ask share. She's, she's brilliant at all of these little things that are memorable and I'll put all of that in the show notes as well. So people can come. Amazing. So, thank you. I really appreciate it. This is a fun talk. I loved it. Thank you. Thank you so much."
+  }
+ ],
+ "hostNote": "I found Cher through her LinkedIn Lives, and she's one of the few people I show up live for — the quality of her content is unmatched. I met one of my first podcast guests, Renée Lindo, in Cher's comments, and I book calls on TidyCal because I learned about it on her show. The experiment we ran minutes before recording — looking us both up on ChatGPT — became the Living Lab essay 'AI Already Decided Who You Are.'",
+ "ctaQuote": {
+  "text": "If you have a better brand, you can do a better job. I stand on that.",
+  "source": "Cher Jones"
+ },
+ "resources": [
+  {
+   "label": "Socially Active Training",
+   "type": "Website",
+   "url": "https://sociallyactiveltd.com",
+   "note": "Cher's training company — personal branding at work, for work, and employee advocacy."
+  },
+  {
+   "label": "Personal Branding Quiz",
+   "type": "Tool",
+   "url": "https://personalbrandingquiz.com",
+   "note": "Cher's eight-question quiz: where your brand at work stands now, and the next step to take."
+  },
+  {
+   "label": "Cher Jones on LinkedIn",
+   "type": "LinkedIn",
+   "url": "https://www.linkedin.com/in/itscherjones/",
+   "note": "Home of her lives and the #JustAskCher hashtag."
+  }
+ ],
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "AI Already Decided Who You Are — the Living Lab read of this conversation",
+   "url": "/living-lab/ai-already-decided-who-you-are"
+  },
+  {
+   "title": "The Assumption-Ground Audit",
+   "url": "/aga"
+  }
+ ]
+}
