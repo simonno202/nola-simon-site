@@ -1,0 +1,389 @@
+{
+ "number": null,
+ "slug": "facing-our-futures",
+ "title": "Facing Our Futures",
+ "show": "Hope + Possibilities",
+ "format": "Interview",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": {
+  "name": "Nikolas Badminton",
+  "title": "Chief Futurist",
+  "org": "futurist.com",
+  "credentials": "FRSA · Author of the #1 best-seller Facing Our Futures (Bloomsbury Business) · 30+ years advising leadership at 300+ organizations, including NASA, the United Nations, Google, Microsoft, the Bank of Canada, and the UK Home Office · Research featured by the BBC, The Atlantic, Fast Company, and Forbes · Key advisor to the Age of AI series with Robert Downey Jr.",
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/futuristnikolasbadminton/",
+   "website": "https://nikolasbadminton.com"
+  }
+ },
+ "publishDate": "2023-03-17",
+ "publishDateHuman": "March 17, 2023",
+ "updatedDate": "2026-07-05",
+ "updatedDateHuman": "July 5, 2026",
+ "duration": "40 min",
+ "durationISO": "PT39M53S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/us/podcast/nikolas-badminton-facing-our-futures/id1602822494?i=1000604701947",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Nikolas Badminton — chief futurist, author of Facing Our Futures, and the first guest ever to send Nola an advance copy of his book — has spent a career arguing that the Industrial Revolution beat the curiosity out of us, and that the repair is a two-word shift: from what is to what if. The conversation maps his working method end to end: why nostalgia is the enemy of good futures thinking, why black elephants do the damage everyone blames on black swans, how a hostile room of 800 Alberta farmers rebuilt the way he delivers keynotes, and why the word 'yet' is his secret weapon against 'my industry won't change.' The fossil-fuel company that declined to imagine its own obsolescence supplies the cautionary tale; the startup that rebuilt itself in a pandemic workshop supplies the counter-example. And in March 2023, weeks into the ChatGPT frenzy, he calls the hype early: a mirror that shows you the average so you can go do the work that isn't.",
+ "takeaways": [
+  "Shift from what is to what if — the two-word move that turns a forecast into an invitation and a defensive boardroom into a curious one.",
+  "Nostalgia is the enemy of good futures thinking: 'the good old days' and 'granddaddy built this business' are how organizations talk themselves out of seeing change.",
+  "Watch for black elephants, not black swans — the thing that has been standing in the room all along, like a pandemic, causes the mayhem everyone later calls a surprise.",
+  "When someone insists their industry won't change, have them add the word 'yet' to every sentence they just said and replay it — resistance rarely survives the exercise.",
+  "Futures are plural: a room of forty people generates dozens of legitimate trajectories, and the work is exploring them rather than collapsing them into one official forecast.",
+  "Design fiction beats the scenario deck — names, faces, and daily routines make a 2040 world something people can feel, and what people can feel they will plan for.",
+  "Future-prepared, vigilant organizations significantly outgrow the ones that skip the work — the natural-gas company that refused to imagine its own obsolescence is the cautionary tale."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "1:56",
+   "question": "How does storytelling challenge worldviews and mindsets?",
+   "answer": "By attacking what Nik calls the poverty of imagination. Two or three hundred years of industrial work have beaten curiosity out of most people — even creative, strategic work happens inside boundaries and boxes. Futures work starts by finding those boundaries and stepping over them firmly: igniting imagination, embracing multiple worldviews, and holding the fact that there is no singular future, only a multitude of them. 'What if' works because it's an invitation to be curious rather than a claim to be defended against."
+  },
+  {
+   "timestamp": "10:45",
+   "question": "How does a foresight practitioner find clients who are actually ready?",
+   "answer": "He doesn't — they find him, without fail, for ten years. He refuses RFPs and competes with the McKinseys of the world by taking the work before it reaches their desks. Then comes the qualification: do you want to explore, change, do something? A natural-gas company failed that test — he pitched imagining a world where their current business doesn't exist in thirty years, the executive took it to the CEO, and the answer came back 'we just want to focus on our current plans.' That company, he notes, is the one that will be scrambling."
+  },
+  {
+   "timestamp": "14:56",
+   "question": "What happened when the pandemic erased the keynote business?",
+   "answer": "At the end of 2019 the career was ignition-ready — 3,000 people at the Bellagio, the SALT conference invitation — and it all disappeared just as he'd bought a house with a pregnant partner. His answer was to run his own methodology on himself: hunker down, do good futures work, transform the business. 2021 became the biggest year he'd ever had, without leaving the studio he built at home — working with the Bank of Canada, tech companies large and small, and farming organizations. There's no such thing as times too tumultuous to hire a futurist."
+  },
+  {
+   "timestamp": "18:49",
+   "question": "What did 800 Alberta farmers change about how he presents the future?",
+   "answer": "It was his last 'here's the truth, accept it' keynote. A farmer stood up and pushed back hard — and Nik realized you can't present information and close the door on the conversation. A week later he picked up Rob Hopkins' From What Is to What If at an airport, and it changed everything. Now he presents trends, signals, and scenarios, then asks: but what if the world changed? Nobody can shut down an invitation. And when they list all the reasons change isn't coming, he deploys the secret weapon: put the word 'yet' at the end of every statement you just made, and replay it."
+  },
+  {
+   "timestamp": "21:50",
+   "question": "What does design fiction add that scenario planning can't?",
+   "answer": "Feeling. Scenario planning maps people, places, systems, and effects in a future year — good, necessary work. Design fiction puts names and faces on those people, gives them families and communities and Tuesday routines, and plays the systems out through ordinary weeks. When a story is told well, you're there, and you have an emotional reaction — and once you can feel a future and empathize with someone in it, you believe it's possible, identify what matters, and can work backwards from 2040 to the strategic plan for this year."
+  },
+  {
+   "timestamp": "35:14",
+   "question": "Is ChatGPT the revolution everyone says it is?",
+   "answer": "A new search engine — big deal. Nik studied AI and linguistics in the nineties and has followed large language models for years; his read in March 2023 was that the output is homogenous and average, and that GPT-4 gave him no better answer than GPT-3.5 on the identical prompt. His advice to clients: use it as a mirror. Everything it delivers is everything you need not be doing — so read it, then go define your own vision. He predicted a reckoning within twelve months over misinformation, and reserved his respect for the humans still writing flawed, human things."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:04",
+   "label": "Thirty years of futures work"
+  },
+  {
+   "time": "1:56",
+   "label": "Storytelling against the poverty of imagination"
+  },
+  {
+   "time": "7:31",
+   "label": "Megatrends: geopolitics, perma-crisis, utopia, long-termism"
+  },
+  {
+   "time": "10:45",
+   "label": "Clients who come to you — and the fossil-fuel refusal"
+  },
+  {
+   "time": "14:56",
+   "label": "The pandemic pivot: biggest year, home studio"
+  },
+  {
+   "time": "16:38",
+   "label": "Perma-crisis and black elephants"
+  },
+  {
+   "time": "18:49",
+   "label": "800 farmers, one book, and the word 'yet'"
+  },
+  {
+   "time": "21:50",
+   "label": "Design fiction: futures you can feel"
+  },
+  {
+   "time": "35:14",
+   "label": "GPT-4: a mirror, not a miracle"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:04",
+   "speaker": "Nola Simon",
+   "text": "Thank you so much for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence. And joining me today is, uh, Nicholas Badminton. He is a chief futurist. You've been working in futures for, what, 30 odd years?"
+  },
+  {
+   "time": "0:16",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah, I've been, uh, I've been sort of in, in, in the professional context since, uh, 1996. Um, and really there's been, there's been a thread of futures through all of that. I mean, at the beginning it was so, so to go back a little bit further, 1993 did a, did a degree. In applied psychology computing focused on artificial intelligence, linguistics, organizational change. It's very funny that those three things were what I, what I looked at, considering where we are today with the craziness and chat, G p T and what people are talking about. Um, but basically spent my entire career working in data and building out, uh, software solutions, running large teams. And there was always a focus, but that was more like five, five to 10 years. And in the last sort of 10 years, there's been a. Direct focus on, on future's work, so you know, the intersection of humanity, technology, social change, culture, and a whole number of different things. So, so that, that's where I stand today. But yeah, there's always been a thread of futures all the way from, from very early childhood actually, when I, when I started to read, you know, books about, you know, futures thinking and, and speculations on technology."
+  },
+  {
+   "time": "1:20",
+   "speaker": "Nola Simon",
+   "text": "Yeah. Cool. Now you on this podcast, you own the very, uh, nice distinction and I'm gonna hold it up so people can see, uh, facing our futures. Nick is the first person to actually send me a copy of his book in advance so I could read it. This podcast? Yeah. We can get money's worth. Oh, good. And. I wanted to say thank you. It was a very interesting book. Thank you. I'm fascinated with your approach to storytelling, because to me a lot of this is about challenging worldviews and mindset, and the way that we can do that a lot is storytelling. So could you speak to that?"
+  },
+  {
+   "time": "1:59",
+   "speaker": "Nikolas Badminton",
+   "text": "It, it's interesting, you know, a lot of, uh, leaders, executives, venture capitalists, government folks like to talk. The future. Um, but not, not many of them actually want to invest in, in creating something that actually PR provides a, a, a longevity to any particular, you know, way of working or mindset or whatever. So, so, you know, I, I sort of bring new thinking to the situation where it's like, okay, we've gotta wake up. There's a poverty imagination in the world. So we, we, we've kind of been input in boxes and I think, uh, You know, 2 7300 years, the Industrial Revolution has sort of beaten that curiosity that that imagination, out of the majority of people, we end up getting, getting to work and we're told what to do. Or even if we're sort of top of the tree and we're being creative and strategic, it, it's within boundaries and within boxes. And what we do in future's work is, is we sort. The first thing we do is work out where those boundaries are and we step over them very firmly and then go exploring into a lot of different areas. And, and a big part of that is understanding that, you know, we have to ignite imagination. We have to think differently. We have to. Really admire and embrace a lot of different worldviews. The, the fact is there is no singular future. There's multitude of futures. That's an important part of the mindset. I talk about shifting mindsets from what is to what if so, what if is an invitation to be curious? I mean, back in the day I used to do keynotes and it was like, you know, this, this trend, that trend, this tech and whatever, you know, welcome to the future, you know, and, and this is gonna change your life. It's not that simple. And also that's a very provocative way of, of delivering that information. But, you know, what we have to do is become highly introspective when we start this journey and when I work with clients, it's like, okay, let Brass tacks is, is this, and I sort of talk about this a little bit in the book and, uh, So we get to question our own history. I always say that nostalgia is the enemy of good future thinking. You know, the good old days, let's, let's kill that idea immediately."
+  },
+  {
+   "time": "4:08",
+   "speaker": "Nola Simon",
+   "text": "thousand 19 was not coming back. Let's, yeah."
+  },
+  {
+   "time": "4:11",
+   "speaker": "Nikolas Badminton",
+   "text": "And it, do you remember, you know, or, or, or granddaddy and daddy built this business. And you know, I've got some examples of where I've had conversations around this practice. Curiosity and be courageous. And being courageous and, and having bravery with these conversations is really important because, you know, we, we've gotta, we gotta speak truth to power, even within our own organizations. I love people like Greta Thunberg getting on stage and saying, you know, blah, blah, blah. No one's saying anything that, no one's saying anything that's gonna be acted upon this is this, this is all not really happening. Um, the amount of people that hate Greta Thunberg that I've met, because like she. Irritating to them and good. We are irritants like, you know, futurism is activism and that's really important. What we have to do as well is we have to really get, uh, comfortable with ambiguity and multiple perspectives because futures is plural. There can be lots of different outcomes of lots of different situations, and this is kind of tricky to work through with clients. But ultimately, you know, when you do exercises in a room of like 30, 40 people, you end up with dozens and dozens and dozens of potential outcomes potential. So journeys forward for, for the company. And they're like, well, you know, what do we do with this? It's like you explore them, you embrace them, you understand that, you know, lots of people are. I used to work in advertising, and I remember I worked for a very large Canadian telecommunications company. I was, I was a, a strategist o on the agency side working for them, and they said, you know, our ideal cl our ideal customer is, you know, the wife and the husband, and the daughter and the son. It was homogenous, it was boring, it was uninteresting. And it was like, yeah, we're selling. You know, cable TV to these people, and it's like, Christ, like we're so far away from a reality that, you know, this is, this is like the death of imagination and the death of, uh, of good thinking. Anyway. And this brings me on to the next point. You know, once you've actually framed the idea of. There're being multiple perspectives and multiple futures. We actually have to be creative and we have to be, what I say is, uh, wildly creative. We have to entertain as many ideas as possible and we don't discount anything and there's no such thing as a, a bad idea. But in doing so, we also need to focus on the non-zero sub game. There doesn't, there don't have to be winners and losers, , and this is, this is hard for a lot of companies to understand. You know, the best companies in the world don't try and, and, and own you exclusively. They, they, they. Like you to be part of a wider ecosystem. They respect that in your life. And some of the big tech companies understand that. You know, whilst you might have someone like Amazon that wants you to only shop at Amazon, they know that the, the overall ecosystem of of retail and choice, and you being a business person as well as an individual shopper is incredibly. Important for that rich tapestry. And it is the same for big tech companies, social media companies and whatever, even though they, they all try and ensnare you in their terms and conditions as well. So I mean, that's some of the, the ways to help shift mindsets. But again, I talk about shifting from what is to what if, at a very simple level invitation to be curious, an invitation to entertain different possibilities as we look."
+  },
+  {
+   "time": "7:31",
+   "speaker": "Nola Simon",
+   "text": "and before this podcast started, you posted something on LinkedIn. That's what I was checking earlier. Yeah. Um, you do actually work in themes when you're, when you're looking at these, these stories and imagination and, and yeah. Getting people to look at different things differently. And those themes are geopolitics, perma, crisis simulation, utopia, and long-termism."
+  },
+  {
+   "time": "7:50",
+   "speaker": "Nikolas Badminton",
+   "text": "Sure. And so, so that was a particular keynote I did with a long TI time collaborator in Vancouver. I used to live in Vancouver. I now live in Toronto and I sort of travel the world doing what I do. Um, guy called Greg spk from Reboot Communications in Victoria, British Columbia. And, and, uh, that was at the va Vancouver International, uh, privacy Security Summit. So that was a specific. But, you know, I do talk about the big, they're, they're more like megatrends, all of these things. So the, the idea that geopolitics and climate change, water, energy, food, uh, resiliency, waste, uh, the circular economy, sustainability, uh, these are all things that I really work, uh, with. To start with, you know, I don't like to leapfrog over them and say, oh, right, okay, here's some cool tech. Let's plug that in. Metaverse metaverse, this and G P T for that and, and whatever. Right? So, and I'm not saying that I've, I've, I've not done that in the past, but these days it's like there are bigger problems to deal with. The dynamics of the world are, are around, you know, where the shifting population, ec economic growth, uh, where the dynamics of. You know, who's go, who are the power brokers and who are the heavyweights behind them? Sort of trying to enforce, enforce things as well. So the keynotes that I do these days are a lot, lot heavier than they were back in the day when it might be to a marketing and advertising conference is like, here's 10 technologies that are gonna change your industry. Well, things, uh, right back down to grassroots. So, um, so thematically, I, I deal with a number of things. What I do, every single keynote I do is actually. So for that particular one, ideas around challenging the idea of utopia. Challenging the idea of long-termism, which is the idea of painting a picture of a world is fantastical, but we are never gonna achieve. And uh, just before we, we started the podcast, you said, oh, I saw you posted something about moonshots of bullshit, you know, and, and, and it's interesting. That was from, uh, something that I did about five years ago when I realized that, you know, we are being fed all of this PR and marketing about the future. Singular. Whereas we need to shirk that off and get real about doing things. And unfortunately we are seeing all of Silicon Valley regressing and literally getting rid of all of their capabilities around deep r and d around proper futures thinking. So, um, yeah, now's the time where there's a little bit of a. A battle for the hearts and minds. And, and now's the time for, you know, foresight practitioners to step up and work with people to say, Hey, there's a real opportunity here. Not only be from a profit perspective and a growth perspective, but from a, doing the right thing in the world and planning for 10, 20, 30, 50 plus years into our futures."
+  },
+  {
+   "time": "10:45",
+   "speaker": "Nola Simon",
+   "text": "So that's a great question. So if you're a foresight practitioner, how do you find the clients that are actually going to. , the openness, that mindset and the willingness to really shift and adapt to."
+  },
+  {
+   "time": "11:00",
+   "speaker": "Nikolas Badminton",
+   "text": "So this is what I do, and I can't say that this is the same for everyone. I mean, I run a very agile small organization. I've got an associate, uh, group of futurists that I work with. So these are people that know everything from, uh, renewable energy to artificial intelligence, to urban planning and architecture, a whole, you know, military, a whole bunch of different things. Um, and when, when a client comes to us, we can build a team and we can go in and work with them, or we can go and do keynotes individually and whatever. But what happens is without fail and without fail, in the past 10 years, absolutely all the clients come and find us and they, they come to me directly to say, Hey, we wanna work with you. And that's a good qualification. Um, I don't wanna be part of RFPs. Uh, I don't wanna compete. You know, the only way that I compete against people like McKinsey and whoever is just by taking the work before it even comes to their desk. Right? Uh, and, and, and that's really important. And bringing rigor. I come from a big, a big, uh, consultancy background, come from an advertising background, come from a technology background so I can slug it out with the best of them. But then there's a qualification and it's like, okay. Do you wanna explore? Do you wanna change? Do you wanna do something? Um, most recently I was approached to work with a fossil fuel company. Uh, providing natural gas. And I said, you know, in like 20, 30 years, your business is gonna be obsolete in its current form. So why don't we do work together? Why don't we, why don't we imagine a world where what you do today is non-existent in 30 years time and what you are going to be like? And you know, that was a big pitch , and the person, the person I pitched it to, you know, um, in person was like, you know, oh, you know, yeah. You know, we need to do some thinking. Clearly uncomfortable because they're still trying to protect their own business, even though the cracks are starting to to show and took it back to the CEO and senior executives, and they're like, no. We, we, we just, we just want to focus on our current plans and, and this is the problem, right? That company is likely not gonna exist in 30 years time or in like 15 years time. They're gonna scramble very hard to, to make up ground that they, they could have started establishing today. Right? So it, it's kind of interesting. I, I, I've done work with governments. I've done work with, with large tech companies. I've done works with, with startups. Startups make changes really quick. I, at the beginning of, uh, COVID. I, I working with, uh, startup at Halifax and I was working with the ceo and we went in, we did some exercises, actually prototyped a lot of the, uh, the exercises and workshops and some of the, the ideas that I shared in my book with, with that, on that particular engagement. And, um, following that, they, they looked at their company, they looked at their vision and their brand. They looked. You know, their roadmap and they changed everything and they were still fundamental about what they were delivering as a product and a service. It was a technology platform, but the way that it was done and the people on the board of advisors and the, the, the makeup of the team and content and promise and everything changed and the business just like is booming today. And it's really interesting. I worked with one of the world's largest tech companies, again, at the beginning of, of, uh, the pandemic and. Yeah, they, they made policy decisions to protect people that were working alone, at home, uh, remotely, um, because of the signals that were very clear coming out in the world of, you know, the, the challenges that people have from a mental health perspective and the dynamics of remote work and how challenging that is and whatever. So, you know, there's, there's lots of things that can be done. I mean, typically we find that there's a champion within these organizations and if you have that champion nest senior, We can really start to inject new thoughts on how the world might be."
+  },
+  {
+   "time": "14:54",
+   "speaker": "Nola Simon",
+   "text": "Cool. And that's actually what you did when the pandemic started. You sh you lost all your speaking opportunities and you pivoted talking about the future of work and examining that right."
+  },
+  {
+   "time": "15:03",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah, the end of 2019, I like career was, was going incredibly well. You know, 3000 people in the B Bellagio in Las Vegas, even in like January, 2020. You know, Des Moines, Iowa, you know, 2000 people, um, like from inland investment and, and, and farming. Uh, Anthony Scaramucci was there, like the, the famed uh, press guy for Trump for 10 days, but he runs the SALT conference. I was invited to the SALT conference. Everything was. Everything was gonna be like literally ignited and it all disappeared. Uh, I bought a house. My, my partner was pregnant and I moved in and I lost all my work. Um, but what do you do? Did we see it coming? I don't think I actually saw it coming as ferociously as it did, but what do you do? You do. You, you sit down, you do good futures work, and you, and you hunker down. You work out what you need to do. You transform your business and then you do the work. And I did some really interesting work, work with the Bank of Canada. Big tech companies, small tech companies, farming companies. 2021 was the biggest year I ever had, and, and I didn't, you know, I, I didn't do any engagement outside of the studio that I built at home . So it's interesting. Now I'm back on the road. There's pretty much. Almost no virtual keynotes this year. But it's interesting now we, now we're facing a recession, right? So we're having a different kind of work happening today as well. And it, it, it's really fascinating. I mean, you know, there, there's no such thing as tumultuous times to, uh, to make it a good condition on which to hire a futurist, right? Yeah,"
+  },
+  {
+   "time": "16:38",
+   "speaker": "Nola Simon",
+   "text": "exactly. And that's what you mean by perma crisis, right? Because there's constantly something happening. Yeah. How do you constantly adapt? And that's actually part like. , that's underlying the mental health issue is just, you know, people. Having to adapt to that constantly ambiguity, constant change. Um, and they just quite don't quite know to where to go and there's resistance. Yeah."
+  },
+  {
+   "time": "16:59",
+   "speaker": "Nikolas Badminton",
+   "text": "And we've ignored a lot of things. So I talk about black elephants in, in, in the book. You know, the, the idea, everyone says black swans and they, they get it completely wrong. A black swan is a event, is an unknown unknown. It's gonna be a tsunami, it's gonna be a meteorite, it's gonna be an earthquake, something like that. A black elephant is that thing that's always been stood in the room looking at you, and it's gonna cause mayhem at some point when it gets. Momentum behind it. So, you know, pandemics and the, and and the such, like, so there's always those things and Perma crises was something that's been promoted. I'm not sure if the World Economic Forum is, is sort of the, the, the, the progenitors of the term. I think it was a, maybe a, another sort of think tank organization, but perma crisis. It's like all of these factors coming together to create. Com, uh, a complex situation of chaos and potentially negative outcomes. So, you know, you, you've got, you've got war, you've got economic shifts, you've got, you know, cyber crime, you've got mental health issues. You've got, um, democracy being charged with misinformation. Like put it all in a mixing pot and you've got something very interesting, right. I kind of feel that we've always been living in that. It's just that today, uh, information travels so fast and we are more connected on these platforms than ever that it's been sort of amplified to, to an nth degree. . Mm-hmm."
+  },
+  {
+   "time": "18:19",
+   "speaker": "Nola Simon",
+   "text": "There was something that you mentioned in the book, which I thought was really interesting, and a lot of it is to do with climate change and climate change boosters, and being in front of a large audience. You're very careful in the data that you pr, uh, present. Uh, you know, you, you pull like US army, so sources that are bulletproof, they're beyond credible because that's the only way that you can really, uh, uh, counteract that that group think that happens in a large group. Tell us some stories about that."
+  },
+  {
+   "time": "18:49",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah, I sure can. So this was, this was in 2019 again, and I did a large conference to a group of about 800 farmers in Alberta, and it's always a, a rather salty crowd. I, I actually really love chatting to people in the agriculture industry. Um, I actually really love Al Albertans and, and what they do. It's very, very tough crowd as well. And farmers are a very tough crowd because it's a really tough situation. We, we, we. Everything to farming, to farming at scale, um, for the growth of the world. And we, we continue to owe so much to them. So big love and respect to them. But, you know, I did this keynote and it was, it was sort of the, the, it was the last keynote where I was very much like, here's the truth, you know, you gotta accept this , welcome to the future. Thanks very much. And, and a guy stood up at the end and was very negative about the keynote saying that he couldn't believe half of the information in it and whatever. And, and I realized, You couldn't, you couldn't present information, throw it in and close the door to the conversation. You had to actually open it up. I actually ended up having a really good conversation with that chap and we, we, we did. And um, about a week later I was flying down to, uh, new Orleans for my birthday. With my partner and I bought a book at the airport court by Rob Hopkins called From What Is To What If. Mm-hmm. And it changed, changed everything. And it was, it was an invitation to be imaginative and curious and, and, but I just, just, um, in, in my keynotes, I, I, I have these, like, these, these trends with signals and scenarios, and then I say, yes, but what if the world changed? And people can't shut that down as an invitation. . Yeah. And, and, and, and they can all, and and people can come, uh, negatively at you and say, yeah, but like, I don't believe this and I don't believe that. I don't think this is gonna change, and that's gonna change. And then I, then I sort of mobilize sort of my secret weapon and I say, okay. But what if the world does change? And I say, if you, you can take every single statement that you just said, just put the word yet at the end of it, and, and rethink through everything, you know, replay everything, because everything's gonna change. And it's not gonna necessarily gonna change the way that I necessarily think. I speculate on which direction, based on the signals that I see. But for you to think that change isn't coming to change, change your industry or, you know, regulations or whatever aren't coming to make things more tricky, then that's, that's not gonna serve you in the long, long term. So, you know, I, I've sort of, I've got some battle scars. . And from them I've sort of learned some ways of framing I think are really important because you don't wanna lose anyone in the room if you're trying to do some work. And you know what I've been in, I've been in some incredibly hostile rooms, people that are climate change deniers, um, which is happening a lot less because it's becoming quite obvious that there's a challenge. Uh, people that just don't think that their industry is gonna change And, uh, And I share stories about companies that made terrible decisions based on the same kind of logic. Great."
+  },
+  {
+   "time": "21:56",
+   "speaker": "Nola Simon",
+   "text": "Is that where fiction helps you? Because you actually write fiction as well, right?"
+  },
+  {
+   "time": "22:01",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah. So y you know, the, the work of, uh, of futures, uh, I is is that of, uh, fine scanning for signals. The things that indicating that word are gonna change, uh, the identification of trends, which is multiple signals coming together, the trends that come out of that and the effects from that. And looking at scenarios so, In a future time, maybe 2040. We see these people in these places, in the, in these situations using these systems effective in effective in these positive and negative ways. That's good scenario planning, and that's what I do. And I've written about in the book as well. You start to really explore how things are chopping and changing, but beyond. We can make things come alive by writing fiction. And I, I do, I, I write science fiction with my, with my clients. Some people call it design fiction as well. And what you do is you take the dynamics that you've worked out in scenarios, but you put names and faces to the people in the stories and their interpersonal socioeconomic dynamics, the culture, the community. All of those things. And then you, you start to play out all of the systems in sort of normal run of the mill, you know, daily, weekly, monthly activities, whether it's a, you are an organization or a family or a community and whatever. And what's important about stories is that they give you a feeling about. What those futures could fit, could, could actually be. Now, once we can feel something and we can empathize with someone, and we can imagine ourselves there, because, you know, when, when, when people tell stories to us and they're, it is really good storytelling. We feel that we are there and we're, we're really having an emotional reaction to it. , then you can believe that it's a possible situation and you can start taking things seriously and you can start to identify the things that matter to you as an individual and you as an organization. And you can bring them back to strategic planning today and start the work of working out. It's like, okay, that might be 2040 and we're in 2023. What are the steps to get from here to there? And it's a really interesting, uh, situation. Stories engage more. More than sort of dry presentations on scenarios and roadmaps, trajectories. Um, the story makes it come alive, and I actually use it in my keynotes as well. I, I, I read stories, um, especially to very large audiences because it just makes it all come alive. ."
+  },
+  {
+   "time": "24:34",
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. But you don't shy away from dystopian features either. Like, it's not like you're painting like a, a sunny picture of the future. You, you view it as important to have it both elements of it. Right."
+  },
+  {
+   "time": "24:46",
+   "speaker": "Nikolas Badminton",
+   "text": "I mean, life, life isn't necessarily convenient or easy. I actually say that futures are, are terribly inconvenient. I mean, it's, it's changing how we're gonna be. We can make bad decisions today and we can make good decisions today, um, in, in the book I talk about, you know, what, what. Positive future is and what a dystopian future is. Positive is something that's built on, uh, accessibility and equality and equity and humanity before technology and all the good stuff. And, uh, that's my definition and I'm sticking to it. Um, the dystopian trajectory is kind of what we live in today. Um, very few people own the majority. How the world operates and the money within it. Uh, we are sort of, uh, we are, we're colonized and put into boxes and we work in certain ways. We, we are, we are trapped in that industrial complex and we continue to be so, you know, by, by these solutions. Ha. Live a happy life, you know, just, you know, pay to play in this life. Let a lot more than you know. Giving someone access and, and being connected in a community in a more creative artistic sense as well. Right. So yeah, we have to take it into considerations. We're in constant hype cycles of politicians or, or, or, or leaders in government or leaders in business saying, Hey, this is the future. This is what's gonna be, trust us, um, you know, pay your subscription and we're gonna deliver miracles. And you are stuck in a constant cycle that doesn't improve long-term outcomes. So, you know, fossil fuel. Is a great example of that, that happening for decades, you know, government and building new infrastructure and a whole bunch of different things is another example of that as well. But we can, we need to put it in very clear. Context of you know, what the outcomes are because there are always negative outcomes that someone's always gonna win, someone's always gonna lose. Even though we really want everyone to win. Once we can understand that those dynamics, we can start to disrupt the terrible thinking that happens and start to build businesses in a much better way. Unfortunately, you know, with market demand and shareholders and all these horrible things, we're seeing. A world where there's, there's contractions and layoffs and horrible situations because people just wanna make more money. They don't actually care about the people that work for them or the progress of humanity. Right now in big Tech, we're seeing them like give up the idea of, of creating a future that is actually open and, and equity driven, um, to one that's just based on selling more ads to, to try and sell you more widgets."
+  },
+  {
+   "time": "27:28",
+   "speaker": "Nola Simon",
+   "text": "Right now, you've actually taken steps into shifting how executives are actually, uh, educated. Right. How do you envision that being important and what's changing and how are you taking steps to do that?"
+  },
+  {
+   "time": "27:42",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah, so, so Foresight, futures thinking it's, it, it's been around for a long time, but it, it, it is funny because there's not a lot of organizations that have really embraced it as a capability deep within their organizations. I mean, in, in facing our futures. In, in the book, I sort of talk about where it came from, uh, and, and, and how it's gotten to hear there. You know, the, some of the great thinkers that I use as reference points are actually in there. I've, I've interviewed some of them as well, and, and what's really interesting is, There's studies that have come out, uh, that, that say that you are gonna be more profitable and you're gonna have much higher growth, like 200% growth, uh, if you, if you're vigilant, if you are future prepared, versus the companies that do not do that, you know, in fact, tho those are the companies that are on the path to obsolescence, right? So now executives are taking it very seriously. I'm, I'm gonna be working with the Schulich School of Business in Canada, York University. So number one business school in Canada with their exec. Program. Um, so we are gonna be doing that later this year and working with people to really ignite future thinking. Cuz all we need to do, even if you take, you know, two or three of the, the, the small, you know, methods that I talk about in my book. Even just that shift shift of from what is to what if, to be curious, to ask questions every single day to scan for signals, it's gonna make your strategic planning. It's gonna give you a level of future preparedness that you didn't have before. It's gonna have vigilance and it's gonna make your strategic planning, your risk, um, your risk scanning and, uh, your overall bra brand and, and, and organizational vision. So much more potent and, and, and stronger than it has been that, you know, it's, it's kind of a no-brainer these days to actually step up and do. That's excellent."
+  },
+  {
+   "time": "29:26",
+   "speaker": "Nola Simon",
+   "text": "And people want you to be real. Like they want you to tell them the truth and be blunt, and that's what you bring to your keynotes and Yeah. And present, right? Yeah. Does it take a certain type of personality? Like who, who responds to that and who doesn't?"
+  },
+  {
+   "time": "29:40",
+   "speaker": "Nikolas Badminton",
+   "text": "So, you know, I always come from, like, I, I come from the skateboarding, punk rock background, you know, when I was a kid playing in bands, DJing, I celebrate the counterculture. I celebrate people that think differently. You know, I've neuro divergent, um, think of myself, um, , it's really tough to connect with a lot of, you know, very sort of straight up, uh, entrepreneurs, uh, or executives within organizations. I've been told time and time again that I, they hire me to come in and shake it up. It, it's funny, I, I sort of, uh, quip the, I now get hired for, for the work that I used to get fired for, for doing. So, you know, in an ad agency, you don't go in to shake it up right in, in a big four consultancy. Actually, you know, I, I worked for a company called Capgemini. We used to shake things up, but it was about mission critical systems and data and whatever advertising. Woo. I actually got laid off from a, a very large advertising agency for speaking truth. About the current situations and, um, yeah, that didn't go down so well. So, you know, I was put on ice and then I was fired four months later. And, um, you know, these are the same clients that are approaching me now, and that advertising agency is, is pretty much obsolete at this point. So go figure. . Yeah."
+  },
+  {
+   "time": "30:54",
+   "speaker": "Nola Simon",
+   "text": "There was one time I, uh, you had posted something about a, a rock, uh, performance in the middle of a forest, and I, and I had asked you about it. You sent me the clip and I'm like, I don't quite get this ."
+  },
+  {
+   "time": "31:07",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah. Could you explain? Yeah, you, how does art really subvert? Yeah. So what you have to do is you have to take yourself out of, you have to take yourself out of the city, in the workplace, in your home to somewhere different, to have a different perspective. You know, the, the one example I remember this Nola, um, that I shared was, uh, there's a festival in British Columbia in Canada, uh, called Bass Coast, and it's in Merritt. It used to be in scor. 4,000 people in the, in the forest and they build these amazing stages and it's all, you know, eco-friendly and you know, it's all, it's all built on renewable energy these days. And, uh, people DJing get together and have a lot of fun in many different ways and talk about important subjects and, and dance together. You know, it's like that, that scene in the Matrix where they're all celebrating on the ground and in the cave. Right. Um, that kind of thing. I think we need more of in life and I've. I've always explored the counterculture. I think the people have forgotten that counterculture can exist. We kind of live in this horribly homogenized world of social media, memes and TikTok, dances of articles and mindsets of which side are you on? And we've kind of forgotten what it means to, to really get away and, and sort of shirk these things off and say, okay, who am I? And where do we go? And uh, and now we're. We have an opportunity to do that. I, I've always wanted to do retreats with executives. Um,"
+  },
+  {
+   "time": "32:39",
+   "speaker": "Nola Simon",
+   "text": "I was just gonna go there. Yeah. Like, this needs to be a"
+  },
+  {
+   "time": "32:42",
+   "speaker": "Nikolas Badminton",
+   "text": "retreat. . So I, I, I'm currently in the process of working out, um, buying a property that will be used for retreats with executives. Um, and these, uh, I, I sort of joke, and this is an idea I've had for a number of years, it's a retreat. I, I want to call it advance. Right. And it's, uh, it, it's a retreat where you advance , so it's kinda you in, in, what you're doing is you're retreating from the normal life into a completely different context. Yeah. You know, where there, there's no electronics and there's no wifi, there's there, there, there's food and there's people and there's dynamics. There's big world problems that we can discuss and we can come together and work this out. And we might do that with the help of, you know, good whiskey or maybe some strong psychedelics, I'm allowed to say that these days, right? You are, yeah. Yeah, yeah. I'm allowed to say that these days, but"
+  },
+  {
+   "time": "33:36",
+   "speaker": "Nola Simon",
+   "text": "yeah. But to be quite honest, when I gave you the floor about attitude, and I did expect you to take it a little bit further than there, because I'm like, okay, am I risking my clean reading ?"
+  },
+  {
+   "time": "33:45",
+   "speaker": "Nikolas Badminton",
+   "text": "But no, it, it, it's all good. I mean, look, we, we live in a world where we have to really ignite imagination. We come back to that, that beginning piece and. I wanna work with people that really want to take a chance, you know, Chatham House rules, like we don't share anything that's said, we get together. So yeah, that's, that, that, that's a little project I've not really spoken a lot about to people. So, uh, maybe call that anex exclusive for your podcast. Woo."
+  },
+  {
+   "time": "34:10",
+   "speaker": "Nola Simon",
+   "text": "I love ex. I did an exclusive the other day. I had Leslie Am and her sister Erica. Um, it's the first interview they've ever done before, so like, this is my week of first ."
+  },
+  {
+   "time": "34:19",
+   "speaker": "Nikolas Badminton",
+   "text": "Well, there you go. It's all good. We're, we're here to push the boundaries, right? We are here"
+  },
+  {
+   "time": "34:23",
+   "speaker": "Nola Simon",
+   "text": "to push the boundaries. Is there anything that we haven't talked about that you would really like to highlight?"
+  },
+  {
+   "time": "34:29",
+   "speaker": "Nikolas Badminton",
+   "text": "You know what, we, we we're, we're, we're at a point in time where we need to really. Be careful about being trapped by ideas or recession ideas of, of contraction and protectionism of our own businesses. And we are at a point in time where we need to be open and creative and curious and connective, uh, where we don't think that there's competition in the world. There's just collaboration. I mean, that's what I think is really, really important. And even in market driven, you know, economics of, you know, the winners and losers. if you play this well, everyone's gonna win. Right. And obviously there's gonna be some losers cuz they're the people that don't wanna do futures work. So."
+  },
+  {
+   "time": "35:14",
+   "speaker": "Nola Simon",
+   "text": "Yeah, exactly. So how tired are you that the uh, chat G B T conversation set?"
+  },
+  {
+   "time": "35:20",
+   "speaker": "Nikolas Badminton",
+   "text": "I did. I, so I did, I, I, I, I, I did work in, uh, artificial intelligence linguistics at university in the nineties. It was always gonna be an area that is incredibly important. I've been following the large language model conversation for, for a number of years. Um, and, and some of the warnings behind that. We've kind of got this, this, this world where every single client I work with is asking me for my opinion on this. Last year it was about metaverse and so like , that, that, that, that's a dead dog at this point. Um, but like chat. Artificial intelligence is always gonna be disruptive. I like to think of the world as humans. Technology, humans with the machine. Yeah. So humans with artificial intelligence, cuz it's the same as us picking up a flint and, and turning it into an ax all of those hundreds of thousands of years ago. Or the ability to create fire. It's just a tool. Now we've got these tools that are owned by companies or. Significant investment by, by large tech companies like Microsoft, um, and OpenAI and whatever, and, and everyone sort of suddenly releasing their models to the world because everyone thinks that this is just gonna be the most, you know, revolutionary thing. But what it does is it provides us with a new search engine, big deal, and it provides us with something that's highly homogenous and average. Um, I always think that we're heading towards, uh, a place of, Low quality, lazy work, and I think that that's what's gonna happen with a lot of this if you don't use it properly. I tell clients, If you have a question or you want to write an article or you wanna be influenced by something that like chat, G b T or these other platforms, ask the questions, explore, look at them, and start relief and realize that everything that they've just delivered you is everything that you need not be doing. And go off on your own journey and define your own vision in your own place. It's like it, it's a relief. It's a mirror. It's. The deliverable. I mean, I've used it to, um, write articles on futurist.com, whatever, as as the idea of like, look at this third grade. Yeah. Non-creative, non exciting thinking. And we can go off and we can ignore what's already been said, cuz that's all it's doing is regurgitating what's already been said. Um, it doesn't have imagination, it doesn't solve problems. Sure it's complicated and complex, but only in a way of combining things in new ways. And sure, it's gonna look like it's, it's, it's smart or maybe sentient, but truly it isn't. It's, um, a very smart piece of kit and I, I love it. I love this kind of development, but I don't"
+  },
+  {
+   "time": "38:00",
+   "speaker": "Nola Simon",
+   "text": "like it. The setting part is, it gets people thinking about how things can be different, right?"
+  },
+  {
+   "time": "38:04",
+   "speaker": "Nikolas Badminton",
+   "text": "Yeah. But most people are lazy. . So, so, so they, they, they're, they're not here to think different. Most people are here. It's like, marketers are like, oh yeah, I, I don't wanna write five blog posts this week. And it's like, you know what? I can spend half a day, um, with some prompt engineering and I can write five outlines and, and reduce my work by three quarters. And it's good enough. I'm fed up of good enough and, uh, it's why I left advertising and words like that. Um, because in in future's work, there's you, you literally can't ask g p t four to to write any kind of future scenario. It can't do it. It absolutely can't. It can write some, like, some science fiction, but it's not, it's not very good in any way, shape or form. My opinion about G P T four is that it's the beginning of a journey and it's another. And everyone's hyped about it because everyone is bored of what they're doing at work and they're suddenly looking for something exciting. I actually think that in the next six, six to 12 months, there's gonna be a little bit of a reckoning on, on these platforms and an understanding of what they're really doing in the world and what. People can use them for, um, to spread even more misinformation and embed it in society even deeper. So, you know, buyer beware, you know, the intelligence communities are definitely, definitely looking at this very, very carefully and, uh, wondering, you know, how things are gonna change at the same time. Um, criminal enterprises organized crime and, uh, foreign state actors are looking to basically seed in information that's gonna, you know, create, create a poisoned. . Yeah,"
+  },
+  {
+   "time": "39:46",
+   "speaker": "Nola Simon",
+   "text": "it's shocking. The, some of the stuff that I've come across, it's just so shockingly wrong and it's just like, that's worrisome."
+  },
+  {
+   "time": "39:53",
+   "speaker": "Nikolas Badminton",
+   "text": "And, and so, so I, back in December, November, December, I used G P T three, um, and used chat G P T at that point to, uh, write. Um, a 1500 word, uh, article on predictions across a number of different areas. And I, I specified it out. It was like, cool, cool, cool. And it was kind of very average me. It was, it was okay, some semblance of thought or semblance of reference. And, uh, I took the same prompt yesterday. I was like, what does this look like in G P T four? Absolutely no different at. So, so we're, we're, we're being sold something. And, um, whilst like all of these people are hyped up out there pumping out content, saying, look at this. It can do this, it can build this website from these, from this drawing, whatever. It's like, it, it, it's just generating more garbage. So, you know, we gotta be careful, you know, uht to use these things. But we're very, we're vulnerable and we are gullible. Um, so, you know, it's my mission to wake people up and say, Hey, uh, maybe. Bear in mind that this is not good work. And you know, I fully respect that universities and and schools are, are saying no when we are not accepting work from these places. Cuz it's obvious there is garbage that's being pumped out. I'd rather have a kid write something that was flawed and feels human than write, than have a kid that's pump something out, um, memorize some content and play it back. That is clearly this homogenous. You know, dead eyed sort of view of, you know, creative thinking or Yeah. You know, the satisfaction, I mean, G P T four talks about passing all of these exams. It's because exams are fundamentally flawed. You know, read this book, memorize this book, answer these questions. It's fundamentally flawed. It's a robotic process. Of course, you know, the world is isn't gonna be a good place if people are. People that I know that were amazing in exams are generally, you know, have been, it's been generally proven that they're not actually good at creative problem solving cuz it is regurgitation. Right. Right."
+  },
+  {
+   "time": "41:58",
+   "speaker": "Nola Simon",
+   "text": "Exactly. Um, uh, we see this with the collaborative articles on AI for, uh, LinkedIn. Right. Have you come across, were you invited to participate with us?"
+  },
+  {
+   "time": "42:08",
+   "speaker": "Nikolas Badminton",
+   "text": "No. No. I, I saw Reid Hoffman wrote an entire book, uh, on ai, and I sort of like downloaded it and looked through and it's like, it's just another PR bump, you know? Yeah. Hey, look, look, look. This is cool. And I used it last year on futurist.com generated thousands and thousands of visits. Yeah. Only so I could hijack the conversation and talk about the implications of such things. Right? So, uh, hey, you know, this is another, this is another mini hype cycle, um, you know, is, is now receding into Office 365 and other applications, right? And just being, just being useful and I'm cool with that. Yes. And, and hopefully it'll, uh, it'll disappear from LinkedIn and, oh, what's gonna come next? You know, Android robotics, I'm not sure. So, we'll, ."
+  },
+  {
+   "time": "42:57",
+   "speaker": "Nola Simon",
+   "text": "Hopefully it just doesn't sneak up on me like Roomba does. . Oh,"
+  },
+  {
+   "time": "43:00",
+   "speaker": "Nikolas Badminton",
+   "text": "you know, yeah. Roomba, that's another deeper conversation right there. That's, oh, I hate Roomba. That's, that's existential dread right there for many people."
+  },
+  {
+   "time": "43:10",
+   "speaker": "Nola Simon",
+   "text": "Exactly. Well, this has been a lovely conversation, so thank you so much. I really appreciate it. And if I will hold it up again, just this is my live and in person, . Great. Make sure that you read this book. It's a great book. Thank you."
+  },
+  {
+   "time": "43:25",
+   "speaker": "Nikolas Badminton",
+   "text": "Thanks so much, Nola. It's been a pleasure All."
+  }
+ ],
+ "hostNote": "Nik is the first guest who ever sent me an advance copy of his book — I held Facing Our Futures up on camera twice to prove it. This was also my week of firsts: the Ehm sisters' first-ever joint interview aired the same week, and Nik dropped an exclusive of his own here — the executive retreat he wants to call an 'advance,' because you retreat from normal life in order to advance.",
+ "ctaQuote": {
+  "text": "Nostalgia is the enemy of good future thinking.",
+  "source": "Nikolas Badminton"
+ },
+ "resources": [
+  {
+   "label": "Facing Our Futures (book)",
+   "type": "Book",
+   "url": "https://nikolasbadminton.com",
+   "note": "Nik's #1 best-selling book on futures thinking, released internationally on Bloomsbury Business — his site carries the book, keynotes, and research."
+  },
+  {
+   "label": "Futurist.com",
+   "type": "Website",
+   "url": "https://futurist.com",
+   "note": "Nik's platform for futures thinking, signals, and foresight writing."
+  },
+  {
+   "label": "Nikolas Badminton on LinkedIn",
+   "type": "LinkedIn",
+   "url": "https://www.linkedin.com/in/futuristnikolasbadminton/",
+   "note": null
+  }
+ ],
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Ehm2 — Legacy, Reinvention and the Power of Speech (the other first in Nola's 'week of firsts')",
+   "url": "/podcast/ehm2-legacy-reinvention-and-the-power-of-speech"
+  },
+  {
+   "title": "The Assumption-Ground Audit",
+   "url": "/aga"
+  },
+  {
+   "title": "The Living Lab — the podcast read back through the Assumption-Ground Audit",
+   "url": "/living-lab"
+  },
+  {
+   "title": "The AI playlist on Spotify — the five-year arc this episode belongs to",
+   "url": "https://open.spotify.com/playlist/4mqS3zlIFsygE9eKEaRLAq"
+  }
+ ]
+}
