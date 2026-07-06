@@ -11,10 +11,13 @@
  },
  "guest": {
   "name": "Ludmila Praslova",
-  "title": "Professor & Author, The Canary Code",
-  "org": null,
-  "credentials": "Author of The Canary Code: A Guide to Neurodiversity, Dignity, and Intersectional Belonging at Work · Nearly 30 years teaching college · Writes for Harvard Business Review, Fast Company, and Psychology Today",
-  "links": null
+  "title": "Professor of Industrial-Organizational Psychology",
+  "org": "Vanguard University of Southern California",
+  "credentials": "Author of The Canary Code (Berrett-Koehler, 2024) · Named to the Thinkers50 Radar 2024 · First person to publish in Harvard Business Review from an autistic perspective · Neuroinclusion training for organizations including Amazon, Bank of America, and MIT · LinkedIn Top Voice in Thought Leadership",
+  "links": {
+   "linkedin": null,
+   "website": "https://thecanarycode.com/"
+  }
  },
  "publishDate": "2024-06-05",
  "publishDateHuman": "June 5, 2024",
@@ -184,9 +187,19 @@
    "text": "I'll see you next time."
   }
  ],
- "hostNote": null,
- "ctaQuote": null,
- "resources": null,
+ "hostNote": "The Canary Code is a leadership book, a lesson in how to design workplace culture. The lesson starts with the design of the book itself. During this discussion, Ludmila mentioned that many of the challenges people with ADHD encounter mirror the symptoms of overwork. So the inclusive design of the book means that it's easy to digest for anyone. And that's really the message — if you design for the people who need workplace accommodations because of neurodiversity, everyone benefits. Friction is reduced.",
+ "ctaQuote": {
+  "text": "Exclusion does not need a reason. Just an excuse.",
+  "source": "The Canary Code, Ludmila Praslova"
+ },
+ "resources": [
+  {
+   "label": "The Canary Code (book)",
+   "type": "Book",
+   "url": "https://thecanarycode.com/",
+   "note": "The book, media kit, and Ludmila's articles for HBR, Fast Company, and Psychology Today."
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": [
   {

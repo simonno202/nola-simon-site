@@ -11,10 +11,13 @@
  },
  "guest": {
   "name": "Meagan Williamson",
-  "title": "Pinterest Marketing Expert & Educator",
-  "org": null,
+  "title": "Pinterest Marketing Expert, Pin Potential",
+  "org": "Pin Potential",
   "credentials": "School psychologist for a decade before building a Pinterest education business · Licensed in Canada and the UK · Has run her free live Pinterest challenge since 2020",
-  "links": null
+  "links": {
+   "linkedin": "https://www.linkedin.com/in/meagan-williamson-pinterest/",
+   "website": "https://pinpotential.com/"
+  }
  },
  "publishDate": "2024-09-13",
  "publishDateHuman": "September 13, 2024",
@@ -690,8 +693,18 @@
   }
  ],
  "hostNote": null,
- "ctaQuote": null,
- "resources": null,
+ "ctaQuote": {
+  "text": "You have to be patient with search platforms like Pinterest.",
+  "source": "Meagan Williamson, in this episode"
+ },
+ "resources": [
+  {
+   "label": "Pin Potential — Pinterest marketing education",
+   "type": "Website",
+   "url": "https://pinpotential.com/",
+   "note": "Meagan's education business, home of the Grow Your Pinterest Audience challenge."
+  }
+ ],
  "relatedEpisodes": null,
  "relatedLinks": null
 }
