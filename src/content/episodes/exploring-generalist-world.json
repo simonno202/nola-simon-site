@@ -13,10 +13,10 @@
   "name": "Milly Tamati",
   "title": "Founder, Generalist World",
   "org": "Generalist World",
-  "credentials": "Built a global community of roughly 80,000 generalists from a small island off Scotland · Grew up on a New Zealand farm · Building businesses around the world for a decade",
+  "credentials": "Founder, creator, community builder, and future-of-work speaker · Built businesses around the globe for the past decade · Bootstrapping Generalist World from a remote Scottish island",
   "links": {
-   "linkedin": null,
-   "website": "https://www.generalistworld.com"
+   "linkedin": "https://www.linkedin.com/in/milly-tamati",
+   "website": "https://www.generalist.world/"
   }
  },
  "publishDate": "2024-11-25",
@@ -42,12 +42,12 @@
  ],
  "keyQA": [
   {
-   "timestamp": null,
+   "timestamp": "5:22",
    "question": "What is a generalist, and why did the label have a bad reputation?",
    "answer": "A generalist is someone whose skill set flexes across domains rather than narrowing to one specialty. When Milly Tamati started Generalist World a few years ago, saying the word earned a dirty side eye — the working world treated range as a lack of focus. Her contrarian bet was that the generalists she knew had the most interesting careers and the most to offer, and the community that grew to roughly 80,000 people suggests she wasn't alone."
   },
   {
-   "timestamp": null,
+   "timestamp": "10:08",
    "question": "How should a generalist explain their skill set to an employer?",
    "answer": "By translating it, not listing it. The single most common pain point in Generalist World's survey of its members was positioning and packaging — 'I could do everything' is unhelpful to the person hiring. The work is naming the value you bring, stacking your skills into a coherent story, and running career experiments to test it; that deep work is what the Unboxed course walks people through, rather than handing over copy-paste answers."
   },
@@ -57,7 +57,7 @@
    "answer": "Slowly and on purpose. Generalist World opens membership only a few times a year and engineers how many people to let in, because scaling a community too quickly destroys the thing that made it work. The framing that matters: the community and the brand are the same thing — when Generalist World got a billboard, its members got a billboard — and connecting ten people who needed to meet already counts as success."
   },
   {
-   "timestamp": null,
+   "timestamp": "20:13",
    "question": "What does 'strategically weird' marketing look like in practice?",
    "answer": "It starts with a no-constraints question — Milly Tamati asked her team 'what would we do if money, time, and network weren't issues?' — and treats the answers as experiments to run, not fantasies. A billboard-in-Times-Square idea became real through a single network ask, the community wrote the slogan, and a follow-on campaign let anyone anywhere hold their own 'billboard.' An unplanned napkin AI post that pulled about 450,000 views on TikTok got the vendor's CEO on a call the same way."
   },
@@ -74,27 +74,27 @@
  ],
  "chapters": [
   {
-   "time": null,
+   "time": "1:06",
    "label": "From a New Zealand farm to a Scottish island"
   },
   {
-   "time": null,
+   "time": "5:22",
    "label": "The word 'generalist' and its dirty side eye"
   },
   {
-   "time": null,
+   "time": "7:26",
    "label": "Nola's generalist story: range inside a straight career"
   },
   {
-   "time": null,
+   "time": "9:30",
    "label": "The London Interdisciplinary School"
   },
   {
-   "time": null,
+   "time": "10:08",
    "label": "Unboxed: translating the generalist skill set"
   },
   {
-   "time": null,
+   "time": "14:27",
    "label": "The napkin AI experiment and the Times Square billboard"
   },
   {
@@ -468,8 +468,26 @@
   {
    "label": "Generalist World",
    "type": "Website",
-   "url": "https://www.generalistworld.com",
-   "note": "The community, newsletter, and Unboxed course discussed in the episode."
+   "url": "https://www.generalist.world/",
+   "note": "The community and newsletter discussed in the episode."
+  },
+  {
+   "label": "Unboxed",
+   "type": "Course",
+   "url": "https://www.generalist.world/unboxed",
+   "note": "The course for translating a generalist skill set into a career."
+  },
+  {
+   "label": "The Generalist Quiz",
+   "type": "Tool",
+   "url": "https://www.generalistquiz.com/",
+   "note": "Find out what type of generalist you are — Nola scored widest-range."
+  },
+  {
+   "label": "Napkin AI",
+   "type": "Tool",
+   "url": "https://www.napkin.ai/",
+   "note": "The visual-brainstorming tool behind the viral experiment."
   }
  ],
  "relatedEpisodes": null,
