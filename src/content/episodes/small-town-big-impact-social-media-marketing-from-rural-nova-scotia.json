@@ -1,282 +1,282 @@
 {
- "number": null,
- "slug": "small-town-big-impact-social-media-marketing-from-rural-nova-scotia",
- "title": "Small Town, Big Impact: Social Media Marketing from Rural Nova Scotia",
- "show": "Hope + Possibilities",
- "format": "Interview",
- "host": {
-  "name": "Nola Simon",
-  "title": "Futurist & Founder, Everyday Futurism",
-  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
- },
- "guest": {
-  "name": "Ingrid Deon",
-  "title": "Founder & CEO, word-craft",
-  "org": "word-craft",
-  "credentials": "Nominated by Ernst & Young for Entrepreneur of the Year · Serves national clients including Nestlé Canada and RBC Wealth Management from Yarmouth, Nova Scotia",
-  "links": {
-   "linkedin": "https://ca.linkedin.com/in/ingriddeon",
-   "website": "https://www.word-craft.ca/"
-  }
- },
- "publishDate": "2024-11-26",
- "publishDateHuman": "November 26, 2024",
- "updatedDate": "2026-07-05",
- "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
- "listen": {
-  "apple": null,
-  "spotify": null,
-  "youtube": null
- },
- "abstract": "Ingrid Deon runs an award-winning social media marketing agency from Yarmouth, Nova Scotia — population around 8,000, three hours from the nearest Starbucks — with a team hired entirely from rural Nova Scotia and multinational consumer-goods clients. She lays out the two-question filter she applies before taking any client, why she books booths at her customers' trade shows instead of marketing conferences, and how comment-based contests hit 50 percent engagement while doubling as market research. Behind it is the origin story: a single mother below the poverty line, a 4:20 a.m. Monday commute to Halifax, and an employer who said yes to remote work before the pandemic made it normal.",
- "takeaways": [
-  "Run client selection through two wall-sign questions before saying yes: is this social media work, and does the client make you want to dance — if either answer is no, decline.",
-  "Map where your target customers gather instead of your peers — being the only marketing agency at a grocery trade show beats blending in at a marketing conference full of competitors.",
-  "Test comment-based contests instead of like-and-share giveaways: every comment is an entry, engagement reached 50 percent against a 1-to-2-percent benchmark, and the exported answers double as market research.",
-  "Hire for struggle — the interview question 'tell me about a time when you've struggled' surfaces resilience that no skills question reveals.",
-  "Name the real constraint on distributed work in Canada: unreliable rural internet and cell coverage, not talent, is what holds it back.",
-  "Treat organic social media as community-building and paid ads as selling — organic's job is loyal fans and conversation, not conversions."
- ],
- "keyQA": [
-  {
-   "timestamp": "12:11",
-   "question": "How do you decide which clients to take on?",
-   "answer": "Two questions, once posted on the wall of her home office: is this social media work, and does the client make you want to dance? Early gigs in translation and web copywriting showed her the cost of drifting from her niche, so if the work isn't organic social media or the client doesn't excite her and the team doing the work, the answer is no — and she says no a lot."
+  "number": null,
+  "slug": "small-town-big-impact-social-media-marketing-from-rural-nova-scotia",
+  "title": "Small Town, Big Impact: Social Media Marketing from Rural Nova Scotia",
+  "show": "Hope + Possibilities",
+  "format": "Interview",
+  "host": {
+    "name": "Nola Simon",
+    "title": "Futurist & Founder, Everyday Futurism",
+    "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
   },
-  {
-   "timestamp": "14:19",
-   "question": "Where should a niche agency look for new clients?",
-   "answer": "At its target customers' conferences, not its own industry's. At Collision she realized a tech-and-marketing conference contained zero of her ideal consumer-packaged-goods clients, so she booked a booth at Grocery Innovations Canada instead — the only marketing agency in the room — and repeated it at the Canadian Health Food Association show. Industry conferences are for learning; customer conferences grow the business."
+  "guest": {
+    "name": "Ingrid Deon",
+    "title": "Founder & CEO, word-craft",
+    "org": "word-craft",
+    "credentials": "Nominated by Ernst & Young for Entrepreneur of the Year · Serves national clients including Nestlé Canada and RBC Wealth Management from Yarmouth, Nova Scotia",
+    "links": {
+      "linkedin": "https://ca.linkedin.com/in/ingriddeon",
+      "website": "https://www.word-craft.ca/"
+    }
   },
-  {
-   "timestamp": "21:57",
-   "question": "What is organic social media marketing and why focus on it?",
-   "answer": "Organic social media is consistent posting without paid ads, aimed at engagement — comments, questions, shares — rather than reach. Ingrid Deon's agency works almost exclusively in organic because paid advertising's job is selling, while organic's job is turning a following into loyal fans and an engaged community, and very few agencies specialize in it."
+  "publishDate": "2024-11-26",
+  "publishDateHuman": "November 26, 2024",
+  "updatedDate": "2026-07-06",
+  "updatedDateHuman": "July 6, 2026",
+  "duration": "34 min",
+  "durationISO": "PT33M44S",
+  "listen": {
+    "apple": "https://podcasts.apple.com/us/podcast/small-town-big-impact-revolutionizing-social-media/id1602822494?i=1000678317571",
+    "spotify": null,
+    "youtube": null
   },
-  {
-   "timestamp": "23:42",
-   "question": "How do you run a social media contest that surfaces real customer insight?",
-   "answer": "Make every comment an entry and ask a question you actually want answered — what service do you wish your bank offered, what would make you switch. Like-and-share contests buy reach from people who unfollow when the prize is gone; comment-based contests hit as high as 50 percent engagement against a one-to-two-percent benchmark, and the exported comments become a market-research report."
-  },
-  {
-   "timestamp": "18:47",
-   "question": "Why hire people who have struggled?",
-   "answer": "Because struggle builds the resilience the work demands. The mentor who hired Ingrid Deon asked 'tell me about a time when you've struggled' instead of skills questions — she was a single mother working three jobs at the time — and they went on to hire people who had an answer. She still asks it: people who have struggled work harder and appreciate more."
-  },
-  {
-   "timestamp": "7:40",
-   "question": "What does unreliable rural internet do to a remote business?",
-   "answer": "It nearly makes one impossible: her home connection was one step up from dial-up, where uploading a single video took a day, so she moved into Yarmouth first for a co-working space and then an office to reach workable internet. The three-hour drive to Halifax still has so many dead zones she can't schedule calls during it. Reliable connectivity, not willingness, is the ceiling on where Canadians can work."
-  }
- ],
- "chapters": [
-  {
-   "time": "0:22",
-   "label": "How Nola and Ingrid connected — and the Erica Ehm story"
-  },
-  {
-   "time": "2:29",
-   "label": "A world-class agency in Yarmouth, population 8,000"
-  },
-  {
-   "time": "3:44",
-   "label": "Single mom, three jobs, and the 4:20 a.m. commute"
-  },
-  {
-   "time": "7:26",
-   "label": "Rural internet and why the office exists"
-  },
-  {
-   "time": "12:00",
-   "label": "The two-question client filter"
-  },
-  {
-   "time": "13:59",
-   "label": "Marketing at your customers' conferences"
-  },
-  {
-   "time": "18:47",
-   "label": "Hiring people who have struggled"
-  },
-  {
-   "time": "21:29",
-   "label": "Putting the social back in social media"
-  },
-  {
-   "time": "30:55",
-   "label": "Exporting beyond Canada"
-  }
- ],
- "transcript": [
-  {
-   "time": "0:22",
-   "speaker": "Nola Simon",
-   "text": "Thank you so much for joining me. My name is Nola Simon and I'm the host of the Hybrid Remote Center of Excellence. And today we actually have the person that I wanted to be the first guest on my podcast, and she has the honor of being the last for 2024 . So ingrid Dion, Ingrid and I have been connected for a very long time. When I actually really started getting active on social media and I changed jobs, I had connected with people who are doing the social media because that's how I wanted to grow my brand and I wanted to understand better. And Ingrid had this connection with the company that I was working with. And she did all kinds of interesting things. I remember her posting about alpacas and chocolate and, uh, knitting, and I don't do any of that, but it caught my attention because it was so different and much like very organic to who she is as a person. And I remember reaching out to her and talking to her about, because it would have been actually probably when you first started the business, yeah, for sure. Yeah. And she told me all about her approach. And one of the ways that we really connected was actually a random connection with Erica M on LinkedIn. It was. It's just bizarre. And if you're not Canadian, you may not truly understand who Erica M is actually, especially to Gen X. But she used to be the host of Much Music. And to actually have an interaction with her, when every day I used to watch her after high school. Anyways Ingrid and I tag teamed Erica on LinkedIn. Ingrid actually brought her in to actually do some work for the company that we were working for. And I eventually built up that connection, and Erica and her sister have both been guests on my podcast before. The connection to Ingrid is, what I'm telling you, is deep. We're way back. It goes way back. Yeah, exactly. But that is that story of how you built your company and how you got to where you are right now. Because again, if you don't know who Ingrid is, you should because she's been nominated by Ernst Young for entrepreneur of the year. And she's done it all from a tiny little place in Nova Scotia called Yarmouth."
-  },
-  {
-   "time": "2:29",
-   "speaker": "Ingrid Deon",
-   "text": "That's right. So do you want to tell me the upshot of your bio because you're you said she sent me the bio last night and I'm like that. That's exactly the story that really needs to be amplified. Yeah. So I guess my story is just being able to run. An award winning world class marketing agency from a tiny little town that has a population of around 8000. that is 3 hours from the nearest Starbucks and working with multinational companies. billion dollar companies that are our clients that we're creating social media content for. And it's also very near and dear to my heart to hire locally. So I'm so proud to say that my entire team is either from rural Nova Scotia or living in rural Nova Scotia. And in fact, four of us are here in Yarmouth. We have a little office on Main Street, the cutest office on the whole street. And yeah, so a bunch of us are just here in Yarmouth, which is a place where there never was this kind of industry. It really relies on fishing, forestry. And tourism, and those are the main industries. So when I was looking for a job in my field of marketing or communications there were no jobs here. And so I, that's how I, that's one of the ways that I started remote working. Back when I was 10 years ago, I was a single mom living under the poverty line and working three jobs. And my fourth job was to try and find a job. In my field and there were none locally. So I applied for a lot of jobs in Halifax, which is a three hour drive away. And I would say ideally I would work there one day a week and then work from home the rest of the week. And this was before the pandemic and no one wanted to go for that. So I got rejected over and over again. Until an agency finally took a chance on me. and hired me as a social media coordinator. It was very entry level, but at least it was in my field. And so every Monday morning, I got up at 4. 20 in the morning and drove the three hours, four hours with traffic to Halifax, worked my day there, drove the four hours again in traffic home, and then the rest of the week I worked from home so that I could be home with my son."
-  },
-  {
-   "time": "4:54",
-   "speaker": "Nola Simon",
-   "text": "Yeah, and like anybody in Canada who lives outside of a major city can relate to that story because that's what you're told. That's what I was always told is you're not going to get any kind of job that pays anything and that is worthwhile doing unless you actually go to the city and as a mom to have that's almost like what a 5 hour, 6 hour commute."
-  },
-  {
-   "time": "5:16",
-   "speaker": "Ingrid Deon",
-   "text": "Yeah, it was six to eight hours commute. Yeah. And even if you're just doing that one day creates so much anxiety because you have to make sure that everything is running in your house, that your kid is taken care of. And if something goes wrong, even though it's just one day, you're hours away."
-  },
-  {
-   "time": "5:38",
-   "speaker": "Nola Simon",
-   "text": "How do You have to have that village that everybody talks about that you need while you're parenting, except it doesn't necessarily always exist easily. Like it's like pulling in favors. And I remember that as well, too. And it's such a challenge. And so that's where I don't think that story gets amplified enough."
-  },
-  {
-   "time": "5:56",
-   "speaker": "Ingrid Deon",
-   "text": "And I don't think people understand how much Hitchback it would have taken to create a business like that on your own, in that remote area. Yeah. Yeah. So yeah, that's the other part of the story is, after I did that for three and a half years doing that commute to Halifax Mondays and also once I'm I was able to climb up to manager of social pretty quickly there. And so I was also managing a team in Toronto and I was in Toronto almost once a month. So I was really, all over the place. And then. Working from home in my tiny community as much as I could so that I could be home, but I eventually left and started my own business and trying to grow a business from here where I'm not I do have a few clients here locally, but most of our clients are not here. So when I'm here, I'm not necessarily meeting clients. Like we don't have clients that come in off the street. And want to work with us. I have to travel and go to Toronto and go to Atlanta and go to Halifax in order to meet clients in order to do that networking to grow our business. But it's something that I'm willing to do to keep the business here and to keep creating jobs here in rural Nova Scotia."
-  },
-  {
-   "time": "7:09",
-   "speaker": "Nola Simon",
-   "text": "Yeah, and it's so important. So I know you have a very deep connection with remote work but you've chosen to actually create an office. So why did you actually decide to actually go to the cute little office on the street, which I absolutely adore and I've always followed all your innovations and decorations."
-  },
-  {
-   "time": "7:26",
-   "speaker": "Ingrid Deon",
-   "text": "And so why did you actually do want to have an in person environment in your MFA? It started because the internet at home was so bad. That's a typical Canadian story too. Yeah, so we had just one step up from dial up internet, and I was finding it terribly difficult to run my business. Uploading a video would take a day and that's no exaggeration."
-  },
-  {
-   "time": "7:55",
-   "speaker": "Nola Simon",
-   "text": "I remember I was uploading a video once and it said that there was like 20 something hours left. And when I told the person that I was working with that. It was like that. It was going to take that long. They thought I was joking. And I was like no, literally. Yeah, I'm literally an hour outside of Toronto, and I once went to an event and I took all kinds of photos of the CEO. I had 400 photos and whatnot of the whole event, and it was taking so long that they actually asked me if I would consider driving in to bring my device. So they could actually plug it in and download it. Rather than wait for the internet connection to download it all. Plus of course, all the cyber security protections and all that stuff. Yeah. So no, I believe you. I used to, I still drop calls like crazy, but that's just a reality of cell phone coverage in Canada, which of course, you know, if you're paying for it. at any certain speed, it's like a second mortgage to begin with. Yeah, exactly. I know our cell phone coverage here is still absolute."
-  },
-  {
-   "time": "8:59",
-   "speaker": "Ingrid Deon",
-   "text": "It's an absolute disaster. Like I can't, I do the drive to Halifax frequently still. And there are so many dead zones that I, during that drive three hours, I can't take any calls. Because they would drop all the time, so it's really time that I spend listening to podcasts and educating myself because I can't schedule a call during that time. Yeah. Yeah. Yeah. I totally understood that. I've always wondered that question, but that makes complete and utter sense. But yeah so when I started coming to, so I live like 40 minutes outside of Yarmouth. even in a more rural area population 2000. And so in Yarmouth, the internet was much better. So I started coming into a co working space. And working from there in order to access the juicy internet and and eventually I got my own office space. It was a second floor walk up above a clothing store and work. We worked from there for. A little over a year, I think, and there were some structural issues with that building, so we eventually lived in it. Wasn't there rain or flooding or something? It rained indoors, yeah. Yes. That was the problem. Yeah, and it felt like Nova Scotia doesn't get rain, it rained indoors and the rent was cheap I couldn't really expect. A roof over our heads at that rate, but we moved last year to this new space and it's street level and it's great, but there are a bunch of us who like to come into an office and be together. We also do a lot of photography and videography in the office. All of our props are here. So because we work with product based businesses, most, mostly we have tons of props, tons of products, and, we need a place for all of that stuff. That's why we have an office. But I work from the office three or four days a week usually."
-  },
-  {
-   "time": "10:54",
-   "speaker": "Nola Simon",
-   "text": "And some people rarely come into the office. Some people come in more frequently. It's just good to be able to give people options. Yeah, exactly. And having the choice and the autonomy to choose what's going to serve the work really is the gift there, that flexibility. And that's always what I was after was not necessarily, I said to somebody the other day that if somebody had ever let me work like the six to two shift, so I could have balanced childcare and commuting and hours and stuff like that, I would never have actually pursued remote. Because I would have been trusted to have the autonomy and the flexibility to decide what's going to serve the work and balance my life. And 10 years later, we're still challenged to actually have that kind of level of trust. So when you're, when I'm talking to people who run their own business, what stands out to me the most is the investment in trust and interest in your people. And you've just. Epitomize that so kudos to you. This is why she's award winning, right? So I wanted to talk about your approach to actually attracting clients I remember you telling me the story of how you actually approached my former employer and you really just looked at how they were managing their social media and sent them a note online basically saying like Hey who's writing your stuff?"
-  },
-  {
-   "time": "12:11",
-   "speaker": "Ingrid Deon",
-   "text": "Do you have a need something like that? You Yeah. So that, that is one way that we approach potential clients. We just, we see that they need help and we want to help them. I am very, I don't know if it picky is the word, but I'm very specific about who I want to work with. And early on while running the business, I took some gigs with some potential clients that weren't quite aligned with what. I feel the way that I am or my interests or my strengths. And so I made a sign and put it on the wall of my home office and it said, before saying yes to a client, the first question was, is this a social media, is this social media work? Because I was saying yes to translation work and web copywriting. And, so I've just wanted to niche down to social media. So is this a social media gig? If the answer is yes, then you can keep going. And then the second question was, does the client make you want to dance? And if the answer was yes, then I could say yes to them. But if the answer was no, then it meant that it wasn't a fit. And so I'm very particular about who we work with. It has to be a client that excites me. It has to be a client that excites my team as well, because they're going to be doing a lot of the work. So if it doesn't excite everyone. Then we say no a lot. When you run your own business you're able to pick and choose who you want to work with."
-  },
-  {
-   "time": "13:40",
-   "speaker": "Nola Simon",
-   "text": "Life is short. Let's work with clients that we really love and that really align with us. And that's how I'm running things. Yeah, and I saw you write a little bit about how you're actually targeting conferences, but not necessarily marketing conferences, but you're going to conferences that they run for industry."
-  },
-  {
-   "time": "13:59",
-   "speaker": "Ingrid Deon",
-   "text": "You mentioned product lines I don't know, chocolate conferences, I would turn to a chocolate conference. Yeah, this was a realization that I had at Collision in Toronto last year, I think it was. I'm at this conference, it's tech, it's social media, it's marketing, it's communication, it's, all of those things. And I'm thinking, why am I here? There's, I have, there are no potential clients. No, none of my ideal clients are here. I'm here. I'm learning stuff about my industry. Sure. I'm not getting any new business here. It's all like SAS companies or other marketing agencies. So then I thought I have to go to CPG conferences because we're targeting consumer products mostly. So consumer packaged goods conferences. So I start looking like on my computer. What's a list of Canadian CPG conferences? And I get a list of them and I just pick one arbitrarily. So last year we went to Grocery Innovations Canada. We got a booth. We were the only marketing agency there. Wow. Shooting fish in a barrel. That is so smart. Yeah. And when we went there, I was like, this is the smartest thing I've ever done. I've never had an idea that's good in my life. And so this year we went to CHFA the Canadian health food association, really big company. diet conference for health food products. And again, we had a booth there. There were a couple of marketing agencies there, but not too many. So this has been really a good way of us for us to meet potential clients and for us to grow the business. Yeah. And I encourage everyone to do the same thing. Think about your target customer and go to their conferences."
-  },
-  {
-   "time": "15:51",
-   "speaker": "Nola Simon",
-   "text": "Don't bother going to your industry conferences. Yeah, no, it makes total sense. And I honestly, I find that as well too. It's if I look at people who are doing the same sort of work that I'm doing with hybrid remote, why am I hanging around with you? Because you're, it's like an echo chamber. You're all saying the same things. You might have different focuses, but really like you're really just trying to convince each other that you're good and it's this is useless. Yeah. So true. Totally. I totally agree with that. But that's what I always admired about you. You have a way of thinking differently about how things get done."
-  },
-  {
-   "time": "16:26",
-   "speaker": "Ingrid Deon",
-   "text": "So who inspires you? Oh, that's a great question. I don't know. Uh, I just think that. So just to go to I'll think about who inspires me, but yeah, but going back to thinking differently, I think the fact that I don't have a background in business is an asset. It's, it's a blessing and a curse, but the fact that I don't know how to run a business and I'm just, Figuring it out as I go is an asset because I'm like looking at things in other perspectives trying to tackle this, running a business, however I can figure it out and sometimes it brings in some creative solutions because I'm not studying it the way that a commerce degree or an MBA might scale a business."
-  },
-  {
-   "time": "17:18",
-   "speaker": "Nola Simon",
-   "text": "Yeah, no, I totally agree. And honestly, that's why I hire some people to like my coach Gary twig. She is in Winnipeg. But she has a actually similar story because she initially was teaching drama. She's a single mother, she's living under the poverty line. And then she got into coaching and she realized that applying theater to coaching and business."
-  },
-  {
-   "time": "17:42",
-   "speaker": "Ingrid Deon",
-   "text": "was actually a brilliant solution because she has a perspective that people in business don't just generally have. And that differentiated background, I think really is the genius. Personally, it's what attracts me to people. So yeah, I love that you've identified that. Yeah, it's interesting. And I guess who inspires me? One of the most influential people in my career was the person who hired me at the agency who gave me that chance as a social media coordinator. And and allowed me to work remotely. He taught me everything I know about social media marketing. And he's currently our client times two. I'm still working with him. And, yeah, he's just He's his mantra back when we worked together at the agency was stay hungry and stay humble and I've lived by that and yeah he's great. That's good. So you apply that when you hire people on your staff? He taught me everything I know about hiring people. When he interviewed me, he asked me some questions. personal questions rather than questions about my skills which I thought was weird at the time. I was like, he asked me, he said, tell me about a time when you've struggled. And I was like, dude, like I'm a single mom working three jobs, working under the poverty line. Yeah, I am struggling. I'm on the struggle bus right now. And And every time we hired someone together, like when I became manager of social, we usually got together to do the interviews. And he would always ask that question. Tell me about a time when you've struggled. And we would hire people who had an answer for that. They had struggled and I do the same thing. Now, I am always asking that question. I want to hire people who have struggled. We work harder. We appreciate things more struggle is a great thing. You learn so much from it. Yeah, it's not a negative. It's a positive. So yeah, I also learned that from him. Yeah. And resilience is a good thing, right? And unless you struggle, you don't really develop that resilience. Yes, it's so funny that you mentioned resilience, because I was at a talk and it was when I was at Collision, and it was an older man, an older white man, who was talking about resilience, and he said that he had just learned about the concept of resilience, and I was just sitting there I'm sorry, you just learned about this concept? I've been living this concept for years. I could teach an entire course on resilience. And anyways, it just really blew me away that it was a brand new concept to him and he was doing a talk on it. Yeah, resilience, it's important. No, I've been at those conferences or things like that. I remember attending like an employee events and this guy that I worked with we were talking to the head of DEI and he spent 20 minutes telling her how hard he had it as a white man getting promoted and getting raises. Yes. There are all kinds of perspectives. It was a women's event. He was attending as an ally. And I'm like, oh, yeah, and"
-  },
-  {
-   "time": "21:07",
-   "speaker": "Nola Simon",
-   "text": "he was making more than me. And I knew this because at one point I found a salary list, which I was never supposed to see. So that was all entertaining. But where do you think that, like, where do you hope to take social media marketing? Because social media marketing is not without controversy these days, especially with everything that's happened recently in the States."
-  },
-  {
-   "time": "21:29",
-   "speaker": "Ingrid Deon",
-   "text": "Yeah. So where do you want to take it? Where are you hopeful of taking it? I am a big proponent of putting the social in social media, and that's why I primarily do, or yeah. Almost exquisitely work in organic social media. So our company does not do the paid ad campaigns. There are so many agencies that do that and so few that focus on organic social media. So posting consistently, not paid ads. And the goal is really to create engagement. So getting people to comment, asking people questions, getting people to share because they've learned something new that they think more people should know about. Those authentic connections, and being social on social media, that's what I am all about, and I've always been all about that. And I did not know that it would become a trend, or that the algorithms would prioritize content that encourages, conversation authentic connection when I started doing this, but this is where social media is going. It's all about those authentic connections and being social on social media. So whether it was smart or not, I don't know. It wasn't strategic, but here we are. This is what I'm really focusing on. I will continue to focus on this. Getting in the comments is one of my favorite thing and answering people, engaging with people, finding out what people think. It's the best kind of market research you can do. And, back when we worked together and at the former company that we worked at one of the things that I pioneered was the comment based contest. And so many people run contests. That are like, okay, like this, share it for a chance to win tag your friend or whatever. That is the most useless. Yeah, because you're not finding anything out. You're finding out nothing. You are getting a lot of reach because people are sharing it. You're getting a lot of reach because people are tagging their friends. Yes, that cannot be denied. But there's nothing authentic or useful. People are just going to unfollow you as soon as your contest is over. We started running the comment based contest where you ask a question that you will learn something about your followers from that question. It's something about their preferences or their habits or whatever it is. Maybe it's just a fun question. And every answer in the comments is an entry. So we started doing those. And we were able to organically grow the following and grow engagement astronomically. We had some of those comment based contest posts that would get 50 percent engagement, which is unheard of. The benchmark is between one and two percent. So 50 percent of the people who saw those posts would leave a comment. Which is just bananas. It's some of the highest engagement I've ever seen on a post and we would learn so much. You can export the comments at the end of the contest, put them together, create a report on what people are saying, we were asking questions like what is a service that you wish your bank offered. That they don't offer currently, or what would make you switch to a new bank? Those kinds of questions, we get so much information from our following. And all you have to do is give away some gift card or something. But we would also ask some fun questions what's the first thing you ever bought with your own money?"
-  },
-  {
-   "time": "25:06",
-   "speaker": "Nola Simon",
-   "text": "And just some fun ones to Keep it light. But yeah, that's smart because you're really putting it in the context of people's lives and hopes and desires and dreams and people like talking about that kind of stuff, even though they're helping with that research, they it doesn't feel like it."
-  },
-  {
-   "time": "25:24",
-   "speaker": "Ingrid Deon",
-   "text": "And yeah, so that's, I remember those contests. It was always really smart. Yeah. And then some of the some competitors started running them. Of course. Similar contests just because we're having so much success with it. But yeah, those are the types of things that we are continuing to do. We're continuing to stress the importance of organic social media. And. Intentional connections on social media and keeping growing a community of loyal fans, an engaged community online rather than just always selling. And of course you need your paid ads to sell your product or service. But your organic social media is really meant to create loyal fans out of your product or service."
-  },
-  {
-   "time": "26:06",
-   "speaker": "Nola Simon",
-   "text": "And that's where we really shine. That's cool. Do you get involved with employee advocacy at all? Or you don't? We have before. Yeah. That can be a lot of fun. It can be a lot of fun. Yeah. Yeah, for sure. You just need to make sure Try to get everyone on board, make it fun, make it interesting. And and it can be super valuable, especially on LinkedIn. . Yeah. And that's always , my area that I love. Yes. It's also my favorite only to top voicemail. That's awesome. That's awesome. But honestly it's from people like you that I learned. You're teaching people good habits even though, really just doing it in the context of your everyday life, right? And that's what I think is valuable. And the fact that you've been able to do it from where you live without actually having to compromise, the lifestyle that you want to move away from your family to move away from your community, people can learn so much from that."
-  },
-  {
-   "time": "27:04",
-   "speaker": "Ingrid Deon",
-   "text": "Yeah, thank you. Yeah, it's important to me. And you speak about that too, right? Like you're often doing podcasts and you're actually doing keynotes. Yeah. Yeah. And I would love to to speak more about my story of, I, I do a lot of speaking specifically about social media, but, I would love to try to do some more speaking about my journey from, poor single mom to CEO of a marketing agency and having done this in rural Nova Scotia and, creating jobs for people in rural Nova Scotia."
-  },
-  {
-   "time": "27:37",
-   "speaker": "Nola Simon",
-   "text": "Yeah. Yeah, and Ingrid has been such a help to me. I remember talking to you about coaching and grants and different things that you've actually put your name forward through is there a government programs that will support entrepreneurs and to so she's answered a lot of questions. I did start up Canada. I think I talked to you about that at that time. Okay. Yeah. Yeah. So she's a really great resource. And she's 1 of the most approachable people I've ever actually come across in social media as well. This is my way of giving back to her. This is. Sometimes why I do podcast episodes is like the people that have been supportive to me is like, how can I amplify your story and give back in a way? And, maybe five people watch it. I'm not sure. You never know who's going to pay attention, but this has always been my goal is how can I thank you for inspiring me? So that's my question. That's the answer to my question. I told her before we started, the person who actually captured my interest initially with social media was this woman who ran my doggy daycare because she did the same thing of building community and authentic connection. Like she would throw birthday parties for the dogs and people would bring special dog cookies and she would write about it on Instagram and it was just the best thing. And Between her and Ingrid that's where I've learned a lot about authentic media connection and yeah, anyways, that, that was part of the goal of doing this episode. Is there anything that you wanted to talk about that we haven't? I don't think so. We're great. I'm just so honored to be here and to chat with you again."
-  },
-  {
-   "time": "29:11",
-   "speaker": "Ingrid Deon",
-   "text": "It's been a while since we've been face to face and, It has. Actually, I think we did a phone call our one time that we actually did a phone call. We were rocking it old school back then. Who didn't scream? Yeah, exactly. But it's so cool to watch your growth. And your positioning yourself as a thought leader in remote work just so cool to watch you and I'm always cheering you on LinkedIn. Yeah, I that the most important thing that I did this year, honestly, was the McLean's magazine interview, and I did a TikTok for them, and then, of course, Canada decided to shut down TikTok, so there's that. Oh, yeah. That's a whole other topic. Yeah, I know, but it's been such a journey learning all of that kind of stuff and pivoting from what I did before, right?"
-  },
-  {
-   "time": "30:02",
-   "speaker": "Nola Simon",
-   "text": "And it's because people share. So generously online that I've been able to do it because I, I sometimes do tell people that part of the reason I started the podcast was because smart people will actually come and talk to me for free for an hour. So smart. And I love to amplify their stories, but it's also about what it does for me as well too."
-  },
-  {
-   "time": "30:25",
-   "speaker": "Ingrid Deon",
-   "text": "And that's. Another part of my podcast that I don't necessarily advertise, but it's true. Yeah, that's awesome. So you've been in business, what, it's six years, is it five years? Five, five, yep. Yeah, that is so cool, because honestly, I met you right at the beginning of your journey and to see you get to the point where you're like winning awards or nominated for awards in entrepreneurship it's just fabulous to see how you developed it. Where do you want to go? What, do you have a big hairy audacious goal? We're looking at exporting right now. All of our clients are across Canada. So I've been to Atlanta twice this year to meet some folks and try to learn more about the U S market to see if we can break in there. I know it's a pretty saturated market when it comes to social media. But I think there's. There's room for us in there and also looking at other markets internationally just to see, Canada's big, we could definitely keep playing in the Canadian pond. But yeah, it's just interesting to see what exists outside of Canada. And I always love a new challenge."
-  },
-  {
-   "time": "31:36",
-   "speaker": "Nola Simon",
-   "text": "So that's one of the things that we're doing right now. And just, growing the business. creating more jobs, bringing in some new clients figuring things out, trying to figure this thing out. Yeah. That's cool. Yeah. It's always interesting when I look at my, like my podcast audience, cause people often ask me like where my audience mostly is, and it's Canada and the U S which makes sense. But at the moment I'm on the top I've been on the top of the charts in Romania and I'm like why Romania? What is it about Romania? Oh my gosh, that's wild. I know. You have to plan a trip. I know. Yeah, I have no idea. So it's interesting to see what resonates with people and what really, what magic you can create. Yeah, that's cool. All right. Thank you so much for making the time to do this. I really, as I said I've appreciated all your support over the years and I, I wish you all the best in the future and your team, of course, too, because creating jobs in rural Canada, especially in an industry that is not traditional takes a lot of work and I don't know that people necessarily understand that. Without any reliable Internet I started my career at Rogers. Okay, it has not changed all that much. That's 1 of the things that I really think the future. Of working Canada really needs to resolve because yes, it's holding us back quite frankly. It certainly is. Yeah. It's, you could work from anywhere if you had a reliable Internet connection, it's super important. And yeah, it's absolutely my pleasure to be here. And I'm so thankful that you had me on your show. Awesome. Thank you."
-  }
- ],
- "hostNote": null,
- "ctaQuote": null,
- "resources": [
-  {
-   "label": "word-craft",
-   "type": "Website",
-   "url": "https://www.word-craft.ca/",
-   "note": "Ingrid's organic social media agency in Yarmouth, Nova Scotia."
-  },
-  {
-   "label": "word-craft on Instagram",
-   "type": "Social",
-   "url": "https://www.instagram.com/wordcraftinc/",
-   "note": null
-  }
- ],
- "relatedEpisodes": null,
- "relatedLinks": [
-  {
-   "title": "Ehm2 — Legacy, Reinvention and the Power of Speech (the episode this friendship led to)",
-   "url": "/podcast/ehm2-legacy-reinvention-and-the-power-of-speech"
-  }
- ]
+  "abstract": "Ingrid Deon runs an award-winning social media marketing agency from Yarmouth, Nova Scotia — population around 8,000, three hours from the nearest Starbucks — with a team hired entirely from rural Nova Scotia and multinational consumer-goods clients. She lays out the two-question filter she applies before taking any client, why she books booths at her customers' trade shows instead of marketing conferences, and how comment-based contests hit 50 percent engagement while doubling as market research. Behind it is the origin story: a single mother below the poverty line, a 4:20 a.m. Monday commute to Halifax, and an employer who said yes to remote work before the pandemic made it normal.",
+  "takeaways": [
+    "Run client selection through two wall-sign questions before saying yes: is this social media work, and does the client make you want to dance — if either answer is no, decline.",
+    "Map where your target customers gather instead of your peers — being the only marketing agency at a grocery trade show beats blending in at a marketing conference full of competitors.",
+    "Test comment-based contests instead of like-and-share giveaways: every comment is an entry, engagement reached 50 percent against a 1-to-2-percent benchmark, and the exported answers double as market research.",
+    "Hire for struggle — the interview question 'tell me about a time when you've struggled' surfaces resilience that no skills question reveals.",
+    "Name the real constraint on distributed work in Canada: unreliable rural internet and cell coverage, not talent, is what holds it back.",
+    "Treat organic social media as community-building and paid ads as selling — organic's job is loyal fans and conversation, not conversions."
+  ],
+  "keyQA": [
+    {
+      "timestamp": "12:11",
+      "question": "How do you decide which clients to take on?",
+      "answer": "Two questions, once posted on the wall of her home office: is this social media work, and does the client make you want to dance? Early gigs in translation and web copywriting showed her the cost of drifting from her niche, so if the work isn't organic social media or the client doesn't excite her and the team doing the work, the answer is no — and she says no a lot."
+    },
+    {
+      "timestamp": "14:19",
+      "question": "Where should a niche agency look for new clients?",
+      "answer": "At its target customers' conferences, not its own industry's. At Collision she realized a tech-and-marketing conference contained zero of her ideal consumer-packaged-goods clients, so she booked a booth at Grocery Innovations Canada instead — the only marketing agency in the room — and repeated it at the Canadian Health Food Association show. Industry conferences are for learning; customer conferences grow the business."
+    },
+    {
+      "timestamp": "21:57",
+      "question": "What is organic social media marketing and why focus on it?",
+      "answer": "Organic social media is consistent posting without paid ads, aimed at engagement — comments, questions, shares — rather than reach. Ingrid Deon's agency works almost exclusively in organic because paid advertising's job is selling, while organic's job is turning a following into loyal fans and an engaged community, and very few agencies specialize in it."
+    },
+    {
+      "timestamp": "23:42",
+      "question": "How do you run a social media contest that surfaces real customer insight?",
+      "answer": "Make every comment an entry and ask a question you actually want answered — what service do you wish your bank offered, what would make you switch. Like-and-share contests buy reach from people who unfollow when the prize is gone; comment-based contests hit as high as 50 percent engagement against a one-to-two-percent benchmark, and the exported comments become a market-research report."
+    },
+    {
+      "timestamp": "18:47",
+      "question": "Why hire people who have struggled?",
+      "answer": "Because struggle builds the resilience the work demands. The mentor who hired Ingrid Deon asked 'tell me about a time when you've struggled' instead of skills questions — she was a single mother working three jobs at the time — and they went on to hire people who had an answer. She still asks it: people who have struggled work harder and appreciate more."
+    },
+    {
+      "timestamp": "7:40",
+      "question": "What does unreliable rural internet do to a remote business?",
+      "answer": "It nearly makes one impossible: her home connection was one step up from dial-up, where uploading a single video took a day, so she moved into Yarmouth first for a co-working space and then an office to reach workable internet. The three-hour drive to Halifax still has so many dead zones she can't schedule calls during it. Reliable connectivity, not willingness, is the ceiling on where Canadians can work."
+    }
+  ],
+  "chapters": [
+    {
+      "time": "0:22",
+      "label": "How Nola and Ingrid connected — and the Erica Ehm story"
+    },
+    {
+      "time": "2:29",
+      "label": "A world-class agency in Yarmouth, population 8,000"
+    },
+    {
+      "time": "3:44",
+      "label": "Single mom, three jobs, and the 4:20 a.m. commute"
+    },
+    {
+      "time": "7:26",
+      "label": "Rural internet and why the office exists"
+    },
+    {
+      "time": "12:00",
+      "label": "The two-question client filter"
+    },
+    {
+      "time": "13:59",
+      "label": "Marketing at your customers' conferences"
+    },
+    {
+      "time": "18:47",
+      "label": "Hiring people who have struggled"
+    },
+    {
+      "time": "21:29",
+      "label": "Putting the social back in social media"
+    },
+    {
+      "time": "30:55",
+      "label": "Exporting beyond Canada"
+    }
+  ],
+  "transcript": [
+    {
+      "time": "0:22",
+      "speaker": "Nola Simon",
+      "text": "Thank you so much for joining me. My name is Nola Simon and I'm the host of the Hybrid Remote Center of Excellence. And today we actually have the person that I wanted to be the first guest on my podcast, and she has the honor of being the last for 2024 . So ingrid Dion, Ingrid and I have been connected for a very long time. When I actually really started getting active on social media and I changed jobs, I had connected with people who are doing the social media because that's how I wanted to grow my brand and I wanted to understand better. And Ingrid had this connection with the company that I was working with. And she did all kinds of interesting things. I remember her posting about alpacas and chocolate and, uh, knitting, and I don't do any of that, but it caught my attention because it was so different and much like very organic to who she is as a person. And I remember reaching out to her and talking to her about, because it would have been actually probably when you first started the business, yeah, for sure. Yeah. And she told me all about her approach. And one of the ways that we really connected was actually a random connection with Erica M on LinkedIn. It was. It's just bizarre. And if you're not Canadian, you may not truly understand who Erica M is actually, especially to Gen X. But she used to be the host of Much Music. And to actually have an interaction with her, when every day I used to watch her after high school. Anyways Ingrid and I tag teamed Erica on LinkedIn. Ingrid actually brought her in to actually do some work for the company that we were working for. And I eventually built up that connection, and Erica and her sister have both been guests on my podcast before. The connection to Ingrid is, what I'm telling you, is deep. We're way back. It goes way back. Yeah, exactly. But that is that story of how you built your company and how you got to where you are right now. Because again, if you don't know who Ingrid is, you should because she's been nominated by Ernst Young for entrepreneur of the year. And she's done it all from a tiny little place in Nova Scotia called Yarmouth."
+    },
+    {
+      "time": "2:29",
+      "speaker": "Ingrid Deon",
+      "text": "That's right. So do you want to tell me the upshot of your bio because you're you said she sent me the bio last night and I'm like that. That's exactly the story that really needs to be amplified. Yeah. So I guess my story is just being able to run. An award winning world class marketing agency from a tiny little town that has a population of around 8000. that is 3 hours from the nearest Starbucks and working with multinational companies. billion dollar companies that are our clients that we're creating social media content for. And it's also very near and dear to my heart to hire locally. So I'm so proud to say that my entire team is either from rural Nova Scotia or living in rural Nova Scotia. And in fact, four of us are here in Yarmouth. We have a little office on Main Street, the cutest office on the whole street. And yeah, so a bunch of us are just here in Yarmouth, which is a place where there never was this kind of industry. It really relies on fishing, forestry. And tourism, and those are the main industries. So when I was looking for a job in my field of marketing or communications there were no jobs here. And so I, that's how I, that's one of the ways that I started remote working. Back when I was 10 years ago, I was a single mom living under the poverty line and working three jobs. And my fourth job was to try and find a job. In my field and there were none locally. So I applied for a lot of jobs in Halifax, which is a three hour drive away. And I would say ideally I would work there one day a week and then work from home the rest of the week. And this was before the pandemic and no one wanted to go for that. So I got rejected over and over again. Until an agency finally took a chance on me. and hired me as a social media coordinator. It was very entry level, but at least it was in my field. And so every Monday morning, I got up at 4. 20 in the morning and drove the three hours, four hours with traffic to Halifax, worked my day there, drove the four hours again in traffic home, and then the rest of the week I worked from home so that I could be home with my son."
+    },
+    {
+      "time": "4:54",
+      "speaker": "Nola Simon",
+      "text": "Yeah, and like anybody in Canada who lives outside of a major city can relate to that story because that's what you're told. That's what I was always told is you're not going to get any kind of job that pays anything and that is worthwhile doing unless you actually go to the city and as a mom to have that's almost like what a 5 hour, 6 hour commute."
+    },
+    {
+      "time": "5:16",
+      "speaker": "Ingrid Deon",
+      "text": "Yeah, it was six to eight hours commute. Yeah. And even if you're just doing that one day creates so much anxiety because you have to make sure that everything is running in your house, that your kid is taken care of. And if something goes wrong, even though it's just one day, you're hours away."
+    },
+    {
+      "time": "5:38",
+      "speaker": "Nola Simon",
+      "text": "How do You have to have that village that everybody talks about that you need while you're parenting, except it doesn't necessarily always exist easily. Like it's like pulling in favors. And I remember that as well, too. And it's such a challenge. And so that's where I don't think that story gets amplified enough."
+    },
+    {
+      "time": "5:56",
+      "speaker": "Ingrid Deon",
+      "text": "And I don't think people understand how much Hitchback it would have taken to create a business like that on your own, in that remote area. Yeah. Yeah. So yeah, that's the other part of the story is, after I did that for three and a half years doing that commute to Halifax Mondays and also once I'm I was able to climb up to manager of social pretty quickly there. And so I was also managing a team in Toronto and I was in Toronto almost once a month. So I was really, all over the place. And then. Working from home in my tiny community as much as I could so that I could be home, but I eventually left and started my own business and trying to grow a business from here where I'm not I do have a few clients here locally, but most of our clients are not here. So when I'm here, I'm not necessarily meeting clients. Like we don't have clients that come in off the street. And want to work with us. I have to travel and go to Toronto and go to Atlanta and go to Halifax in order to meet clients in order to do that networking to grow our business. But it's something that I'm willing to do to keep the business here and to keep creating jobs here in rural Nova Scotia."
+    },
+    {
+      "time": "7:09",
+      "speaker": "Nola Simon",
+      "text": "Yeah, and it's so important. So I know you have a very deep connection with remote work but you've chosen to actually create an office. So why did you actually decide to actually go to the cute little office on the street, which I absolutely adore and I've always followed all your innovations and decorations."
+    },
+    {
+      "time": "7:26",
+      "speaker": "Ingrid Deon",
+      "text": "And so why did you actually do want to have an in person environment in your MFA? It started because the internet at home was so bad. That's a typical Canadian story too. Yeah, so we had just one step up from dial up internet, and I was finding it terribly difficult to run my business. Uploading a video would take a day and that's no exaggeration."
+    },
+    {
+      "time": "7:55",
+      "speaker": "Nola Simon",
+      "text": "I remember I was uploading a video once and it said that there was like 20 something hours left. And when I told the person that I was working with that. It was like that. It was going to take that long. They thought I was joking. And I was like no, literally. Yeah, I'm literally an hour outside of Toronto, and I once went to an event and I took all kinds of photos of the CEO. I had 400 photos and whatnot of the whole event, and it was taking so long that they actually asked me if I would consider driving in to bring my device. So they could actually plug it in and download it. Rather than wait for the internet connection to download it all. Plus of course, all the cyber security protections and all that stuff. Yeah. So no, I believe you. I used to, I still drop calls like crazy, but that's just a reality of cell phone coverage in Canada, which of course, you know, if you're paying for it. at any certain speed, it's like a second mortgage to begin with. Yeah, exactly. I know our cell phone coverage here is still absolute."
+    },
+    {
+      "time": "8:59",
+      "speaker": "Ingrid Deon",
+      "text": "It's an absolute disaster. Like I can't, I do the drive to Halifax frequently still. And there are so many dead zones that I, during that drive three hours, I can't take any calls. Because they would drop all the time, so it's really time that I spend listening to podcasts and educating myself because I can't schedule a call during that time. Yeah. Yeah. Yeah. I totally understood that. I've always wondered that question, but that makes complete and utter sense. But yeah so when I started coming to, so I live like 40 minutes outside of Yarmouth. even in a more rural area population 2000. And so in Yarmouth, the internet was much better. So I started coming into a co working space. And working from there in order to access the juicy internet and and eventually I got my own office space. It was a second floor walk up above a clothing store and work. We worked from there for. A little over a year, I think, and there were some structural issues with that building, so we eventually lived in it. Wasn't there rain or flooding or something? It rained indoors, yeah. Yes. That was the problem. Yeah, and it felt like Nova Scotia doesn't get rain, it rained indoors and the rent was cheap I couldn't really expect. A roof over our heads at that rate, but we moved last year to this new space and it's street level and it's great, but there are a bunch of us who like to come into an office and be together. We also do a lot of photography and videography in the office. All of our props are here. So because we work with product based businesses, most, mostly we have tons of props, tons of products, and, we need a place for all of that stuff. That's why we have an office. But I work from the office three or four days a week usually."
+    },
+    {
+      "time": "10:54",
+      "speaker": "Nola Simon",
+      "text": "And some people rarely come into the office. Some people come in more frequently. It's just good to be able to give people options. Yeah, exactly. And having the choice and the autonomy to choose what's going to serve the work really is the gift there, that flexibility. And that's always what I was after was not necessarily, I said to somebody the other day that if somebody had ever let me work like the six to two shift, so I could have balanced childcare and commuting and hours and stuff like that, I would never have actually pursued remote. Because I would have been trusted to have the autonomy and the flexibility to decide what's going to serve the work and balance my life. And 10 years later, we're still challenged to actually have that kind of level of trust. So when you're, when I'm talking to people who run their own business, what stands out to me the most is the investment in trust and interest in your people. And you've just. Epitomize that so kudos to you. This is why she's award winning, right? So I wanted to talk about your approach to actually attracting clients I remember you telling me the story of how you actually approached my former employer and you really just looked at how they were managing their social media and sent them a note online basically saying like Hey who's writing your stuff?"
+    },
+    {
+      "time": "12:11",
+      "speaker": "Ingrid Deon",
+      "text": "Do you have a need something like that? You Yeah. So that, that is one way that we approach potential clients. We just, we see that they need help and we want to help them. I am very, I don't know if it picky is the word, but I'm very specific about who I want to work with. And early on while running the business, I took some gigs with some potential clients that weren't quite aligned with what. I feel the way that I am or my interests or my strengths. And so I made a sign and put it on the wall of my home office and it said, before saying yes to a client, the first question was, is this a social media, is this social media work? Because I was saying yes to translation work and web copywriting. And, so I've just wanted to niche down to social media. So is this a social media gig? If the answer is yes, then you can keep going. And then the second question was, does the client make you want to dance? And if the answer was yes, then I could say yes to them. But if the answer was no, then it meant that it wasn't a fit. And so I'm very particular about who we work with. It has to be a client that excites me. It has to be a client that excites my team as well, because they're going to be doing a lot of the work. So if it doesn't excite everyone. Then we say no a lot. When you run your own business you're able to pick and choose who you want to work with."
+    },
+    {
+      "time": "13:40",
+      "speaker": "Nola Simon",
+      "text": "Life is short. Let's work with clients that we really love and that really align with us. And that's how I'm running things. Yeah, and I saw you write a little bit about how you're actually targeting conferences, but not necessarily marketing conferences, but you're going to conferences that they run for industry."
+    },
+    {
+      "time": "13:59",
+      "speaker": "Ingrid Deon",
+      "text": "You mentioned product lines I don't know, chocolate conferences, I would turn to a chocolate conference. Yeah, this was a realization that I had at Collision in Toronto last year, I think it was. I'm at this conference, it's tech, it's social media, it's marketing, it's communication, it's, all of those things. And I'm thinking, why am I here? There's, I have, there are no potential clients. No, none of my ideal clients are here. I'm here. I'm learning stuff about my industry. Sure. I'm not getting any new business here. It's all like SAS companies or other marketing agencies. So then I thought I have to go to CPG conferences because we're targeting consumer products mostly. So consumer packaged goods conferences. So I start looking like on my computer. What's a list of Canadian CPG conferences? And I get a list of them and I just pick one arbitrarily. So last year we went to Grocery Innovations Canada. We got a booth. We were the only marketing agency there. Wow. Shooting fish in a barrel. That is so smart. Yeah. And when we went there, I was like, this is the smartest thing I've ever done. I've never had an idea that's good in my life. And so this year we went to CHFA the Canadian health food association, really big company. diet conference for health food products. And again, we had a booth there. There were a couple of marketing agencies there, but not too many. So this has been really a good way of us for us to meet potential clients and for us to grow the business. Yeah. And I encourage everyone to do the same thing. Think about your target customer and go to their conferences."
+    },
+    {
+      "time": "15:51",
+      "speaker": "Nola Simon",
+      "text": "Don't bother going to your industry conferences. Yeah, no, it makes total sense. And I honestly, I find that as well too. It's if I look at people who are doing the same sort of work that I'm doing with hybrid remote, why am I hanging around with you? Because you're, it's like an echo chamber. You're all saying the same things. You might have different focuses, but really like you're really just trying to convince each other that you're good and it's this is useless. Yeah. So true. Totally. I totally agree with that. But that's what I always admired about you. You have a way of thinking differently about how things get done."
+    },
+    {
+      "time": "16:26",
+      "speaker": "Ingrid Deon",
+      "text": "So who inspires you? Oh, that's a great question. I don't know. Uh, I just think that. So just to go to I'll think about who inspires me, but yeah, but going back to thinking differently, I think the fact that I don't have a background in business is an asset. It's, it's a blessing and a curse, but the fact that I don't know how to run a business and I'm just, Figuring it out as I go is an asset because I'm like looking at things in other perspectives trying to tackle this, running a business, however I can figure it out and sometimes it brings in some creative solutions because I'm not studying it the way that a commerce degree or an MBA might scale a business."
+    },
+    {
+      "time": "17:18",
+      "speaker": "Nola Simon",
+      "text": "Yeah, no, I totally agree. And honestly, that's why I hire some people to like my coach Gary twig. She is in Winnipeg. But she has a actually similar story because she initially was teaching drama. She's a single mother, she's living under the poverty line. And then she got into coaching and she realized that applying theater to coaching and business."
+    },
+    {
+      "time": "17:42",
+      "speaker": "Ingrid Deon",
+      "text": "was actually a brilliant solution because she has a perspective that people in business don't just generally have. And that differentiated background, I think really is the genius. Personally, it's what attracts me to people. So yeah, I love that you've identified that. Yeah, it's interesting. And I guess who inspires me? One of the most influential people in my career was the person who hired me at the agency who gave me that chance as a social media coordinator. And and allowed me to work remotely. He taught me everything I know about social media marketing. And he's currently our client times two. I'm still working with him. And, yeah, he's just He's his mantra back when we worked together at the agency was stay hungry and stay humble and I've lived by that and yeah he's great. That's good. So you apply that when you hire people on your staff? He taught me everything I know about hiring people. When he interviewed me, he asked me some questions. personal questions rather than questions about my skills which I thought was weird at the time. I was like, he asked me, he said, tell me about a time when you've struggled. And I was like, dude, like I'm a single mom working three jobs, working under the poverty line. Yeah, I am struggling. I'm on the struggle bus right now. And And every time we hired someone together, like when I became manager of social, we usually got together to do the interviews. And he would always ask that question. Tell me about a time when you've struggled. And we would hire people who had an answer for that. They had struggled and I do the same thing. Now, I am always asking that question. I want to hire people who have struggled. We work harder. We appreciate things more struggle is a great thing. You learn so much from it. Yeah, it's not a negative. It's a positive. So yeah, I also learned that from him. Yeah. And resilience is a good thing, right? And unless you struggle, you don't really develop that resilience. Yes, it's so funny that you mentioned resilience, because I was at a talk and it was when I was at Collision, and it was an older man, an older white man, who was talking about resilience, and he said that he had just learned about the concept of resilience, and I was just sitting there I'm sorry, you just learned about this concept? I've been living this concept for years. I could teach an entire course on resilience. And anyways, it just really blew me away that it was a brand new concept to him and he was doing a talk on it. Yeah, resilience, it's important. No, I've been at those conferences or things like that. I remember attending like an employee events and this guy that I worked with we were talking to the head of DEI and he spent 20 minutes telling her how hard he had it as a white man getting promoted and getting raises. Yes. There are all kinds of perspectives. It was a women's event. He was attending as an ally. And I'm like, oh, yeah, and"
+    },
+    {
+      "time": "21:07",
+      "speaker": "Nola Simon",
+      "text": "he was making more than me. And I knew this because at one point I found a salary list, which I was never supposed to see. So that was all entertaining. But where do you think that, like, where do you hope to take social media marketing? Because social media marketing is not without controversy these days, especially with everything that's happened recently in the States."
+    },
+    {
+      "time": "21:29",
+      "speaker": "Ingrid Deon",
+      "text": "Yeah. So where do you want to take it? Where are you hopeful of taking it? I am a big proponent of putting the social in social media, and that's why I primarily do, or yeah. Almost exquisitely work in organic social media. So our company does not do the paid ad campaigns. There are so many agencies that do that and so few that focus on organic social media. So posting consistently, not paid ads. And the goal is really to create engagement. So getting people to comment, asking people questions, getting people to share because they've learned something new that they think more people should know about. Those authentic connections, and being social on social media, that's what I am all about, and I've always been all about that. And I did not know that it would become a trend, or that the algorithms would prioritize content that encourages, conversation authentic connection when I started doing this, but this is where social media is going. It's all about those authentic connections and being social on social media. So whether it was smart or not, I don't know. It wasn't strategic, but here we are. This is what I'm really focusing on. I will continue to focus on this. Getting in the comments is one of my favorite thing and answering people, engaging with people, finding out what people think. It's the best kind of market research you can do. And, back when we worked together and at the former company that we worked at one of the things that I pioneered was the comment based contest. And so many people run contests. That are like, okay, like this, share it for a chance to win tag your friend or whatever. That is the most useless. Yeah, because you're not finding anything out. You're finding out nothing. You are getting a lot of reach because people are sharing it. You're getting a lot of reach because people are tagging their friends. Yes, that cannot be denied. But there's nothing authentic or useful. People are just going to unfollow you as soon as your contest is over. We started running the comment based contest where you ask a question that you will learn something about your followers from that question. It's something about their preferences or their habits or whatever it is. Maybe it's just a fun question. And every answer in the comments is an entry. So we started doing those. And we were able to organically grow the following and grow engagement astronomically. We had some of those comment based contest posts that would get 50 percent engagement, which is unheard of. The benchmark is between one and two percent. So 50 percent of the people who saw those posts would leave a comment. Which is just bananas. It's some of the highest engagement I've ever seen on a post and we would learn so much. You can export the comments at the end of the contest, put them together, create a report on what people are saying, we were asking questions like what is a service that you wish your bank offered. That they don't offer currently, or what would make you switch to a new bank? Those kinds of questions, we get so much information from our following. And all you have to do is give away some gift card or something. But we would also ask some fun questions what's the first thing you ever bought with your own money?"
+    },
+    {
+      "time": "25:06",
+      "speaker": "Nola Simon",
+      "text": "And just some fun ones to Keep it light. But yeah, that's smart because you're really putting it in the context of people's lives and hopes and desires and dreams and people like talking about that kind of stuff, even though they're helping with that research, they it doesn't feel like it."
+    },
+    {
+      "time": "25:24",
+      "speaker": "Ingrid Deon",
+      "text": "And yeah, so that's, I remember those contests. It was always really smart. Yeah. And then some of the some competitors started running them. Of course. Similar contests just because we're having so much success with it. But yeah, those are the types of things that we are continuing to do. We're continuing to stress the importance of organic social media. And. Intentional connections on social media and keeping growing a community of loyal fans, an engaged community online rather than just always selling. And of course you need your paid ads to sell your product or service. But your organic social media is really meant to create loyal fans out of your product or service."
+    },
+    {
+      "time": "26:06",
+      "speaker": "Nola Simon",
+      "text": "And that's where we really shine. That's cool. Do you get involved with employee advocacy at all? Or you don't? We have before. Yeah. That can be a lot of fun. It can be a lot of fun. Yeah. Yeah, for sure. You just need to make sure Try to get everyone on board, make it fun, make it interesting. And and it can be super valuable, especially on LinkedIn. . Yeah. And that's always , my area that I love. Yes. It's also my favorite only to top voicemail. That's awesome. That's awesome. But honestly it's from people like you that I learned. You're teaching people good habits even though, really just doing it in the context of your everyday life, right? And that's what I think is valuable. And the fact that you've been able to do it from where you live without actually having to compromise, the lifestyle that you want to move away from your family to move away from your community, people can learn so much from that."
+    },
+    {
+      "time": "27:04",
+      "speaker": "Ingrid Deon",
+      "text": "Yeah, thank you. Yeah, it's important to me. And you speak about that too, right? Like you're often doing podcasts and you're actually doing keynotes. Yeah. Yeah. And I would love to to speak more about my story of, I, I do a lot of speaking specifically about social media, but, I would love to try to do some more speaking about my journey from, poor single mom to CEO of a marketing agency and having done this in rural Nova Scotia and, creating jobs for people in rural Nova Scotia."
+    },
+    {
+      "time": "27:37",
+      "speaker": "Nola Simon",
+      "text": "Yeah. Yeah, and Ingrid has been such a help to me. I remember talking to you about coaching and grants and different things that you've actually put your name forward through is there a government programs that will support entrepreneurs and to so she's answered a lot of questions. I did start up Canada. I think I talked to you about that at that time. Okay. Yeah. Yeah. So she's a really great resource. And she's 1 of the most approachable people I've ever actually come across in social media as well. This is my way of giving back to her. This is. Sometimes why I do podcast episodes is like the people that have been supportive to me is like, how can I amplify your story and give back in a way? And, maybe five people watch it. I'm not sure. You never know who's going to pay attention, but this has always been my goal is how can I thank you for inspiring me? So that's my question. That's the answer to my question. I told her before we started, the person who actually captured my interest initially with social media was this woman who ran my doggy daycare because she did the same thing of building community and authentic connection. Like she would throw birthday parties for the dogs and people would bring special dog cookies and she would write about it on Instagram and it was just the best thing. And Between her and Ingrid that's where I've learned a lot about authentic media connection and yeah, anyways, that, that was part of the goal of doing this episode. Is there anything that you wanted to talk about that we haven't? I don't think so. We're great. I'm just so honored to be here and to chat with you again."
+    },
+    {
+      "time": "29:11",
+      "speaker": "Ingrid Deon",
+      "text": "It's been a while since we've been face to face and, It has. Actually, I think we did a phone call our one time that we actually did a phone call. We were rocking it old school back then. Who didn't scream? Yeah, exactly. But it's so cool to watch your growth. And your positioning yourself as a thought leader in remote work just so cool to watch you and I'm always cheering you on LinkedIn. Yeah, I that the most important thing that I did this year, honestly, was the McLean's magazine interview, and I did a TikTok for them, and then, of course, Canada decided to shut down TikTok, so there's that. Oh, yeah. That's a whole other topic. Yeah, I know, but it's been such a journey learning all of that kind of stuff and pivoting from what I did before, right?"
+    },
+    {
+      "time": "30:02",
+      "speaker": "Nola Simon",
+      "text": "And it's because people share. So generously online that I've been able to do it because I, I sometimes do tell people that part of the reason I started the podcast was because smart people will actually come and talk to me for free for an hour. So smart. And I love to amplify their stories, but it's also about what it does for me as well too."
+    },
+    {
+      "time": "30:25",
+      "speaker": "Ingrid Deon",
+      "text": "And that's. Another part of my podcast that I don't necessarily advertise, but it's true. Yeah, that's awesome. So you've been in business, what, it's six years, is it five years? Five, five, yep. Yeah, that is so cool, because honestly, I met you right at the beginning of your journey and to see you get to the point where you're like winning awards or nominated for awards in entrepreneurship it's just fabulous to see how you developed it. Where do you want to go? What, do you have a big hairy audacious goal? We're looking at exporting right now. All of our clients are across Canada. So I've been to Atlanta twice this year to meet some folks and try to learn more about the U S market to see if we can break in there. I know it's a pretty saturated market when it comes to social media. But I think there's. There's room for us in there and also looking at other markets internationally just to see, Canada's big, we could definitely keep playing in the Canadian pond. But yeah, it's just interesting to see what exists outside of Canada. And I always love a new challenge."
+    },
+    {
+      "time": "31:36",
+      "speaker": "Nola Simon",
+      "text": "So that's one of the things that we're doing right now. And just, growing the business. creating more jobs, bringing in some new clients figuring things out, trying to figure this thing out. Yeah. That's cool. Yeah. It's always interesting when I look at my, like my podcast audience, cause people often ask me like where my audience mostly is, and it's Canada and the U S which makes sense. But at the moment I'm on the top I've been on the top of the charts in Romania and I'm like why Romania? What is it about Romania? Oh my gosh, that's wild. I know. You have to plan a trip. I know. Yeah, I have no idea. So it's interesting to see what resonates with people and what really, what magic you can create. Yeah, that's cool. All right. Thank you so much for making the time to do this. I really, as I said I've appreciated all your support over the years and I, I wish you all the best in the future and your team, of course, too, because creating jobs in rural Canada, especially in an industry that is not traditional takes a lot of work and I don't know that people necessarily understand that. Without any reliable Internet I started my career at Rogers. Okay, it has not changed all that much. That's 1 of the things that I really think the future. Of working Canada really needs to resolve because yes, it's holding us back quite frankly. It certainly is. Yeah. It's, you could work from anywhere if you had a reliable Internet connection, it's super important. And yeah, it's absolutely my pleasure to be here. And I'm so thankful that you had me on your show. Awesome. Thank you."
+    }
+  ],
+  "hostNote": null,
+  "ctaQuote": null,
+  "resources": [
+    {
+      "label": "word-craft",
+      "type": "Website",
+      "url": "https://www.word-craft.ca/",
+      "note": "Ingrid's organic social media agency in Yarmouth, Nova Scotia."
+    },
+    {
+      "label": "word-craft on Instagram",
+      "type": "Social",
+      "url": "https://www.instagram.com/wordcraftinc/",
+      "note": null
+    }
+  ],
+  "relatedEpisodes": null,
+  "relatedLinks": [
+    {
+      "title": "Ehm2 — Legacy, Reinvention and the Power of Speech (the episode this friendship led to)",
+      "url": "/podcast/ehm2-legacy-reinvention-and-the-power-of-speech"
+    }
+  ]
 }

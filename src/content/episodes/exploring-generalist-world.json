@@ -1,495 +1,495 @@
 {
- "number": null,
- "slug": "exploring-generalist-world",
- "title": "Exploring Generalist World",
- "show": "Hope + Possibilities",
- "format": "Interview",
- "host": {
-  "name": "Nola Simon",
-  "title": "Futurist & Founder, Everyday Futurism",
-  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
- },
- "guest": {
-  "name": "Milly Tamati",
-  "title": "Founder, Generalist World",
-  "org": "Generalist World",
-  "credentials": "Founder, creator, community builder, and future-of-work speaker · Built businesses around the globe for the past decade · Bootstrapping Generalist World from a remote Scottish island",
-  "links": {
-   "linkedin": "https://www.linkedin.com/in/milly-tamati",
-   "website": "https://www.generalist.world/"
-  }
- },
- "publishDate": "2024-11-25",
- "publishDateHuman": "November 25, 2024",
- "updatedDate": "2026-07-05",
- "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
- "listen": {
-  "apple": null,
-  "spotify": null,
-  "youtube": null
- },
- "abstract": "Milly Tamati, founder of Generalist World, has built a roughly 80,000-person global community around a word that used to earn a dirty side eye — and she runs it from a small island off the coast of Scotland. She names the generalist's core problem as translation: the range is real, but 'I can do everything' means nothing to a hiring manager, which is the gap her Unboxed course and the community's hot seats work on. Along the way: a Times Square billboard sourced from one network ask, 'strategically weird' marketing experiments, and the case that clear writing is the most valuable skill of the AI era.",
- "takeaways": [
-  "Translate your range into language a hiring manager understands — 'I could do everything' helps no one; positioning and packaging is the generalist's real work.",
-  "Run small career experiments instead of waiting for a master plan — a podcast that lasts ten months still compounds the listening and questioning skills built along the way.",
-  "Scale community deliberately: gate admissions, protect the culture, and count connecting ten people who needed to meet as a win.",
-  "Test 'strategically weird' marketing — a no-constraints idea thread became a Times Square billboard, landed through one network ask and a community-written slogan.",
-  "Hire for clear writing, because clear writers are clear thinkers — and communicating with people or machines may be the most valuable skill of the AI era.",
-  "Model transparency by building and learning in public — sharing the operations, not just the wins, is what keeps a community's trust.",
-  "Map pathways for generalists inside organizations — the talent is already there; what's missing is a way to promote, retain, and support range instead of boxing it in."
- ],
- "keyQA": [
-  {
-   "timestamp": "5:22",
-   "question": "What is a generalist, and why did the label have a bad reputation?",
-   "answer": "A generalist is someone whose skill set flexes across domains rather than narrowing to one specialty. When Milly Tamati started Generalist World a few years ago, saying the word earned a dirty side eye — the working world treated range as a lack of focus. Her contrarian bet was that the generalists she knew had the most interesting careers and the most to offer, and the community that grew to roughly 80,000 people suggests she wasn't alone."
-  },
-  {
-   "timestamp": "10:08",
-   "question": "How should a generalist explain their skill set to an employer?",
-   "answer": "By translating it, not listing it. The single most common pain point in Generalist World's survey of its members was positioning and packaging — 'I could do everything' is unhelpful to the person hiring. The work is naming the value you bring, stacking your skills into a coherent story, and running career experiments to test it; that deep work is what the Unboxed course walks people through, rather than handing over copy-paste answers."
-  },
-  {
-   "timestamp": null,
-   "question": "How do you grow an online community without losing its culture?",
-   "answer": "Slowly and on purpose. Generalist World opens membership only a few times a year and engineers how many people to let in, because scaling a community too quickly destroys the thing that made it work. The framing that matters: the community and the brand are the same thing — when Generalist World got a billboard, its members got a billboard — and connecting ten people who needed to meet already counts as success."
-  },
-  {
-   "timestamp": "20:13",
-   "question": "What does 'strategically weird' marketing look like in practice?",
-   "answer": "It starts with a no-constraints question — Milly Tamati asked her team 'what would we do if money, time, and network weren't issues?' — and treats the answers as experiments to run, not fantasies. A billboard-in-Times-Square idea became real through a single network ask, the community wrote the slogan, and a follow-on campaign let anyone anywhere hold their own 'billboard.' An unplanned napkin AI post that pulled about 450,000 views on TikTok got the vendor's CEO on a call the same way."
-  },
-  {
-   "timestamp": null,
-   "question": "Why hire for writing ability?",
-   "answer": "Because clear writers are clear thinkers — if someone can think a problem through and write it down plainly, they understand it. Every person on the Generalist World team is a strong writer by design, not accident. With AI moving into every workflow, communicating clearly with people and with machines may be among the most important skills going forward, and it's learnable: practice, find your voice, and have an opinion."
-  },
-  {
-   "timestamp": null,
-   "question": "Where do generalists fit inside organizations?",
-   "answer": "Right now, mostly nowhere comfortable — the obvious pathway for an expansive career is entrepreneurship, which is what pulls many generalists out of organizations entirely. The systemic change Milly Tamati wants by 2030 is organizations recognizing cognitive diversity, valuing generalists on a level playing field with specialists, and building pathways that let careers expand instead of narrow — because the talent is already inside their org charts."
-  }
- ],
- "chapters": [
-  {
-   "time": "1:06",
-   "label": "From a New Zealand farm to a Scottish island"
-  },
-  {
-   "time": "5:22",
-   "label": "The word 'generalist' and its dirty side eye"
-  },
-  {
-   "time": "7:26",
-   "label": "Nola's generalist story: range inside a straight career"
-  },
-  {
-   "time": "9:30",
-   "label": "The London Interdisciplinary School"
-  },
-  {
-   "time": "10:08",
-   "label": "Unboxed: translating the generalist skill set"
-  },
-  {
-   "time": "14:27",
-   "label": "The napkin AI experiment and the Times Square billboard"
-  },
-  {
-   "time": null,
-   "label": "Building — and learning — in public"
-  },
-  {
-   "time": null,
-   "label": "Writing as the hiring filter"
-  },
-  {
-   "time": null,
-   "label": "Hot seats, AI tooling, and generalists by 2030"
-  }
- ],
- "transcript": [
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Thank you very much for joining me. I'm the host of the Hybrid Remote Center of Excellence. I'm Nola Simon, and joining me today is the founder of Generalist World, Millie Tamati. Thank you so much. Hi! Hi. Nola, I'm so happy to be here. It is really exciting. And Millie is a really interesting person. Currently she lives on a tiny island off the coast of Scotland, but she's actually from New Zealand. Do you want to give us a snapshot of your life? I'm pretty excited. Quite sure you can capture it more succinctly than I can."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "A snapshot of my life. Yes. So grew up on a farm in New Zealand, grew up milking cows realized that the farm life wasn't for me and I didn't want to marry the neighbor and have a bigger farm. And I was like I wonder what else is out there in the world. But I had that question, right? What do you want to be when you grow up? What do you want to do? And I had absolutely no idea. Like most 16 or 17 year olds so I ended up going to university and studying teaching because to me that kind of seemed like interesting. It could like flex across lots of different domains. The generalist thing is coming through early here. And so yeah, I am a fully qualified teacher. But when I got my degree, I realized that I really didn't want to be I wanted to explore. I had grown up in New Zealand and I knew that there was a big wide world out there. And I wanted to, I had this burning desire to get out and experience it and explore it. And so that kind of kicked off a, what was meant to be a one year trip. That was 12 years ago of this exploration. And so I booked a one way flight to Berlin. And I became completely obsessed with new things, new cultures, new languages, new experiences, new jobs new people. And I have for the past about 10 years, I have been building businesses around the world. I worked as a tour guide for many years as well, which seems like unrelated to anything, but it actually Formed like the basis of my skillset, which is like bringing people together, creating experiences, building something out of nothing being like really people focused and yeah, I fell into the startup world in 2017. There was a new startup Kicking off out of the Philippines and they asked me to come out and be like one of their first employees That was my first dip into the startup world From there. I learned everything I knew from them And then I realized I can probably just go and do this myself. So I launched my first business in Australia And then I've been building my own businesses ever since How did you end up in Scotland, particularly Ireland? Yeah, so my on the travels, I met my now husband and he's Irish, but we were living in Ireland for a while, actually, in the middle of COVID. And Like everyone in COVID, we were like, what are we doing with our lives? What are we going to do next? And a job came up to come and make whiskey on this little island. And we were like, we're yes people. We were like, sure, let's move to this little island and figure out how to make whiskey. And he doesn't actually work that job anymore. He works in a completely different industry and in the climate industry. But we decided to stay and now we are so embedded in the community. It's like impossible to leave."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "That is really cool. And that's the thing that's what I find interesting about you. You have this ability to do things in person and make an impact in your immediate community, but you also connect people globally around the world. You've got what 71, 000 people following the generalist world. Newsletter. How many people are members? We've got, I think around 650 paid members. And yeah, about, I think it's about 80, 000 in our wider network. So that's across socials and newsletter. But like it is amazing. The the generalist conversation, like when I started this thing a couple of years ago, it wasn't like, it wasn't cute."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "It wasn't cute. You'd say the word generalist and you'd get like a dirty side eye, like, Why would you want to, why would you want to associate with that? And I was like, why would you not want to associate with that? I actually couldn't understand. I had such a contrarian view to it because from my experience, people who had this generalist skillset were amazing. Like they had so much to bring and they had the most interesting careers. And I just couldn't understand why the world saw this really differently. And it's like anything it's easy to say now Oh yeah, now we've connected, all of these 80, 000 people across the world, but it didn't start as that. It just started as one or two or three. And many of those people are still within GW and within my within my close circle. So yeah, I think. Particularly when people are thinking about like building networks, it can feel overwhelming or it can feel like the end goal is to be really huge, but really, it's actually a success as well. If you connect 10 people, like that's amazing. If you can really bring 10 people together who needed to meet each other like what a win."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah, and I feel blessed because I, you gatekeep how often people can get into the community. So I'm blessed that I feel I'm a member of it. So I'll tell you just shortly, my, my generalist story, and I know you know part of it, but I'll just tell it just for the audience. For years, people always wanted me to be a teacher. Partly it was how I dressed. Partly it was because of the weight of my hair. But I also am, I was always a gifted student, right? I majored in math. I minored in history. I studied it all in French with a smattering of Spanish on the side. So that's your first tip. But I'm actually a masker. I'm actually I'm not one of the squiggly career set because I actually worked for a company for over 17 years. And I've been in customer service for over 25 years. So I've had a straight narrow path, but it's because I was masking the generalists. So I I go deep, so I have wide range. I took the generalist quiz. They have a fabulous journalist quiz. If you want to know what type of generalist you are. And I actually scored on like the widest range. Ooh, interesting. But I have the ability to go deep. So like the T shaped generalist kind of thing. So if you think about customer service, I When you get a call, it could be asking anything. So customer service, generally, actually people who are generalists do well, because you have to know anything that could come your way. In a way, it makes logical sense that's where I ended up because. I'm really good at being able to feel whatever happens to come my way. So that's my story of how I ended up there. And if you look at what I'm doing right now with the future of work, that's never been more generalist because it could be. It could be everything that needs to be addressed to really develop a future of work that's going to help people thrive and businesses succeed. Yeah that's my story. And that's why I was drawn. I remember when they first floated the idea of the London Interdisciplinary School, I remember and I never wanted to, after I finished university, I never wanted to take like a master's because I wasn't interested in going deep. Like I, yeah, I majored in math, but I majored in math. I chose math as my major instead of history as a major because of the STEM bias that exists in the world. And it's funny because that often comes up because I read more as like a liberal arts person. When people first get to know me, they think that I'm liberal arts, and they try to discount you that way. And I'm like, yeah, but I majored in math. And they're like, Oh, I don't know what to do with that."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Oh my gosh, if I had a dollar for every time I heard that exact line we don't know what to do, that doesn't fit into our box."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "No, it doesn't fit into the box, right? So I remember reading about what they were planning with the London Interdisciplinary School, and I was like, that was the first time I ever was like, if I was going to do a master's, I'll do that."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "And you have"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "somebody on your team who actually works for the school and you, right?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah, I don't work for them. We have a close partnership. Nikita, who she actually leads partnerships for LIS, the London Interdisciplinary School. And we've done a few events with them for International General Assay. We did a big event that included LinkedIn. A couple of the top universities in London. So like the work they are doing is so important because they're a challenger university, like to disrupt. I know that word gets used a lot, but truly to disrupt higher education, kudos, because that is a feat to even begin. Like you're trying to disrupt organizations that are like institutions that are hundreds of years old, particularly in the UK, probably similar in the U S actually. So I think they're doing incredible work and I'm really excited to see now they're getting there. I think they've been around for about four or five years. So they're actually their students are now going out into the world and it's going to be really interesting to see those case studies of where they end up and how their careers take shape."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. I know it's interesting. And of course, because I have. It's and everything that my whole life is based in Canada, like I'm not in a position to really just come to the UK and do secondary post secondary education. So that's why I chose generalist world, because it allows me to really see everything that you're developing and meet generalists from around the world. But you are actually exploring the idea of education for generalists as well too. Do you want to talk about your new venture, which is needed to really bring revenue into generalist world and really advance you to the next step?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah, totally. I think it's filling a gap, to be honest, like what I think what we're really strong at and particularly what my skill set is really what I'm really good at is like the creation and distribution of content. So we've been able to build this like really strong, engaged, excited audience. And then We had our core product as community, as which is a community membership. We open it a few times a year. And what we realized very quickly is that community is hard. Like it is so difficult to get right. And the last thing you want to do with a community, in my opinion, is scale it particularly too quickly. So the, like the engineering of like how many people to let in has been so like the meetings that we've had, like the thought that's gone into trying to get this balance right. I'm like, okay, we're growing. But we don't want to lose this like beautiful essence. of the like culture and the the feeling of generalist world. So we knew that we needed some kind of other product. And the other thing is not everyone needs community. Like some people are like, I'm good. I, but I do need the education. And so what we did, is we ran a, an understanding generalist survey, which I'm happy to share the link. And we really wanted to understand what the biggest pain points for generalists were, what the patterns were. And then we wanted to figure out how can we simply provide tools and tools and support so people can work their way through these big challenges. And one of the things that kept coming up almost every day, Every single time was this like positioning and packaging and like translation of your skillset to an employer, to a client, to a hiring manager. It's that feeling of Oh I could do everything. And that's actually not helpful for the person who wants to hire you to hear, like you need to translate it into a language that they understand. So a lot, so we basically created this course it's called Unboxed. And I was thinking about it over the weekend. That I think a lot of courses promise you quick answers. So they promise you like, if you watch these five hours, you're going to get all the answers and you can copy and paste them. And that is not what Unbox is. And in fact, I think this is probably like an anti selling point, but it is the truth that like the answers. Come from the deep work and Unbox will guide you through that deep work. It'll help you see the value that you bring. It'll help you. It'll help shape how you can stack your skills. It'll help you run career experiments. And these are all things that like, I'm not here on a, on a pedestal being like, this is what Korea should be. And this is how you should design your path. I'm the opposite of that. I'm like, you should design your path however you want. And it should be unique to you. And you don't have to stay in your lane and you don't have to be in the box. And because of that, to develop a course around that, it's a little you can't really hand people the answers or like the one track of how to do that. So Unboxers, a course. That explores what kind of modern careers look like and what a career for you looks like. I really believe that careers don't have to be something that you just go to from nine to five and be a little bit miserable. Like I think they can be a vehicle to loads of meaning. I think from what I can tell, like you get this in the work that you do. It's a lot of joy and fulfillment and meaning. And I'm like, oh my gosh, if we could help more people. create careers like that. What a net positive to the world. So Unbox, I believe when this episode goes out it'll be live. We're opening just for one week. So if it resonates, I would love to see folks in there."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "So it's a standalone course. You don't have to be a membership a member of Generalist World to actually sign up for Unbox, right?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Correct. We, if you just want the course you can purchase the course at any time over the next week. But we are going to be offering, because basically every time we open the community, it sells out. So we are going to be offering, if people really want in for our February 2025 cohort, you can reserve your spot. You can get it now. And that will mean that you absolutely get a spot next year. But if you're not up for the community, no worries at all. You can just opt in for the course and yeah, that, that will be available."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Okay, perfect. Yeah. I wanted to make sure I understood and I've seen you're offering members discounts, right? Yeah. Is that correct? Yeah. Yeah. Yeah. That's something that you can find out in the community. If you happen to be a member. Yes! Get"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "a bee perk!"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah, exactly. That's right. And I think that's fabulous because people don't really understand generalism, right? And they don't often understand how to translate it into the world of work as it currently stands and what it's going to be in the next 5 to 10 years. Everything is being disrupted. And you think about AI, right? Millie ran a fabulous experiment. I want to talk about your experiments. Actually. She's very good at still skills stacking, but also going out to the community and asking for ideas and support and just brainstorming in general. So she's gifted at bringing people together and just getting people to spitball really. And so you ran an experiment to get sponsorship for generalist world. Because, you have staff, you have expensive, you have technology that you have to pay for. And you were testing a napkin AI. And I did this with my podcast because I wanted to see, I'm not a visual thinker. At all. And so I saw your post about this and I was like, Oh, cool because I've been experimenting with Pinterest and I'm like, the thing that I struggle with is what visuals to pair with my content. And so I took the hundred plus episode titles of my podcast and put it into napkin AI and asked it to generate a visual that would represent the themes of the podcast. Ooh. And it came up with this fabulous. Visual actually it actually does a deep dive and it gives you like, probably like maybe somewhere between 20 and 30 that you could choose and present it in a different way. And then you can choose whichever one you want. But you did this as an experiment. You selected one of those visuals. And then you asked the community to help you amplify that post so that you could get in front of the napkin AI CEO and. ask them whether they would like to sponsor the community. Now this took off on, I know you had it on LinkedIn, but it really took off on TikTok, right? Yeah, massively. So this is an example of how an experiment can really lead to it. Even, I don't know where it ends whether you've had that conversation about sponsorship or not. It gets so many eyeballs and just draws. attention to the idea of generalist world. And did you want to talk about that a little bit?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah. It's so funny because that one wasn't an intentional experiment. That experiment evolved the fly, probably not the best like scientific approach. But as a rule, I love experiments. I love testing little things and being like, that became the big thing. What worked? How can I do that again? How can I bring other people into the fold? So the idea behind Napkin. ai, I just found it somewhere, saw a link somewhere and tested it out. And the video that you see, I think it's about 15 seconds long. That's legit. That's literally me on the first time. And all those reactions are, I completely legit, I couldn't believe that it was instantly I am a very visual thinker. And so for me, that's Oh, it was like Christmas seeing these things instantly be created these graphics. And so I posted it. I, it, I think the thing with socials is, pretty quickly if something is going to hit and It was hitting immediately on tech talk. People were talking about it. They were sharing it. And so I was like, okay, I'll cross post it to the LinkedIn test out the waters. There's always different audiences there. So it's not a given that it's going to hit there. It landed there as well. And what I did from there is that when I started to say, okay, this seems to be taking off on both platforms. What are my options? What can I do here? How could this be a win for me, for Napkin, for the community? What could that look like? And so then I created a follow up video basically saying this is now a pitch. My last video for Napkin got, I think it's over four hundred and 50, 000 views, something bananas. TikTok was a wild place and yeah I just had Napkin in it. And then their CEO reached out to me and was like, wow, that was pretty cool. I hopped on a call with their head of growth and we just had a really transparent conversation. I was like I really like your product. I think it's awesome. I think the key to this is. Do it so sparingly, like I never shill, like never promote almost any product unless I'm using it every day. I'm wowed by it. I'm not doing it for the bonuses or, I think you, your reputation online, you have to be so careful. And so for me, this was a great product. I knew that people would like it because I liked it. I am my target audience. And I was like, I know that this could be helpful to folks. TBD, that is still in process. They're keen to figure out some kind of partnership and we're just looking into it. So the experiment continues."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah, no. And I think that's cool, but that leads us to our next experiment, which was. Intentional. Yes. And I will let you guide that one because I want to make sure that it's going to get the attention that you want it to have. So can you tell us all about our surprise for Thanksgiving week?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah. And I think I'll try and frame it from what people can learn and what people can take away and what people can do in their own businesses or careers that could They could replicate things. So the first thing is I asked a question in Slack, we have a team channel, and I was like, Hey guys. What does it look like to do something weird? I was like, let's have a thread, there are no bad ideas, just it doesn't money's not an issue, time is not an issue, network is not an issue, just idea storm. Let's get all the ideas down. If we had no"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "constraints. No constraints"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "what would we do? What would we do? And one of the ideas that came up was a, we're like, oh we'd have a billboard in Times Square. And Then I sat on that for a second and I was like, huh, I actually think that I know someone who knows how to hook that up. And it was simply like a message to them being like, Hey, we're really interested in getting this billboard. Do you think you could connect us? And they said, yes. And this is also the power of network. Lesson, ask for things, be like, be a good person. And then just ask for things. And when people need things from you, return the favor if you can. So this person was able to connect us. It's all through Brex. Shout out to Brex who are hooking us up with this. And we basically had a call with their partnerships team and we, long story short, were able to get a billboard. The Thanksgiving thing was a, Surprise. We didn't, that was just a cherry on top. We had no influence or say over that. And then, so we basically then had this opportunity where our very small team very small, like people often think generalist world is a lot bigger than we are. We're actually really tiny."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Six people?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah, and up until the last maybe three months, or maybe a bit more, four or five months, it was just me being the full, only full timer. And then everyone else was like one or two days a week. So it was like hilarious when people would think that we were this massive company. So basically our little team is like dancing around our living rooms, being like, this is wild. We're getting a billboard. But because we have our community who is like just the core of. everything of everything that is generalist world. It starts in the community and everything from there. We were like let's ask the community. What do they want to have on a billboard? This is not, and this is actually a, this is, a philosophy or how I think about our community is that it's not like generalist world and then the community, they're just one in the same. So when generalist world gets a billboard, our people are getting a billboard. This is a message from us, from me, from the team, from them. And you saw the thread. Yeah, I saw the thread."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "It was so fun."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "People were jazzed. They were excited. And we ended up choosing a slogan that someone in the community On that thread created. So it couldn't be more like community driven. And we thought to make it a little bit fun. We kept that, we've kept the final slogan, a bit of a secret. I'm"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "interested to know if I'm right. I guessed which one I would pick, but I'm dying to know if"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "I'm right. See, this is the fun thing. It's if you can find ways to to make things fun The internet these days, it's either so self promo y or inauthentic or insincere. And it's if you can just find ways to inside these spaces, have these really sincere conversations and connections then people, it becomes like, Their favorite place on the internet. Oh yeah. I'm in there. I'm in there multiple times a"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "day, honestly. And I don't necessarily always write everything, but I read a lot, right?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah. There's a lot to read. Even I'm like, I love you guys. I can't keep up. Which is a great point. Like you've got to be really careful about the scale of how you scale things. It's a science. So yeah, then yesterday, this is actually A funny little story. Yesterday, our team, we had a standup meeting and we were talking about what's going to happen with the billboard. And we were like, okay, how can we get people involved that are like outside of New York? Cause we have a pretty big following in New York, but lots of, we're global, lots of people outside and we're like, how funny would it be if we created this campaign where basically anyone can have a billboard, you just go stand outside. We have our squiggle, which has now become. We may as well trademark that emoji because it's become synonymous with generalist world. I"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "saw somebody trying to use it yesterday, and I was like, yeah, that's not gonna fly."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "That's hilarious, trying to use it."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "so this is how ridiculous our team is. We were like, we got really excited, and we were like, yeah, let's just go into it right now. And Honestly, four minutes after that call, Edger posted a picture, and she's outside, she's done the squiggle, she's holding her billboard, and I was like, then Emily's up a tree she's working from her bed, she looks like that sloth emoji, it's the best thing ever, and we were having so much fun, and I think that radiates through everything if we're having fun, people want to hang out with people. That having fun I was"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "planning it yesterday. I was coming home from dropping off my daughter, and I was just driving along Lake Simcoe, and I was like, oh cool, look at all the Canada geese on the lake, because nothing's frozen in Canada. Like you guys have snow in like the UK right now, and Canada has nothing. I literally didn't even need a jacket when I was walking yesterday, and I'm like planning my squiggle in front of the Canada geese. So I have to go back. It's colder today, but I think they'll still be there. Yes. That's"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "amazing. That's amazing. And so it's almost like if people listening, think about it as there was a big experiment that started. The impetus was, Hey, what's my weird marketing things we can do? And then from there it was like, okay, we've got this billboard. How can we involve the community? And now we're. It's an experiment with an experiment. We're now running this other campaign within that, which is like anyone can have a billboard. And it's, I think it's just about tapping into we call it being strategically weird. Where like you, You could just do things. You could just be like, Hey, that'd be fun. Do we think that would be fun? Cool. Let's just go do it. It'd be great. Even this morning"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Millie sent me a note just to see, what we want to talk about. Because I'm very bad. I keep things Very casual, very loose, I forget that people like structure. And so she sent me a note and she's but I, if we talk about the Billboard campaign, I don't want it to release until Monday. And I'm like, we can totally use the podcast to justify the campaign and publish this on Monday. So that not only do you have like pictures from around the world, but you'll have a full blown podcast episode that you can. Appreciate"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "it."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Amplify. So cool. Used to amplify. So cool. Yeah, exactly. That's right. And that happened, what, in 10 minutes? Not even?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah. Yeah. We have a saying at Generalist World what if it were as simple as fill in the blank? And it's I think everyone complicates things so much. Just turn it down. Take a breath, take a step back. What is the simple version? And the simple version is being like, cool, let's hop on a Zoom. Let's record. Let's publish it on Monday. Simple."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah, exactly, because you actually published when you're talking about the revenue challenges that you've had for generalists, where you mentioned, Yeah. Come on my pocket, and that's how they, because I'm like, Millie, do you want to come on my pocket? She's sure."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah, and that is another experiment. Yeah. Actually for context for listeners I realized my, my whole thesis is to build in public and not just build, but to learn in public. I am not out here being like, I know all the answers. at all. I am very much I'm figuring it out, doing pretty well, having a lot of fun on the way, and I will share as much as I can so that you can figure it out too. And I realized that I had been so caught up in the operations of Generalist World, and we've now got a small team that comes with payroll and all that kind of scary stuff, that I'd lost my magic a little bit of the transparency building in public. Basically my rhythm, I'd lost my building and public rhythm. And I wanted to make sure that particularly the GW members had that access, had that insight into what generalist world is, where we're going, how they can be involved and how it all fits into the bigger picture of this future of work, because. So many people within the community really care about this stuff. And so last month I was like, okay, I'm going to experiment with an email just for GNRossWorld members. And it's going to be like a behind the curtain. It's going to be like raw, vulnerable. It's going to go deep on the, I think I called it a little letter, which was completely incorrect because"
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "it was a little, it"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "was really long. Yeah."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "So it was the best thing I read last month. It was really the best thing, I mean your writing ability is why I'm part of the community to begin with, like you just captured my heart with everything that you're able to write and convey and like that personally is your true gift for, from my perspective. So that, I read that and I was immediately like, Millie, you need to be on my podcast."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah, literally, actually replied to that email. Yeah, I did. And just a note on the writing, because I think that's really important we have a, what I call like a writing culture at GW, where every single person on the team is a brilliant writer. And that's not by accident, that's by design because to be a brilliant writer, and when I say brilliant, clear. They are able to be really clear and they can execute really well on their like writing needs. And the reason I obsess so much over that and really look for that in hires is because it just means they're great thinkers. They're really clear thinkers. If they can really think things through and then write it down, that they understand it. And Communication, right? Like particularly with AI going Like everywhere, being a great communicator is going to be everything. Whether you're communicating with people or a machine learning, I think writing is going to be perhaps one of the most important skills in 2025. To be a really clear, thoughtful writer. If I could give advice to young people, it would be just practice. Because writing is a skill. I think if you, some people come out of school and they're like, oh, but I didn't do well in English, or I'm not a good writer. You can learn. You can learn to be a clear writer and a clear thinker. And in fact, a lot of the lessons that you learn in school, Aren't going to serve you, particularly in the world of like business and startups and tech. Those very like structured sentences. It's more about finding your voice and having an opinion. I think a lot of the stuff I see particularly on socials these days is almost like lukewarm. Like it's like people have lost their Their stake in the ground or Hey, this is my opinion. And then particularly on LinkedIn, I think we've also lost our ability to like debate and actually just have differing opinions. It's like a little bit of an echo chamber, which I do try and challenge. My posts. I try and I guess say the quiet things out loud, and I think that's often why they resonate. It's because if you're thinking something, I almost guarantee others are thinking it. They just may not have had the language or the courage or the confidence, whatever it might be, to say it out loud."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. Oh, yeah, absolutely. And honestly, I started the podcast in part because I wanted to challenge myself to become a better listener. It wasn't necessarily about, yes, there's a speaking aspect to it as well too, but what I wanted to learn from podcasting was how do I ask better questions? How do I ask deeper questions? But how do I listen better? Because I like thinking, I like my own thoughts and I found that I was interrupting people and that was something that I wanted to actually train myself out of, and I wanted to do it in such a way that I was doing it publicly to hold myself accountable. But I wanted to be able to learn and I wanted other people to be able to learn from the experiment as well, too, which is why I did it publicly in a podcast. Amazing, kudos to you, and I, you just named it, but I was like, Nola, that is an experiment, this is a career, like, all of these things the more I think about it, the more examples I see, everyone people are just running these little mini career experiments, and they don't have, maybe the podcast last, For 10 years, maybe it lasts for 10 months."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "It doesn't matter. You're learning skills along the way. You're becoming a better listener along the way. And just like kudos to you for having the self awareness of Hey, I actually think this might be a skill that I could sharpen, that I could hone. What's a cool way. What's a what's an experiment that I could run that would help me sharpen that skill. So I think that's really brilliant."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. And going back to, how long does the podcast last? I'm actually, you are like the second to last guest. I have one more person. And then next year, I want to look at all of the episodes that I've done and figure out what I've learned from them and then dig deeper. So I'm not going to do any guests next year, but it's like, how do you take the knowledge that exists in a hundred episodes? And then do that deeper, right? So I'm thinking maybe I might do essay type episodes where I'm connecting everything that we've learned from like various episodes to actually deepen and connect and see what avenues we can actually go down. So I might actually only release like 12 episodes, like more than a month next year. But the goal is really. It's not necessarily more, because I, more can just be noise, right? So what is it you've learned? My, everybody wants to publish all the time, but it's I think at some point you need to slow down and figure out how you go deeper, right? That's"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "my experiment for next year. Yeah, I wonder if an interesting prompt, like the prompt that got you here was how can I become a better listener? And I wonder if the prompt for the next one is what do I want to learn this year? And maybe it's like how to synthesize information or how to distribute content, whatever it might be. And then that could form the basis of your next experiment."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. I'm excited."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "I'm excited to see what you come up with."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "I know. Yeah, because I look at some of these podcasts and they have 800 episodes and I'm like, what does anybody learn from that? Because I'm not going to do a deep dive and listen to 800 episodes. I find it overwhelming when I look at your podcast that way. And I'm like, I don't even know where to start. Yeah, I hear you. And I just need to call out 100 is amazing. I think the average most people get to is like 3. I know. Or 10, like I've heard. Yeah, it's really low. It's the fabulous quad fade."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "The consistency is fantastic. And just while it's on my mind you mentioned about asking really good questions, which I think you've done in this episode and one resource I'd just love to call out because it has been like, I don't want to say life changing people throw that word around, but it has been, and it's a book that will Stick in my soul. It was actually recommended to me by Robert Barris, who is in GW. He's a GW and it's called a more beautiful question. And I can't remember the name of the author, but if you look up a more beautiful question, it's all about the importance of questioning and how like the right questions can be like transformative how if leaders can ask better questions. That's how you unlock. Almost everything and it actually ties into the communication piece as well. So if Listeners are really like avid readers. Like I am I would strongly recommend trying to get your hands on a copy of a more beautiful question."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Okay. Yeah, no that's a great answer. I did there, Michael Bungay Stainer has a book on questions as well too. He's a Canadian coach, so yeah, I'll look for that one as well too. Because that It's guiding me to but you get information from everywhere and that's actually something there's some there's one person I would adore to have on my podcast and I haven't managed to land her and Her name's Amy Herman. Do you know Amy? So she actually is an art historian. She started as a lawyer. She became an art expert. And what she does is she teaches about how to observe from art. So she actually teaches the FBI, CAA, police forces around the world by training them how to actually interpret art. She's an art historian, like she amazing. Yeah. And so she has two books it's called her book, her company is called the art of perception. And the, her second book was called fixable. So if you're looking for books to actually amplify how you perceive and how you question those two, I recommend, and especially for me, I'm not a visual thinker at all. I'm not an artist. I, like I peeked at kindergarten and For me, doing that kind of work that really stretches my brain to think, how do I think differently and ask questions in a different way? I lean into my weakness. I love it. Yeah, that, those are my two book recommendations for that. Yeah. Actually three, three right there. Sorry. Brilliant. Too many books we're reading. All right. For the big uncomfortable question, where do you want Generalist World to go? Like it, say we're talking like 2030, where do you think Generalist World will be? What have you achieved? What would make you thrilled beyond belief?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Thrill Beyond Belief would be to have like systematic change. So change within our organizations. I think we've done pretty darn great job on the generalist side, on building people's confidence, on giving them language, on bringing them together, helping them feel like validated and seen and heard, and now our next big giant enormous hurdle is on the system side. So that's where do generalists fit in, in, in organizations and how can organizations actually leverage their generalist talent, not just squeeze them into this box of okay, this is your very narrow role. How can we create pathways? Basically how can we create amazing pathways for generalists to lead these careers that are like expansive rather than narrowing? Because not everyone wants to go to a narrow point. Some people, like me, I want my career to keep expanding, that makes me really excited. But there's no obvious pathways apart from entrepreneurship would be one way to do it, which is probably what drew me into it. But I think there's a real opportunity for organizations to get on board as well and to create these pathways for their generalist talent, which they absolutely have. In their org anyway they just don't know how to promote or retain or frankly support that talent diversity. So in 2030 I would love for it just to be like, almost not even a thing, just like normal. For this to be a talked about talked about, acknowledged, valued thing in organizations that there is this cognitive diversity and that it's really important to actually recognize that and see generalists on a level playing field as specialists. And see that even though our skills are different in the sense that they can be a lot harder to measure and we can often like play in the gaps between like departments and stuff that they're incredibly valuable. That would probably be my answer."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Very cool. The lattice, not the latter."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "yes. Connections."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. Not the straight and narrow. I like that. Absolutely. But yeah, there, there needs to be a lot changing. And do you think that AI can actually help with that? Because I've done several podcasts actually that AI use in hiring and how AI can be used to identify. skill sets that you don't even know that people actually have. Do you think that AI can actually be the magic that actually unlocks the generalist skill set, depending on how it's used?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Yeah, great question. There's a lot in there. My thesis is that generalist thinking plus generalist tooling, and by tooling, AI tools really, is the unlock for everything. When you give generalists All of this these tools, which make their workflows so much more efficient and more creative and give them space. For me, that's where like. Major innovation is going to happen. But in terms of the recruitment side I would say there is a lot of people trying to figure it out. Recruitment is just a beast in itself. Like we talk, like we're talking about like human resources when you think about it, like even in the name, like maybe we need to have a little bit of a rebrand there. I don't know. I'm an eternal optimist. on all things and that also includes AI. I know it comes with potential like really questionable, like challenges and ethical challenges as well and implications. But on the whole, I think that it can be a force for good. How that Like tangibly plays out in recruitment and in the workplace. We'll see. I know that there's a lot of people really trying to crack that code because I think if there's one thing we all agree on, it's that the way that we hire doesn't really work, the system is pretty broken. The old CV. A thousand people applying with a A4 piece of paper. I think we can probably do a little bit better than that. But we'll see how it plays out. I think the next five years are going to be exceptionally fast moving and fast changing, like just, I'm not sure how often you're using AI, but I am using Claude, all day. Yeah. All day. I am like jamming. Me and Claude. It's like my bestie. I can't remember what life was like before Claude and Claude is probably like the equivalent of a three month old, do you know what I mean? Yeah. Like it's changing so rapidly, so quickly that I think, I'm grateful to have spaces like Generalist World because the, what we're stepping into if anyone tells you they know what it is, they're just lying or they're guessing, like no one actually knows what's coming. And so to have spaces like GW means that you're with a group of people who there is a deep sense of safety and a deep sense of trust and a sense that, hey, We're going to figure this thing out together. And we're actually in a better position because we've got each other's back because we're in the circle with each other. And even though we don't know what's coming collectively we're stronger. And that's what makes me really excited about community."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. And I just wanted to bring a brief shout out to one of the things that happens in general in this world. And that, and I haven't been brave enough to do it. And that is the hot seat. So I've attended two as a guest. And what hot seats are really is people come with questions that they really want eyeballs on that. They, a lot of times it's personal. How do I get a job? How do I transition myself? How do I position myself? How do I? Identify like the top skills. How do I stack them together and tell that story? A lot of times that's what the hot seats are. But they are intense, but boy, do people come away with honest, open feedback lots of process. That's why I haven't been brave enough to actually try it. What's the most amazing thing that you feel about hot seats?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "I think the most amazing thing is that it is one person is in the hot seat. So one person comes usually with a specific challenge or problem or sticky thing that they need support on. And the beauty of generalist world is you have this diversity of people and skills and backgrounds and ages and locations. And so you're getting this diversity. Again, it's a safe place to be like, Hey, I'm feeling a bit vulnerable here. I've got this problem or challenge. I need help. And then you're getting all of these insights. And I think what the beautiful, my favorite part of it is that even though the person who called the hot seat is getting helped, everyone is learning. Like every hot seat I've ever been on. I'm like. Hot dang, like no one leaves a hot seat without learning something, even if they are not the one with the challenge, even if they're not the one in the hot seat, everyone learns. And so it's a, it's again, just so many examples of community where it's just a net positive, where if you bring these people together in a space and shout out to Edger, who's our community events and ops person she runs these hot seats like clockwork. It's And yeah, she's created these spaces where it's a difficult thing to do to create a space where people know that they can actually show up and be vulnerable. Like we've had some, we've had some deep hot seats where it's, it can be professional, it can be personal. It's usually a mix of both. 'cause life exists like that. It's complex and messy. And it's just really amazing to have this space, which I don't know, it's kinda like a group therapy session. But we are like. I think the hot seats are where the most transformative change happens for people. If they commit to that hot seat and they come along that's where things can really shift and it's just super cool to be a part of that."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah. Yeah. It's very vulnerable to do and we'll do one at one point, but yeah, it's"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "No pressure."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Takes a lot to to actually do it. But anyways, one of the, one of the most interesting things I find about generalist rule. So is there anything else that we haven't covered that you want to make sure that we're talking about?"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "This has been such a fun conversation, wide ranging, interesting. So no, just like if people, if this resonates with people come and say, hi, we're a very friendly bunch. We've got wonderful people like Nola in the community. And so if this resonates the thing is that the great thing about generalist world from a product standpoint is people either like deeply resonate with it and they're like, what, like, where has this been all my life? Or they're like, I don't get it. I have no idea what this. That doesn't apply to me. I fit in and it's all good. So like people can like opt in or out pretty easily. So if people are listening to this thing, like I'm in the opt in camp come and check out www. generalistworld. com and yeah, we'd love to meet you. We're very active on LinkedIn and TikTok to a point. So come say hi."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Yeah that's how we started chatting. So it's fun."
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "Community people are cool."
-  },
-  {
-   "time": null,
-   "speaker": "Nola Simon",
-   "text": "Thank you so much for joining us and we'll make sure that we put everything in the show notes"
-  },
-  {
-   "time": null,
-   "speaker": "Milly Tamati",
-   "text": "yay. All right. so much, Nola. I'll see you next time."
-  }
- ],
- "hostNote": null,
- "ctaQuote": null,
- "resources": [
-  {
-   "label": "Generalist World",
-   "type": "Website",
-   "url": "https://www.generalist.world/",
-   "note": "The community and newsletter discussed in the episode."
-  },
-  {
-   "label": "Unboxed",
-   "type": "Course",
-   "url": "https://www.generalist.world/unboxed",
-   "note": "The course for translating a generalist skill set into a career."
-  },
-  {
-   "label": "The Generalist Quiz",
-   "type": "Tool",
-   "url": "https://www.generalistquiz.com/",
-   "note": "Find out what type of generalist you are — Nola scored widest-range."
-  },
-  {
-   "label": "Napkin AI",
-   "type": "Tool",
-   "url": "https://www.napkin.ai/",
-   "note": "The visual-brainstorming tool behind the viral experiment."
-  }
- ],
- "relatedEpisodes": null,
- "relatedLinks": null
+  "number": null,
+  "slug": "exploring-generalist-world",
+  "title": "Exploring Generalist World",
+  "show": "Hope + Possibilities",
+  "format": "Interview",
+  "host": {
+    "name": "Nola Simon",
+    "title": "Futurist & Founder, Everyday Futurism",
+    "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+  },
+  "guest": {
+    "name": "Milly Tamati",
+    "title": "Founder, Generalist World",
+    "org": "Generalist World",
+    "credentials": "Founder, creator, community builder, and future-of-work speaker · Built businesses around the globe for the past decade · Bootstrapping Generalist World from a remote Scottish island",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/milly-tamati",
+      "website": "https://www.generalist.world/"
+    }
+  },
+  "publishDate": "2024-11-25",
+  "publishDateHuman": "November 25, 2024",
+  "updatedDate": "2026-07-06",
+  "updatedDateHuman": "July 6, 2026",
+  "duration": "47 min",
+  "durationISO": "PT47M8S",
+  "listen": {
+    "apple": "https://podcasts.apple.com/us/podcast/exploring-generalist-world-with-milly-tamati/id1602822494?i=1000678115415",
+    "spotify": null,
+    "youtube": null
+  },
+  "abstract": "Milly Tamati, founder of Generalist World, has built a roughly 80,000-person global community around a word that used to earn a dirty side eye — and she runs it from a small island off the coast of Scotland. She names the generalist's core problem as translation: the range is real, but 'I can do everything' means nothing to a hiring manager, which is the gap her Unboxed course and the community's hot seats work on. Along the way: a Times Square billboard sourced from one network ask, 'strategically weird' marketing experiments, and the case that clear writing is the most valuable skill of the AI era.",
+  "takeaways": [
+    "Translate your range into language a hiring manager understands — 'I could do everything' helps no one; positioning and packaging is the generalist's real work.",
+    "Run small career experiments instead of waiting for a master plan — a podcast that lasts ten months still compounds the listening and questioning skills built along the way.",
+    "Scale community deliberately: gate admissions, protect the culture, and count connecting ten people who needed to meet as a win.",
+    "Test 'strategically weird' marketing — a no-constraints idea thread became a Times Square billboard, landed through one network ask and a community-written slogan.",
+    "Hire for clear writing, because clear writers are clear thinkers — and communicating with people or machines may be the most valuable skill of the AI era.",
+    "Model transparency by building and learning in public — sharing the operations, not just the wins, is what keeps a community's trust.",
+    "Map pathways for generalists inside organizations — the talent is already there; what's missing is a way to promote, retain, and support range instead of boxing it in."
+  ],
+  "keyQA": [
+    {
+      "timestamp": "5:22",
+      "question": "What is a generalist, and why did the label have a bad reputation?",
+      "answer": "A generalist is someone whose skill set flexes across domains rather than narrowing to one specialty. When Milly Tamati started Generalist World a few years ago, saying the word earned a dirty side eye — the working world treated range as a lack of focus. Her contrarian bet was that the generalists she knew had the most interesting careers and the most to offer, and the community that grew to roughly 80,000 people suggests she wasn't alone."
+    },
+    {
+      "timestamp": "10:08",
+      "question": "How should a generalist explain their skill set to an employer?",
+      "answer": "By translating it, not listing it. The single most common pain point in Generalist World's survey of its members was positioning and packaging — 'I could do everything' is unhelpful to the person hiring. The work is naming the value you bring, stacking your skills into a coherent story, and running career experiments to test it; that deep work is what the Unboxed course walks people through, rather than handing over copy-paste answers."
+    },
+    {
+      "timestamp": null,
+      "question": "How do you grow an online community without losing its culture?",
+      "answer": "Slowly and on purpose. Generalist World opens membership only a few times a year and engineers how many people to let in, because scaling a community too quickly destroys the thing that made it work. The framing that matters: the community and the brand are the same thing — when Generalist World got a billboard, its members got a billboard — and connecting ten people who needed to meet already counts as success."
+    },
+    {
+      "timestamp": "20:13",
+      "question": "What does 'strategically weird' marketing look like in practice?",
+      "answer": "It starts with a no-constraints question — Milly Tamati asked her team 'what would we do if money, time, and network weren't issues?' — and treats the answers as experiments to run, not fantasies. A billboard-in-Times-Square idea became real through a single network ask, the community wrote the slogan, and a follow-on campaign let anyone anywhere hold their own 'billboard.' An unplanned napkin AI post that pulled about 450,000 views on TikTok got the vendor's CEO on a call the same way."
+    },
+    {
+      "timestamp": null,
+      "question": "Why hire for writing ability?",
+      "answer": "Because clear writers are clear thinkers — if someone can think a problem through and write it down plainly, they understand it. Every person on the Generalist World team is a strong writer by design, not accident. With AI moving into every workflow, communicating clearly with people and with machines may be among the most important skills going forward, and it's learnable: practice, find your voice, and have an opinion."
+    },
+    {
+      "timestamp": null,
+      "question": "Where do generalists fit inside organizations?",
+      "answer": "Right now, mostly nowhere comfortable — the obvious pathway for an expansive career is entrepreneurship, which is what pulls many generalists out of organizations entirely. The systemic change Milly Tamati wants by 2030 is organizations recognizing cognitive diversity, valuing generalists on a level playing field with specialists, and building pathways that let careers expand instead of narrow — because the talent is already inside their org charts."
+    }
+  ],
+  "chapters": [
+    {
+      "time": "1:06",
+      "label": "From a New Zealand farm to a Scottish island"
+    },
+    {
+      "time": "5:22",
+      "label": "The word 'generalist' and its dirty side eye"
+    },
+    {
+      "time": "7:26",
+      "label": "Nola's generalist story: range inside a straight career"
+    },
+    {
+      "time": "9:30",
+      "label": "The London Interdisciplinary School"
+    },
+    {
+      "time": "10:08",
+      "label": "Unboxed: translating the generalist skill set"
+    },
+    {
+      "time": "14:27",
+      "label": "The napkin AI experiment and the Times Square billboard"
+    },
+    {
+      "time": null,
+      "label": "Building — and learning — in public"
+    },
+    {
+      "time": null,
+      "label": "Writing as the hiring filter"
+    },
+    {
+      "time": null,
+      "label": "Hot seats, AI tooling, and generalists by 2030"
+    }
+  ],
+  "transcript": [
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Thank you very much for joining me. I'm the host of the Hybrid Remote Center of Excellence. I'm Nola Simon, and joining me today is the founder of Generalist World, Millie Tamati. Thank you so much. Hi! Hi. Nola, I'm so happy to be here. It is really exciting. And Millie is a really interesting person. Currently she lives on a tiny island off the coast of Scotland, but she's actually from New Zealand. Do you want to give us a snapshot of your life? I'm pretty excited. Quite sure you can capture it more succinctly than I can."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "A snapshot of my life. Yes. So grew up on a farm in New Zealand, grew up milking cows realized that the farm life wasn't for me and I didn't want to marry the neighbor and have a bigger farm. And I was like I wonder what else is out there in the world. But I had that question, right? What do you want to be when you grow up? What do you want to do? And I had absolutely no idea. Like most 16 or 17 year olds so I ended up going to university and studying teaching because to me that kind of seemed like interesting. It could like flex across lots of different domains. The generalist thing is coming through early here. And so yeah, I am a fully qualified teacher. But when I got my degree, I realized that I really didn't want to be I wanted to explore. I had grown up in New Zealand and I knew that there was a big wide world out there. And I wanted to, I had this burning desire to get out and experience it and explore it. And so that kind of kicked off a, what was meant to be a one year trip. That was 12 years ago of this exploration. And so I booked a one way flight to Berlin. And I became completely obsessed with new things, new cultures, new languages, new experiences, new jobs new people. And I have for the past about 10 years, I have been building businesses around the world. I worked as a tour guide for many years as well, which seems like unrelated to anything, but it actually Formed like the basis of my skillset, which is like bringing people together, creating experiences, building something out of nothing being like really people focused and yeah, I fell into the startup world in 2017. There was a new startup Kicking off out of the Philippines and they asked me to come out and be like one of their first employees That was my first dip into the startup world From there. I learned everything I knew from them And then I realized I can probably just go and do this myself. So I launched my first business in Australia And then I've been building my own businesses ever since How did you end up in Scotland, particularly Ireland? Yeah, so my on the travels, I met my now husband and he's Irish, but we were living in Ireland for a while, actually, in the middle of COVID. And Like everyone in COVID, we were like, what are we doing with our lives? What are we going to do next? And a job came up to come and make whiskey on this little island. And we were like, we're yes people. We were like, sure, let's move to this little island and figure out how to make whiskey. And he doesn't actually work that job anymore. He works in a completely different industry and in the climate industry. But we decided to stay and now we are so embedded in the community. It's like impossible to leave."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "That is really cool. And that's the thing that's what I find interesting about you. You have this ability to do things in person and make an impact in your immediate community, but you also connect people globally around the world. You've got what 71, 000 people following the generalist world. Newsletter. How many people are members? We've got, I think around 650 paid members. And yeah, about, I think it's about 80, 000 in our wider network. So that's across socials and newsletter. But like it is amazing. The the generalist conversation, like when I started this thing a couple of years ago, it wasn't like, it wasn't cute."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "It wasn't cute. You'd say the word generalist and you'd get like a dirty side eye, like, Why would you want to, why would you want to associate with that? And I was like, why would you not want to associate with that? I actually couldn't understand. I had such a contrarian view to it because from my experience, people who had this generalist skillset were amazing. Like they had so much to bring and they had the most interesting careers. And I just couldn't understand why the world saw this really differently. And it's like anything it's easy to say now Oh yeah, now we've connected, all of these 80, 000 people across the world, but it didn't start as that. It just started as one or two or three. And many of those people are still within GW and within my within my close circle. So yeah, I think. Particularly when people are thinking about like building networks, it can feel overwhelming or it can feel like the end goal is to be really huge, but really, it's actually a success as well. If you connect 10 people, like that's amazing. If you can really bring 10 people together who needed to meet each other like what a win."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah, and I feel blessed because I, you gatekeep how often people can get into the community. So I'm blessed that I feel I'm a member of it. So I'll tell you just shortly, my, my generalist story, and I know you know part of it, but I'll just tell it just for the audience. For years, people always wanted me to be a teacher. Partly it was how I dressed. Partly it was because of the weight of my hair. But I also am, I was always a gifted student, right? I majored in math. I minored in history. I studied it all in French with a smattering of Spanish on the side. So that's your first tip. But I'm actually a masker. I'm actually I'm not one of the squiggly career set because I actually worked for a company for over 17 years. And I've been in customer service for over 25 years. So I've had a straight narrow path, but it's because I was masking the generalists. So I I go deep, so I have wide range. I took the generalist quiz. They have a fabulous journalist quiz. If you want to know what type of generalist you are. And I actually scored on like the widest range. Ooh, interesting. But I have the ability to go deep. So like the T shaped generalist kind of thing. So if you think about customer service, I When you get a call, it could be asking anything. So customer service, generally, actually people who are generalists do well, because you have to know anything that could come your way. In a way, it makes logical sense that's where I ended up because. I'm really good at being able to feel whatever happens to come my way. So that's my story of how I ended up there. And if you look at what I'm doing right now with the future of work, that's never been more generalist because it could be. It could be everything that needs to be addressed to really develop a future of work that's going to help people thrive and businesses succeed. Yeah that's my story. And that's why I was drawn. I remember when they first floated the idea of the London Interdisciplinary School, I remember and I never wanted to, after I finished university, I never wanted to take like a master's because I wasn't interested in going deep. Like I, yeah, I majored in math, but I majored in math. I chose math as my major instead of history as a major because of the STEM bias that exists in the world. And it's funny because that often comes up because I read more as like a liberal arts person. When people first get to know me, they think that I'm liberal arts, and they try to discount you that way. And I'm like, yeah, but I majored in math. And they're like, Oh, I don't know what to do with that."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Oh my gosh, if I had a dollar for every time I heard that exact line we don't know what to do, that doesn't fit into our box."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "No, it doesn't fit into the box, right? So I remember reading about what they were planning with the London Interdisciplinary School, and I was like, that was the first time I ever was like, if I was going to do a master's, I'll do that."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "And you have"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "somebody on your team who actually works for the school and you, right?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah, I don't work for them. We have a close partnership. Nikita, who she actually leads partnerships for LIS, the London Interdisciplinary School. And we've done a few events with them for International General Assay. We did a big event that included LinkedIn. A couple of the top universities in London. So like the work they are doing is so important because they're a challenger university, like to disrupt. I know that word gets used a lot, but truly to disrupt higher education, kudos, because that is a feat to even begin. Like you're trying to disrupt organizations that are like institutions that are hundreds of years old, particularly in the UK, probably similar in the U S actually. So I think they're doing incredible work and I'm really excited to see now they're getting there. I think they've been around for about four or five years. So they're actually their students are now going out into the world and it's going to be really interesting to see those case studies of where they end up and how their careers take shape."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. I know it's interesting. And of course, because I have. It's and everything that my whole life is based in Canada, like I'm not in a position to really just come to the UK and do secondary post secondary education. So that's why I chose generalist world, because it allows me to really see everything that you're developing and meet generalists from around the world. But you are actually exploring the idea of education for generalists as well too. Do you want to talk about your new venture, which is needed to really bring revenue into generalist world and really advance you to the next step?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah, totally. I think it's filling a gap, to be honest, like what I think what we're really strong at and particularly what my skill set is really what I'm really good at is like the creation and distribution of content. So we've been able to build this like really strong, engaged, excited audience. And then We had our core product as community, as which is a community membership. We open it a few times a year. And what we realized very quickly is that community is hard. Like it is so difficult to get right. And the last thing you want to do with a community, in my opinion, is scale it particularly too quickly. So the, like the engineering of like how many people to let in has been so like the meetings that we've had, like the thought that's gone into trying to get this balance right. I'm like, okay, we're growing. But we don't want to lose this like beautiful essence. of the like culture and the the feeling of generalist world. So we knew that we needed some kind of other product. And the other thing is not everyone needs community. Like some people are like, I'm good. I, but I do need the education. And so what we did, is we ran a, an understanding generalist survey, which I'm happy to share the link. And we really wanted to understand what the biggest pain points for generalists were, what the patterns were. And then we wanted to figure out how can we simply provide tools and tools and support so people can work their way through these big challenges. And one of the things that kept coming up almost every day, Every single time was this like positioning and packaging and like translation of your skillset to an employer, to a client, to a hiring manager. It's that feeling of Oh I could do everything. And that's actually not helpful for the person who wants to hire you to hear, like you need to translate it into a language that they understand. So a lot, so we basically created this course it's called Unboxed. And I was thinking about it over the weekend. That I think a lot of courses promise you quick answers. So they promise you like, if you watch these five hours, you're going to get all the answers and you can copy and paste them. And that is not what Unbox is. And in fact, I think this is probably like an anti selling point, but it is the truth that like the answers. Come from the deep work and Unbox will guide you through that deep work. It'll help you see the value that you bring. It'll help you. It'll help shape how you can stack your skills. It'll help you run career experiments. And these are all things that like, I'm not here on a, on a pedestal being like, this is what Korea should be. And this is how you should design your path. I'm the opposite of that. I'm like, you should design your path however you want. And it should be unique to you. And you don't have to stay in your lane and you don't have to be in the box. And because of that, to develop a course around that, it's a little you can't really hand people the answers or like the one track of how to do that. So Unboxers, a course. That explores what kind of modern careers look like and what a career for you looks like. I really believe that careers don't have to be something that you just go to from nine to five and be a little bit miserable. Like I think they can be a vehicle to loads of meaning. I think from what I can tell, like you get this in the work that you do. It's a lot of joy and fulfillment and meaning. And I'm like, oh my gosh, if we could help more people. create careers like that. What a net positive to the world. So Unbox, I believe when this episode goes out it'll be live. We're opening just for one week. So if it resonates, I would love to see folks in there."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "So it's a standalone course. You don't have to be a membership a member of Generalist World to actually sign up for Unbox, right?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Correct. We, if you just want the course you can purchase the course at any time over the next week. But we are going to be offering, because basically every time we open the community, it sells out. So we are going to be offering, if people really want in for our February 2025 cohort, you can reserve your spot. You can get it now. And that will mean that you absolutely get a spot next year. But if you're not up for the community, no worries at all. You can just opt in for the course and yeah, that, that will be available."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Okay, perfect. Yeah. I wanted to make sure I understood and I've seen you're offering members discounts, right? Yeah. Is that correct? Yeah. Yeah. Yeah. That's something that you can find out in the community. If you happen to be a member. Yes! Get"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "a bee perk!"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah, exactly. That's right. And I think that's fabulous because people don't really understand generalism, right? And they don't often understand how to translate it into the world of work as it currently stands and what it's going to be in the next 5 to 10 years. Everything is being disrupted. And you think about AI, right? Millie ran a fabulous experiment. I want to talk about your experiments. Actually. She's very good at still skills stacking, but also going out to the community and asking for ideas and support and just brainstorming in general. So she's gifted at bringing people together and just getting people to spitball really. And so you ran an experiment to get sponsorship for generalist world. Because, you have staff, you have expensive, you have technology that you have to pay for. And you were testing a napkin AI. And I did this with my podcast because I wanted to see, I'm not a visual thinker. At all. And so I saw your post about this and I was like, Oh, cool because I've been experimenting with Pinterest and I'm like, the thing that I struggle with is what visuals to pair with my content. And so I took the hundred plus episode titles of my podcast and put it into napkin AI and asked it to generate a visual that would represent the themes of the podcast. Ooh. And it came up with this fabulous. Visual actually it actually does a deep dive and it gives you like, probably like maybe somewhere between 20 and 30 that you could choose and present it in a different way. And then you can choose whichever one you want. But you did this as an experiment. You selected one of those visuals. And then you asked the community to help you amplify that post so that you could get in front of the napkin AI CEO and. ask them whether they would like to sponsor the community. Now this took off on, I know you had it on LinkedIn, but it really took off on TikTok, right? Yeah, massively. So this is an example of how an experiment can really lead to it. Even, I don't know where it ends whether you've had that conversation about sponsorship or not. It gets so many eyeballs and just draws. attention to the idea of generalist world. And did you want to talk about that a little bit?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah. It's so funny because that one wasn't an intentional experiment. That experiment evolved the fly, probably not the best like scientific approach. But as a rule, I love experiments. I love testing little things and being like, that became the big thing. What worked? How can I do that again? How can I bring other people into the fold? So the idea behind Napkin. ai, I just found it somewhere, saw a link somewhere and tested it out. And the video that you see, I think it's about 15 seconds long. That's legit. That's literally me on the first time. And all those reactions are, I completely legit, I couldn't believe that it was instantly I am a very visual thinker. And so for me, that's Oh, it was like Christmas seeing these things instantly be created these graphics. And so I posted it. I, it, I think the thing with socials is, pretty quickly if something is going to hit and It was hitting immediately on tech talk. People were talking about it. They were sharing it. And so I was like, okay, I'll cross post it to the LinkedIn test out the waters. There's always different audiences there. So it's not a given that it's going to hit there. It landed there as well. And what I did from there is that when I started to say, okay, this seems to be taking off on both platforms. What are my options? What can I do here? How could this be a win for me, for Napkin, for the community? What could that look like? And so then I created a follow up video basically saying this is now a pitch. My last video for Napkin got, I think it's over four hundred and 50, 000 views, something bananas. TikTok was a wild place and yeah I just had Napkin in it. And then their CEO reached out to me and was like, wow, that was pretty cool. I hopped on a call with their head of growth and we just had a really transparent conversation. I was like I really like your product. I think it's awesome. I think the key to this is. Do it so sparingly, like I never shill, like never promote almost any product unless I'm using it every day. I'm wowed by it. I'm not doing it for the bonuses or, I think you, your reputation online, you have to be so careful. And so for me, this was a great product. I knew that people would like it because I liked it. I am my target audience. And I was like, I know that this could be helpful to folks. TBD, that is still in process. They're keen to figure out some kind of partnership and we're just looking into it. So the experiment continues."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah, no. And I think that's cool, but that leads us to our next experiment, which was. Intentional. Yes. And I will let you guide that one because I want to make sure that it's going to get the attention that you want it to have. So can you tell us all about our surprise for Thanksgiving week?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah. And I think I'll try and frame it from what people can learn and what people can take away and what people can do in their own businesses or careers that could They could replicate things. So the first thing is I asked a question in Slack, we have a team channel, and I was like, Hey guys. What does it look like to do something weird? I was like, let's have a thread, there are no bad ideas, just it doesn't money's not an issue, time is not an issue, network is not an issue, just idea storm. Let's get all the ideas down. If we had no"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "constraints. No constraints"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "what would we do? What would we do? And one of the ideas that came up was a, we're like, oh we'd have a billboard in Times Square. And Then I sat on that for a second and I was like, huh, I actually think that I know someone who knows how to hook that up. And it was simply like a message to them being like, Hey, we're really interested in getting this billboard. Do you think you could connect us? And they said, yes. And this is also the power of network. Lesson, ask for things, be like, be a good person. And then just ask for things. And when people need things from you, return the favor if you can. So this person was able to connect us. It's all through Brex. Shout out to Brex who are hooking us up with this. And we basically had a call with their partnerships team and we, long story short, were able to get a billboard. The Thanksgiving thing was a, Surprise. We didn't, that was just a cherry on top. We had no influence or say over that. And then, so we basically then had this opportunity where our very small team very small, like people often think generalist world is a lot bigger than we are. We're actually really tiny."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Six people?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah, and up until the last maybe three months, or maybe a bit more, four or five months, it was just me being the full, only full timer. And then everyone else was like one or two days a week. So it was like hilarious when people would think that we were this massive company. So basically our little team is like dancing around our living rooms, being like, this is wild. We're getting a billboard. But because we have our community who is like just the core of. everything of everything that is generalist world. It starts in the community and everything from there. We were like let's ask the community. What do they want to have on a billboard? This is not, and this is actually a, this is, a philosophy or how I think about our community is that it's not like generalist world and then the community, they're just one in the same. So when generalist world gets a billboard, our people are getting a billboard. This is a message from us, from me, from the team, from them. And you saw the thread. Yeah, I saw the thread."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "It was so fun."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "People were jazzed. They were excited. And we ended up choosing a slogan that someone in the community On that thread created. So it couldn't be more like community driven. And we thought to make it a little bit fun. We kept that, we've kept the final slogan, a bit of a secret. I'm"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "interested to know if I'm right. I guessed which one I would pick, but I'm dying to know if"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "I'm right. See, this is the fun thing. It's if you can find ways to to make things fun The internet these days, it's either so self promo y or inauthentic or insincere. And it's if you can just find ways to inside these spaces, have these really sincere conversations and connections then people, it becomes like, Their favorite place on the internet. Oh yeah. I'm in there. I'm in there multiple times a"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "day, honestly. And I don't necessarily always write everything, but I read a lot, right?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah. There's a lot to read. Even I'm like, I love you guys. I can't keep up. Which is a great point. Like you've got to be really careful about the scale of how you scale things. It's a science. So yeah, then yesterday, this is actually A funny little story. Yesterday, our team, we had a standup meeting and we were talking about what's going to happen with the billboard. And we were like, okay, how can we get people involved that are like outside of New York? Cause we have a pretty big following in New York, but lots of, we're global, lots of people outside and we're like, how funny would it be if we created this campaign where basically anyone can have a billboard, you just go stand outside. We have our squiggle, which has now become. We may as well trademark that emoji because it's become synonymous with generalist world. I"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "saw somebody trying to use it yesterday, and I was like, yeah, that's not gonna fly."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "That's hilarious, trying to use it."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "so this is how ridiculous our team is. We were like, we got really excited, and we were like, yeah, let's just go into it right now. And Honestly, four minutes after that call, Edger posted a picture, and she's outside, she's done the squiggle, she's holding her billboard, and I was like, then Emily's up a tree she's working from her bed, she looks like that sloth emoji, it's the best thing ever, and we were having so much fun, and I think that radiates through everything if we're having fun, people want to hang out with people. That having fun I was"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "planning it yesterday. I was coming home from dropping off my daughter, and I was just driving along Lake Simcoe, and I was like, oh cool, look at all the Canada geese on the lake, because nothing's frozen in Canada. Like you guys have snow in like the UK right now, and Canada has nothing. I literally didn't even need a jacket when I was walking yesterday, and I'm like planning my squiggle in front of the Canada geese. So I have to go back. It's colder today, but I think they'll still be there. Yes. That's"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "amazing. That's amazing. And so it's almost like if people listening, think about it as there was a big experiment that started. The impetus was, Hey, what's my weird marketing things we can do? And then from there it was like, okay, we've got this billboard. How can we involve the community? And now we're. It's an experiment with an experiment. We're now running this other campaign within that, which is like anyone can have a billboard. And it's, I think it's just about tapping into we call it being strategically weird. Where like you, You could just do things. You could just be like, Hey, that'd be fun. Do we think that would be fun? Cool. Let's just go do it. It'd be great. Even this morning"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Millie sent me a note just to see, what we want to talk about. Because I'm very bad. I keep things Very casual, very loose, I forget that people like structure. And so she sent me a note and she's but I, if we talk about the Billboard campaign, I don't want it to release until Monday. And I'm like, we can totally use the podcast to justify the campaign and publish this on Monday. So that not only do you have like pictures from around the world, but you'll have a full blown podcast episode that you can. Appreciate"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "it."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Amplify. So cool. Used to amplify. So cool. Yeah, exactly. That's right. And that happened, what, in 10 minutes? Not even?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah. Yeah. We have a saying at Generalist World what if it were as simple as fill in the blank? And it's I think everyone complicates things so much. Just turn it down. Take a breath, take a step back. What is the simple version? And the simple version is being like, cool, let's hop on a Zoom. Let's record. Let's publish it on Monday. Simple."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah, exactly, because you actually published when you're talking about the revenue challenges that you've had for generalists, where you mentioned, Yeah. Come on my pocket, and that's how they, because I'm like, Millie, do you want to come on my pocket? She's sure."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah, and that is another experiment. Yeah. Actually for context for listeners I realized my, my whole thesis is to build in public and not just build, but to learn in public. I am not out here being like, I know all the answers. at all. I am very much I'm figuring it out, doing pretty well, having a lot of fun on the way, and I will share as much as I can so that you can figure it out too. And I realized that I had been so caught up in the operations of Generalist World, and we've now got a small team that comes with payroll and all that kind of scary stuff, that I'd lost my magic a little bit of the transparency building in public. Basically my rhythm, I'd lost my building and public rhythm. And I wanted to make sure that particularly the GW members had that access, had that insight into what generalist world is, where we're going, how they can be involved and how it all fits into the bigger picture of this future of work, because. So many people within the community really care about this stuff. And so last month I was like, okay, I'm going to experiment with an email just for GNRossWorld members. And it's going to be like a behind the curtain. It's going to be like raw, vulnerable. It's going to go deep on the, I think I called it a little letter, which was completely incorrect because"
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "it was a little, it"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "was really long. Yeah."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "So it was the best thing I read last month. It was really the best thing, I mean your writing ability is why I'm part of the community to begin with, like you just captured my heart with everything that you're able to write and convey and like that personally is your true gift for, from my perspective. So that, I read that and I was immediately like, Millie, you need to be on my podcast."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah, literally, actually replied to that email. Yeah, I did. And just a note on the writing, because I think that's really important we have a, what I call like a writing culture at GW, where every single person on the team is a brilliant writer. And that's not by accident, that's by design because to be a brilliant writer, and when I say brilliant, clear. They are able to be really clear and they can execute really well on their like writing needs. And the reason I obsess so much over that and really look for that in hires is because it just means they're great thinkers. They're really clear thinkers. If they can really think things through and then write it down, that they understand it. And Communication, right? Like particularly with AI going Like everywhere, being a great communicator is going to be everything. Whether you're communicating with people or a machine learning, I think writing is going to be perhaps one of the most important skills in 2025. To be a really clear, thoughtful writer. If I could give advice to young people, it would be just practice. Because writing is a skill. I think if you, some people come out of school and they're like, oh, but I didn't do well in English, or I'm not a good writer. You can learn. You can learn to be a clear writer and a clear thinker. And in fact, a lot of the lessons that you learn in school, Aren't going to serve you, particularly in the world of like business and startups and tech. Those very like structured sentences. It's more about finding your voice and having an opinion. I think a lot of the stuff I see particularly on socials these days is almost like lukewarm. Like it's like people have lost their Their stake in the ground or Hey, this is my opinion. And then particularly on LinkedIn, I think we've also lost our ability to like debate and actually just have differing opinions. It's like a little bit of an echo chamber, which I do try and challenge. My posts. I try and I guess say the quiet things out loud, and I think that's often why they resonate. It's because if you're thinking something, I almost guarantee others are thinking it. They just may not have had the language or the courage or the confidence, whatever it might be, to say it out loud."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. Oh, yeah, absolutely. And honestly, I started the podcast in part because I wanted to challenge myself to become a better listener. It wasn't necessarily about, yes, there's a speaking aspect to it as well too, but what I wanted to learn from podcasting was how do I ask better questions? How do I ask deeper questions? But how do I listen better? Because I like thinking, I like my own thoughts and I found that I was interrupting people and that was something that I wanted to actually train myself out of, and I wanted to do it in such a way that I was doing it publicly to hold myself accountable. But I wanted to be able to learn and I wanted other people to be able to learn from the experiment as well, too, which is why I did it publicly in a podcast. Amazing, kudos to you, and I, you just named it, but I was like, Nola, that is an experiment, this is a career, like, all of these things the more I think about it, the more examples I see, everyone people are just running these little mini career experiments, and they don't have, maybe the podcast last, For 10 years, maybe it lasts for 10 months."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "It doesn't matter. You're learning skills along the way. You're becoming a better listener along the way. And just like kudos to you for having the self awareness of Hey, I actually think this might be a skill that I could sharpen, that I could hone. What's a cool way. What's a what's an experiment that I could run that would help me sharpen that skill. So I think that's really brilliant."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. And going back to, how long does the podcast last? I'm actually, you are like the second to last guest. I have one more person. And then next year, I want to look at all of the episodes that I've done and figure out what I've learned from them and then dig deeper. So I'm not going to do any guests next year, but it's like, how do you take the knowledge that exists in a hundred episodes? And then do that deeper, right? So I'm thinking maybe I might do essay type episodes where I'm connecting everything that we've learned from like various episodes to actually deepen and connect and see what avenues we can actually go down. So I might actually only release like 12 episodes, like more than a month next year. But the goal is really. It's not necessarily more, because I, more can just be noise, right? So what is it you've learned? My, everybody wants to publish all the time, but it's I think at some point you need to slow down and figure out how you go deeper, right? That's"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "my experiment for next year. Yeah, I wonder if an interesting prompt, like the prompt that got you here was how can I become a better listener? And I wonder if the prompt for the next one is what do I want to learn this year? And maybe it's like how to synthesize information or how to distribute content, whatever it might be. And then that could form the basis of your next experiment."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. I'm excited."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "I'm excited to see what you come up with."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "I know. Yeah, because I look at some of these podcasts and they have 800 episodes and I'm like, what does anybody learn from that? Because I'm not going to do a deep dive and listen to 800 episodes. I find it overwhelming when I look at your podcast that way. And I'm like, I don't even know where to start. Yeah, I hear you. And I just need to call out 100 is amazing. I think the average most people get to is like 3. I know. Or 10, like I've heard. Yeah, it's really low. It's the fabulous quad fade."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "The consistency is fantastic. And just while it's on my mind you mentioned about asking really good questions, which I think you've done in this episode and one resource I'd just love to call out because it has been like, I don't want to say life changing people throw that word around, but it has been, and it's a book that will Stick in my soul. It was actually recommended to me by Robert Barris, who is in GW. He's a GW and it's called a more beautiful question. And I can't remember the name of the author, but if you look up a more beautiful question, it's all about the importance of questioning and how like the right questions can be like transformative how if leaders can ask better questions. That's how you unlock. Almost everything and it actually ties into the communication piece as well. So if Listeners are really like avid readers. Like I am I would strongly recommend trying to get your hands on a copy of a more beautiful question."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Okay. Yeah, no that's a great answer. I did there, Michael Bungay Stainer has a book on questions as well too. He's a Canadian coach, so yeah, I'll look for that one as well too. Because that It's guiding me to but you get information from everywhere and that's actually something there's some there's one person I would adore to have on my podcast and I haven't managed to land her and Her name's Amy Herman. Do you know Amy? So she actually is an art historian. She started as a lawyer. She became an art expert. And what she does is she teaches about how to observe from art. So she actually teaches the FBI, CAA, police forces around the world by training them how to actually interpret art. She's an art historian, like she amazing. Yeah. And so she has two books it's called her book, her company is called the art of perception. And the, her second book was called fixable. So if you're looking for books to actually amplify how you perceive and how you question those two, I recommend, and especially for me, I'm not a visual thinker at all. I'm not an artist. I, like I peeked at kindergarten and For me, doing that kind of work that really stretches my brain to think, how do I think differently and ask questions in a different way? I lean into my weakness. I love it. Yeah, that, those are my two book recommendations for that. Yeah. Actually three, three right there. Sorry. Brilliant. Too many books we're reading. All right. For the big uncomfortable question, where do you want Generalist World to go? Like it, say we're talking like 2030, where do you think Generalist World will be? What have you achieved? What would make you thrilled beyond belief?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Thrill Beyond Belief would be to have like systematic change. So change within our organizations. I think we've done pretty darn great job on the generalist side, on building people's confidence, on giving them language, on bringing them together, helping them feel like validated and seen and heard, and now our next big giant enormous hurdle is on the system side. So that's where do generalists fit in, in, in organizations and how can organizations actually leverage their generalist talent, not just squeeze them into this box of okay, this is your very narrow role. How can we create pathways? Basically how can we create amazing pathways for generalists to lead these careers that are like expansive rather than narrowing? Because not everyone wants to go to a narrow point. Some people, like me, I want my career to keep expanding, that makes me really excited. But there's no obvious pathways apart from entrepreneurship would be one way to do it, which is probably what drew me into it. But I think there's a real opportunity for organizations to get on board as well and to create these pathways for their generalist talent, which they absolutely have. In their org anyway they just don't know how to promote or retain or frankly support that talent diversity. So in 2030 I would love for it just to be like, almost not even a thing, just like normal. For this to be a talked about talked about, acknowledged, valued thing in organizations that there is this cognitive diversity and that it's really important to actually recognize that and see generalists on a level playing field as specialists. And see that even though our skills are different in the sense that they can be a lot harder to measure and we can often like play in the gaps between like departments and stuff that they're incredibly valuable. That would probably be my answer."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Very cool. The lattice, not the latter."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "yes. Connections."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. Not the straight and narrow. I like that. Absolutely. But yeah, there, there needs to be a lot changing. And do you think that AI can actually help with that? Because I've done several podcasts actually that AI use in hiring and how AI can be used to identify. skill sets that you don't even know that people actually have. Do you think that AI can actually be the magic that actually unlocks the generalist skill set, depending on how it's used?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Yeah, great question. There's a lot in there. My thesis is that generalist thinking plus generalist tooling, and by tooling, AI tools really, is the unlock for everything. When you give generalists All of this these tools, which make their workflows so much more efficient and more creative and give them space. For me, that's where like. Major innovation is going to happen. But in terms of the recruitment side I would say there is a lot of people trying to figure it out. Recruitment is just a beast in itself. Like we talk, like we're talking about like human resources when you think about it, like even in the name, like maybe we need to have a little bit of a rebrand there. I don't know. I'm an eternal optimist. on all things and that also includes AI. I know it comes with potential like really questionable, like challenges and ethical challenges as well and implications. But on the whole, I think that it can be a force for good. How that Like tangibly plays out in recruitment and in the workplace. We'll see. I know that there's a lot of people really trying to crack that code because I think if there's one thing we all agree on, it's that the way that we hire doesn't really work, the system is pretty broken. The old CV. A thousand people applying with a A4 piece of paper. I think we can probably do a little bit better than that. But we'll see how it plays out. I think the next five years are going to be exceptionally fast moving and fast changing, like just, I'm not sure how often you're using AI, but I am using Claude, all day. Yeah. All day. I am like jamming. Me and Claude. It's like my bestie. I can't remember what life was like before Claude and Claude is probably like the equivalent of a three month old, do you know what I mean? Yeah. Like it's changing so rapidly, so quickly that I think, I'm grateful to have spaces like Generalist World because the, what we're stepping into if anyone tells you they know what it is, they're just lying or they're guessing, like no one actually knows what's coming. And so to have spaces like GW means that you're with a group of people who there is a deep sense of safety and a deep sense of trust and a sense that, hey, We're going to figure this thing out together. And we're actually in a better position because we've got each other's back because we're in the circle with each other. And even though we don't know what's coming collectively we're stronger. And that's what makes me really excited about community."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. And I just wanted to bring a brief shout out to one of the things that happens in general in this world. And that, and I haven't been brave enough to do it. And that is the hot seat. So I've attended two as a guest. And what hot seats are really is people come with questions that they really want eyeballs on that. They, a lot of times it's personal. How do I get a job? How do I transition myself? How do I position myself? How do I? Identify like the top skills. How do I stack them together and tell that story? A lot of times that's what the hot seats are. But they are intense, but boy, do people come away with honest, open feedback lots of process. That's why I haven't been brave enough to actually try it. What's the most amazing thing that you feel about hot seats?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "I think the most amazing thing is that it is one person is in the hot seat. So one person comes usually with a specific challenge or problem or sticky thing that they need support on. And the beauty of generalist world is you have this diversity of people and skills and backgrounds and ages and locations. And so you're getting this diversity. Again, it's a safe place to be like, Hey, I'm feeling a bit vulnerable here. I've got this problem or challenge. I need help. And then you're getting all of these insights. And I think what the beautiful, my favorite part of it is that even though the person who called the hot seat is getting helped, everyone is learning. Like every hot seat I've ever been on. I'm like. Hot dang, like no one leaves a hot seat without learning something, even if they are not the one with the challenge, even if they're not the one in the hot seat, everyone learns. And so it's a, it's again, just so many examples of community where it's just a net positive, where if you bring these people together in a space and shout out to Edger, who's our community events and ops person she runs these hot seats like clockwork. It's And yeah, she's created these spaces where it's a difficult thing to do to create a space where people know that they can actually show up and be vulnerable. Like we've had some, we've had some deep hot seats where it's, it can be professional, it can be personal. It's usually a mix of both. 'cause life exists like that. It's complex and messy. And it's just really amazing to have this space, which I don't know, it's kinda like a group therapy session. But we are like. I think the hot seats are where the most transformative change happens for people. If they commit to that hot seat and they come along that's where things can really shift and it's just super cool to be a part of that."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah. Yeah. It's very vulnerable to do and we'll do one at one point, but yeah, it's"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "No pressure."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Takes a lot to to actually do it. But anyways, one of the, one of the most interesting things I find about generalist rule. So is there anything else that we haven't covered that you want to make sure that we're talking about?"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "This has been such a fun conversation, wide ranging, interesting. So no, just like if people, if this resonates with people come and say, hi, we're a very friendly bunch. We've got wonderful people like Nola in the community. And so if this resonates the thing is that the great thing about generalist world from a product standpoint is people either like deeply resonate with it and they're like, what, like, where has this been all my life? Or they're like, I don't get it. I have no idea what this. That doesn't apply to me. I fit in and it's all good. So like people can like opt in or out pretty easily. So if people are listening to this thing, like I'm in the opt in camp come and check out www. generalistworld. com and yeah, we'd love to meet you. We're very active on LinkedIn and TikTok to a point. So come say hi."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Yeah that's how we started chatting. So it's fun."
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "Community people are cool."
+    },
+    {
+      "time": null,
+      "speaker": "Nola Simon",
+      "text": "Thank you so much for joining us and we'll make sure that we put everything in the show notes"
+    },
+    {
+      "time": null,
+      "speaker": "Milly Tamati",
+      "text": "yay. All right. so much, Nola. I'll see you next time."
+    }
+  ],
+  "hostNote": null,
+  "ctaQuote": null,
+  "resources": [
+    {
+      "label": "Generalist World",
+      "type": "Website",
+      "url": "https://www.generalist.world/",
+      "note": "The community and newsletter discussed in the episode."
+    },
+    {
+      "label": "Unboxed",
+      "type": "Course",
+      "url": "https://www.generalist.world/unboxed",
+      "note": "The course for translating a generalist skill set into a career."
+    },
+    {
+      "label": "The Generalist Quiz",
+      "type": "Tool",
+      "url": "https://www.generalistquiz.com/",
+      "note": "Find out what type of generalist you are — Nola scored widest-range."
+    },
+    {
+      "label": "Napkin AI",
+      "type": "Tool",
+      "url": "https://www.napkin.ai/",
+      "note": "The visual-brainstorming tool behind the viral experiment."
+    }
+  ],
+  "relatedEpisodes": null,
+  "relatedLinks": null
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getAllEpisodes, has } from "@/lib/episodes";
+import { EPISODES } from "@/data/episodes";
 import "../podcast.css";
 
 const SITE = "https://nolasimon.com";
@@ -15,14 +16,13 @@ export const metadata: Metadata = {
 /* JSON-LD for the series itself — anchors the whole cluster.
    Name/url match the PodcastSeries emitted on /podcast so both pages
    describe the same entity. */
-function seriesJsonLd(count: number) {
+function seriesJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "PodcastSeries",
     name: "Hope + Possibilities: A Love Letter to the Future of Work",
     url: `${SITE}/podcast`,
     author: { "@type": "Person", name: "Nola Simon" },
-    numberOfEpisodes: count,
   };
 }
 
@@ -33,7 +33,7 @@ export default function PodcastArchiveIndex() {
     <div className="hp-root">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(seriesJsonLd(episodes.length)) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(seriesJsonLd()) }}
       />
       <div className="hp-wrap">
         <header className="hp-index-head">
@@ -44,9 +44,9 @@ export default function PodcastArchiveIndex() {
           <p>
             Episodes of Hope + Possibilities, transcribed in full &mdash; each
             with a summary, the key questions answered, and the guest&rsquo;s
-            work linked. The complete 116-episode catalogue is being published
-            here, dates intact. Conversations on the future of work, futurism,
-            and the assumptions organizations run on.
+            work linked. The complete catalogue of 100+ episodes is being
+            published here, dates intact. Conversations on the future of work,
+            futurism, and the assumptions organizations run on.
           </p>
         </header>
 

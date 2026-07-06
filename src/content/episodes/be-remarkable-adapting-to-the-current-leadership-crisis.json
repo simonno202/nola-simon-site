@@ -21,12 +21,12 @@
   },
   "publishDate": "2024-08-06",
   "publishDateHuman": "August 6, 2024",
-  "updatedDate": "2026-07-04",
-  "updatedDateHuman": "July 4, 2026",
-  "duration": null,
-  "durationISO": null,
+  "updatedDate": "2026-07-06",
+  "updatedDateHuman": "July 6, 2026",
+  "duration": "52 min",
+  "durationISO": "PT52M5S",
   "listen": {
-    "apple": null,
+    "apple": "https://podcasts.apple.com/us/podcast/be-remarkable-adapting-to-the-current-leadership/id1602822494?i=1000664508213",
     "spotify": null,
     "youtube": null
   },
@@ -112,122 +112,407 @@
   ],
   "transcript": [
     {
-      "time": null,
+      "time": "0:22",
       "speaker": "Nola Simon",
-      "text": "Thank you for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence. And joining me today is a guest that I've had actually before. She's the only person I've actually invited back twice. And that's Karen Ferris. We are birds of a feather. We have a lot in common in terms of the future of work and how we view the world of work changing. And Karen has written another book. How many books does it go? Eight all in all now. Yes. This one is called Be Remarkable and it is available globally. Karen is from Australia. I'm in Canada, but you can get it anywhere online, including from Karen's website. And Karen had originally come to me asking me to read a synopsis of it and actually give her a blurb, which is the first time that I'd actually been asked to write a blurb for a book. So thank you very much for that invitation, Karen. One of the quotes that was in the preview: Leaders may need to be agile, highly entrepreneurial, socially conscious and digitally savvy. They must lead through ambiguity, uncertainty, managing a diverse workforce. They must possess cognitive flexibility and be innovative, adaptive and collaborative. And that, if we could figure out how to do that would be the amazing thing. Because the question is, how do you hire for that? And if you've already got people, how do you retrain them to do that?"
+      "text": "Thank you for joining me. I'm Nola Simon. I'm the host of the Hybrid Remote Center of Excellence. And joining me today is a guest that I've had actually before. She's the only person I've actually invited back twice. And that's Karen Ferris. We are birds of a feather. We have a lot in common in terms of the future of work and how we view the world of work changing. And Karen has written another book. How many books does it go?"
     },
     {
-      "time": null,
+      "time": "0:49",
       "speaker": "Karen Ferris",
-      "text": "Absolutely. So the inspiration for the book was exactly what you're saying, Nola, that I really believe we've got a leadership crisis at the moment. And you can't lay that blame all on leaders themselves. I do believe that most people get out of bed in the morning and want to be the best they can be. But people need help. And I think one of the challenges people have today generally in leaders — and when I talk leaders, everyone could be a leader if they want to be, you don't have to have a title bestowed on you — it's that ability to adapt constantly. Because the world changes and we need to change with it. And because we went on a training course four years ago that taught us a particular way to lead the team is probably not going to suit today. And the real sort of first trigger for me about having a crisis is, in March 2020, the global demand for employee surveillance software went up by 80 percent compared to the same time the previous year. There's this big peak in March 2020, when obviously all these bosses panicked. I can't see them anymore. How do I know they're working? And I'm like, when you could see them, you didn't know they were working. But there was this mentality that I need to monitor their keyboard strokes. And that demand for surveillance software hasn't gone down since. So we still have that problem. We have leaders who now are desperately trying to go back to pre pandemic, and let's get everyone back in the office where I can see them. Let me get that control that I had back then. Hey, it's not going to happen. The genie's out of the bottle. People have had that taste of autonomy and flexibility and they want to retain it."
+      "text": "Eight all in all now. Yes."
     },
     {
-      "time": null,
+      "time": "0:52",
       "speaker": "Nola Simon",
-      "text": "And even companies that have been really flexible are backtracking as well. I noticed Dropbox — even though they're a hundred percent remote, they're starting to coordinate anchor weeks where people are expected to come into the office. People are stuck on this coordination tax, the amount of time that's actually spent trying to coordinate who's actually in the office. Which honestly is just another red flag that you're wasting your time and you don't actually understand how to collaborate."
+      "text": "This one is called Be Remarkable and it is available globally. Karen is from Australia. I'm in Canada, but you can get it anywhere online, including from Karen's website. And Karen had originally come to me asking me to read a synopsis of it and actually give her a blurb, which is the first time that I'd actually been asked to write a blurb for a book. So this is a first for me as well. So thank you very much for that invitation, Karen. It was very flattering. And I loved having the preview of your work, but one of the quotes that was in the preview that you given me I'm just going to read aloud. Leaders may need to be agile, highly entrepreneurial, socially conscious and digitally savvy. They must lead through ambiguity, uncertainty, managing a diverse workforce. They must possess cognitive flexibility and be innovative, adaptive and collaborative. And that, if we could figure out how to do that would be. The amazing thing and that's why you've written the book, right? Because the question is, how do you hire for that? And if you've already got people, how do you retrain them to do that?"
     },
     {
-      "time": null,
+      "time": "1:56",
       "speaker": "Karen Ferris",
-      "text": "At the end of the day we employ adults and we employ smart people that are able to say to each other, I think we should actually catch up in person next week because I think that brainstorming we need to do would be more effective. So we decide when it's better to co-locate or when we're just as good working remotely. And we can negotiate what's going to work for both of us because we're in charge, we've got the autonomy, and we'll get it done because we can trust it. That's the big word, isn't it? Trust. And I think there's a lot of so-called leadership behavior at the moment that's just saying, I do not trust you. If you're monitoring my keyboard strokes and checking that the green light is still on my Teams, then you're just saying, I do not trust you."
+      "text": "Absolutely. Yeah, so the inspiration for the book was exactly what you're saying, Nola, that I really believe we've got a leadership crisis at the moment. And you can't lay that blame all on, on leaders themselves. I don't believe, I actually, I do believe that most people get out of bed in the morning and want to be the best they can be. But people need help. And I think one of the challenges people have today, generally in leaders, when I talk leaders, I'm talking, everyone could be a leader if they want to be, you don't have to have a title bestowed on you. It's that ability to adapt constantly. Because the world changes and we need to change with it. And because we went on a training course four years ago, that taught us a particular way to lead the team is probably not going to suit today. And we saw, a massive change. And you and I both written a lot about the pandemic and the impact and everything else. And, we saw in, and this was the real sort of first trigger for me about having a crisis is in March. And you've heard me talk about these stats before in March, 2020, the global demand for employee surveillance software went up by 80 percent compared to the same time the previous year. Now, Initially and there's a company called top 10 VPN and they've kept monitoring the demand. So there's this big peak in March, 2020, when obviously all these bosses, let's call them bosses, panicked. I can't see them anymore. How do I know they're working? And I'm like when you could see them, you didn't know they were working. So it's but this, there was this mentality that I need to monitor their keyboard strokes and I need to believe that productivity is ours as a desk. And that was the big siren going off in my head, it's hey, this is just crazy. If this is what so called leaders think they need to do, then we have a big problem. And that demand for surveillance software hasn't gone down since. It's just bobbled up and down until today. So we still have that problem. So we have leaders who now, as you and I know, I'm desperately trying to go back to pre pandemic, and let's get everyone back in the office. Let's get everyone where I can see them. Let me get that control that I had back then. Hey, it's not going to happen. The genie's out of the bottle, and We know there's a backlash. People don't, people have had that taste of autonomy and flexibility and they want to retain it. So there's this conflict now between the so called leadership and employees battling over so called hybrid or flexible working or whatever it might be. And we've got leaders and executives saying, Oh yes, we're hybrid. But you must come in on a Tuesday, Wednesday, Thursday. That's not hybrid to me. That's a mandated, it's yeah, so yeah, there's this. Yeah, the splashing light is going off going, Hey, we've got a big problem."
     },
     {
-      "time": null,
+      "time": "5:02",
       "speaker": "Nola Simon",
-      "text": "And I came from an environment where I was heavily monitored. It's definitely a reason why I left. They were always able to tell how many calls you made, but it got to the point where they were actually able to start seeing who you called, what number you dialed, who answered, how long you were on for. And her question to me was — because I was always one of the ones who talked an awful lot and I had higher call numbers — she'd say, but if that's what you were doing this whole time, you were wasting time. And I'm like, but I got the results. What I was actually doing was acting as a go-between and coordinating. The bridge person always ends up having more conversations than most people because you're a conduit of information. I'm 50 years old, I've done this job for 16 years and if you can't trust me at this point that I know what I'm doing, I don't know how to help you."
+      "text": "Yeah. And even companies that have been really flexible are backtracking as well. I noticed a Dropbox there was something that they released recently where even though they're a hundred percent remote and they do have offices where people can come to, they're starting to coordinate anchor weeks where people are expected to come into the office. So they still have flexibility. But if they come to the office, it has to be in that week because people are stuck on this ordination tax the amount of time that's actually spent trying to coordinate who's actually in the office and how you can get the most benefit of in person, which honestly is just another red flag that you're wasting your time and you don't actually understand how to collaborate in the way that the world needs to you at this moment."
     },
     {
-      "time": null,
+      "time": "5:50",
       "speaker": "Karen Ferris",
-      "text": "It's the worst thing to say, to tell someone, however you say it, I do not trust you. That's the foundation of everything. If I'm delivering the outcomes that you want, it doesn't matter whether it takes me two hours or 10 hours."
+      "text": "Yeah, at the end of the day. You employed adults, not you in particular, but generally we employ adults and we employ smart people that are able to say to each other I could say to you, no, I think we should actually catch up in person next week. I know we're in a distance, hypothetically we should catch up in person next week because I think that brainstorming we need to do would be more effective and you go, yeah, I think you're right. So we decide when. It's better to co locate or when it's, we're just as good working remotely, you might say. And we can negotiate what's going to work"
     },
     {
-      "time": null,
+      "time": "6:26",
       "speaker": "Nola Simon",
-      "text": "And I actually interviewed Ludmila Praslova. She has a book called The Canary Code. It's about neurodivergence. And she brought up an interesting point, because she has ADHD. And sometimes with ADHD, you get into hyperfocus. Work for 24 hours straight. You could actually get a week's worth of work done that would take a non-neurodivergent person a full week. And is that fair? No, you wouldn't expect anybody else to work like that, but that doesn't mean that person should then be monitored and held to the same standard."
+      "text": "for both of us in terms of what else we have to balance because we're in charge, we've got the autonomy, we know what's going to be important, what we can move, what we can shift, and we'll get it done because we can trust it."
     },
     {
-      "time": null,
+      "time": "6:41",
       "speaker": "Karen Ferris",
-      "text": "And this is one of the reasons I've written a book about this. It's a fundamental mindset shift. You sit down with somebody and say, this is the outcome we want. This is when we need it by. These are the resources available to you. This is how often we'll have a checkpoint, because I'm not going to micromanage you, and off you go. And I'm here to support you all along the way when you need it. And magic happens. I run workshops with leaders that go, oh, that's going to be tough, because they've just been so used to command and control micromanagement. That's the only leadership style they've known. And I say, start small. Take something really low risk and pick a member of the team that you can have the conversation with. It's not like everything has to change overnight. You can chip away at it. It's about that agility again. And it's about each person demonstrating that they're trustworthy."
+      "text": "Yeah. That's the big word, isn't it? Trust. Yes. And, I think there's a lot of behavior at the moment, so called leadership behavior, that's just saying, I do not trust you. If you're monitoring my keyboard strokes and keep checking that the green light is still on my Skype or Slack or whatever, or Teams, Then you're just saying, I do not trust you."
     },
     {
-      "time": null,
+      "time": "7:04",
       "speaker": "Nola Simon",
-      "text": "Stress, respect, psychological safety. And I like the Rachel Botsman definition, which is trust is a confident relationship with the unknown. So if you're monitoring and surveilling, you're trying to make that known, and that's transparency, but transparency is not trust."
+      "text": "And I came from an environment where I was heavily monitored. And it was funny because it's definitely a reason why I left. I remember having a conversation with my manager. They were always able to tell like how many calls you made, but. It got to the point where they were actually able to start seeing who you called, what number you dialed, who actually answered, how long you were on for, what was sad and all that stuff. And then her question to me was because I was always one of the ones who else talked an awful lot and I had higher called numbers. So she had always used me as an example to other people. And she's but if that's what you were doing all this whole time, you were wasting time. And I'm like, but I got the results. Nothing has changed in terms of my approach, you're just questioning my approach because now you can back into what I'm actually doing. And what I was actually doing was actually acting as like a go between and coordinating, like, how do you break down silos? You have to talk to everybody. You're like that bridge person. The bridge person always ends up having more conversations than most people because you're a conduit of information. But if you only look at that from like a metrics perspective, and you want an explanation of what I'm trying to accomplish, because I've had to set up a scenario where I'm getting pieces of information, like then I have to explain the whole strategy. That's going to take 45 minutes for you to even understand. You're going to tell me it's a waste of time. And the only waste of time was me explaining to you because you're monitoring me too closely. Yeah, that's why I Like I'm 50 years old, I've done this job for 16 years and if you can't trust me at this point that I know what I'm doing, I don't know how to help you."
     },
     {
-      "time": null,
+      "time": "8:42",
       "speaker": "Karen Ferris",
-      "text": "Absolutely. That's so good. But I do love how you come up with frameworks. So this one is Remarkable. That's the name of the book. It's Be Remarkable and remarkable is really the framework. So the fundamental core of the book is talking about learning to unlearn. Learn, unlearn, relearn was something that Alvin Toffler said in his 1970 book, Future Shock. We learn, but then we need to have the courage and humility to say, I need to get rid of that now. It's no longer valid. And REMARKABLE is an acronym for all the traits I believe leaders should have. There's 10 characteristics. It's not saying you have to do all 10 tomorrow. Pick something that you believe is the biggest area for development. So the R is for Resilient. It summarizes the need for leaders and teams to be resilient in the face of constant change. You can't yoga your way out of burnout. There's what I call superpowers that you can pull on, depending on the context you find yourself in, to help you be resilient and adapt and transition through that constant change. E is for Empathetic. We talk about it a lot, but we don't do it very well. I think we still confuse empathy with sympathy. And the key for empathy is we have to go back to basics. You have to learn how to listen. So that's the last L in the remarkable acronym, is to really listen. We often talk about empathy as walking a mile in someone else's shoes, and I say no, it's understanding how that person feels walking in their shoes. Because their experience is totally different to yours. So everybody has their own worldview. Worldview is fundamentally shaped in childhood. It's not going to change because they've happened to land at your particular company. And that's where the M, Mindful, comes from. It's about emotional intelligence and understanding your own emotions and being able to regulate those emotions. Being able to identify the things that trigger not only the negative emotions, but the positive ones. If I can identify that trigger, then I can manage it. And then the A is Adaptive. Adaptive leadership. It's a passion of mine. I use the analogy of a shepherd with the sheep. Sometimes lead from the front — there's a North Star, we're all heading in the same direction, but I'll take the lead and check the terrain. And then some will lead from the middle, finding out what's going on, what's the concerns. And then leading from the back, making sure the stragglers are coming along. So leaders need to adapt. It's not always lead from the front. I talk about moving away from command and control to empowerment and trust. But there are times when command and control is absolutely necessary. If we're in an office and it's on fire, I'm not going to sit down with the team and say, now, what do you think we should do? I'm going to go, there's the door, we're going now. Hopefully you also have norms in place, so the team knows that will be your leadership style in that situation. There's no shock. But they know in other situations, you are that empowering leader. R, Resourceful. We're all being asked to do more with less. Resourceful is making best use of all the resources I have available. Knowing what I should be doing or what I shouldn't be doing. I'm a great fan of the Eisenhower matrix, where you allocate the things that you must do and they're important. And then in one of the boxes, you've got the things that you go, why am I even doing that? Can I delegate or can I just not do it at all? K is for Known. So that's about your brand. What do you want to be known for? What would you want your legacy to be when you walk out the door? When you have a brand, what people see is what they get. It is authentic because you live by your values. There's no surprises. So your brand is what? Rebel with a cause. And I like that because I like to push boundaries. I like to challenge the status quo. I always ask why? I'll never accept the status quo."
+      "text": "Yeah. Oh, absolutely. It's the worst thing to say, to tell someone, however you say it, I do not trust you. Yeah. That's just like the foundation of everything. And I'm sorry if you don't trust me and I'm out of the door because if I'm delivering the outcomes that you want, it doesn't matter whether it take me two hours or 10 hours. I deliver the outcomes that you want, and I do it the best, the way I want to do it. I have the autonomy to do the best I can."
     },
     {
-      "time": null,
+      "time": "9:12",
       "speaker": "Nola Simon",
-      "text": "And Cindy Gallop actually has a really nice phrase, that women challenge the status quo because women have never been the status quo. Half of the stuff does not work for us because we're not the people who put it in place. I keep saying to people, with the return to the office mandate, keep asking why. Do it constructively. And they go, oh, because you're more productive in the office. Actually, no, I'm not. And the research says I'm just as productive at home. And also ask them where they're working from, because there have been all kinds of pieces lately that say the people who enforce the RTOs are the people who are working from home most often. And there's that research from Mark Ma of University of Pennsylvania, where there's a real coincidence between the amount of return to office mandates and stock price. There's a lot of blaming of the workforce. Our stock price has fallen because they're working remotely. Where's the trust when you're getting blamed for organizational performance that has absolutely nothing to do with you?"
+      "text": "Yeah. And I actually interviewed Ludmila Praslova. She has a book called the Canary Code. It's about neurodivergence. And she actually brought up a an interesting point as well too, because she has ADHD. And sometimes with ADHD, you get into like hyper focus. Work for 24 hours straight. You forget to stop to eat, to drink. That's not what the majority of people would do. But you could, when you get into hyperfocus like that, you could actually get a week work, a week's work of worth of work done. That would take a, like a regular non divergent person, non neuro divergent person. Like a full week, right? . And is that fair? No, you wouldn't expect anybody else to work like that, but that doesn't mean that person should then be monitored and held to the same standard. If you've done a week's work of work and like Monday, Tuesday, do you really have to work for the rest of the week? Technically, according to the norms and the standards, yes. But it's not really fair."
     },
     {
-      "time": null,
+      "time": "10:12",
       "speaker": "Karen Ferris",
-      "text": "How do you encourage people to unlearn? It's really trying to get them to get that wake up call. It's getting feedback from employees, from colleagues. And it was research from Jacob Morgan. He found that most people go into a people leader role in their late 20s. Most of them get their first development as a leader in their late 30s, early 40s. So they've had over a decade with no support. The only role model they've had is the bad boss that went before them. And we just need to give these people the help. It's about stepping outside your comfort zone. For example, I've been used to measuring performance by hours at the desk. Now at the back of my mind, I knew that was stupid. But I didn't know the alternative. I didn't know how to measure outcomes. So unless we're giving people that development support, what do we expect?"
+      "text": "No. It's not. And that's, this is a big, and that's one of the reasons I've written a book about this, a mind, it's a fundamental mindset shift to say, and it shouldn't be because it's, it sounds obvious. You sit down with somebody and say, okay, this is the outcome we want. This is when we need it by. These are the resources available to you. This is how often we'll have a checkpoint to see how you're going, because I'm not going to micromanage you, and off you go. And I'm here to support you all along the way when you need it. Just shout, and I'll, I'm there, and we'll check in. And magic happens. I run workshops with leaders that go, Oh, that's going to be tough, because they've just been so used to, Command and control micromanagement. That's the only leadership style they've known. And I said okay, start small. Let's take something really low risk and pick a member of the team that you can have the conversation with, say. You're going to fundamentally try and change your leadership style and they'll work with you and give you feedback and give that person a really low risk task to go away and do. Something meaty enough, but if it all goes pear shaped, the world isn't going to stop. And they do that and then they go, that was great. John's really inspired. He wants to do more, more of the same. I had more time on my hands. And now I feel, I've stepped out of my comfort zone and I'm stretching it, so I'll do the next thing, a little bit bigger, and I'll give maybe two or three people a task to go and do. So it's just starting, it's not a, when I say it's a fundamental mindset change, it's not like everything has to change overnight. You can chip away at it, and change on gradually. It's about that, that agility again. And it's about"
     },
     {
-      "time": null,
+      "time": "12:04",
       "speaker": "Nola Simon",
-      "text": "And it has to go both ways too. Having that trust and respect to give feedback and that psychological safety to tell your manager that the support they're giving isn't necessarily what you need."
+      "text": "each person in the whole process demonstrating that they're trustworthy. So the person that you're assigned tasks to is like checking in and doing all of the work and demonstrating what they're doing. But you also are demonstrating that you're trusting them and therefore being trustworthy and supporting them. Yeah. And doing what you said you do, which was nothing."
     },
     {
-      "time": null,
+      "time": "12:23",
       "speaker": "Karen Ferris",
-      "text": "When you say to leaders, do you ask your employees for feedback? No, I don't want to hear what they're going to say. How are you going to change if you don't ask for feedback? And don't take feedback as personal. It's about you as a leader, the role you're carrying out. And when you act upon feedback that you've been given, the trust that generates in an employee is immense."
+      "text": "And it's, yeah, exactly. I'll do nothing. And I say to people, it's not management by application. You have to be there to support and help. And the person or your people need to know that you're always there for them and you have their back and that they can say to you, and again, this is psychological safety that they can say to you, Karen, I don't think I quite understood what you wanted me to do. That's okay. Let's talk, or I tried X and it went badly wrong, or it just didn't work. That's okay. We'll learn from it and it's been able to have those conversations. And that's when you trust people, it's just so powerful, when someone says, my boss trusted me to go away for a week and do X and just left me alone, that's so inspiring and motivating and engaging. And I, but I know I'm not on my own. It's not oh my God, I've got this thing to do and I'm on my own. Now, that's not the case, right? That not right. You've set up, you got resources"
     },
     {
-      "time": null,
+      "time": "13:21",
       "speaker": "Nola Simon",
-      "text": "We have to talk about the fact that employees are leaders, even though they're not necessarily at the top of the hierarchy. You lead as a parent. You're involved in your community. You don't forget those skills as soon as you walk in the door."
+      "text": "and you respect each other enough to know that both of you're gonna prioritize what the work has to be done, right? Yeah. Stress, respect, psychological safety, and it's such an easy equation, but. So difficult to actually do in person because trust is such trust is like one of the hardest things for people to really truly understand what it really means. And I like the Rachel Botsman definition, which is trust is a confident relationship with the unknown. So if you're monitoring and you're surveilling you're trying to make that unknown, and therefore that's transparency, but transparency is not trust."
     },
     {
-      "time": null,
+      "time": "13:58",
       "speaker": "Karen Ferris",
-      "text": "Absolutely. You help your friends. You step up when someone needs some direction. You could do the same in the workplace. You don't have to have the name on the plaque to use your leadership skills that you're using day in, day out."
+      "text": "Yes, absolutely. No, I like that. That's so good."
     },
     {
-      "time": null,
+      "time": "14:02",
       "speaker": "Nola Simon",
-      "text": "And could you just talk about the Leader's Journey?"
+      "text": "Yeah, no, that's my favorite one. But my I do love how you come up with frameworks. So you come up with the most beautiful framework that's really mean like just help you remember exactly what you're supposed to be doing. And so I've noticed a few in your other books, but this one is remarkable. So that's what the name of the book is. It's be remarkable and remarkable is really the framework. So did you want to explain that to us?"
     },
     {
-      "time": null,
+      "time": "14:26",
       "speaker": "Karen Ferris",
-      "text": "So that's adapted from the Hero's Journey, the classic story from Joseph Campbell, The Hero with a Thousand Faces. I took the three stages of the journey — separation, initiation and return. The very first thing is the wake up call. There has to be that thing that goes, yep, I need to learn something different. I need to separate from my familiar world. Then there's initiation, where I need to now navigate this unfamiliar world I'm stepping into. This is about stepping out of your comfort zone and exploration and learning and then reflecting on what you've learned. Every hero needs the guide on the side. And then return is when the hero goes back to the familiar world, but it's now very different because we've now unlearned and relearned. So then it's about sustaining those learnings. Because it's continuous."
+      "text": "Yeah, so I started looking at, what I thought leaders needed to the traits that leaders need today to lead. And the fundamental core of the book is talking about, learning to unlearn. And I think that's our biggest challenge is that we, and I touched on it at the start we learn stuff and then we think. That's going to keep us going forever and a day, but the world around us is changing. So we need to do the same and learn, unlearn, relearn was something that Alvin Toffler said in his 1970 book, Future Shock. So it's not a Karen Ferris thing but it really resonated with me that we learn, but then we need to have the courage and humility to say, I need to get rid of that now. It's no longer valid. It has no credibility. I need to unlearn it, which is get rid of it. And replace it, relearn. And I think we've seen the need for leaders, everything we've just talked about, the need for leaders to unlearn how they used to lead. And so remarkable is a acronym for all the traits I believe that the leaders should have. So it is a framework, but I see it really as a sort of toolbox because there's 10 traits that I talk about or 10 characteristics and explain what they are and how to go about. Developing them, but it's not saying you have to do all 10 tomorrow. It's pick something that you believe either from feedback that you've received or how you feel is the biggest area for development that you might need and focus on that. Yeah. And I talk about the leader journey as well cause the leadership journey has to start with that wake up call that something is. Something needs to change. So you pick which one. So the R is for resilient. So I leveraged, I'll be honest, I leveraged a couple of books I wrote in 2020, Unleash the Resiliator. So it summarizes the need for leaders and teams to be resilient in the face of constant change. Because I think we still have this conversation, Oh, change is hard. Yes, it is. It's get over it. It's not going away. It's just going to get faster and faster. That's our life now. And there's lots of, algorithms out there that will tell you how fast change is going to happen. It's scary. Like in 10 years time, we'll experience, a year's change in a day or something. That's not exactly the algorithm, but it's those sort of figures, there's whoa, we need to have that resilience. And I think One of the things I talk about is having the tools to be resilient, depending on the context in which you find yourself. Again, we've had the conversation, you can't yoga your way out of burnout. You just can't. It's not going to work, and yoga and mindfulness and meditation may be fine for some people. There's nothing wrong with them, but it doesn't suit everybody. So there's what I call superpowers that you can pull on, depending on the context you find yourself to help you be resilient. resilient and adapt and, transition through that constant change. E is for empathetic. We talk about it a lot, but we don't do it very well. I think we still confuse empathy with sympathy. And I think the key for A lot of leaders for empathy is we have to go back to basics. You have to learn how to listen. Cause you can't be empathetic unless you listen. So that's the last L in the remarkable acronym is to really listen. And every time I talk about communication and listening, I see people roll their eyes, Oh, here we go. Because we talked about it for so long, but we still do it so badly."
     },
     {
-      "time": null,
+      "time": "18:06",
+      "speaker": "Nola Simon",
+      "text": "And I think people have a real misunderstanding of what true listening really is, because just like the emphasis on keeping the cameras on while you're having a zoom call yes, it's nice to see somebody's face, but quite honestly. I listen better when I can't hear you when I can't see you because I might be distracted by what you happen to be wearing what might be in your background. Or isn't in your background. I might be, there, there might be different things. But again. like I spent 20 odd years on phones like actively all day. So when I have conversations with people, I listen much better when I actually don't have a visual."
+    },
+    {
+      "time": "18:45",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. And it's horses for courses, isn't it? It's and I see people still having a conversation, supposedly. And they look at the phone, or they look to the laptop because there's a ding, or a, whatever's happened. And I'm like, you're not listening. You can't listen when you're distracted, you just can't listen properly. You can hear a noise, but you're not really listening to what the noise is saying. or what the feeling is, or the aspiration, or the concern, or the worry. So yeah, listening is so important for all of the other traits, really, that I talk about as well. So having empathy, and we often talk about, empathy is about walking a mile in someone else's shoes, and I say no, it's not. It's understanding how that person feels walking in their shoes. Because their experience is totally different to yours. You can't just put their shoes on and go, oh, I get it. They're too small, it's not. You've got to understand their situation, their experiences, et cetera, their, Where they want to go that. Yeah. Everyone's different. So everybody has their own"
+    },
+    {
+      "time": "19:54",
+      "speaker": "Nola Simon",
+      "text": "worldview, right? Yeah. And worldview is fundamentally shaped in childhood and everything that you live through, right? It's not just going to change because they've happened to land at your particular company. You can influence it, but you're not going to change it unless they consent. Yeah, absolutely. That's an inside job."
+    },
+    {
+      "time": "20:13",
+      "speaker": "Karen Ferris",
+      "text": "Yeah."
+    },
+    {
+      "time": "20:14",
+      "speaker": "Nola Simon",
+      "text": "And that's where the mindful comes from. That's the next one. Yeah."
+    },
+    {
+      "time": "20:18",
+      "speaker": "Karen Ferris",
+      "text": "Yeah, so mindful. Yeah, it's about motion intelligence and understanding your own emotions and to be able to regulate those emotions and understand how you impact the emotions of others as well. And again, listening is key though too, isn't it? But being able to, identify the things that trigger not only the negative emotions, but the positive ones. So I can, okay, if I'm going into a, if I have a meeting and Every time I come out of this meeting, I am stressed. I am, so wound up and tight and Fatigued by it, whatever it might be. I need to be able to identify that emotion and say okay And some people will label them they put words to the emotion and say okay. I've got that emotion. What is it? That's triggering it. What is the situation? I'm putting myself. What is it that I am? What's the fear that is associated with it? And it could be another participant in that meeting who is always disagreeing with me or puts me down or whatever it might be. But if I can identify that trigger, then I can manage it. Now I know what it is. And go, that's just that person. That's their view, whatever it might be. But I could put into place tactics to alleviate that negative emotion that just drives you down and down. And if I have positive emotions, let's do more of that. Let's put myself in that situation more often. That's, yeah, being mindful. And then the A is adaptive. And this is a key one. Adaptive leadership. It's a passion of mine. And again, people have been writing about adaptive leadership for a long time. But it's just so key about being able to adapt depending on the situation you find yourself in. And I use the analogy of a shepherd, with the sheep. And sometimes, lead from the front. We're going that way. There's a North star, whatever you want to call it, we're all heading in the same direction, but I'll take the lead and go out first and check the terrain and everything else and find us the best path to follow. And then some will lead from the middle, finding out what's going on, what's the concerns, listening to the conversation, making sure that the tactics in place to get to that vision that we had from the front is all happening. And then leading from the back, making sure that the stragglers coming along, making sure that the flock is all together and we're all going in the same direction. So leaders need to adapt. It's not always, lead from the front. And it's also, I talk about moving away from command and control to empowerment and trust. But there are times when command and control is absolutely necessary. And it's knowing when that situation is. If the, let's say we are in an office and, it's on fire. I'm not going to sit down with the team and say, now, what do you think we should do? Let's collaborate on this. I'm going to go, there's the door we're going now."
+    },
+    {
+      "time": "23:26",
+      "speaker": "Nola Simon",
+      "text": "And hopefully you also have norms in place. So that's the kind of situation where it's like, if this happens then, and there's no questioning it because at the heart of the matter is life and death. Yeah. Yeah. So that's where command and control really comes in is the importance, right? Like the absolute, this needs to be done without question."
+    },
+    {
+      "time": "23:50",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. And, hopefully your, like you say, the team, it's norms, the teams know that was, that will be your leadership style in that situation. Yes. It's what they expect. Yes. So there's no shock, but they know in other situations, you are that empowering leader. You are going to give them autonomy and flexibility. You are going to co create. Collaborate, but they know that there's a time and place for that. And often we say, Oh, command and control has got to go. And I'm like, no, be careful. It might not be the style you want to use the majority of the time, but it has a place."
+    },
+    {
+      "time": "24:26",
+      "speaker": "Nola Simon",
+      "text": "Yeah, absolutely. Honestly, even just with the pandemic, right? Everything pivoted to a hundred percent for if they could do it within a week for a lot of companies and that was around the world. And honestly, that was. Command and control and action. Yeah. So it absolutely can be done. It can be useful, but it's does it need to be done on a regular daily basis? No, probably not. But you're right. It's that adaptability to the scenario."
+    },
+    {
+      "time": "24:53",
+      "speaker": "Karen Ferris",
+      "text": "And that was, that's a good example because, I remember, I know here in Australia, the poor medical officers that suddenly had, there was front and center on every, media news show, they came out to the spotlight reluctantly and were there delivering messages every day about what people wanted command and control. Yes. They didn't want them, they wanted them to make a decision, tell me. What I'm going to do now, we're in a pandemic, people were looking for them for, and when they started to, what we go waffle a bit, no, just say it down the line to people wanted it then too. So that's a good example. Yeah. So adapted resourceful is the R so doing, we're all being asked to do more with less all the time, but resourceful is making best use of all the resources I have available to me. And one of the key things is knowing what I should be doing or what I shouldn't be doing. So being able to prioritize and we all get overwhelmed sometimes. There's so much to do and I'm a great fan of, matrix like the Eisenhower matrix, where you can allocate things say that they are the things that I must do. They are must do and they're important. Has to happen now. Okay. They're the top of the list. Forget everything else. Remove the distraction. Just focus on those. And then in one of the boxes, you've got the things that you go, why am I even doing that? That's not important and doesn't really need me to be doing it. Can I delegate or can I just not do it at all and get the team to do the same thing. As a team, they go, these are the things we absolutely must focus on this week, this month, and these are the things we should say, how the hell did we end up doing that? Yeah, that's not really our job. How did that happen? And can we reallocate it or not do it at all? Is it necessary?"
+    },
+    {
+      "time": "26:41",
+      "speaker": "Nola Simon",
+      "text": "Can we automate it? What tools do we have that we can use to Yes."
+    },
+    {
+      "time": "26:46",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. Can we have, can be more efficient, with what we've got. Absolutely. But we do get overwhelmed with this massive stuff, that we need to do and it's taking that step back and saying, okay. How can I categorize or compartmentalize all of this stuff and make sure I'm doing the right thing, so making best use of my resources and the resources of those people around me. Known, the K is for known. So that's about your brand. What do you want to be known for? What's your, what would you want your legacy to be when you walk out the door? What do people say about you? And I talk in the book about how to come up with your brand which could be your elevator pitch, it's not an elevator pitch. It's not a phrase I like, how would you explain to somebody what are your values? What do you believe in? And I use some examples of some of the, some famous people and their one liners, their brand, like Brenny Brown, etc. They have those one liners that just tell you exactly who they are, what they stand for and what their values are. And when you have a brand, people, what people see is what they get. It is authentic because you live by your values. You live by your beliefs. You do what you say you're going to do. It's it's what you're known for and there's no surprises. People know what to expect."
+    },
+    {
+      "time": "28:11",
+      "speaker": "Nola Simon",
+      "text": "So your brand is what? Rebel with a cause."
+    },
+    {
+      "time": "28:14",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. ."
+    },
+    {
+      "time": "28:16",
+      "speaker": "Nola Simon",
+      "text": "I had to work that in there."
+    },
+    {
+      "time": "28:18",
+      "speaker": "Karen Ferris",
+      "text": "change man. Change management. Rebel with a cause. Yeah. And I like that because I like to push boundaries. I like to challenge the status quo. I always ask why? Why are we doing that? Why are we doing that? Why do we have to do that? That's why I say rebel with, I will question, I will challenge people. In a constructive manner, but I won't, I'll never accept the status quo. Yeah, that's because we've always done it. Sorry, that's not going to happen."
+    },
+    {
+      "time": "28:46",
+      "speaker": "Nola Simon",
+      "text": "And Cindy Gallop actually has a really nice phrase about the status quo is women challenge the status quo because women have never been the status quo. Half of the stuff does not work for us because we're not the people who put it in place and it doesn't accommodate our way of leading our way of life, the caregiving aspects. Like we just lead in a very often different manner than"
+    },
+    {
+      "time": "29:15",
+      "speaker": "Karen Ferris",
+      "text": "yeah. Yeah. I keep saying to people, and I know it's a challenge for people, so take this with a pinch of salt, with this, the return to the office mandate, for example keep asking why. Ask your leader, do it constructively, don't, yeah, don't do it deconstructively. Do it constructively and say why? And they go, oh, because you're more productive in the office. Actually, no, I'm not. And the research says I'm just as productive at home. And actually, because I have. A purpose built office. I can do focus work much better, blah, blah, blah, blah. And also ask them"
+    },
+    {
+      "time": "29:50",
+      "speaker": "Nola Simon",
+      "text": "where they're working from because there have been all kinds of parts lately that say, the people who enforce the RTOs are the people who are working from home most often."
+    },
+    {
+      "time": "30:00",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. And if another why would be then they get all connectivity or because I walk into a building doesn't mean I'm going to connect with people. It has to be intentional. This doesn't just happen by osmosis. And then if they say, Oh it's going to impact our culture, bullshit. It's not, you didn't have a culture in the first place, so if we keep asking why my hope is that the little light will go on, with these people who are just clinging to these out of date reasons to go back into an office, the light will go on and go. There's something here. I need to, again, I need to unlearn. I need to rethink the direction."
+    },
+    {
+      "time": "30:41",
+      "speaker": "Nola Simon",
+      "text": "And there's, it's that research out of the, from Mark Mudd of University of Pennsylvania, right? Where there's a real coordination or collaboration. What word am I looking for? Coincidence between the amount of return to office mandates and stock price. Yes,"
+    },
+    {
+      "time": "31:03",
+      "speaker": "Karen Ferris",
+      "text": "yeah. And yeah, they, he also calls out that yeah, there's a lot of blaming of the workforce. Oh, yeah, our stock prices fallen because they're working remotely because they're not as productive. So we need them back in the office. And that's again you know where's the trust, when you know that you're getting blamed for organizational performance that has absolutely nothing to do with you. Again, no, there's no trust there at all. And we could go on this on that subject. Couldn't we, where's the trust when you know that the organization is probably going to, won't now won't give you a pay rise is telling you that your career is stuck because you've chosen to work remotely."
+    },
+    {
+      "time": "31:45",
+      "speaker": "Nola Simon",
+      "text": "And also I read another chat today too, that said, basically there are a lot of, there's been a real increase in corporate bankruptcies. Because there's been a lack of reinvention and market is moving and changing so fast. So it's. It's necessarily to be resilient from a business point of view too, because it's not really even just how you treat your staff. It's how are you being resilient and remarkable on the forefront of your business too? Because if you can't adapt. On a business level, and you may not have a business to support to begin, right? Like that adaptability for change matters in lots of different ways in business. Absolutely."
+    },
+    {
+      "time": "32:31",
+      "speaker": "Karen Ferris",
+      "text": "Yeah, absolutely. Yeah. Yeah. Adaptive is such a core. characteristic that all of us really need. We have to be able to adapt."
+    },
+    {
+      "time": "32:42",
+      "speaker": "Nola Simon",
+      "text": "So how do you encourage people to unlearn? Somebody told me that unlearning is one of the hardest things that there is. What is, what methods do you use to teach people to unlearn?"
+    },
+    {
+      "time": "32:53",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. It's really trying to get them to get that, that wake up call. And it's tough. It's getting feedback from employees, from colleagues. And it's just hoping to put them in that situation where the light goes on and it's hard. And if I hadn't a conversation, you're sitting down and having those conversations, and it's about, coaching and helping them to observe how the leadership style and the approach they had yesterday is no longer appropriate today and why."
+    },
+    {
+      "time": "33:32",
+      "speaker": "Nola Simon",
+      "text": "and"
+    },
+    {
+      "time": "33:32",
+      "speaker": "Karen Ferris",
+      "text": "encourage them to have their conversation with the people that they are trying to lead. And the challenge is that most, like I said before, we've said before, most leaders want to do the best they can be. And a lot of them know that they're struggling. And it was research from Jacob Morgan. He did research for one of his books, and he found that, and this is generalized, but most people go into a people leader role in their late 20s. Most of them get their first development as a leader in the late 30s, early 40s. So they've had over a decade, potentially, with no support. no help. So they've been put into this people leader role. The only role model they've had is the bad boss that went before them. They're on only, they're on a path to nowhere and they're trying to do the best, but they're floundering and they're struggling. And we just need to give these people the help. And while we talk about, in the book, I talk about it as well. It's about stepping outside your comfort zone and how to be comfortable with stepping outside your comfort zone and doing things differently. And again, we talk about doing it gradually. This isn't, massive thing that's going to happen overnight. It's about, we talk about learn, unlearn, relearn, but it's a gradual thing. It's not everything's got to go. It's just, I've been used to, let's for example, I've been used to measuring performance by hours at the desk. I used to block people in and clock them out. I'd look at my watch when they came in the office and when they left and if they were there for eight hours or more, I thought they were doing a great job. Now at the back of my mind, they might say at the back of my mind, I knew that was stupid. But I didn't know the alternative. I didn't know how to measure outcomes. I didn't know how to set or co create or co design goals with an employee. What are the parameters? What are the things I need to check? The goal is understood. There's a time frame, there's resources, whatever it might be. Checking points, we talked about those earlier. And when you talk to leaders and you go, okay, this, you go, all right, okay, I've got a bit of a framework now I can go and try that. And it's not that they didn't want to do it. It's just that no one clicked the switch to say, here you go, here's an alternative. So unless we're giving people that development support, what do we expect? Yeah, we can talk about, measuring outcomes rather than hours and for many of us we go well that's common sense, but some people just need a bit of a, okay just give me something to help me have that goal setting conversation and what I need to do."
+    },
+    {
+      "time": "36:14",
+      "speaker": "Nola Simon",
+      "text": "And we need some flexibility in terms of how we do about"
+    },
+    {
+      "time": "36:17",
+      "speaker": "Karen Ferris",
+      "text": "it."
+    },
+    {
+      "time": "36:17",
+      "speaker": "Nola Simon",
+      "text": "How we make that shifts as well too, right? Because if everybody's held to metrics and key performance indicators that aren't shifting as we're learning, like there needs to be some grace throughout the organization to be able to adapt and so it has to happen at all levels, right?"
+    },
+    {
+      "time": "36:35",
+      "speaker": "Karen Ferris",
+      "text": "And it's like saying, how often do you sit down with your employee or once every six months at the performance management review? Do you think that's. Good. Oh, I don't know. I'd never thought about it before. How about you sat down and win the fortnightly? And then if you've got some feedback about how they could do something different, they've got a chance to make that change, haven't they? It's no good telling them in six months time that you didn't think how they were doing the job six months earlier was the best way to do it. And the life will go on. Yeah, of course. That makes sense. And when you get to performance review, there's no surprises. You've had a regular review all year and. You're not, you get, you've got rid of the recency bias because you're not judging someone on what they did yesterday as opposed to four months ago. And, most people, yeah, they just need that light switch to be flicked, ah, yeah, okay."
+    },
+    {
+      "time": "37:30",
+      "speaker": "Nola Simon",
+      "text": "Exactly. And like you said, it has to also go both ways too, right? So having that trust and respect to, to also give feedback and that psychological safety to, to be able to tell your manager that the support that they're giving isn't necessarily what you need either."
+    },
+    {
+      "time": "37:47",
+      "speaker": "Karen Ferris",
+      "text": "Yes, absolutely. So again, when you say to leaders, Do you ask your employees for feedback? No, I don't want to hear what they're going to say. How would you, how are you going to change if you don't ask for feedback? And they go, yeah, you're right. And don't take it feedback as personal. It's not about you as a person. It's about you as a leader. It's about the role you're carrying out. So you put that lens on it and they go, okay. All right. Yes. And you remember leadership feedback can be, feedback isn't bad. Feedback is always good. It's a way to improve. But there'll be things that people say, do more of that, mate. That's really good. We want more of that. So there's positives as well to come out of it. And when you act upon feedback that you've been given, the trust that generates in an employee or member of your team is immense. It's I told Karen that she needed to do, one on one meetings with the team more often, whatever it might be. And she did. She listened to me. She took on board what I said, that's power. I"
+    },
+    {
+      "time": "38:47",
+      "speaker": "Nola Simon",
+      "text": "have an example. I used to tell like in the group chats for the massive, like team meetings all these executives just assumed everybody knew where they were, who they were when they started doing like online team meetings. And it'd be like, That's a great point. I have no clue who you are. And then I would put in the chat. Could you tell us your names? Could you tell us your position? Who are you? You could be the CFO and I have no clue, right? Because I've never seen you before. I've never been introduced to you before. I'm attempting this, but I'm frontline staff and you think you're important and you don't bother to introduce yourself, right? Even just that. That took me 8 months to actually get that point across to actually see it later. And I was doing it online on a chat and nobody gave me permission. Nobody invited me to do that, but they started doing it. And that made a huge difference because when the pandemic actually happened. They would actually have it right on the screen, right? They didn't even have to say it anymore because they learned how to use the tools and actually had it. But we started doing that with my manager as well, too, because it's like, how do you manage up? If you have a leader who isn't necessarily adapting staff can help manage up as well to you. So I used to talk to her about the fact that if you had. We have a hybrid location, hybrid meetings, right? So half the staff is in person. Half of the staff was at home. If you talked in the large room and you weren't in front of the microphone, nobody could hear that at home. So just ask the person to repeat the question in the microphone. So everybody knows what we're talking about, no matter where they are, right? How long does that take? And it was so funny because then she started being the leader who would teach other people to do it. But a long time to teach her to do it. When you, we started this and you're like, everybody can be a leader. I think that's another important thing. We have to talk about 2 is employees are leaders, right? Even though they're not necessarily at the top of the hierarchy on the org chart. You lead a certain way, like you're a parent, right? You lead your children. You're involved in your community. You can be leaders in different aspects. You don't forget those skills as soon as you walk in the door or you log into the zoom call or whatever it is you do. So how can we leverage what people intuitively know about leadership and learn it and co create it together?"
+    },
+    {
+      "time": "41:04",
+      "speaker": "Karen Ferris",
+      "text": "Absolutely. And it's let you say people, You help your friends and you help people. You step up when someone needs some direction. You could do the same in the workplace. It's, when someone needs support or some help, or that they're struggling to do something, you step in. You step in as the lead to help them with that direction. You don't have to have, like you say, the name on the plaque to say you're a leader, to use your leadership skills that you're using, like you say, day in, day out. Just think about, just take a, a few hours of a day and just have that leadership lens on things that you're doing, the things that you're doing for the family or. The things that you're doing for your friends, you are taking the initiative on because, it needs to be done."
+    },
+    {
+      "time": "41:51",
+      "speaker": "Nola Simon",
+      "text": "Yeah,"
+    },
+    {
+      "time": "41:51",
+      "speaker": "Karen Ferris",
+      "text": "that's leading."
+    },
+    {
+      "time": "41:53",
+      "speaker": "Nola Simon",
+      "text": "Yeah, definitely. I used to negotiate and that's a part of the job crafting that because we used to have to do these. Mind numbing things. I'm not very good at mind numbing. I'm a lot more of a creative kind of like strategy aspect. But anything that was like repetitive admin stuff. I used to try to negotiate with a friend of mine who liked that kind of stuff. So it's like. Here, you do this. I'll do this for you. What can we negotiate? It still gets done. How does it get done? And can we make ourselves happier"
+    },
+    {
+      "time": "42:23",
+      "speaker": "Karen Ferris",
+      "text": "in our work? It's about recognizing, people's strengths. And it's about recognizing your personal strengths. I'm good at this. I'm not really good at that. I'm not good at the detail. I'll create the big picture. You do the detail. Great. So again, it's taking the initiative and allocation of work where best. Suit styles, et cetera. They're all leadership things. Yeah, absolutely."
+    },
+    {
+      "time": "42:46",
+      "speaker": "Nola Simon",
+      "text": "Yeah, exactly. And I mean that, that can permeate through the organization too, in different ways. And this is where, as organizations are doing like hackathons and innovation challenges and and just. Like the innovations that are happening by like eliminating meetings in some companies, right? That's really important stuff because they're really looking at how the work is getting done and how they can do better, right? Because doing a meeting isn't actually work. It's work about the work. Yes. It's a leadership thing to be able to step up and say, we can do this differently."
+    },
+    {
+      "time": "43:24",
+      "speaker": "Karen Ferris",
+      "text": "Yeah, absolutely. If you you and the team say, that meeting we have every Monday at 2pm, what, do you get any value out of it? No, not really. We really cover it up on the Friday meeting we have in the morning. Yeah. So let's suggest we don't do that meeting. Let's give it a go. Let's see how it, that's leadership. You don't need to be bestowed with a title to have that conversation."
+    },
+    {
+      "time": "43:48",
+      "speaker": "Nola Simon",
+      "text": "No, absolutely not. And so you, the leader's journey, could you just talk to me about this a little bit more because you have this lovely little map. I do adore a map."
+    },
+    {
+      "time": "43:58",
+      "speaker": "Karen Ferris",
+      "text": "Oh, the leader's journey. Yeah. So that's adapted from the hero. journey, which is a classic story from Joseph Campbell. I think the book was called Hero with a Thousand Faces. The leader doesn't need to be a hero like fighting galactic empires or anything like that. But I like the idea of, so I took the three phases Or the three stages of the journey. Separation, initiation and return. And then I broke each of those down into the things I think need to happen at each part of the journey. So the very first thing we talked about, the wake up call. There has to be that thing that goes, Yep, I need to learn something different. I need to separate from my familiar world. and step out and do things differently. So it talks about, packing, recognizing there's going to be effort, recognizing it's going to take time, and setting yourself milestones. So that's like the separation stage. And then there's an initiation where it's okay, I'm ready to go. And I need to now navigate this unfamiliar world I'm stepping into. And this is about stepping out of your comfort zone and exploration. And learning and then reflecting on what you've learned. And making sure that you've got support from colleagues and teams and friends and whatever, that you've got support along the way to say, keep going. Every hero"
+    },
+    {
+      "time": "45:24",
+      "speaker": "Nola Simon",
+      "text": "needs the guide on the side."
+    },
+    {
+      "time": "45:26",
+      "speaker": "Karen Ferris",
+      "text": "Yes. Yes, absolutely. We are looking for"
+    },
+    {
+      "time": "45:29",
+      "speaker": "Nola Simon",
+      "text": "Yoda."
+    },
+    {
+      "time": "45:32",
+      "speaker": "Karen Ferris",
+      "text": "Yes. Yes. Yeah, you can't, don't do it alone, and you need people to say, yeah, you're doing a good job. Yeah. That went well. Yeah, keep going, try this different way or something and persevering. So that's initiation. And then return is when the hero goes back to the familiar world, but it's now very different because we've now unlearned and relearned that we've talked about. So then it's about sustaining those learnings and being able to take them and adapt. In the real, in the world that you're in and preparing for the next journey, because it's not, it's continuous. Yeah, it's continuous. It's continuous. Yeah. Absolutely. But I like the idea of being able to say to people, yeah, it is a journey, guys. It's not going to happen tomorrow. You're not going to wake up and go, wow, all of those things, those 10 things in Karen's book, I've got them. Woohoo. It's a journey. And, take one or two of them and embark on that journey being aware that it will take time and it will take perseverance and it will take courage and you will be stepping out of your comfort zone, but all that is okay. You will get things wrong and that is okay. Yeah. So go on the journey with that support and come out of the end better for it."
+    },
+    {
+      "time": "46:51",
       "speaker": "Nola Simon",
       "text": "So who are the ideal type of clients that you feel are really receptive to this type of leadership message?"
     },
     {
-      "time": null,
+      "time": "46:58",
       "speaker": "Karen Ferris",
-      "text": "Most of my clients would be small to medium businesses. The businesses I think really need to learn this are the large, old traditional large financial type organizations. They're the ones I really think are struggling. We might not see the fallout just yet, but we can see the cracks starting to appear. Government as well. There's just this reluctance to change. We've always done it this way. And the financial ones, people get retained by the golden handcuffs. But the handcuffs will loosen. And someone said to me, unfortunately the people reading your stuff are not the people that need to read it. And I said, but I hope someone who reads it passes it on to the person who's not reading it."
+      "text": "It's an interesting question. Most of my clients would be the small to medium businesses. The businesses I think really need to learn this are the large one, the old traditional large financial type organizations. They're the ones I really think are struggling. And I think We might not see in the fallout just yet, but we can see the cracks starting to appear. And I think it will happen unless something changes. Yeah, very soon. Yeah. Are you thinking"
     },
     {
-      "time": null,
+      "time": "47:33",
       "speaker": "Nola Simon",
-      "text": "Honestly, I'm looking at rebranding my newsletter. I'm going to call it Hope and Possibilities, because it's more about, I'm not really too interested in talking about what people want to cling on to from the past, but what can we move towards? We're moving forward with hope."
+      "text": "government as well too? Yes."
     },
     {
-      "time": null,
+      "time": "47:35",
       "speaker": "Karen Ferris",
-      "text": "That optimism I think is more what we have to move towards. It's realistic optimism. It's not just blue skies, but realistic optimism that things can change for the better. We just need to work towards it."
+      "text": "Oh, absolutely. Yeah, absolutely. Yeah. There's just this reluctance to change. We've always done it this way. And, I know people who work for these organizations and I've worked in them too, and it's, Yeah, the things I hear people say is just and especially with the financial ones, people get, retained, if that's the right word, by the golden handcuffs. If I'm on a financial organization, I've probably got, a reduced home loan or car loans or whatever. And I get locked into the organization and I'm like, yeah, for now someone else is going to come along. If you've got your talent and they will offer you a better deal. one day, and you're going to walk out the door. You might be, handcuffed right now, but the handcuffs will loosen and they'll be gone. And I think it'll be a slow trickle because these are the organizations that are getting, the kickback from employees about going back into the office. Because these are the tent, the organizations that are tending to be the ones that are going, you need to be in here. I need bums on seats. So yeah, I think that, small to medium. Organizations are the ones that are hearing the message and getting on board. Absolutely. Probably because of the more agile, more adaptive by nature because of the longevity and the size of the organization. But yeah, it's the older traditional ones I think really need to get on board sooner than later. And I know someone said to me, cause I do a lot of stuff on LinkedIn and someone said, unfortunately the people reading your stuff are not the people that need to read it, and I'm like, yeah, they're right. And I said but I hope someone who reads it passes it on to the person who's not reading it. So yeah"
     },
     {
-      "time": null,
+      "time": "49:17",
       "speaker": "Nola Simon",
-      "text": "So the book is Be Remarkable, available anywhere online — Amazon, or karenferris.com. If you enter the code MINDSET at the checkout, there's a 15 percent discount. I'll put that all in the show notes. Thank you."
+      "text": "and some people have to learn things the hard way too, right? That's the danger. That's the danger. But those are not the ideal clients."
     },
     {
-      "time": null,
+      "time": "49:25",
+      "speaker": "Karen Ferris",
+      "text": "Yeah. I think we all just keep chipping away, don't we? We're just, yeah. Trying to make a better place, the work a better place. Yeah."
+    },
+    {
+      "time": "49:33",
+      "speaker": "Nola Simon",
+      "text": "And that's the hope. Honestly I'm looking at rebranding my my newsletter. I'm going to call it hope and possibilities because it's more about, I'm not really too interested in talking about what people want to cling on to from the past, but it's like, what can we move towards? We're, we're moving forward with hope. There's possibility for the future. What can we make it be? Yeah. Yeah. That optimism I think is more what we have to move towards."
+    },
+    {
+      "time": "50:02",
+      "speaker": "Karen Ferris",
+      "text": "Yes. I think so. No, we do. Yeah, absolutely. I think optimism is, it's, realistic optimism. It's not just, blue skies and oh yeah, but realistic optimism that things can change for the better. We just need to work towards it. Yeah,"
+    },
+    {
+      "time": "50:18",
+      "speaker": "Nola Simon",
+      "text": "it's right and yes, there might be things you can identify things that will stay the same. But other things will change too. And so how can we navigate and leave a path through that right together and make it a better place. Absolutely. So I just wanted to thank you for joining me and telling me all about this book. I do think that it will be a fabulous resource. And we can, so you can order it anywhere on the online bookstores. So Amazon, anywhere online. Yes,"
+    },
+    {
+      "time": "50:47",
+      "speaker": "Karen Ferris",
+      "text": "at the moment, the e book all your online bookstores for a limited time only 99 US cents. So grab your e book now. If you want the paperback, again you can go to the likes of Amazon or karenferris.com. Go to My Bookstore, and if you enter the code MINDSET. At the checkout, there's a 15 percent discount to remember you are paying postage from Australia. So working out, which is the best deal for you,"
+    },
+    {
+      "time": "51:19",
+      "speaker": "Nola Simon",
+      "text": "right? Yeah. Yeah, exactly. So like I checked it before we actually started recording, it was 49 Canadian. So I would choose to pay that for me."
+    },
+    {
+      "time": "51:29",
+      "speaker": "Karen Ferris",
+      "text": "If you're in this region, then yeah, go to karenferris.com head up to the likes of Amazon and Booktopia and whoever."
+    },
+    {
+      "time": "51:36",
+      "speaker": "Nola Simon",
+      "text": "Alright, so I'll put that all in the show notes and we'll go from there."
+    },
+    {
+      "time": "51:41",
+      "speaker": "Karen Ferris",
+      "text": "Thank you."
+    },
+    {
+      "time": "51:42",
       "speaker": "Nola Simon",
       "text": "I'll see you next time."
     }
