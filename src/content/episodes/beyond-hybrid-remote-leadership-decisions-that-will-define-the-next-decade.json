@@ -14,10 +14,10 @@
  "publishDateHuman": "January 14, 2026",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "17 min",
+ "durationISO": "PT17M36S",
  "listen": {
-  "apple": null,
+  "apple": "https://podcasts.apple.com/us/podcast/beyond-hybrid-remote-leadership-decisions-that-will/id1602822494?i=1000745071145",
   "spotify": null,
   "youtube": null
  },

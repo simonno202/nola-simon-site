@@ -14,10 +14,10 @@
  "publishDateHuman": "April 1, 2026",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "21 min",
+ "durationISO": "PT21M32S",
  "listen": {
-  "apple": null,
+  "apple": "https://podcasts.apple.com/us/podcast/witnessed-trust-a-pr-crisis-a-pop-star-and/id1602822494?i=1000758686925",
   "spotify": null,
   "youtube": null
  },

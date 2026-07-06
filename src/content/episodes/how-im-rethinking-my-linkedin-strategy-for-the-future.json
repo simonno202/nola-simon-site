@@ -14,10 +14,10 @@
  "publishDateHuman": "December 8, 2025",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "22 min",
+ "durationISO": "PT22M52S",
  "listen": {
-  "apple": null,
+  "apple": "https://podcasts.apple.com/us/podcast/how-im-rethinking-my-linkedin-strategy-for-the-future/id1602822494?i=1000740246868",
   "spotify": null,
   "youtube": null
  },

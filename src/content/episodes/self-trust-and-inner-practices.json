@@ -14,10 +14,10 @@
  "publishDateHuman": "January 20, 2026",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "16 min",
+ "durationISO": "PT16M23S",
  "listen": {
-  "apple": null,
+  "apple": "https://podcasts.apple.com/us/podcast/self-trust-and-inner-practices/id1602822494?i=1000745943228",
   "spotify": null,
   "youtube": null
  },

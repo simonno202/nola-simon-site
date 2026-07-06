@@ -14,10 +14,10 @@
  "publishDateHuman": "May 28, 2026",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "8 min",
+ "durationISO": "PT8M25S",
  "listen": {
-  "apple": null,
+  "apple": "https://podcasts.apple.com/us/podcast/the-assumption-ground-audit-everyday-futurism-as/id1602822494?i=1000770033890",
   "spotify": null,
   "youtube": null
  },

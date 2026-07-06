@@ -14,10 +14,10 @@
  "publishDateHuman": "January 28, 2026",
  "updatedDate": "2026-07-05",
  "updatedDateHuman": "July 5, 2026",
- "duration": null,
- "durationISO": null,
+ "duration": "15 min",
+ "durationISO": "PT15M27S",
  "listen": {
-  "apple": null,
+  "apple": "https://podcasts.apple.com/us/podcast/canadian-perspective-on-us-politics-and-values/id1602822494?i=1000747042900",
   "spotify": null,
   "youtube": null
  },
