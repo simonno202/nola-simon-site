@@ -1,0 +1,283 @@
+{
+ "number": null,
+ "slug": "what-yapping-teaches-us-about-trust",
+ "title": "What Yapping Teaches Us About Trust",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2026-07-08",
+ "publishDateHuman": "July 8, 2026",
+ "updatedDate": "2026-07-10",
+ "updatedDateHuman": "July 10, 2026",
+ "duration": "16 min",
+ "durationISO": "PT15M50S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/ca/podcast/what-yapping-teaches-us-about-trust/id1602822494?i=1000775994280",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Jessi Jean's YAP Challenge — an on-camera video challenge priced at $297 — raised $1.2 million in its first cohort and over $6 million in its second, at a moment when online courses were supposedly dead. Nola isn't interested in the launch mechanics; she's interested in the trust behind it: the low-risk price, the mentorship-in-real-time design, the beta test that proved the method in public, and the network effects of thousands of participants posting their homework. Then she brings it inside the organization — where employees are more trusted than executives, some of them are probably already in the challenge, and a sponsored version could build skills, engagement, and belonging.",
+ "takeaways": [
+  "Look past the launch mechanics: the YAP Challenge worked on trust — low risk, mentorship in real time, and a method proven in public before it was sold.",
+  "Treat social proof as infrastructure: participants posting homework publicly turned the audience itself into the credibility engine.",
+  "Notice the AI backdrop: unscripted video is in demand because it proves a human skill and point of view that can't be replicated.",
+  "Remember employees are more trusted than executives — authentic employee voices are an employer-brand asset most companies leave idle.",
+  "Meet the appetite where it already is: some employees are likely in the challenge on their own dime, and a sponsored version — public on LinkedIn or private on Slack — converts that into skills, engagement, and belonging."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "2:49",
+   "question": "Why did so many people trust the YAP Challenge?",
+   "answer": "Nola's argument: it's probably not Jessi Jean herself, but how the challenge made people feel. The price kept the risk low — even a total miss costs less than $300. The design was mentorship rather than top-down teaching, adjusted in real time with the cohort. And the method had already been proven in public before anyone paid: participants could watch people like themselves improving in their own feeds."
+  },
+  {
+   "timestamp": "1:27",
+   "question": "Was this an overnight success?",
+   "answer": "No — and Nola thinks that's the under-credited part of the story. Jean came in with roughly 400,000 followers, years of experience in the online space, funnel experts, and private coaches on tap when the launch outgrew expectations. She launched the cohort only after a beta tester's video passed a million views. The groundwork was laid before the phenomenon."
+  },
+  {
+   "timestamp": "5:07",
+   "question": "How do network effects create trust?",
+   "answer": "The challenge requires participants to post their homework publicly. So even if you don't trust the creator, you see people who resonate with you posting their work, their feedback, their improvement — in your own feed. The design shifts credibility from the individual to the network she created. The trust isn't based solely on her; it's distributed."
+  },
+  {
+   "timestamp": "5:33",
+   "question": "Why is on-camera skill suddenly in demand?",
+   "answer": "AI slop has made people gun-shy about how they show up online. Unscripted video is proof of something AI can't replicate: a skill and a point of view specific to you, carried in your voice, your presence, your gestures. Nobody tells you what to say — the opinions are based on your own experience, in your own niche. Video captures that in a way audio doesn't."
+  },
+  {
+   "timestamp": "7:59",
+   "question": "What could organizations do with this model?",
+   "answer": "Run a sponsored version. Employees are more trusted than executives, and personal profiles posting authentic, unscripted content build employer brand, recruitment, reputation, and internal trust. It can run publicly on LinkedIn or privately on internal systems like Slack, and it plugs naturally into an existing employee advocacy program. Some employees are probably already in the challenge on their own time — the question is whether the company benefits from the skills they're building anyway."
+  },
+  {
+   "timestamp": "13:06",
+   "question": "Why does a challenge like this land right now?",
+   "answer": "Uncertainty. When people don't know what employment will look like, visible skill development gives them something they feel they can control — and a company sponsoring it signals investment in its people. It's low lift, it's optimistic, and it wouldn't cost much for organizations that already have advocacy foundations in place."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:00",
+   "label": "The YAP Challenge, in numbers"
+  },
+  {
+   "time": "2:05",
+   "label": "Why her? The trust question"
+  },
+  {
+   "time": "3:44",
+   "label": "Tested in public, launched on proof"
+  },
+  {
+   "time": "5:07",
+   "label": "Network effects as social proof"
+  },
+  {
+   "time": "5:33",
+   "label": "The AI-slop backdrop"
+  },
+  {
+   "time": "7:59",
+   "label": "Bringing the model into corporate"
+  },
+  {
+   "time": "11:10",
+   "label": "Your employees are already in it"
+  },
+  {
+   "time": "13:38",
+   "label": "Public on LinkedIn or private on Slack"
+  },
+  {
+   "time": "14:47",
+   "label": "Questions for listeners"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:00",
+   "speaker": "Nola Simon",
+   "text": "I'm Nola Simon, and I'm the host of the Hope and Possibilities podcast. Today I'd like to talk about the YAP Challenge. To give you some context in case you haven't heard of this: there's a creator in the United States — her name is Jessi Jean — and she had a really successful launch."
+  },
+  {
+   "time": "0:22",
+   "speaker": "Nola Simon",
+   "text": "Essentially, what she's selling is a challenge to get people comfortable with talking online and creating short videos for 30-odd days. The first cohort she sold raised $1.2 million. Then she ran a second cohort, which brought in over $6 million, I think."
+  },
+  {
+   "time": "0:53",
+   "speaker": "Nola Simon",
+   "text": "She's only charging $297. For that many people to sign up and bring in that much money — when there's been a common narrative that courses and online work aren't really working the way they used to — it's a really fascinating phenomenon to watch. And I wanted to look at it not from the perspective of how she successfully did the launch, because there's a lot that went into that."
+  },
+  {
+   "time": "1:27",
+   "speaker": "Nola Simon",
+   "text": "She didn't come into it without a following. She had over 400,000 followers that she created. She's been working in the online space in some format or another for over 12 years, I think I saw. So she doesn't come into this type of launch unprepared. She'd also been working with funnel experts, and she had private coaches on tap that she was able to pull in when the challenge became so entirely successful."
+  },
+  {
+   "time": "2:05",
+   "speaker": "Nola Simon",
+   "text": "So she was well supported, which is something I don't think a lot of people have given her credit for. But what I'm interested in with this challenge is the trust aspect of it. Why would people join this type of program, and why her? One of the common narratives that's been going around the internet is that there are a lot of people who sell services to teach people to speak online and do video online and get more comfortable with posting and creating online and being an expert."
+  },
+  {
+   "time": "2:49",
+   "speaker": "Nola Simon",
+   "text": "It's almost unheard of to raise that amount of money for that type of product, especially recently. So what is it about her specifically that people trusted? And I'd argue it's probably not necessarily her, but how it made them feel. She's presentable, she talks well, she's credible."
+  },
+  {
+   "time": "3:23",
+   "speaker": "Nola Simon",
+   "text": "The challenge itself is only two hundred and ninety-seven dollars. The risk is low — even if you join and you get nothing out of it, you're losing less than three hundred dollars US. It's a privilege, of course, to be able to spend that and not get anything out of it."
+  },
+  {
+   "time": "3:44",
+   "speaker": "Nola Simon",
+   "text": "But if you're doing this type of thing, that's not an unreasonable amount. I've seen courses for much more. I've paid much more for courses online. One of the things with her is the way she created this challenge: it was her own method, and she'd been running tests on it."
+  },
+  {
+   "time": "4:09",
+   "speaker": "Nola Simon",
+   "text": "As soon as she saw a beta tester actually get over a million views with one of her YAP videos, that's when she launched the cohort. So she's creating this program to be responsive in real time. She's demonstrating mentorship — she's doing what she does herself, and she's mentoring people. It's not a top-down coaching, teaching kind of thing, but more of a mentorship."
+  },
+  {
+   "time": "4:41",
+   "speaker": "Nola Simon",
+   "text": "\"I'm testing this out with you. We're going to adjust it in real time.\" So she's seeding it and then adapting to the feedback from her learners as it happens. And she's got incredible social proof, because what she's doing is having people post their work — the homework they have to do — online."
+  },
+  {
+   "time": "5:07",
+   "speaker": "Nola Simon",
+   "text": "So she's automatically created network effects, right? Even if you don't necessarily trust her, you're seeing people in your feed that resonate with you. If they're posting their work and you're watching their feedback, their improvement, their changes — it's social proof."
+  },
+  {
+   "time": "5:33",
+   "speaker": "Nola Simon",
+   "text": "And so I'd argue it's the flexibility of what she's designed: it's not based solely on her own credibility, but on that of the network she's created. What she's teaching is really low lift, and it's actually in demand, because everybody is a little gun-shy about AI slop — about how they're showing up authentically, and how you prove that whatever you're creating isn't based in AI but represents a skill and a point of view that's specific to you and can't be replicated in any other way."
+  },
+  {
+   "time": "6:20",
+   "speaker": "Nola Simon",
+   "text": "Because the video and the opinions you're expressing are solely based on your own experience. She's not telling you what to say — it's based in your own niche. What she's encouraging you to do is build out the skill of speaking your mind and posting it, being comfortable on camera, demonstrating improvement, and warming up your own individual audience, whatever that topic may be."
+  },
+  {
+   "time": "6:49",
+   "speaker": "Nola Simon",
+   "text": "So in that case it's kind of genius, because she's not specifically tying herself to a niche like marketing or anything in particular. It's anybody who really wants to show up online because they want people to see them, they want to be perceived, and they want to own their presence — and that comes through in how you look, how you sound, what your voice is, what your hand gestures are."
+  },
+  {
+   "time": "7:25",
+   "speaker": "Nola Simon",
+   "text": "Video captures that in a way that audio doesn't. And I love audio. I can do video — I choose audio more often, especially because I like longer content. But the interesting part of this whole challenge is why so many people trusted it. And that's what we can look at if we were going to actually bring this sort of thing into corporate."
+  },
+  {
+   "time": "7:59",
+   "speaker": "Nola Simon",
+   "text": "If you're a manager, or someone who's trying to get people engaged in your company — you're trying to build reputation, you're trying to improve trust and engagement, or you're in charge of communication or marketing — this type of challenge would actually be kind of cool to run in a corporation. Because when it comes to trust, your employees are actually more trusted than executives."
+  },
+  {
+   "time": "8:38",
+   "speaker": "Nola Simon",
+   "text": "Personal employee profiles that are posting authentic, unscripted content are incredibly valuable for trust and reputation. And that's something I've talked about for a long time. I've interviewed many different people about personal brand and how to create it — Cher Jones in particular."
+  },
+  {
+   "time": "9:03",
+   "speaker": "Nola Simon",
+   "text": "Video is a huge part of that. It's something I did in my corporate career: how do you engage online in social media and get to be well known by employees across the organization, across the world, in the context of that corporation?"
+  },
+  {
+   "time": "9:41",
+   "speaker": "Nola Simon",
+   "text": "Quite honestly, I've been gone from that position for over five years now, and for the longest time — I'd say three and a half years — anytime anybody left that company, a lot of times what they did was reach out to me, because they trusted me. And I solely attribute that to the work I had done online to build a personal brand, and internally to build that brand as well."
+  },
+  {
+   "time": "10:35",
+   "speaker": "Nola Simon",
+   "text": "So although she designed this challenge for small business, for people building thought leadership, for academics looking to be more approachable, even for executives wanting to be more comfortable with that type of online presence — it can be repurposed into a corporate initiative as well. It raises your profile, it allows you to demonstrate your expertise, and it shows why your point of view — how you actually see the world and apply that expertise — is so valuable."
+  },
+  {
+   "time": "11:10",
+   "speaker": "Nola Simon",
+   "text": "When people are feeling uncertain about what the world of work is, what employment opportunities are going to look like, how AI is affecting everything — leaning into a challenge that demonstrates you're invested in developing skills, that you understand the value of personal brand and how it can impact career and confidence, is an investment that's relatively low lift. That would be an excellent thing to invest in for your employees and to run a challenge on. Some of your employees are probably already in that challenge, developing those skills anyway — whether you approve it or not. But is it actually benefiting your company? How do you repurpose that? And what does that say for trust?"
+  },
+  {
+   "time": "11:32",
+   "speaker": "Nola Simon",
+   "text": "Now, this can be run on any social media platform, but imagine the impact of your employees posting something like this publicly on LinkedIn. What does that do for your employer brand? When potential people are looking to work with your company and they see a whole bunch of employees who are really active online — which you can then feature on your employer profile — that's valuable. And again, it comes back to trust."
+  },
+  {
+   "time": "12:11",
+   "speaker": "Nola Simon",
+   "text": "When people are looking for testimonials — clients, stakeholders, potential employees, anybody who's interested in working with your company — that is all publicly available information that you can feature to build up your employer brand. And if you already have an employee advocacy program, where you're teaching people how to use online reputation tools and you've already invested in social media sharing, how cool would it be to actually be topical and run a somewhat similar challenge?"
+  },
+  {
+   "time": "13:06",
+   "speaker": "Nola Simon",
+   "text": "One designed to demonstrate skills in video and presence and point of view, developing thought leadership — and how does that actually improve engagement and trust? I think it would be a fun experiment to run anyway. You can test it out, because people are very uncertain with what's happening, and this type of skill development gives them something that they feel they can control."
+  },
+  {
+   "time": "13:38",
+   "speaker": "Nola Simon",
+   "text": "And if you're running it and sponsoring it from a corporate aspect, and they feel safe to do it with your blessing — I mean, it doesn't have to be public. You can make it all private and run it on corporate internal systems. If you use Slack internally, for example, you could run a Slack challenge across multiple different teams and do it internally."
+  },
+  {
+   "time": "14:05",
+   "speaker": "Nola Simon",
+   "text": "So it doesn't necessarily have to be public — and then you could choose the best of the best and run a competition to see what actually happens publicly. You could do it in many different ways, but I think that would be kind of a cool initiative."
+  },
+  {
+   "time": "14:23",
+   "speaker": "Nola Simon",
+   "text": "It's very optimistic for the future, and it wouldn't cost a lot, especially if you already have some of the foundations in place to be able to invest in those skills — as I mentioned, employee advocacy. So: are you planning to do your own YAP challenge? Have you signed up personally for it?"
+  },
+  {
+   "time": "14:47",
+   "speaker": "Nola Simon",
+   "text": "What are the transferable skills that you're seeing, even from the social proof that's being shared about the challenge? What are you admiring about it, and what are the drawbacks? I'm interested in it because I also looked into all the systems that are supporting it as well."
+  },
+  {
+   "time": "15:13",
+   "speaker": "Nola Simon",
+   "text": "And that's where I'm interested in the groundwork that she laid to be successful, and in envisioning a future that exceeded her expectations — that's kind of cool, right? So I'm not participating in the challenge itself, but I am interested in what we can learn from it and how that builds for the future."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "What is it about her specifically that people trusted? I'd argue it's probably not necessarily her, but how it made them feel.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": [
+  {
+   "label": "How This Creator Turned Yapping on Camera Into a 4,000-Customer, $1.2 Million Launch",
+   "type": "Article",
+   "url": "https://www.inc.com/ashley-couto/jessi-jean-home-40-day-yap-challenge-direct-camera-videos/91366033",
+   "note": "Ashley Couto's Inc. profile of the launch and its numbers."
+  },
+  {
+   "label": "Yap On Camera — the challenge",
+   "type": "Program",
+   "url": "https://jessijean.com/challenge",
+   "note": null
+  }
+ ],
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Your Brand At Work — with Cher Jones",
+   "url": "/podcast/your-brand-at-work"
+  },
+  {
+   "title": "Witnessed Trust",
+   "url": "/podcast/witnessed-trust-pr-crisis-pop-star-stadium"
+  },
+  {
+   "title": "Cognitive Weaning — the yapping-economy essay",
+   "url": "/blog/cognitive-weaning"
+  }
+ ]
+}
