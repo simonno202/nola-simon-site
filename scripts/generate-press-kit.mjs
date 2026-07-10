@@ -127,8 +127,8 @@ thinDivider();
 heading("Credentials", 11);
 bullet("20+ years across five large organizations in strategy, communications, and leadership");
 bullet("LinkedIn Top Voice 2024 & 2025");
-bullet("Keynote speaker at Elevate Festival, Future of Work conferences, and enterprise events across North America");
-bullet("Host of the Hope + Possibilities podcast (109+ episodes)");
+bullet("Panelist at Elevate TechFest; speaker at Future of Work conferences and enterprise events across North America");
+bullet("Host of the Hope + Possibilities podcast (100+ episodes)");
 bullet("Writer on Substack covering self-trust, leadership, and the future of work");
 
 thinDivider();
