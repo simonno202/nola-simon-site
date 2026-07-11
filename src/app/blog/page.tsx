@@ -14,6 +14,16 @@ export const metadata: Metadata = {
   },
 };
 
+const LIVE_LAUNCH = {
+  slug: "assumption-ground-audit-live-launch-yap-challenge",
+  title: "An Assumption-Ground Audit of a Live Launch",
+  meta: "Case Study · Assumption-Ground Audit · July 11, 2026",
+  description:
+    "The YAP Challenge: $1.2 million in its first cohort, over $6 million in its second — then buyer discontent in a strange shape. Nobody accused her of lying, and people felt deceived anyway.",
+  description2:
+    "The case run formally through the AGA constraint taxonomy: Fixed, Protected, and Unexamined constraints, all classifiable at checkout — before commitment.",
+};
+
 const CORNERSTONE = {
   slug: "pediculosis-and-change",
   title: "The $30 Million Assumption Nobody Checked",
@@ -187,6 +197,41 @@ export default function WritingPage() {
               worth saying. Not on a schedule.
             </p>
           </div>
+        </div>
+      </SectionWrapper>
+
+      {/* ── New: Live Launch Case Study ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>NEW — CASE STUDY</Eyebrow>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              {LIVE_LAUNCH.meta}
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              {LIVE_LAUNCH.title}
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              {LIVE_LAUNCH.description}
+            </p>
+            <p className="mt-2 text-[14px] leading-relaxed text-text-secondary">
+              {LIVE_LAUNCH.description2}
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2">
+              <Link
+                href={`/blog/${LIVE_LAUNCH.slug}`}
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the case study &rarr;
+              </Link>
+              <Link
+                href="/aga"
+                className="font-mono text-[11px] tracking-[0.05em] text-text-muted hover:text-navy transition-colors"
+              >
+                Explore the AGA &rarr;
+              </Link>
+            </div>
+          </Card>
         </div>
       </SectionWrapper>
 
