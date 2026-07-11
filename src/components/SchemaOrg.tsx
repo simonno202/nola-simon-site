@@ -150,12 +150,16 @@ export function ArticleSchema({
   datePublished,
   slug,
   image,
+  about,
+  citation,
 }: {
   title: string;
   description: string;
   datePublished: string;
   slug: string;
   image?: string;
+  about?: string[];
+  citation?: string[];
 }) {
   const imageUrl = image
     ? image.startsWith("http")
@@ -188,6 +192,10 @@ export function ArticleSchema({
       "@type": "WebPage",
       "@id": `https://nolasimon.com/blog/${slug}`,
     },
+    ...(about && about.length > 0
+      ? { about: about.map((name) => ({ "@type": "Thing", name })) }
+      : {}),
+    ...(citation && citation.length > 0 ? { citation } : {}),
   };
 
   return (

@@ -53,6 +53,12 @@ const agaEssays = [
     href: "/blog/pediculosis-and-change",
   },
   {
+    title: "An Assumption-Ground Audit of a Live Launch",
+    description:
+      "The YAP Challenge: $1.2 million in the first cohort, over $6 million in the second, then buyer discontent nobody could name as a lie. The audit applied to a live launch — Fixed, Protected, and Unexamined constraints, all visible at checkout.",
+    href: "/blog/assumption-ground-audit-live-launch-yap-challenge",
+  },
+  {
     title: "Foregone Conclusions Gone Wrong",
     description:
       "The assessor didn't look at me once. The insurance company had already sent their determination before I sat down in that chair. What the AGA asks when the process itself is the problem.",
@@ -1167,9 +1173,10 @@ export default function AGAPage() {
             <p>
               Start with the No-Go Zone &mdash; where an organization&rsquo;s
               real constraints hide behind its stated ones. Then the worked
-              examples: a $30 million assumption nobody checked, a process built
-              to look like discovery, and the audit that&rsquo;s hardest to run
-              &mdash; the one you do on yourself.
+              examples: a $30 million assumption nobody checked, a $6 million
+              launch audited in public, a process built to look like discovery,
+              and the audit that&rsquo;s hardest to run &mdash; the one you do
+              on yourself.
             </p>
           </div>
           <div className="aga-essays">

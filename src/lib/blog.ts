@@ -12,6 +12,8 @@ export interface PostMeta {
   tags?: string[];
   keywords?: string[];
   ogImage?: string;
+  about?: string[];
+  citations?: string[];
 }
 
 export interface Post {
@@ -23,6 +25,8 @@ export interface Post {
   tags: string[];
   keywords: string[];
   ogImage?: string;
+  about: string[];
+  citations: string[];
   content: string;
 }
 
@@ -49,6 +53,8 @@ export function getPost(slug: string): Post {
     tags: frontmatter.tags ?? [],
     keywords: frontmatter.keywords ?? [],
     ogImage: frontmatter.ogImage,
+    about: frontmatter.about ?? [],
+    citations: frontmatter.citations ?? [],
     content,
   };
 }

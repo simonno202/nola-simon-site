@@ -90,6 +90,8 @@ export default async function BlogPostPage({
         datePublished={post.date}
         slug={slug}
         image={post.ogImage}
+        about={post.about}
+        citation={post.citations}
       />
       <SectionWrapper className="bg-cream py-12 lg:py-20 animate-hero-in">
         <div style={{ maxWidth: "var(--max-width-reading)" }}>
