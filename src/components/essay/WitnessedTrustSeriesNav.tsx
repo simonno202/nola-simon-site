@@ -41,6 +41,11 @@ const SERIES = [
     label: "What, Like It's Hard?",
     num: 8,
   },
+  {
+    slug: "/blog/transparency-is-not-trust",
+    label: "Transparency Is Not Trust",
+    num: 9,
+  },
 ];
 
 interface WitnessedTrustSeriesNavProps {

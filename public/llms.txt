@@ -49,3 +49,5 @@
 - [Everyday Futurism: A Practice, Not a Prediction](https://nolasimon.com/blog/everyday-futurism-a-practice-not-a-prediction): The foundational essay
 - [Stability Has Always Been An Illusion](https://nolasimon.com/blog/stability-has-always-been-an-illusion): The origin story of the practice
 - [Who Gets to Be Trusted Now?](https://nolasimon.com/blog/who-gets-to-be-trusted-now): Part 1 of the Witnessed Trust series
+- [Transparency Is Not Trust](https://nolasimon.com/blog/transparency-is-not-trust): Why full disclosure couldn't stop YAP Challenge buyers feeling deceived — the duck-rabbit model of positioning
+- [An Assumption-Ground Audit of a Live Launch](https://nolasimon.com/blog/assumption-ground-audit-live-launch-yap-challenge): The YAP Challenge run through the AGA in real time — Fixed, Protected, and Unexamined constraints in a $6M case

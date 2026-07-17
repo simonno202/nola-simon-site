@@ -270,6 +270,42 @@ export function StabilityFAQ() {
   );
 }
 
+export function TransparencyFAQ() {
+  const faqs = [
+    {
+      question: "Does transparency build trust?",
+      answer: "Not by itself. Transparency is an input; trust is an interpretation. In the YAP Challenge case, creator Jessi Jean disclosed her prior business, her twelve years working online, and her professional coaching support, and a visible wave of buyers still felt deceived. Disclosure is what you put in the drawing; understanding is what people see in it.",
+    },
+    {
+      question: "Why did YAP Challenge buyers feel deceived?",
+      answer: "Not because facts were hidden. Nobody disputed the receipts or accused Jessi Jean of lying. Buyers had accepted a kinship positioning (I am just like you, a bit further ahead) and then registered the infrastructure behind it: twelve years online, roughly 400,000 followers, a coach, and funnel experts. The grievance was about who buyers believed she was, not about the facts, which were public all along. The full case is examined in An Assumption-Ground Audit of a Live Launch at https://nolasimon.com/blog/assumption-ground-audit-live-launch-yap-challenge.",
+    },
+    {
+      question: "What is the duck-rabbit illusion?",
+      answer: "A drawing first published in a German humor magazine in 1892 and later made famous by the psychologist Joseph Jastrow. The same lines read as either a duck or a rabbit; both animals are fully present, but a viewer can only see one at a time. Nola Simon uses it as a model for positioning: any positioning strong enough to attract people holds more than one reading, and each audience resolves it privately.",
+    },
+    {
+      question: "What is a two-way scrutiny discount?",
+      answer: "The effect a low price has on examination in both directions. Before purchase, the risk feels too small to interrogate, so buyers skip due diligence. After purchase, the same figure suppresses grievance, because complaints feel disproportionate to the amount spent. In the YAP Challenge case, the $297 price worked this way on both sides of the transaction.",
+    },
+  ];
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    })),
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 export function FAQSchema({ faqs }: { faqs?: { question: string; answer: string }[] }) {
   if (!faqs?.length) return null;
   const schema = {
