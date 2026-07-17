@@ -282,7 +282,7 @@ export function TransparencyFAQ() {
     },
     {
       question: "What is the duck-rabbit illusion?",
-      answer: "A drawing first published in a German humor magazine in 1892 and later made famous by the psychologist Joseph Jastrow. The same lines read as either a duck or a rabbit; both animals are fully present, but a viewer can only see one at a time. Nola Simon uses it as a model for positioning: any positioning strong enough to attract people holds more than one reading, and each audience resolves it privately.",
+      answer: "A drawing first published in a German humor magazine in 1892 and later made famous by the psychologist Joseph Jastrow. The same lines read as either a duck or a rabbit; both animals are fully present, but a viewer can only see one at a time. Nola Simon uses it as a model for positioning (she calls it the duck-bunny): any positioning strong enough to attract people holds more than one reading, and each audience resolves it privately.",
     },
     {
       question: "What is a two-way scrutiny discount?",
