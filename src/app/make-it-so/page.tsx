@@ -142,10 +142,10 @@ const tiers = [
     name: "Program + 1:1",
     price: "3,200",
     badge: "By application",
-    desc: "Everything above, plus two private 30-minute sessions with Nola over Telegram — the Assumption-Ground Audit run directly on your specific context, not a composite. By application. Not gatekeeping for its own sake: this tier only works if the situation it's applied to is actually the right kind of situation, and that's worth a short conversation before committing.",
+    desc: "Everything above, plus two private one-hour sessions with Nola over Telegram — the Assumption-Ground Audit run directly on your specific context, not a composite. By application. Not gatekeeping for its own sake: this tier only works if the situation it's applied to is actually the right kind of situation, and that's worth a short conversation before committing.",
     includes: [
       "Everything in Program + Office Hours",
-      "Two private 30-minute 1:1 sessions with Nola",
+      "Two private one-hour 1:1 sessions with Nola",
       "The AGA run on your real situation — before it hardens into a commitment",
     ],
     cta: { label: "Apply for the 1:1 tier", href: APPLY_MAILTO, primary: false },
@@ -167,7 +167,7 @@ const faqs = [
   },
   {
     q: "What's the difference between the three tiers?",
-    a: "Program ($1,600 CAD) is the full seminar: the Telegram cohort, all four acts, and two live recorded sessions. Program + Office Hours ($2,400 CAD) adds standing weekly live office hours — real-time back-and-forth while you're still working something out. Program + 1:1 ($3,200 CAD) adds two private 30-minute sessions where the Assumption-Ground Audit gets run directly on your specific situation. The 1:1 tier is by application — a short conversation first, because it only works if the situation is the right kind of situation. All twenty seats sit across the three tiers combined, all at the founding cohort rate.",
+    a: "Program ($1,600 CAD) is the full seminar: the Telegram cohort, all four acts, and two live recorded sessions. Program + Office Hours ($2,400 CAD) adds standing weekly live office hours — real-time back-and-forth while you're still working something out. Program + 1:1 ($3,200 CAD) adds two private one-hour sessions where the Assumption-Ground Audit gets run directly on your specific situation. The 1:1 tier is by application — a short conversation first, because it only works if the situation is the right kind of situation. All twenty seats sit across the three tiers combined, all at the founding cohort rate.",
   },
   {
     q: "What does my practice actually look like at the end?",
@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     q: "How much direct access do I get to Nola?",
-    a: "Every tier includes the Telegram cohort, where Nola responds to your thinking specifically, plus two live group sessions with time for questions. The Program + Office Hours tier adds weekly live office hours across the 8 weeks. The Program + 1:1 tier adds two private 30-minute sessions over Telegram — the Assumption-Ground Audit run on your real context, your real constraints, your actual organization.",
+    a: "Every tier includes the Telegram cohort, where Nola responds to your thinking specifically, plus two live group sessions with time for questions. The Program + Office Hours tier adds weekly live office hours across the 8 weeks. The Program + 1:1 tier adds two private one-hour sessions over Telegram — the Assumption-Ground Audit run on your real context, your real constraints, your actual organization.",
   },
   {
     q: "What's the refund policy?",
