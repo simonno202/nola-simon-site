@@ -37,6 +37,7 @@ export const metadata: Metadata = {
 
 const WAITLIST_MAILTO =
   "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%20Waitlist";
+const PROGRAM_STRIPE = "https://buy.stripe.com/3cI14oaHq9UYcyr5rQenS06";
 const APPLY_MAILTO =
   "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%201%3A1%20Tier%20Application";
 
@@ -122,7 +123,7 @@ const tiers = [
       "All program content across the four acts",
       "Two live Google Meet sessions — recorded, rotating time zones",
     ],
-    cta: { label: "Reserve your spot", href: WAITLIST_MAILTO, primary: false },
+    cta: { label: "Enroll now", href: PROGRAM_STRIPE, primary: false },
   },
   {
     name: "Program + Office Hours",
