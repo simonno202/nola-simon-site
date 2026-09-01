@@ -3,6 +3,7 @@ export const NAV_ITEMS = [
   { label: "About", href: "/about" },
   { label: "Advisory & Speaking", href: "/advisory-speaking" },
   { label: "The AGA", href: "/aga" },
+  { label: "Make It So", href: "/make-it-so" },
   { label: "Media", href: "/media" },
   { label: "Podcast", href: "/podcast" },
   { label: "Writing", href: "/blog" },
