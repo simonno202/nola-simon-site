@@ -91,6 +91,11 @@ const nextConfig: NextConfig = {
         destination: '/trust-signal-quiz',
         permanent: true,
       },
+      {
+        source: '/make-it-so.html',
+        destination: '/make-it-so',
+        permanent: true,
+      },
     ];
   },
 };
