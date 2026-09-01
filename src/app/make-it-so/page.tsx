@@ -39,8 +39,7 @@ const PROGRAM_STRIPE = "https://buy.stripe.com/3cI14oaHq9UYcyr5rQenS06";
 const OFFICE_HOURS_STRIPE = "https://buy.stripe.com/00w7sMeXG5EI9mf2fEenS07";
 // 1:1 tier checkout — sent manually to approved applicants, not linked on the page:
 // https://buy.stripe.com/eVqcN602Mgjm41V5rQenS08
-const APPLY_MAILTO =
-  "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%201%3A1%20Tier%20Application";
+const APPLY_FORM = "https://form.typeform.com/to/QieqwFRC";
 
 const forYou = [
   "You lead — by title or by practice — and you take that seriously regardless of what your org chart says",
@@ -148,7 +147,7 @@ const tiers = [
       "Two private one-hour 1:1 sessions with Nola",
       "The AGA run on your real situation — before it hardens into a commitment",
     ],
-    cta: { label: "Apply for the 1:1 tier", href: APPLY_MAILTO, primary: false },
+    cta: { label: "Apply for the 1:1 tier", href: APPLY_FORM, primary: false },
   },
 ];
 
@@ -1306,7 +1305,7 @@ export default function MakeItSoPage() {
               <a href="#tiers" className="mis-btn mis-btn-primary">
                 Choose your tier &rarr;
               </a>
-              <a href={APPLY_MAILTO} className="mis-btn mis-btn-outline">
+              <a href={APPLY_FORM} className="mis-btn mis-btn-outline">
                 Apply for the 1:1 tier &rarr;
               </a>
             </div>
