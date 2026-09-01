@@ -38,6 +38,7 @@ export const metadata: Metadata = {
 const WAITLIST_MAILTO =
   "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%20Waitlist";
 const PROGRAM_STRIPE = "https://buy.stripe.com/3cI14oaHq9UYcyr5rQenS06";
+const OFFICE_HOURS_STRIPE = "https://buy.stripe.com/00w7sMeXG5EI9mf2fEenS07";
 const APPLY_MAILTO =
   "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%201%3A1%20Tier%20Application";
 
@@ -135,7 +136,7 @@ const tiers = [
       "Weekly live office hours, all 8 weeks",
       "Real-time pushback while the thinking is still forming",
     ],
-    cta: { label: "Reserve your spot", href: WAITLIST_MAILTO, primary: true },
+    cta: { label: "Enroll now", href: OFFICE_HOURS_STRIPE, primary: true },
   },
   {
     name: "Program + 1:1",
