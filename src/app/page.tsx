@@ -28,6 +28,17 @@ export default function HomePage() {
       <SectionWrapper className="bg-cream py-12 lg:py-20 xl:py-28 animate-hero-in">
         <div className="grid gap-8 lg:grid-cols-[1fr_420px] lg:items-center lg:gap-10">
           <div>
+            <a
+              href="/make-it-so"
+              className="mb-5 flex w-fit items-center gap-3 rounded-full border border-pink bg-pink/10 px-5 py-2.5 text-[12px] font-semibold uppercase tracking-wider text-pink transition-colors hover:bg-pink hover:text-cream"
+            >
+              <span className="relative flex h-2.5 w-2.5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-pink opacity-75" />
+                <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-pink" />
+              </span>
+              Enrollment Now Open &mdash; Make It So &middot; September 2026
+            </a>
+
             <Eyebrow>KEYNOTE SPEAKER &amp; STRATEGIC FUTURIST</Eyebrow>
 
             <h1

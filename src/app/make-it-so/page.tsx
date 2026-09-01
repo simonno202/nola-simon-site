@@ -4,7 +4,7 @@ import MakeItSoFaq from "./MakeItSoFaq";
 export const metadata: Metadata = {
   title: "Make It So — An 8-Week Seminar for Leaders | Nola Simon",
   description:
-    "Make It So is an 8-week seminar that builds a futurism practice underneath the instincts you already have. September 2026 cohort, capped at 20. Built on the Assumption-Ground Audit.",
+    "Make It So is an 8-week seminar that builds a futurism practice underneath the instincts you already have. Enrollment now open for the September 2026 cohort, capped at 20. Built on the Assumption-Ground Audit.",
   keywords: [
     "make it so",
     "futurism seminar",
@@ -23,22 +23,22 @@ export const metadata: Metadata = {
     url: "https://nolasimon.com/make-it-so",
     title: "Make It So — An 8-Week Seminar for Leaders",
     description:
-      "Futurism doesn't require a crystal ball — it requires a practice. September 2026 cohort, capped at 20.",
+      "Futurism doesn't require a crystal ball — it requires a practice. Enrollment now open for the September 2026 cohort, capped at 20.",
     images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Make It So — An 8-Week Seminar for Leaders",
     description:
-      "Futurism doesn't require a crystal ball — it requires a practice. September 2026 cohort, capped at 20.",
+      "Futurism doesn't require a crystal ball — it requires a practice. Enrollment now open for the September 2026 cohort, capped at 20.",
     images: ["/opengraph-image"],
   },
 };
 
-const WAITLIST_MAILTO =
-  "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%20Waitlist";
 const PROGRAM_STRIPE = "https://buy.stripe.com/3cI14oaHq9UYcyr5rQenS06";
 const OFFICE_HOURS_STRIPE = "https://buy.stripe.com/00w7sMeXG5EI9mf2fEenS07";
+// 1:1 tier checkout — sent manually to approved applicants, not linked on the page:
+// https://buy.stripe.com/eVqcN602Mgjm41V5rQenS08
 const APPLY_MAILTO =
   "mailto:nola@everydayfuturism.ca?subject=Make%20It%20So%20%E2%80%94%201%3A1%20Tier%20Application";
 
@@ -163,7 +163,7 @@ const faqs = [
   },
   {
     q: "How much time does this take per week?",
-    a: "Roughly 2-3 hours per week. Most of that happens in Telegram — Nola leads thinking, shares models in progress, and opens threads the cohort takes somewhere. You engage on your own schedule. The two live Google Meet sessions are 90 minutes each, recorded for any time zone that can't make it live.",
+    a: "Roughly 2-3 hours per week. Most of that happens in Telegram — Nola leads thinking, shares models in progress, and opens threads the cohort takes somewhere. You engage on your own schedule. The two live Google Meet sessions are one hour each, recorded for any time zone that can't make it live.",
   },
   {
     q: "What's the difference between the three tiers?",
@@ -739,20 +739,20 @@ export default function MakeItSoPage() {
                 September <span>2026</span> &nbsp;&middot;&nbsp; Capped at 20
               </div>
             </div>
-            <div id="waitlist" style={{ maxWidth: 480 }}>
+            <div id="enroll-hero" style={{ maxWidth: 480 }}>
               <div className="mis-label" style={{ marginBottom: 16 }}>
-                Join the waitlist
+                Enrollment now open
               </div>
               <p style={{ fontSize: 15, marginBottom: 24 }}>
-                The September cohort opens to the waitlist before it's announced
-                publicly. Waitlist gets first access — at the founding cohort
-                rate.
+                Enrollment for the September 2026 cohort is open. Twenty seats
+                across three tiers, all at the founding cohort rate.
               </p>
-              <a href={WAITLIST_MAILTO} className="mis-btn mis-btn-primary">
-                Reserve your spot &rarr;
+              <a href="#tiers" className="mis-btn mis-btn-primary">
+                Choose your tier &rarr;
               </a>
               <p className="mis-fine">
-                Email Nola directly. You'll hear back within 24 hours.
+                Questions? Email Nola directly — you'll hear back within 24
+                hours.
               </p>
             </div>
           </div>
@@ -1297,14 +1297,14 @@ export default function MakeItSoPage() {
         <section className="mis-section" id="enroll">
           <div className="mis-container">
             <div className="mis-label">September 2026</div>
-            <h2>The next cohort opens before it's announced.</h2>
+            <h2>Enrollment is open.</h2>
             <p>
-              Waitlist gets first access at the founding cohort rate. Twenty
-              seats, across all three tiers.
+              Twenty seats, across all three tiers, at the founding cohort
+              rate.
             </p>
             <div style={{ marginTop: 32, display: "flex", gap: 12, flexWrap: "wrap" }}>
-              <a href={WAITLIST_MAILTO} className="mis-btn mis-btn-primary">
-                Reserve your spot &rarr;
+              <a href="#tiers" className="mis-btn mis-btn-primary">
+                Choose your tier &rarr;
               </a>
               <a href={APPLY_MAILTO} className="mis-btn mis-btn-outline">
                 Apply for the 1:1 tier &rarr;
@@ -1333,10 +1333,10 @@ export default function MakeItSoPage() {
               }}
             >
               <div className="mis-label" style={{ marginBottom: 16 }}>
-                Join the waitlist
+                Enrollment now open
               </div>
-              <a href={WAITLIST_MAILTO} className="mis-btn mis-btn-primary">
-                Reserve your spot &rarr;
+              <a href="#tiers" className="mis-btn mis-btn-primary">
+                Choose your tier &rarr;
               </a>
               <p className="mis-fine">
                 Questions?{" "}

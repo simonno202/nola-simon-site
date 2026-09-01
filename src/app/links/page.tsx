@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const ctaLinks = [
   {
-    label: "Make It So — Coming September 2026 · Join the Waitlist",
+    label: "Make It So — Enrollment Now Open · September 2026",
     href: "https://nolasimon.com/make-it-so",
   },
   {
