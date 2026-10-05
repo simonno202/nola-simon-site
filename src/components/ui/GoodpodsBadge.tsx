@@ -7,10 +7,12 @@ type BadgeVariant = "full" | "compact" | "inline";
 interface GoodpodsBadgeProps {
   variant?: BadgeVariant;
   className?: string;
+  /** Include badges shown only on the podcast page */
+  includePodcastOnly?: boolean;
 }
 
 const PODCAST_URL =
-  "https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061";
+  "https://goodpods.com/podcasts/hope-possibilities-trust-leadership-strategic-foresight-198061";
 
 const BADGES = [
   {
@@ -37,6 +39,24 @@ const BADGES = [
     alt: "Goodpods Top 100 Business Indie Podcasts",
     label: "Top 100 Business (Indie)",
   },
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/other/investigative-journalism?indie=false&period=alltime#104518081",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/overall_top50.png",
+    alt: "Goodpods Top 50 Investigative Journalism Podcasts",
+    label: "Top 50 Investigative Journalism",
+    podcastOnly: true,
+  },
+  {
+    leaderboardUrl:
+      "https://goodpods.com/leaderboard/top-100-shows-by-category/other/writing?indie=false&period=alltime#104555622",
+    imgSrc:
+      "https://storage.googleapis.com/goodpods-images-bucket/leaderboard_badges/overall_top10.png",
+    alt: "Goodpods Top 10 Writing Podcasts",
+    label: "Top 10 Writing",
+    podcastOnly: true,
+  },
 ];
 
 // Primary badge used for compact inline contexts
@@ -45,7 +65,9 @@ const PRIMARY = BADGES[0];
 export function GoodpodsBadge({
   variant = "compact",
   className = "",
+  includePodcastOnly = false,
 }: GoodpodsBadgeProps) {
+  const badges = BADGES.filter((b) => includePodcastOnly || !b.podcastOnly);
   const [failedSrcs, setFailedSrcs] = useState<Set<string>>(new Set());
 
   const handleError = (src: string) =>
@@ -81,7 +103,7 @@ export function GoodpodsBadge({
 
   // Compact: all badges in a wrap row + listen link — used on About page
   if (variant === "compact") {
-    const visible = BADGES.filter((b) => !failedSrcs.has(b.imgSrc));
+    const visible = badges.filter((b) => !failedSrcs.has(b.imgSrc));
     if (visible.length === 0)
       return (
         <div className={className}>
@@ -130,7 +152,7 @@ export function GoodpodsBadge({
   }
 
   // Full: all badges in a card grid — used on podcast/landing pages
-  const visible = BADGES.filter((b) => !failedSrcs.has(b.imgSrc));
+  const visible = badges.filter((b) => !failedSrcs.has(b.imgSrc));
   if (visible.length === 0)
     return (
       <div className={`rounded-xl border border-border bg-surface px-5 py-4 ${className}`}>

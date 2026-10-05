@@ -40,7 +40,7 @@ const podcastLinks = [
   },
   {
     label: "Goodpods",
-    href: "https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061",
+    href: "https://goodpods.com/podcasts/hope-possibilities-trust-leadership-strategic-foresight-198061",
     icon: "goodpods",
   },
 ];

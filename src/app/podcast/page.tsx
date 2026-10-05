@@ -109,7 +109,7 @@ export default function PodcastPage() {
               Spotify
             </Button>
             <Button
-              href="https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061"
+              href="https://goodpods.com/podcasts/hope-possibilities-trust-leadership-strategic-foresight-198061"
               variant="secondary"
               external
             >
@@ -121,7 +121,7 @@ export default function PodcastPage() {
             Made in Canada&nbsp;&middot;&nbsp;{EPISODES.length} Episodes&nbsp;&middot;&nbsp;{guestCount} Guest&nbsp;&middot;&nbsp;{soloCount} Solo
           </p>
 
-          <GoodpodsBadge variant="compact" className="mt-5" />
+          <GoodpodsBadge variant="compact" className="mt-5" includePodcastOnly />
 
           <a
             href="https://www.listennotes.com/podcasts/hope-possibilties-a-love-letter-to-the-nHWeA2OGmD-/"

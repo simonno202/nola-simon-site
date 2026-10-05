@@ -42,7 +42,7 @@ export function PersonSchema() {
       "https://ca.pinterest.com/EverydayFuturism/",
       "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
       "https://podcasts.apple.com/us/podcast/id1602822494",
-      "https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061",
+      "https://goodpods.com/podcasts/hope-possibilities-trust-leadership-strategic-foresight-198061",
       "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work",
     ],
     subjectOf: MEDIA_FEATURES.filter(
@@ -132,7 +132,7 @@ export function PodcastSchema() {
     sameAs: [
       "https://podcasts.apple.com/us/podcast/id1602822494",
       "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
-      "https://goodpods.com/podcasts/hope-possibilties-a-love-letter-to-the-future-of-work-198061",
+      "https://goodpods.com/podcasts/hope-possibilities-trust-leadership-strategic-foresight-198061",
     ],
   };
 
