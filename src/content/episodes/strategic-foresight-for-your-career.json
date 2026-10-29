@@ -1,0 +1,308 @@
+{
+ "number": null,
+ "slug": "strategic-foresight-for-your-career",
+ "title": "Strategic Foresight for Your Career: Planning When Planning Feels Impossible",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2026-10-06",
+ "publishDateHuman": "October 6, 2026",
+ "updatedDate": "2026-10-29",
+ "updatedDateHuman": "October 29, 2026",
+ "duration": "22 min",
+ "durationISO": "PT22M7S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/ca/podcast/strategic-foresight-for-your-career-planning-when-planning/id1602822494?i=1000793497436",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Nola maintains that career development is a form of futurism. Starting from a Margaret Heffernan line about planning becoming harder than ever in an age of uncertainty, she looks at what strategic foresight means for a career when nobody can predict what AI or geopolitical tension will do. Then she gets personal: she and Keith just turned 55, her dad is 94, and her mom retired at 65 and died of dementia at 87. With longevity on her side, Nola expects to work into her mid-70s or early 80s and needs income streams that could carry her to 100. She talks about legacy, Lynda Gratton's threads that fuel a life, the gap between how retirement is sold and how it's lived, the sandwich-generation years, the loneliness of being out of sync with your age group, and why the human skills will matter more than technical ones as AI changes work. Her closest everyday practice of futurism is a choose-your-own-adventure: asking what changes if you change one piece of the story.",
+ "takeaways": [
+  "Career development is a form of futurism: you make decisions without knowing the future, so flexibility, adaptability and imagination become vital skills.",
+  "In stable times you can set a goal, follow the trends and land close to it. Now the question is what you have in place to keep moving forward while you pivot as things become clearer.",
+  "The people struggling most are often the ones who can't let go of the story of how things have always been, like retiring at 65.",
+  "Longevity changes the plan. Nola expects to keep working into her mid-70s or early 80s and is looking at income streams that could last to 100.",
+  "Without much extended family, and as a sole proprietor, Nola has to build friendship, belonging and the feeling of being witnessed on purpose.",
+  "Retirement is sold differently than it's lived; once \"retired\" replaces a job title, your knowledge can lose its place and your sense of self-worth can follow.",
+  "Life stages no longer line up across age groups, and that mismatch is where a lot of loneliness comes from.",
+  "Skills like mental agility, imagination, storytelling and self-understanding matter more than technical skills, which are the ones most at risk from AI."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "0:27",
+   "question": "Why does Nola call career development futurism?",
+   "answer": "She opens with Margaret Heffernan's line that in an age of uncertainty planning becomes harder than ever, if not impossible, so flexibility, adaptability and the imagination to consider what could happen become vital. Career development asks how you make decisions when you don't know the future and how you stay open to opportunity. For Nola, the practices that helped her understand herself led to podcasting, writing and LinkedIn Top Voice."
+  },
+  {
+   "timestamp": "6:07",
+   "question": "How does longevity change her own planning?",
+   "answer": "Nola and Keith just turned 55. Her dad is 94 and her mom died at 87, so she has longevity on her side, and she doesn't have the finances in place to stop working early. She expects to work until her mid-70s or early 80s and to need income streams that could get her to 100, which is why she's interested in Lynda Gratton's work on the 100-year life."
+  },
+  {
+   "timestamp": "11:09",
+   "question": "What is the retirement perception gap?",
+   "answer": "Nola has been reading The Old Grey Thinker, a former ship captain who writes on Substack about the distance between how retirement is sold and how it's lived. Once you're retired and no longer tied to a profession or job title, your knowledge has nowhere to go and nobody seeks it out. That raises the question of who you are if other people don't need you, which Nola has seen destabilize both her parents."
+  },
+  {
+   "timestamp": "18:26",
+   "question": "What does foresight look like as a regular practice?",
+   "answer": "Nola compares it to the choose-your-own-adventure books she loved as a kid. Rather than finding one answer, she looks at what changes if you change a piece of the story or make a different decision. She asks what has to be true for you to achieve what you want, whether you have alternative plans, and whether you're testing them. The only way to see around corners is to live it, try it, and be willing to adapt."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:27",
+   "label": "Margaret Heffernan on planning in uncertainty"
+  },
+  {
+   "time": "1:04",
+   "label": "Career development as futurism"
+  },
+  {
+   "time": "3:51",
+   "label": "Planning in stable versus uncertain times"
+  },
+  {
+   "time": "4:56",
+   "label": "Letting go of how things should be"
+  },
+  {
+   "time": "6:07",
+   "label": "Longevity and a 100-year life"
+  },
+  {
+   "time": "7:16",
+   "label": "Legacy and what I want more of"
+  },
+  {
+   "time": "9:13",
+   "label": "The threads that fuel your life"
+  },
+  {
+   "time": "11:09",
+   "label": "The retirement perception gap"
+  },
+  {
+   "time": "12:57",
+   "label": "Longevity rewrites the script"
+  },
+  {
+   "time": "14:44",
+   "label": "The sandwich generation"
+  },
+  {
+   "time": "15:21",
+   "label": "Out of sync and lonely"
+  },
+  {
+   "time": "17:49",
+   "label": "What has to be true"
+  },
+  {
+   "time": "18:26",
+   "label": "Choose your own adventure"
+  },
+  {
+   "time": "19:51",
+   "label": "Why the human skills matter more"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:27",
+   "speaker": "Nola Simon",
+   "text": "I'm Nola Simon. I'm the host of the Hope and Possibilities podcast. Today I wanna talk about foresight and how futurism really plays into planning and strategy, but it's not really what you think. I came across this quote from Margaret Heffernan. She's a leadership expert I follow, and she has this beautiful quote, \"In an age of uncertainty where so much is murky, planning becomes harder than ever, if not actually impossible."
+  },
+  {
+   "time": "1:04",
+   "speaker": "Nola Simon",
+   "text": "Flexibility, adaptability, and the imagination to consider what could happen become vital skills.\" So when you come into career development, this is more applicable than anything else, right? And it is a form of futurism. I maintain that career development is a form of futurism. How do you make decisions when you really don't know what the future is? How do you keep yourself open to opportunity and develop."
+  },
+  {
+   "time": "1:40",
+   "speaker": "Nola Simon",
+   "text": "And it comes down really to practicing flexibility and adaptability and how do you imagine? So what practices do you have in place that really stimulate your imagination of what's possible? A lot of what I've done personally is about tuning into what stimulates and supports my creativity what allows me to know who I am, so what practices get me closer to understanding myself, my motivation, my real skills which then allow me to test and experiment and try different things."
+  },
+  {
+   "time": "2:26",
+   "speaker": "Nola Simon",
+   "text": "This is where podcasting came from. This is where writing came from. This is where LinkedIn Top Voice came from because I was talking about and practicing different ways of working and different ways of influencing conversations so that I was actually amplifying the possibilities, right? So everybody's gonna be different with what these practices are because it's all based in who you are, what you value, what your skills are, what you know, who you know, and what you truly want."
+  },
+  {
+   "time": "3:11",
+   "speaker": "Nola Simon",
+   "text": "Like, where do you wanna go? What do you feel is success? And also, what do you need in the moment, right? Because it's… it can't just only ever be future-focused, right? So it's how do you take the foundations of who you are and your history, what you need at the moment, and what you're going to need for the future, and how do you actually build that out so that you've got strong foundations but robust possibilities, right?"
+  },
+  {
+   "time": "3:51",
+   "speaker": "Nola Simon",
+   "text": "And that's really what foresight comes into. It's in an age of stability, planning becomes different. It's like you have an idea, you see the possibilities about it, you look at the trends that you can see forming, you set a goal, and then you navigate towards that, and pretty much when things are stable, you can get pretty close to that. But in an age like today, when we really don't know what's happening, how is AI going to affect it?"
+  },
+  {
+   "time": "4:22",
+   "speaker": "Nola Simon",
+   "text": "How is geopolitical tension really gonna change things? We don't really know, and nobody really truly can predict with any certainty about how things are gonna do. But you can't really just stop living. You can't stop making choices and decisions. It's just what do you have in place that allows you to move forward but pivot and adjust as opportunities come your way and things become more clear."
+  },
+  {
+   "time": "4:56",
+   "speaker": "Nola Simon",
+   "text": "How do you make that decision? And a lot of what we're seeing with this is it's the people who aren't able to let go of the way things should be, the story of how things have always been the story of what things should be that are having a harder time with that flexibility and that adaptability. You should retire at age 65. What happens if the pension age changes? Governments are changing the retirement age to age 67."
+  },
+  {
+   "time": "5:31",
+   "speaker": "Nola Simon",
+   "text": "All of a sudden, that's a two-year gap where you either have to keep working or you're retiring early and it's affecting your pension calculations. Can you afford that? But it's also, what is your health? So my husband in particular, I realize he's got a very different perspective on retirement than I do because he has a very physical job. He does home renovations, and so he's constantly on his feet, and he's experiencing, issues with gout and arthritis."
+  },
+  {
+   "time": "6:07",
+   "speaker": "Nola Simon",
+   "text": "The concept of being close to retirement… We just turned 55, so I don't know that we're really close to retirement even by any stretch of imagination. But at least, at least 10 years if you're looking at that as age 65 as the retirement age. I personally don't think that I'm retiring probably until mid-70s, early 80s, because my dad is already 94 and my mom died at age 87. I've got longevity on my side."
+  },
+  {
+   "time": "6:42",
+   "speaker": "Nola Simon",
+   "text": "And I don't have the finances in place to be able to afford that at this moment, so I'm going to have to figure out income streams that'll get me to age probably 100. So that's why I'm very interested in what Lynda Gratton is writing about living the 100-year life. How do we prepare for that extra a set of working years nobody really ever planned for. And quite honestly, I, my mom died of dementia."
+  },
+  {
+   "time": "7:16",
+   "speaker": "Nola Simon",
+   "text": "She retired at age 65, and she was gone by 87. But I watched how she lived the last part of her life and I don't know that I want that. I don't know that I want 20 years of really doing nothing that's engaging and that has resonance and that has impact. So it's not that my mom did nothing. Like she was involved with my kids, she was involved with family. She had day-to-day activities."
+  },
+  {
+   "time": "8:00",
+   "speaker": "Nola Simon",
+   "text": "She did a lot of walking, she did a lot of reading. She followed the news, all that stuff. But if I look back in terms of legacy from a professional capacity I don't know that she had a memorable legacy. She took care of her family and she had enough. But if anybody remembers her, it's because of who she was individually and, how devoted she was to her family. And I feel like I want more so how do I get that?"
+  },
+  {
+   "time": "8:41",
+   "speaker": "Nola Simon",
+   "text": "And what does that mean for the next, say, 40 years of my life, 45 years of my life in terms of working and engaging and if you actually apply that to your own life too, right? What does that look like in terms of planning that out? My kids have told me that they don't necessarily wanna have kids, and, that's fine. I was the same at that age too. I didn't actually want kids until I was 29."
+  },
+  {
+   "time": "9:13",
+   "speaker": "Nola Simon",
+   "text": "So you never know what people are gonna do. It's the reality of what they do when it actually happens, right? Everybody makes decisions at different times of their lives. But they might not, right? So if they're making these different choices, it means that I won't have grandchildren around to spoil. It means that I have to look at the… what Lynda Gratton calls the threads that fuel your life, so intimacy and friendship and those nurture threads."
+  },
+  {
+   "time": "9:51",
+   "speaker": "Nola Simon",
+   "text": "Because I'm an only child, I don't have an awful lot of family. I have a cousin that I'm very close to. But my parents will… my dad's 94. There's a reality that's coming my way at some point. My aunts and uncles are starting to pass away. I just, I don't have extended family support. I have my children and my husband. And what does that look like? For me, that means that I really need to nurture friendships and colleagues."
+  },
+  {
+   "time": "10:25",
+   "speaker": "Nola Simon",
+   "text": "And as a sole proprietor, I don't necessarily have that in my life. So how do I structure my work in ways that aren't going to prioritize my ability to actually have people in my life that recognize me, that fuel my sense of belonging and relevance really. Like, how do I feel witnessed? How do I feel seen? I spent a lot of time actually reading about retirement because the reality of being retired is different than what the advertisements would have you believe, right?"
+  },
+  {
+   "time": "11:09",
+   "speaker": "Nola Simon",
+   "text": "There's a guy on Substack, so he used to be in charge of huge ships on the seas called the Old Grey Thinker. And I spent a lot of time reading his stuff because he talks about the perception gap of what retirement is supposed to be, the way that it's sold, the way that we talk about it in, you know, pop culture and, what we learn from our parents and what we've seen our parents do, and the reality of what it is actually to live it and how It matters that you have a whole bunch of knowledge that nobody really respects anymore because you're not really associated with a profession."
+  },
+  {
+   "time": "11:54",
+   "speaker": "Nola Simon",
+   "text": "You don't have a job title. That knowledge has nowhere to go. Nobody's searching out your information because you're, you don't have that credibility. You've got the word retired attached to it. And how does that actually affect your sense of self-worth? Who are you if other people don't necessarily need you? And that's destabilizing. I've seen it happen to my mother. I've seen it happen to my father."
+  },
+  {
+   "time": "12:22",
+   "speaker": "Nola Simon",
+   "text": "My father actually worked into his 70s. The reason that he retired is because my mother started getting sick. We actually really had to force that issue because I was working full-time and I had little kids. I couldn't handle it all. And so he wanted to keep working but he had caregiving responsibilities. And it's how do you make those choices as well too, right? So at all different age groups, what's changing is the decisions that you make may not necessarily line up with the other people that are in your age group."
+  },
+  {
+   "time": "12:57",
+   "speaker": "Nola Simon",
+   "text": "So it used to be that you were born, you were a child, you lived with your parents, you eventually went to, school, high school. You either graduated or you went into college or university, and then you got a job. And there's multiple different versions of what that looks like. But essentially, it could be you either went to work or you went to school, and then you went to work."
+  },
+  {
+   "time": "13:20",
+   "speaker": "Nola Simon",
+   "text": "And then you had… You moved out, you had your own family, and, you continued working for, 40-odd years. You retired, and then you died. But longevity really changes that story, right? You make different choices at different times, right? And you can see it even in my family's dynamic. My parents are the same age as my husband's grandparents, but my family has longevity on its side."
+  },
+  {
+   "time": "13:50",
+   "speaker": "Nola Simon",
+   "text": "My dad, like I said, is 94. My mom died at age 87. But Keith's grandparents died in their 60s and 70s. On one side, maybe 80, like early 80s. And on the other side Keith's mom died at age 54. His his father died at age 62. That's what my grandparents were. I never knew any of my grandparents because they died so young, before I was even born. And so longevity really plays a factor into the support that you have built around you from a family perspective, but also how it impacts your requirement to do caregiving, right?"
+  },
+  {
+   "time": "14:44",
+   "speaker": "Nola Simon",
+   "text": "So I experienced the whole sandwich generation experience of caring for young kids and taking care of older people and dealing with estates much younger than a lot of people do. I was like early 40s. Keith's mom died when my daughter was one. We were 33 when she died. So 34. And so it all develops as it develops, but things aren't necessarily as aligned as they used to be. People aren't retiring at the same age."
+  },
+  {
+   "time": "15:21",
+   "speaker": "Nola Simon",
+   "text": "They're not having kids at the same age. They're not having those shared types of experiences that really bond people together. And so how does that change the nurture that's around you. And I think this is where the loneliness aspect comes from because, like, when I had my kids, I was an older mother. I was 32 when my first daughter was born. 30… I turned 35 the month after my second daughter was born, right?"
+  },
+  {
+   "time": "16:00",
+   "speaker": "Nola Simon",
+   "text": "A lot of times people were having kids 26, 27, so I was already considered an older mother. I was 10 years younger than my mother had been, though, right? So you just have less in common because there's that age gap in terms of experience. I remember going to mommy clubs, and everybody was like a millennial, like 10 years younger than I was, and I really had nothing much in common with them because they just perceived me as being old."
+  },
+  {
+   "time": "16:37",
+   "speaker": "Nola Simon",
+   "text": "That's partly why I was really drawn to Erica Ehm's YummyMummyClub because it was support that I found online that I couldn't actually find in person and that's where I'm always a fan of online because what does it open up to you that you can't actually get in person? And Canada is different in lots of ways than other places because the distances between us are so extreme. Like we measure time in hours, right?"
+  },
+  {
+   "time": "17:13",
+   "speaker": "Nola Simon",
+   "text": "So for me to go to Toronto, it takes me an hour and a half and then you go to an event, and then you have an hour and a half to come home, right? With a young child, to go and visit any one of the people that I used to work with as my friends, even if they happen to be available, it was a commitment. It was a commitment. And so that really is something that impacts my ability to develop relationships with people who are like-minded and think like me because they don't always happen to live near me."
+  },
+  {
+   "time": "17:49",
+   "speaker": "Nola Simon",
+   "text": "And so these are the things that I look at when we're talking about foresight and scenario planning is what are your realities in terms of who, what shaped you, what you live with and then where you wanna go and what you wanna change? And what has to be true for you to actually achieve the things you want? And do you have alternative plans, and are you testing out the alternatives?"
+  },
+  {
+   "time": "18:26",
+   "speaker": "Nola Simon",
+   "text": "So it's like a choose your own adventure kind of game. That's honestly the closest version of futurism that I practice on a regular ongoing basis. These were books that I loved when I was a kid, and I loved looking at all the different angles. It's like I wouldn't necessarily just find one answer of, this is what the adventure is and this is what the story is. It's what changes if you change pieces of the story?"
+  },
+  {
+   "time": "18:51",
+   "speaker": "Nola Simon",
+   "text": "If you make a different decision here, what changes? How do you see around corners to predict what… how something is going to react? And the only way to do it is to live it and to try it and be willing to adapt, and that's really what it comes down to. And those skills, those are the skills and abilities that are gonna set us up to be able to adapt through the future of work. And that, if you're focusing on any skill or ability that you want to learn, the practices that keep you flexible, the practice that keep your mental agility, your mental acuity sharp the imagination, storytelling understanding yourself, all of these skills are far more important than technical skills."
+  },
+  {
+   "time": "19:51",
+   "speaker": "Nola Simon",
+   "text": "And they're not easy. Some people will call these soft skills. They're not. It's hugely important to do this type of work, and the people who tend to be academic, who tend to be divorced from how they feel and can't express themselves adequately are going to find it actually more difficult because pure knowledge alone, pure technical skill alone that's the stuff that's really at risk from AI, in my perspective."
+  },
+  {
+   "time": "20:32",
+   "speaker": "Nola Simon",
+   "text": "The people who have the ability to really do the human work the type of skills that I've been talking about, that's really where the opportunity is so I'd like you to like and subscribe so that you get the next update. And so I am testing out something in terms of charting. And one of the things that I'm testing out is an action that people take after they've listened to the episode."
+  },
+  {
+   "time": "21:10",
+   "speaker": "Nola Simon",
+   "text": "And so how does that fuel how you appear on charts? And the number one thing is like and subscribe and comment and review. And the easiest version of that is just subscribe on whatever player you happen to be part of because that actually is an action that algorithms pick up on in terms of podcast players. So if you happen to be on Apple Podcasts, subscribe. Spotify, subscribe. Anywhere else, just subscribe, and let's test that out."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "The only way to do it is to live it and to try it and be willing to adapt.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Trust, Foresight, and Canadian Leadership",
+   "url": "/podcast/trust-foresight-and-canadian-leadership"
+  },
+  {
+   "title": "The Future of Advice and Mentorship: A Leadership Living Lab",
+   "url": "/podcast/the-future-of-advice-and-mentorship"
+  },
+  {
+   "title": "Make It So — the futurism seminar",
+   "url": "/make-it-so"
+  }
+ ]
+}

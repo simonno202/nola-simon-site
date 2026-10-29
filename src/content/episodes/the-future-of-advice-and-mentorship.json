@@ -1,0 +1,216 @@
+{
+ "number": null,
+ "slug": "the-future-of-advice-and-mentorship",
+ "title": "The Future of Advice and Mentorship: A Leadership Living Lab",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2026-10-02",
+ "publishDateHuman": "October 2, 2026",
+ "updatedDate": "2026-10-29",
+ "updatedDateHuman": "October 29, 2026",
+ "duration": "13 min",
+ "durationISO": "PT12M44S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/ca/podcast/the-future-of-advice-and-mentorship-a-leadership-living-lab/id1602822494?i=1000792858600",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "\"How do I advise my kid?\" is one of the questions futurists get asked most, and Nola argues it's the most approachable version of futurism there is, because almost everyone ends up giving this kind of advice: parents, aunts and uncles, neighbours, and every leader someone turns to for perspective. This episode launches a new Leadership Living Lab series about giving advice when nobody knows the future. Nola starts with her daughter, who spent years preparing for a science degree, hated every campus tour, took a gap year, and ended up studying social work. From there she looks at her own non-linear path, why the day-to-day reality matters more than the plan on paper, the advice we recycle from our own careers, and what we have to unlearn before we can help someone else build a future.",
+ "takeaways": [
+  "Parenting is a futurism project, and anyone who gets asked for career advice, including every leader, is doing futurism whether they call it that or not.",
+  "Margaret Heffernan's point about making decisions in the moment without sufficient data applies to everyday uncertainty, even when the stakes are lower.",
+  "A plan built for an imagined future can fall apart when it meets the reality of living it: Nola's daughter let go of years of science prep after campus tours that made her desperately unhappy.",
+  "Career paths are rarely straight lines. Nola took math and minored in history, and ended up in financial services account management with American customers.",
+  "The day-to-day test matters most: where you go for work, who you engage with, how your body feels, who you trust and turn to for advice.",
+  "Much of the advice we give recycles what worked for us, like \"go in early, stay late,\" which means little when nobody is in the office to see it.",
+  "Advising well means unlearning skills that no longer matter and letting go of the parts of our identity that built our careers but won't build someone else's."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "1:05",
+   "question": "Why call career advice a form of futurism?",
+   "answer": "People already think about how work will help them reach their goals and afford the lifestyle they want, and they give advice to others about how work will build a future. \"What should my kid study?\" and \"What skills will be in demand when they graduate?\" are common questions for futurists. Nola sees parenting, and mentoring more broadly, as preparing one generation for the next."
+  },
+  {
+   "timestamp": "3:31",
+   "question": "What does Margaret Heffernan add to the conversation?",
+   "answer": "Nola describes Heffernan's work on leadership practices with a police or security force: when you're dealing with something like a bomb, if you don't make decisions in the moment without sufficient data, people die. Most work doesn't carry that level of risk, but everyone can get better at making decisions in the face of uncertainty and ambiguity."
+  },
+  {
+   "timestamp": "4:52",
+   "question": "What happened with her daughter's university plans?",
+   "answer": "Her daughter prepared for years to study science, including a lot more math than she was ever happy with. Touring the campuses and talking to people in the programs made her desperately unhappy. Nola pointed out that her body was telling a different story than her plan. Her daughter took a gap year to think about what she really valued, ended up studying social work, and kept art as a hobby when the two programs didn't combine well."
+  },
+  {
+   "timestamp": "9:27",
+   "question": "What goes wrong when we mentor younger people?",
+   "answer": "We tend to recycle what worked for us. Nola's example is the old adage to go in early and stay late, which doesn't mean much when nobody sees you staying late and everybody is working from home on Friday. As social norms keep changing, advice has to be checked against the world the other person will actually live in."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:29",
+   "label": "A new Living Lab series"
+  },
+  {
+   "time": "1:05",
+   "label": "\"How do I advise my kid?\""
+  },
+  {
+   "time": "1:52",
+   "label": "Parenting as a futurism project"
+  },
+  {
+   "time": "3:31",
+   "label": "Margaret Heffernan on deciding without enough data"
+  },
+  {
+   "time": "4:52",
+   "label": "My daughter's university plan"
+  },
+  {
+   "time": "7:44",
+   "label": "Not exactly a straight line"
+  },
+  {
+   "time": "8:25",
+   "label": "The day-to-day test"
+  },
+  {
+   "time": "9:27",
+   "label": "The advice we recycle"
+  },
+  {
+   "time": "10:02",
+   "label": "Unlearning and identity"
+  },
+  {
+   "time": "11:25",
+   "label": "Bring it to the Living Lab"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:29",
+   "speaker": "Nola Simon",
+   "text": "Hi, I'm Nola Simon, and I'm the host of the Hope and Possibilities podcast. I'm embarking on a new series where we talk about careers and the future of work and it's honestly the easiest version of futurism that people have available to them. People are used to thinking about how jobs will lead them to be able to satisfy goals, how it will lead them to be able to afford the lifestyle that they want to engage with."
+  },
+  {
+   "time": "1:05",
+   "speaker": "Nola Simon",
+   "text": "But they're also used to actually giving advice to other people about how work will build a future. And so commonly, it is a question that futurists get, which is: how do I advise my kid? What do I advise my kid to study? What skills are going to be in demand once my kid graduates from school? That's a really approachable way to engage in futurism because it's so applicable, and it's so pervasive, and it's something that happens for everyone at every stage of life throughout history, right?"
+  },
+  {
+   "time": "1:52",
+   "speaker": "Nola Simon",
+   "text": "But the general frame of it, a lot of people understand parenting to be a futurism project. How do you prepare one generation for the next? And that's really what it comes down to. And that can be directly for people who are parents, but can also be people who influence those kids. Your niece, your nephew, your neighbors godchildren, however you have family connections. But even just as a leader even if you aren't necessarily, deeply involved in close family ties, as a leader, you're constantly exposed to people who are making decisions for the future and people are going to ask your perspectives."
+  },
+  {
+   "time": "2:43",
+   "speaker": "Nola Simon",
+   "text": "So how do you mentor, and how do you give advice in a way that helps people prepare for the future? And that's really where the opportunity of this living lab is how can we take our specific experience and advise others when we don't know the future. We have uncertainty about what is possible. The advent of AI is going to probably influence how things change and develop in the world of work and we really don't know what that looks like."
+  },
+  {
+   "time": "3:31",
+   "speaker": "Nola Simon",
+   "text": "And it's everywhere. It's pervasive. But what are the things that are not going to change? And what will change? We don't know for sure, right? So how do we prepare for something that we don't exactly know the shape of. And I heard Margaret Heffernan, who's a professor, who is also an author of many books. She actually has been brought in to do leadership practices with, police or some kind of security force."
+  },
+  {
+   "time": "4:07",
+   "speaker": "Nola Simon",
+   "text": "What she was saying is when you're actually dealing with an event like a bomb or something that is supposed to explode and has immediate risk, if you don't make decisions in the moment without sufficient data, the bomb goes off. People die. So how do you make decisions in the moment that don't feel safe or secure? And, your work might not involve that level of risk, but that uncertainty, that ambiguity, we can all get better at making decisions in the face of that."
+  },
+  {
+   "time": "4:52",
+   "speaker": "Nola Simon",
+   "text": "So I'm gonna give you an example of how I advised my daughter when it came to university. So initially, she wanted to go to school for science. So over the years, we had prepped. She knew what courses to take what she would need to have in her toolkit to be able to qualify for the programs that she was looking at. So that meant that she took a lot more math than she was ever happy with."
+  },
+  {
+   "time": "5:18",
+   "speaker": "Nola Simon",
+   "text": "But when we came to the reality of signing up and enrolling in a university what we found was when we toured the campuses and we talked to the people who were involved in the science program she was considering, all of it made her desperately unhappy. Those tours were not positive tours. She hated the whole experience. And for me, I'm looking at this going, \"You may have it in your head that science is where you fit, but your body is really telling you a different story, and you're not happy with how this is going to look like to live on a daily basis."
+  },
+  {
+   "time": "5:58",
+   "speaker": "Nola Simon",
+   "text": "So you might be able to go to school and enroll in this but the reality of showing up at class every day and doing all of the work that's going to get you to the degree, not to mention even if you finish the degree, this is the type of work that you're gonna do. Is this going to really make you happy? And so her expectation that she had prepared for years was something that she actually decided to let go of in the face of the reality of imagining what the day-to-day would actually look like."
+  },
+  {
+   "time": "6:38",
+   "speaker": "Nola Simon",
+   "text": "And so she actually let that go and decided to take a gap year so she would have the space and time to be able to think about what she really wanted and what she really valued. And she ends up studying social work. And initially she wasn't sure if she actually wanted to take a minor in art, but again, the reality of actually combining social work and art it's a really challenging combination to find in Canadian universities."
+  },
+  {
+   "time": "7:06",
+   "speaker": "Nola Simon",
+   "text": "You wouldn't think it would be. But also the way that those degrees and the mentality of the two different departments works and the process involved and how you actually do the work and what's required just the time frames, the type of commitment levels involved. The two programs don't combine very well. And so she decided to leave art as a nice-to-have, a hobby, something that she could use to decompress from the other work that she had to do."
+  },
+  {
+   "time": "7:44",
+   "speaker": "Nola Simon",
+   "text": "And so you go from a theoretical and, overall prep for an imagined future, looking at the reality of what it would be like to live, and you end up in a completely different program. This also happens at work, right? I took math, and I minored in history, and I ended up in financial services in account management dealing with American customers not exactly a straight line, right?"
+  },
+  {
+   "time": "8:25",
+   "speaker": "Nola Simon",
+   "text": "So how many people really end up in jobs that their degrees prepare them for? Now, if you add in AI, what changes? So I'd argue that the reality of how you live the day-to-day is really where it's going to come down to. It's you can prepare as much as you want. You can test out, you can experiment with AI but it's really when you're doing the work, how does that make you feel, right?"
+  },
+  {
+   "time": "9:00",
+   "speaker": "Nola Simon",
+   "text": "When you wake up in the morning, where do you go for work? What does your day-to-day look like? What do your meetings look like? How many people are you engaged with during the day? Are you solely involved in a screen? How does that make your body feel? How do you feel validated? What questions do you have? Who do you turn to for advice? How does that build in a network? And how does that feel fulfilling?"
+  },
+  {
+   "time": "9:27",
+   "speaker": "Nola Simon",
+   "text": "Who do you trust? A lot of that really is what we're looking at, and that's how we give advice, right? And a lot of times what happens when we're mentoring and we're giving advice to people who are younger than us we're recycling what worked for us. The, the old adage of, you know, go in early, stay late. Does it really matter if nobody's actually in the office? Nobody sees you staying late and there's nobody to actually go to a bar with after work because everybody's working from home on Friday."
+  },
+  {
+   "time": "10:02",
+   "speaker": "Nola Simon",
+   "text": "It looks very different, and it's going to be different, and it's going to continue changing as the world evolves, as social norms change. And then so how do we advise people? A lot of it is based in identity. Who are you? You would never advise somebody to go in and take a typing test and figure out how fast they could type because nobody cares, because you can actually dictate how do you unlearn the skills that we spent a lot of time learning but are no longer relevant?"
+  },
+  {
+   "time": "10:48",
+   "speaker": "Nola Simon",
+   "text": "And how do we let go of the identity pieces that built a career and built a livelihood, but won't help anybody else build a future that's based on the reality that we've got now and that is developing currently. That's really what the challenge is, and that's what I envision the Living Lab to be. How do we break down the skills involved sharing what works, and unlearning what's not helpful any longer?"
+  },
+  {
+   "time": "11:25",
+   "speaker": "Nola Simon",
+   "text": "That's really what I'm looking at. So join me. This is the first episode, and we'll go from there. And I'd love to hear your feedback and your questions and your advice. This always works better when we've got interaction and we can look at the specific things that you submit. So if you wanna do that, you can email me, nola@nolasimon.com. You can comment on social media, just make sure you're tagging me, it's @nolasimonsayings everywhere."
+  },
+  {
+   "time": "11:58",
+   "speaker": "Nola Simon",
+   "text": "And you could review the podcast and include your questions you are looking for an example of a Living Lab, I have a version of this on my website, which is nolasimon.com/podcast. There's a section on the Living Lab that I've done for AI. I will link it in the show notes. Thanks for tuning in."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "How do we break down the skills involved, sharing what works, and unlearning what's not helpful any longer?",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Who We Trust and How We Receive Advice — the next Living Lab episode",
+   "url": "/podcast/who-we-trust-and-how-we-receive-advice"
+  },
+  {
+   "title": "Strategic Foresight for Your Career",
+   "url": "/podcast/strategic-foresight-for-your-career"
+  },
+  {
+   "title": "The Living Lab",
+   "url": "/living-lab"
+  }
+ ]
+}
