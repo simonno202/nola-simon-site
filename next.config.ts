@@ -93,7 +93,17 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/make-it-so.html',
-        destination: '/make-it-so',
+        destination: '/aga',
+        permanent: true,
+      },
+      {
+        source: '/make-it-so',
+        destination: '/aga',
+        permanent: true,
+      },
+      {
+        source: '/podcast/make-it-so-futurism-is-a-practice',
+        destination: '/podcast',
         permanent: true,
       },
     ];

@@ -21,7 +21,7 @@
   "spotify": null,
   "youtube": null
  },
- "abstract": "Nola Simon lays out the assumption-ground audit — the practice of surfacing the assumptions, values, and past experiences silently steering your decisions — and introduces Make It So, the eight-week cohort built around it — now enrolling for September 2026 and capped at 20 people. The version of futurism here is deliberately small: not flying cars and stage predictions, but the noticing practices and daily decisions that accumulate into the groundwork of the future of work. The test she poses: future you is a stranger, but a stranger who knows your past — what are you doing today that this person will thank you for?",
+ "abstract": "Nola Simon lays out the assumption-ground audit — the practice of surfacing the assumptions, values, and past experiences silently steering your decisions. The version of futurism here is deliberately small: not flying cars and stage predictions, but the noticing practices and daily decisions that accumulate into the groundwork of the future of work. The test she poses: future you is a stranger, but a stranger who knows your past — what are you doing today that this person will thank you for?",
  "takeaways": [
   "Run an assumption-ground audit before you plan: name the assumptions, values, and past experiences that are silently steering your decisions at work and at home.",
   "Model futurism as a daily practice — a dog that can't be rescheduled is an investment in future you, and small moments accumulate into the future of work.",
@@ -36,11 +36,6 @@
    "answer": "It's a structured look at the ground your decisions stand on: what you believe to be true, the assumptions you make, the values you hold, and the experiences you've had. All of it is personal, and all of it is woven into how you move through daily life and work — you can't divide the two. The audit surfaces that ground so you can adapt for a future in which future you is a stranger, but a stranger who knows your past."
   },
   {
-   "timestamp": "0:22",
-   "question": "What is Make It So?",
-   "answer": "An eight-week cohort built around everyday futurism and the assumption-ground audit as a leadership practice — now enrolling for September 2026, capped at 20 people. It's designed to be mostly asynchronous with three levels of access: a fully async tier, a tier with weekly live office hours, and a by-application one-to-one tier with two private one-hour AGA sessions. It's aimed at people who treat futurism as a leadership capacity for a world where ambiguity is normal and change is constant."
-  },
-  {
    "timestamp": "2:29",
    "question": "What is everyday futurism?",
    "answer": "Futurism stripped of the sage-on-stage version — no flying cars, no predictions delivered as answers. It's the integrated ways of thinking, noticing, and deciding in daily life that accumulate into the foundation of the future of work. The point is to make foresight approachable and tangible: something you weave into your regular way of being rather than an untouchable practice."
@@ -53,14 +48,10 @@
   {
    "timestamp": "5:49",
    "question": "Does real connection have to happen in person?",
-   "answer": "Not for everyone — and the claim deserves questioning. From a home two hours outside Toronto, an in-person meetup is a four-hour commitment with an uncertain return, and Nola has had better luck connecting with people who think in futurism terms globally than locally. Make It So doubles as an experiment in whether shared understanding, built mostly asynchronously, produces genuine belonging."
+   "answer": "Not for everyone — and the claim deserves questioning. From a home two hours outside Toronto, an in-person meetup is a four-hour commitment with an uncertain return, and Nola has had better luck connecting with people who think in futurism terms globally than locally."
   }
  ],
  "chapters": [
-  {
-   "time": "0:22",
-   "label": "The Make It So launch: 20 seats"
-  },
   {
    "time": "1:13",
    "label": "The assumption-ground audit"
@@ -160,14 +151,7 @@
   "text": "Future you is really a stranger — but a stranger who knows your past.",
   "source": "Nola Simon, in this episode"
  },
- "resources": [
-  {
-   "label": "Make It So — the eight-week cohort",
-   "type": "Program",
-   "url": "https://nolasimon.com/make-it-so",
-   "note": "Enrollment open for the September 2026 cohort."
-  }
- ],
+ "resources": null,
  "relatedEpisodes": null,
  "relatedLinks": [
   {

@@ -19,6 +19,9 @@ const EPISODES_FILE = resolve(__dirname, "../src/data/episodes.ts");
 const RSS_URL =
   "https://rss.libsyn.com/shows/390218/destinations/3209099.xml";
 
+// Episodes intentionally kept off the site even if they remain in the feed.
+const EXCLUDED_SLUGS = new Set(["make-it-so-futurism-is-a-practice"]);
+
 function decodeEntities(str) {
   return str
     .replace(/&amp;/g, "&")
@@ -136,6 +139,9 @@ function mergeEpisodes(existing, fromFeed) {
 
   for (const ep of fromFeed) {
     const titleLower = ep.title.toLowerCase().trim();
+
+    // Skip episodes deliberately removed from the site
+    if (EXCLUDED_SLUGS.has(ep.slug)) continue;
 
     // Skip if we already have this episode by slug
     if (existingSlugs.has(ep.slug)) continue;

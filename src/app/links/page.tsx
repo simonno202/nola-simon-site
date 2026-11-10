@@ -14,10 +14,6 @@ export const metadata: Metadata = {
 
 const ctaLinks = [
   {
-    label: "Make It So — Enrollment Now Open · September 2026",
-    href: "https://nolasimon.com/make-it-so",
-  },
-  {
     label: "Book an Intro Consultation",
     href: "https://tidycal.com/nola/intro-consultation-nola-simon",
   },
