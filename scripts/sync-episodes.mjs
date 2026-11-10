@@ -20,7 +20,12 @@ const RSS_URL =
   "https://rss.libsyn.com/shows/390218/destinations/3209099.xml";
 
 // Episodes intentionally kept off the site even if they remain in the feed.
-const EXCLUDED_SLUGS = new Set(["make-it-so-futurism-is-a-practice"]);
+// "nola-simon" is the Libsyn link for "Who Owns the Canadian Story?" after its
+// feed title changed; the site already lists it as id 129 (who-owns-the-canadian-story).
+const EXCLUDED_SLUGS = new Set([
+  "make-it-so-futurism-is-a-practice",
+  "nola-simon",
+]);
 
 function decodeEntities(str) {
   return str
@@ -80,7 +85,12 @@ function parseEpisodes(xml) {
   const items = xml.match(/<item[\s\S]*?<\/item>/g) || [];
   console.log(`Found ${items.length} episodes in feed`);
 
-  return items.map((item) => {
+  // Trailers are not episodes; the site has never listed them.
+  const episodes = items.filter(
+    (item) => extractText(item, "itunes:episodeType") !== "trailer"
+  );
+
+  return episodes.map((item) => {
     const title = decodeEntities(extractText(item, "title"));
     const pubDate = extractText(item, "pubDate");
     const desc = decodeEntities(extractText(item, "description")).slice(0, 300);

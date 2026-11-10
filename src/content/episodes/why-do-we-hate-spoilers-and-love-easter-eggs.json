@@ -1,0 +1,317 @@
+{
+ "number": null,
+ "slug": "why-do-we-hate-spoilers-and-love-easter-eggs",
+ "title": "Why Do We Hate Spoilers and Love Easter Eggs?",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2026-10-26",
+ "publishDateHuman": "October 26, 2026",
+ "updatedDate": "2026-11-10",
+ "updatedDateHuman": "November 10, 2026",
+ "duration": "25 min",
+ "durationISO": "PT25M9S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/ca/podcast/why-do-we-hate-spoilers-and-love-easter-eggs/id1602822494?i=1000798221781",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Nola loves spoilers. She grew up reading Choose Your Own Adventure books once, then going back to read every other path, and she still looks up what's coming so she can spot the craft. But on Threads she kept running into people who were furious about spoilers, sometimes to the point of abuse, while the same people loved hunting for Easter eggs. So she started asking strangers why. In this episode she works through what she heard: spoilers as seeing a story through thousands of other people's filters, anticipation and anxiety, agency and the privilege of being able to log off, Taylor Swift's no-go zones, and why a 2,700-year-old Trojan horse can still count as a spoiler. Her working theory is that a spoiler narrows a story to one outcome and takes away agency, while an Easter egg keeps the possibilities open. Then she asks whether the same reactions shape how people respond to signals, trends and scenarios about the future.",
+ "takeaways": [
+  "A spoiler narrows a story down to one outcome. An Easter egg points your attention somewhere while keeping the possibilities open until they're confirmed.",
+  "Anger about spoilers is often about losing agency, and being able to log off and avoid them is a privilege not everyone's work allows.",
+  "Some people avoid spoilers because reading them means experiencing the work through thousands of other people's filters instead of directly from the artist.",
+  "Easter eggs work as a shared, collaborative hunt: curiosity, community and nobody holding the answer until it's confirmed.",
+  "There's no agreed definition of a spoiler, and with streaming and time zones there's no shared release moment either.",
+  "If presenting the future as a single story triggers the same defensiveness as a spoiler, presenting it more like Easter eggs, signals and trends may help people engage with change.",
+  "How you react to hints and clues in a story may say something about how you notice signals and make decisions in the face of uncertainty."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "1:03",
+   "question": "Why does Nola love spoilers?",
+   "answer": "She grew up on Choose Your Own Adventure books and would read each one once, then go back and read all the other options to see how the story was built and what changed with each decision. She still seeks spoilers out, looking at IMDb and for hidden cameos, so she can spot the craft. She always filters what she reads through her own perceptions."
+  },
+  {
+   "timestamp": "5:15",
+   "question": "What did people who hate spoilers tell her?",
+   "answer": "One woman who also appreciates the craft said reading other people's interpretations is like experiencing the piece through thousands of filters, with biases and misinterpretations, instead of directly from the artist. Others pointed out that people who work on social media can't always disengage. Nola also wonders whether both loving and hating spoilers are ways of managing anxiety about how a story will go."
+  },
+  {
+   "timestamp": "9:44",
+   "question": "What's the difference between a spoiler and an Easter egg?",
+   "answer": "A spoiler narrows the story down and reveals constraints on what it could be. An Easter egg preserves the possibilities because nothing is confirmed until you see the final product. Using Taylor Swift as an example, Nola describes Easter eggs as something you pursue with curiosity and agency, often collaboratively with a community, which feels good, while spoilers feel like a loss of control."
+  },
+  {
+   "timestamp": "18:11",
+   "question": "What does this have to do with the future?",
+   "answer": "Nola asks whether people who react badly to spoilers are also resistant to imagining possible futures. She doesn't have a neuroscience degree and doesn't claim a direct translation, but she thinks it's a signal worth researching. If presenting change as a single story triggers defensiveness, presenting it through signals and trends, more like Easter eggs, might help people trust the future."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:23",
+   "label": "A theory about spoilers and the future"
+  },
+  {
+   "time": "1:03",
+   "label": "Choose your own adventure"
+  },
+  {
+   "time": "2:20",
+   "label": "Accountability, privilege and logging off"
+  },
+  {
+   "time": "3:36",
+   "label": "Why do people get so angry?"
+  },
+  {
+   "time": "5:15",
+   "label": "Other people's filters"
+  },
+  {
+   "time": "6:20",
+   "label": "Spoilers and anxiety"
+  },
+  {
+   "time": "7:51",
+   "label": "The science of anticipation"
+  },
+  {
+   "time": "9:44",
+   "label": "Is an Easter egg a spoiler?"
+  },
+  {
+   "time": "10:24",
+   "label": "Taylor Swift's no-go zones"
+  },
+  {
+   "time": "12:00",
+   "label": "Possibility versus loss of agency"
+  },
+  {
+   "time": "13:24",
+   "label": "What counts as a spoiler?"
+  },
+  {
+   "time": "16:05",
+   "label": "Christmas, time zones and social norms"
+  },
+  {
+   "time": "18:11",
+   "label": "Are spoilers a signal about the future?"
+  },
+  {
+   "time": "21:06",
+   "label": "Questions for you"
+  },
+  {
+   "time": "23:21",
+   "label": "Charts as a civic duty"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:23",
+   "speaker": "Nola Simon",
+   "text": "Hi, I'm Nola Simon. I'm the host of the Hope and Possibilities podcast. And what I've learned over the years is that this podcast is really a place where I follow my curiosity and examine things that I think need more attention, and this ranges in variety. But today I wanna talk about spoilers and Easter eggs and what that tells us about how we consider the future and the skills involved in futurism. And so I'm gonna have to explain this because it's not really that obvious an idea."
+  },
+  {
+   "time": "1:03",
+   "speaker": "Nola Simon",
+   "text": "It's a theory. There's not an extensive amount of research to back it up, so it does seem to be an idea that's on the forefront that needs to be fleshed out a little bit. So I'm gonna ask you for your patience, and hopefully I can logically explain what I'm talking about. So what I've noticed is, especially when I'm on Threads, people are always talking about shows that they've watched. Could be books, tends to be movies, tends to be shows. And people either hate spoilers or love spoilers. And I'm personally a person who grew up on Choose Your Own Adventure books, but the way that I read Choose Your Own Adventure books is I would do it once and then go back and read all of the other options."
+  },
+  {
+   "time": "1:48",
+   "speaker": "Nola Simon",
+   "text": "So I really looked into how the story was laid out, what would change if you made certain decisions, and how that made the story feel different. So for me, it's more of how is the story itself constructed, and how does that change your experience of it? And so for me, the choices, the structures, all of that is part of how I analyze and enjoy storytelling. I love spoilers. I seek them out if I don't find them. I look at IMDb."
+  },
+  {
+   "time": "2:20",
+   "speaker": "Nola Simon",
+   "text": "I look for hidden cameos and what that might mean ahead of time so that I can spot the craft. Now, I could see that people are getting really angry about spoilers. It's really triggering to people. And to me, I was finding this upsetting because it's about accountability for me. You choose where you put your attention, and so if you know that spoilers trigger you, then you have the ability to decide to not engage. You can hide comments."
+  },
+  {
+   "time": "2:59",
+   "speaker": "Nola Simon",
+   "text": "You can mute the name of the show. You can mute the name of the actors. You have a certain amount of control to govern your feed so that you don't see that. And so if you know it's triggering to you, don't engage. So somebody pointed out to me that if you work online and your work is on social media and you have to engage professionally, you often don't necessarily have the discretion to avoid it in the way that somebody whose job doesn't involve that does. So it's a point of privilege to be able to disengage, which was fair."
+  },
+  {
+   "time": "3:36",
+   "speaker": "Nola Simon",
+   "text": "So why I'm interested in it is why people get so angry. My empathy is with the people who like spoilers. We actually tend to be in the minority as far as I can tell. So I'm interested in why people who hate spoilers really get so angry, and they get angry to the point of being, like, abusive in their comments and insulting and just completely unpleasant. And for me, it's still a story. It's still a representation of you professionally."
+  },
+  {
+   "time": "4:11",
+   "speaker": "Nola Simon",
+   "text": "Why do you wanna get so divisive? Why do you wanna embrace the divide? And I could feel myself getting into it too. It's control yourself, basically. But I started having multiple interactions like this, and so I started becoming curious, 'cause that's when I start to look at things and I start to understand that there's more to it than just an instinctual reaction of one person, that there's something else at play. So what was it?"
+  },
+  {
+   "time": "4:42",
+   "speaker": "Nola Simon",
+   "text": "So my question, honestly, has been like, why do people hate spoilers but love Easter eggs, and what does that mean about how we pay attention to trends and signals and scenarios about the future? Because are they the same thing? Is our reaction to a fictional story similar to how we react to the possibilities about the future? And so I've spent a lot of time talking to people online and just asking complete strangers."
+  },
+  {
+   "time": "5:15",
+   "speaker": "Nola Simon",
+   "text": "I have no idea who most of these people are, what the difference is. And as far as I can tell, a spoiler could be anything that changes your perception of what the story is and what the outcome could be and impacts your enjoyment of the art, whether it's movies, TV, or whatever it is, in a way that the original artist didn't intend, right? You're experiencing it directly from the artist."
+  },
+  {
+   "time": "5:49",
+   "speaker": "Nola Simon",
+   "text": "Somebody told me about my impression that loving spoilers means you're appreciating the craft. She also appreciated the craft, but what she said was reading other people's interpretation of it online is like experiencing the piece through the filters of thousands of other people who don't have the same perceptions as you. They have biases."
+  },
+  {
+   "time": "6:20",
+   "speaker": "Nola Simon",
+   "text": "They have misinterpretation. They are less talented than the original artists that are presenting it, and so reading spoilers is filtering it in a way that she doesn't enjoy. And I'm like, \"Wow, that makes complete and utter sense to me.\" I love it. I read the spoilers, but I always filter it through my own perceptions. And my other thought on this was it's about anxiety. My daughter has anxiety, and so what she's explained to me over the years is that she likes to rewatch stories because there's no surprise in the stories. It's comforting to her because she knows exactly how the episode is gonna go."
+  },
+  {
+   "time": "6:57",
+   "speaker": "Nola Simon",
+   "text": "She knows exactly how the movie is gonna end. There's nothing that's going to surprise her. It's a comfort watch because there's reliability in what's gonna happen, and so spoilers, in lots of ways, are a reaction to anxiety. So somebody like me, who actually likes spoilers, do I actually like spoilers because I'm trying to filter out the one story that actually matters and just ignore all the rest, and it's a way of managing my anxiety about what that story actually is? Or for the people who really dislike spoilers, is it the possibility that puts them on the edge of their seat, and then narrowing that down by reading spoilers to the one, they're losing that possibility of what the other storylines could be?"
+  },
+  {
+   "time": "7:51",
+   "speaker": "Nola Simon",
+   "text": "And again, it's a form of managing our anxiety about what that means to narrow something down from multiple possibilities into one particular story. I don't know. So I'm reading about the science of anticipation and what we look forward to and how we look forward to things. And the research honestly is limited. So this is where I'm taking this: when we are reading stories or sharing stories, we're anticipating how the stories will go, how it's revealed, how we'll feel throughout the process, and what the outcome will be, and what that will actually mean to us."
+  },
+  {
+   "time": "8:34",
+   "speaker": "Nola Simon",
+   "text": "And then once that story is done, how do we engage with it after the fact? I'm very much a, I never go back to you. I might go back to you 30 years later. I might go back to reading a book maybe five years later. I generally don't rewatch TV shows. I don't rewatch movies. I've been rewatching '90s rom-coms just because they're available, and sometimes there's just nothing else on. And I've forgotten a lot of it. I remember some of it, but I forgot the overall details, so it's oh, I can experience it new. But generally I don't rewatch."
+  },
+  {
+   "time": "9:08",
+   "speaker": "Nola Simon",
+   "text": "I'll reread. I don't rewatch. And that to me is more about what the story means to me. I've gotten everything out of it that I could possibly get out of it. I find that I find new things in the written word, whereas I don't necessarily find it in the visual mediums like TV or movies, right? Now, again, I think there's an aspect of agency involved with this as well. It goes back to that question of why do you like spoilers or why do you dislike spoilers, but you like or dislike Easter eggs? Is an Easter egg not a spoiler?"
+  },
+  {
+   "time": "9:44",
+   "speaker": "Nola Simon",
+   "text": "So my daughter, who's 19, had a fairly good impression on this one, which was a spoiler narrows the story down into one, right? It helps you focus into where that story is actually going, and it reveals things that are constrictions on what that story could possibly be. An Easter egg, you're still preserving the possibilities because there is no confirmation until you've actually watched the final product, right? But you're paying attention in a way, and the artist is trying to focus your attention in different ways."
+  },
+  {
+   "time": "10:24",
+   "speaker": "Nola Simon",
+   "text": "And Taylor Swift, of course, is the most obvious example of somebody who uses Easter eggs in her marketing to get people excited on an ongoing basis about the music and the decisions that she's making in her career. She has crafted no-go zones, right? So she has said that she doesn't have Easter eggs about her personal life. Any Easter egg is about how she is making decisions in her business, what the album might look like, how many songs are involved, what the themes might be, what the colors might be, when the release dates might be. Any of those are fair game, right?"
+  },
+  {
+   "time": "11:00",
+   "speaker": "Nola Simon",
+   "text": "So she has no-go zones into what she's not really gonna touch and what is on the table, right? And some of them we probably don't even know, right? There was one for Mastermind, which was part of the Eras Tour, and the stage became like a chessboard, and that was in part an Easter egg for the song Mastermind, which people did not get, right? She actually disclosed that in a book that she published after the tour, right? So Easter eggs, if you think that it's about agency, you search it out, but you're pursuing that in a way that sparks your curiosity, that makes you feel empowered, that makes you feel part of a community because other people are looking for the same answers and you're collaboratively looking together and nobody really has the true answer until it actually is confirmed or there's consensus."
+  },
+  {
+   "time": "12:00",
+   "speaker": "Nola Simon",
+   "text": "So Easter eggs are about possibilities, whereas spoilers feel worse. So again, it's about that triggering of dopamine. What storytelling kind of triggers in your brain is that excitement feels good. That curiosity feels good. The possibilities give you hope. They spark your interest. They keep you guessing and keep you engaged. Whereas spoilers are about that narrowing and there's loss of agency because apparently even if you can't log off social because of your work and whatnot, you've lost the control."
+  },
+  {
+   "time": "12:42",
+   "speaker": "Nola Simon",
+   "text": "You've lost the agency to disengage from an activity or disengage from reading something that might ruin the way that you like to consume the material, right? And people do try in lots of ways. People do post spoiler warnings. There's the blur function on Threads. I've been told that sometimes that malfunctions. But I've actually had people come after me even if I've used the blur function and complain that what I've written was a spoiler to them. And then the other thing is, what is defined as a spoiler? It could be the most broad comment, and people still will interpret that as a spoiler."
+  },
+  {
+   "time": "13:24",
+   "speaker": "Nola Simon",
+   "text": "So there's no clear description of what a spoiler really is, when it's acceptable to actually write about it, what's fair game, what's considered public knowledge. I use the Odyssey as an example. That story is 2,700 years old. The Christopher Nolan movie was published last year, and people complained that the Trojan horse was a spoiler. That part of the story is 2,700 years old. At what point do you consider that it's public domain? And it can't possibly be a spoiler because it's common knowledge."
+  },
+  {
+   "time": "14:03",
+   "speaker": "Nola Simon",
+   "text": "But it's again about the interpretation. So recency bias really has an impact in terms of spoilers and Easter eggs and what is considered fair game. And again, it's about that agency and how you feel respected. Are people trying to give you the choice to really engage in talking about the piece, or are they respecting the fact that you may not have time to have watched it or read it or whatever and giving you that discretion to say, \"Yeah, I've watched it. No, I haven't. Please don't tell me what happens because I wanna experience it because it's really important to me.\""
+  },
+  {
+   "time": "14:38",
+   "speaker": "Nola Simon",
+   "text": "The other part of it is why can't we express that in a way that is productive and sustains possible relationships and appreciates the craft, and have a conversation about that? And it's interesting to me because again, it comes back to how and why people engage online and who they want to show up being and how they talk to people. And that aspect of reputation is a real problem on social media these days, especially on platforms where you don't have to actually operate under your real name."
+  },
+  {
+   "time": "15:22",
+   "speaker": "Nola Simon",
+   "text": "You can choose a username that is anonymous. And you feel that you can say whatever you wanna say without actually having repercussions and behave in a way that doesn't represent who you are, if people actually knew your real name. That's an aspect of it as well, too. I was actually surprised 'cause I thought that discussing this might actually trigger a lot of people. And I did definitely get a lot of nuanced, interested reactions that engaged with me in a way that I felt was productive and really advanced my understanding about how they feel and how they perceive the art."
+  },
+  {
+   "time": "16:05",
+   "speaker": "Nola Simon",
+   "text": "I did get people who were patronizing and tried to make me feel dumb because what a spoiler should be is obvious. A woman actually came to me, and she's like, \"It's like a kid on Christmas. They don't necessarily mean to reveal what the Christmas gift is, but if they tell you, they've ruined Christmas.\" To me, there's a lot of nuance to that example because with Christmas, there's an agreed-upon date. You know when it is. There's rituals involved in hiding. You wrap presents. You disguise it, and there's an end time. Christmas Day is when you're gonna open the presents usually."
+  },
+  {
+   "time": "16:42",
+   "speaker": "Nola Simon",
+   "text": "Obviously, schedules play into that and family traditions. My German family opens presents on Christmas Eve, right? So there's specific social norms that are defined when it comes to spoilers and Easter eggs, especially in days of streaming when everybody can watch it whenever they want. There's no set date. There's no set time. There's no defined rule that's accepted globally that this is when you can. You have to add in time zones. People who got access 12 hours earlier might feel that it's fair game because it's almost another day, right?"
+  },
+  {
+   "time": "17:19",
+   "speaker": "Nola Simon",
+   "text": "But they're not accounting for time zones and people who might engage differently because the release happened in the middle of the night for them. So this is where I find it's really a triggering of how we value storytelling, how much we want to anticipate something that we perceive is going to give us joy, is going to keep us curious, is going to keep us engaged, is going to offer us a different way and a different perspective on the way the world works, and who's sustaining that for us and who's making that experience a more negative event, right?"
+  },
+  {
+   "time": "18:11",
+   "speaker": "Nola Simon",
+   "text": "And that's, I think, where people get nasty about it. It's like, \"You're taking this from me.\" They feel like they're losing something in terms of the experience of it. Now, this becomes interesting to me because it becomes that whole science of anticipation and what that means for signals and trends and scenario planning in the future. So if you get this negative about how story works and what happens at the outcome of a movie, then is this part of the reason that people are actually resistant to the idea of imagining a possible future?"
+  },
+  {
+   "time": "18:57",
+   "speaker": "Nola Simon",
+   "text": "Because they're resistant to the idea of spoilers. To me, this is the fascinating part. I don't know that it directly translates. I don't have a degree in neuroscience. I don't exactly know how the brain works and whether what we're observing in terms of low stakes pop culture storytelling really translates into something that is like, what is the future of work? How does AI impact our job? Those bigger strategic questions that have the possibility to reshape how we live and work."
+  },
+  {
+   "time": "19:33",
+   "speaker": "Nola Simon",
+   "text": "I don't know that there's a direct translation there, but I'm wondering if it's a signal worth investigating, worth researching more. And does that matter in terms of how we're presenting change and reinvention? If we're presenting things like they're Easter eggs, does that help people trust the future or not? If we're presenting things as spoilers, of this is the way the story is and this is the only possibility, does that trigger defensiveness?"
+  },
+  {
+   "time": "20:11",
+   "speaker": "Nola Simon",
+   "text": "Likely it might, right? So what can we learn in terms of what we understand about communication and how people are reacting to what happens in pop culture and how we actually build out our futures and how we want to think about our futures? And to me, it makes logical sense that there is not one single future. There are multiple futures because there's endless permutations of how people experience life and work. So to me, it makes more sense that we want to embrace more Easter eggs and those signals and those trends rather than just depending on scenarios, which really curtail it down into a specific story, which is helpful in terms of context and helping people imagine it, but it also narrows out those possibilities."
+  },
+  {
+   "time": "21:06",
+   "speaker": "Nola Simon",
+   "text": "And we know that narrowing out those possibilities and fine-tuning it into a single story, from what we're seeing in pop culture, that experience of that narrowing can actually trigger defensiveness and divisiveness. And that's where I find it fascinating and I wanna research a little bit more. So I want you to think, answer a few questions for you. Are you the type of person who likes spoilers? Do you not like spoilers? Why do you write about anything that you consume or watch or read on social media?"
+  },
+  {
+   "time": "21:44",
+   "speaker": "Nola Simon",
+   "text": "What reaction do you expect to get, and how does it make you feel? Because I think that why we write is that we're looking for connection. It's about that collective effervescence that we get. If you attend a concert, everybody's experiencing the music at the same time. It's like going to a play, and only the people who are in the presence of that particular version of that play, presented by those actors and those directors and whoever happens to be there, are having that extreme experience of that particular permutation of how it's presented, right?"
+  },
+  {
+   "time": "22:24",
+   "speaker": "Nola Simon",
+   "text": "And then if you think about how you pick up on hints and clues, Easter eggs if you want, and how that engages you in a story or turns you off, right? If you are the type of person who hates paying attention to that kind of stuff, are you also the kind of person who really doesn't pick up on trends? Are you also the kind of person who really doesn't pay attention to signals? How do you make your decisions about the future? And is it the same sort of process for you, right? So it's an exercise in understanding really what your worldview is and how you make decisions and what that means for how you experience ambiguity and uncertainty and how you make decisions in the face of not knowing."
+  },
+  {
+   "time": "23:21",
+   "speaker": "Nola Simon",
+   "text": "And that's where I think the whole spoiler Easter egg debate becomes really interesting in terms of work. I'd love it if you subscribe to the podcast. I'm doing an experiment that possibly means that I appear on the Canadian charts. This really will help to amplify the podcast, but it's also about sovereignty in Canada. So I'm not particularly drawn by charts, but is it important, is it a civic duty to really maximize your search engine optimization, your SEO, so that you appear on charts?"
+  },
+  {
+   "time": "23:58",
+   "speaker": "Nola Simon",
+   "text": "And does that actually advance the possibilities for Canadian voices? Because if more and more of us appear on podcast charts around the world, does that help us become more competitive and less dependent on the United States and other entities in a way that really advances our sovereignty? And that is a civic duty. So this is my experiment. Again, low stakes. You just subscribe on whatever podcast player you use, and we see what happens. So thank you for listening. Appreciate it. Love to hear your questions too. You can email me at nola@nolasimon.com, or you could comment or rate the podcast or do a review on whatever player you use. Thanks."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "There is not one single future. There are multiple futures.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Strategic Foresight for Your Career: Planning When Planning Feels Impossible",
+   "url": "/podcast/strategic-foresight-for-your-career"
+  },
+  {
+   "title": "You Can See Everything: The Future In Plain Sight",
+   "url": "/podcast/you-can-see-everything"
+  }
+ ]
+}

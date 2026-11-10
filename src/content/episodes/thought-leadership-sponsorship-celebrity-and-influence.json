@@ -1,0 +1,269 @@
+{
+ "number": null,
+ "slug": "thought-leadership-sponsorship-celebrity-and-influence",
+ "title": "Thought Leadership: Sponsorship, Celebrity and Influence in Canada",
+ "show": "Hope + Possibilities",
+ "format": "Solo episode",
+ "host": {
+  "name": "Nola Simon",
+  "title": "Futurist & Founder, Everyday Futurism",
+  "credentials": "17 years in cross-border insurance operations · Creator of the Assumption-Ground Audit"
+ },
+ "guest": null,
+ "publishDate": "2026-10-08",
+ "publishDateHuman": "October 8, 2026",
+ "updatedDate": "2026-11-10",
+ "updatedDateHuman": "November 10, 2026",
+ "duration": "20 min",
+ "durationISO": "PT20M22S",
+ "listen": {
+  "apple": "https://podcasts.apple.com/ca/podcast/thought-leadership-sponsorship-celebrity-and/id1602822494?i=1000793951597",
+  "spotify": null,
+  "youtube": null
+ },
+ "abstract": "Nola is on record as self-funded: she doesn't accept sponsorship for the podcast, because she's wary of how money, power and influence shape views in ways she might not intend or understand at the time. She starts with an AI company's influencer trip to a farm that drew global pushback, mostly aimed at the individual creators, many of them women, rather than the company. She explains why she wouldn't take a deal with an AI company, particularly an American one, and how her sponsorship policy protects what she's free to investigate. From there she looks at thought leadership's ties to institutions and celebrity: Adam Grant's partnerships with celebrities, a community where only one person talks, and the eight years it took to get a reply. She asks what changes when celebrities, not trained journalists, do the interviewing, what it means that her transcripts train AI, why a Goodpods investigative journalism chart matters to her as a mirror, and why George Michael is a safe pop culture reference. What you consume is who you are, and that includes thought leadership.",
+ "takeaways": [
+  "Nola doesn't accept sponsorship for the podcast, so she isn't tied to what she's allowed to say, investigate or ask.",
+  "When a company-funded campaign goes wrong, the pushback often lands on the individual creators, and disproportionately on women, rather than on the company behind it.",
+  "Academics who become creators carry institutional power and influence along with their own name.",
+  "Celebrity partnerships trade audiences in both directions, and the money behind them is rarely disclosed.",
+  "A community where only one person talks is a broadcast. Thought leadership on social media opened the door to conversation, but not everyone walks through it.",
+  "When celebrities rather than trained journalists do the interviewing, the hard questions often don't get asked.",
+  "Thought leadership is about influencing the future: readers and listeners make decisions, set expectations and shape social norms from the ideas you put out.",
+  "What you consume is who you are, and that includes thought leadership."
+ ],
+ "keyQA": [
+  {
+   "timestamp": "0:23",
+   "question": "Why doesn't Nola accept sponsorship?",
+   "answer": "She has always been concerned about how money, power and influence support views and influence people in ways she might not intend or fully understand when it happens. She won't take a deal with an AI company, particularly an American one, because she doesn't know their relationships with the government. Her sponsorship policy keeps her free to choose what she says, investigates and asks."
+  },
+  {
+   "timestamp": "4:18",
+   "question": "What does she notice about academics as creators?",
+   "answer": "Academics publish under their own names but carry the power and influence of their institution. Using Adam Grant as an example, Nola looks at celebrity partnerships like his work with Jennifer Garner, where the money is never disclosed, and at a social media presence that broadcasts but rarely responds. She asks how courting popularity affects how research is conveyed."
+  },
+  {
+   "timestamp": "10:47",
+   "question": "How does AI change thought leadership for her?",
+   "answer": "Her transcripts get scraped and used to train AI, and she doesn't think she can control that. What she can control is putting out the best quality thinking she can, and hoping the people at the end of the line recognize the human thought behind it, attribute it appropriately, and that it introduces her to networks she wouldn't otherwise reach."
+  },
+  {
+   "timestamp": "13:15",
+   "question": "What changes when celebrities host podcasts?",
+   "answer": "Celebrities now dominate podcasts, and actors and other people who aren't trained interviewers are the ones asking authors and stars the questions. Nola asks how that advances ideas when the questions are softballs. It's part of why she was proud to find her show on a Goodpods investigative journalism chart: it suggests the questions she asks are being recognized at that level."
+  }
+ ],
+ "chapters": [
+  {
+   "time": "0:23",
+   "label": "Why I don't accept sponsorship"
+  },
+  {
+   "time": "1:15",
+   "label": "An influencer trip that went wrong"
+  },
+  {
+   "time": "3:25",
+   "label": "Sponsorship, academia and influence"
+  },
+  {
+   "time": "4:18",
+   "label": "Adam Grant and celebrity partnerships"
+  },
+  {
+   "time": "5:31",
+   "label": "Broadcasting versus responding"
+  },
+  {
+   "time": "7:34",
+   "label": "Readers, parasocial ties and fame"
+  },
+  {
+   "time": "9:14",
+   "label": "Designing in the dark"
+  },
+  {
+   "time": "10:47",
+   "label": "Training AI with transcripts"
+  },
+  {
+   "time": "12:31",
+   "label": "Thought leadership influences the future"
+  },
+  {
+   "time": "13:15",
+   "label": "Celebrities as interviewers"
+  },
+  {
+   "time": "14:07",
+   "label": "Charts as a mirror"
+  },
+  {
+   "time": "15:56",
+   "label": "Why George Michael is safe"
+  },
+  {
+   "time": "18:15",
+   "label": "What you consume is who you are"
+  }
+ ],
+ "transcript": [
+  {
+   "time": "0:23",
+   "speaker": "Nola Simon",
+   "text": "Hi, I'm Nola Simon, and I'm the host of the Hope and Possibilities podcast. And I'd like to revisit a topic I've mentioned before, which is about thought leadership. One of my guests actually launched her podcast about thought leadership in Keswick. So unexpectedly, Keswick is actually a hotbed when it comes to thought leadership in Canada. So I am on record as being self-funded. I don't accept sponsorship for the podcast, and quite honestly, it's always been because I'm concerned about how money, power, and influence are supporting views and influencing people in ways that I might not intend and might not fully understand at the time that it happens."
+  },
+  {
+   "time": "1:15",
+   "speaker": "Nola Simon",
+   "text": "So I'll give you an example of that from a wider perspective. Recently, OpenAI funded an influencer trip, and they invited all these really top influencers who had huge followings on TikTok and Instagram, and they hosted this at this farm, and the whole thing went down like a lead balloon because when all of these influencers started talking about AI, there was massive pushback on how AI impacts the environment, the irony of hosting it at a farm, talking about the honey and the bees that are at the farm and really not talking about the environmental impact possibility or likelihood related to AI and data centers."
+  },
+  {
+   "time": "2:02",
+   "speaker": "Nola Simon",
+   "text": "And there was a massive amount of global pushback, mostly against the individual creators, which really the source of the issue is actually the company, not the individual creators. But individual creators are an easier target. And one woman in particular, actually, I didn't necessarily agree how she handled it, but she did have a really good point, which was the majority of people who got the pushback were women, especially her. And it's fascinating to watch the language around how the money, the power, and the influence surrounds AI and how that changes perceptions."
+  },
+  {
+   "time": "2:50",
+   "speaker": "Nola Simon",
+   "text": "And so personally, I would never accept any kind of deal with any kind of AI, but particularly American AI companies because I don't exactly know what their relationships are with the government, and the administration hasn't necessarily demonstrated that the way it's behaving is in the best interest of Canada. So for me, I have concerns about accepting any kind of sponsorship that's related to American companies or technologies that I don't fully yet understand the long-term impact of."
+  },
+  {
+   "time": "3:25",
+   "speaker": "Nola Simon",
+   "text": "My policy on sponsorship really directly influences my thought leadership because I don't want to be restricted and tied to what I'm allowed to say, what I'm allowed to investigate, what questions I'm allowed to ask, and that really brings us back to academia, right? Academics, when they write, they are associated with a university, and so there is a hierarchy and a political influence that exists. Yes, you're writing books, you're publishing it under your own name, but if you are working for an institution and that institution is associated with your name, there is power and influence that goes along with that."
+  },
+  {
+   "time": "4:18",
+   "speaker": "Nola Simon",
+   "text": "And so I find it very interesting the way that academics are actually navigating their institutional ties and also the creator aspects of it. An example that I was talking to somebody about today is Adam Grant. He works for Wharton, but in his most recent book, it's called Vibe. It's coming out sometime soon. But he did this with his last book where he hired or made a deal with celebrities like Jennifer Garner to really come and talk to him, and they would publish it as a podcast."
+  },
+  {
+   "time": "4:55",
+   "speaker": "Nola Simon",
+   "text": "But she also attended events and helped him sell that book. I don't know if she was paid. You would assume that she would be. There's a cost to her fees because she is a working mom, and she deserves to be paid just as much as Adam Grant gets to be paid for his book and the academic work that he does for his university. But that's never disclosed. That's never disclosed. So the interesting thing about Adam is on social media, he publishes a lot, but very rarely ever responds."
+  },
+  {
+   "time": "5:31",
+   "speaker": "Nola Simon",
+   "text": "So I think I've been following his work for about eight years now, and a lot of it I like. Honestly I've learned a lot from watching how he operates, and I'll give him his credits there. But what I've noticed over the years is he broadcasts, he doesn't respond. And so it's interesting that he started a community with Threads and Instagram, I think. But as I said to somebody, how do you have a community? How do you call it a community if you're the only one talking? And presumably members can talk to each other, but it's not like he's facilitating conversation where he's individually hearing people."
+  },
+  {
+   "time": "6:12",
+   "speaker": "Nola Simon",
+   "text": "And I can tell you for a fact I've tried for eight years to have conversations with him. I've tried to really reach out and ask him to reconsider things because there were particular topics that I thought his short style really lost the nuance on. And I tried to email him. I tried to DM him on social media and I couldn't get anywhere in terms of having that discussion with him. So it was interesting this week because in the summer I had commented on one of his posts about whether his book tour was actually gonna come to Canada, and this week I commented and I said, \"He still hasn't responded. I guess he just doesn't vibe with Canada.\" And he actually responded and said he loves Canada, but couldn't fit it in this tour, hopes to come next year."
+  },
+  {
+   "time": "7:01",
+   "speaker": "Nola Simon",
+   "text": "So we thanked him. But it shouldn't take eight years to have some kind of productive conversation with somebody who actually values what other people think. So when it comes to thought leadership, my personal view is, obviously there's a parasocial aspect of what it's like to actually operate on social media, but also to publish a book. You publish a book, you don't know who's reading that. They get it from the library. You have no insight into who that person is."
+  },
+  {
+   "time": "7:34",
+   "speaker": "Nola Simon",
+   "text": "So you're writing it with the idea of a reader in mind, but you don't actually know who that is. That reader knows a lot more about you than you ever know about them, and so that's been the deal from the beginning. Where social media changed it is people were able to speak up and comment and have conversations in ways that previously academics didn't open themselves up to. And it's almost a version of fame that is happening right now, because he's courting celebrity and movie stars, and he's had a whole bunch of famous people on his podcast. How does that change the audience?"
+  },
+  {
+   "time": "8:27",
+   "speaker": "Nola Simon",
+   "text": "How does that change your perception of his academic reputation? And does that impact the quality of his research and how that's conveyed? Because he's courting popularity, so what is he sacrificing in the name of acceptance? And essentially what he's doing is he's trying to leverage the audience of the celebrity, and the celebrity is trying to leverage his audience to broaden their network as well too."
+  },
+  {
+   "time": "9:14",
+   "speaker": "Nola Simon",
+   "text": "So again, everybody's getting a trade-off in terms of money, in terms of influence, in terms of power, and that comes at a price and a cost with visibility and that parasocial relationship with an audience, right? When it comes to me personally as a podcaster, I actually don't know who listens to the podcast. Most of the time when I've received a review on my podcast, it's somebody who's been a guest on my podcast, somebody who I know, who I used to work with, who I've had ongoing conversations with online."
+  },
+  {
+   "time": "9:51",
+   "speaker": "Nola Simon",
+   "text": "I very rarely have received any kind of feedback from a general listener. It's like pulling teeth to get input from somebody who's listened to the podcast. And that's okay. It's just you have to decide how that proceeds, right? Do you stop asking for reviews? I always wanna get questions because I don't know what people are thinking, if my thinking is resonating, what lands, what doesn't land. It's like designing in the dark and talking to a void because you don't have that interaction. This is where I'm really curious about how thought leadership is actually going to develop in the age of AI because when I publish a podcast, I'm publishing the audio, but I'm also publishing transcripts."
+  },
+  {
+   "time": "10:47",
+   "speaker": "Nola Simon",
+   "text": "The transcripts then get scraped by AI, which means that this is feeding and training AI. Now, am I gonna stop because I don't wanna train AI? Maybe one time. I don't know how it's really gonna shake out. How do you control that? I don't know that you can control that. So the only thing that you can do is really put out the best quality thought that you can and hope that the people who are actually interacting with it at the end of the line, the actual people, not the bots that are interpreting it, recognize the quality human thought behind it and attribute that appropriately, and it helps eventually build relationships and introduce me to networks I wouldn't necessarily have access to otherwise."
+  },
+  {
+   "time": "11:48",
+   "speaker": "Nola Simon",
+   "text": "That's the best case scenario I can think of. I can think of probably all kinds of other negatives, but I don't wanna spend a lot of time on the negatives because I can't control that. The only thing I can control is what I can influence myself and the actions that I take personally, and that really comes down to the day-to-day of what I give my attention to, what I allow to influence me, and then how I synthesize that and how I make my thoughts public, whether that's writing, whether that's doing the podcast, whether that's bringing it into a consulting engagement with a client who wants to understand how will this influence the future."
+  },
+  {
+   "time": "12:31",
+   "speaker": "Nola Simon",
+   "text": "And this is where thought leadership is about influencing the future. You're building out a body of work, of course, and that does actually build legacy. But what you're really trying to do is influence the future, because whoever listens to you, whoever reads you, they can take that idea that you've expressed and then make decisions from that, and it builds out how either they're going to behave, how they expect the employees in their company to behave and how that then in turn allows them to function as a business, and what social norms that influences."
+  },
+  {
+   "time": "13:15",
+   "speaker": "Nola Simon",
+   "text": "All of this is in the name of the future. And this is really what the changes that I'm seeing in thought leadership are, and they're really interesting. That celebrity aspect and bringing in celebrities, so celebrities are now dominating podcasts, and you don't actually have journalists interviewing stars about their movies, authors about their books. You have celebrities, so actors and actresses and people who aren't trained professional interviewers asking the questions. How does that really advance the ideas and the concepts and the themes when the person interviewing is softball?"
+  },
+  {
+   "time": "14:07",
+   "speaker": "Nola Simon",
+   "text": "They're not asking really hard questions like a trained professional journalist would. So I was actually proud this week. I didn't even know this chart existed, but there's a Goodpods chart for investigative journalism, and I apparently rank on that chart. Again, charts aren't the point. The point is the questions that I ask are at the level being recognized as investigative journalism. That's important to me. Now, do I think this chart influences much?"
+  },
+  {
+   "time": "14:40",
+   "speaker": "Nola Simon",
+   "text": "No. But the fact that even the algorithm, because it is likely an algorithm that's picking that up, is associating me with investigative journalism, and there was another chart that actually put me on the writing chart, that's interesting to me because that's a mirror of how I'm showing up and being perceived. So I'm always on leadership charts. I'm always on careers charts. I'm always on management charts. And again, the individual charts don't really matter, but it's more about where does my work fit, especially as a futurist."
+  },
+  {
+   "time": "15:18",
+   "speaker": "Nola Simon",
+   "text": "Futurism is, like, all aspects of work and life, so what box do you put that in? It's a really challenging one to answer because you're not a set industry. You're not a set preconceived box. You could be anywhere, right? And so that's where charts are actually useful to me because it lets me know how the work is actually being perceived and interpreted, even at an algorithmic level, right? And that, again, is important for knowing the influence that it possibly has, right?"
+  },
+  {
+   "time": "15:56",
+   "speaker": "Nola Simon",
+   "text": "And again, it comes down to who likely is listening and how they're using the information presented, and what changes with that, right? As a side, I'm a big fan of George Michael. Now, I love George Michael. He is unfortunately dead. He's been dead for 10 years. One of the useful facts about that unfortunate fact is that I know his story. I know what his values were."
+  },
+  {
+   "time": "16:28",
+   "speaker": "Nola Simon",
+   "text": "I know what he stood for. It's not a moving target. It's not like he wakes up one day and changes his mind about what his politics are. That's done because unfortunately he's deceased, and I miss him intensely, but I know who he was, and that's not going to change. He's not going to need to evolve because his arc is done. Now, I don't know everything obviously about George Michael's life."
+  },
+  {
+   "time": "17:04",
+   "speaker": "Nola Simon",
+   "text": "He had a whole section of private life that isn't necessarily public. But what is public, I am comfortable with what he stood for, and that's why I don't actually introduce other pop culture icons, because George Michael is safe to me. I know what he stands for. So that's a version of thought leadership. I find this thing with Jennifer Garner that Adam Grant has very interesting as well too."
+  },
+  {
+   "time": "17:37",
+   "speaker": "Nola Simon",
+   "text": "It's like a fan girl experience that they're sharing with the world. She's a fan of him, he's a fan of hers. But it's an ongoing evolving relationship, and how does that change as politics change, as values change? Is it going to be a constant deepening relationship? Which possibly it totally can be, and it could become its own viable thing, and that's a beautiful thing. It's the type of thing that makes me anxious because you're tying your personal brands into something you don't fully understand. But I see Adam also doing that with Brené Brown as well too."
+  },
+  {
+   "time": "18:15",
+   "speaker": "Nola Simon",
+   "text": "Now, all of these people are American. I don't see this sort of thing happening on Canadian podcasts. Is it a culture divide? These are all questions that I have, and this is what I'm on an ongoing journey to look at and understand. And how does that tie into the world of work and how we work and how we live? All of it is based in values, in trust, and identity, in who we all really are and who we allow to influence how we make decisions, how our judgment is reflected, and really what we stand for."
+  },
+  {
+   "time": "19:02",
+   "speaker": "Nola Simon",
+   "text": "What you consume is who you are, right? And that includes thought leadership. Anyways, I am always interested in your thoughts. I'll never stop asking. I might fall off my chair in shock if anybody actually responds. But I always will try to encourage it. And I am experimenting with how this impacts on charts. So if there is one action, if you don't feel comfortable doing a review or sending a question or anything like that, just subscribe. Whatever player you are on, just subscribe, 'cause apparently that can drive charts as well. And if you share it, if you save it, if you download it, also subscribe. All of that would be appreciated. Thank you so much. Hope it's helpful."
+  }
+ ],
+ "hostNote": null,
+ "ctaQuote": {
+  "text": "What you consume is who you are, right? And that includes thought leadership.",
+  "source": "Nola Simon, in this episode"
+ },
+ "resources": null,
+ "relatedEpisodes": null,
+ "relatedLinks": [
+  {
+   "title": "Who We Trust and How We Receive Advice: A Leadership Living Lab",
+   "url": "/podcast/who-we-trust-and-how-we-receive-advice"
+  },
+  {
+   "title": "Trust, Foresight, and Canadian Leadership",
+   "url": "/podcast/trust-foresight-and-canadian-leadership"
+  },
+  {
+   "title": "You Can See Everything: The Future In Plain Sight",
+   "url": "/podcast/you-can-see-everything"
+  }
+ ]
+}
