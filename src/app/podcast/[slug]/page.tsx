@@ -38,8 +38,14 @@ export async function generateMetadata({
       type: "article",
       publishedTime: ep.publishDate,
       modifiedTime: ep.updatedDate,
+      images: ["/opengraph-image"],
     },
-    twitter: { card: "summary_large_image", title: ep.title, description: ep.abstract },
+    twitter: {
+      card: "summary_large_image",
+      title: ep.title,
+      description: ep.abstract,
+      images: ["/opengraph-image"],
+    },
   };
 }
 
