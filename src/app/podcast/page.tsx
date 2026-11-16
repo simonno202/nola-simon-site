@@ -150,7 +150,7 @@ export default function PodcastPage() {
             className="mt-4 font-sans font-semibold text-navy"
             style={{ fontSize: "clamp(20px, 4vw, 28px)" }}
           >
-            Current investigation: AI
+            AI: Now exploring
           </h2>
 
           <div className="mt-4 space-y-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
@@ -191,6 +191,52 @@ export default function PodcastPage() {
             <span className="font-mono text-[12px] tracking-[0.05em] text-text-muted">
               Find the rabbit hole above for the five-year arc
             </span>
+          </div>
+
+          {/* Made in Canada Living Lab — playlist button inactive until the Spotify playlist exists */}
+          <div className="mt-12 pt-10 border-t border-border-medium">
+            <h2
+              className="font-sans font-semibold text-navy"
+              style={{ fontSize: "clamp(20px, 4vw, 28px)" }}
+            >
+              Made in Canada: Now exploring
+            </h2>
+
+            <div className="mt-4 space-y-4 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
+              <p>
+                I went back through the archive and realized my back catalogue
+                was also telling the story of entrepreneurship in Canada, as
+                people actually live it. Twenty-six Canadian guests.
+                Twenty-four of them built their own work.
+              </p>
+              <p>
+                That thread runs from Ingrid Deon building an award-winning
+                agency in Yarmouth, Nova Scotia, to Amanda Lewis tracking giant
+                trees in British Columbia, to Amanda Cupido naming what&rsquo;s
+                missing in Canadian podcasting. Ten of those guests wrote the
+                books we talked about. Some built here. Some took their work
+                across the border.
+              </p>
+              <p>
+                The choices we made in the past might not be the choices that
+                fuel sovereignty. Nobody chose wrong. The platforms we build
+                on, how we scale, whether our expertise travels, where our
+                ideas live, where we build: each choice made sense with what we
+                knew then.
+              </p>
+              <p>
+                Same archive. A second thread. This is the Assumption-Ground
+                Audit applied to building work in Canada, asking which of those
+                choices still hold, what they tell us about where work is
+                going, and whose experience isn&rsquo;t in the archive yet.
+              </p>
+            </div>
+
+            <div className="mt-8">
+              <span className="inline-block font-mono text-[13px] tracking-[0.05em] text-white bg-navy px-5 py-2.5 rounded-[--radius-button] opacity-60">
+                Listen to the Made in Canada playlist &rarr;
+              </span>
+            </div>
           </div>
 
           <div className="mt-8 pt-6 border-t border-border-medium">
