@@ -179,7 +179,7 @@ const faqs = [
   },
   {
     q: "Who developed Everyday Futurism?",
-    a: "Everyday Futurism was developed by Nola Simon — strategic futurist, advisor, and host of Hope + Possibilities: A Love Letter to the Future of Work. She spent 20+ years across five complex organizations before building the methodology from the record of her own examined assumptions — including a 2012 workplace flexibility pilot that wouldn't become mainstream for another decade.",
+    a: "Everyday Futurism was developed by Nola Simon — strategic futurist, advisor, and host of Hope + Possibilities. She spent 20+ years across five complex organizations before building the methodology from the record of her own examined assumptions — including a 2012 workplace flexibility pilot that wouldn't become mainstream for another decade.",
   },
 ];
 

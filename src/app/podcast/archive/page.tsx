@@ -20,7 +20,7 @@ function seriesJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "PodcastSeries",
-    name: "Hope + Possibilities: A Love Letter to the Future of Work",
+    name: "Hope + Possibilities | Trust + Foresight for Leaders",
     url: `${SITE}/podcast`,
     author: { "@type": "Person", name: "Nola Simon" },
   };

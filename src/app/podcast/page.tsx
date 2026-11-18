@@ -38,7 +38,7 @@ export default function PodcastPage() {
           </h1>
 
           <p className="mt-2 text-lg font-mono text-text-muted">
-            A Love Letter to the Future of Work
+            Trust + Foresight for Leaders
           </p>
 
           <div className="mt-6 space-y-5 text-[15px] leading-relaxed text-text-secondary max-w-2xl">
@@ -128,13 +128,13 @@ export default function PodcastPage() {
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-block"
-            title="Hope + Possibilities: A Love Letter to the Future of Work | Listen Notes"
+            title="Hope + Possibilities | Trust + Foresight for Leaders | Listen Notes"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               loading="lazy"
               src="https://cdn-images-2.listennotes.com/images/podcasts/nHWeA2OGmD-/badge/"
-              alt="Hope + Possibilities: A Love Letter to the Future of Work | Listen Notes"
+              alt="Hope + Possibilities | Trust + Foresight for Leaders | Listen Notes"
               style={{ height: "120px", maxWidth: "100%" }}
             />
           </a>

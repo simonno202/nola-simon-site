@@ -33,7 +33,7 @@ export const WORK_ITEMS: WorkItem[] = [
     title: "Hope + Possibilities Podcast",
     format: "Audio",
     description:
-      "A Love Letter to the Future of Work. Solo episodes on trust, signal reading, and Everyday Futurism.",
+      "Trust + Foresight for Leaders. Solo episodes on trust, signal reading, and Everyday Futurism.",
     url: "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
     source: "Spotify",
   },

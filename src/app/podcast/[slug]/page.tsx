@@ -66,7 +66,7 @@ function buildJsonLd(ep: Episode) {
     description: ep.abstract,
     partOfSeries: {
       "@type": "PodcastSeries",
-      name: "Hope + Possibilities: A Love Letter to the Future of Work",
+      name: "Hope + Possibilities | Trust + Foresight for Leaders",
       url: `${SITE}/podcast`,
     },
     author: { "@type": "Person", name: ep.host.name, jobTitle: ep.host.title },

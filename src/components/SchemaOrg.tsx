@@ -118,7 +118,7 @@ export function PodcastSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "PodcastSeries",
-    name: "Hope + Possibilities: A Love Letter to the Future of Work",
+    name: "Hope + Possibilities | Trust + Foresight for Leaders",
     description:
       "Conversations about the future of work with leaders, thinkers, and practitioners building what's next with honesty, self-trust, and a willingness to challenge the status quo.",
     url: "https://nolasimon.com/podcast",
