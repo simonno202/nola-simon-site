@@ -211,8 +211,9 @@ export default function PodcastPage() {
               </p>
               <p>
                 That thread runs from Ingrid Deon building an award-winning
-                agency in Yarmouth, Nova Scotia, to Amanda Lewis tracking giant
-                trees in British Columbia, to Amanda Cupido naming what&rsquo;s
+                agency in Yarmouth, Nova Scotia, to Amanda Lewis editing
+                award-winning books from a tiny island off the coast of British
+                Columbia, to Amanda Cupido naming what&rsquo;s
                 missing in Canadian podcasting. Ten of those guests wrote the
                 books we talked about. Some built here. Some took their work
                 across the border.
