@@ -231,6 +231,26 @@ export default function PodcastPage() {
                 choices still hold, what they tell us about where work is
                 going, and whose experience isn&rsquo;t in the archive yet.
               </p>
+              <p>
+                I&rsquo;m re-releasing these conversations as a series.
+                Listening back, my guests named things most people saw later:
+                AI making confident mistakes about real people, hiring
+                algorithms no one was auditing, return-to-office mandates built
+                on distrust, monitoring that keeps people glued to their
+                screens, and commitments that disappeared with the first round
+                of layoffs.
+              </p>
+              <p>
+                The thread running through all of it is trust: who we trust
+                with our work, our data and our story, and how much we trust
+                ourselves. Every Canadian guest in this archive bet on
+                themselves, whether that meant starting a business, moving
+                home, building from a small town, or rethinking what
+                independent work could look like in Canada. As the geopolitical
+                ground under Canadian work shifts, adapting means questioning
+                old assumptions, knowing what we can rely on, and trusting
+                ourselves enough to build from where we are.
+              </p>
             </div>
 
             <div className="mt-8">
