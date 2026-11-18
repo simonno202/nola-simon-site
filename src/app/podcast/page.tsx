@@ -193,7 +193,7 @@ export default function PodcastPage() {
             </span>
           </div>
 
-          {/* Made in Canada Living Lab — playlist button inactive until the Spotify playlist exists */}
+          {/* Made in Canada Living Lab */}
           <div className="mt-12 pt-10 border-t border-border-medium">
             <h2
               className="font-sans font-semibold text-navy"
@@ -234,9 +234,14 @@ export default function PodcastPage() {
             </div>
 
             <div className="mt-8">
-              <span className="inline-block font-mono text-[13px] tracking-[0.05em] text-white bg-navy px-5 py-2.5 rounded-[--radius-button] opacity-60">
-                Listen to the Made in Canada playlist &rarr;
-              </span>
+              <a
+                href="https://open.spotify.com/playlist/1gVGCKspREft4Dk4Hl2AAc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block font-mono text-[13px] tracking-[0.05em] text-white bg-navy px-5 py-2.5 rounded-[--radius-button] hover:bg-navy/90 transition-colors"
+              >
+                Listen to the Made in Canada playlist on Spotify &rarr;
+              </a>
             </div>
           </div>
 
