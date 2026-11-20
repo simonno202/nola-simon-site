@@ -263,6 +263,26 @@ export default function PodcastPage() {
                 Listen to the Made in Canada playlist on Spotify &rarr;
               </a>
             </div>
+
+            <div className="mt-8 max-w-2xl border-l-4 border-[#EC4197] pl-5">
+              <p className="font-mono text-[12px] tracking-[0.08em] uppercase text-[#EC4197]">
+                Everyday futurism practice
+              </p>
+              <p className="mt-2 text-[15px] leading-relaxed text-text-secondary">
+                Want to go deeper? The listening guide is a fillable PDF for
+                practising discernment as you listen: what feels like history,
+                what still feels current, what&rsquo;s worth carrying forward,
+                and the best question each episode asks or makes you ask.
+              </p>
+              <a
+                href="/made-in-canada-listening-guide.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block font-mono text-[13px] tracking-[0.05em] text-white bg-[#EC4197] px-5 py-2.5 rounded-[--radius-button] hover:opacity-90 transition-opacity"
+              >
+                Download the listening guide (PDF) &rarr;
+              </a>
+            </div>
           </div>
 
           <div className="mt-8 pt-6 border-t border-border-medium">
