@@ -12,6 +12,7 @@ import { WitnessedTrustSeriesNav } from "@/components/essay/WitnessedTrustSeries
 import { PinterestPin } from "@/components/ui/PinterestPin";
 import { ArticleSchema, FAQSchema, DefinedTermSchema, PediculosisFAQ, StabilityFAQ, TransparencyFAQ } from "@/components/SchemaOrg";
 import { PinterestImagePicker } from "@/components/ui/PinterestImagePicker";
+import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 
 const mdxComponents = {
   ConvergencesFramework,
@@ -24,6 +25,7 @@ const mdxComponents = {
   PediculosisFAQ,
   StabilityFAQ,
   TransparencyFAQ,
+  Breadcrumbs,
 };
 
 export async function generateStaticParams() {

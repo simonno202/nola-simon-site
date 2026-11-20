@@ -369,6 +369,41 @@ export default function WritingPage() {
         </div>
       </SectionWrapper>
 
+      {/* ── Nola Simon Leadership: Made in Canada ── */}
+      <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
+        <Eyebrow>NOLA SIMON LEADERSHIP — EVERYDAY FUTURISM PRACTICES</Eyebrow>
+        <p className="mt-3 max-w-2xl text-[14px] leading-relaxed text-text-secondary">
+          Using podcasts to build the skills of the future. The{" "}
+          <Link href="/leadership" className="text-pink hover:text-pink-hover">
+            Nola Simon Leadership
+          </Link>{" "}
+          hub collects the practices.
+        </p>
+        <div className="mt-6 max-w-3xl">
+          <Card>
+            <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+              Made in Canada &middot; Part 1
+            </p>
+            <h2 className="mt-2 text-[20px] font-semibold text-navy leading-snug">
+              Building a Business in Canada | Lessons From Entrepreneurs
+            </h2>
+            <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+              Two dozen Canadian guests telling the story of building work
+              independently in this country, and how listening back becomes a
+              practice for making sense of change.
+            </p>
+            <div className="mt-5">
+              <Link
+                href="/blog/made-in-canada-building-a-business-in-canada"
+                className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+              >
+                Read the essay &rarr;
+              </Link>
+            </div>
+          </Card>
+        </div>
+      </SectionWrapper>
+
       {/* ── Discernment as Leadership ── */}
       <SectionWrapper className="bg-cream py-6 pb-10 lg:pb-14">
         <Eyebrow>DISCERNMENT AS LEADERSHIP</Eyebrow>
