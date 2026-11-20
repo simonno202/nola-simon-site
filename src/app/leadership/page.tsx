@@ -45,7 +45,7 @@ const PODCAST_PRACTICE = [
   {
     kicker: "Essay · Made in Canada, Part 1",
     title: "Building a Business in Canada | Lessons From Entrepreneurs",
-    body: "Two dozen Canadian guests, recorded between 2021 and 2025, telling the story of building work independently in this country. Listening back is a way to practise the skills the future of work asks for.",
+    body: "Two dozen Canadian guests, recorded between 2021 and 2025, telling the story of building work independently in this country. Listening back is a way to practise the skills the future of work demands.",
     href: "/blog/made-in-canada-building-a-business-in-canada",
     cta: "Read the essay",
     external: false,
@@ -101,7 +101,7 @@ export default function LeadershipPage() {
           Nola Simon Leadership
         </h1>
         <p className="mt-5 max-w-2xl text-[17px] leading-relaxed text-text-secondary">
-          Leadership is how we make sense of change while it&rsquo;s still
+          Leadership is making sense of change while it&rsquo;s still
           happening. These are the everyday futurism practices I use to do
           that: noticing which assumptions still hold, reading the trust
           signals around us, and trusting ourselves enough to act.
@@ -119,7 +119,7 @@ export default function LeadershipPage() {
           </Link>{" "}
           is the practice of paying attention to what&rsquo;s already in front
           of you, before anyone has officially named it. Each practice here
-          builds one of the skills the future of work is asking for.
+          builds one of the skills the future of work demands.
         </p>
       </SectionWrapper>
 
