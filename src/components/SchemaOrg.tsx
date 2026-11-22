@@ -43,7 +43,7 @@ export function PersonSchema() {
       "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7",
       "https://podcasts.apple.com/us/podcast/id1602822494",
       "https://goodpods.com/podcasts/hope-possibilities-trust-leadership-strategic-foresight-198061",
-      "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work",
+      "https://www.podpage.com/hope-possibilities-trust-foresight-for-leaders",
     ],
     subjectOf: MEDIA_FEATURES.filter(
       (item) => item.type === "article"

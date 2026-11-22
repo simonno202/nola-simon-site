@@ -13,7 +13,7 @@ export interface Episode {
 }
 
 export const PODCAST_BASE_URL =
-  "https://www.podpage.com/hope-possibilities-a-love-letter-to-the-future-of-work";
+  "https://www.podpage.com/hope-possibilities-trust-foresight-for-leaders";
 
 export const APPLE_PODCASTS_URL =
   "https://podcasts.apple.com/us/podcast/id1602822494?mt=2&ls=1";
@@ -21,6 +21,8 @@ export const SPOTIFY_URL =
   "https://open.spotify.com/show/60q8ajURZVn2nS9f4meeq7";
 
 export const EPISODES: Episode[] = [
+  {"id":135,"title":"Made In Canada | Made in Canada: Building a Business in Canada | Lessons From Entrepreneurs","date":"2026-11-19","guest":null,"type":"solo","season":14,"topics":["Future of Work"],"slug":"made-in-canada-made-in-canada-building-a-business-in-canada-lessons-from-entrepreneurs","desc":"When I looked back through my podcast archive, I realized I had about two dozen conversations with Canadian guests, most of them entrepreneurs. Listened to together, they tell the story of what it's actually like to build work independently in this country. That story matters right now. As Canada lo"},
+  {"id":134,"title":"Making Better Decisions: Every Decision is a Hypothesis To Be Tested in the Future","date":"2026-11-12","guest":null,"type":"solo","season":13,"topics":["Future of Work"],"slug":"making-better-decisions-every-decision-is-a-hypothesis-to-be-tested-in-the-future","desc":"Making Better Decisions: Every Decision Is a Hypothesis to Be Tested in the Future Every decision you make is a hypothesis about the future. Many decisions are small: umbrella or hat, one poop bag on the dog walk or the whole roll? At work the timeframe stretches to six months, a year, or a project "},
   {"id":132,"title":"You Can See Everything: The Future In Plain Sight","date":"2026-11-02","guest":null,"type":"solo","season":13,"topics":["Future of Work"],"slug":"you-can-see-everything-the-future-in-plain-sight","transcriptSlug":"you-can-see-everything","desc":"Show Notes: Finding the Through Line in Your Career, Leadership, and Future In this episode of Hope and Possibilities, I explore something I've been noticing among respected authors, thought leaders, and experts: they're pivoting. Not by abandoning their past, but by reinterpreting it. The inspirati"},
   {"id":133,"title":"Discernment: The Skill We'll Need Most in 2036","date":"2026-10-29","guest":null,"type":"solo","season":14,"topics":["Future of Work"],"slug":"discernment-the-skill-well-need-most-in-2036","transcriptSlug":"discernment-the-skill-well-need-most-in-2036","desc":"The short version The Institute for the Future, where I did my futures thinking training, has released its Ten-Year Forecast for 2036. One of the ten forecasts says discernment will be the most essential human skill by then, replacing empathy as the soft skill we most want to teach in schools, train"},
   {"id":130,"title":"Why Do We Hate Spoilers and Love Easter Eggs?","date":"2026-10-26","guest":null,"type":"solo","season":14,"topics":["Future of Work"],"slug":"why-do-we-hate-spoilers-and-love-easter-eggs","transcriptSlug":"why-do-we-hate-spoilers-and-love-easter-eggs","desc":"Spoilers, Easter Eggs and How We Pay Attention to the Future In this solo episode, I follow a question I couldn't let go of: why do so many people hate spoilers but love Easter eggs? And what might that tell us about how we react to signals, trends and possible futures?  This podcast is where I foll"},
