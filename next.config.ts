@@ -36,19 +36,19 @@ const nextConfig: NextConfig = {
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.nolasimon.com" }],
-        destination: "https://www.everydayfuturism.com/:path*",
+        destination: "https://nolasimon.com/:path*",
         permanent: true,
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "www.nolasimon.ca" }],
-        destination: "https://www.everydayfuturism.com/:path*",
+        destination: "https://nolasimon.com/:path*",
         permanent: true,
       },
       {
         source: "/:path*",
         has: [{ type: "host", value: "nolasimon.ca" }],
-        destination: "https://www.everydayfuturism.com/:path*",
+        destination: "https://nolasimon.com/:path*",
         permanent: true,
       },
       {
