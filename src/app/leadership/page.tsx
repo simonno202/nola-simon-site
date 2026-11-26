@@ -6,7 +6,7 @@ import { Card } from "@/components/ui/Card";
 
 const URL = "https://nolasimon.com/leadership";
 const DESCRIPTION =
-  "Nola Simon Leadership: everyday futurism practices for leaders who want to make sense of change. Start with Made in Canada, using podcasts to build the skills of the future.";
+  "Nola Simon Leadership: everyday futurism practices and tools for leaders who want to make sense of change. The Made in Canada listening guide, the Witnessed Trust Quiz, the Signal Tracker and the Anchor Inventory.";
 
 export const metadata: Metadata = {
   title: "Nola Simon Leadership: Everyday Futurism Practices",
@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     "canadian thought leadership",
     "trust signals",
     "self-trust",
+    "trust quiz",
+    "listening guide",
   ],
   alternates: { canonical: URL },
   openGraph: {
@@ -65,6 +67,38 @@ const PODCAST_PRACTICE = [
     href: "https://open.spotify.com/playlist/1gVGCKspREft4Dk4Hl2AAc",
     cta: "Open the playlist",
     external: true,
+  },
+  {
+    kicker: "Read",
+    title: "Episode transcripts",
+    body: "Full transcripts of Made in Canada conversations and other episodes, so you can read at your own pace and come back to the passages that matter.",
+    href: "/podcast/archive",
+    cta: "Browse the transcripts",
+    external: false,
+  },
+];
+
+const TOOLS = [
+  {
+    kicker: "Trust",
+    title: "The Witnessed Trust Quiz",
+    body: "Trust is witnessed, and it shifts based on what people see: in the room, online, and through AI systems forming assessments about you. This quiz works with what you can actually observe.",
+    href: "/trust-signal-quiz",
+    cta: "Take the quiz",
+  },
+  {
+    kicker: "Signal",
+    title: "The Signal Tracker",
+    body: "A working instrument for logging trust signals over time, finding the pattern, and knowing what to do with what you see.",
+    href: "/signal-tracker",
+    cta: "Open the tracker",
+  },
+  {
+    kicker: "Stability",
+    title: "The Anchor Inventory",
+    body: "Before you decide what moves, know what's holding. Ten questions that give you a clearer picture of what's load-bearing before you commit to a direction.",
+    href: "/anchor-inventory",
+    cta: "Take the inventory",
   },
 ];
 
@@ -123,7 +157,7 @@ export default function LeadershipPage() {
         </p>
       </SectionWrapper>
 
-      <SectionWrapper id="using-podcasts" className="bg-cream py-6 pb-16 lg:pb-24">
+      <SectionWrapper id="using-podcasts" className="bg-cream py-6">
         <div className="max-w-3xl border-l-4 border-[#EC4197] pl-5">
           <p className="font-mono text-[12px] tracking-[0.08em] uppercase text-[#EC4197]">
             Practice 1
@@ -180,6 +214,50 @@ export default function LeadershipPage() {
           Find the Made in Canada series on the{" "}
           <Link href="/podcast" className="text-pink hover:text-pink-hover">
             podcast page
+          </Link>
+          .
+        </p>
+      </SectionWrapper>
+
+      <SectionWrapper id="tools" className="bg-cream py-6 pb-16 lg:pb-24">
+        <Eyebrow>TOOLS</Eyebrow>
+        <h2 className="mt-3 text-[26px] font-semibold text-navy leading-snug">
+          Tools for Making Sense of Change
+        </h2>
+        <p className="mt-3 max-w-2xl text-[15px] leading-relaxed text-text-secondary">
+          Tools I&rsquo;ve built to put these practices to work: reading the
+          trust signals around you and knowing what&rsquo;s holding before you
+          decide what moves.
+        </p>
+
+        <div className="mt-8 grid max-w-3xl gap-5">
+          {TOOLS.map((tool) => (
+            <Card key={tool.title}>
+              <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-text-muted">
+                {tool.kicker}
+              </p>
+              <h3 className="mt-2 text-[19px] font-semibold text-navy leading-snug">
+                {tool.title}
+              </h3>
+              <p className="mt-3 text-[14px] leading-relaxed text-text-secondary">
+                {tool.body}
+              </p>
+              <div className="mt-5">
+                <Link
+                  href={tool.href}
+                  className="font-mono text-[12px] tracking-[0.05em] text-pink hover:text-pink-hover transition-colors"
+                >
+                  {tool.cta} &rarr;
+                </Link>
+              </div>
+            </Card>
+          ))}
+        </div>
+
+        <p className="mt-8 max-w-3xl text-[14px] leading-relaxed text-text-secondary">
+          See all of them on the{" "}
+          <Link href="/tools" className="text-pink hover:text-pink-hover">
+            tools page
           </Link>
           .
         </p>
